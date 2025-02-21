@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, render_template, send_file
+from flask_cors import CORS
 import subprocess
 import os, re
 import uuid
@@ -6,6 +7,14 @@ import threading
 from datetime import datetime
 
 app = Flask(__name__)
+# 配置 CORS
+CORS(app, resources={
+    r"/api/*": {  # 只对 /api 路由启用 CORS
+        "origins": ["http://localhost:3000", "https://pptmagic.tech"],  # 允许的域名列表
+        "methods": ["GET", "POST", "OPTIONS"],  # 允许的 HTTP 方法
+        "allow_headers": ["Content-Type", "Authorization"]  # 允许的请求头
+    }
+})
 
 # 存储翻译任务状态
 translation_tasks = {}
@@ -20,14 +29,108 @@ SUPPORTED_MODELS = {
 
 # 支持的目标语言
 SUPPORTED_LANGUAGES = {
+    'af': 'Afrikaans',
+    'am': 'Amharic',
+    'ar': 'Arabic',
+    'as': 'Assamese',
+    'az': 'Azerbaijani',
+    'ba': 'Bashkir',
+    'be': 'Belarusian',
+    'bg': 'Bulgarian',
+    'bn': 'Bengali',
+    'bo': 'Tibetan',
+    'br': 'Breton',
+    'bs': 'Bosnian',
+    'ca': 'Catalan',
+    'cs': 'Czech',
+    'cy': 'Welsh',
+    'da': 'Danish',
+    'de': 'German',
+    'el': 'Greek',
+    'en': 'English',
+    'es': 'Spanish',
+    'et': 'Estonian',
+    'eu': 'Basque',
+    'fa': 'Persian',
+    'fi': 'Finnish',
+    'fo': 'Faroese',
+    'fr': 'French',
+    'gl': 'Galician',
+    'gu': 'Gujarati',
+    'ha': 'Hausa',
+    'haw': 'Hawaiian',
+    'he': 'Hebrew',
+    'hi': 'Hindi',
+    'hr': 'Croatian',
+    'ht': 'Haitian Creole',
+    'hu': 'Hungarian',
+    'hy': 'Armenian',
+    'id': 'Indonesian',
+    'is': 'Icelandic',
+    'it': 'Italian',
+    'ja': 'Japanese',
+    'jw': 'Javanese',
+    'ka': 'Georgian',
+    'kk': 'Kazakh',
+    'km': 'Khmer',
+    'kn': 'Kannada',
+    'ko': 'Korean',
+    'la': 'Latin',
+    'lb': 'Luxembourgish',
+    'ln': 'Lingala',
+    'lo': 'Lao',
+    'lt': 'Lithuanian',
+    'lv': 'Latvian',
+    'mg': 'Malagasy',
+    'mi': 'Maori',
+    'mk': 'Macedonian',
+    'ml': 'Malayalam',
+    'mn': 'Mongolian',
+    'mr': 'Marathi',
+    'ms': 'Malay',
+    'mt': 'Maltese',
+    'my': 'Burmese',
+    'ne': 'Nepali',
+    'nl': 'Dutch',
+    'nn': 'Norwegian Nynorsk',
+    'no': 'Norwegian',
+    'oc': 'Occitan',
+    'pa': 'Punjabi',
+    'pl': 'Polish',
+    'ps': 'Pashto',
+    'pt': 'Portuguese',
+    'ro': 'Romanian',
+    'ru': 'Russian',
+    'sa': 'Sanskrit',
+    'sd': 'Sindhi',
+    'si': 'Sinhala',
+    'sk': 'Slovak',
+    'sl': 'Slovenian',
+    'sn': 'Shona',
+    'so': 'Somali',
+    'sq': 'Albanian',
+    'sr': 'Serbian',
+    'su': 'Sundanese',
+    'sv': 'Swedish',
+    'sw': 'Swahili',
+    'ta': 'Tamil',
+    'te': 'Telugu',
+    'tg': 'Tajik',
+    'th': 'Thai',
+    'tk': 'Turkmen',
+    'tl': 'Tagalog',
+    'tr': 'Turkish',
+    'tt': 'Tatar',
+    'uk': 'Ukrainian',
+    'ur': 'Urdu',
+    'uz': 'Uzbek',
+    'vi': 'Vietnamese',
+    'yi': 'Yiddish',
+    'yo': 'Yoruba',
+    'zh': 'Chinese',
     'zh-hans': '简体中文',
     'zh-hant': '繁体中文',
-    'en': 'English',
-    'ja': '日本語',
-    'ko': '한국어',
-    'es': 'Español',
-    'fr': 'Français',
-    'de': 'Deutsch'
+    'zh-yue': 'Cantonese'
 }
 
 def clean_old_files():
@@ -53,7 +156,7 @@ def translate_book_task(task_id, file_path, model, language, api_key=None):
             'python3',
             'make_book.py',
             '--book_name', file_path,
-            '--ollama_model', 'qwen2.5',
+            '--ollama_model', model,
             '--api_base', 'http://192.168.1.2:11434/v1',
             '--language', language,
             # '--model', model,
@@ -100,7 +203,7 @@ def translate_book_task(task_id, file_path, model, language, api_key=None):
                             'progress': percent,
                             'remaining_time': remaining_time,
                         })
-                        print("CURRENT STATE:",percent, parts)
+                        # print("CURRENT STATE:",percent, parts)
                 except Exception as e:
                     print(f"Progress parsing error: {e}")
                     pass
