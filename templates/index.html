@@ -135,6 +135,9 @@
                             <div class="alert alert-info mb-3">
                                 <h5 class="alert-heading">翻译进度</h5>
                                 <p id="statusText" class="mb-2">正在处理...</p>
+                                <p id="remainingTime" class="mb-2 text-muted small" style="display: none;">
+                                    预计剩余时间：<span>--:--</span>
+                                </p>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
                                 </div>
@@ -167,6 +170,7 @@
         const submitSpinner = submitBtn.querySelector('.spinner-border');
         const progressBar = document.querySelector('.progress-bar');
         const toggleApiKey = document.getElementById('toggleApiKey');
+        const remainingTime = document.getElementById('remainingTime');
         
         // 文件拖放处理
         dragArea.addEventListener('click', () => fileInput.click());
@@ -269,6 +273,7 @@
                         statusText.parentElement.className = 'alert alert-success';
                         progressBar.style.width = '100%';
                         progressBar.classList.remove('progress-bar-animated');
+                        remainingTime.style.display = 'none';
                         downloadArea.style.display = 'block';
                         downloadLink.href = `/api/download/${taskId}`;
                         submitBtn.disabled = false;
@@ -276,12 +281,20 @@
                     } else if (data.status === 'failed') {
                         throw new Error(data.error || '翻译失败');
                     } else {
-                        // 模拟进度
-                        const currentWidth = parseInt(progressBar.style.width) || 0;
-                        if (currentWidth < 90) {
-                            progressBar.style.width = `${currentWidth + 5}%`;
+                        // 更新实际进度
+                        const progress = data.progress || 0;
+                        progressBar.style.width = `${progress}%`;
+                        statusText.textContent = `正在翻译中...${progress}%`;
+                        
+                        // 显示剩余时间
+                        if (data.remaining_time !== undefined) {
+                            remainingTime.style.display = 'block';
+                            remainingTime.querySelector('span').textContent = 
+                                typeof data.remaining_time === 'number' 
+                                    ? formatTime(data.remaining_time)
+                                    : data.remaining_time;
                         }
-                        statusText.textContent = '正在翻译中...';
+                        
                         setTimeout(() => checkStatus(taskId), 2000);
                     }
                 } else {
@@ -290,9 +303,17 @@
             } catch (error) {
                 statusText.textContent = `错误: ${error.message}`;
                 statusText.parentElement.className = 'alert alert-danger';
+                remainingTime.style.display = 'none';
                 submitBtn.disabled = false;
                 submitSpinner.classList.add('d-none');
             }
+        }
+        
+        // 格式化时间函数
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = Math.floor(seconds % 60);
+            return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
         }
     </script>
 </body>

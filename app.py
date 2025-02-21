@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template, send_file
 import subprocess
-import os
+import os, re
 import uuid
 import threading
 from datetime import datetime
@@ -12,9 +12,9 @@ translation_tasks = {}
 
 # 支持的翻译模型
 SUPPORTED_MODELS = {
+    'qwen2.5': 'Qwen 2.5',
     'gpt4omini': 'GPT 4o mini',
     'deepseek-r1:14b': 'DeepSeek R1 14B',
-    'qwen2.5': 'Qwen 2.5',
     'gemini-2.0-flash': 'Gemini 2.0 Flash'
 }
 
@@ -53,31 +53,84 @@ def translate_book_task(task_id, file_path, model, language, api_key=None):
             'python3',
             'make_book.py',
             '--book_name', file_path,
-            '--model', model,
+            '--ollama_model', 'qwen2.5',
+            '--api_base', 'http://192.168.1.2:11434/v1',
             '--language', language,
-            '--openai_key', os.environ.get('OPENAI_API_KEY', 'sk-CdzI6CKPu6JFB5ul4dF42543Fe304a3bAa17B5E146D93eB9'),
-            '--api_base', os.environ.get('API_BASE', 'https://oneapi.haoran.li/v1')
+            # '--model', model,
+            # '--openai_key', os.environ.get('OPENAI_API_KEY', 'sk-CdzI6CKPu6JFB5ul4dF42543Fe304a3bAa17B5E146D93eB9'),
+            # '--api_base', os.environ.get('API_BASE', 'https://oneapi.haoran.li/v1')
         ]
 
         print(cmd)
         
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        process = subprocess.Popen(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            bufsize=1,
+            universal_newlines=True,
+            env={**os.environ, 'PYTHONUNBUFFERED': '1'}
+        )
         
-        if result.returncode == 0:
+        total_pages = 0
+        current_page = 0
+        
+        while True:
+            line = process.stdout.readline()
+            if not line and process.poll() is not None:
+                break
+                
+            # print(line.strip())
+            
+            # 尝试从进度条输出中提取进度信息
+            if '%|' in line:
+                try:
+                    # 从tqdm输出中提取进度信息
+                    parts = line.strip().split('|')
+                    if len(parts) >= 2:
+                        # 提取百分比
+                        percent = int(float(parts[0].strip('%'))) 
+                        s = parts[2]
+                        match = re.search(r'<(\d{2}:\d{2})', s)
+                        remaining_time = None
+                        if match:
+                            remaining_time = match.group(1)
+                        translation_tasks[task_id].update({
+                            'progress': percent,
+                            'remaining_time': remaining_time,
+                        })
+                        print("CURRENT STATE:",percent, parts)
+                except Exception as e:
+                    print(f"Progress parsing error: {e}")
+                    pass
+        
+        process.wait()
+        
+        if process.returncode == 0:
             output_file = f"{os.path.splitext(file_path)[0]}_bilingual{os.path.splitext(file_path)[1]}"
             translation_tasks[task_id].update({
                 'status': 'completed',
-                'output_file': output_file
+                'output_file': output_file,
+                'progress': 100
             })
         else:
+            error = process.stderr.read()
             translation_tasks[task_id].update({
                 'status': 'failed',
-                'error': result.stderr
+                'error': error,
+                'progress': 0
             })
     except Exception as e:
         translation_tasks[task_id].update({
             'status': 'failed',
-            'error': str(e)
+            'error': str(e),
+            'progress': 0
+        })
+        translation_tasks[task_id].update({
+            'status': 'failed',
+            'error': str(e),
+            'progress': 0
         })
 
 @app.route('/')
@@ -142,6 +195,7 @@ def translate_book():
 @app.route('/api/status/<task_id>')
 def get_status(task_id):
     task = translation_tasks.get(task_id)
+
     if not task:
         return jsonify({'error': '任务不存在'}), 404
     return jsonify(task)

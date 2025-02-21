@@ -519,7 +519,7 @@ class EPUBBookLoader(BaseBookLoader):
             )
             for i in all_items
         )
-        pbar = tqdm(total=self.test_num) if self.is_test else tqdm(total=all_p_length)
+        pbar = tqdm(total=self.test_num, file=sys.stdout) if self.is_test else tqdm(total=all_p_length, file=sys.stdout)
         print()
         index = 0
         p_to_save_len = len(self.p_to_save)
