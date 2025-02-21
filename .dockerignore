@@ -8,3 +8,4 @@ README*
 .github
 .gitignore
 .vscode
+venv

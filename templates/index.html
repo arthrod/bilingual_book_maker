@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 翻译工具</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <style>
+        .drag-area {
+            border: 2px dashed #ddd;
+            border-radius: 5px;
+            padding: 2rem;
+            text-align: center;
+            background: #f8f9fa;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .drag-area.active {
+            border-color: #0d6efd;
+            background: #e9ecef;
+        }
+        .translation-status {
+            display: none;
+            margin-top: 20px;
+        }
+        .api-key-input {
+            display: none;
+        }
+        .progress {
+            height: 0.5rem;
+        }
+        .advanced-options {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #dee2e6;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <h1 class="text-center mb-4">AI 翻译工具</h1>
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <form id="uploadForm" enctype="multipart/form-data">
+                            <div class="mb-4">
+                                <div class="drag-area" id="dragArea">
+                                    <i class="bi bi-cloud-upload fs-1 text-primary"></i>
+                                    <p class="mb-2">拖放文件到此处或点击上传</p>
+                                    <small class="text-muted">支持 epub/txt/srt 格式</small>
+                                    <input type="file" class="d-none" id="file" name="file" accept=".epub,.txt,.srt" required>
+                                </div>
+                                <div id="fileInfo" class="mt-2 text-center" style="display: none;">
+                                    <span class="badge bg-primary"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="row mb-3">
+                                <div class="col-md-6 mb-3 mb-md-0">
+                                    <label for="model" class="form-label">翻译模型</label>
+                                    <select class="form-select" id="model" name="model">
+                                        {% for model_key, model_name in models.items() %}
+                                        <option value="{{ model_key }}">{{ model_name }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="language" class="form-label">目标语言</label>
+                                    <select class="form-select" id="language" name="language">
+                                        {% for lang_key, lang_name in languages.items() %}
+                                        <option value="{{ lang_key }}">{{ lang_name }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3 api-key-input" id="apiKeyGroup">
+                                <label for="api_key" class="form-label">API Key</label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control" id="api_key" name="api_key">
+                                    <button class="btn btn-outline-secondary" type="button" id="toggleApiKey">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                </div>
+                                <div class="form-text">请输入相应服务的 API Key</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <button class="btn btn-link p-0" type="button" data-bs-toggle="collapse" data-bs-target="#advancedOptions">
+                                    高级选项 <i class="bi bi-chevron-down"></i>
+                                </button>
+                                <div class="collapse" id="advancedOptions">
+                                    <div class="advanced-options">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="translate-tags" class="form-label">翻译标签</label>
+                                                <input type="text" class="form-control" id="translate-tags" name="translate-tags" placeholder="例如: p,div,h1">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="batch-size" class="form-label">批量大小</label>
+                                                <input type="number" class="form-control" id="batch-size" name="batch_size" value="10">
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="use-context" name="use_context">
+                                                    <label class="form-check-label" for="use-context">使用上下文优化</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="single-translate" name="single_translate">
+                                                    <label class="form-check-label" for="single-translate">仅输出翻译结果</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100" id="submitBtn">
+                                <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                                开始翻译
+                            </button>
+                        </form>
+                        
+                        <div class="translation-status" id="statusArea">
+                            <div class="alert alert-info mb-3">
+                                <h5 class="alert-heading">翻译进度</h5>
+                                <p id="statusText" class="mb-2">正在处理...</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div id="downloadArea" style="display: none;">
+                                <a href="#" id="downloadLink" class="btn btn-success w-100">
+                                    <i class="bi bi-download me-2"></i>下载翻译结果
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const modelSelect = document.getElementById('model');
+        const apiKeyGroup = document.getElementById('apiKeyGroup');
+        const uploadForm = document.getElementById('uploadForm');
+        const statusArea = document.getElementById('statusArea');
+        const statusText = document.getElementById('statusText');
+        const downloadArea = document.getElementById('downloadArea');
+        const downloadLink = document.getElementById('downloadLink');
+        const dragArea = document.getElementById('dragArea');
+        const fileInput = document.getElementById('file');
+        const fileInfo = document.getElementById('fileInfo');
+        const submitBtn = document.getElementById('submitBtn');
+        const submitSpinner = submitBtn.querySelector('.spinner-border');
+        const progressBar = document.querySelector('.progress-bar');
+        const toggleApiKey = document.getElementById('toggleApiKey');
+        
+        // 文件拖放处理
+        dragArea.addEventListener('click', () => fileInput.click());
+        
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dragArea.addEventListener(eventName, (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+            });
+        });
+        
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dragArea.addEventListener(eventName, () => dragArea.classList.add('active'));
+        });
+        
+        ['dragleave', 'drop'].forEach(eventName => {
+            dragArea.addEventListener(eventName, () => dragArea.classList.remove('active'));
+        });
+        
+        dragArea.addEventListener('drop', (e) => {
+            const file = e.dataTransfer.files[0];
+            if (file) {
+                fileInput.files = e.dataTransfer.files;
+                updateFileInfo(file);
+            }
+        });
+        
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length > 0) {
+                updateFileInfo(fileInput.files[0]);
+            }
+        });
+        
+        function updateFileInfo(file) {
+            fileInfo.style.display = 'block';
+            fileInfo.querySelector('.badge').textContent = `已选择: ${file.name}`;
+        }
+        
+        // API Key 显示切换
+        toggleApiKey.addEventListener('click', function() {
+            const apiKeyInput = document.getElementById('api_key');
+            const icon = this.querySelector('i');
+            if (apiKeyInput.type === 'password') {
+                apiKeyInput.type = 'text';
+                icon.classList.replace('bi-eye', 'bi-eye-slash');
+            } else {
+                apiKeyInput.type = 'password';
+                icon.classList.replace('bi-eye-slash', 'bi-eye');
+            }
+        });
+        
+        // 根据选择的模型显示/隐藏 API Key 输入框
+        modelSelect.addEventListener('change', function() {
+            const needsApiKey = ['openai', 'claude', 'gemini', 'caiyun'].includes(this.value);
+            apiKeyGroup.style.display = needsApiKey ? 'block' : 'none';
+        });
+        
+        // 处理表单提交
+        uploadForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            submitBtn.disabled = true;
+            submitSpinner.classList.remove('d-none');
+            statusArea.style.display = 'block';
+            downloadArea.style.display = 'none';
+            progressBar.style.width = '0%';
+            
+            try {
+                const formData = new FormData(this);
+                const response = await fetch('/api/translate', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    const taskId = data.task_id;
+                    checkStatus(taskId);
+                } else {
+                    throw new Error(data.error || '翻译请求失败');
+                }
+            } catch (error) {
+                statusText.textContent = `错误: ${error.message}`;
+                statusText.parentElement.className = 'alert alert-danger';
+                submitBtn.disabled = false;
+                submitSpinner.classList.add('d-none');
+            }
+        });
+        
+        // 检查翻译状态
+        async function checkStatus(taskId) {
+            try {
+                const response = await fetch(`/api/status/${taskId}`);
+                const data = await response.json();
+                
+                if (response.ok) {
+                    if (data.status === 'completed') {
+                        statusText.textContent = '翻译完成！';
+                        statusText.parentElement.className = 'alert alert-success';
+                        progressBar.style.width = '100%';
+                        progressBar.classList.remove('progress-bar-animated');
+                        downloadArea.style.display = 'block';
+                        downloadLink.href = `/api/download/${taskId}`;
+                        submitBtn.disabled = false;
+                        submitSpinner.classList.add('d-none');
+                    } else if (data.status === 'failed') {
+                        throw new Error(data.error || '翻译失败');
+                    } else {
+                        // 模拟进度
+                        const currentWidth = parseInt(progressBar.style.width) || 0;
+                        if (currentWidth < 90) {
+                            progressBar.style.width = `${currentWidth + 5}%`;
+                        }
+                        statusText.textContent = '正在翻译中...';
+                        setTimeout(() => checkStatus(taskId), 2000);
+                    }
+                } else {
+                    throw new Error(data.error || '状态查询失败');
+                }
+            } catch (error) {
+                statusText.textContent = `错误: ${error.message}`;
+                statusText.parentElement.className = 'alert alert-danger';
+                submitBtn.disabled = false;
+                submitSpinner.classList.add('d-none');
+            }
+        }
+    </script>
+</body>
+</html>
