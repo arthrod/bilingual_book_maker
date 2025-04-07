@@ -167,6 +167,21 @@ bbook --book_name test_books/animal_farm.epub --openai_key ${openai_key} --test
   - If you don't need to set the `system` role content, you can simply set it up like this: `--prompt "Translate {text} to {language}."` or `--prompt prompt_template_sample.txt` (example of a text file can be found at [./prompt_template_sample.txt](./prompt_template_sample.txt)).
 
   - If you need to set the `system` role content, you can use the following format: `--prompt '{"user":"Translate {text} to {language}", "system": "You are a professional translator."}'` or `--prompt prompt_template_sample.json` (example of a JSON file can be found at [./prompt_template_sample.json](./prompt_template_sample.json)).
+  
+  - You can now use [PromptDown](https://github.com/btfranklin/promptdown) format (`.md` files) for more structured prompts: `--prompt prompt_md.prompt.md`. PromptDown supports both traditional system messages and developer messages (used by newer AI models). Example:
+  
+      ```markdown
+      # Translation Prompt
+      
+      ## Developer Message
+      You are a professional translator who specializes in accurate translations.
+      
+      ## Conversation
+      
+      | Role  | Content                                           |
+      |-------|---------------------------------------------------|
+      | User  | Please translate the following text into {language}:\n\n{text} |
+      ```
 
   - You can also set the `user` and `system` role prompt by setting environment variables: `BBM_CHATGPTAPI_USER_MSG_TEMPLATE` and `BBM_CHATGPTAPI_SYS_MSG`.
 
@@ -374,3 +389,35 @@ Thank you, that's enough.
 
 [^token]: https://platform.openai.com/account/api-keys
 [^black]: https://github.com/psf/black
+
+### Processing a Directory of Files
+
+You can now process a directory containing markdown files (.md and .qmd) in a single command:
+
+```shell
+python3 make_book.py --book_name path/to/your/directory --openai_key ${openai_key} --language zh-hans
+```
+
+This will:
+- Find all markdown files in the directory (both .md and .qmd)
+- Skip any files with "_bilingual" in the name (already processed files)
+- Translate each file using the markdown processor
+- Output translated files with "_bilingual" suffix in the same directory
+
+This is particularly useful for translating a collection of markdown chapter files or a complete manuscript split into multiple documents.
+
+## Processing Directories of Markdown Files
+
+You can now process entire directories containing markdown files:
+
+```shell
+python3 make_book.py --book_name path/to/markdown_directory --openai_key ${openai_key}
+```
+
+This will:
+- Recursively find all markdown files (`.md` and `.qmd`) in the directory
+- Process each file to create a bilingual version with "_bilingual" added to the filename
+- Skip any files that already have "_bilingual" in their name
+- Display a summary of successful and failed translations
+
+You can combine this with other options like `--language`, `--model`, and `--test`.

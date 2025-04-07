@@ -25,3 +25,7 @@ class BaseBookLoader(ABC):
     @abstractmethod
     def _save_progress(self):
         pass
+
+    @abstractmethod
+    def remove_temp_file(self):
+        pass

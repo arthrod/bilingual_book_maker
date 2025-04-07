@@ -1,0 +1,139 @@
+# Stablecoins en digitale valuta van centrale banken
+
+Dankzij blockchainnetwerken en andere gedistribueerde grootboeksystemen kunnen fiatvaluta op een digitale, oorspronkelijke manier worden ingezet.
+
+Tot nu toe kent dit twee belangrijke vormen. Enerzijds zijn er particuliere aanbieders die fiatgedekte, inwisselbare tokens uitgeven – bekend als 'stablecoins' – en anderzijds bestaan er digitale versies van valuta die rechtstreeks door centrale banken worden uitgegeven (ook wel CBDC's genoemd). In dit hoofdstuk onderzoeken we de toepassingen en risico's van deze technologieën.
+
+## Toepassingen en risico's van stablecoins
+
+De eerste stablecoin werd in 2014 ontwikkeld en gelanceerd als een laag bovenop het Bitcoin-netwerk. Sindsdien is er een groot aantal stablecoins geïntroduceerd, waarvan velen naar andere blockchains zijn verhuisd.
+
+Een fiatgedekte stablecoin werkt als volgt: een gebruiker stuurt via het traditionele banksysteem valuta (meestal Amerikaanse dollars) naar de stablecoin-uitgever. In ruil daarvoor ontvangt hij door de uitgever gemaakte stablecoin-tokens. De houder kan deze tokens vervolgens verplaatsen op de blockchain naar keuze en inzetten voor sparen, betalingen, handel, hefboomwerking of andere toepassingen – dag en nacht, het hele jaar door – in zowel bewaakte als niet-bewaakte omgevingen.
+
+Houders kunnen hun stablecoins in grote hoeveelheden bij de uitgever inwisselen. Het proces loopt precies omgekeerd aan de initiële creatie: de houder stuurt zijn tokens terug naar de uitgever, die de tokens intrekt en het bijbehorende valuta-equivalent overmaakt.
+
+De uitgever kan stablecoins, die aan specifieke adressen zijn gekoppeld, bevriezen op verzoek van wetshandhavingsinstanties of om andere redenen. Dit maakt het systeem inherent gecentraliseerd. Bovendien genereert de uitgever inkomsten via kosten voor de creatie en inwisseling, en door rente te verdienen op de onderpanden die worden aangehouden. Vanuit het oogpunt van de uitgever fungeert de stablecoin namelijk als een verplichting met een rentetarief van nul. Het fiatonderpand kan vervolgens geïnvesteerd worden in bijvoorbeeld Amerikaanse staatsobligaties of andere liquide beleggingen, zodat men profiteert van het renteverschil.
+
+Deze technologie kent enkele voordelen ten opzichte van een traditioneel bankrekening. Het meest opvallend is dat een bankrekening verandert in een overdraagbaar activum: stablecoins kunnen namelijk aan diverse gebruikers worden overgedragen en ingewisseld worden door iemand anders dan de oorspronkelijke overdrager. Met andere woorden: stablecoins fungeren als digitale bankbiljetten.
+
+Aanvankelijk werden stablecoins ingezet als dollareenheid op offshore cryptocurrency exchanges. Daarnaast worden ze vaak gebruikt als rekeneenheid en als hefboom in gedecentraliseerde financiële toepassingen (de zogenaamde 'DeFi'). Ook dienen stablecoins als spaargeld voor mensen in landen met ernstige valutacrisissen. Veel Argentijnen maken bijvoorbeeld gebruik van stablecoins, omdat de Argentijnse overheid en het banksysteem in het verleden vaak dollars die op bankrekeningen stonden in beslag namen. Bovendien moeten Argentijnen doorgaans een hoge premie betalen om fysieke dollars te verkrijgen. Met een smartphone kan echter iedereen stablecoins bemachtigen, terwijl de Argentijnse regering hier weinig aan kan doen, aangezien de uitgevers van deze tokens buiten Argentinië gevestigd zijn. Het beste wat zij (en deels ook al hebben gedaan) kunnen, is cryptocurrency exchanges loskoppelen van het Argentijnse banksysteem. Hierdoor worden Argentijnen gedwongen via peer-to-peer of andere alternatieve methoden toegang te krijgen tot stablecoins. Hoewel een stablecoin een gecentraliseerde uitgever kent, valt deze buiten de jurisdictie van het land in crisis. Om die reden maken veel mensen in diverse landen die dollars willen gebruiken, gebruik van stablecoins. Kortom, dankzij internet en blockchaintechnologie krijgen gebruikers wereldwijd toegang tot een quasi-Amerikaanse dollarbankrekening, wat met name middenklasseburgers ten goede komt en niet uitsluitend de rijken.
+
+Deze technologie brengt echter ook risico's met zich mee. Gebruikers moeten erop kunnen vertrouwen dat de stablecoin-uitgever daadwerkelijk over het volledige onderpand beschikt; anders verliest de stablecoin zijn waarde. Ditzelfde vertrouwen dat mensen in banken hebben, geldt hier ook. Overigens blijft de stablecoin-industrie grotendeels ongereguleerd. Bovendien berusten meer dan 99% van de stablecoins op de Amerikaanse dollar en zijn zij direct of indirect gekoppeld aan een Amerikaanse bank. Hierdoor kan de Amerikaanse federale overheid op elk moment besluiten een stablecoin stil te leggen door sancties op te leggen en de betreffende bank te dwingen de activa van de uitgever te bevriezen. Tevens kan de beheerder van het grootboek waarop de stablecoin-uitgever vertrouwt, op juridische gronden bepaalde stablecoin-adressen blokkeren – bijvoorbeeld om specifieke gebruikers of regio's te treffen.
+
+Vanuit monetair oogpunt winnen stablecoins aan relevantie, omdat zij miljoenen mensen wereldwijd toegang bieden tot Amerikaanse dollars – toegang die veel mensen anders nauwelijks zouden hebben. Als mensen via hun smartphone eenvoudig vrijwel elke fiatvaluta (of, breder gezegd, elk getokeniseerd activum) kunnen benaderen, kan dit het traditionele systeem van ongeveer 160 verschillende fiatvaluta's en bijbehorende kapitaalmarkten ingrijpend verstoren.
+
+## CBDC's: overzicht
+
+De komst van het Bitcoinnetwerk en later de door particulieren uitgegeven, fiatgedekte stablecoins zorgden er onvermijdelijk voor dat overheden en centrale banken in de weer gingen. Papieren bankbiljetten en commerciële bankreserves vertegenwoordigen immers de schulden van de centrale bank en vormen daarmee de monetaire basis van een land. Om die reden tonen veel centrale banken interesse in het digitaliseren van hun fysieke bankbiljetten, zodat de monetaire basis volledig wordt omgezet in een digitale grootboekregistratie.
+
+Agustín Carstens, hoofd van de Zwitserse Bank voor Internationale Betalingen – een instelling die eigendom is van centrale banken wereldwijd en tevens bankdiensten en regelgevende kaders aanbiedt als supranationale entiteit – deed in 2020 tijdens een paneldiscussie georganiseerd door het *IMF* en de *Wereldbank* (onder de titel *Grensoverschrijdende Betalingen – Een Visie voor de Toekomst*) een interessante uitspraak over de digitale valuta's van centrale banken.
+
+In onze analyse van CBDC's, en met name voor algemeen gebruik, vergelijken we ze met contant geld – en daar ligt een groot verschil. Bij contant geld weten we immers niet wie vandaag een biljet van honderd dollar of van duizend peso gebruikt. Een belangrijk verschil is dat de centrale bank bij een CBDC absolute controle heeft over de regels en voorschriften die het gebruik van deze centrale bankverplichting bepalen. Bovendien beschikken we over de technologie om dit af te dwingen. Deze twee punten zijn van cruciaal belang en maken een enorm verschil met contant geld. [^391]
+
+Kort samengevat vergroten centrale banken met digitale valuta het vermogen om het gebruik van hun uitgegeven munteenheid nauwgezet te controleren en te monitoren. Dit resulteert in aanzienlijke verbeteringen bij grensoverschrijdende transacties en maakt doelgerichter monetair beleid mogelijk, maar roept tegelijkertijd belangrijke privacy- en controlevraagstukken op voor het publiek.
+
+## Digitale valuta's van centrale banken: grensoverschrijdende afwikkeling
+
+Internationale betalingen blijven een knelpunt voor het wereldwijde banksysteem, ondanks dat dit systeem al anderhalve eeuw via telecommunicatie-infrastructuur met elkaar verbonden is. Banken hanteren namelijk al een halve eeuw lang verouderde internationale betalingsmechanismen – zoals het *SWIFT*-berichtensysteem en overboekingen tussen correspondentbanken – die in de loop der tijd slechts oppervlakkig technisch zijn geactualiseerd. Hierdoor verlopen internationale overboekingen vaak traag, zijn ze duur en ondoorzichtig.
+
+Daarnaast loopt een groot deel van de infrastructuur via het Amerikaanse banksysteem, waardoor de VS aanzienlijke invloed krijgt om landen om diverse redenen te sanctioneren. Daarom streven veel regeringen wereldwijd naar een meer gedecentraliseerde transactiestructuur, zodat zij minder afhankelijk zijn van systemen die beheerd worden door een dominante hegemonische macht, met wie de betrekkingen niet altijd optimaal zijn.
+
+In de herfst van 2022 kondigden de Bank voor Internationale Betalingen en diverse overheidsinstanties en centrale banken een internationaal project aan ter verbetering van de infrastructuur voor grensoverschrijdende betalingen. Op hun website beschreef men het project als volgt:
+
+> Het betalingssysteem dat ten grondslag ligt aan grensoverschrijdende financiële stromen houdt niet gelijke tred met de snelle groei van de mondiale economische integratie. Het wereldwijde netwerk van correspondentbanken, dat internationale betalingen mogelijk maakt, kampt met hoge kosten, lage snelheid, een gebrek aan transparantie en operationele complexiteit. Bovendien verkleinen banken hun netwerk van correspondentbanken en diensten, waardoor veel deelnemers – met name opkomende markten en ontwikkelingslanden – onvoldoende of geen betaalbare toegang tot het wereldwijde financiële systeem hebben.
+>
+> Diverse CBDC-regelingen (multi-CBDC), die nationale digitale valuta rechtstreeks koppelen via één gemeenschappelijke technische infrastructuur, bieden aanzienlijke mogelijkheden om het huidige systeem te verbeteren. Ze maken grensoverschrijdende betalingen direct, goedkoop en universeel toegankelijk met een veilige afwikkeling.
+>
+> Het BIS Innovation Hub Hong Kong Centre, de Hong Kong Monetary Authority, de Bank of Thailand, het Digital Currency Institute van de People's Bank of China en de Centrale Bank van de Verenigde Arabische Emiraten werken samen aan de bouw van een dergelijk multi-CBDC-platform, dat bekendstaat als mBridge.[^392]
+
+De infrastructuur van digitale centrale bankvaluta's maakt efficiëntere methoden voor grensoverschrijdende betalingen mogelijk en verloopt via een complex web van verbindingen, zodat geen enkel land als knelpunt optreedt in het hele systeem.
+
+## CBDC's: gerichte monetair en fiscaal beleid
+
+De Verenigde Staten telt 330 miljoen inwoners, maar de Federal Reserve hanteert slechts één basisrente voor heel het land. Dit probleem doet zich ook in andere landen voor.
+
+Critici van centrale banken zien het actief beheer van een valutasysteem als problematisch. Zij vinden dat centrale banken niet de rentetarieven zouden moeten bepalen; de vrije markt zou in plaats daarvan de basisrente moeten vaststellen.
+
+Voorstanders van centrale banken – waaronder vanzelfsprekend de centrale bankiers zelf – hebben interesse in technologieën die hen een nog nauwkeurigere controle over het monetaire beleid bieden. Zo stellen zij zich voor dat een centrale bank de rente per regio of zelfs per leeftijdsgroep kan variëren. Wil de bank bijvoorbeeld bepaalde industrieën stimuleren en andere afremmen, dan kan zij uiteenlopende kapitaalkosten hanteren. Dit principe kan ook op consumentenniveau toegepast worden: burgers kunnen per uitgavencategorie quota ontvangen, waardoor hun bestedingen automatisch worden beperkt zodra zij hun limiet overschrijden. Bovendien kunnen stimuleringsbetalingen op een veel snellere en gerichtere wijze worden verspreid dan met de huidige technologie, bijvoorbeeld in de vorm van vervallend geld dat zo de besteding versnelt.
+
+## CBDC's: het opleggen van negatieve rentes
+
+Tijdens de wereldwijde obligatiebubbel met desinflatoire kenmerken aan het eind van de jaren 2010 zochten veel beleidsmakers naar manieren om extreem negatieve rentetarieven in te voeren. Zij beschouwden grote spaargelden vaak als een vorm van 'hamsteren' en wilden het geld sneller in omloop brengen om zo de economie op korte termijn te stimuleren. De aanwezigheid van contant geld bemoeilijkt dit echter, omdat mensen dan de mogelijkheid hebben om geld van hun bankrekening op te nemen en als contant geld aan te houden wanneer de bank zeer negatieve depositorentes rekent.
+
+Een artikel van het IMF uit 2019, getiteld *Cashing in: How to Make Negative Interest Rates Work*, beschrijft dit probleem als volgt:
+
+In een wereld zonder contant geld bestaat er geen bodem onder de rentetarieven. Een centrale bank kan de beleidsrente bijvoorbeeld verlagen van 2 procent naar min 4 procent om een diepe recessie af te wenden. Die verlaging werkt door naar bankdeposito's, leningen en obligaties. Zonder contant geld moeten spaarders negatieve rente betalen om hun geld bij de bank te houden, waardoor consumeren en investeren aantrekkelijker worden. Dat stimuleert de kredietverlening, vergroot de vraag en zet de economie in beweging.
+
+Wanneer contant geld beschikbaar blijft, is het niet mogelijk de rente ver in het negatieve gebied te brengen. Contant geld behoudt dezelfde koopkracht als bankdeposito's, maar levert nul procent nominale rente op. Bovendien is het in onbeperkte hoeveelheden verkrijgbaar in ruil voor bankgeld. In plaats van negatieve rente te betalen, kun je simpelweg contant geld aanhouden zonder renteverlies. Zo fungeert contant geld als gratis, en vormt het de bodem voor de rente.
+
+Omdat deze bodem bestaat, hebben centrale banken onconventioneel monetair beleid gevoerd. In de eurozone, Zwitserland, Denemarken, Zweden en andere economieën mogen de rentevoeten iets onder nul komen. Dat komt doordat het onpraktisch en kostbaar is om grote hoeveelheden contant geld vast te houden (denk aan opslag- en verzekeringskosten). Deze maatregelen stimuleren de vraag, maar compenseren niet volledig het verlies aan beleidsruimte bij zeer lage rentes.
+
+Een mogelijke oplossing om door de nulondergrens heen te breken, is het geleidelijk afschaffen van contant geld.[^393]
+
+Vanwege de uitdagingen die het volledig schrappen van contant geld met zich meebrengt, stelden de auteurs van het IMF-rapport – waarop dit artikel is gebaseerd – voor om de monetaire basis in twee delen op te splitsen. Het fysieke contante geld zou dan in waarde dalen ten opzichte van het geld dat in het financiële systeem circuleert, met een afname die overeenkomt met de negatieve rente op deposito's. Op die manier geldt negatieve rente ook voor contant geld, zodat niemand kan ontsnappen aan sterk negatieve nominale rentetarieven.
+
+Ook werkdocument 25416 van het *National Bureau of Economic Research* (2019), mede geschreven door Larry Summers, bespreekt de problemen die papieren valuta veroorzaken in een beleid met aanzienlijk negatieve rentetarieven:[^394]
+
+> Ons model voorspelt dat negatieve beleidsrentes de economie moeten stimuleren als de bodem voor deposito's wordt doorbroken. Dit kan doordat banken eerder geneigd raken negatieve depositorentes toe te passen zonder dat klanten massaal naar contant geld overschakelen, of door institutionele aanpassingen die de bodem voor deposito's beïnvloeden. In Sectie 4 bekijken we de voorwaarden waaronder dit mogelijk is. Een voorbeeld van zo'n maatregel is een directe belasting op contant geld, zoals Gesell (1916) aanvankelijk voorstelde en later uitgebreid besprak door Goodfriend (2000) en Buiter en Panigirtzoglou (2003). Andere maatregelen verhogen de opslagkosten van geld, zoals het afschaffen van biljetten met hoge waarden. Ook de volledige afschaffing van contant geld behoort tot de opties. Deze beleidsmaatregelen komen eveneens aan bod bij Agarwal en Kimball (2015), Rogoff (2017a) en Rogoff (2017c), die meer gedetailleerde regimes voorstellen om de nulondergrens te omzeilen.[^394]
+
+In de tweede helft van de jaren 2010, een periode van laag consumentenprijsinflatie, vonden dergelijke voorstellen brede belangstelling in academische financiële kringen. Beleidsmakers onderzochten actief manieren om sterk negatief geïndexeerde reële rentetarieven te realiseren. Dat betekende dat zij indien nodig dieper moesten gaan met negatieve nominale rente, terwijl zij probeerden alternatieven als contant geld – dat als uitwijkmogelijkheid fungeert – weg te werken. Kortom, zij zochten voortdurend naar methoden om hun grip op het monetaire systeem verder te versterken.[^395]
+
+In de jaren 2020 kwamen discussies over sterk negatieve rentetarieven minder vaak ter sprake, mede door de hernieuwde opkomst van hogere inflatie en rentetarieven. Toch zouden deze voorstellen in de toekomst weer kunnen opduiken tijdens perioden van aanzienlijke desinflatie, omdat beleidsmakers steeds verlangen naar meer controle over het monetaire systeem.
+
+## Centraal bank digitale valuta's (CBDC's): geautomatiseerde wetshandhaving
+
+In 2020 deelde durfkapitalist en analist Nic Carter op sociale media zijn visie dat, als men contant geld vandaag opnieuw zou uitvinden, het als illegaal zou worden aangemerkt. Met andere woorden: contant geld ondersteunt privétransacties die we als vanzelfsprekend beschouwen door het langdurige gebruik, maar waarover overheidsinstanties en centrale banken weinig enthousiasme tonen. Zij hebben door de jaren heen steeds strengere methoden ingevoerd om bankrekeningen en transacties te controleren en te bevriezen, waardoor contant geld de laatste belangrijke omweg blijft voor privétransacties binnen het huidige financiële systeem.
+
+Digitale valuta's die door centrale banken worden uitgegeven, bieden deze instanties een weg om het fysieke geld geleidelijk af te schaffen en daarmee het laatste restje transactionele privacy te elimineren. CBDC's kunnen door de uitgever veel nauwkeuriger gecontroleerd en gevolgd worden dan fysiek geld; hetzelfde geldt voor stablecoins.
+
+In 2021 begon China met het testen van een digitale valuta van de centrale bank. Deze valuta maakt het eenvoudiger om transacties te traceren en indien nodig te blokkeren, vervaldatums toe te kennen zodat geld automatisch wordt uitgegeven in plaats van gespaard, en rekeninghouders automatisch contant geld af te schrijven of hun rekeningen te bevriezen wanneer dat nodig is. Dit onderwerp vat een artikel van de *Wall Street Journal* uit april 2021 treffend samen, getiteld *China Creates Its Own Digital Currency, a First for Major Economy*:
+
+Geld zelf kan geprogrammeerd worden. Peking experimenteerde met vervaldata om gebruikers ertoe te brengen hun geld snel uit te geven op momenten dat de economie een impuls nodig heeft.
+
+Het digitale geld is bovendien traceerbaar, wat de uitgebreide staatscontrole van China extra handvatten geeft. De overheid zet honderden miljoenen gezichtsherkenningscamera's in om de bevolking in de gaten te houden en legt soms boetes op voor bijvoorbeeld het oversteken buiten de daarvoor bestemde oversteekplaats. Een digitale valuta maakt het bovendien mogelijk om boetes direct uit te delen en te innen zodra een overtreding wordt gesignaleerd.[^396]
+
+Sindsdien zijn diverse landen overgegaan op centrale bankdigitale valuta, waarbij Nigeria – met meer dan 200 miljoen inwoners – opvalt. In de herfst van 2021 introduceerde Nigeria zijn digitale valuta, de eNaira, maar een jaar later was de adoptiegraad nog steeds onder de 1%. Eind 2022 begon de centrale bank vervolgens met het sterk beperken van de beschikbaarheid van fysiek geld. Haruna Musafa, directeur van Bankentoezicht bij de Centrale Bank van Nigeria, stelt dat klanten 'aangemoedigd zouden moeten worden om gebruik te maken van alternatieve kanalen (internetbankieren, mobiele bankapps, USSD-kaarten/POS, eNaira, etc.) om hun banktransacties uit te voeren.'[^397]
+
+Bloomberg ging in een artikel van december 2022, getiteld 'Nigeria beperkt dagelijkse geldopnames aan de geldautomaat tot $45 om digitale betalingen te bevorderen', uitgebreid in op deze kwestie:
+
+> De Centrale Bank van Nigeria heeft het maximale opnamebedrag voor klanten verlaagd naar 20.000 naira ($44,97) per dag, in plaats van de eerdere limiet van 150.000 naira, volgens een circulaire die dinsdag naar kredietverleners is verstuurd. Wekelijkse contante opnames zijn nu beperkt tot 100.000 naira voor particulieren en 500.000 naira voor bedrijven. Bedragen boven deze limieten worden belast met respectievelijk een toeslag van 5% en 10%, aldus de centrale bank.
+
+De maatregel maakt deel uit van een reeks bevelen van de centrale bank, gericht op het beperken van het gebruik van contant geld en het stimuleren van digitale valuta om de toegang tot bankdiensten te verbeteren. In de grotendeels informele economie van Nigeria bestaat 85% van het geld in omloop uit contanten buiten het banksysteem en heeft bijna 40 miljoen volwassenen geen bankrekening.[^398]
+
+Deze situatie laat zien dat veel centrale banken ernaar streven fysieke contanten terug te dringen zodra daar gelegenheid voor is. Digitale centrale bankvaluta en andere digitale betaalsystemen bieden de hiervoor nodige methoden. Het voorbeeld van Nigeria maakt echter duidelijk hoe lastig het plan is als het publiek niet meegaat. Meer dan anderhalf jaar na de introductie van de eNaira kiezen Nigerianen nog steeds vaker voor cryptocurrencies dan voor de eNaira, mede omdat het banksysteem van Nigeria al geruime tijd is losgekoppeld van cryptobeurzen. Omdat Nigerianen niet zomaar geld van hun bankrekening naar een cryptobeurs kunnen overmaken, zijn zij gedwongen via peer-to-peer transacties toegang te krijgen tot cryptocurrencies of andere gewenste activa.
+
+Dit weerhoudt centrale banken er niet van de CBDC-markt te betreden. Begin 2023 deden Russische grappenmakers alsof zij Volodymyr Zelensky, de Oekraïense president, waren en verleidden zowel Jerome Powell als Christine Lagarde tot afzonderlijke videogesprekken – gesprekken die later werden opgenomen en online verschenen.[^399] Tijdens een gesprek met Lagarde, die momenteel de Europese Centrale Bank leidt, vroegen haar men naar de toekomstplannen voor digitale centrale bankvaluta’s en hoe zij reageert op de stelling dat mensen niet graag gecontroleerd worden. Zij antwoordde:
+
+> 'We hebben in Europa nu een grens: boven de 1.000 euro kun je niet contant betalen. Als je dat doet, handel je op de grijze markt en loop je een risico. Word je gepakt, dan krijg je een boete of beland je in de gevangenis. Weet je, de digitale euro zal tot op zekere hoogte gecontroleerd worden. Je hebt helemaal gelijk – er komt controle. We overwegen of we voor zeer kleine bedragen, zo rond de 300 of 400 euro, een mechanisme kunnen inzetten waar geen controle op uitgeoefend wordt. Maar dat zou gevaarlijk kunnen zijn. Denk maar aan de terroristische aanslagen in Frankrijk tien jaar geleden, die volledig gefinancierd werden met kleine, anonieme creditkaarten die je naar believen kunt opladen.[^400]'
+
+Christine Lagarde wees als eerste op de bestaande limiet voor contante betalingen in Frankrijk, een maatregel die bedoeld is om het gebruik van contant geld te beperken, al blijkt de handhaving hiervan lastig. Verschillende landen kennen wetgeving die contante betalingen aan banden legt, en Frankrijk hanteert daarbij een van de strengste limieten. Daarna voerde Lagarde aan dat een terroristische aanslag van bijna tien jaar geleden een reden is om volledig anonieme transacties te verbieden.
+
+Hoewel in de afgelopen vijftig jaar minder dan 0,001% van de Franse bevolking omkwam bij terroristische aanslagen, ziet zij dit als een gewichtige reden voor gecentraliseerd toezicht op alle transacties.
+
+In dit boek stel ik steeds de vraag: 'Wie beheert het grootboek?' wanneer ik verschillende financiële systemen en technologieën onder de loep neem.
+
+Het valt op dat geld steeds meer digitaliseert. De introductie van Bitcoin luidde een nieuw tijdperk in, waarin men streeft naar decentralisatie van geld en gebruikers weer controle over het grootboek geeft. Ook fiatgeldsystemen hebben elementen van deze technologie overgenomen; zij digitaliseren nu hun valuta in de vorm van centrale bank digitale valuta's (CBDC's). In tegenstelling tot Bitcoin geven CBDC's de beheerders van het grootboek veel meer macht, wat ten koste gaat van de gebruikers. Centrale banken en overheidsinstanties kunnen zo hun grootboek gedetailleerder beheren dan ooit tevoren. Bovendien maakt de technologie achter digitale centrale bankvaluta het mogelijk om contant geld geleidelijk af te schaffen, waardoor het laatste overblijfsel van privétransacties zonder censuur binnen de bestaande fiatgeldsystemen verdwijnt.
+
+Als we nadenken over de ideale vorm van geld, blijkt dit beeld sterk te variëren afhankelijk van achtergrond en doelstellingen. Vanuit het oogpunt van een centrale bank of overheidsinstantie is ideaal geld dat zij volledig kunnen controleren: geld dat in de loop der tijd gestaag in waarde afneemt, eenvoudig te monitoren en te programmeren is, en dat door de uitgever indien nodig bevroren kan worden. Centrale bankdigitale valuta's worden gepresenteerd als systemen die financiële diensten toegankelijker maken en opsporingsdiensten effectiever ondersteunen in hun strijd tegen criminaliteit. Tegelijkertijd geeft de technologie die deze eigenschappen mogelijk maakt ook overheden en bedrijven meer middelen in handen om publieke tegenstand te onderdrukken en het leven van burgers te controleren. Dit is vooral significant in een wereld waar meer dan de helft van de bevolking onder autoritaire of semi-autoritaire regimes leeft en waar 160 verschillende valutamonopolies bestaan. Vanuit het perspectief van de individuele gebruiker is ideaal geld daarentegen geld dat zijn waarde behoudt, moeilijk door derden kan worden gevorderd of gecontroleerd, een hoge mate van transactieprivacy biedt en wereldwijd zowel draagbaar als geaccepteerd is.
+
+We bevinden ons momenteel op een kruispunt. Enerzijds leidt de ene weg tot een stapsgewijze verbetering voor degenen die de eeuwenoude trend van voortdurende centralisatie van het financiële systeem willen doorzetten. Anderzijds biedt de alternatieve route kansen om deze centralisatie te doorbreken en individuele gebruikers meer financiële autonomie te geven. Deel 6, het slotdeel van dit boek, onderzoekt de ethiek achter deze twee tegengestelde benaderingen.
+
+[^391]: Agustín Carstens, *Cross-Border Payments—A Vision for the Future*, (24:12–25:06).
+
+[^392]: Bank for International Settlements, *Project mBridge: Connecting Economies Through CBDC*.
+
+[^393]: Ruchir Agarwal en Signe Krogstrup, *Cashing In: How to Make Negative Interest Rates Work*.
+
+[^394]: Gauti Eggertsson et al., *Negative Nominal Interest Rates and the Bank Lending Channel*, 6.
+
+[^395]: Het standaardwerk over dit onderwerp is Kenneth Rogoff, *The Curse of Cash*.
+
+[^396]: James Areddy, *China Creates Its Own Digital Currency, a First for Major Economy*, Wall Street Journal, 5 april 2021.
+
+[^397]: Alys Key, *Nigeria Limits Cash Withdrawals to $45 per Day in CBDC, Digital Banking Push*, Yahoo! Finance, 7 december 2022.
+
+[^398]: Emele Onu en Anthony Osae-Brown, *Nigeria Caps ATM Cash Withdrawals at $45 Daily to Push Digital Payments*, Bloomberg, 6 december 2022.
+
+[^399]: Forkast.News, *ECB's Lagarde gets pranked, reveals digital euro will have 'limited' control*, Yahoo! Finance, 7 april 2023.
+
+[^400]: Voor Rumble-video zie Real Truth Real News, *Vovan and Lexus' Pretend to Be Zelensky*, Rumble, april 2023, (16:34–17:25).

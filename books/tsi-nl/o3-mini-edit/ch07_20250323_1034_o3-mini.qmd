@@ -1,0 +1,415 @@
+# Plaatsgebondenheid overstijgen
+
+:::{.content-hidden when-format=latex}
+*De opkomst van de cybereconomie*
+:::
+
+> 'Waar het werkelijk om draait, is controle. Het internet verspreidt zich zo breed dat geen enkele regering het moeiteloos kan beheersen. Door een naadloze, wereldwijde economische zone te creëren die losstaat van nationale soevereiniteit en niet gereguleerd kan worden, stelt het internet het idee van een natiestaat ter discussie.'[^245] - John Perry Barlow
+
+De informatiesnelweg is uitgegroeid tot een van de bekendste metaforen uit de beginjaren van het digitale tijdperk. Zij springt in het oog, niet alleen vanwege haar alomtegenwoordigheid, maar ook door het misverstand dat zij schetst over de cybereconomie. Een snelweg fungeert immers als een industriële variant van een voetpad, een netwerk dat mensen en goederen fysiek verplaatst. De informatie-economie laat zich echter niet vergelijken met een snelweg, spoorlijn of pijpleiding. In tegenstelling tot de Trans‑Canada Highway, die zware vrachtwagens van Alberta naar New Brunswick vervoert, verplaatst de informatiesnelweg geen informatie van punt naar punt. Wat men ‘informatiesnelweg’ noemt, is dus niet louter een verbindingsweg, maar tevens de bestemming zelf.
+
+Cyberspace overstijgt de beperkingen van fysieke locaties. Dit houdt in dat iedereen direct en op elke plek gegevens deelt. De opkomende informatie-economie rust op netwerken waarin miljoenen gebruikers van talloze computers voortdurend met elkaar in contact komen. De kern ervan schuilt in de nieuwe mogelijkheden die deze verbindingen opleveren. Zoals John Perry Barlow opmerkte: 'Wat het net ons biedt, is de belofte van een nieuwe sociale ruimte, globaal en anti-soeverein, waarin iedereen, overal, zonder angst kan uiten wat hij of zij gelooft. In deze nieuwe media zien we alvast een voorbode van de intellectuele en economische vrijheid die alle autoritaire machten op aarde zou kunnen ontmantelen.'[^246]
+
+Cyberspace doet denken aan het denkbeeldige rijk van Homers goden; het is een domein dat losstaat van onze vertrouwde, aardse wereld vol boerderijen en fabrieken. Toch raken de gevolgen concreet: op een veel grotere schaal dan velen zich nu realiseren, werkt het directe delen van informatie als een oplosmiddel dat grote instellingen doet instorten. Het verandert niet alleen de logica van geweld, zoals we eerder betoogd hebben, maar past ook de informatie‑ en transactiekosten – de sleutelfactoren voor de organisatie van bedrijven en het functioneren van de economie – ingrijpend aan. Wij verwachten dat microverwerking de wereldwijde economische organisatie transformeert.
+
+> 'Het is tegenwoordig, in veel grotere mate dan ooit in de geschiedenis van de wereld, mogelijk voor een bedrijf zich overal te vestigen, overal middelen te benutten om een product te vervaardigen dat overal verkocht kan worden.' - MILTON FRIEDMAN
+
+## De tirannie van de plaats
+
+Het feit dat het afnemende industriële tijdperk de informatiemaatschappij probeert te doorgronden door haar te beschouwen als een enorm openbaar werkproject, bewijst hoe stevig onze ideeën nog verankerd liggen in oude denkkaders. Het doet denken aan hoe boeren aan het eind van de achttiende eeuw een fabriek omschreven als 'een boerderij met een dak.' Toch is de metafoor van de 'snelweg' nog onthullender. Ze maakt bovendien duidelijk hoezeer we nog gevangen zitten in de tirannie van de plaats. Zelfs als technologie ons in staat stelt de beperkingen van een specifieke locatie te doorbreken, krijgt het middel van onze bevrijding een naam die impliceert dat het slechts een route is van de ene plaats naar de andere. Net zoals zalmen, gedreven door hun drang naar thuis, blijft ons denken diep beïnvloed door ideeën over localiteit.
+
+Doorheen de geschiedenis waren economieën altijd verbonden met een lokaal geografisch gebied. De meeste mensen die vóór de twintigste eeuw leefden, brachten hun dagen door als ware huisgevangenen en waagden zich zelden verder dan een paar dagen lopen van de plek waar ze geboren waren. Een reis over een ruime afstand vereiste vaak de inzet van generaties. Alleen af en toe leidden crises, oorlogen, pestuitbraken of ongunstige klimaatveranderingen tot een grootschalige migratie. Iets spectaculairs en dringends was nodig om mensen uit een ellendig dorp weg te lokken; niets minder kon hen motiveren om hun spullen in te pakken en op zoek te gaan naar een beter bestaan.
+
+Tot voor kort genoten de weinigen die buiten hun vertrouwde omgeving kansen zochten vaak grote bekendheid. Denk maar: Marco Polo staat nog altijd bekend om zijn reizen over het Euraziatische continent naar het hof van de Grote Khan. Hij was in zijn tijd de ware uitzondering. Andere reisverslagen uit de premoderne periode zijn nauwelijks overgeleverd. Een van de meest gelezen werken is *Mandeville's Travels*, geschreven in het Frans in 1357, dat opvalt omdat het vermoedelijk door iemand is samengesteld die Europa nooit heeft verlaten. Mandeville beschrijft op verleidelijke en vaak fantasierijke wijze het leven in de wereld, en suggereert daarbij dat veel Ethiopiërs slechts één voet zouden hebben: “[D]e voet is zo groot dat hij het hele lichaam overschaduwt tegen de zon wanneer zij gaan liggen en rusten.”[^247]
+
+Pas toen de moderne tijd ingeluid werd met ontdekkingsreizen aan het einde van de vijftiende eeuw, ontstonden er structurele contacten tussen de continenten. Onverschrokken kapiteins als Christopher Columbus en Vasco da Gama, die op zoek waren naar de specerijenhandel, waren zo buitengewoon dat zij gedurende vrijwel alle vijf eeuwen in de herinnering van elk geletterd huishouden zijn gebleven.
+
+Vanaf de opkomst van de landbouw tot in de recente generaties werd het leven bepaald door stilstand. Tegenwoordig is dat bijna vervlogen, vooral in de Europese vestigingskolonies in de ‘Nieuwe Wereld’, waar mobiliteit vanzelfsprekend is en iedereen het leven bekijkt vanuit het perspectief van een immigrant. Een centraal thema in het Noord-Amerikaanse basisonderwijs is dat de kolonisten uit Europa op zoek gingen naar vrijheid en kansen – en dat klopt. Wat echter zelden aan bod komt, is hoe terughoudend de meesten waren om op reis te gaan, ondanks de armoede waarmee ze thuis geconfronteerd werden. De enkelen die wel migreerden, ondergingen onvoorstelbare ontberingen om zich ergens te vestigen – iets wat wij ons tegenwoordig nauwelijks kunnen voorstellen. Alleen de meest ondernemende of wanhopige armen durfden de reis te maken. In het midden van de zeventiende eeuw gingen de gevangenen uit Bridewell, het beruchte correctiehuis van Londen, in opstand om te laten zien hoe onwillig zij waren om naar Virginia te vertrekken.[^248] In 1720 laaiden de rellen in de straten van Parijs op, toen zwervers, dieven en moordenaars – bestemd voor deportatie naar Louisiana – vrij werden gelaten.
+
+### Smalle horizonnen
+
+Fysieke beperkingen in communicatie en transport, vaak versterkt door een beperkte taalvaardigheid, beperkten menselijk handelen tot het lokale gebied. Al in het begin van de twintigste eeuw spraken Chinese dorpen, die op slechts vijf mijl van elkaar lagen, dialecten die elkaar totaal niet verstonden, zelfs niet langs de kust. De lokale organisatie van vrijwel alle economieën legde zo de basis voor kleine markten en gemiste kansen. Door de beperkte concurrentie bleven de kosten van productiefactoren hoog en was de toegang tot specialistische vaardigheden minimaal. Kleine boeren in grote delen van de wereld raakten door hun uiterst lage inkomens – nauwelijks boven de bestaansgrens – en het ontbreken van toegang tot extern kapitaal of efficiënte verzekeringsmarkten, verstrikt in armoede. We belichten enkele van de problemen waarmee boeren in het beperkte dorpsleven werden geconfronteerd. Zelfs nu, terwijl we dit schrijven, worstelt minstens een miljard mensen – voornamelijk in Azië en Afrika – om rond te komen op minder dan een dollar per dag.
+
+## 'All politics is local'
+
+Veel meer dan men zich vaak realiseert, heeft de beperkte mobiliteit van mensen en hun eigendommen onze kijk op de wereld gevormd. Zelfs degenen die volhouden dat de aarde inmiddels klein is, denken nog steeds in verouderde termen over industriële politiek. Dit illustreert een slogan die in de jaren tachtig populair was onder milieubewuste mensen: 'Denk globaal maar handel lokaal.' De slogan weerspiegelt immers een politiek die altijd draaide om lokale machtsvoordelen.
+
+Lokale denkwijzen werden altijd bepaald door de megapolitiek van vroegere samenlevingen. Alle topografische kenmerken die als obstakels of als stimulans voor machtsuitoefening fungeerden, dragen een intrinsiek lokale lading. Elke rivier, elke berg en elk eiland heeft zijn eigen betekenis op lokaal niveau. Ook het klimaat kent lokale variaties: temperatuur, neerslag en groeicondities veranderen naarmate je een berg beklimt of oversteekt. Elk micro-organisme beweegt zich binnen een bepaalde omgeving en niet zomaar overal.
+
+Het verbaast dus niet dat de tirannie van de plaats ons denken over de organisatie en werking van de samenleving doordringt. De machtsvoordelen die sommige groepen behaalden met een lokaal geweldmonopolie, hebben altijd hun oorsprong ergens in de lokale context en vervagen aan de megapolitieke randen waar men grenzen trekt. Daarom heeft een wereldregering nooit bestaan.
+
+Hoewel men zelden expliciet benoemt hoe belangrijk de locatie is voor het uitoefenen van macht, merkten enkele voorstanders van een gedwongen herverdeling van de vruchten van menselijke activiteit al in de jaren dertig dat de invloed van de plaats afnam. Zij zagen in modern vervoer een duidelijke scheiding tussen de sociale ruimten van de hoogbetaalde en de minderverdienenden. John Dos Passos verwoordde deze zorg treffend in *The Big Money*: 'De zwerver zit aan de rand van de snelweg, gebroken, hongerig. Boven hem vliegt een transcontinentaal vliegtuig vol hoogbetaalde leidinggevenden. De hogere klasse heeft zich in de lucht begeven, de lagere klasse op de weg: er is geen band meer tussen hen, het zijn twee naties.'[^249] Hiermee geeft hij aan dat verbeterd vervoer de hefboomwerking van afpersing verminderde, simpelweg doordat succesvolle mensen een veel grotere keuze kregen qua vestigingsplaats. De zwerver langs de weg kon immers nooit eisen dat hij profiteerde van degenen die hoog in de lucht reisden. De tendensen die Dos Passos zestig jaar geleden opmerkte, zijn sindsdien alleen maar sterker geworden.
+
+### Massatransport
+
+In 1995 staken dagelijks, ergens ter wereld, ongeveer een miljoen mensen de grenzen over – een opmerkelijke verandering vergeleken met vroeger. In de twintigste eeuw was reizen zo zeldzaam dat grenzen vooral als randgebieden werden gezien en nauwelijks een belemmering vormden voor doorgang; paspoorten waren nog onbekend. De opkomst van oceaanstomers, treinen en andere verbeterde vervoermiddelen leidde tot een spectaculaire toename van verplaatsingen. Tegelijkertijd voerden staten steeds strengere regels in, mede dankzij de verbeterde transport- en communicatiemiddelen die reizen voor burgers zowel goedkoper als eenvoudiger maakten. Films en, vooral, televisie speelden daarnaast een belangrijke rol in het verbreden van horizonten en het stimuleren van reizen en immigratie. Desondanks blijven de fundamentele beginselen van de sociale en economische organisatie verankerd in de lokale context.
+
+> 'We moeten voorkomen dat we ons lef verliezen, waarvoor de geschiedenis meedogenloos straft. We moeten de moed hebben om alle technische extrapolaties tot hun logische conclusie door te voeren.'[^250]: - Arthur C. Clarke
+
+## De fout van minimale verwachtingen
+
+De beperkte verbeelding blijft nog altijd zo strak begrensd dat een aantal experts, die in 1995 het internet onder de loep namen, concludeerden dat het weinig commercieel potentieel bezit en vrijwel geen betekenis heeft, behalve als medium voor chat en als uitlaatklep voor pornografie. De vele sceptici over het economische belang van cyberspace vormen de kolonelblimps van het informatietijdperk. Hun zelfgenoegzaamheid evenaart die van het Britse establishment, dat in de jaren dertig te maken kreeg met de achteruitgang van het rijk. Telkens wanneer elites zich bedreigd voelen, reageren zij allereerst door de dreiging te ontkennen. Dit blijkt uit hun verwachting dat het internet nooit meer dan een bijzaak zal blijven, een visie die soms zelfs door autoriteiten wordt gedeeld die beter hadden moeten weten. We verwezen eerder naar het werk van David Kline en Daniel Burstein, *Road Warriors: Dreams and Nightmares Along the Information Highway*. Hun afwijzing van het economische potentieel van het net levert extra bewijs dat technische onderlegdheid niet synoniem staat met het doorgronden van technologische gevolgen.[^251]
+
+Zelfs technisch onderlegde waarnemers slaagden het in het verleden vaak niet om de implicaties van nieuwe technologieën te doorgronden. In 1878 kwam een Brits parlementair comité, dat de vooruitzichten voor Thomas Edison's gloeilamp moest beoordelen, tot de conclusie dat Edison's ideeën 'goed genoeg zijn voor onze trans-Atlantische vrienden, … maar de aandacht van praktische of wetenschappelijke mannen niet waard' waren.[^252]
+
+[^252]: Thomas Edison zelf was een man van grote visie, maar volgens hem zou de door hem uitgevonden fonograaf vooral door zakenmensen voor dictaten worden gebruikt.
+
+Nog net voordat de gebroeders Wright aantoonden dat vliegtuigen konden vliegen, liet de vooraanstaande Amerikaanse astronoom Simon Newcomb op gezaghebbende wijze zien waarom vliegen met een voertuig dat zwaarder is dan lucht onmogelijk is. Hij stelde: 'Het is aantoonbaar dat geen enkele combinatie van bekende materialen, bekende machinebouwtechnieken en bekende vormen van kracht samen een praktische machine oplevert waarmee mensen grote afstanden door de lucht kunnen reizen, zo overtuigend als elk natuurkundig feit kan worden bewezen.'[^253]
+
+[^253]:
+
+Niet lang nadat vliegtuigen daadwerkelijk in de lucht waren getreden, legde een andere gerenommeerde astronoom, William H. Pickering, aan het publiek uit waarom commercieel vliegvervoer nooit van de grond zou komen. Hij merkte op: 'De populaire geest stelt zich vaak gigantische vliegende machines voor die in razendsnel tempo de Atlantische Oceaan doorkruisen en een ontelbaar aantal passagiers vervoeren, op een wijze die vergelijkbaar is met onze moderne stoomschepen. … [I]t is duidelijk dat met onze huidige apparaten geen hoop bestaat om qua racesnelheid te concurreren met noch onze locomotieven, noch onze automobielen.'[^254]
+
+[^254]:
+
+Eerder noemden we al een andere buitengewoon verkeerde voorspelling over het potentieel van een nieuwe technologie: de voorspelling van de Mercedes-makers aan het begin van de twintigste eeuw dat er wereldwijd nooit meer dan één miljoen auto's zouden komen. Zij kenden auto's als geen ander, maar ze schatten de impact van auto's op de samenleving ronduit verkeerd in.
+
+Gezien deze traditie van misverstanden is het nauwelijks verrassend dat velen er lang over doen om de belangrijkste implicaties van de nieuwe informatietechnologie te doorgronden, namelijk dat deze de tirannie van de plaats overstijgt. De nieuwe technologie opent voor het eerst een oneindig, locatieonafhankelijk domein voor economische activiteiten. Het biedt de mogelijkheid om de grenzen van de cybereconomie te verkennen en zo 'wereldwijd te denken en te handelen'. Dit hoofdstuk legt uit waarom.
+
+## Voorbij de plaatsgebondenheid
+
+De verwerking en het gebruik van informatie verdringen razendsnel fysieke producten als voornaamste bron van winst. Dit heeft verstrekkende gevolgen. Informatietechnologie koppelt de mogelijkheid om inkomen te genereren niet langer aan één specifieke woonplaats. Doordat steeds meer waarde ontstaat door ideeën en kennis aan producten en diensten toe te voegen, valt een kleiner aandeel van die toegevoegde waarde binnen lokale rechtsgebieden. Ideeën ontstaan overal en kunnen met de snelheid van het licht over de hele wereld verspreid worden. Dit impliceert onvermijdelijk dat de informatie-economie radicaal verschilt van de economie van het industriële tijdperk.
+
+We geven de critici toe dat een opsomming van taken die je in 1996 via het internet kon uitvoeren, op het eerste gezicht alledaags lijkt. Tenslotte is er niets revolutionairs aan het lezen van een artikel over tuinieren op het internet of aan het op afstand aanschaffen van een kist wijn. Het potentieel van de cybereconomie laat zich echter niet louter beoordelen op basis van haar vroege beginfase, net zoals men in 1900 niet kon inschatten welke transformatieve impact de auto op de samenleving zou hebben. Wij verwachten dat de cybereconomie zich in verschillende fasen zal ontwikkelen.
+
+1. De basale toepassingen in het informatietijdperk zien het internet als een simpel informatiemedium dat de gangbare transacties uit de industriële periode ondersteunt. Momenteel fungeert het internet eigenlijk louter als een exotisch bezorgingssysteem voor catalogi. Virtual Vineyards, een van de eerste cyberhandelaren, verkoopt gewoon wijn via een webpagina op het World Wide Web. Zulke transacties ondermijnen de bestaande instituties nog niet, omdat ze in industriële valuta plaatsvinden en binnen bekende rechtsgebieden opereren. Hierdoor blijft de megapolitieke impact beperkt.
+
+2. In een tussentijdse fase van internetcommercie benut men informatietechnologie op manieren die in de industriële tijd onmogelijk waren, bijvoorbeeld voor boekhouding op afstand of voor medische diagnostiek. Hieronder worden nog enkele voorbeelden gegeven van deze nieuwe toepassingen van geavanceerde rekenkracht. Ook in dit tweede stadium blijft men binnen het oude institutionele kader werken: handelaren gebruiken nationale valuta en vallen onder de jurisdictie van natiestaten. Zij zetten het internet uitsluitend in om inkomsten te genereren en beheren er hun winsten nog niet mee; deze winsten blijven bovendien aan belastingheffing onderworpen.
+
+3. Een verder gevorderd stadium markeert de overgang naar echte cybercommercie. Transacties vinden niet alleen via het internet plaats, maar vallen ook buiten de jurisdictie van natiestaten. Men verricht betalingen in cybervaluta, boekt winsten in cyberbanken en investeert via cybermakelaardijen. Veel transacties blijven bovendien onbelast. In dit stadium krijgt cybercommercie al aanzienlijke megapolitieke gevolgen. De nieuwe logica van het internet transformeert de traditionele machtspositie van overheden over economische domeinen. Overheden verliezen hun extraterritoriale regelgevende macht, jurisdicties decentraliseren en bedrijven reorganiseren zich, terwijl ook de aard van werk en tewerkstelling ingrijpend verandert. Deze schets van de fasen in de informatierevolutie biedt slechts een oppervlakkige indruk van wat mogelijk de meest ingrijpende economische transformatie ooit wordt.
+
+## De globalisering van handel
+
+In het informatietijdperk zullen technologische ontwikkelingen de meeste traditionele jurisdictievoordelen snel tenietdoen. Tegelijkertijd ontstaan er nieuwe vormen van voordeel. Lagere communicatiekosten hebben de noodzaak om fysiek aanwezig te zijn voor zakendoen al sterk verminderd. In 1946 kon een investeerder in Londen via een makelaar in New York een order plaatsen, maar alleen de grootste en meest overtuigende transacties rechtvaardigden dat: een drie minuten durend telefoongesprek tussen New York en Londen kostte toen $650. Tegenwoordig betaal je daar slechts $0,91 voor. In een halve eeuw is de prijs van een intercontinentaal telefoongesprek met meer dan 99 procent gedaald.
+
+### Convergente communicatie
+
+Binnenkort merk je nauwelijks verschil tussen intercontinentale chat en een lokaal telefoongesprek. Ook vervagen de verschillen tussen je telefoon, computer en televisie steeds meer; je onderscheidt ze immers vooral op basis van ergonomie in plaats van functionaliteit. Met je persoonlijke computer voer je spraakgesprekken via het internet, gebruikmakend van de ingebouwde microfoon en luidsprekers, en bekijk je films. Daarnaast kun je met je televisie communiceren en grote hoeveelheden data uitwisselen via netwerken die door de televisie-entertainmentmedia worden aangeboden. Zodra het onderscheid tussen de verschillende vormen van communicatie in het industriële tijdperk verdwijnt en de kosten kelderen, reken je steeds vaker per gebruiksduur in plaats van per bestemming van je berichten. Al met al betaal je straks voor gesprekken en datatransmissies wereldwijd nauwelijks meer dan wat je in 1985 voor een lokaal telefoongesprek betaalde.
+
+### Internet onbedraad
+
+Innovatieve satellieten in een lage baan en andere doorbraken op het gebied van draadloze technologie zenden signalen rechtstreeks naar een beeper in je zak, een draagbare computer of een werkstation – helemaal zonder aansluiting op een lokaal telefonienet of kabel-tv-systeem. Kortom, het internet werkt straks volledig draadloos. De eerste stappen in deze richting verlopen ongetwijfeld stroef: de datadoorvoersnelheid in vroege draadloze media is nog relatief laag en het opvangen van zwakke signalen van mobiele, op batterijen werkende abonneetoestellen brengt zijn uitdagingen met zich mee. Niettemin pakken we deze technische problemen aan en lossen we ze op.
+
+### Zakendoen zonder grenzen
+
+De voortdurende toename van rekencapaciteit leidt tot geavanceerdere compressietechnieken, wat de gegevensstroom versnelt. Door bestaande algoritmen voor encryptie met publieke en private sleutels op grote schaal toe te passen, kunnen aanbieders – zoals satellietsystemen – de factureringsfunctie naadloos in hun dienst integreren en zo kosten besparen. Tegelijkertijd krijgen leveranciers de mogelijkheid om rekeningen die op pc's zijn geladen, direct te belasten, net zoals *France Telecom* de 'smartcards' in de telefoonhokjes in Parijs debiteert.
+
+### De telefoon wordt een bank
+
+Het verschil is dat je binnenkort door diverse transacties tegoed opbouwt en dat je je telefooncel altijd bij je hebt. Je pc fungeert als het filiaal van je bank en als wereldwijde betalingsfacilitator, vergelijkbaar met dat Parijse loket waar je anonieme telefoonkaarten aanschaft. Bovendien, net zoals de 150 betaaltelefoons met smartcards – die voor inbrekers vrijwel nutteloos zijn wanneer ze met een koevoet opengebroken worden – kan jouw computer alleen gehackt worden door iemand die geavanceerde computercode weet te kraken of manipuleren, waardoor veel ruige inbrekers buiten spel blijven.
+
+Met de juiste encryptie kun je er zeker van zijn dat niemand jouw computerdata ontcijfert of misbruikt.
+
+Tegen het millennium kun je vrijwel overal zaken doen – zelfs ten noorden van Antarctica. Je bevindt je in omgevingen waar bedrade of digitale mobiele telefonie beschikbaar is, waar interactieve kabeltelevisiesystemen draaien of waar een satelliet of ander draadloos transmissiesysteem actief is. Je kunt communiceren, data uitwisselen en dankzij virtual reality moeiteloos grenzen en barrières oversteken. Traditionele telefoonnummers, die met netnummers de locatie van de beller aangeven, maken waarschijnlijk plaats voor universele toegangsnummers waarmee je wereldwijd contact legt met de gewenste partij.
+
+### Chinees begrijpen
+
+U zult niet enkel kunnen praten en faxen. Na verloop van tijd verkort u het jarenlange leertraject, zodat u in het Chinees kunt converseren met een voorman in een fabriek in Shanghai. Het maakt weinig uit dat u zijn taal of dialect niet spreekt. Hoewel hij in het Chinees communiceert, vangt u zijn woorden op als 'transcending locality i 8' – ongeveer vertaald naar het Engels. Hij hoort immers uw gesprek in het Chinees. Spoedig vergroot uw vermogen tot onmiddellijke vertaling de concurrentiekracht in regio’s waar taal- en uitdrukkingsbarrières voorheen een struikelblok vormden. Op dat moment maakt het nauwelijks of helemaal niet uit dat de Chinese regering misschien bezwaar heeft tegen het plaatsen van de oproep.
+
+### Gepersonaliseerde media
+
+Naarmate de wereld steeds meer samenkomt, krijgt u meer mogelijkheden dan ooit om uw eigen positie vorm te geven. Ook de informatie die u via de media binnenkrijgt, kiest u zelf. De traditionele massamedia maakt plaats voor gepersonaliseerde media. Bent u een fanatieke schaker of een fervent kattenliefhebber? Dan kunt u uw avondnieuws zo inrichten dat het uitsluitend nieuws bevat over uw favoriete onderwerpen. U hoeft niet langer afhankelijk te zijn van Dan Rather of van *BBC* voor uw nieuwsvoorziening. U selecteert zelf het nieuws dat volledig is afgestemd op uw wensen.
+
+### Van massa naar op maat gemaakte productie
+
+Als het nieuws traag verloopt, kun je een virtuele catalogus raadplegen op het *World Wide Web*. Als je een broek ziet die je bijna bevalt, kun je bij je bestelling de breedte van de pijpen aanpassen. De broek wordt dan op maat gesneden en door robots in Maleisië nauwkeurig afgestemd op je lichaam, op basis van foto's die je via je computer scant en over het internet verstuurt.
+
+### Cyberbroking
+
+Je kunt cybergeld inzetten om te investeren en voor diensten en producten te betalen. Als je in een rechtsgebied woont zoals de Verenigde Staten, waar investeringsmogelijkheden streng gereguleerd zijn, kies je er bewust voor je activiteiten onder te brengen in een omgeving die volop vrijheid biedt in investeringskeuzes. Of je nu in Cleveland of in Belo Horizonte woont, je kunt je investeringszaken regelen in Bermuda, op de Kaaimaneilanden, in Rio de Janeiro of in Buenos Aires. Waar je ook bent, digitale middelen krijgen steeds meer gewicht naarmate de cybereconomie floreert. Je zet expertssystemen in om je investeringen te selecteren en schakelt cyberaccountants en -boekhouders in om de voortgang van je portefeuille in realtime te volgen.
+
+### Virtuele cultuur
+
+Wanneer je even niet bezig bent met winst- en verliescijfers, kun je een virtueel bezoek brengen aan het Louvre. Voordat je op pad gaat, moet je mogelijk een royalty betalen ter waarde van een derde van een cent aan Bill Gates of aan iemand met een vergelijkbare vooruitziende blik die de rechten op virtuele realiteit voor museumbezoeken heeft verworven. Terwijl je je afvraagt of de Mona Lisa ooit problemen met haar tanden had, downloadt je computer ondertussen S. I. Hsiung’s vertaling van De romance van de westerse kamer. Op het moment dat jij dat wilt, leest je persoonlijke communicatiesysteem de tekst voor, als een bard uit weleer. Dankzij multitaskingprogramma’s kun je meerdere functies gelijktijdig uitvoeren.
+
+### Het uitkiezen van rechtsgebieden op het internet
+
+Als je geïnspireerd bent door je dosis klassiekers, kun je een virtuele onderneming opzetten om indrukwekkende uitvoeringen van bekende literaire werken te presenteren via een driedimensionale netvliesweergave. In plaats van dat de beelden in de lucht worden geprojecteerd, verschijnen ze rechtstreeks op de netvliezen van de kijkers met laagenergetische lasers die vijftigduizend keer per seconde pulseren. Deze technologie, die door *MicroVision* uit Seattle, Washington al in ontwikkeling is, stelt veel mensen die wettelijk blind zijn in staat om te zien. Voordat je aan het project begint, geef je je digitale assistent de opdracht om de huidige contractaanbiedingen voor de bescherming van productiefaciliteiten in Maleisië, China, Peru, Brazilië en Tsjechië in kaart te brengen. Zodra je een locatie kiest, regelt *St. George's Trust Company* dat je bedrijf binnen een uur wordt geregistreerd in de Bahama's. Je instructies zorgen ervoor dat alle liquide activa van je bedrijf op een cyberrekening worden ondergebracht bij een cyberbank die tevens actief is in Newfoundland, de Kaaimaneilanden, Uruguay, Argentinië en Liechtenstein. Als een van deze rechtsgebieden besluit de operationele bevoegdheid in te trekken of de activa van de depositohouders in beslag te nemen, worden de activa automatisch met de lichtsnelheid naar een ander rechtsgebied overgeheveld.
+
+## Kwalitatieve vooruitgang
+
+Veel transacties die je binnenkort in cyberspace kunt uitvoeren, waren in het industriële tijdperk ondenkbaar – en dat komt niet alleen doordat ze een taalbarrière overschreden. Het inzetten van digitale assistenten om onvertaalde artikelen uit Hongaarse wetenschappelijke tijdschriften te verzamelen, onderscheidt zich qua kwaliteit van een gesprek met een bibliothecaris. Het deelnemen aan een Oxford-tutorial op een afstand van vijfduizend mijl is niet te vergelijken met het volgen van diezelfde tutorial terwijl je binnen zes mijl van Carfax slaapt. En roulette spelen in het *Hotel de Paris* in Monte Carlo biedt een totaal andere ervaring wanneer je dit via *virtual reality* vanuit een feest in Punte del Este, Uruguay beleeft.
+
+### Een cyberbezoek aan de cyberdokter
+
+Binnen korte tijd – misschien wel sneller dan veel deskundigen verwachten – verschuift het economische landschap naar de cybereconomie. Hierbij combineer je technologieën op vernieuwende wijze om de beperkingen van locatiegebondenheid en de achterhaalde instituties van de industriële economie te doorbreken.
+
+Al snel, wanneer je buikpijn krijgt, raadpleeg je een digitale dokter – een expertsysteem met encyclopedisch inzicht in symptomen, kwalen en tegengif. Dit systeem doorzoekt, in versleutelde vorm, je medische geschiedenis en vraagt of je pijn ervaart na of vóór de maaltijd. Of de pijn scherp of dof, constant of sporadisch is, de digitale dokter stelt alle vragen die een arts zou stellen. Hij kan daarbij vaststellen dat je te veel of juist te weinig wijn drinkt en je eventueel doorverwijzen naar een cyberspecialist. Heb je een operatie nodig, dan verricht een cyberschirurg in Bermuda de ingreep op afstand met behulp van gespecialiseerde apparatuur die microsneden maakt.
+
+### Leven-en-dood informatieverwerking
+
+Dit klinkt wellicht als sciencefiction, maar veel onderdelen van de cyberchirurgie zijn al beschikbaar. Tegen de tijd dat je dit boek leest, werken de andere toepassingen waarschijnlijk ook.
+
+General Electric heeft in vijftien ziekenhuizen wereldwijd een nieuwe machine voor magnetische resonantietherapie (MRT) geïntroduceerd. Men verwacht dat de machine een driejarig traject op het gebied van onderzoek en ontwikkeling doorloopt, waarna hij waarschijnlijk snel wijdverspreid wordt en de standaard vormt voor tal van operaties. Dit is een uitstekend voorbeeld van hoe technologie onze samenleving transformeert.
+
+De meesten van ons kennen MRI‑machines, waarmee artsen via magnetische resonantietechnieken beelden van zacht weefsel verkrijgen voor diagnostische doeleinden. Deze machines leveren betere beelden dan röntgenfoto’s of echografie en zijn onmisbaar geworden in de moderne diagnostiek, vooral bij kanker. Toch kampen ze momenteel met twee belangrijke beperkingen: de buis biedt geen directe toegang tot de patiënt en bovendien ontbreekt het hen aan kracht.
+
+### Cyberchirurgie
+
+*General Electric* heeft de magnetische resonantiemachines zo aangepast dat ze zowel voor diagnostiek als voor behandelingen ingezet kunnen worden. Ze hebben de kracht van de machines met een factor vijf verhoogd en de buis in twee helften verdeeld, waardoor de patiënt niet langer volledig wordt omsloten, maar tussen twee donutvormige compartimenten komt te liggen. In plaats van eerst een beeld vast te leggen waarop later de operatie wordt gebaseerd, ziet de chirurg direct wat hij doet tijdens de ingreep. Het systeem koppelt de MRT aan microchirurgische technieken die minder invasief zijn. De chirurg hoeft geen grote sneden met een scalpel te maken, maar zet kleine incisies met sonderingsinstrumenten, waarbij hij in real‑time observeert wat deze onthullen. Hij voert de operatie uit op basis van het beeld, in plaats van er direct in te kijken. Bovendien kan hij de sonderingsinstrumenten in principe op afstand bedienen. Zo kunnen tumoren met uiterste precisie worden vernietigd, bijvoorbeeld met behulp van laserapparatuur of via cryogene warmte‑ en vriesbehandelingen.
+
+Hiermee worden operaties mogelijk die tot nu toe onmogelijk leken, vooral in de neurochirurgie, waar tumoren zich vaak zeer dicht bij vitale hersengebieden bevinden. Ook maakt deze techniek herhaalde operaties haalbaar, wanneer het trauma van de traditionele ingreep niet herhaald kan worden zonder onaanvaardbare schade. Sommige onderzoekers zijn van mening dat het mes voor zachte weefselchirurgie tegen 2010 tot een verouderd relikwie zal behoren. Als dat standhoudt, verminderen zowel de angst als de naschokken die bij traditionele operaties horen. Uiteraard is dit uitstekend nieuws voor de patiënt. Terwijl operaties tegenwoordig uren duren en gevolgd worden door dagen of weken ziekenhuisopname, kan de ingreep in slechts een half uur worden voltooid en is een opname mogelijk overbodig. In feite kunnen de chirurg en de patiënt zelfs nooit in dezelfde ruimte aanwezig zijn. Maar wat betekent dit voor ziekenhuizen en chirurgen?
+
+### Minder microsurgen die meer operaties uitvoeren
+
+Er staat een revolutie in de chirurgie op het punt van uitbreken. Tijdens hun opleiding lukt een derde van de jonge chirurgen niet om de vaardigheden voor microscopische chirurgie eigen te maken, een derde beheerst de techniek enigszins en één derde blinkt uit. Vergelijkbare verhoudingen zien we ook bij omscholingscursussen voor ervaren chirurgen. Hierdoor zullen minder chirurgen in staat zijn om een groter aantal operaties in een kortere tijd uit te voeren. Zorgverzekeraars en patiënten zullen ongetwijfeld aandringen op prestatiestatistieken per chirurg, die flink kunnen verschillen. Patiënten kiezen bij levensbedreigende aandoeningen vooral voor de chirurgen met de beste resultaten. In sommige gevallen opereren de beste chirurgen zelfs op afstand; zij voeren de gehele ingreep uit vanuit een ander rechtsgebied waar de belastingen lager zijn en waar rechtbanken buitensporige claims wegens medische fouten niet honoreren.
+
+### Digitale juristen
+
+Voordat een ervaren chirurg akkoord gaat met een operatie, schakelt hij of zij waarschijnlijk een digitale jurist in om onmiddellijk een contract op te stellen. Dit contract specificeert en beperkt de aansprakelijkheid op basis van de grootte en kenmerken van de tumor, zoals die zichtbaar zijn in de beelden van de magnetische resonantiemachine.
+
+Digitale juristen werken als systemen voor informatieopvraging die automatisch de juiste contractbepalingen selecteren. Ze maken daarbij gebruik van kunstmatige intelligentietechnologieën, zoals neurale netwerken, om particuliere contracten op maat te maken die voldoen aan transnationale juridische eisen.
+
+Deelnemers aan belangrijke en waardevolle transacties zoeken niet alleen geschikte zakenpartners, maar kiezen ook een passend vestigingsadres voor hun transacties.
+
+### Spoedconsultatie
+
+Om het voorbeeld van cybersurgery voort te zetten, zet de technologie van het informatietijdperk de topchirurgen extra in de schijnwerpers, zoals in vrijwel elk ander vakgebied. Al zolang er messen bestaan, zijn patiënten bereid een meerprijs te betalen. Beperkingen in informatie en de moeite om in een noodsituatie een lokale chirurg te vinden, maken de chirurgiemarkt onvolmaakt. In het informatietijdperk wordt die markt aanzienlijk efficiënter.
+
+Een patiënt die binnen 24 uur – of zelfs binnen 45 minuten – een operatie nodig heeft, kan digitale assistenten inschakelen om wereldwijd de tien beste chirurgen te vinden die op afstand opereren. Deze assistenten beoordelen hun slagingspercentages in vergelijkbare gevallen en vragen via geschikte digitale vertegenwoordigers offertes op voor het specifieke geval. Dit alles kan binnen enkele ogenblikken geregeld worden.
+
+Hierdoor verovert de top tien procent op de wereldmarkt voor chirurgie een aanzienlijk groter marktaandeel. De magnetische resonantiemachine, gecombineerd met microchirurgische technieken, drijft bovendien de meerprijs voor hun diensten verder op. Chirurgen met minder bekwaamheid richten zich op de overgebleven lokale markten.
+
+Dit leven-en-doodvoorbeeld illustreert enkele revolutionaire gevolgen van het loslaten van de beperkingen van plaatsgebondenheid in de economie. Sommigen zouden kunnen aanvoeren dat de magnetische resonantiemachine van *General Electric* niet bedoeld is voor op afstand gebruik. Misschien wel, maar dat raakt de kern van de zaak niet. Het toestel – of een vergelijkbaar apparaat – zal die mogelijkheid spoedig bieden. Wanneer chirurgen operaties uitvoeren via beeldschermen in plaats van de patiënt direct te zien, wordt de locatie van de chirurg en zijn scherm steeds minder relevant.
+
+Steeds meer diensten richten zich op het feit dat informatietechnologie mensen wereldwijd verbindt, zelfs op een zo delicate plek als in de chirurgie. In activiteiten waarvoor minder precieze apparatuur nodig is en de kans op mislukking kleiner is, zal de cybereconomie nog sneller floreren.
+
+'Het financiële beleid van de verzorgingsstaat zorgt ervoor dat vermogende burgers geen enkele mogelijkheid hebben om zichzelf te beschermen.' - Alan Greenspan
+
+## Devaluatie van dwang
+
+In vrijwel elk concurrentieveld – inclusief het merendeel van 's werelds investeringsactiviteiten ter waarde van meerdere triljoenen dollars – drijft een bijna onstuitbare kracht de verschuiving van transacties naar de cyberruimte. Die kracht vloeit voort uit de drang om roofzuchtige belastingen te ontlopen, zoals de last van inflatie voor iedereen die zijn vermogen in een nationale munteenheid aanhoudt.
+
+### Ontsnappen aan het beschermingsracket
+
+Je hoeft niet lang stil te staan bij de megapolitiek van dit informatietijdperk om te beseffen dat de roofzuchtige belastingen en de inflatie, die de machtigste geïndustrialiseerde landen routinematig aan hun burgers opleggen, op de nieuwe grens van de cyberruimte volstrekt onconcurrerend zullen blijken. Kort na de millenniumwisseling zullen mensen die momenteel inkomstenbelasting betalen er uiteindelijk voor kiezen om 50 procent af te dragen. Zoals Frederic C. Lane opmerkte, leert de geschiedenis ons dat 'aan de grenzen en op de hoge zeeën, waar niemand een blijvend monopolie had op het gebruik van geweld, handelaren de betaling van heffingen vermeden die zo hoog waren dat bescherming op andere, goedkopere wijze verkregen kon worden.' [^255]
+
+De cybereconomie biedt precies zo'n alternatief. Geen enkele overheid slaagt erin dit te monopoliseren. Bovendien bieden de bijbehorende informatietechnologieën een veel goedkopere en effectievere bescherming van financiële activa dan de meeste overheden ooit hebben gekund.
+
+### De zwarte magie van samengestelde rente
+
+Onthoud: als je elk jaar $5.000 betaalt gedurende veertig jaar, slijt dat je nettovermogen met $2,2 miljoen – uitgaande van een rendement van slechts 10 procent op je kapitaal. Bij een rendement van 20 procent loopt het samengestelde verlies op tot ongeveer $44 miljoen. Voor hoogverdieners in landen met hoge belastingen zijn de totale verliezen door roofzuchtige belastingheffing over een heel leven ronduit adembenemend. De meesten raken uiteindelijk met een verlies geëindigd dat groter is dan alles wat ze ooit bezaten.
+
+Dit klinkt misschien ongelooflijk, maar de wiskunde staat als een paal boven water. Je kunt dit zelf gemakkelijk nagaan met een simpele rekenmachine. De top 1 procent van de belastingbetalers in de Verenigde Staten betaalt gemiddeld meer dan $125.000 aan federale inkomstenbelasting per jaar. Voor een fractie daarvan – namelijk $45.000 per jaar – kom je in aanmerking voor een particuliere belastingregeling in Zwitserland, waar je profiteert van de orde en veiligheid die men beschouwt als het meest complete politie- en rechtssysteem ter wereld. Vanuit dit perspectief kun je de extra $80.000 aan jaarlijkse inkomstenbelasting boven dat royale niveau als een ware tribuut of zelfs als plundering bestempelen. $45.000 vormt immers een aanzienlijke bijdrage aan het handhaven van orde en veiligheid, aangezien politiebescherming als een publiek goed geldt. In theorie leveren publieke goederen extra gebruikers op zonder bijkomende marginale kosten. De Zwitsers zijn dan ook tevreden dat je een overeengekomen vaste belasting van $45.000 (oftewel 50.000 Zwitserse frank) per jaar betaalt, want per aangemelde miljonair boeken zij daarmee jaarlijks $45.000.
+
+Als je de Zwitserse regeling vergelijkt, lijdt een belegger die gemiddeld 20 procent rendement behaalt en federale inkomstenbelasting betaalt volgens Amerikaanse tarieven, over een hele levensloop een verlies van ongeveer $705 miljoen. Houd er wel rekening mee dat dit uitgaat van een jaarlijkse belasting van $45.000. Vergelijk dat eens met een belastingparadijs als Bermuda, waar vrijwel geen inkomstenbelasting geldt. Daar zou het levenslange verlies bij Amerikaanse tarieven oplopen tot ongeveer $1,1 miljard.
+
+Je zou kunnen stellen dat een jaarlijks rendement van 20 procent buitengewoon hoog is – daar heb je zeker een punt. Maar dankzij de indrukwekkende groei in Azië gedurende de afgelopen decennia hebben veel beleggers wereldwijd dat rendement – of zelfs meer – weten te behalen. Sinds 1950 ligt het samengestelde rendement op vastgoedbeleggingen in Hongkong op meer dan 20 procent per jaar. Zelfs in economieën die niet bekendstaan om hun sterke groei, boden zich vaak makkelijke kansen op hoge winsten. In de afgelopen drie decennia had je met deposito’s in Amerikaanse dollars bij Paraguayaanse banken een reëel gemiddeld rendement van meer dan 30 procent per jaar kunnen boeken. Op sommige plekken kun je eenvoudig hoge investeringsopbrengsten realiseren, maar ook ervaren beleggers kunnen in goede jaren winsten van 20 procent of meer behalen, ook al evenaren zij niet altijd de prestaties van George Soros of Warren Buffett.
+
+Het ligt voor de hand: hoe hoger het rendement op je kapitaal, hoe groter de opportuniteitskosten die ontstaan door buitensporige inkomsten- en vermogenswinstbelastingen. Toch komt de constatering dat het verlies enorm is – soms zelfs groter dan de totale rijkdom die je ooit had kunnen opbouwen – niet door het behalen van uitzonderlijk hoge rendementen. Sommige Amerikaanse beleggingsfondsen boeken al langer dan een halve eeuw een gemiddeld jaarlijks rendement van meer dan 10 procent. Als dit het beste resultaat is dat je kunt behalen en je behoort tot de top 1 procent van de Amerikaanse verdieners, daalt je nettovermogen met meer dan $33 miljoen, enkel door de inkomstenbelasting die je betaalt over je inkomen boven de $45.000 per jaar. Vergeleken met een jurisdictie zonder inkomstenbelasting bedraagt dat verlies zelfs $55 miljoen.
+
+$55 in plaats van $55 miljoen
+
+Als de winstmaximaliserende aannames van economen kloppen – wat wij in het algemeen veronderstellen – zullen de meeste mensen proberen $55 miljoen te redden als dat mogelijk was. Dat is onze voorspelling.
+
+Wanneer de zwarte magie van samengestelde rente meer doordringt in de hoofden van succesvolle mensen in landen met hoge belastingen, gaan zij serieus op zoek naar gunstigere rechtsgebieden – net zoals zij tegenwoordig auto's kopen of verzekeringspremies vergelijken.
+
+Als je nog twijfelt, spreek dan gewoon wat mensen op straat in New York of Toronto aan en vraag of zij voor $55 miljoen bereid zijn naar Bermuda te verhuizen. Het antwoord spreekt voor zich.
+
+Dit dilemma doet me denken aan de keuze waar Mark Twain ooit mee worstelde: of hij de nacht doorbracht met Lillian Russell, helemaal naakt, of met generaal Grant in vol ornaat uniform. Hij aarzelde geen moment.
+
+Bewoners van gevestigde verzorgingsstaten – vooral in de Verenigde Staten – reageren misschien wat langzamer, simpelweg omdat ze nog niet doorhebben welke keuze op hen wacht. Maar na verloop van tijd zal dat veranderen.
+
+Jij – of wie er ook naar een beter leven streeft – zult al gauw merken hoe verleidelijk het is om de verliezen door roofzuchtige belastingheffing te beperken.
+
+Je hoeft alleen maar je transacties in de digitale wereld vast te leggen. Natuurlijk is dat in veel rechtsgebieden illegaal, maar oude wetten houden nauwelijks stand tegen nieuwe technologie.
+
+In de jaren tachtig verbood de Verenigde Staten het versturen van faxen. Het Amerikaanse postkantoor beschouwde faxen als eersteklas post – een terrein waarop het al eeuwenlang een monopolie uitoefende. De autoriteiten gaven dan ook een bevelschrift uit waarin zij eisten dat alle faxtransmissies via het dichtstbijzijnde postkantoor moesten verlopen, zodat ze als gewone post werden afgeleverd.
+
+Na miljarden verzonden faxen is het inmiddels onduidelijk of iemand ooit echt aan die regel heeft voldaan – en als dat wel het geval was, dan duurde die naleving nauwelijks lang. De voordelen van opereren in de opkomende cybereconomie wegen immers ruimschoots zwaarder dan het incidenteel omzeilen van het postkantoor bij het versturen van een fax.
+
+De brede toepassing van public-key en private-key encryptietechnologieën maakt binnenkort talloze economische activiteiten op elke gewenste locatie mogelijk. Zoals James Bennet, technologie-redacteur bij *Strategic Investment*, opmerkte:
+
+> De handhaving van wetten en met name belastingwetgeving is sterk afhankelijk geworden van het toezicht op communicatie en transacties. Zodra de volgende logische stappen zijn gezet en offshorebanken de dienst aanbieden van communicatie via hard RSA-versleutelde e-mail met rekeningnummers afgeleid van public-key-systemen, zullen financiële transacties bijna onmogelijk te monitoren zijn, zowel bij de bank als in de communicatie. Zelfs als de belastingautoriteiten een mol in de offshorebank zouden plaatsen, of in de bankadministratie zouden inbreken, zouden zij niet in staat zijn de rekeninghouders te identificeren.[^256]
+
+Op een ongekend niveau kunnen mensen binnenkort zelf bepalen waar zij hun economische activiteiten vestigen en hoeveel inkomstenbelasting zij willen betalen. In het informatietijdperk hoeven veel transacties helemaal niet binnen de grenzen van een territoriale soevereiniteit plaats te vinden. Degenen die dat wel moeten, zullen steeds vaker terechtkomen in regio’s als Bermuda, de Kaaimaneilanden, Uruguay of in vergelijkbare rechtsgebieden waar geen inkomstenbelasting en andere kostbare transactiekosten op de handel worden geheven.
+
+### Van monopolie naar concurrentie
+
+Overheden hebben er inmiddels aan gewend geraakt om zogenoemde 'beschermingsdiensten' op te leggen die – om in de woorden van Frederic C. Lane te zeggen – 'van slechte kwaliteit en belachelijk overprijsd' zijn.[^257] Deze praktijk, waarbij men veel meer rekent dan de daadwerkelijke waarde van overheidsdiensten, is ontstaan tijdens eeuwenlange monopolievorming. Overheden hanteerden meedogenloos belastingen voor iedereen die schijnbaar in staat was te betalen, omdat zij feitelijk een (bijna-)monopolie op dwang bezaten. Deze monopolietraditie zal op ingrijpende wijze botsen met de nieuwe megapolitieke kansen binnen de cyberhandel.
+
+Encryptie maakt het nu eenvoudig om transacties in de cybersfeer te beveiligen. De kosten van een effectief encryptiesoftwareprogramma, zoals *PGP*, liggen namelijk lager dan de commissie die een full-service makelaar rekent bij een transactie van honderd aandelen. Toch zorgt deze technologie ervoor dat vrijwel elke transactie jarenlang onzichtbaar en onaantastbaar blijft voor zowel overheden als dieven. De informatietechnologie van vandaag beveiligt cyberactiva tegen verwaarloosbaar lage kosten. Voor slechts $55 – in plaats van $55 miljoen – genieten deelnemers aan de cybereconomie van een betere bescherming van hun activa dan ooit tijdens het industriële tijdperk of enig ander moment in de geschiedenis. Gebruiksvriendelijke encryptie-algoritmen en de mogelijkheid om transacties via verschillende vestigingslocaties wereldwijd te verrichten, bieden een effectieve afscherming tegen de grootste bedreiging: de natiestaten zelf.
+
+Dit betekent echter niet dat territoriale overheden volledig te slim af zijn. Zij kunnen nog steeds kwetsbaarheden benutten om hoge belastingen op te leggen of zelfs rijke individuen voor losgeld te houden. Ook blijven zij in staat verbruiksbelastingen af te dwingen. Maar de bescherming – de voornaamste dienst die overheden leveren – komt binnenkort bijna op een concurrerende markt beschikbaar. Hierdoor gaat er minder van de kosten die productieve burgers voor bescherming betalen, beschikbaar komen om door politieke autoriteiten te worden opgeëist en herverdeeld. Technologische innovaties zorgen ervoor dat een groot en groeiend deel van de wereldwijde rijkdom buiten het bereik van overheden valt. Dit vermindert de handelsrisico's en verlaagt, om in de woorden van historicus Janet Abu-Lughod te zeggen, 'de verhouding van alle kosten' die anders naar transittarieven, tribuut of eenvoudige afpersing zouden gaan.[^258]
+
+In de loop van de geschiedenis komen we zelden overheden tegen die werkelijk door concurrentie worden beperkt. In de weinige gevallen waarin dat min of meer aan de orde was, waren overheden zwak en waren de technologische mogelijkheden tussen jurisdicties vrijwel identiek. Volgens Lane blijkt dat de belangrijkste factor voor winstgevendheid in zulke situaties de verschillen in beschermingskosten zijn die ondernemers dragen. De middeleeuwse koopman die twintig tolgelden betaalde om zijn handelswaar naar de markt te brengen, kon niet op tegen een collega die slechts vier tolgelden rees om dezelfde goederen bij de klant af te leveren. Vergelijkbare omstandigheden zullen onvermijdelijk weer opduiken in het informatietijdperk. Ook in de toekomst zal winst niet zozeer bepaald worden door technologische voorsprong, maar door het vermogen om de kosten voor bescherming te minimaliseren.
+
+Deze nieuwe economische dynamiek druist in tegen de wens van een overheid – een overblijfsel uit het industriële tijdperk – om voor haar beschermingsdiensten monopolistische tarieven vast te stellen. Of we het nu willen of niet, het oude systeem zal in de concurrerende omgeving van het informatietijdperk niet standhouden. Elke overheid die koppig volhardt haar burgers te belasten met zware heffingen, die haar concurrenten niet hoeven te betalen, zorgt er immers alleen maar voor dat winst en welvaart zich naar andere oorden verplaatsen. Daarom zullen verzorgingsstaten die op de lange termijn niet slagen in het verlagen van de belastingdruk, uiteindelijk zichzelf tot correctie dwingen. Overheden die te veel heffen, maken het wonen in hun grondgebied eenvoudigweg tot een financiële last die zelfs tot faillissement kan leiden.
+
+> '... want zoals de koning, op basis van zijn prerogatief en naar eigen goeddunken, geld kan slaan van welk materiaal en in welke vorm hij ook maar wil en daarvoor de norm kan vaststellen, zo kan hij ook het geld in substantie en afdruk wijzigen, de waarde ervan verhogen of verlagen, of het geheel afwijzen en annuleren'[^259]: - Uit een Engels rechtsbesluit, 1604
+
+## De dood van seigniorage
+
+Overheden verliezen niet alleen hun bevoegdheid om talrijke bronnen van inkomsten en kapitaal te belasten, ze zijn ook voorbestemd hun dwangbevoegdheid over het geldsysteem te kwijtraken. In het verleden gingen grootschalige politieke transities gepaard met ingrijpende veranderingen in de aard van geld.
+
+- De invoering van munten luidde een vijfhonderdjarige expansiecyclus in de oude economie in, die culmineerde met de geboorte van Christus en leidde tot de laagste rentetarieven van vóór de moderne tijd.
+
+- De intrede van de donkere eeuwen viel samen met de bijna volledige sluiting van de munthallen. Hoewel het Romeinse geld bleef circuleren, nam zowel de geldvoorraad als de handel af, waardoor een vicieuze neerwaartse spiraal ontstond.
+
+- De feodale revolutie ging gepaard met de herinvoering van geld, munten, wisselbrieven en andere instrumenten om commerciële transacties af te handelen. Vooral de toegenomen zilverwinning in nieuwe mijnen in Rammelsberg, Duitsland, leidde tot een ruimere circulatie van munten, wat de handel aanzienlijk versoepelde.
+
+- De grootste revolutie op het gebied van geld vóór het informatietijdperk viel samen met de opkomst van het industrialisme. Tijdens de buskruitrevolutie verstevigde de vroegmoderne staat haar macht. Naarmate de controle groeide, nam de staat het beheer over geld in eigen hand en maakte zij volop gebruik van de drukpers – het eerste massaproductie-instrument – om papieren geld in grote hoeveelheden te produceren.
+
+Papiergeld vormt een duidelijk industrieel product. Vóór de boekdrukkunst was het praktisch onmogelijk om kwitanties of certificaten te dupliceren, die later tot papiergeld werden herleid. Monniken in de scriptoria zouden immers niet hun tijd hebben verspild aan het opmaken van vijftigpondbiljetten. Bovendien versterkte papiergeld de macht van de staat, niet alleen doordat overheden winst haalden uit de waardevermindering van de valuta, maar ook doordat het hen een hefboom bood om te bepalen wie vermogen kon vergaren. Zoals Abu-Lughod het verwoordde: 'wanneer door de staat gesteund papiergeld de goedgekeurde valuta wordt, worden de kansen om kapitaal te vergaren in verzet tegen of onafhankelijk van de staatsmachine ernstig beperkt.' [^260]
+
+## Cybercash
+
+De opkomst van het informatietijdperk ontketent een nieuwe revolutie in de aard van geld. Nu de handel in cyberspace in een stroomversnelling raakt, ontstaat onvermijdelijk een digitale valuta: cybergeld. Deze nieuwe munt herdefinieert machtsverhoudingen en beperkt de mogelijkheden van natiestaten om te bepalen wie als soeverein individu wordt aangemerkt. Wat hierbij doorslaggevend is, is dat informatietechnologie de bezitters van rijkdom beschermt tegen de onteigenende werking van inflatie. Binnenkort betaal je vrijwel direct met cybercash voor elke transactie die je via het 'World Wide Web' uitvoert.
+
+Deze digitale valuta staat op het punt een cruciale rol te gaan spelen in de cyberhandel. Hij bestaat uit complexe, versleutelde reeksen van priemgetallen met honderden cijfers. Dankzij zijn unieke, anonieme en verifieerbare eigenschappen maakt hij ook megatransacties mogelijk. Bovendien kun je hem tot op de kleinste fractie opdelen. Met slechts één toetsaanslag handel je op een grensoverschrijdende groothandelsmarkt, ter waarde van meerdere triljoenen dollars.
+
+### Handelen zonder dollars
+
+Het nieuwe cybergeld zal zich onvermijdelijk onttrekken aan nationale beperkingen. Zodra mensen grensoverschrijdend handelen in een virtuele wereld, weigeren ze de ouderwetse praktijk waarmee regeringen de waarde van hun geld kunstmatig doen dalen door inflatie. Waarom zouden ze dat nog accepteren? De controle over geld verschuift van de machtscentra naar de wereldwijde marktplaats. Iedereen met toegang tot cyberspace – of je nu een individu bent of een onderneming – kan eenvoudig overstappen naar elke valuta waarvan de waarde dreigt te kelderen. In tegenstelling tot nu hoef je transacties niet langer in wettig betaalmiddel te verrichten. Sterker nog, wanneer transacties wereldwijd plaatsvinden, rekent ten minste één partij in elke transactie in een valuta die voor die partij niet als wettig betaalmiddel geldt.
+
+### Verminderde nadelen van ruilhandel
+
+In de cybereconomie kun je in elk gewenst medium handelen. Zoals de inmiddels overleden Nobelprijswinnende econoom *E. A. Hayek* betoogde, bestaat er 'geen duidelijk onderscheid tussen geld en niet-geld.' Hij schreef: "Hoewel we er doorgaans van uitgaan dat er een scherpe scheidslijn is tussen wat geld is en wat niet, en de wet vaak probeert dit onderscheid te handhaven, bestaat er – wat betreft de causale effecten van monetaire gebeurtenissen – geen dergelijk duidelijk verschil. In werkelijkheid vinden we eerder een continuüm waarin objecten met uiteenlopende niveaus van liquiditeit, of met waarden die onafhankelijk van elkaar kunnen schommelen, geleidelijk in elkaar overvloeien naarmate ze als geld functioneren." [^261]: Digitale valuta op wereldwijde computernetwerken maken elk object op Hayeks continuüm van liquiditeit extra liquide – met uitzondering van overheidspapier.
+
+Een direct gevolg hiervan is dat ruilhandel praktischer wordt. Steeds meer goederen en diensten komen via specifieke ruilaanbiedingen beschikbaar in ruil voor andere goederen en diensten. Deze potentiële transacties verschijnen wereldwijd op internet, waardoor hun liquiditeit aanzienlijk toeneemt.
+
+Een van de grootste nadelen van ruilhandel is dat het lastig is precies de juiste match te vinden: iemand met een specifieke behoefte koppelen aan iemand die exact kan leveren wat daar nodig is. De traditionele ruilhandel moest vaak de ontmoedigende uitdaging overwinnen om twee partijen in een lokale markt perfect op elkaar af te stemmen. Contant geld heeft de beperkingen van ruilhandel ver achter zich gelaten en biedt bij de meeste transacties duidelijke voordelen. Dankzij de enorme toename in rekenkracht en de globalisering van de handel in cyberspace worden tegelijkertijd de nadelen van ruilhandel fors verminderd. Wanneer je wereldwijd kunt zoeken, neemt de kans dramatisch toe dat je iemand vindt met precies de wederzijdse wensen die jij hebt, in plaats van je te beperken tot je lokale omgeving.
+
+### Niet vatbaar voor vervalsing
+
+Papiergeld blijft ongetwijfeld in omloop als restvorm van ruilmiddel voor de armen en voor mensen die minder vertrouwd zijn met digitale technologie, maar geld voor transacties met hoge waarde zal geprivatiseerd worden. Cybergeld wordt niet langer uitsluitend in nationale valuta genoteerd, zoals het papiergeld uit het industriële tijdperk. Vermoedelijk wordt het uitgedrukt in termen van gram of ounce goud – zo fijn deelbaar als dat metaal zelf – of in termen van andere tastbare opslagmiddelen van waarde. Zelfs als er verschillende prijsmaatstaven worden gehanteerd of als sommige transacties nog steeds in nationale valuta worden genoteerd, zal cybergeld de consument aanzienlijk beter bedienen dan het ooit door de staat beheerde geld deed. De snel groeiende rekenkracht dringt de moeilijkheden bij het afstemmen van prijzen op diverse ruilmiddelen terug tot een verwaarloosbaar niveau. Bij iedere transactie worden immers versleutelde reeksen priemgetallen met honderden cijfers overgedragen. In tegenstelling tot de papiergeldbewijzen die regeringen tijdens het tijdperk van de goudstandaard uitgaven en die naar believen gekopieerd konden worden, wordt de nieuwe digitale goudstandaard – of de ruilequivalenten daarvan – vrijwel onmogelijk te vervalsen, simpelweg omdat het product van priemgetallen met honderden cijfers praktisch onontcijferbaar is. Elk ontvangstbewijs is daarbij verifieerbaar uniek.
+
+De benamingen van traditionele valuta – zoals 'pond' en 'peso' – maken duidelijk dat zij oorspronkelijk als maatstaven voor specifieke hoeveelheden edele metalen ontstaan zijn. Het pond sterling bestond ooit als sterlingzilver van een pond. Papiergeld in het Westen ontstond als ontvangstbewijzen die aantoonden dat edele metalen in magazijnen of kluizen werden bewaard. Regeringen die deze bewijzen uitgaven, ontdekten al snel dat ze veel meer konden drukken dan zij daadwerkelijk met hun ruwe goudreserves konden inwisselen. Ieder certificaathouder kon aan zijn bewijs niets afleiden over de werkelijke voorraad edele metalen, want afgezien van de serienummers zagen alle bewijzen er identiek uit. Dit kwam zowel vervalsers, politici als bankiers in de smaak, omdat zij zo konden profiteren van het kunstmatig opblazen van de geldvoorraad.
+
+Op die manier wordt cybergeld – zowel officieel als informeel – vrijwel ontegensprekelijk vervalsingsbestendig. De controleerbaarheid van digitale ontvangstbewijzen voorkomt namelijk de klassieke truc om rijkdom via inflatie onteigend over te dragen. Het nieuwe digitale geld van het informatietijdperk geeft de controle over het ruilmiddel terug aan de eigenaren van rijkdom, die hun vermogen willen behouden in plaats van het aan natiestaten te verliezen.
+
+### De transactiekosten van 'vrij' geld
+
+Dit nieuwe cybergeld bevrijdt u aanzienlijk van de macht van de staat. Eerder wezen we op het sombere trackrecord van natiestaten wereldwijd bij het in stand houden van de waarde van hun valuta in de afgelopen vijftig jaar. Sinds de Tweede Wereldoorlog heeft geen enkele valuta een kleinere waardevermindering door inflatie doorgemaakt dan de Duitse mark. Toch verloor de mark tussen 1 januari 1949 en eind juni 1995 maar liefst 71 procent van haar waarde. De wereldreserverende valuta in die periode, de Amerikaanse dollar, daalde zelfs met 84 procent in waarde.[^262]
+
+[^262]: Dit is een maatstaf voor de rijkdom die regeringen hebben onteigend door hun territoriale monopolie op wettig betaalmiddel te benutten.
+
+Merk op dat er geen inherente reden bestaat dat valuta in waarde dalen of dat de nominale kosten van levensonderhoud jaarlijks stijgen. Integendeel: het behoud van de koopkracht van spaargeld vormt een technisch eenvoudige opgave. Dit blijkt al als je naar de langetermijnwaarde van goud kijkt.
+
+Tussen 1 januari 1949 en eind juni 1995 verloren de beste nationale valuta bijna driekwart van hun waarde, terwijl de koopkracht van goud daadwerkelijk toenam. Volgens professor Roy W. Jastrom in zijn boek *The Golden Constant* behield goud, met slechts minimale schommelingen, zijn koopkracht, voor zover betrouwbare prijsgegevens beschikbaar zijn – in het geval van Engeland gaan de gegevens zelfs tot 1560.
+
+Ook behielden nationale valuta die aan goud gekoppeld waren hun koopkracht in perioden waarin militaire urgenties niet doorslaggevend waren. Zo steeg de waarde van het Britse pond sterling in de relatief vreedzame negentiende eeuw in plaats van te dalen, ook al was de koppeling met goud slechts beperkt.
+
+De nieuwe geopolitieke omstandigheden van het informatietijdperk maken een sterke schakel mogelijk – een schakel die voor het eerst wordt versterkt door de aanzienlijk verbeterde informatie- en rekencapaciteiten die consumenten nu tot hun beschikking hebben.
+
+> 'De dreiging van het snelle verlies van hun volledige onderneming als zij er niet in slaagden de verwachtingen waar te maken (en hoe elke overheidsorganisatie ongetwijfeld misbruik zou maken van de kans om met grondstofprijzen te spelen!) zou een veel sterkere waarborg bieden dan wat er bedacht zou kunnen worden ter bestrijding van een staatsmonopolie'[^263]: - FRIEDRICH A. VON HAYEK
+
+### Privatisering van geld
+
+In 1976 betoogde Friedrich von Hayek dat het gebruik van concurrerende, particuliere valuta inflatie zou uitroeien. Omdat er binnen een rechtsgebied geen wettelijke verplichtingen bestaan die de acceptatie van een inflatoire valuta afdwingen, dwingt volgens Hayek de vrije marktdruk particuliere valuta-uitgevers om de waarde van hun ruilmiddelen te behouden. Elke uitgever die daarin faalt, verliest al snel zijn klanten. De opkomst van versleutelde digitale contanten brengt Hayeks logica op indringende wijze weer tot leven.
+
+De theorie van 'vrij bankieren' is meer dan slechts een hypothetische academische gedachte. In Schotland circuleerden vanaf het begin van de achttiende eeuw tot 1844 particuliere valuta, omdat het land destijds geen centrale bank kende en bijna geen regels of toetredingsbeperkingen tot het bankwezen hanteerde. Particuliere banken namen deposito’s in en gaven hun eigen valuta uit, ondersteund door goudstaven. Zoals professor Lawrence White heeft gedocumenteerd, werkte dit systeem uitstekend: het bleek stabieler te zijn en kende minder inflatie dan het strenger gereguleerde en politisierde bank- en geldsysteem dat in Engeland in dezelfde periode gold. Michael Prowse van de *Financial Times* vat de ervaring met vrij bankieren in Schotland als volgt samen: 'Er was weinig fraude. Er waren geen aanwijzingen voor overmatige uitgifte van biljetten. Banken hielden doorgaans noch te veel, noch te weinig reserves aan. Bankruns waren zeldzaam en niet besmettelijk. De vrije banken genoten het respect van de burgers en boden een solide basis voor economische groei die in de meeste perioden Engeland ver overtrof.'
+
+Wat in de achttiende en negentiende eeuw goed functioneerde, zal met de technologie van de eenentwintigste eeuw nog beter werken. Binnenkort kunt u handelen in digitale valuta uitgegeven door particuliere bedrijven, op dezelfde wijze als *American Express* reischeques verstaat als ontvangstbewijzen voor contant geld. Een instelling met een reputatie die geen overheid kan evenaren – bijvoorbeeld een toonaangevend mijnbedrijf of de *Swiss Bank Corporation* – kan versleutelde ontvangstbewijzen creëren voor hoeveelheden goud of zelfs voor unieke goudbaren, waarbij moleculaire handtekeningen als identificatie dienen en hologrammen er optioneel aan worden toegevoegd. Handelaren verhandelen deze ontvangstbewijzen als geld, waarbij vervalsing en inflatie vrijwel geen kans krijgen.
+
+Het nieuwe digitale goud lost vele praktische problemen op die vroeger het directe gebruik van goud als geld in de weg stonden. Het handelen in grote hoeveelheden goud wordt dan niet langer onhandig, omslachtig of riskant. Digitale ontvangstbewijzen wegen niets en bestaan uitsluitend als uitgebreide computercode. Bovendien splitsen ze zich moeiteloos op in zeer kleine eenheden, zodat zelfs aankopen van geringe waarde betaald kunnen worden. Een fysiek stukje goud, zo klein dat het net voldoende is voor een chiclet, raakt al snel zoek of raakt verward met een ander stukje dat net voor twee chiclets toereikend is. Voor een computer maakt het echter geen verschil of hij een kleine eekhoorn of een neushoorn als maatstaf hanteert.
+
+Het vermogen van digitaal geld om micropayments te verrichten stimuleert de opkomst van geheel nieuwe bedrijfsvormen, waarbij ondernemingen zich specialiseren in de distributie van informatie met geringe waarde. Verkopers ontvangen dan directe incasso-royalty’s, die de voorheen ontmoedigend hoge transactiekosten overwint. Als de kosten voor facturatie de waarde van een transactie overstijgen, vindt die nauwelijks plaats. Met cybergeld worden extreem goedkope en gelijktijdige factureringen mogelijk, waarbij rekeningen automatisch op basis van gebruik worden afgeschreven. Zo zou u bijvoorbeeld een royalty ter waarde van een derde van een cent kunnen betalen aan Bill Gates of aan degene die de virtual-realityrechten bezit voor een rondleiding door het Louvre. Vermenigvuldig dit op duizend manieren. Virtual reality opent vrijwel onbeperkte licentiekansen, die desalniettemin slechts microroyaltybetalingen vergen. Op een dag beleeft u de derde wedstrijd van de World Series van 1969 opnieuw én betaalt u microroyalty’s aan de spelers wiens beelden uw virtual reality extra realistisch maken.
+
+## Inflatie uitroeien
+
+Hoeveel mogelijkheden er ook zijn, de meest ingrijpende consequentie van het nieuwe digitale geld wordt ongetwijfeld het einde van de inflatie en het terugdringen van de financiële hefboomwerking. De economische impact is enorm. Zoals we in *Blood in the Streets* en *The Great Reckoning* hebben aangetoond, hing de opkomst van inflatie in de twintigste eeuw nauw samen met de machtsverhoudingen in de wereld. De toenemende opbrengsten uit geweld zorgden voor sterk hogere militaire uitgaven, wat vervolgens leidde tot nog agressievere pogingen om rijkdom te veroveren. Overheden ontdekten hoe ze in feite jaarlijks een vermogensbelasting konden innen van iedereen die tegoeden in hun nationale munteenheid bezat. Je kunt deze jaarlijkse belasting ook zien als een transactiekost voor het gemak waarmee gebruikers hun vermogen in een praktische vorm kunnen bewaren, precies zoals de valuta-uitgevers dat aanbieden.[^269]
+
+Het lijkt misschien vreemd om inflatie als een transactiekost te beschouwen, maar bedenk eens wat het houdt in. Tijdens het industriële tijdperk raakten we er zo aan gewend dat valuta gratis als dienst werd geleverd, dat we vergaten dat de overheden – de uitgevende instanties van dollars, pesos, ponden en franken – ons wel degelijk lieten betalen, zij het via inflatie. De hoogte van deze inflatoire transactiekost schommelde de afgelopen vijftig jaar van een dieptepunt van 2,7 procent per jaar voor de Duitse mark tot percentages die gevaarlijk dicht bij de 100 procent kwamen. Tussen 1960 en 1991 wist inflatie, onder leiding van president Menem en de hervorming van het valutaboard in Argentinië, zeventien nullen uit opeenvolgende muntsystemen te wissen. Als in 1960 alle welvaart ter wereld in Argentijnse pesos was omgezet en opgeborgen, was het in 1991 de moeite niet meer waard om die rijkdom op te graven.
+
+Het Argentijnse voorbeeld wijst ons een belangrijke weg voor het komende millennium. Valuta zal niet langer kunstmatig worden opgeblazen, omdat staten daar niet meer mee weg kunnen komen – net zoals Argentinië dat niet meer kon. Tijdens de industriële periode, toen prijzen en lonen nauwelijks naar beneden konden, bleek inflatie bovendien aantrekkelijk: een gematigde inflatie stimuleerde de productie doordat reële lonen daalden, terwijl prijsschade ontstond door in andere landen geïmporteerde kredietkrimp. Privategeld zal door de werking van de concurrentie niet vatbaar zijn voor inflatie.
+
+Het verdwijnen van inflatie betekent dat de verborgen winsten wegvallen die voorheen werden behaald door partijen die op een monopolistische wijze valuta uitgaven. Als deze winsten uit de gelduitgifte zouden verdwijnen, ontstaat de noodzaak voor een nieuwe betaalmethode om de valuta-uitgevers direct te compenseren. Het gebruik van het nieuwe monetaire systeem gaat daarom waarschijnlijk gepaard met een expliciete transactiekost, mogelijk rond de 1 procent per jaar. Dat is een geringe prijs vergeleken met de jaarlijkse inflatoire last – variërend van 2,7 tot wel 99 procent – die staten opleggen, temeer daar algemene prijzen naar verwachting dalen naarmate monopolies afbrokkelen en de mondiale concurrentie toeneemt.
+
+### Afnemende hefboomwerking
+
+De opkomst van digitaal geld drukt de inflatie voorgoed de kop in en vermindert tegelijkertijd de hefboomwerking in wereldwijde banksystemen. Mensen kunnen immers de toezichthouders omzeilen en hun geld direct via internet overmaken – een ongekende uitkomst van de geglobaliseerde markten. Dit valt buiten het bereik van elke overheid om te reguleren. Zodra overheden hun valuta niet meer kunnen devalueren door geld bij te drukken of spaarders te misleiden via onbeperkte kredietverstrekking in captive banksystemen, verliezen zij een aanzienlijk deel van hun indirecte macht om middelen in handen te krijgen.
+
+### Hogere rentetarieven
+
+Voor de meeste westerse regeringen ontstaat hierdoor een duidelijk dilemma. Zij krijgen te maken met scherpe dalingen in de belastinginkomsten en met het vrijwel verdwijnen van de hefboomwerking binnen het monetaire systeem. Tegelijkertijd blijven zij gebonden aan ongedekte verplichtingen en opgeblazen verwachtingen voor sociale uitgaven, geërfd uit het industriële tijdperk. De verwachting is dat deze situatie leidt tot een intense fiscale crisis met talrijke onaangename sociale neveneffecten, een onderwerp dat in latere hoofdstukken verder aan bod komt. Economisch gezien zal deze transitiekrisis waarschijnlijk resulteren in een eenmalige piek van de reële rentetarieven. Debiteuren komen extra onder druk te staan zodra zij hun langlopende verplichtingen – aangegaan volgens het oude systeem – moeten aflossen en concessiekredieten opdrogen.
+
+### Veranderd door concurrentie
+
+Overheden die te maken hebben met serieuze concurrentie voor hun valutamonopolies zullen waarschijnlijk proberen de cybervaluta, die tegen vergoeding worden aangeboden, te onderwaarderen. Ze pakken het kredietbeleid aan en bieden spaarders hogere reële opbrengsten op hun contante saldi in de nationale valuta. Sommige overheden zouden zelfs kunnen overwegen goud te remonetariseren als extra wapen tegen de opkomst van particuliere valuta. Zij redeneren dat een los gecontroleerde goudstandaard uit de negentiende eeuw tot hogere zegnaturiewinsten leidt dan wanneer men toestaat dat de nationale valuta volledig wordt verdrongen door commercieel cybergeld. Niet alle overheden reageren echter op dezelfde wijze. In regio’s waar computergebruik en internettoegang beperkt zijn, kiezen beleidsmakers in een vroege fase van de cybereconomie mogelijk voor ouderwetse hyperinflatie. Dit beleid stelt hen niet in staat de contante saldi van de rijken over te nemen, maar onttrekt juist middelen van mensen met weinig vermogen of beperkte toegang tot de cybereconomie. Overheden die voor zulke tactieken kiezen, kunnen desondanks op internationaal niveau in cybergeld lenen.
+
+Andere overheden spelen juist in op de mogelijkheden die de informatie-economie biedt en faciliteren lokale transacties in cybergeld. Rechtsgebieden die als eersten de geldigheid van digitale handtekeningen erkennen en de lokale gerechtelijke handhaving van terugvordering bij wanbetaling van cyberschulden waarborgen, zullen waarschijnlijk profiteren van een sterke toename in langlopende kapitaalleningen. In gebieden waar rechtbanken strenge straffen opleggen of schuldenaren toestaan in gebreke te blijven zonder rechtsmiddelen, komt er echter geen cybergeld beschikbaar voor langlopende kredieten.
+
+### Yield gap
+
+De samenloop van kredietcrisissen, competitieve aanpassingen door nationale muntautoriteiten en vroege overgangsbelemmeringen bij het verstrekken van kredieten in cybergeld zorgt in de beginfase van de informatie-economie voor een opbrengstkloof. Naar verwachting biedt cybergeld lagere rentetarieven dan de nationale valuta en brengt het waarschijnlijk ook expliciete transactiekosten met zich mee. Een verbeterde bescherming tegen verliezen door buitensporige belastingen en inflatie zorgt ervoor dat deze nadelen worden gecompenseerd. Aangezien cybergeld vermoedelijk aan goud gekoppeld wordt, profiteert het tevens van een stijgende goudprijs. De prijs van goud zal naar verwachting sterk stijgen ten opzichte van andere grondstoffen, ongeacht welke alternatieve overheidsmaatregel de doorslag krijgt. Waarom? De reële prijs van goud stijgt vrijwel altijd tijdens een deflatie, want deflatie duidt immers op een tekort aan liquiditeit. Goud blijft uiteindelijk de ultieme vorm van liquiditeit.
+
+### De deflatie van het industriële tijdperk
+
+Hogere reële rentevoeten dwingen overal tot het liquideren van dure, onproductieve activiteiten en drukken de consumptie tijdelijk omlaag. We hebben de logica van de kredietcyclus en de daaropvolgende afwikkeling ervan behandeld in *Blood in the Streets* en *The Great Reckoning*, dus herhalen we die argumenten hier niet. Het volstaat te stellen dat de deflatoire periode enige tijd kan aanhouden, waarbij de dure industriële economieën in Noord-Amerika en West-Europa harder onder de nadelige gevolgen lijden dan de goedkope economieën in Azië en Latijns-Amerika.
+
+### Lagere rentes op lange termijn
+
+Hoewel de opkomst van de cybereconomie aanvankelijk tot hogere rentetarieven leidt, keert het effect op de lange termijn precies om. Na belasting stijgen de rendementen voor spaarders fors, zodra middelen ontsnappen aan de greep van overheden. Dramatische verbeteringen in de efficiëntie van het hulpbronnengebruik en de bevrijding van kapitaal om wereldwijd de hoogste rendementen te behalen, compenseren naar verwachting de aanvankelijk verloren productie tijdens de transitiecrisis snel.
+
+### Investeerderscontrole over kapitaal
+
+Conventionele denkers beweren dat het instorten van de inkomensherverdeling in de leidende natiestaten de wereld in een economische catastrofe stort. Geloof dat niet. We betwisten niet dat een transitiecrisis waarschijnlijk is, maar te denken dat de staat de economie verbetert door middel van een massale herverdeling van middelen, is anachronistisch. Dat geloofspunt doet denken aan de bijgelovigheden aan het einde van de Middeleeuwen, toen men ervan overtuigd was dat vasten en lijfstraffen gunstig waren voor een gemeenschap. Vergeet niet dat overheden op grote schaal middelen verspillen, en middelenverspilling maakt je arm. Dramatisch efficiënter hulpbronnengebruik ontstaat wanneer de inkomsten, die historisch door overheden zijn opgeslokt, in handen komen van mensen met werkelijk talent.
+
+Honderdduizenden – later zelfs miljoenen – onafhankelijke individuen nemen het beheer van tientallen miljarden, uiteindelijk zelfs honderden miljarden dollars, op zich. Deze nieuwe beheerders van de wereldwijde rijkdom blijken naar alle waarschijnlijkheid veel vaardiger te zijn in het optimaal inzetten van middelen en investeringen dan politici. Voor het eerst in de geschiedenis maken de geopolitieke omstandigheden het mogelijk dat de beste investeerders en ondernemers – niet degenen die zijn gespecialiseerd in geweld – de uiteindelijke controle over het kapitaal krijgen. Het is redelijk te verwachten dat de opbrengsten van deze gedecentraliseerde, door de markt gestuurde investeringen twee- tot driedubbel zo hoog worden als de schamele rendementen van politiek gedreven budgettoewijzingen uit het tijdperk van de natiestaat.
+
+In de laatste decennia van de twintigste eeuw vond men in elk land wel voorbeelden van overheidsinvesteringen die in wezen negatief bleken te zijn. In de herziene versie van *The Great Reckoning* uit november 1992 haalden wij officiële Russische statistieken aan, waaruit bleek dat de hele Russische economie "slechts $30 miljard waard was, minder dan een derde van de waarde van haar grondstofinvoer. Impliciet zou de output van de Russische economie meer dan verdrievoudigen als de binnenlandse productie- en diensteneconomie volledig zou worden stilgelegd. In plaats van waarde toe te voegen, onttrekt zij die." [^267]
+
+Hoewel Rusland na de ineenstorting van het communisme een extreem geval vertegenwoordigt, toont het bewijs aan dat minder staatscontrole over middelen de economische efficiëntie bevordert. De groeicijfers die *The Economist* aanhaalt, duiden erop dat economische vrijheid nauw samenhangt met economische groei – de vrijste landen leveren immers de snelste groeipercentages. Ook de cybereconomie van het informatietijdperk belooft vrijer te opereren dan welk ander commercieel domein in de geschiedenis dan ook. Daarmee is het aannemelijk dat de cybereconomie zich spoedig ontpopt tot de voornaamste economie van het nieuwe millennium. Haar succes trekt deelnemers uit alle hoeken van de wereld aan, net zoals het brede gebruik van faxapparaten het telecopiëren aantrekkelijker maakte voor degenen die er voorheen geen gebruik van maakten. Belangrijker nog: doordat er geen roofzuchtig geweld heerst, kan de cybereconomie groeien met aanzienlijk hogere samengestelde groeipercentages dan de conventionele economieën die door natiestaten worden gedomineerd.
+
+Dit vormt wellicht het kernpunt bij het inschatten van de economische impact van de waarschijnlijke ineenstorting van het monopolistische vermogen van de overheid om belastingen te innen en inflatie te creëren. Als we de overgangsproblemen – die zelfs decennialang kunnen voortduren – even buiten beschouwing laten, zien de langetermijnvooruitzichten voor de wereldeconomie er bijzonder rooskleurig uit. Telkens als omstandigheden mensen in staat stellen om de kosten van bescherming te verlagen en het 'tribut' aan degenen die het georganiseerde geweld beheersen te minimaliseren, boekt de economie doorgaans dramatische groei. Zoals Lane zei: "Ik wil graag suggereren dat de belangrijkste enkele factor in de meeste groeiperioden – als er nu één factor het zwaarst meegewogen heeft – de vermindering is van het aandeel middelen dat aan oorlog en politie wordt besteed." [^268]
+
+We kunnen enorme efficiëntiewinsten realiseren door minder middelen te besteden aan roofzucht en het profiteren van buit. Indien de prijs voor bescherming competitief zou worden vastgesteld – zodat lokale monopolies op basis van prijs en kwaliteit met elkaar concurreren – zou dat kunnen leiden tot fors lagere belastingtarieven en minder verspilling van middelen en energie in politieke activiteiten, die voorheen enorme rendementen opleverden.
+
+Zouden kiezers bereid zijn afstand te doen van de politieke 'meevallers' waaraan zij gewend zijn geraakt? Die kwestie behandelen we elders uitgebreid. Eén eenvoudig antwoord zou echter kunnen zijn dat we waarschijnlijk geen keuze hebben. Tegen regen of droogte protesteert vandaag de dag immers niemand, hoe economisch nadelig of onaangenaam deze omstandigheden ook mogen zijn. Niemand, hoe crimineel ook, gijzelt een arme door met de dood te dreigen en exorbitante betalingen op te eisen. Als politici niet in staat zijn middelen te vinden om te herverdelen, reageert het publiek op een rationele manier en laat het de politiek links liggen – net zoals men in de middeleeuwen stopte met het organiseren van boetemarsen.
+
+[^245]: Perry Barlow, 'Thinking Locally, Acting Globally', *Time*, 15 januari 1996, p. 57.
+
+[^246]: Ibid.
+
+[^247]: M. C. Seymour (red.), Mandeville's Travels (Oxford: *Oxford University Press*, 1968), p. 122.
+
+[^248]: R. C. Johnson, 'The Transportation of Vagrant Children from London to Virginia, 1618–1622', in H. S. Reinmuth (red.), *Early Stuart Studies* (Minneapolis: *University of Minnesota Press*, 1970), pp. 43–44, geciteerd in Jutte, op. cit., p. 168.
+
+[^249]: John Dos Passos, *The Big Money* (New York: *Harcourt, Brace & Co.*, 1936).
+
+[^250]: Clarke, op. cit., p. 29.
+
+[^251]: Geciteerd in Kline en Burstein, op. cit., p. 05.
+
+[^252]: Clarke, op. cit., p. 20.
+
+[^253]: Ibid.
+
+[^254]: Ibid., p. 21.
+
+[^255]: Lane, 'Economische gevolgen van georganiseerd geweld', op. cit., p. 404.
+
+[^256]: James Bennet, 'De informatierevolutie en de ondergang van de inkomstenbelasting', *Strategic Investment*, november 1994, pp. 11–12.
+
+[^257]: Lane, 'Economische gevolgen van georganiseerd geweld', op. cit., p. 404.
+
+[^258]: Abu-Lughod, op. cit., p. 177.
+
+[^259]: Geciteerd in Henry Mark Holzer, 'Het geldmonopolie van de overheden' (New York: Books in Focus, 1981), p. 4.
+
+[^260]: Abu-Lughod, op. cit., p. 332.
+
+[^261]: Friedrich A. von Hayek, de denationalisatie van geld (London: *Institute of Economic Affairs*, 1976), p. 47.
+
+[^262]: Zie hoofdstuk 1, noot 6.
+
+[^263]: Hayek, op. cit., p. 40.
+
+[^264]: Ibid.
+
+[^265]: Zie Lawrence White, *Free banking in britain* (Londen: *Institute of Economic Affairs*, 1995).
+
+[^266]: Michael Prowse, *Bring back gold*, *Financial Times*, 5 februari 1996, p. 12.
+
+[^267]: Davidson and Rees-Mogg, op. cit., p. 203.
+
+[^268]: Lane, *economic consequences of organized violence*, op. cit., p. 413.
+
+[^269]: Tijdens de industriële periode trok inflatie mensen extra aan, omdat prijzen en lonen naar beneden toe niet flexibel waren. Een milde inflatie stimuleerde de productie doordat de reële lonen en prijzen daalden.
+
+::: {.content-visible when-format=latex}
+
+\setsubtitle{De revolutie van het verdienvermogen in een wereld zonder banen}
+
+:::

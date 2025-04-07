@@ -1,0 +1,1161 @@
+# East of Eden
+
+::: {.content-hidden when-format=latex}
+*The Agricultural Revolution and the Sophistication of Violence*
+:::
+
+> “And the Lord said unto Cain, Where is Abel, thy brother? And he said, I know not: Am I my brothers' keeper? And he said, What hast thou done? the voice of thy brothers' blood crieth unto me from the ground.” – GENESIS 4:9-10
+
+Viisisataa sukupolvea sitten alkoi ensimmäinen vaiheenvaihdos ihmisyhteiskunnan järjestäytymisessä.[^51] Esi-isämme useilla alueilla ottivat vastahakoisesti käyttöönsä karuja työkaluja, terävöitettyjä keiloja ja tilapäisiä haravia, ja ryhtyivät töihin. Kun he kylvivät ensimmäiset kasvinsa, he samalla loivat uuden perustan vallalle maailmassa. Maataloudellinen vallankumous oli ensimmäinen suuri taloudellinen ja yhteiskunnallinen vallankumous. Se alkoi Eedenin karkottamisella ja eteni niin hitaasti, että maanviljely ei ollut täysin syrjäyttänyt metsästystä ja keräilyä kaikilla sopivilla alueilla globuksessa, kun 1900-luku avautui. Asiantuntijat uskovat, että jopa Lähi-idässä, missä maanviljely alun perin ilmestyi, se otettiin käyttöön “pitkän asteittaisen prosessin” seurauksena, joka “voi olla kestänyt viisituhatta vuotta tai enemmän.”[^52]
+
+Saattaa vaikuttaa liioitteelta kutsua prosessia, joka kesti vuosituhansia, “vallankumouksena”. Silti juuri niin maanviljelyn alku oli – hitaasti etenevänä vallankumouksena, joka muutti ihmisten elämää muuttamalla väkivallan logiikkaa. Missä vain maanviljely juurtui, väkivalta nousi yhteiskunnan elämän keskeiseksi piirteeksi. Hierarkiat, jotka osasivat manipuloida tai kontrolloida väkivaltaa, nousivat hallitsemaan yhteiskuntaa.
+
+Maataloudellisen vallankumouksen ymmärtäminen on ensimmäinen askel kohti informaatiovallankumouksen ymmärtämistä. Maa- ja sadonkorjuutekniikoiden käyttöönotto tarjoaa paradigmaesimerkin siitä, kuinka ilmeisen yksinkertainen muutos työn luonteessa voi radikaalisti muuttaa yhteiskunnan järjestystä. Asettamalla tämä mennyt vallankumous laajempaan kontekstiin, olet paljon paremmin varustautunut ennustamaan, kuinka historia saattaa kehittyä vastauksena uuteen mikroprosessorien myötä ilmestyneeseen väkivallan logiikkaan.
+
+Jotta voit arvostaa maanviljelyn vallankumouksellista luonnetta, tarvitset ensin kuvan siitä, miten alkukantainen yhteiskunta toimi ennen maanviljelyä. Tarkastelimme tätä teoksessa *The Great Reckoning* ja tarjoamme alla lisäkuvauksen. Metsästys- ja keräilyyhteisöt olivat ainoat sosiaalisen järjestäytymisen muodot pitkän esihistoriallisen unen aikana, jolloin ihmisten elämä muuttui hyvin vähän – tai ei lainkaan – sukupolvesta toiseen. Antropologien mukaan ihmiset ovat olleet metsästäjiä ja keräilijöitä 99 prosenttia siitä ajasta, kunnes ilmestyimme maapallolle. Metsästys- ja keräilyryhmien pitkä menestys sekä niiden lopullinen epäonnistuminen perustuvat siihen, että niiden täytyi toimia hyvin pienimuotoisesti erittäin laajalla alueella.
+
+Keräilijät pystyivät selviytymään vain siellä, missä väestötiheys oli alhainen. Jos mietit, mitä suuremmat ryhmät olisivat aiheuttaneet, huomaat seuraavaa: tuhannen metsästäjän kulkiessa yhdessä maisemassa melu olisi pelästyttänyt haluamansa riistan. Vielä pahempaa, jos pieni metsästäjäarmeija onnistuisi ajoittain ajamaan suuren riistalauman syrjään, sen keräämä ruoka – mukaan lukien luonnonantimet kuten hedelmät ja syötävät villit kasvit – ei olisi voinut pysyä runsaana kauan. Suuri keräilijäjoukko olisi tuhoanut maaseutua ylikorjuun seurauksena, aivan kuten nälissään olevan armeijan teot Thirty Years Warin aikana. Siksi metsästysjoukkojen piti olla pieniä ylikorjuun minimoimiseksi. Kuten Stephen Boyden kirjoittaa teoksessaan *Western Civilization in Biological Perspective*, "yleisimmin metsästäjä-keräilyryhmiä on 25–50 henkilöä."[^53]
+
+Nykyään elää kymmenentuhannella acrea leudolla ilmastolla on ylellisyyttä, jonka saavat vain äärimmäisen varakkaat. Metsästys- ja keräilyperhe olisi tuskin selviytynyt vähemmällä – he tarvitsisivat yleensä tuhansia acreja per henkilö, jopa alueilla, jotka olivat kaikkein hedelmällisimpiä keräilylle. Tämä selittää, miksi ihmisväestön kasvu erityisen maanviljelylle suotuisina aikoina on saattanut luoda edellytykset väestökriiseille. Koska yhden ihmisen tukemiseen tarvittiin niin paljon maata, metsästäjä-keräilyyhteisöjen väestötiheys oli uskomattoman harvaa. Ennen maanviljelyä ihmiset olivat asutettu lähes yhtä tiheästi kuin karhut.
+
+Pienin erot huomattuna ihmisten ruokavalioon muistuttivat karhujen ruokavaliota. Keräilyyhteisöt perustuivat avoimelta maaseudulta tai läheisiltä vesistöiltä kerättyyn ruokaan. Vaikka jotkut keräilijät olivat kalastajia, useimmat olivat metsästäjiä, joiden noin kolmasosa–viidesosa ruokavaliosta tuli suurten nisäkkäiden proteiinista. Muutaman yksinkertaisen työkalun ja mukaan kannettavien esineiden lisäksi metsästäjä-keräilijöillä ei ollut käytössään juurikaan teknologiaa. Heillä ei tavallisesti ollut tehokkaita keinoja varastoida suuria määriä lihaa tai muita ruokia myöhempää käyttöä varten – suurin osa ruoasta piti kuluttaa pian sen keräämisen jälkeen, muuten se pilaantui. Tämä ei tietenkään tarkoita, että kaikki metsästäjä-keräilijät olisivat välttäneet pilaantunutta ruokaa; kuten Boyden raportoi, Eskimojen sanotaan pitävän erityisen paljon hajonneesta ruoasta.[^54] Hän toistaa asiantuntijoiden havaintoja, joiden mukaan Eskimot "haudattavat kalapäät ja antavat niiden mädäntyä, kunnes luut saavuttavat saman koostumuksen kuin liha. Sitten he vaivaavat tahran tuoksuisen massan tahnaksi ja syövät sitä"; he nauttivat myös "karibun kärpäsen raakaöljyn laimoista, peurojen ulosteista, joita pureskellaan kuin marjoja... ja yli vuoden ikäisestä luuydinainesta, joka on täynnä toukkia."[^55]
+
+
+
+Other than such delicacies, foragers developed little surplus food. As anthropologist Gregg notes, "mobile populations generally do not store foodstuffs against seasonal or unexpected lows in resource availability." Consequently, foragers had little to steal. A division of labor that included specialization to employ violence was insupportable in settings where surplus food could not be stored. The logic of the hunt also dictated that violence among hunting-and-foraging bands could never rise above a small scale because the groups themselves had to remain tiny.
+
+Paitsi sellaiset herkut, keräilijät eivät kehittäneet juurikaan ylimääräistä ruokaa. Kuten antropologi Gregg huomauttaa, "liikkuvat väestöt eivät yleensä varastoi elintarvikkeita kausiluonteisten tai odottamattomien resurssipulan varalta." Näin ollen keräilijöillä ei ollut paljoa varastettavaa. Työnjaon, joka sisältäisi erikoistumisen väkivallan käyttöönottoon, olisi ollut kestämätön ympäristöissä, joissa ylijäämäruokaa ei voitu varastoida. Lisäksi metsästyksen logiikka määrää, että metsästys- ja keräilyryhmien väkivalta ei voisi nousta suureksi, koska ryhmien itsensä on pidettävä pieninä.
+
+The small scale of foraging bands was advantageous in another way. Members of such small groups would have known one another intimately, a factor that made them more effective in working together. Decision-making becomes more difficult as numbers rise, because incentive traps proliferate. You need only think how hard it is to get a dozen people organized to go out to dinner. Imagine how hopeless would have been the task of organizing hundreds or thousands of persons to traipse around on a movable feast. Lacking any sustained and separate political organization or bureaucracy required by specialization for war, hunting-and-gathering bands had to depend on persuasion and consensus-principles that work best among small groups with relatively easygoing attitudes.
+
+Pienikokoisilla keräilyryhmillä oli myös toinen etu: niiden jäsenet tuntuivat tuntevan toisensa hyvin läheisesti, mikä helpotti yhteistoimintaa. Päätöksenteko muuttuu monien kasvaessa vaikeammaksi, sillä kannustintoimiloukut kasvavat. Riittää vain ajatella, kuinka hankalaa on saada kymmenen ihmistä järjestäytymään ulos syömään. Kuvittele, kuinka toivottomaksi muuttuisi tehtävä järjestää satoja tai tuhansia henkilöitä kulkemaan yhdessä liikkuvalla juhla-aterialla. Ilman keskitetyä ja erillistä poliittista järjestäytymistä tai byrokratiaa, jota sodankäynnin erikoistuminen vaatisi, metsästys- ja keräilyryhmien oli turvauduttava suostutteleviin ja yksimielisyyteen perustuvin periaattein, jotka toimivat parhaiten pienissä, rennosti suhtautuvissa ryhmissä.
+
+Whether hunting-and-gathering bands were easygoing is open to debate. Sir Henry Maine refers to "the universal belligerency of primitive man." In his words, "It is not peace which is natural and primitive but war."[^56] His view has been underlined by the work of evolutionary biologists. R. Paul Shaw and Yuwa Wong comment: "[T]here are strong indications that many of the injuries apparent in remains of Australopithecus, Homo erectus, and Homo sapiens of the European fourth and pre-fourth glacial periods resulted from combat."[^57] But others doubt this. Experts like Stephen Boyden argue that primitive groups were usually not warlike or prone to violence. Social conventions developed to reduce internal tensions and facilitate the sharing of the hunt. Especially in areas where humans preyed on larger game, which was difficult for a single hunter to fell, religious and social doctrines emerged to facilitate the redistribution of any game that was taken with the whole group. The first priority of sharing of caloric resources was with other hunters. Necessity, rather than sentiment, was the spur. The first claim on the resources was exercised by the most economically competent and militarily strong, not by the sick and the weak. Undoubtedly, a major influence informing this priority was the fact that hunters in the prime of life were also militarily the most potent members of the small band. By assuring them a first claim on the hunt, the group minimized potentially lethal internal squabbling.
+
+Se, olivatko metsästys- ja keräilyryhmät rentoja, on kiistanalaista. Sir Henry Maine viittaa "alkuperäisen ihmisen yleiseen sotajuonteisuuteen." Hänen sanojensa mukaan "luonnollista ja alkeellista ei ole rauha, vaan sota."[^56] Hänen näkemyksensä on vahvistettu evoluutiobiologien tutkimuksilla. R. Paul Shaw ja Yuwa Wong kirjoittavat: "[T]ärkeitä viitteitä näyttää, että monet eurooppalaisten neljännen ja sitä edeltävien jäätikkökausien Australopithecus-, Homo erectus- ja Homo sapiens -jäännöksissä havaitut vammat ovat johtuneet taisteluista."[^57] Toiset taas kyseenalaistavat tämän. Asiantuntijat, kuten Stephen Boyden, väittävät, että alkeellisissa ryhmissä ei yleensä ollut sotaisa tai väkivaltaisuutta suosivaa käytöstä. Sisäisten jännitteiden lieventämiseksi ja metsästyksen yhteiseksi jakamiseksi kehittyivät sosiaaliset normit. Erityisesti alueilla, joissa ihmiset saalistivat suurempia eläimiä, joita yksittäisen metsästäjän oli vaikea kaataa, syntyivät uskonnolliset ja sosiaaliset opit, jotka helpottivat koko ryhmän saaliin uudelleenjakoa. Kaloripitoisten resurssien jakamisen ensisijainen prioriteetti oli muiden metsästäjien kesken. Tarve, ei tunne, toimi liikkeellepanevana voimana. Ensimmäisen oikeuden resursseihin tiesivät ne, jotka olivat taloudellisesti pätevimpiä ja sotilaallisesti vahvimpia – ei sairaat eikä heikot. Epäilemättä merkittävä tekijä tässä prioriteetissa oli se, että parhaassa iässä olevat metsästäjät olivat myös sotilaallisesti kaikkein tehokkaimpia pienessä ryhmässä. Varmistamalla heille ensisijaisen oikeuden metsästykseen, ryhmä minimoi mahdollisesti tappavia sisäisiä riitoja.
+
+So long as population densities remained low, the foragers' gods were not militant gods but embodiments of natural forces or the animals they hunted. The scantiness of capital and open frontiers made war in most cases unnecessary. There were few neighbors outside one's own small family or clan to pose threats. Because foragers tended to roam in search of food, personal possessions beyond a bare minimum became an encumbrance. Those with few possessions necessarily experienced little property crime. When conflicts arose, the contending parties were often content to walk away because they had little invested in any given locale. Escape was an easy solution to personal feuds or exorbitant demands of other kinds. This does not mean that early humans were peaceful. They may have been violent and unpleasant to a degree we can scarcely imagine. But if they employed violence, it was mostly for personal reasons or, what may be worse, for sport.
+
+Niin kauan kuin väestötiheydet pysyivät alhaisina, keräilijöiden jumalat eivät olleet sotilaallisia jumalia, vaan luonnonvoimien tai heidän saalistamiensa eläinten ruumiillistumia. Pääoman niukkuus ja avoimet rajat tekivät sodasta useimmissa tapauksissa tarpeetonta, sillä oman pienen perheen tai klaanin ulkopuolella asuvia naapureita uhkaavia tahoja oli vain vähän. Koska keräilijät vaelsivat ruoan etsinnässä, henkilökohtaiset omaisuuserät, jotka ylittivät välttämättömän minimin, muodostuivat rasitteeksi. Niillä, joilla oli vähän omaisuutta, oli vähemmän omaisuusrikoksia. Kun konflikteja syntyi, riitautuvat osapuolet usein tyytyivät luopumaan, koska heillä ei ollut paljon sidottuna mihinkään tiettyyn paikkaan. Pakoon pakeneminen oli helppo ratkaisu henkilökohtaisiin riitoihin tai muihin kohtalokkaisiin vaatimuksiin. Tämä ei kuitenkaan tarkoita, että varhaiset ihmiset olisivat olleet rauhanomaisia. He saattoivat olla väkivaltaisia ja epämiellyttäviä asteeseen, jota tuskin voimme kuvitella. Mutta jos he käyttivätkin väkivaltaa, se johtui lähinnä henkilökohtaisista syistä tai – mikä saattaa olla vielä pahempaa – urheilun vuoksi.
+
+The livelihoods of hunter-gatherers depended upon their functioning in small bands that allowed little or no scope for a division of labor other than along gender lines. They had no organized government, usually no permanent settlements, and no possibility for accumulating wealth. Even such basic building blocks of civilization as a written language were unknown in the primeval economy. Without a written language there could be no formal records and no history.
+
+Metsästäjä-keräilijöiden elinkeinot perustuivat niiden toimintaan pienissä ryhmissä, joissa työnjako muulla kuin sukupuolittain oli hyvin rajallista tai olematonta. Heillä ei ollut järjestäytynyttä hallintoa, yleensä pysyviä asutuksia eikä mahdollisuutta varallisuuden kartuttamiseen. Jopa sellaiset sivilisaation perustavanlaatuiset rakennuspalikat kuin kirjoitettu kieli olivat puuttuvia alkuperäisessä taloudessa, ja ilman kirjoitettua kieltä ei voitu pitää virallisia tietueita eikä synnyä historiaa.
+
+### Overkill
+
+The dynamic of foraging created very different incentives to work than those to which we have become accustomed since the advent of farming. The capital requirements for life as a forager were minimal. A few primitive tools and weapons sufficed. There was no outlet for investment, not even private property in land, except occasionally in quarries where flint or soapstone was mined.[^58] As anthropologist Susan Alling Gregg wrote in Foragers and Farmers, "Ownership of and access to resources was 'held in common by the group.'"[^59] With rare exceptions, such as fishers living on the shores of lakes, foragers usually had no fixed place of abode. Having no permanent homes, they had little need to work hard to acquire property or maintain it. They had no mortgage or taxes to pay, no furniture to buy. Their few consumer goods were animal skins, and personal adornments made by members of the group themselves. There was little incentive to acquire or accumulate anything that might have passed for money because there was little to buy. Under such conditions, savings for the foragers could have been no more than a rudimentary concept.
+
+Keräilyn dynamiikka loi hyvin erilaiset kannustimet työntekoon kuin ne, joihin olemme tottuneet maanviljelyn alkamisen myötä. Keräilijäelämän pääomavaatimukset olivat minimaaliset; muutama alkeellinen työkalu ja ase riittivät. Investointia varten ei ollut vaihtoehtoja – edes yksityinen maaoikeus, lukuun ottamatta satunnaisesti louhittuja rytkää tai saippuakiveä kallioista.[^58] Kuten antropologi Susan Alling Gregg kirjoitti teoksessaan *Foragers and Farmers*, "Resurssien omistus ja niihin pääsy olivat ryhmän yhteisessä käytössä."[^^59] Harvoin, kuten esimerkiksi järvenrannalla asuvien kalastajien kohdalla, keräilijöillä ei yleensä ollut pysyvää asuinpaikkaa. Ilman pysyviä koteja heillä ei ollut tarvetta tehdä kovasti töitä omaisuuden hankkimiseksi tai ylläpitämiseksi. Heillä ei ollut asuntolainoja tai veroja maksettavana, eikä heidän tarvinnut ostaa huonekaluja. Heidän muutama kulutushyödykkeensä olivat eläinskinat sekä ryhmän jäsenten itse valmistamia henkilökohtaisia koristeita. Kannustimia hankkia tai kerryttää mitään, mikä olisi voinut toimia rahana, oli vähän, sillä ostettavaa oli vähän. Tällaisissa olosuhteissa keräilijöiden säästöjen käsite olisi voinut olla hyvin alkeellinen.
+
+With no reason to earn and almost no division of labor, the concept of hard work as a virtue must have been foreign to hunting-and-gathering groups. Except during periods of unusual hardship, when protracted effort was required to find something to eat, little work was done because little was needed. There was literally nothing to be gained by working beyond the bare minimum required for survival. For the members of the typical hunting-and-gathering band, that meant working only about eight to fifteen hours a week.[^60] Because a hunter's labor did not augment the food supply but could only reduce it, one who heroically labored overtime to kill more animals or pick more fruit than could be eaten before it spoiled contributed nothing to prosperity. To the contrary, overkill reduced the prospects of finding food in the future, and thus had a detrimental impact on the wellbeing of the group. That is why some foragers, such as Eskimos, punished or ostracized members of the band who engaged in overkill.
+
+Ilman syytä ansaita ja lähes ilman työnjakoa, kovan työn ihanteellisesta käsitteestä oli varmaankin vieraampaa metsästäjä-keräilyryhmille. Lukuun ottamatta poikkeuksellisia vaikeuksia, jolloin pitkään jatkunutta vaivannäköä tarvittiin ruoan löytämiseksi, töitä tehtiin hyvin vähän, koska sitä oli tarpeeksi vain selviytymiseen. Kirjaimellisesti työskentelemällä yli selviytymisen välttämättömän minimin ei ollut mitään lisäarvoa. Tyypillisen metsästäjä-keräilijäryhmän jäsenille tämä tarkoitti työskentelyä vain noin kahdeksasta viisitoista tuntia viikossa.[^60] Koska metsästäjän työ ei lisännyt ruokavarantoa vaan ainoastaan kulutti sitä, se, joka sankarillisesti teki ylitöitä tappaakseen enemmän eläimiä tai kerätäkseen enemmän hedelmää kuin siitä ehtisi nauttia ennen pilaantumista, ei edesauttanut vaurautta. Päinvastoin liiallinen metsästys heikensi tulevaisuuden mahdollisuuksia löytää ruokaa ja vaikutti siten kielteisesti ryhmän hyvinvointiin. Siksi jotkut keräilijät, kuten eskimot, rankaisivat tai eristivät ryhmän jäseniä, jotka harjoittivat liiallista metsästystä.
+
+The example of the Eskimos punishing overkill is particularly telling, because they, far more than others, might well have been able to store meat by freezing it. Further, it would have been feasible to provide at least some storage for oils rendered from large marine animals. The fact that foragers generally chose not to do so reflects their far more passive interactions with nature. It may also indicate the degree to which cognition and mental processes are biased by culture. Constraints on learning and behavior in complex environments make adoption of some strategies far more difficult than would otherwise appear. As R. Paul Shaw and Yuwa Wong have written, "Because niches differ in many respects, so, too, do biases in learning."[^61]
+
+Eskimoiden tapa rangaista liiallista metsästystä on erityisen puhekas, sillä he olisivat – paljon enemmän kuin muut – voineet varastoida lihaa pakastamalla. Lisäksi olisi ollut mahdollista järjestää ainakin jonkin verran varastotilaa suurten merieläinten rasvoista. Se, että keräilijät yleensä eivät tehneet näin, kuvastaa heidän huomattavasti passiivisempaa vuorovaikutustaan luonnon kanssa. Tämä saattaa myös kertoa siitä, kuinka paljon kulttuuri vaikuttaa kognitioon ja henkisiin prosesseihin. Monimutkaisten ympäristöjen asettamat oppimisen ja käyttäytymisen rajoitteet tekevät joidenkin strategioiden omaksumisesta huomattavasti vaikeampaa kuin miltä se muuten näyttäisi. Niin kuin R. Paul Shaw ja Yuwa Wong ovat todenneet, "koska ekologiset nisäalueet eroavat monin tavoin, myös oppimisen vinoumat eroavat."[^61]
+
+Seen in this perspective, the advent of agriculture entailed more than a change in diet; it also launched a great revolution in the organization of economic life and culture as well as a transformation of the logic of violence. Farming created large-scale capital assets in land and sometimes in irrigation systems. The crops and domesticated animals farmers raised were valuable assets. They could be stored, hoarded, and stolen. Because crops had to be tended over the entire growing season, from planting through harvest, migration away from threats became less attractive, especially in arid regions where opportunities to grow crops were confined to the small areas of the land with dependable water supplies. As escape became more difficult, opportunities for organized shakedowns and plunder increased. Farmers were subject to raids at harvest time, which gradually raised the scale of warfare.
+
+Tässä näkökulmassa maanviljelyn aloittaminen merkitsi muutakin kuin ruokavaliomuutosta; se käynnisti myös suuren vallankumouksen taloudellisen elämän ja kulttuurin järjestämisessä sekä väkivallan logiikan muuttumisessa. Maanviljely loi suuria pääomaomaisuuksia maassa ja joskus myös kastelujärjestelmissä. Viljelyksiksi kasvatetut kasvit ja kotieläimet olivat arvokkaita omaisuuseriä, joita voitiin varastoida, kerätä tai varastaa. Koska viljelyksiä piti hoitaa koko kasvukauden ajan istutuksesta sadonkorjuuhun, pakeneminen uhkien edessä muuttui vähemmän houkuttelevaksi – erityisesti kuivilla alueilla, joilla viljelymahdollisuudet rajoittuivat niihin pieniin maa-alueisiin, joilla oli luotettavat vesilähteet. Kun pakeneminen muuttui vaikeammaksi, organisoitujen ryöstöjen ja ryöstön mahdollisuudet kasvoivat. Maanviljelijät joutuivat hyökkäysten kohteeksi sadonkorjuun aikaan, mikä vähitellen nosti sodankäynnin mittakaavaa.
+
+Tämä johti usein siihen, että yhteiskuntien koko kasvoi, sillä väkivaltaiset riidat voitettiin useimmiten suuremman ryhmän toimesta. Maan ja sen tuoton hallinnasta käyty kilpailu kiristyi, minkä seurauksena yhteiskunnat asettuivat pysyvämmiksi. Työnjako muuttui selkeämmäksi. Ensimmäistä kertaa syntyi sekä palkkatyötä että orjuutta. Viljelijät ja paimenet erikoistuivat ruoan tuottamiseen, savitaljat valmistivat astioita ruoan säilyttämiseksi ja papit rukoilivat sateita sekä runsaita satoja. Väkivallan erikoisasiantuntijat, hallituksen edeltäjät, omistautuivat yhä enemmän ryöstöön ja ryöstöä vastaan suojeluun. Papien ohella heistä tuli ensimmäiset historian varakkaat ihmiset.
+
+Maatalousyhteiskuntien varhaisvaiheissa soturit alkoivat ottaa hallintaansa osan vuotuisesta sadosta suojelun hinnalla. Paikoissa, joissa uhkia oli vähän, itsenäiset maanomistajat saattoivat toisinaan säilyttää suhteellisen suuren itsenäisyyden. Mutta väestötiheyden kasvaessa ja ruoan kilpailun kiristyessä – erityisesti aavikoiden ympärillä, joissa tuottava maa oli niukkaa – soturiryhmä pystyi ottamaan suuren osan kokonaissadosta. Nämä soturit perustivat ensimmäiset valtiot keräämällä tästä ryöstöstä saatuja varoja, jotka saattoivat nousta jopa 25 prosenttiin viljasadosta ja puoleen kotieläinten kasvusta. Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä; ryöstettävien resurssien massiivinen kasvu johti puolestaan laajaan ryöstötoimintaan.
+
+Koko maanviljelysvallankumouksen logiikan kehittyminen kesti vuosituhansia. Pitkän aikaa lauhkeilla alueilla harvat viljelijäyhteisöt saattoivat elää melkein samalla tavoin kuin heidän keräilyesiänsä. Siellä, missä maa ja sade olivat runsaasti, viljelijät pystyivät tuottamaan satojaan pienimuotoisesti ilman merkittävää väkivaltaista häirintää. Mutta kun väestö kasvoi useiden tuhansien vuosien aikana, jopa harvasti asutuilla alueilla viljelijät joutuivat satunnaisen, epäsäännöllisen ryöstön kohteeksi, mikä joskus saattoi jättää heidät ilman riittävästi siemeniä seuraavan vuoden sadon uudelleen istuttamiseen. Kilpaileva ryöstö – tai anarkia – oli toisessa ääripäässä mahdollisuus, samoin kuin suojattomissa yhteisöissä, joissa ei ollut erikoistunutta organisaatiota monopolisoimaan väkivaltaa.
+
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely saatiin vakiintumaan. Maanviljely lisäsi jyrkästi ihmisten muodostamien yhteisöjen laajuutta. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta; vaikka ne olivatkin nykykäsityksen mukaan pieniä, ne olivat ensimmäisten sivilisaatioiden keskuksia – sana, joka on peräisin latinankielisestä *civit*-sanasta, tarkoittaen "kansalaisuutta" tai "kaupungissa asuvia". Koska maanviljely loi varallisuutta sekä ryöstettäväksi että suojeltavaksi, se loi myös tarpeen kirjanpitotoiminnalle. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Kirjanpitäjän tilikirjan merkintöihin käytetyt symbolit muodostivat kirjoitetun kielen perusrakenteet – innovaatio, joka oli täysin vieras metsästäjien ja keräilijöiden maailmassa.
+
+Maanviljely laajensi myös sitä aikahorisonttia, jonka puitteissa ihmisten piti ratkaista ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen puitteissa ja harvoin ryhtyivät projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suunnistamaan kohti tähtiä. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+## OMAISUUS
+
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän tekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun sotivan ja korjavan hänen tuotoksensa. Omaisuuden käsite syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys heikkeni sen mukana tulleen väkivallan logiikan vuoksi. Omaisuuden esiintyminen monimutkaistui sen vuoksi, että yksilöiden mega-poliittinen valta ei enää ollut yhtä tasavertaista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, maanviljely teki investoinnit parempiin aseisiin kannattaviksi, mikä johti järjestäytyneeseen ryöstöön.
+
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, ja laajalle kylvyksi joutuneille köyhille, jotka viljelivät peltoja. Harvat, jotka hallitsivat sotilaallista valtaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosiollaan etuja. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset pienemmät, paikalliset voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtiota – saivat nauttia huomattavasti nykyaikaisemmista omaisuuden muodoista kuin suuri massa, joka tehosi heidän alapuolellaan.
+
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevalla jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin erottaisi omistukselta laajalle levittyvään kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja hierarkian alempien osapuolten omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, se teki investoinneista parempaan aseistukseen kannattavia, mikä johti laajamittaiseen, usein erittäin organisoituun ryöstöön.
+
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, ja niille, jotka joutuivat yrittämään selviytyä viljellyistä pelloista. Harvat, jotka pääsivät hallitsemaan sotilaallista valtaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosiollaan etua. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita – nauttivat joissakin suhteissa nykyaikaisten omaisuusmuotojen mukaisista etuuksista paljon enemmän kuin suuri massa, joka tehosi heidän alapuolellaan.
+
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely vakiintui. Maanviljely lisäsi jyrkästi ihmisten muodostamien yhteisöjen laajuutta. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta esiin. Vaikka ne olivat nykyiset standardit ajatellen pieniä, ne olivat ensimmäisten “sivilisaatioiden” keskuksia – sana, joka on peräisin latinankielisestä *civit*-sanasta ja tarkoittaa “kansalaisuutta” tai “kaupungissa asuvia”. Koska maanviljely loi varallisuutta sekä ryöstettäväksi että suojeltavaksi, se loi myös tarpeen varastonhallintakirjanpidolle. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Kirjanpitäjän tilikirjan merkintöihin käytetyt symbolit muodostivat kirjoitetun kielen perusosat – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut koskaan ennen.
+
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun sotivan ja korjavan hänen tuotoksensa. Omaisuuden käsite syntyi väistämättömän seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys himmeni sen mukana tulleen väkivallan logiikan vuoksi. Omaisuuden esiintyminen monimutkaistui sen vuoksi, että yksilöiden megapoliittinen valta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, maanviljely teki investoinneista pareampiin aseisiin kannattavia, mikä johti ryöstöön, josta suuri osa oli erittäin organisoitua.
+
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, ja niille, jotka joutuivat elämään viljelyksessä. Harvat, jotka hallitsivat sotilaallista valtaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosiollaan etuja. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri väestö, joka tehosi heidän alapuolellaan.
+
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely otti jalansijaa. Maanviljely lisäsi jyrkästi sitä laajuutta, jolla ihmisten yhteisöjä voitiin muodostaa. Noin kymmenen tuhannen vuotta sitten alkaa nousu kaupungeissa. Vaikka ne olivat nykykäsityksen mukaan pieniä, ne muodostivat ensimmäisten *sivilisaatioiden* keskuksia – termi, joka juontaa juurensa latinankielisestä sanasta *civit*, tarkoittaen “kansalaisuutta” tai “kaupungissa asuvia”. Koska maanviljely loi varoja ryöstettäväksi ja suojeltavaksi, se loi myös tarpeen pitää kirjaa varoista. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Ne symbolit, joita kirjanpitäjän tilikirjaan merkinnöissä käytettiin, muodostivat kirjoitetun kielen perusrakenteet – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut ennen.
+
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun sotivan ja korjavan hänen tuotoksensa. Omaisuuden käsite syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys himmeni sen mukana tulleen väkivallan logiikan vuoksi. Omaisuuden syntyä monimutkaisti se, että yksilöiden megapoliittinen valta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+Maanviljely, joka näin ollen lisäsi ratkaisevasti pakkokeinojen merkitystä, mahdollisti sen, että varastosta pystyi ryöstämään suuren määrän resursseja, mikä johti yhtä suureen ryöstön kasvuun.
+
+Maanviljelysvallankumouksen täydellisen logiikan toteutuminen kesti vuosituhansia. Pitkän aikaa lauhkeiden alueiden harvat viljelijäyhteisöt saattoivat elää lähes samalla tavalla kuin keräilijäesiensä. Siellä, missä maa ja sateet olivat runsaasti, viljelijät keräsivät satojaan pienimuotoisesti ilman suurempaa väkivaltaista häiriötä. Mutta väestön kasvaessa tuhansien vuosien aikana, jopa harvoilla asutuilla alueilla, viljelijät joutuivat satunnaisen ryöstön kohteeksi, mikä joskus jätti heidät ilman riittävästi siemeniä seuraavan vuoden istutukseen. Kilpaileva ryöstö – tai anarkia – oli mahdollisuus toisessa ääripäässä, samoin kuin suojattomien yhteisöjen eläminen ilman erikoistunutta, väkivallan monopolisoimiseen perustuvaa organisaatiota.
+
+Kasvavan ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely otti jalansijaa. Maanviljely lisäsi jyrkästi sitä mittakaavaa, jolla ihmisyhteisöjä voitiin muodostaa. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta. Vaikka nykyisten mittapuiden mukaan ne olivat pieniä, ne toimivat ensimmäisten *sivilisaatioiden* keskuksina – sana, joka on johdettu latinasta sanasta *civit*, tarkoittaen “kansalaistyyppiä” tai “kaupungissa asuvia”. Koska maanviljely loi varallisuutta, jota voitiin ryöstää ja suojella, se loi myös vaatimuksen varastonhallintakirjanpidolle. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Ne symbolit, joita kirjanpitäjä käytti tilikirjassaan, muodostivat kirjoitetun kielen peruselementit – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut ennen.
+
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun sotivan ja korjavan hänen tuotoksensa. Omaisuuden käsite syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys himmeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen esiintyminen monimutkaistui sillä, että yksilöiden megavoima ei enää ollut yhtä tasavertaista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+Maanviljely lisäsi ratkaisevasti pakkokeinojen merkitystä. Lisäksi se loi jotakin ryöstettävää, joten paremman aseistuksen investoinnit tulivat kannattaviksi, mikä johti hyvin organisoituun ryöstötoimintaan.
+
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, ja se loi hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, ja niille, jotka joutuivat taisteluun pelloilla. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka olivat heidän suosiossaan. Jumalankuninkaat ja heidän liittolaisensa – erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri kansanmassa, joka teoksi kovasti heidän alapuolellaan.
+
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevalla jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin erotettaisiin omistukselta laajalle levittyvään kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja hierarkian alempien osapuolten omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+Maanviljely synnytti erikoistumisen väkivallan saralla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti yleiseen ja usein järjestäytyneeseen ryöstöön.
+
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, ja se loi täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin köyhiin, jotka teettelivät peltojaan. Harvat, jotka hallitsivat sotilaallista valtaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosiollaan etuja. Jumalankuninkaat ja heidän liittolaisensa – erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita – saivat nauttia huomattavasti nykyaikaisemmista omaisuuden muodoista kuin suuri kansanmassa, joka teeksi kovasti heidän alapuolellaan.
+
+---
+
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui yhä laajemmille alueille niissä yhteiskunnissa, joissa maanviljely otti jalansijaa. Maanviljely lisäsi jyrkästi sitä mittakaavaa, jolla ihmisyhteisöjä voitiin muodostaa. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta. Vaikka nykykäsityksen mukaan ne ovat pieniä, ne olivat ensimmäisten *sivilisaatioiden* keskuksia – termi, joka on johdettu latinankielisestä sanasta *civit*, tarkoittaen “kansalaisuutta” tai “kaupungissa asuvia”. Koska maanviljely loi ryöstettävää ja suojeltavaa varallisuutta, se loi samalla tarpeen pitää kirjaa kaikista näistä resursseista. Et voi verottaa, ellei osaa koota tietoja ja liittää niihin kuitteja. Ne symbolit, joita tilikirjanpitäjän kirjanpitoon käytettiin, muodostivat kirjoitetun kielen peruspilarit – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut koskaan ennen.
+
+---
+
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun sotivan ja korjavan hänen tuotoksensa. Omaisuuden käsite syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys himmeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista monimutkaisti se, että yksilöiden megavoima ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Maanviljely lisäsi ratkaisevasti pakkokeinojen merkitystä. Lisäksi se loi jotain ryöstettävää, minkä vuoksi parempiin aseisiin investoiminen todettiin kannattavaksi – seurauksena järjestäytyi laajamittaista ryöstöä.
+
+---
+
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi ja loi täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna köyhään väestöön, joka teetti pellojaan. Harvat, jotka pystyivät hallitsemaan sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa, ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita, nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri väestö, joka teetti heidän alapuolellaan.
+
+---
+
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely vakiintui. Maanviljely lisäsi jyrkästi sitä mittakaavaa, jolla ihmisten yhteisöjä voitiin muodostaa. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta esiin. Vaikka nykykäsityksen mukaan ne olivat pieniä, ne olivat ensimmäisten sivilisaatioiden keskuksia – termi, joka juontaa juurensa latinankielisestä sanasta *civit*, tarkoittaen “kansalaisuutta” tai “kaupungissa asuvia”. Koska maanviljely loi varallisuutta, jota voitiin ryöstää ja suojella, se loi myös tarpeen pitää kirjaa varoista. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Ne symbolit, joita tilikirjanpitäjän kirjanpitoon käytettiin, muodostivat kirjoitetun kielen peruspilarit – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut ennen.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan saralla. Juuri siksi, että se loi jotain ryöstettävää, parempiin aseisiin investointi tuli kannattavaksi, mikä johti ryöstöön, josta suuri osa oli erittäin järjestäytynyttä.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god-kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvimmat pystyivät nyt organisoimaan uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin köyhiin, jotka teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri väestö, joka teetti heidän alapuolellaan.
+
+---
+
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevalla jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin voisi erottaa omistukselta laajalle levittäytyneeseen kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja alempien hierarkiassa olevien omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion. The surge in resources capable of being plundered led to a large surge in plunder.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä. Ryöstettävien resurssien määrän kasvu johti suureen ryöstön kasvuun.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen puitteissa eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämiseksi. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+[^62]: Katso Lisätietoja alkuperäisessä tekstissä.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuottamansa sadon. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys väheni sen mukana tulleen väkivallan logiikan vuoksi. Omaisuuden syntyä monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan saralla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god-kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt organisoimaan uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teettivät peltojaan. Harvat, jotka hallitsivat sotilaallista valtaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosiollaan etua. Jumalankuninkaat ja heidän liittolaisensa, ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita, nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+It is, of course, anachronistic to think of a distinction between private and public wealth in the early agricultural societies. The ruling god-king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate. Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates. Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevan jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin olisi voitu erottaa omistukselta laajalle levittäytyneeseen kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja hierarkian alempien osapuolten omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+---
+
+Over time, the basic logic of the Agricultural Revolution impressed itself on the societies where farming took hold. Farming sharply raised the scope at which human communities could form. Beginning about ten thousand years ago, cities began to emerge. Although tiny by today's standards, they were the centers of the first "civilizations," a word derived from *civit* which means "citizenship" or "inhabitants of a city" in Latin.  
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely sai jalansijaa. Maanviljely nosti jyrkästi sen mittakaavan, jolla ihmisyhteisöjä voitiin muodostaa. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta esiin. Vaikka ne ovat nykykäsityksen mukaan pieniä, ne olivat ensimmäisten "sivilisaatioiden" keskuksia, sana, joka on peräisin latinankielisestä *civit*-sanasta ja tarkoittaa "kansalaistyyppiä" tai "kaupungissa asuvia".
+
+Because farming created assets to plunder and to protect, it also created a requirement for inventory accounting. You cannot tax unless you can compile records and issue receipts. The symbols employed in the accountant's ledger became the rudiments of written language, an innovation that had never existed among hunters and gatherers.  
+Koska maanviljely loi varoja, joita voitiin ryöstää ja suojella, se loi myös tarpeen pitää kirjaa varoista. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Ne symbolit, joita tilikirjanpidossa käytettiin, muodostivat kirjoitetun kielen perusrakenteet – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut koskaan ennen.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä, eivätkä ne yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomionsa tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuotoksensa. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys heikkeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion. The surge in resources capable of being plundered led to a large surge in plunder.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä. Ryöstettävien resurssien määrän kasvu johti suurta ryöstötoimintaa lisäävään aaltoon.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‐kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teettiin pelloilla. Harvat, jotka hallitsivat sotilaallista valtaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi-idän valtioita – saivat nauttia huomattavasti nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Over time, the basic logic of the Agricultural Revolution impressed itself on the societies where farming took hold. Farming sharply raised the scope at which human communities could form. Beginning about ten thousand years ago, cities began to emerge. Although tiny by today's standards, they were the centers of the first “civilizations,” a word derived from *civit* which means “citizenship” or “inhabitants of a city” in Latin.  
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely sai jalansijaa. Maanviljely nosti jyrkästi sitä mittakaavaa, jolla ihmisyhteisöjä voitiin muodostaa. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta esiin. Vaikka ne ovatkin nykystandardien mukaan pieniä, ne olivat ensimmäisten “sivilisaatioiden” keskuksia – sana, joka on peräisin latinasta ja tarkoittaa “kansalaistyyppiä” tai “kaupungissa asuvia”.
+
+Because farming created assets to plunder and to protect, it also created a requirement for inventory accounting. You cannot tax unless you can compile records and issue receipts. The symbols employed in the accountant's ledger became the rudiments of written language, an innovation that had never existed among hunters and gatherers.  
+Koska maanviljely loi varoja, joita voitiin ryöstää ja suojella, se loi myös tarpeen tarkalle kirjanpidolle. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Ne symbolit, joita tilikirjanpitäjän kirjanpidossa käytettiin, muodostivat kirjoitetun kielen perusrakenteet – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut ennen.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen asettamisessa. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuotoksensa. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys heikkeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion. The surge in resources capable of being plundered led to a large surge in plunder.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä. Ryöstettävien resurssien määrän kasvu johti suureen ryöstötoiminnan aaltoon.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt organisoimaan uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teettivät pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+It is, of course, anachronistic to think of a distinction between private and public wealth in the early agricultural societies. The ruling god‑king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate. Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates. Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevan jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin olisi voitu erottaa omistukselta laajalle levittäytyneeseen kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja alempien osapuolten omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+---
+
+Over time, the basic logic of the Agricultural Revolution impressed itself on the societies where farming took hold. Farming sharply raised the scope at which human communities could form. Beginning about ten thousand years ago, cities began to emerge. Although tiny by today's standards, they were the centers of the first “civilizations,” a word derived from *civit* which means “citizenship” or “inhabitants of a city” in Latin.  
+Ajan myötä maanviljelysvallankumouksen peruslogiikka juurtui niihin yhteiskuntiin, joissa maanviljely sai jalansijaa. Maanviljely nosti jyrkästi sille asetetun mittakaavan, jolla ihmisyhteisöjä voitiin muodostaa. Noin kymmenen tuhannen vuotta sitten kaupungit alkoivat nousta esiin. Vaikka nykystandardien mukaan ne olivat pieniä, ne muodostivat ensimmäisten “sivilisaatioiden” keskuksia – termi, joka on johdettu latinasta, ja tarkoittaa “kansalaisuutta” tai “kaupungissa asuvia.”
+
+---
+
+Because farming created assets to plunder and to protect, it also created a requirement for inventory accounting. You cannot tax unless you can compile records and issue receipts. The symbols employed in the accountant's ledger became the rudiments of written language, an innovation that had never existed among hunters and gatherers.  
+Koska maanviljely loi varoja, joita voitiin ryöstää ja suojella, se loi myös tarpeen pitää kirjaa varoista. Et voi verottaa, ellei osaa koota tietoja ja antaa kuitteja. Ne symbolit, joita tilikirjanpitäjän kirjanpidossa käytettiin, muodostivat kirjoitetun kielen peruspilarit – innovaatio, jota metsästäjillä ja keräilijöillä ei ollut ennen.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä ne ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuotoksensa. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys heikkeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+It is, of course, anachronistic to think of a distinction between private and public wealth in the early agricultural societies. The ruling god‑king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate. Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates. Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevan jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin olisi voitu erottaa omistukselta laajalle levittäytyneeseen kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja alempiin hierarkian osiin kuuluvien omaisuus heikkeni hallitsijan mielivaltaisesti.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti laajaan ja usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teettivät pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – saivat nauttia paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuotoksensa. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys himmeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+It is, of course, anachronistic to think of a distinction between private and public wealth in the early agricultural societies. The ruling god‑king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate. Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates. Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevan jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin olisi voitu erottaa omistukselta laajalle levittäytyneeseen kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja hierarkian alempien osapuolten omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti laajaan, usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt organisoimaan uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teettivät pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen puitteissa eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+[^62]
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuotoksensa. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys heikkeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+It is, of course, anachronistic to think of a distinction between private and public wealth in the early agricultural societies. The ruling god‑king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate. Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates. Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevan jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin olisi voitu erottaa omistukselta laajalle levittyneeseen kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja alempiin hierarkian osiin kuuluvien omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuotoksensa. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys hismeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista sekvenssi monimutkaistui sillä, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteiskunnissa, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion. The surge in resources capable of being plundered led to a large surge in plunder.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä. Ryöstettävien resurssien määrän kasvu johti suureen ryöstöaaltoon.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt organisoimaan uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat huomattavasti nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+It is, of course, anachronistic to think of a distinction between private and public wealth in the early agricultural societies. The ruling god‑king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate. Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates. Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevan jumalankuninkaalla oli valtakunnan kaikki resurssit käytössään tavalla, jota tuskin olisi voitu erottaa omistukselta laajalle levittäytyneeseen kartanoon. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja hierarkian alempiin osiin kuuluvan omaisuuden arvo heikkeni hallitsijan mielivallan mukaan.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan saralla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+[^62]
+
+---
+
+**PROPERTY**
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through an entire growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming. But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming. The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan hänen tuotoksensa. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä. Mutta yksityisomaisuuden käsitteen selkeys hismeni sen mukana tulleen väkivallan logiikan vuoksi. Omistuksen ilmaantumista monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion. The surge in resources capable of being plundered led to a large surge in plunder.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä. Ryöstettävien resurssien vuoksi ryöstöön kohdistunut kasvu oli valtava.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstötoimintaan.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Of course, it is anachronistic to think of a distinction between private and public wealth in the early agricultural societies. The ruling god‑king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate. Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates. Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa. Hallitsevan jumalankuninkaalla oli kaikki valtakunnan resurssit käytössään tavalla, jota tuskin olisi voitu erottaa laajalle levittäytyneen kartanon omistukselta. Niin kuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle, ja hierarkian alemmilla tasoilla omaisuus heikkeni hallitsijan mielivallan mukaan.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government. This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields. The few who controlled military power could now become rich, along with others who found favor with them. The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen. Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan. Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa. Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia. Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+It took millennia for the full logic of the Agricultural Revolution to play itself out. For a long while, sparse populations of farmers in temperate regions may have lived much as their foraging forebears had done. In places where land and rainfall were ample, farmers harvested crops on a small scale without much violent interference. But as populations rose over a period of several thousand years, farmers even in thinly settled regions became subject to erratic plunder that sometimes must have left them with insufficient seed to replant the next year's crop. Competitive plundering, or anarchy, was a possibility at one extreme, as well as unprotected communities living without any specialized organization to monopolize violence.  
+Koko maanviljelysvallankumouksen logiikan toteutuminen kesti vuosituhansia. Pitkän aikaa lauhkeilla alueilla harvat viljelijäyhteisöt saattoivat elää melkein samalla tavalla kuin heidän keräilyesiänsä. Siellä, missä maa ja sade olivat runsaasti, viljelijät keräsivät satojaan pienimuotoisesti ilman merkittävää väkivaltaista häiriötä. Mutta kun väestö kasvoi useiden tuhansien vuosien aikana, jopa harvasti asutuilla alueilla viljelijät joutuivat satunnaisen ryöstön kohteeksi, mikä joskus jätti heidät ilman riittävästi siemeniä seuraavan vuoden istutusta varten. Kilpaileva ryöstö – eli anarkia – oli mahdollisuus toisessa ääripäässä, samoin kuin suojattomien yhteisöjen eläminen ilman erikoistunutta järjestelmää, joka monopolisoisi väkivallan.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property. Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced. The idea of property emerged as “an inevitable consequence” of farming.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn. Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän tekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan sen. Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä.
+
+---
+
+Obviously, farming greatly increased the importance and scale of coercion.  
+Ilmiselvästi maanviljely lisäsi pakkokeinojen merkitystä huomattavasti.
+
+---
+
+Of course, it is anachronistic to think of a distinction between private and public wealth in the early agricultural societies.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+---
+
+**PROPERTY**
+
+The move to a settled agricultural society resulted in the emergence of private property.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn.
+
+Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced.  
+Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan sen.
+
+The idea of property emerged as “an inevitable consequence” of farming.  
+Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä.
+
+But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming.  
+Mutta yksityisomaisuuden käsitteen selkeys himmeni sen mukana tulleen väkivallan logiikan vuoksi.
+
+The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Omaisuuden esiintyminen monimutkaistui sillä, että yksilöiden suurvalta ei enää ollut yhtä tasa-arvoista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming gave rise to specialization in violence.  
+Maanviljely synnytti erikoistumisen väkivallan saralla.
+
+Precisely because it created something to steal, farming made investment in better weaponry profitable.  
+Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi.
+
+The result was theft, much of it highly organized.  
+Tuloksena oli ryöstöä, josta suuri osa oli erittäin järjestäytynyttä.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden hyvin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka joutuivat taisteluun pelloilla.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia.
+
+Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days.  
+Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä ne yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää.
+
+But planting and harvesting a crop took months.  
+Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia.
+
+Pursuing projects of a longer time frame forced farmers to train their attentions on the stars.  
+Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin.
+
+Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap.  
+Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä.
+
+With the advent of farming, hunters’ horizons expanded.  
+Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn.
+
+Obviously, no one would be content to toil through an entire growing season to produce a crop just to see someone else waltz in and harvest what he produced.  
+Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän teekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan sen.
+
+The idea of property emerged as “an inevitable consequence” of farming.  
+Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä.
+
+But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming.  
+Mutta yksityisomaisuuden käsitteen selkeys himmeni sen mukana tulleen väkivallan logiikan vuoksi.
+
+The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Omaisuuden esiintyminen monimutkaistui sillä, että yksilöiden suurvalta ei enää ollut yhtä tasavertaista kuin keräilyyhteisöissä, joissa jokainen terve, aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä.
+
+The surge in resources capable of being plundered led to a large surge in plunder.  
+Ryöstettävien resurssien määrän kasvu johti suureen ryöstöaaltoon.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan saralla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti laajamittaiseen, usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+[^62]
+
+---
+
+Farming also extended the horizon over which humans had to solve problems.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia.
+
+Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days.  
+Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää.
+
+But planting and harvesting a crop took months.  
+Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia.
+
+Pursuing projects of a longer time frame forced farmers to train their attentions on the stars.  
+Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät suuntaamaan huomiota tähtiin.
+
+Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap.  
+Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä.
+
+With the advent of farming, hunters’ horizons expanded.  
+Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+**PROPERTY**
+
+The move to a settled agricultural society resulted in the emergence of private property.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn.
+
+Obviously, no one would be content to toil through a whole growing season to produce a crop just to see someone else waltz in and harvest what he produced.  
+Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän tekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan sen.
+
+The idea of property emerged as “an inevitable consequence” of farming.  
+Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä.
+
+But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming.  
+Mutta yksityisomaisuuden käsitteen selkeys himmeni väkivallan logiikan vuoksi, joka kulki käsi kädessä maanviljelyn kanssa.
+
+The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Omaisuuden ilmaantumista monimutkaisti se, että yksilöiden suurvalta ei enää ollut yhtä tasavertaista kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion.  
+Maanviljely lisäsi siis dramaattisesti pakkokeinojen merkitystä.
+
+The surge in resources capable of being plundered led to a large surge in plunder.  
+Ryöstettävien resurssien määrän kasvu johti suureen ryöstöaaltoon.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka ponnistelivat pelloilla.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosiollaan etua.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat huomattavasti nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä.
+
+---
+
+It is, of course, anachronistic to think of a distinction between private and public wealth in the early agricultural societies.  
+Tietenkin on anakronistista ajatella yksityisen ja julkisen varallisuuden eroa varhaisissa maatalousyhteiskunnissa.
+
+The ruling god‑king had the full resources of the state at his disposal in a way that could hardly be distinguished from ownership of a sprawling estate.  
+Hallitsevan jumalankuninkaalla oli kaikki valtakunnan resurssit käytössään tavalla, jota tuskin olisi voitu erottaa laajalle levittäytyneen kartanon omistukselta.
+
+Much as in the feudal period of European history, all property was subject to the overlordship of higher potentates.  
+Niinkuin Euroopan feodaaliaikana, kaikki omaisuus oli alttiina ylempien hallitsijoiden ylivallan vaikutukselle.
+
+Those down the chain of hierarchy found their property subject to attenuation at the whim of the ruler.  
+Hierarkian alemmat osiot joutuivat kokemaan omaisuutensa heikkenemistä hallitsijan mielivallan mukaan.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan saralla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka teetti pellojaan.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka pystyivät hallitsemaan sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems. Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days. But planting and harvesting a crop took months. Pursuing projects of a longer time frame forced farmers to train their attentions on the stars. Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap. With the advent of farming, hunters’ horizons expanded.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ongelmia piti ratkaista. Metsästysryhmät elivät hyvin lyhyen aikajänteen puitteissa eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää. Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia. Pitkän aikavälin hankkeet pakottivat viljelijät ohjaamaan huomionsa tähtiin. Yksityiskohtaiset tähtitieteelliset havainnot olivat välttämättömiä, jotta voitiin laatia almanakkoja ja kalentereita, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä. Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The move to a settled agricultural society resulted in the emergence of private property.  
+Siirtyminen asuttuun maatalousyhteiskuntaan johti yksityisomaisuuden syntyyn.
+
+Obviously, no one would be content to toil through an entire growing season to produce a crop just to see someone else waltz in and harvest what he produced.  
+Ilmiselvästi kukaan ei olisi tyytyväinen siihen, että hän tekisi koko kasvukauden ahkerasti tuotakseen sadon vain nähdäkseen jonkun muun astuvan sisään ja korjavan sen.
+
+The idea of property emerged as “an inevitable consequence” of farming.  
+Omaisuuden idea syntyi väistämättömänä seurauksena maanviljelyksestä.
+
+But the clarity of the private property concept was attenuated by the logic of violence that also accompanied the introduction of farming.  
+Mutta yksityisomaisuuden käsitteen selkeys himmeni väkivallan logiikan vuoksi, joka kulki käsi kädessä maanviljelyn mukana.
+
+The emergence of property was confused by the fact that the megapolitical power of individuals was no longer as equal as it had been in foraging societies, where every healthy adult male was a hunter as well armed as anyone else.  
+Omaisuuden ilmaantumista monimutkaisti se, että yksilöiden suuret valtasiteit eivät enää olleet yhtä tasavertaisia kuin keräilyyhteisöissä, joissa jokainen terve aikuinen mies oli yhtä hyvin aseistettu metsästäjä kuin kuka tahansa muu.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä.
+
+The surge in resources capable of being plundered led to a large surge in plunder.  
+Ryöstettävien resurssien kasvun myötä ryöstötoiminta lisääntyi merkittävästi.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan saralla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka teetti pellojaan.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia.
+
+Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days.  
+Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää.
+
+But planting and harvesting a crop took months.  
+Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia.
+
+Pursuing projects of a longer time frame forced farmers to train their attentions on the stars.  
+Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät ohjaamaan huomionsa tähtiin.
+
+Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap.  
+Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä.
+
+With the advent of farming, hunters’ horizons expanded.  
+Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka teetti pellojaan.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka teetti pellojaan.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming, therefore, dramatically increased the importance of coercion.  
+Maanviljely lisäsi siten dramaattisesti pakkokeinojen merkitystä.
+
+The surge in resources capable of being plundered led to a large surge in plunder.  
+Ryöstettävien resurssien määrän kasvu johti suureen ryöstöaaltoon.
+
+---
+
+Farming gave rise to specialization in violence. Precisely because it created something to steal, farming made investment in better weaponry profitable. The result was theft, much of it highly organized.  
+Maanviljely synnytti erikoistumisen väkivallan alalla. Juuri siksi, että se loi jotain ryöstettävää, investoinnit parempiin aseisiin tulivat kannattaviksi, mikä johti usein erittäin järjestäytyneeseen ryöstöön.
+
+---
+
+The powerful were now able to organize a new form of predation: a monopoly of violence, or government.  
+Vahvat pystyivät nyt järjestämään uudenlaisen saalistuksen: väkivallan monopolion eli hallituksen.
+
+This sharply differentiated societies, creating quite different circumstances for those who benefited from plunder, and the mass of poor who tilled the fields.  
+Tämä erotti yhteiskunnat jyrkästi, luoden täysin erilaiset olosuhteet niille, jotka hyötyivät ryöstöstä, verrattuna niihin, jotka elivät köyhyyttä ja teetti pellojaan.
+
+The few who controlled military power could now become rich, along with others who found favor with them.  
+Harvat, jotka hallitsivat sotilaallista voimaa, pystyivät nyt rikastumaan yhdessä niiden kanssa, jotka saivat heidän suosionsa.
+
+The god‑kings and their allies, the various lesser, local potentates who ruled the first Near Eastern states, enjoyed much more nearly modern forms of property than the great mass who toiled beneath them.  
+Jumalankuninkaat ja heidän liittolaisensa – ne erilaiset paikalliset pienemmät voimanhaltijat, jotka hallitsivat ensimmäisiä Lähi‑idän valtioita – nauttivat paljon nykyaikaisemmista omaisuuden muodoista kuin suuri joukko, joka teetti heidän alapuolellaan.
+
+---
+
+Farming also extended the horizon over which humans had to solve problems.  
+Maanviljely laajensi myös sitä aikajännettä, jonka puitteissa ihmisten oli ratkaistava ongelmia.
+
+Hunting bands lived within an immediate time horizon. They seldom undertook projects that lasted more than a few days.  
+Metsästysryhmät elivät hyvin lyhyen aikajänteen sisällä eivätkä yleensä ryhtyneet projekteihin, jotka kestäisivät muutamaa päivää.
+
+But planting and harvesting a crop took months.  
+Sen sijaan sadon istuttaminen ja korjuu kesti kuukausia.
+
+Pursuing projects of a longer time frame forced farmers to train their attentions on the stars.  
+Pitkän aikavälin hankkeiden toteuttaminen pakotti viljelijät ohjaamaan huomiota tähtiin.
+
+Detailed astronomical observations were a precondition for drawing up almanacs and calendars to serve as guides on when to best plant and reap.  
+Yksityiskohtaiset tähtitieteelliset havainnot olivat edellytys almanakoiden ja kalentereiden laatimiselle, jotka toimivat oppaina parhaiden istutus- ja korjuuaikojen määrittämisessä.
+
+With the advent of farming, hunters’ horizons expanded.  
+Maanviljelyn myötä metsästäjien horisontti laajeni.
+
+Kuitenkin se, että sanotaan potentaatin ei olleen lain rajoittama, ei tarkoita, että hänellä olisi ollut varaa takaaista mitä halusi. Kustannukset ja palkkiot vaikuttivat faaraon vapauteen yhtä paljon kuin ne vaikuttavat nykyään Kanadan pääministeriin. Lisäksi faaraota rajoittivat huomattavasti nykyisten johtajien ongelmat kuljetuksessa ja viestinnässä. Pelkkä ryöstösaaliin siirtäminen paikasta toiseen – erityisesti kun saaliin arvo mitattiin pääasiassa maataloustuotteina – aiheutti runsaasti hävikkiä pilaantumisen ja varkauden vuoksi. Virkamiesten määrä, jotka valvoivat toisiaan, vähensi varastamisesta johtuvia menetyksiä, mutta lisäsi samalla faaraon kokonaiskustannuksia. Hajautettu valta, joka tietyissä olosuhteissa paransi tuotosta, synnytti myös vahvempia paikallisia voimia, jotka joskus muuttuivat täysimittaisiksi dynastisen vallan haastajiksi. Jopa itämaiset despotit eivät olleet millään tavalla vapaita tekemään haluamaansa – heillä ei ollut muuta vaihtoehtoa kuin hyväksyä raaka voiman tasapaino sellaisena kuin se heidän ympärillään vallitsi.
+
+Vaikka kaikki – jopa rikkaat – olivat alttiita mielivaltaiselle riistämiselle, jotkut pystyivät kartuttamaan omaisuuttaan. Sitten kuten nytkin, valtio käytti suuren osan tuloistaan julkisiin hankkeisiin. Hankkeet, kuten kastelujärjestelmät, uskonnolliset muistomerkit ja kuninkaiden kryptat, tarjosivat arkkitehdeille ja käsityöläisille mahdollisuuksia ansaita tuloja. Itse asiassa suuri osa Sumerin säilyneistä killopöydistä, jotka ovat peräisin varhaisen Mesopotamian kulttuurista, kirjaa erilaisia kaupankäynnin tekoja – suurin osa niistä sisältää omaisuusoikeuksien siirtoa.
+
+Varhaissakin maatalousyhteiskunnissa oli yksityisomaisuutta, mutta se harvoin sijoittui sosiaalisen pyramidin pohjalle. Väestöstä ylivoimaisesti enemmistö oli talonpoikia, jotka olivat liian köyhiä kartuttaakseen merkittävää varallisuutta. Itse asiassa, muutamia poikkeuksia lukuun ottamatta, useimmat talonpojat aina nykyaikaan asti olivat niin köyhiä, että he joutuivat jatkuvaan vaaraan kuolla nälkään aina, kun kuivuus, tulva tai tuhohyönteisten hyökkäys vähensi satoja. Siksi talonpoikien oli pakko järjestää asiansa tavalla, joka minimoisi huonojen vuosien haittavaikutukset. Laajalla, köyhästä yhteiskunnan kerroksesta muodostui primitiivisempi omaisuuden järjestäytymismuoto, joka lisäsi selviytymismahdollisuuksia kustannuksella siitä, että se sulki pois suuren osan mahdollisuuksista kerryttää pääomaa ja nousta taloudellisessa järjestelmässä.
+
+### Talonpoikien vakuutus
+
+Tämä sopimus toteutui omaksumalla sitä, mitä antropologit ja yhteiskuntahistorioitsijat kuvaavat “suljetuksi kyläksi.” Melkein jokaisessa esiteollisessa talonpoikayhteiskunnassa oli pääasiallisena taloudellisen järjestäytymisen muotona suljettu kylä. Toisin kuin nykyaikaisemmissa järjestelyissä, joissa yksilöt käyvät kauppaa monien ostajien ja myyjien kanssa avoimilla markkinoilla, suljetun kylän kotitaloudet yhdistyivät toimimaan kuin epävirallinen osakeyhtiö tai suuri perhe – eivät avoimessa markkinassa, vaan suljetussa järjestelmässä, jossa kylän kaikki taloudelliset tapahtumat tapahtuivat tyypillisesti yhden monopolistin, paikallisen maanomistajan (tai tämän edustajien kylänpäälliköiden) kanssa. Koko kylä solmi sopimuksen maanomistajan kanssa, yleensä luonnollisena maksuna, jossa suuri osa satojen tuotoksesta maksettiin, eikä kiinteää vuokraa. Prosentuaalinen vuokra tarkoitti, että maanomistaja kantoi osan huonon sadon riskiä. Tietenkin maanomistaja sai myös suurimman osan mahdollisesta voitosta, ja hän tarjosi tyypillisesti myös siemenet.
+
+Tämä käytäntö vähensi myös nälänhädän vaaraa. Se edellytti, että maanomistaja – ei talonpoika – säästäisi suhteettoman suuren osuuden omasta sadostaan. Koska maataloustuotot olivat monilla alueilla aikoinaan uskomattoman alhaiset, saattoi istuttaa jopa kaksi siementä jokaista kolmea sadonkorjattua kasvia kohti. Tällaisissa olosuhteissa huono sato tarkoitti massiivista nälänhätää. Talonpojat valitsivat järkevästi järjestelyn, joka velvoitti maanomistajan investoimaan heidän selviytymiseensä. Ostamalla tuotteita monopolisoitujen hintojen kustannuksella, myymällä edullisesti ja tarjoamalla maanomistajalle vastikkeellista työvoimaa, talonpojat lisäsivät selviytymismahdollisuuksiaan. Samankaltainen ajatus johti tyypillistä talonpoikaa suljetun kyläekonomian toiminnassa luopumaan vapaan omistusoikeuden turvasta. Asettamalla itsensä kylänpäällikön armoille, talonpoikaperhe paransi mahdollisuuksiaan hyötyä kenttien säännöllisestä uudelleenjaosta. Ei harvoin päällikkö vei parhaat pellot itselleen ja suosikeilleen, mutta se oli riski, jonka talonpoikien piti sietää voidakseen nauttia siitä selviytymisen vakuutuksesta, jonka sekava kyläomistus tarjosi. Aikoina, jolloin sato oli surkean alhainen, jopa kenttien istuntolot, jotka olivat sadan metrin päässä toisistaan, saattoivat ratkaista eron nälänhädän ja selviytymisen välillä. Talonpojat usein valitsivat järjestelyn, joka vähensi riskiä, vaikka se tarkoittikin luopumista mahdollisuudesta lisätä vaurauttaan.
+
+Yleisesti ottaen riskin välttelyä on esiintynyt kaikkien niiden ryhmien keskuudessa, jotka ovat toimineet selviytymisen rajoilla. Selviytymisen valtava haaste esiteollisissa yhteiskunnissa rajoitti aina köyhien toimintaa. Mielenkiintoinen piirre tästä riskin välttelystä – jota käsitellään kirjassa *The Great Reckoning* – on se, että se kavensi sitä rauhallista taloudellista käyttäytymistä, jota yksilöille sosiaalisesti sallittiin omaksua. Tabut ja sosiaaliset rajoitukset rajoittivat kokeilua ja innovatiivisuutta, vaikka se ilmeisesti tarkoittaisi potentiaalisesti edullisten parannusten luopumista vakiintuneissa toimintatavoissa. Tämä oli järkevä seuraus siitä, että kokeilu lisää tulosten vaihtelua. Suurempi vaihtelu tarkoittaa paitsi mahdollisuutta suurempiin voittoihin myös – vielä uhkaavammin niille, jotka ovat aivan selviytymisen rajalla – mahdollisesti tuhoisia tappioita. Suuri osa köyhien maatalousyhteiskuntien kulttuurisesta energiasta on aina käytetty kokeilun tukahduttamiseen. Tämä tukahdutus toimi käytännössä heidän vakuutuksensa sijaisena. Jos heillä olisi ollut vakuutuksia tai riittävästi säästöjä kattaakseen kokeilujensa riskit itse, tällaiset vahvat sosiaaliset tabut eivät olisi olleet tarpeen selviytymisen varmistamiseksi.
+
+Kulttuurit eivät ole makuasioita, vaan sopeutumisjärjestelmiä tiettyihin olosuhteisiin, jotka saattavat osoittautua merkityksettömiksi tai jopa haitallisiksi toisissa ympäristöissä. Ihmiset elävät valtavassa määrässä erilaisia elinympäristöjä, ja lukuisat mahdolliset niche-ympäristöt vaativat käyttäytymisen vaihtelua, joka on liian monimutkaista nojattavaksi pelkkään vaistoon. Siksi käyttäytyminen ohjelmoituu kulttuurisesti. Monissa maatalousyhteiskunnissa enemmistöä kulttuuri ohjelmoi selviytymiseen, mutta se ei välttämättä kannustanut mihinkään muutakaan kuin juuri selviytymiseen ympäristössä, jossa avoimiin markkinoihin osallistumisen ylellisyys oli varattu muille.
+
+Henkilökohtaiset kyvyt ja yksilölliset valinnat – eli se, mitä nykyisin kutsutaan “onnellisuuden tavoitteluksi” – tukahdutettiin tabuilla ja sosiaalisilla rajoituksilla, jotka ovat aina olleet kaikkein painavimpia köyhien keskuudessa. Tällaiset rajoitukset ylittyivät vain suurella vaikeudella yhteiskunnissa, joissa tuottavuus oli rajallinen. Aikana ja paikoissa, joissa maataloustuotanto oli korkeampaa, kuten antiikin Kreikassa, tapahtui pienimuotoisia megapoliittisia vallankumouksia. Omaisuus otti nykyaikaisempia muotoja; “allod” eli vapaa omistusoikeus ilmaantui. Maanvuokrat muodostuivat kiinteinä maksuina, jolloin vuokralainen kantoi sekä taloudellisen riskin että suuremman osuuden voitosta, jos sato oli hyvä. Korkeammat säästöt mahdollistivat riskialttiimpien toimien itse vakuuttamisen, ja tällaisissa olosuhteissa pienyrittäjät saattoivat nousta talonpoikien asemasta ja joskus jopa kartuttaa itsenäistä varallisuutta.
+
+Se, että markkinaehtoisempien omistusoikeuksien ja suhteiden kehitys esiintyi taloudellisen hierarkian huipulla – tai harvinaisempina tapauksina koko talouden laajuudessa, kun yhteiskunnat nousivat köyhyydestä – on tärkeä ominaispiirre yhteiskunnan organisaatiossa. On yhtä tärkeää huomata, että historiallisesti yleisin maatalousyhteiskuntien järjestäytymismuoto on ollut käytännössä feodaalinen, jossa markkinat ovat toimineet huipulla ja suljetun kylän järjestelmä ollut pohjana. Suuri osa talonpojista oli sidottu maahan lähes kaikissa esiteollisissa maatalousyhteiskunnissa. Niin kauan kuin maataloustuotanto pysyi alhaisena tai korkeampi tuottavuus edellytti pääsyä keskitettyihin kastelujärjestelmiin, yksittäisten maanviljelijöiden vapaus ja omistusoikeudet alimmalla tasolla pysyivät minimaalisina. Tällaisissa olosuhteissa feodaaliset omaisuusmuodot vallitsivat: maa oli pidetty vuokraoikeuden perusteella eikä vapaan omistusoikeuden kautta, ja tyypillisesti myynti-, lahja- ja perintöoikeuksia rajoitettiin.
+
+Feodalismi eri muodoissaan ei ollut vain vastaus jatkuvasti uhkaavaan saalistavan väkivallan riskiin. Se oli myös reaktio järkyttävän alhaisiin tuottavuustasoihin. Nämä kaksi ilmiötä ovat usein kulkeneet käsi kädessä maatalousyhteiskunnissa, ja niillä on ollut usein toisensa tukevia vaikutuksia. Kun julkinen valta romahti, myös omistusoikeudet ja vauraus vähenivät vastaavasti. Tuottavuuden lasku heikensi puolestaan usein myös valtaa. Vaikka kaikki kuivuudet tai epäsuotuisat ilmastomuutokset eivät johtaneet julkisen vallan romahtamiseen, monet tekivät niin.
+
+## Feodaalinen vallankumous vuonna 1000
+
+Niin kävi vuoden 1000 muutoksen yhteydessä, joka käynnisti feodaalisen vallankumouksen.[^64] Tuohon aikaan megapoliittiset ja taloudelliset olosuhteet erosivat merkittävästi niistä, joita nykyään pidämme keskiaikaa leimaavina. Ensimmäisten Rooman romahduksen jälkeisten vuosisatojen aikana Länsi-Euroopan talous kuihtui. Entisen Rooman valtakunnan alueille juurtuneet germaaniset kuningaskunnat olivat ottaneet monia Rooman valtion tehtäviä, mutta paljon vaatimattomammalla tasolla. Infrastruktuuria hoidettiin enemmän tai vähemmän huolehtimatta. Vuosisatojen kuluessa sillat ja vesijohdot rappeutuivat ja tulivat käyttökelvottomiksi, ja vaikka roomalaisia kolikoita käytettiin vielä, ne käytännössä katosivat liikkeestä. Maamarkkinat, jotka olivat kukoistaneet roomalaisina aikoina, kuivuivat lähes kokonaan, ja Rooman hallinnon keskuksina toimineet kaupungit lähes hävisivät valtion verotusvallan romahduksen myötä. Myöskään muut sivilisaation tunnusmerkit eivät pysyneet ennallaan.
+
+"Pimeät ajat" saivat nimensä aiheellisina: lukutaidosta tuli niin harvinaista, että kuka tahansa, joka osasi lukea ja kirjoittaa, saattoi odottaa lähes minkä tahansa rikoksen, jopa murhan, vuoksi vapautuvansa syytteistä. Roomalaisina aikoina erittäin kehittyneet taiteelliset, tieteelliset ja insinööritaidot katoivat. Länsi-Eurooppa lakkasi käyttämästä monia aikoinaan laajalti tunnettuja ja korkeatasoisesti harjoitettuja rakentamisen, viiniköynnösten liittämisen ja hedelmäpuiden rahinostotekniikoita. Jopa muinainen laite, savenpyörä, hävisi monilta alueilta. Kaivostoiminta supistui, metallurgian osa-alueet jäivät taka-alalle ja Välimeren alueen kastelujärjestelmät rappeutuivat laiminlyönnin seurauksena.[^65] Kuten historioitsija Georges Duby totesi, "kuudennen vuosisadan lopussa Eurooppa oli syvästi sivuton paikka."[^66] Vaikka noin vuonna 800 Charlemagne-hallinnon aikaan keskushallinnolla oli lyhyt renessanssi, kaikki romahti jälleen pian hänen kuolemansa jälkeen.
+
+Yllättävä sivutulos tästä surkeasta maisemasta oli se, että Rooman valtion romahdus todennäköisesti nosti pienten viljelijöiden elintasoa useiden vuosisatojen ajan. Pimeiden aikojen Länsi-Eurooppaa hallinneet germaaniset kuningaskunnat omaksuivat joitakin esi-heimonsa keskuudessa tavallisia joustavia sosiaalisia piirteitä, kuten vapaan maanomistajan oikeudellisen tasa-arvon. Tämän seurauksena pienten viljelijöiden vapaus pimeinä aikoina oli paljon suurempi kuin feodaalisten vuosisatojen aikana, ja näin ollen he olivat myös vauraampia. Kuten edellä analysoimme omaisuusmuotojen logiikassa eri tuottavuusolosuhteissa, vapaaomistus on historiallisesti kulkenut käsi kädessä pienten viljelijöiden suhteellisen vaurauden kanssa. Suljetun kylän ja feodaalisten omaisuusmuotojen ilmeneminen oli tyypillisesti seurausta siitä, että pienten viljelijöiden mahdollisuudet ansaita elantoa olivat epävarmempia.
+
+Totisesti, pimeinä aikoina tapahtunut kaupan lähes täydellinen romahtaminen merkitsi sitä, että pienet viljelijät menettivät kaupan hyödyt ja laajemmilta markkinoilta saatavat edut. Kaupunkien tuhoaminen heikensi käteis-taloutta, mutta se merkitsi myös sitä, että maaseudun väestöä ei enää pyydetty kantamaan valtavan byrokratian taakkaa. Kuten Guy Bois on kirjoittanut, roomalainen kaupunki oli parasitaarinen yhteisö, ei tuotannon keskus: 
+
+> "In the Roman period, the dominant function of a city was of a political order. It lived primarily from the revenues draining into it from its surroundings by the agency of the land tax.... The town, in effect, produced little or nothing for the benefit of the surrounding countryside." [^67]
+
+Roomalaisen vallan romahtaminen vapautti pitkälti maaseudun viljelijät veroista, jotka imeytyivät "yksi neljäsosa–yksi kolmanneksen" maasta saatavasta bruttotuotteesta, lukuun ottamatta pienten ja keskisuurten maanomistajien kokemaa erilaista verorasitusta.[^68] Verot olivat niin rasittavia, että niitä toisinaan jouduttiin toteuttamaan teloituksin, minkä seurauksena omistajien omaisuuden hylkääminen oli yleistä. Barbarit antoivat näiden verojen myötätuntoisesti umpeen mennä.
+
+### Agri Deserti
+
+Hallituksen taakat vähentyivät niin suuresti barbarien valloitusten seurauksena, että köyhille avautui mahdollisuus hankkia vapaaomistusoikeutta omaa maata ja säilyttää se. Osa agri deserti – eli hylättyjä tiloja, jotka omistajat jättivät paetessaan saalistavan verotuksen painetta Rooman valtakunnan viimeisinä vuosina – tuotiin takaisin tuotantoon. Huolimatta ajan karuista olosuhteista ja siitä, että satojen tuotot olivat nykystandardeihin nähden naurettavan alhaiset, pimeät ajat olivat suhteellisen vaurauden aikaa Euroopan pienviljelijöille. Itse asiassa he olivat vahvemmassa asemassa kuin he koskaan olisivat uudestaan ennen modernia aikaa. Yhtäältä viljelyyn käytettävissä oli vähemmän käsiä, sillä laajat, aikaisemmin viljellyt alueet olivat joutuessanne viljelyn ulkopuolelle. Epidemiat, sodat ja omistajien paenneet romahtelevasta Rooman valtakunnasta olivat merkittävästi vähentäneet aiemmin viljelyssä olleiden alueiden väestöä. Toinen etu, josta pienviljelijät pimeinä aikoina nauttivat, syntyi 600-luvulla omaksutun uuden maatalousteknologian myötä: raskaasta, usein pyörillä varustetusta talosta. Yhdistettynä parannettuun valjassysteemiin, joka mahdollisti useiden härkien käytön, uusi teknologia teki metsien raivaamisesta Pohjois-Euroopassa huomattavasti helpompaa.
+
+Tällaisissa olosuhteissa maan markkinat supistuivat melkein katoamisrajaan. Uutta viljelysmaata sai pelkästään raivaamalla ja jakamalla osa jokaisesta uudesta tontista asianmukaisten paikallisten viranomaisten kanssa. Tätä prosessia, jota kutsuttiin assartingiksi, hyödynnettiin vuosisatojen ajan väestönkasvun hallitsemiseksi Rooman romahduksen jälkeen. Assarting tuli erityisen houkuttelevaksi harvaanasutuilla pohjoisalueilla, kun 800-luvun lämpimämmät lämpötilat tekivät viljelystä entistä tuottavampaa.
+
+Entä sitten ne germaanisten heimojen johtajat, jotka valloittivat entiset Rooman alueet? He olivat vakiinnuttaneet asemansa suurina maanomistajina, kun taas suurin osa muusta väestöstä viljeli pieniä tontteja – olosuhteissa, jotka poikkesivat merkittävästi feodaalisia aikoja myöhemmin vallitsevista. Varakkaat maanomistajat, eli herrat, edustivat noin 7–10 prosenttia väestöstä. Näyttää siltä, että ennen vuotta 1000 kaksi kolmasosaa tyypillisestä ranskankielisestä alueen kyläläisestä oli vapaita maanomistajia,[^70] ja he omistivat noin puolet kaikesta viljellystä maasta.[^71] Orjia oli vähän, ja vuokraviljelijöiden osuus väestöstä oli enintään 5 prosenttia. Orjuus säilyi, mutta paljon pienemmässä mittakaavassa kuin Rooman ajoina.
+
+Vaikka pimeinä aikoina tapahtunut kaupan lähes täydellinen romahtaminen tarkoitti sitä, että pienet viljelijät menettivät kaupan hyödyt ja laajemmilta markkinoilta saatavat edut, myös kaupunkien tuhoaminen heikensi käteis-taloutta. Toisaalta se tarkoitti sitä, että maaseudun väkeä ei enää pyydetty tukemaan valtakunnan murskaavaa byrokratian taakkaa.
+
+„Roomalainen kaupunki” – kuten Guy Bois on todennut – oli parasitaarinen yhteisö, ei tuotannon keskus: 
+
+> "In the Roman period, the dominant function of a city was of a political order. It lived primarily from the revenues draining into it from its surroundings by the agency of the land tax.... The town, in effect, produced little or nothing for the benefit of the surrounding countryside." [^67]
+
+Roomalaisen vallan romahdus vapautti maaseudun viljelijät suurilta veroilta, jotka imeytyivät "yksi neljäsosa–yksi kolmanneksen" maasta saatavasta bruttotuotteesta, jättäen huomiotta pienten ja keskisuurten maanomistajien erilaiset erät.[^68] Verot olivat niin raskaita, että niiden täytäntöönpano ajoittain sisälsi teloituksia, minkä seurauksena omistajien omaisuuden hylkääminen oli yleistä. Barbarit antoivat näiden verojen myötätuntoisesti mennä umpeen.
+
+Vaikka keskushallinto syntyi hetkellisesti Charlemagne-hallinnon aikana noin vuonna 800, kaikki palautui pian hänen kuolemansa jälkeen.
+
+Yllättävä sivutulos tästä synkästä maisemasta oli se, että Rooman valtion romahdus todennäköisesti nosti pienten viljelijöiden elintasoa useiden vuosisatojen ajan. Pimeiden aikojen Länsi-Eurooppaa hallinneet germaaniset kuningaskunnat omaksuivat esi-heimonsa kiistattoman vapauden piirteitä, kuten vapaan maanomistajan oikeudellisen tasa-arvon. Tämän seurauksena pienten viljelijöiden vapaus oli feodaalisten vuosisatojen aikaisempaa huomattavasti suurempi, mikä viittaa siihen, että he olivat myös vauraampia. Kuten edellä analysoimme erilaisissa tuottavuusolosuhteissa omaisuusmuotojen logiikassa, vapaaomistus on historiallisen tasolla kulkenut käsi kädessä pienten viljelijöiden suhteellisen vaurauden kanssa. Suljetun kylän ja feodaalisten omaisuusmuotojen ilmestyminen oli tyypillisesti seurausta siitä, että pienten viljelijöiden mahdollisuus ansaita elantoa oli arveluttavampi.
+
+Vaikka kevyen kaupankäynnin romahtaminen pimeinä aikoina maksoi pienviljelijöiltä kaupan ja laajempien markkinoiden edut, se myös vapautti heidät valtakunnan murskaavan byrokratian nostamasta taakasta.
+
+---
+
+Vaikka keskusvallan lyhyt renessanssi Charlemagne-hallinnon aikana noin vuonna 800 tarjosi hetken keskitettyä järjestystä, kaikki romahti pian hänen kuolemansa jälkeen.
+
+---
+
+Plagioiden, sotien ja romahtelevasta Rooman valtakunnasta paenneiden omistajien hylkäämien tilojen seurauksena viljelyssä olleet alueet vähenivät merkittävästi väestöltään. Toinen etu, josta pienviljelijät pimeinä aikoina nauttivat, syntyi 600-luvulla otetun uuden maatalousteknologian myötä: raskaamman, usein pyörillä varustetun talon käyttöönotto. Yhdessä parannetun valjassysteemin kanssa, jonka avulla kansa pystyi käyttämään useampia härkiä samanaikaisesti, tämä uusi teknologia teki huomattavasti helpommaksi raivata metsikköä Pohjois-Euroopassa.
+
+---
+
+Vaikka kauppa romahti lähes kokonaan pimeinä aikoina, mikä menetti pienviljelijöiltä vaihdannan edut, maaseudun asukkaiden ei enää tarvinnut tukea valtakunnan murskaavaa byrokratian taakkaa. Roomalaisen vallan romahtaminen vapautti maaseudun viljelijät suurilta veroilta, jotka imeytyivät "yksi neljäsosa–yksi kolmanneksen" maasta saatavasta bruttotuotteesta, ja verot olivat niin ankarat, että ne johtiinkin toisinaan teloituksiin, minkä seurauksena omistajien omaisuuden hylkääminen oli yleistä. Barbarit antoivat nämä verot armollisesti mennä umpeen.
+
+---
+
+Vaikka keskushallinto Charlemagne-hallinnon aikaan oli lyhytikäinen, Rooman valtakunnan romahtaminen johti yllättävästi siihen, että pienviljelijöiden elintasot paranivat useiden vuosisatojen ajan. Yksi syy oli se, että viljelyyn käytettävissä oli vähemmän työvoimaa, sillä aiemmin viljelyssä olleet laajat alueet olivat jääneet viljelyn ulkopuolelle. Epidemiat, sodat ja omistajien paenneet romahtavasta Rooman valtakunnasta olivat vähentäneet merkittävästi aiemmin viljeltyjen alojen väestöä.
+
+---
+
+Vaikka kevyen kaupankäynnin romahtaminen pimeinä aikoina menetti pienviljelijöiltä kaupan ja laajempien markkinoiden edut, se vapautti heidät myös valtakunnan raskaan byrokratian taakasta. Kuten Guy Bois on kirjoittanut, roomalainen kaupunki oli parasitaarinen yhteisö, ei tuotannon keskus:
+
+> "In the Roman period, the dominant function of a city was of a political order. It lived primarily from the revenues draining into it from its surroundings by the agency of the land tax.... The town, in effect, produced little or nothing for the benefit of the surrounding countryside." [^67]
+
+---
+
+Plagioiden, sotien ja omistajien paenneiden seurauksena Rooman valtakuntaa romahtaneiden alueiden viljelyssä olleet tilat olivat tyhjentyneet, ja pienviljelijöiden hyötyksi syntynyt uusi maatalousteknologia 600-luvulla – raskas talo pyörillä varustettuna, yhdessä parannettujen valjaiden kanssa, jotka mahdollistivat useiden härkien käytön – teki metsien raivaamisesta entistä helpompaa Pohjois-Euroopassa.[^69]
+
+---
+
+Vaikka kaikesta tästä huolimatta alueiden markkinat supistuivat lähes katoamisrajaan, uutta viljelysmaata pystyi saamaan yksinkertaisesti raivaamalla alueita ja jakamalla osa jokaisesta uudesta tontista paikallisten viranomaisten kanssa. Tätä prosessia, jota kutsuttiin assartingiksi, hyödynnettiin kätevänä keinona väestönkasvun purkamiseksi vuosisatojen ajan Rooman romahduksen jälkeen, ja se muuttui erityisen houkuttelevaksi harvaanasutuilla pohjoisalueilla, kun 800-luvun lämpimämmät olosuhteet tekivät viljelystä tuottavampaa.
+
+---
+
+Germaanisten heimojen johtajat, jotka valloittivat entiset Rooman alueet, olivat vakiinnuttaneet asemansa suurina maanomistajina, kun taas suurin osa muusta väestöstä viljeli pieniä tontteja, mutta hyvin erilaisissa olosuhteissa kuin myöhemmin feodaalisen järjestelmän alla. Varakkaat maanomistajat, eli herrat, muodostivat noin 7–10 prosenttia väestöstä, ja näyttää siltä, että ennen vuotta 1000 noin kaksi kolmasosaa tyypillisessä ranskankielisessä alueessa oli vapaita maanomistajia,[^70] jotka omistivat noin puolet kaikesta viljellystä maasta.[^71] Vuokraviljelijöiden osuus oli alle 5 prosenttia, ja orjuus säilyi, mutta paljon pienemmällä asteikolla kuin Rooman ajoina.
+
+---
+
+Vaikka kevyen kaupankäynnin romahtaminen pimeinä aikoina menetti pienviljelijöiltä kaupan ja laajempien markkinoiden edut, se vapautti heidät myös valtakunnan raskaan byrokratian rasituksesta. Roomalaisen vallan romahtaminen vapautti maaseudun viljelijät suurilta veroilta, jotka imeytyivät "yksi neljäsosa–yksi kolmanneksen" maasta saatavasta bruttotuotteesta, ja verojen ankaruus johti usein siihen, että omistajat hyläsivät omaisuutensa. Barbarit antoivat nämä verot myötätuntoisesti mennä umpeen.
+
+---
+
+Vaikka keskushallinto Charlemagne-hallinnon aikaan tarjosi hetkellisesti järjestystä, kaikki romahti pian hänen kuolemansa jälkeen.
+
+---
+
+[^64]: Footnote text preserved.
+[^65]: Footnote text preserved.
+[^66]: Footnote text preserved.
+[^67]: Footnote text preserved.
+[^68]: Footnote text preserved.
+[^69]: Footnote text preserved.
+[^70]: Footnote text preserved.
+[^71]: Footnote text preserved.
+
+The Germanic successor kingdoms to Rome were defended militarily by all free men who assembled to bear arms on the call of the king's local representative, the count. Even “small and middling proprietors” were expected to club together and send one of their number to fight with the infantry. [^72]  
+In the Edict of Pitres, Charles the Bald ordered all those who could afford to do so to muster for battle on horseback. Pope Gregory II had attempted to advance this military imperative a century earlier by banning the human consumption of horsemeat in 732. [^73]  
+But there was as yet little distinction in status or law between the infantry of freeholders and the cavalry. All free men participated in local judicial assemblies and could petition for dispute settlement to the count, an office that had existed since late Roman times. There was no nobility as such.
+
+> "A social phenomenon, new as a mass phenomenon, suddenly appeared on the horizons in the 980s: downward social mobility. Its first victims were the small allod-holders." [^74] - Guy Bois
+
+As the Dark Ages wore on, however, several things happened to destabilize the relationships that had preserved the independence of the yeoman farmers and freeholders in the Germanic kingdoms that inherited power after Rome's fall:
+
+1.  Populations gradually recovered, placing greater pressures on the use of land. Over several centuries, much of the most fertile of the unclaimed land was brought into production, particularly growth in Northern Europe. The increasing population of farmers relative to the supply of land made the labor of each farmer worth less. Most freehold titles were broken into ever smaller plots through inheritance. During the Dark Ages, children tended to share equally in the estates of their parents. The fragmentation of holdings at a time of rising population tended to place land at a premium once again and led to the reemergence of active land markets by the mid-tenth century.
+
+2.  In the final decades of the tenth century, temperatures suddenly turned colder, with a devastating impact on farm output. Three successive crop failures led to severe famine from 982 to 984. Famine struck again after another crop failure in 994.[^75] Then, in 997, the problem of falling crop yields was compounded by a plague, which struck small family holdings with particular force because the smallholders lacked the resources to replace labor supplied by lost family members. These clustered crop failures and disasters at first led the yeoman farmers to sink into debt. When yields failed to recover they could not pay their mortgages.
+
+3.  Power relations were progressively destabilized by the growing importance of heavy cavalry. Medieval historian Frances Gies describes the transformation of the armored cavalryman into the medieval knight:
+
+> Originally a personality of mediocre status raised above the peasant by his expensive horse and armor, the knight slowly improved his position in society until he became part of the nobility. Although knights remained the lowest rank of the upper class, knighthood acquired a unique cachet that made knighting an honor prized by the great nobility and even royalty. The cachet was primarily the product of the Church's policy of Christianizing knighthood by sanctifying the ceremony of knighting and by sponsoring a code of behavior known as chivalry, a code perhaps violated more often than honored, but exercising incontestable influence on the thought and conduct of posterity. [^76]
+
+As we recounted in *The Great Reckoning*, the invention of the stirrup gave the armed knight on horseback a formidable assault capability. He could now attack at full speed and not be thrown from the saddle by the impact of his lance striking a target. The military value of the heavy cavalry was further enhanced by an Asian invention that penetrated through Western Europe in the tenth century; the nailed iron horseshoe. This further improved the durability of the horse on the road.[^77] Also adding to the improved effectiveness of the armed knight were the contoured saddle, which made it easier to wield heavy weapons, the spur, and the curb bit, which enabled a rider to control the horse with one hand while fighting.[^78] Together, these apparently minor technological innovations dramatically devalued the military importance of the smallholders, who could not afford to maintain warhorses and arm themselves. The cheaper of the horses specially bred for war, the large chargers known as destriers, were worth four oxen or forty sheep. The more expensive warhorses cost ten oxen or one hundred sheep. Armor also cost a sum that no small holder could afford, equivalent to the price of sixty sheep.[^79]
+
+4.  The fact that the colder weather, crop failures, famines, and plagues occurred during the run-up to the year 1000 also played a role in informing behavior. Many people were convinced that the end of the world or the Second Coming was at hand. Devout or frightened landowners, large and small, gave their land to the Church in preparation for apocalypse.
+
+### "Only a Poor Man Sells Land"
+
+---
+
+Rooman jälkeen vallan perineitä germaanisia valtakuntia puolustivat sotilaallisesti kaikki vapaat miehet, jotka kokoontuivat kantamaan aseitaan kuninkaan paikallisen edustajan, kreivin, kutsusta. Jopa “pienet ja keskikokoiset omistajat” odotettiin yhdistävän voimansa ja lähettävän yhden joukossaan taistelemaan jalkaväen kanssa. [^72]  
+Pitresin asetuksessa Charles the Bald määräsi kaikkia, joilla oli varaa, kokoontumaan taisteluun ratsain. Paavi Gregory II oli yrittänyt edistää tätä sotilaallista velvoitetta vuosisadalla aiemmin kieltämällä hevosenlihan syömisen vuonna 732. [^73]  
+Mutta vapaan omistajien jalkaväen ja ratsuväen välillä ei vielä ollut juurikaan eroa statuksessa tai laissa. Kaikki vapaat miehet osallistuivat paikallisiin oikeudellisiin kokoontumisiin ja saattoivat tehdä vetoomuksia riitojen ratkaisemiseksi kreiville, viralle joka oli ollut olemassa myöhäisroomalaisista ajoista saakka. Varsinaista aatelistoa ei ollut.
+
+> "A social phenomenon, new as a mass phenomenon, suddenly appeared on the horizons in the 980s: downward social mobility. Its first victims were the small allod-holders." [^74] - Guy Bois
+
+Kuitenkin pimeän ajan kuluessa tapahtui useita asioita, jotka horjuttivat niitä suhteita, jotka olivat säilyttäneet yeoman-maalaisviljelijöiden ja vapaan maanomistajien itsenäisyyden germaanisissa valtakunnissa, jotka peri vallan Rooman tuhoutumisen jälkeen:
+
+1.  Väestöt palautuivat vähitellen, mikä lisäsi paineita maan käytölle. Useiden vuosisatojen aikana suuri osa vähemmän vaaditusta, vauraimmasta maasta saatiin tuotannoksi – erityisesti Pohjois-Euroopassa tapahtuneen kasvun myötä. Viljelijöiden määrän kasvu suhteessa maan tarjontaan laski kunkin viljelijän työpanoksen arvoa. Useimmat vapaan omistuksen tittelit murentuivat yhä pienemmiksi perintöjen seurauksena. Pimeän ajan aikana lapset jakoivat tavallisesti vanhempiensa perinnön tasan. Omistusten pirstoaminen kasvavan väestön aikana toi maan jälleen korkean arvon ja johti aktiivisten maa- markkinoiden uusiutumiseen 900-luvun puolivälissä.
+
+2.  900-luvun lopun vuosikymmeninä lämpötilat muuttuivat äkillisesti kylmemmiksi, mikä vaikutti tuhoisasti maataloustuotantoon. Kolme peräkkäistä satokauden epäonnistumista johti vakavaan nälänhätään vuosina 982–984. Nälänhätä koitui uudelleen toisen satokeon epäonnistumisen jälkeen vuonna 994.[^75] Sitten vuonna 997 laskeutui epidemia, joka pahensi laskevien satojen ongelmaa, sillä pienomistajilla ei ollut resursseja korvata menetettyä työvoimaa perheenjäseniltään. Nämä samankaltaiset satohäiriöt ja katastrofit ajivat aluksi yeoman-viljelijät joutuakseen velkakierteeseen. Kun satojen tuotto ei palautunut, he eivät kyenneet maksamaan asuntolainojaan.
+
+3.  Valtasuhteet horjuivat vähitellen raskaan ratsuväen kasvavan merkityksen myötä. Keskiaikaistutkija Frances Gies kuvailee panssaroidun ratsuväen muuttumista keskiaikaiseksi ritariksi:
+
+> Alun perin ritariksi noussut henkilö, jolla oli keskitason asema, nostettiin kyläläisten yläpuolelle kalliilla hevosellaan ja panssaroillaan, paransi hitaasti asemaansa yhteiskunnassa, kunnes hänestä tuli osa aatelistoa. Vaikka ritarit pysyivätkin ylemmän luokan alhaisimpana asteena, ritaruus sai ainutlaatuisen arvostuksen, joka teki ritariksi vihkimisestä kunnian, jota suuret aateliset ja jopa kuninkaalliset arvostivat. Tämä arvostus oli ensisijaisesti seurausta Kirkon politiikasta kristillistää ritaruus pyhittämällä ritareiksi vihkimisen seremonia ja tukemalla käytöstietä, jota kutsuttiin ritaruudeksi – koodiksi, jota ehkä rikottiin enemmän kuin noudatettiin, mutta joka vaikutti kiistatta jälkeläisten ajatteluun ja käyttäytymiseen. [^76]
+
+Kuten kerroimme teoksessamme *The Great Reckoning*, harjuksen keksiminen antoi aseistetulle ratsastajatarolle pelottavan hyökkäyskyvyn. Hän pystyi nyt hyökkäämään täydellä vauhdilla eikä joutunut heitettyä satulasta keihään iskun seurauksena, kun se osui kohteeseen. Raskaan ratsuväen sotilaallinen arvoa paransi vieläkin enemmän aasialainen keksintö, joka levisi Länsi-Eurooppaan 900-luvulla: niilotettu rautainen hevosenkenkä. Tämä paransi hevosen kestävyyttä teillä entisestään.[^77] Lisäksi aseistetun ritarin tehokkuutta lisäsivät myös muotoiltu satula, spuurit ja ohjauskynät, joiden avulla ratsastaja pystyi hallitsemaan hevosta yhdellä kädellä taistelun aikana.[^78] Yhdessä nämä näennäisesti vähäpainoiset teknologiset innovaatiot vähensivät dramaattisesti pienviljelijöiden sotilaallista merkitystä, sillä he eivät voineet varaa sotaratsujen ylläpitämistä eivätkä aseistautumista. Sotaan erityisesti kasvatetuista edullisemmista hevosista – suurista taisteluratsuista, joita kutsutaan destriereiksi – oli arvoltaan neljän härkän tai neljänkymmentä lampaan verran. Kalliimmat sotaratsut maksoivat kymmenen härkää tai sata lammasta. Panssarit maksoivat myös summan, jota mikään pienomistaja ei voinut maksaa, vastaavan kuudenkymmenen lampaan hintaa.[^79]
+
+4.  Se, että kylmempi sää, satokaudet epäonnistuivat, nälänhädät ja epidemiat osuivat juuri vuoden 1000 tienoilla, vaikutti myös ihmisten käyttäytymiseen. Monet olivat vakuuttuneita siitä, että maailmanloppu tai toinen tulemisen hetki oli käsillä. Hartaat tai peloissaan olevat maanomistajat, niin suuret kuin pienetkin, antoivat maansa Kirkolle apokalyptista varten.
+
+### "Only a Poor Man Sells Land"
+
+Kymmenennen vuosisadan lopun levottomat olosuhteet raivasivat tietä feodaaliselle vallankumoukselle. Kerääntyneet satokatkokset ja luonnonkatastrofit saivat yeoman‑maanviljelijät ajautumaan velkaan. Kun sadot eivät palautuneet, vapaan omistuksen maanviljelijöillä oli epätoivoinen tilanne. Markkinat kohdistavat aina suurimmat paineet heikoimpiin omistajiin – se on itse asiassa osa niiden hyveellisyyttä, sillä ne edistävät tehokkuutta poistamalla varallisuutta heikoista käsistä. Euroopan kymmenennen vuosisadan lopulla elinkeinona oli käytännössä vain elintasolla selviytyminen. Maata menettäneet perheet menettivät ainoan keinonsa elää. Kohtaansa tämän epämiellyttävän näkymän edessä monet tai useimmat vapaan omistuksen maanviljelijät päättivät luovuttaa peltonsa feodaalisen vallankumouksen aikana. Guy Boisin sanojen mukaan:  
+>"Ainoan varman tavan, jolla talonpoika säilyttää viljellyn maansa, oli luovuttaa sen omistusoikeus kirkolle, jotta hän voisi säilyttää sen käyttöoikeuden."[^80]  
+
+Toiset sen sijaan luovuttivat osan tai koko maansa varakkaammille maanviljelijöille, joihin he luottivat – olipa kyseessä sitten ystävälliset naapureiden tai sukulaisten edustajat.
+
+Tuottavuuden lasku ei ainoastaan asettanut köyhät maanviljelijät epätoivoiseen taloudelliseen ahdinkoon, vaan se laukaisi myös saalistavaa väkivaltaa, joka heikensi omaisuuden turvallisuutta. Ne, joilla ei ollut varaa hankkia osuutta riittämättömästä hevosten ja rehun tarjonnasta, huomasivat yhtäkkiä, ettei heillä eikä heidän omaisuudessaan enää ollut turvaa. Nykyajan termein ajateltuna tilanne olisi kuin joutuisit aseistamaan itsesi uudella aseella, jonka hinta olisi 100 000 dollaria – jos et pysty maksamaan sitä, joudut niiden armoille, jotka voivat.
+
+Muutamassa vuodessa kuninkaan ja oikeuslaitoksen kyky ylläpitää järjestystä romahti.[^81] Nyt kuka tahansa, jolla oli haarniska ja hevonen, saattoi toimia oman lakinsa mukaan. Tuloksena oli kymmenennen vuosisadan lopun Blade Runner –tyylinen sekamelska, joka koostui taisteluista ja ryöstöistä, joita viranomaiset eivät kyenneet pysäyttämään. Aseistettujen ritareiden ryöstely ja hyökkäykset häiritsivät maaseutua. On kuitenkin kaukana siitä, että kaikki tämän ryöstön uhrit olisivat olleet köyhiä; päinvastoin, ikääntyneet, fyysisesti heikommat tai huonosti valmistautuneet suurempien maanomistajien joukossa olivat houkuttelevampia kohteita – heiltä pystyi varastamaan enemmän.
+
+Ei ollut sattumaa, että tämä tapahtui juuri sillä hetkellä, kun kylmempi sää, nälänhädät ja rutto rajoittivat resursseja. Ne megapoliittiset olosuhteet, jotka edesauttoivat vallan romahtamista, olivat olleet voimassa jo jonkin aikaa, mutta niiden potentiaalia muuttaa yhteiskunnan valtasuhteita ei realisoitunut ennen kriisin laukaisevaa tapahtumaa. Satokatkokset ja nälänhädät näyttävät tehneen juuri niin. Vaikka tapahtumien tarkkaa kulkua on vaikea rekonstruoida, vaikuttaa siltä, että epätoivoiset olosuhteet laukaisivat ainakin osittain ryöstötoimet. Kun väkivalta pääsi valloilleen, kävi ilmi, ettei kukaan kyennyt mobilisoimaan tarpeeksi voimaa sen pysäyttämiseksi. Suurin osa heikosti aseistetuista maanviljelijöistä ei kyennyt tekemään paljoakaan. Jopa kymmenet jalkaisin olevat viljelijät jäivät yhden hevonenratsastetun, aseistetun ritarin varjoon. Vapaan omistuksen maanviljelijät – kuten myös viralliset viranomaiset ja kuninkaat krevisiensa kera – olivat voimattomia estämään paikallisen maan haltuunottoa aseistettujen sotureiden toimesta.
+
+### "The Peace of God"
+
+Näissä epätoivoisissa olosuhteissa kirkko auttoi käynnistämään feodaalisuuden pyrkimyksillään neuvotella tulitauko väkivaltaisella maaseudulla. Historioitsija Guy Bois kuvaili tilannetta seuraavasti:  
+>"Poliittisten viranomaisten vaikutusvallan puute oli sellaista, että kirkko astui heidän sijalleen pyrkiessään palauttamaan järjestystä, liikkeessä, jota kutsuttiin nimellä 'The Peace of God'. 'Rauhan kokoukset' julistivat sarjan kiellon asettavia määräyksiä, joihin liitettiin anateemoja; valtavat 'rauhan kokoontumiset' keräsivät sotureiden valat. Liike sai alkunsa French Midi -alueella (Charrouxin kokous vuonna 989, Narbonnen kokous vuonna 990) ja levisi sitten vähitellen..."[^82]
+
+Kirkon tekemä sopimus sisälsi tunnustuksen paikallisyhteisöissä toimivien aseistettujen ritareiden ylivallan asemasta vastineeksi väkivallan ja ryöstön loppumisesta tai lieventämisestä. Myöhäisen kymmenennen vuosisadan väkivallan aaltojen jäljiltä maankirjoihin alettiin yhtäkkiä merkitä nimikkeillä „nobilis” tai „miles” osoituksena herruusasemasta. Feodaalinen vallankumous loi erillisen aateliston, sillä vain muutama vuosi aiemmin samojen henkilöiden rekisteröidyissä omaisuustapahtumissa ei ollut mainittu tällaista erottelua.[^83]
+
+Ottaen huomioon tuottavuuden laskun ja pienten maanviljelijöiden taloudellisen epävarmuuden, aseistettujen ritareiden megapoliittinen voima johti väistämättä omaisuuden siirtymiseen feodaalisen hallinnan alle. 11. vuosisadan ensimmäisen neljänneksen loppuun mennessä yeoman-maanviljelijöitä oli suurelta osin kadonnut. Heidän vapaan omistuksensa oli kutistunut murto-osaan entisestä, ja sitä viljeltiin nyt vain osa-aikaisesti. Pienet maanviljelijät tai heidän jälkeläisensä olivat orjia, jotka viettivät suurimman osan ajastaan feodaalisten herrojen, niin maallisten kuin kirkollistenkin, tiloilla työskennellen.
+
+Feodaalisen vallankumouksen mukanaan tuoma järjestyksen romahtaminen pakotti ihmiset muuttamaan käytöstään, mikä puolestaan vahvisti feodaalisuutta. Yksi tämän kehityksen ilmiöistä oli linnarakentamisen äkillinen lisääntyminen. Linnat ilmestyivät alun perin Luoteis-Eurooppaan primitiviisin puurunkoisina rakennelmia viikinkien runsaiden hyökkäysten jälkeen 9. vuosisadalla. Alkuun ne toimivat karolingialaisten virkamiesten komentokeskuksina, mutta feodaalisen vallankumouksen jälkeen ne muuttuivat periytyviksi omaisuuksiksi. Näiden varhaisten linnoitusten rakenne oli paljon primitiivisempi kuin myöhemmin, mutta niihin oli silti vaikea hyökätä. Kun linnoitukset oli kerran pystytetty, niiden raivaaminen vaati valtavan vaivan. Linnoitusten yleistyessä maaseudulla kävi yhä epätodennäköisemmäksi, että kuningas tai hänen krevisi pystyisivät tehokkaasti haastamaan herrojen paikallista ylivallan asemaa.
+
+### Contributions of the Church to Productivity
+
+Feodalismi oli maatalousyhteiskunnan reaktio järjestyksen romahtamiseen ajalla, jolloin tuottavuus oli alhainen. Feodalismikauden varhaisvaiheissa kirkko näytti tärkeää ja taloudellisesti tuottavaa roolia. Kirkon panoksina olivat muun muassa seuraavat:
+
+1. **Ympäristössä, jossa sotilaallinen voima oli hajautettu, kirkolla oli ainutlaatuinen asema ylläpitää rauhaa ja kehittää järjestyssääntöjä, jotka ylittävät pirstaleiset paikalliset suvereniteetit. Tämä on tehtävä, jonka hoitamiseen mikään maallinen valta ei ollut asemoitunut.** Suuren uskonnollisen auktoriteetin A. R. Radcliffe-Brownin havainnot ovat tässä suoraan relevantteja. Hän huomautti, että “uskonnon sosiaalinen funktio on riippumaton sen totuudellisuudesta tai epätotuudesta.” Jopa ne, jotka ovat “naurettavia ja inhottavia, kuten joidenkin villejen heimojen edustamat,” voivat olla tärkeitä ja tehokkaita osia yhteiskunnallisessa koneistossa.[^84] Tämä päti varmasti kirkon kohdalla feodalismikauden varhaisvaiheissa. Kirkko auttoi luomaan sääntöjä – kuten vain uskonto osasi – jotka mahdollistivat ihmisten pääsyn yli kannustineuloihin ja käyttäytymiseen liittyviin dilemmakohtiin. Osa näistä ongelmista oli moraalisia dilemmoja, jotka koskivat kaikkea inhimillistä elämää, mutta jotkut olivat paikallisia hankaluuksia, jotka olivat ainutlaatuisia vallitseville megapoliittisille olosuhteille.
+
+   Keskiaikaisella kirkolla oli erityinen rooli maaseudun järjestyksen palauttamisessa 900-luvun loppupuolella. Tarjoamalla uskonnollista ja seremoniallista tukea paikallisille viranomaisille kirkko laski väkivallan alueellisten – edes heikkojen – monopolien perustamiskustannuksia. Näin ollen kirkko vaikutti niihin olosuhteisiin, jotka lopulta johtivat vakaampiin valtarakenteisiin.
+
+   Kirkko jatkoi pitkään tämän jälkeen roolinsa yksityissotien ja väkivallan liiallisuuksien hillitsemisessä, joita siviilivallan toimesta ei muuten olisi voitu rajoittaa. Kirkon suhteellinen merkitys maallisten viranomaisten rinnalla näkyi siinä, että 1000-luvulla suurimmassa osassa Länsi-Eurooppaa pääasiallisena hallinnollisena yksikkönä otettiin käyttöön seurakunta, eikä enää vanhat siviilivaltaan perustuvat jakoalueet, ager ja pagus (kaupunki), jotka olivat säilyneet roomalaisista ajoista Dark Ageihin.[^85]
+
+2. **Kirkko oli keskeisin lähde teknisen tiedon ja informaation säilyttämisessä ja välittämisessä.** Se rahoitti yliopistoja ja tarjosi sen vähimmäiskoulutuksen, josta keskiaikainen yhteiskunta nautti. Kirkko otti myös käyttöön mekanismin kirjojen ja käsikirjoitusten jäljentämiseksi, mukaan lukien melkein kaikki tuon ajan tiedot maanviljelystä ja karjanhoidosta. Benediktin luostareiden skriptoriat voidaan nähdä vaihtoehtoisena teknologiana painokoneille, joita ei vielä ollut. Vaikka skriptoriat olivat kalliita ja tehottomia, ne olivat käytännössä ainoa keino jäljentää ja säilyttää kirjallista tietoa feodaalikaudella.
+
+3. **Osittain siksi, että kirkon maatilajohtajat olivat lukutaitoisia, kirkko teki valtavasti työtä parantaakseen eurooppalaisen maanviljelyn tuottavuutta, erityisesti feodalismikauden alkuvaiheissa.** Ennen 1300-lukua maallisten herrojen maatilajohtajat olivat melkein kaikiltaan analphabetteja, ja he pitivät kirjaa monimutkaisen merkkejärjestelmän avulla. Vaikka he olivatkin kekseliäitä maanviljelijöitä, he eivät olleet siinä asemassa hyödyntää uusia tuotantomenetelmiä, joita he eivät kyenneet itse keksimään tai näkemään omilla silmillään. Kirkko oli siksi välttämätön viljan, hedelmien ja jalostuseläinten laadun parantamiseksi. Laajojen omistustensa ansiosta, jotka ulottuivat koko Euroopan mantereen alueelle, kirkko pystyi lähettämään tuottavimmat siemenet ja jalostuseläimet niille alueille, joissa tuotanto jäi jälkeen. Pohjois-Euroopassa sakramenttiviinin kysyntä johti munkkeja kokeilemaan kestävämpiä rypälelajikkeita, jotka pystyivät selviytymään kylmemmissä ilmastoissa. Kirkko auttoi myös nostamaan keskiaikaisen maanviljelyn tuottavuutta muilla tavoilla. Monet feodaalivallankumouksen aikana kirkolle lahjoitetut taloudellisesti kannattamattoman pienet tontit uudelleen järjestettiin niin, että niitä oli helpompi viljellä. Kirkko tarjosi lisäksi lisäpalveluita, joita pienet maatalousyhteisöt tarvitsivat – monella alueella kirkon omistamat myllyt jauhoivat jyvät jauhoseksi.
+
+4. **Kirkko otti hoitaakseen monia tehtäviä, jotka nykyään kuuluvat hallituksen vastuulle, muun muassa julkisen infrastruktuurin rakentamiseen.** Tämä on osa sitä tapaa, jolla kirkko auttoi ratkaisemaan taloustieteilijöiden kutsumia “julkisten hyödykkeiden dilemmaja” aikana, jolloin valta oli pirstaleista. Varhaiskeskiaikaisen kirkon tietyt uskonnolliset järjestöt omistautuivat sovelletun tekniikan tehtäville, kuten teiden avaamiselle, pudonneiden siltojen uudelleenrakentamiselle ja romaanisten akveduktien rappeutuneiden osien korjaamiselle. Ne raivasivat maata, rakensivat patoja ja tyhjensivät soita. Uusi luostarijärjestö, Carthusianskot, kaivoi ensimmäisen “artesiaanisen” kaivon Artoisissa, Ranskassa. Perkusioinnin poraustekniikalla he kaivoivat pienen, tarpeeksi syvän reiän, josta syntyi kaivo ilman pumppua.[^86] Cistercien järjestö sitoutui rakentamaan ja ylläpitämään epävarmoja merenrantoja ja patoja Euroopan Alankomaissa. Viljelijät siirtelivät maata Cistercien luostareille ja vuokrasivat sen sitten takaisin, samalla kun munkit ottivat täyden vastuun kunnossapidosta ja korjauksista. Cisterciläiset johtivat myös vesivoimaisiin koneisiin perustuvien laitteiden kehittämistä, joita sovellettiin laajasti muun muassa “lyömiseen, nostamiseen, jauhamiseen ja puristamiseen.”[^87] Clairvaux'n luostari kaivoi kaksi mailia pitkän kanavan Auben joesta.[^88] Kirkko puuttui myös tilanteisiin, joissa uudet tiet ja sillat rakennettiin niille alueille, joille väestöpainotteinen keskukset olivat siirtyneet vanhojen roomalaisvartioiden ulkopuolelle. Piispat myöntivät antemuksia paikallisille herroille, jotka rakensivat tai korjasivat jokien ylityspisteitä ja ylläpitivät matkustajille tarkoitettuja majataloja. Pyhän Benezetin perustama munkkijärjestö, Freres Pontifes eli “Sillan veljet”, rakensi tuon ajan useita pisimpiä siltoja, mukaan lukien Pont d'Avignonin, valtavan kaksikymmentä kaaren sillan Rhon-joella, jossa sijaitsi yhdistetty kappeli ja tietulli toisessa päässä. Jopa London Bridge, joka seisoni 1800-luvulle asti, rakensi pappi ja osittain rahoitti papin edustajan 1 000 merkin panoksen avulla.[^89]
+
+5. **Kirkko auttoi myös kehittämään monimutkaisempaa markkinataloutta.** Esimerkiksi katedraalien rakentaminen poikkeaa luonnostaan julkisen infrastruktuurin, kuten siltojen ja akveduktien, rakentamisesta. Periaatteessa kirkon rakennuksia käytettiin vain uskonnollisiin tilaisuuksiin, eikä niitä toimittu kulkureitteinä kaupankäynnille. On kuitenkin muistettava, että kirkkojen ja katedraalien rakentaminen auttoi luomaan ja syventämään markkinoita monenlaisten käsityöläisten ja insinööritaitojen osalta. Samalla tavalla kuin kansallisvaltioiden sotilaallinen meno kylmän sodan aikana tahattomasti auttoi inkuboimaan Internetin, niin keskiaikaisten katedraalien rakentaminen johti muiden alojen spin-offeihin eli kaupankäynnin inkubaatioon. Kirkko oli rakennusalan ja käsityöläisten pääasiallinen asiakas. Kirkon hopeaostokset ehtoollisissa, kynttilänjalkoissa ja kirkkojen koriste-esineissä auttoivat luomaan markkinoita ylellisille tavaroille, joita muuten ei olisi ollut olemassa.
+
+Monin tavoin kirkko auttoi hillitsemään aseistettujen ritarien aiheuttamaa väkivallan raakuutta feodaalivallankumouksen aikana ja sen jälkeen. Erityisesti feodalismikauden varhaisina vuosisatoina kirkko vaikutti merkittävästi maanviljelytalouden tuottavuuden parantamiseen. Se oli olennainen instituutio, joka vastasi hyvin maatalousyhteiskunnan tarpeisiin pimeiden aikojen päättyessä.
+
+### Vulnerability to Violence
+
+### Haavoittuvuus väkivallalle
+
+
+
+"In “thirty or forty years of violent disturbances, the feudal revolution of the year 1000,” [^90] like the fall of Rome five centuries earlier, was a unique event, caused by a complex interplay of influences. Yet in one respect, the triumph of mali ham ines (wicked men) and the oppressions they wrought perfectly reflect the essential vulnerability of agricultural society to violence. In contrast to the foraging phase of human existence, farming introduced a quantum leap in organized violence and oppression.
+
+„Kolmenkymmenen–neljännen vuoden väkivaltaisten häiriöiden, vuoden 1000 feodaalisen vallankumouksen – aivan kuten Rooman tuho viisi vuosisataa aiemmin – katsottiin olevan ainutlaatuinen tapahtuma, jonka taustalla oli monien eri tekijöiden monimutkainen vuorovaikutus. Yhdessä suhteessa kuitenkin mali ham ines (pahantahtoiset miehet) ja heidän aiheuttamansa sortotoimet heijastavat täydellisesti maatalousyhteiskunnan olennaista alttiutta väkivallalle. Verrattuna ihmiselämän keräilyvaiheeseen maanviljely toi järjestäytyneeseen väkivaltaan ja sortoon aivan kvanttihypyn.
+
+From the very earliest, this was reflected in the more militant cultures of farming peoples. The gods of the early agricultural societies were gods of rainfall and flooding, whose functions reflected the preoccupations of those societies with factors that determined crop yields. The sender of rain or water was also often the god of war, invoked by the earliest kings, who were, above all else, warlords.[^91]
+
+“Jo jo varhaisimmista ajoista lähtien tämä ilmeni maanviljelyä harjoittavien kansojen sotilaallisemmissa kulttuureissa. Varhaisten maatalousyhteiskuntien jumalia pidettiin sateen ja tulvien jumalina, joiden tehtävät heijastivat näiden yhteisöjen huolia siitä, mikä vaikutti satojen tuottoihin. Sateen tai veden lähettäjä oli usein myös sodan jumala, jota kutsuttiin varhaisimpien kuninkaiden toimesta – kuninkaat, jotka ennen kaikkea olivat sotapäälliköitä.[^91]
+
+The close connection between farming and warfare was reflected in the religious imagination of people whose lives were transformed by the innovations of the agricultural revolution. The expulsion from the Garden of Eden can be seen as a figurative account of the transformation of society from foraging to farming, from a free life with food picked from nature's bounty with little work to a life of hard labor.
+
+“Maanviljelyn ja sodankäynnin läheinen yhteys näkyi niiden ihmisten uskonnollisessa mielikuvituksessa, joiden elämä koki mullistavan muutoksen maatalousvallankumouksen innovaatioiden seurauksena. Eedenin puutarhasta potkut voidaan nähdä kuvaannollisena kertomuksena siitä, kuinka yhteiskunta muuttui keräilystä maanviljelyyn, vapaasta elämästä, jossa luonnon antimia poimittiin vähäisessä vaivassa, vaikeaa työtä vaativaan elämään.
+
+## Paradise lost
+
+Farming set humanity on an entirely new course. The first farmers truly planted the seeds of civilization. From their toil came cities, armies, arithmetic, astronomy, dungeons, wine and whiskey, the written word, kings, slavery, and war. Yet notwithstanding all the drama that farming was to add to life, the shift away from the primeval economy appears to have been roundly unpopular from its earliest days. Witness the account preserved in the Book of Genesis, which tells the story of the expulsion from paradise. The biblical parable of the Garden Of Eden is a fond recollection of the life of ease enjoyed by the forager in the wilderness. Scholars indicate that the word "Eden" appears to be derived from a Sumerian word for "wilderness."[^92]
+
+„Maanviljely vei ihmiskunnan täysin uudelle tielle. Ensimmäiset maanviljelijät kylvivät tosiasiallisesti sivilisaation siemenet. Heidän ahkerasta työstä syntyivät kaupungit, armeijat, aritmetiikka, tähtitiede, linnat, viini ja viski, kirjoitettu kieli, kuninkaat, orjuus ja sota. Huolimatta siitä kaikesta draamasta, mitä maanviljely lisäsi elämään, siirtyminen alkuperäisestä talousmallista vaikutti alusta alkaen olevan laajasti epäsuosittu. Todista tämä Geneesin kirjassa säilytetyllä kertomuksella, joka kuvaa paratiisista potkuttamista. Raamatullinen vertaus Eedenin puutarhasta on mukava muisto erämaan keräilijän helppoudesta. Tutkijoiden mukaan sana „Eden” näyttää olevan peräisin sumerilaisesta sanasta, joka tarkoittaa „erämaata”.[^92]
+
+The transition from a free and sparsely settled life in the wild to a sedentary life in a farming village was a matter of deep regret, expressed not only in the Bible but also in humankind's continuing grudge against getting up in the morning and going to work. As Stephen Boyden wrote in Western Civilization in Biological Perspective, the new way of living that accompanied farming was "evodeviant."[^93] Prior to the advent of farming, thousands of human generations lived as Adam did in Eden, at the invitation of his Maker: "Of every tree of the garden thou mayest freely eat." Hunters and gatherers had no crops to tend, no herd to watch, no taxes to pay. Like hoboes, foragers drifted where they pleased, worked little, and answered to no one.
+
+„Siirtyminen vapaasta ja harvaan asutusta sisältävästä elämästä erämaassa pysyvään elämään maanviljelijäkylässä oli syvää katumusta, josta puhuttiinkin paitsi Raamatussakin myös ihmiskunnan jatkuvassa kaunassa nousta aamulla ja mennä töihin. Kuten Stephen Boyden kirjoitti teoksessaan Western Civilization in Biological Perspective, maanviljelyn mukanaan tuoma uusi elämäntapa oli ‘evodeviant’.[^93] Ennen maanviljelyn alkua tuhannet ihmispolvet elivät kuten Aadam Eedenissä, kutsuttuna Luojansa toimesta: “Kaikista puutarhan puista voit syödä vapaasti.” Metsästäjillä ja keräilijöillä ei ollut satoja hoidettavanaan, laumaa vartioitavana eikä veroja maksettavana. Aivan kuten kulkijat ajehtuivat minne halusivat, he työskentelivät vähän eivätkä vastanneet kenellekään.
+
+With farming, a new way of life began, and on altogether more pressing terms. "Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread." Farming was hard work. The memory of life before farming was that of paradise lost.
+
+„Maanviljelyn myötä alkoi uusi elämäntapa, ja se toi mukanaan aivan tuntuvia uusia vaatimuksia. “Sinullekin ne tuovat piikkejä ja nokosia; ja syöt kentän yrttejä; hikisessä kasvossasi syöt leipää.” Maanviljely oli kovaa työtä. Muisto elämästä ennen maanviljelyä oli kuin kadonnutta paratiisia.
+
+More than they could have imagined, farmers created new conditions that drastically altered the logic of violence. It is not a coincidence that the Book of Genesis makes Cain, the first murderer, "a tiller of the ground." Indeed, it is part of the uncanny prophetic power of the Bible that its story was entrusted to shepherds who readily understood how farming gave leverage to violence. In a few verses the biblical account encapsulates logic that took thousands of years to play out. Farming was an incubator of disputes. Farming created stationary capital on an extensive scale, raising the payoff from violence and dramatically increasing the challenge of protecting assets. Farming made both crime and government paying propositions for the first time.
+
+„Enemmän kuin kukaan olisi voinut kuvitella, maanviljelijät loivat olosuhteet, jotka muuttivat radikaalisti väkivallan logiikkaa. Ei ole sattumaa, että Geneesin kirja kuvaa Kainia, ensimmäistä murhaajaa, “maata kylvijänä.” Todellakin, osa Raamatun salaperäisestä profeetallisesta voimasta on siinä, että sen tarina uskottiin paimenille, jotka ymmärsivät vaivatta, kuinka maanviljely antoi väkivallalle vipuvoimaa. Muutamalla vain muutamassa jakeessa raamatullinen kertomus tiivistää logiikan, jonka toteutuminen kesti tuhansia vuosia. Maanviljely toimi riitojen kehtona. Se loi paikallaan pysyvää pääomaa laajassa mittakaavassa, mikä lisäsi väkivallan tuottoa ja dramaattisesti vaikeutti omaisuuden suojaamista. Maanviljely teki rikoksista ja hallituksen maksupyrkimyksistä molemmat ensikertalaisia.
+
+[^51]: Boyden, op. cit., p.4.
+
+[^52]: Gregg, op. ciL, xv."
+
+[^53]: Boyden, op. cit., s. 62.
+
+[^54]: Ibid., s. 67.
+
+[^55]: Ibid.
+
+[^56]: Lainattu teoksesta E. J. P Veale, *Advance to Barbarism: The Development of Total Warfore* (New York: Devin-Adair, 1968), s. 37.
+
+[^57]: R. Paul Shaw ja Yuwa Wong, *Genetic Seeds of Warfare: Evolution, Nationalism and Patriotism* (Boston: Unwin Hyman, 1989), s. 4.
+
+[^58]: Katso Carleton S. Coon, *The Hunting Peoples* (New York: Nick Lyons Books, 1971), s. 275.
+
+[^59]: Gregg, op. cit., s. 23.
+
+[^60]: Boyden, op. cit., s. 69.
+
+[^61]: Shaw ja Wong, op. cit., s. 69.
+
+[^62]: Lisätietoja kafireista, katso Schuyler Jones, *Men of Influence in Nuristan* (London: Seminar Press, 1974).
+
+[^63]: Katso Samuel L. Popkin, *The Rational Peasant* (Berkeley: University of California Press 1979), s. 13.
+
+[^64]: Katso Bois, op. cit
+
+[^65]: Katso Frances ja Joseph Gies, Cathedral, Forge, and Waterwheel: Technology and Invention in the Middle Ages (New York: HarperCollins, 1994), s. 40.
+
+[^66]: Lainattuna ibid., s. 42.
+
+[^67]: Bois, op. cit., s. 78.
+
+[^68]: Ibid., s. 118.
+
+[^69]: Gies, op. cit., s. 45.
+
+[^70]: Bois, op. cit., s. 116.
+
+[^71]: Ibid., s. 26.
+
+[^72]: Ibid., s. 64.
+
+[^73]: Gies, op. cit., s.47.
+
+[^74]: Bois, op. cit., s.52.
+
+[^75]: Ibid., s.150.
+
+[^76]: Gies, op. cit., s.2.
+
+[^77]: Ibid., s.46.
+
+[^78]: Ibid., s.56–57.
+
+[^79]: Ibid., s.58.
+
+[^80]: Bois, op. cit., s.87.
+
+[^81]: Vaikka feodaalisen vallankumouksen tarkkaa tapahtumajärjestystä on vaikea rekonstruoida tietojen puutteen vuoksi, Guy Boisin esittämä teesi vaikuttaa laajasti ottaen todennäköiseltä. Se ei ole vain itsessään uskottava, vaan se myös selittää muuten poikkeavia faktoja ja sopii hyvin teorioihimme.
+
+[^82]: Ibid., s.136.
+
+[^83]: Ibid., s. 57 ja passim.
+
+[^84]: A. R. Radcliffe-Brown, “Religion and Society”, teoksessa *Structure and Function in Primitive Society* (London: Cohen & West, 1952), s. 153–77.
+
+[^85]: Bois, op. cit., s. 36.
+
+[^86]: Gies, op. cit., s. 112.
+
+[^87]: Ibid., s. 114.
+
+[^88]: Ibid., s. 117.
+
+[^89]: Siltoihin ja infrastruktuuriin liittyvät yksityiskohdat ovat pääosin peräisin ibid., s. 148–54.
+
+[^90]: Bois, op. cit., s. 136.
+
+[^91]: Katso Norman Cohn, *Cosmos, Chaos, and the World to Come: The Ancient Roots of the Apocalyptic Faith* (New Haven: Yale University Press, 1993), kappaleet I–III, erityisesti s. 60.
+
+[^92]: Bruce Ni. Metzger and Michael D. Coogan, toim. *The Oxford Companion to the Bible* (Oxford: Oxford University Press, 1993), s. 178.
+
+[^93]: Boyden, op. ciL, s. 118.

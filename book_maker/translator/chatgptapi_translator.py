@@ -12,6 +12,7 @@ from rich import print
 
 from .base_translator import Base
 from ..config import config
+from ..utils import count_tokens_with_tiktoken
 
 CHATGPT_CONFIG = config["translator"]["chatgptapi"]
 
@@ -25,7 +26,6 @@ GPT35_MODEL_LIST = [
     "gpt-3.5-turbo-1106",
     "gpt-3.5-turbo-16k",
     "gpt-3.5-turbo-0613",
-    "gpt-3.5-turbo-16k-0613",
     "gpt-3.5-turbo-0301",
     "gpt-3.5-turbo-0125",
 ]
@@ -48,6 +48,21 @@ GPT4o_MODEL_LIST = [
     "gpt-4o-2024-08-06",
     "chatgpt-4o-latest",
 ]
+O1PREVIEW_MODEL_LIST = [
+    "o1-preview",
+    "o1-preview-2024-09-12",
+]
+O1_MODEL_LIST = [
+    "o1",
+    "o1-2024-12-17",
+]
+O1MINI_MODEL_LIST = [
+    "o1-mini",
+    "o1-mini-2024-09-12",
+]
+O3MINI_MODEL_LIST = [
+    "o3-mini",
+]
 
 
 class ChatGPTAPI(Base):
@@ -63,6 +78,8 @@ class ChatGPTAPI(Base):
         temperature=1.0,
         context_flag=False,
         context_paragraph_limit=0,
+        system_role=None,
+        reasoning_effort="medium",
         **kwargs,
     ) -> None:
         super().__init__(key, language)
@@ -99,6 +116,34 @@ class ChatGPTAPI(Base):
         self.batch_text_list = []
         self.batch_info_cache = None
         self.result_content_cache = {}
+        self.system_role = system_role or 'system'
+        self.reasoning_effort = reasoning_effort
+        
+        self.log_info = {
+            "input_uncached_tokens": 0,
+            "input_system_tokens": 0,
+            "input_user_tokens": 0,
+            "input_intermediate_tokens": 0,
+            "input_total_tokens": 0,
+            "output_prompt_tokens": 0,
+            "output_completion_tokens": 0,
+            "output_total_tokens": 0,
+            "cost": 0
+        }
+
+        # Track cumulative tokens across all API calls
+        self.cumulative_log_info = {
+            "input_uncached_tokens": 0,
+            "input_system_tokens": 0,
+            "input_user_tokens": 0,
+            "input_intermediate_tokens": 0,
+            "input_total_tokens": 0,
+            "output_prompt_tokens": 0,
+            "output_completion_tokens": 0,
+            "output_total_tokens": 0,
+            "cost": 0
+        }
+        self.api_call_count = 0
 
     def rotate_key(self):
         self.openai_client.api_key = next(self.keys)
@@ -107,19 +152,79 @@ class ChatGPTAPI(Base):
         self.model = next(self.model_list)
 
     def create_messages(self, text, intermediate_messages=None):
-        content = self.prompt_template.format(
-            text=text, language=self.language, crlf="\n"
-        )
+        # Format user content with text and language placeholders
+        try:
+            if isinstance(text, bytes):
+                text = text.decode('utf-8')
+            content = self.prompt_template.format(text=text, language=self.language, crlf="\n")
+        except (KeyError, IndexError, ValueError) as e:
+            print("ERROR: Prompt template formatting failed:", e)
+            import re
+            markdown_attrs = re.findall(r'\{[\w\s="\'\.]+\}', self.prompt_template)
+            if markdown_attrs:
+                print("Unescaped curly braces detected in:", markdown_attrs)
+            raise ValueError("Prompt formatting error") from e
+        # Format system content with text and language placeholders too
+        try:
+            sys_content = self.system_content or self.prompt_sys_msg
+            # Ensure system content is properly decoded as UTF-8 if it's bytes
+            if isinstance(sys_content, bytes):
+                sys_content = sys_content.decode('utf-8')
+                
+            # Format system content with the same parameters as user content
+            sys_content = sys_content.format(text=text, language=self.language, crlf="\n")
+        except (KeyError, IndexError, ValueError) as e:
+            print(f"ERROR: System prompt formatting error: {e}")
+            raise ValueError("System prompt formatting error") from e
+        
+        # Use the stored role type from the PromptDown file
+        role = getattr(self, 'system_role', 'system')  # Default to 'system' if not specified
+        
+        # Create individual messages first (developer or system)
+        system_message = {"role": role, "content": sys_content}
+        user_message = {"role": "user", "content": content}
+        
+        # Count tokens for each message separately
+        model_name = getattr(self, 'model', None)  # Get model if available, otherwise None for default counting
+        system_tokens = count_tokens_with_tiktoken([system_message], model=model_name)
+        user_tokens = count_tokens_with_tiktoken([user_message], model=model_name)
+        
+        # Count tokens for the {text} placeholder
+        placeholder_tokens = count_tokens_with_tiktoken([text], model=model_name)
 
-        sys_content = self.system_content or self.prompt_sys_msg.format(crlf="\n")
-        messages = [
-            {"role": "system", "content": sys_content},
-        ]
+        # Store token counts on self for later access
+        self.log_info.update({
+            "input_uncached_tokens": placeholder_tokens,
+            "input_system_tokens": system_tokens,
+            "input_user_tokens": user_tokens,
+            "input_total_tokens": system_tokens + user_tokens,
+        })
+        
+        # Cumulative log info
+        self.cumulative_log_info.update({
+            "input_uncached_tokens": self.cumulative_log_info["input_uncached_tokens"] + placeholder_tokens,
+            "input_system_tokens": self.cumulative_log_info["input_system_tokens"] + system_tokens,
+            "input_user_tokens": self.cumulative_log_info["input_user_tokens"] + user_tokens,
+            "input_total_tokens": self.cumulative_log_info["input_total_tokens"] + system_tokens + user_tokens,
+        })
+        
+        # Build the full messages list
+        messages = [system_message]
 
         if intermediate_messages:
+            # Ensure intermediate messages use proper UTF-8
+            for msg in intermediate_messages:
+                if isinstance(msg["content"], bytes):
+                    msg["content"] = msg["content"].decode('utf-8')
+                    
+            # Count tokens for intermediate messages if present
+            intermediate_tokens = count_tokens_with_tiktoken(intermediate_messages, model=model_name)
+            self.log_info["input_intermediate_tokens"] = intermediate_tokens
+            self.cumulative_log_info["input_intermediate_tokens"] = self.cumulative_log_info["input_intermediate_tokens"] + intermediate_tokens
             messages.extend(intermediate_messages)
 
-        messages.append({"role": "user", "content": content})
+        messages.append(user_message)
+        
         return messages
 
     def create_context_messages(self):
@@ -135,13 +240,67 @@ class ChatGPTAPI(Base):
         return messages
 
     def create_chat_completion(self, text):
-        messages = self.create_messages(text, self.create_context_messages())
-        completion = self.openai_client.chat.completions.create(
-            model=self.model,
-            messages=messages,
-            temperature=self.temperature,
-        )
-        return completion
+        if hasattr(self.openai_client, "api_key"):
+            self.openai_client.api_key = next(self.keys)
+        max_retries = 5
+        retry_count = 0
+        self.model = next(self.model_list)
+        
+        # Create messages outside the retry loop to avoid recreating them each time
+        messages = self.create_messages(text)        
+        
+        while retry_count < max_retries:
+            try:
+                # Prepare request parameters
+                request_params = {
+                    "model": self.model,
+                    "messages": messages,
+                    "temperature": self.temperature,
+                }
+                
+                # If using the o3-mini model, include the reasoning_effort parameter.
+                if self.model in O3MINI_MODEL_LIST:
+                    request_params["reasoning_effort"] = self.reasoning_effort
+                
+                ## ACTUAL API CALL to OpenAI
+                completion = self.openai_client.chat.completions.create(**request_params)
+                self.api_call_count += 1
+                
+                # Store actual token usage information from the API response
+                self.log_info.update({
+                    "output_prompt_tokens": completion.usage.prompt_tokens,
+                    "output_completion_tokens": completion.usage.completion_tokens, 
+                    "output_total_tokens": completion.usage.total_tokens
+                })
+                
+                # Cumulative log info
+                self.cumulative_log_info.update({
+                    "output_prompt_tokens": self.cumulative_log_info["output_prompt_tokens"] + completion.usage.prompt_tokens,
+                    "output_completion_tokens": self.cumulative_log_info["output_completion_tokens"] + completion.usage.completion_tokens,
+                    "output_total_tokens": self.cumulative_log_info["output_total_tokens"] + completion.usage.total_tokens
+                })
+                
+                # Calculate cost based on model and token usage
+                cost = self._calculate_cost(completion.model, completion.usage.prompt_tokens, completion.usage.completion_tokens, self.log_info["input_uncached_tokens"])
+                self.log_info["cost"] = cost
+                self.cumulative_log_info["cost"] = self.cumulative_log_info["cost"] + cost
+                
+                return completion
+            except RateLimitError:
+                # Rotate API key and model on rate limit
+                if hasattr(self.openai_client, "api_key"):
+                    self.openai_client.api_key = next(self.keys)
+                self.model = next(self.model_list)
+                retry_count += 1
+                if retry_count >= max_retries:
+                    raise Exception("Rate limit exceeded too many times.")
+                time.sleep(3 * retry_count)  # Exponential backoff
+            except Exception as e:
+                print(f"Error: {e}")
+                retry_count += 1
+                if retry_count >= max_retries:
+                    raise
+                time.sleep(1)
 
     def get_translation(self, text):
         self.rotate_key()
@@ -149,10 +308,10 @@ class ChatGPTAPI(Base):
 
         completion = self.create_chat_completion(text)
 
-        # TODO work well or exception finish by length limit
-        # Check if content is not None before encoding
+        # Ensure proper UTF-8 handling of the response
         if completion.choices[0].message.content is not None:
-            t_text = completion.choices[0].message.content.encode("utf8").decode() or ""
+            # Don't double-encode/decode - just ensure we have a clean string
+            t_text = completion.choices[0].message.content
         else:
             t_text = ""
 
@@ -172,9 +331,20 @@ class ChatGPTAPI(Base):
 
     def translate(self, text, needprint=True):
         start_time = time.time()
-        # todo: Determine whether to print according to the cli option
+        
+        # Ensure text is UTF-8 if it's bytes
+        if isinstance(text, bytes):
+            text = text.decode('utf-8')
+            
+        # Better formatted input text display
         if needprint:
-            print(re.sub("\n{3,}", "\n\n", text))
+            max_length = 1000  # maximum number of characters to display
+            truncated_text = text if len(text) <= max_length else text[:max_length] + "..."
+            clean_text = re.sub("\n{3,}", "\n\n", truncated_text)
+            print("\n[bold magenta]Input Text:[/bold magenta]")
+            print(clean_text)
+            if len(text) > max_length:
+                print(f"[dim italic](+ {len(text) - max_length} more characters truncated)[/dim italic]")
 
         attempt_count = 0
         max_attempts = 3
@@ -422,6 +592,54 @@ class ChatGPTAPI(Base):
             print(f"Using model list {model_list}")
             self.model_list = cycle(model_list)
 
+    def set_o1preview_models(self):
+        # for issue #375 azure can not use model list
+        if self.deployment_id:
+            self.model_list = cycle(["o1-preview"])
+        else:
+            my_model_list = [
+                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
+            ]
+            model_list = list(set(my_model_list) & set(O1PREVIEW_MODEL_LIST))
+            print(f"Using model list {model_list}")
+            self.model_list = cycle(model_list)
+
+    def set_o1_models(self):
+        # for issue #375 azure can not use model list
+        if self.deployment_id:
+            self.model_list = cycle(["o1"])
+        else:
+            my_model_list = [
+                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
+            ]
+            model_list = list(set(my_model_list) & set(O1_MODEL_LIST))
+            print(f"Using model list {model_list}")
+            self.model_list = cycle(model_list)
+
+    def set_o1mini_models(self):
+        # for issue #375 azure can not use model list
+        if self.deployment_id:
+            self.model_list = cycle(["o1-mini"])
+        else:
+            my_model_list = [
+                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
+            ]
+            model_list = list(set(my_model_list) & set(O1MINI_MODEL_LIST))
+            print(f"Using model list {model_list}")
+            self.model_list = cycle(model_list)
+
+    def set_o3mini_models(self):
+        # for issue #375 azure can not use model list
+        if self.deployment_id:
+            self.model_list = cycle(["o3-mini"])
+        else:
+            my_model_list = [
+                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
+            ]
+            model_list = list(set(my_model_list) & set(O3MINI_MODEL_LIST))
+            print(f"Using model list {model_list}")
+            self.model_list = cycle(model_list)
+
     def set_model_list(self, model_list):
         model_list = list(set(model_list))
         print(f"Using model list {model_list}")
@@ -647,3 +865,61 @@ class ChatGPTAPI(Base):
 
     def get_batch_result(self, output_file_id):
         return self.openai_client.files.content(output_file_id)
+
+    def _calculate_cost(self, model, prompt_tokens, completion_tokens, input_uncached_tokens):
+        """Calculate the cost of the API call based on model and token usage."""
+        # Pricing per million tokens (USD)
+        pricing = {
+            # GPT-4.5
+            "gpt-4.5-preview": {"input": 75.0, "output": 150.0},
+            "gpt-4.5-preview-2025-02-27": {"input": 75.0, "output": 150.0},
+            
+            # GPT-4o
+            "gpt-4o": {"input": 2.5, "output": 10.0},
+            "gpt-4o-2024-08-06": {"input": 2.5, "output": 10.0},
+            "gpt-4o-audio-preview": {"input": 2.5, "output": 10.0},
+            "gpt-4o-audio-preview-2024-12-17": {"input": 2.5, "output": 10.0},
+            "gpt-4o-realtime-preview": {"input": 5.0, "output": 20.0},
+            "gpt-4o-realtime-preview-2024-12-17": {"input": 5.0, "output": 20.0},
+            
+            # GPT-4o Mini
+            "gpt-4o-mini": {"input": 0.15, "output": 0.60},
+            "gpt-4o-mini-2024-07-18": {"input": 0.15, "output": 0.60},
+            "gpt-4o-mini-audio-preview": {"input": 0.15, "output": 0.60},
+            "gpt-4o-mini-audio-preview-2024-12-17": {"input": 0.15, "output": 0.60},
+            "gpt-4o-mini-realtime-preview": {"input": 0.60, "output": 2.40},
+            "gpt-4o-mini-realtime-preview-2024-12-17": {"input": 0.60, "output": 2.40},
+            
+            # O1
+            "o1": {"input": 15.0, "output": 60.0},
+            "o1-2024-12-17": {"input": 15.0, "output": 60.0},
+            
+            # O3 Mini & O1 Mini
+            "o3-mini": {"input": 1.10, "output": 4.40},
+            "o3-mini-2025-01-31": {"input": 1.10, "output": 4.40},
+            "o1-mini": {"input": 1.10, "output": 4.40},
+            "o1-mini-2024-09-12": {"input": 1.10, "output": 4.40},
+            
+            # Default fallback to GPT-3.5 Turbo pricing
+            "gpt-3.5-turbo": {"input": 0.0005, "output": 0.0015},
+        }
+        
+        # Extract model name without version suffix if not found directly
+        if model not in pricing:
+            base_model = model.split('-2')[0] if '-2' in model else model
+            if base_model not in pricing:
+                print(f"[yellow]Warning: Unknown model {model}, using gpt-3.5-turbo pricing[/yellow]")
+                model = "gpt-3.5-turbo"
+            else:
+                model = base_model
+        
+        # 
+        input_cached_tokens = prompt_tokens - input_uncached_tokens
+        
+        # Calculate cost - prices are per million tokens
+        input_cost_cached = (input_cached_tokens / 1_000_000) * pricing[model]["input"]/2
+        input_cost_uncached = (input_uncached_tokens / 1_000_000) * pricing[model]["input"]
+        output_cost = (completion_tokens / 1_000_000) * pricing[model]["output"]
+        total_cost = input_cost_cached + input_cost_uncached + output_cost
+        
+        return total_cost

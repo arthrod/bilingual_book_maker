@@ -1,0 +1,646 @@
+# Egalitaarisen taloustieteen loppu
+
+::: {.content-hidden when-format=latex}
+*The Revolution in Earnings Capacity in a World Without Jobs*
+:::
+
+> "Jumalaa ei voi pilkata, sillä mitä ihminen kylvää, sitä hän myös niittää." - GALATIANS 6:7
+
+Suuret muutokset hallitsevissa tuotantomuodoissa tai puolustuksessa muuttavat yhteiskunnan rakennetta sekä eri ryhmien vaurauden ja vallan suhdetta. Informaatiokausi tarkoittaa muutakin kuin tehokkaiden tietokoneiden yleistymistä – se on vallankumous elämäntavoissa, instituutioissa ja resurssien jakautumisessa. Koska peitellyn väkivallan rooli resurssien hallinnassa vähenee jyrkästi, kehittyy uusi vaurauden konfiguraatio ilman 1900-luvun tyypillistä pakottavaa hallituksen väliintuloa. Koska sijainnilla tulee olemaan tulevaisuudessa paljon vähemmän merkitystä informaatiokaudella, myös kaikkien niiden organisaatioiden rooli, jotka toimivat pikemminkin maantieteellisten rajojen sisällä kuin niiden ulkopuolella, vähenee. Poliitikot, ammattiliitot, säännellyt ammattiryhmät, lobbaajat ja itse hallitukset tulevat olemaan vähemmän keskeisiä. Koska hallintoelimiltä takavarikoidut suosiot ja kaupan rajoitukset eivät enää ole yhtä arvokkaita, myös resursseja kuluu enää vähemmän lobbaamisen edistämiseen tai sen vastustamiseen.
+
+Ne, jotka ovat käyttäneet pakottamista ja paikallisia etuja tulojen uudelleenjaon välineenä, ovat tuomittu menettämään suuren osan voimastaan. Tämä muuttaa resurssien hallintaa. Yksityisesti tuotettu vauraus, joka tähän asti on kaapattu kansallisvaltioiden toimesta, säilyy sen sijaan niiden käsiin, jotka sen ansaitsevat. Yhä suurempi määrä vaurautta löytää tiensä maailman taitavimpien yrittäjien ja venture-capitalistien käsiin. Globalisaatio, yhdessä muiden informaatiotalouden ominaisuuksien kanssa, pyrkii kasvattamaan kunkin alan lahjakkaimpien yksilöiden ansaintakykyä. Koska ylivoimaisesti erinomaisten suoritusten tuottama marginaalinen lisäarvo on valtava, koko globaalin talouden tulorakenne saa pian saman muodon kuin se nyt on suoritusaloilla, kuten urheilussa ja oopperassa.
+
+## Suuruusluokka, joka ylittää Pareton lain
+
+Pareton laki sanoo, että 80 prosenttia hyödyistä riippuu 20 prosentista niistä, jotka ovat mukana. Tämä saattaa olla suunnilleen totta, mutta vielä puhkeampaa on se, että Yhdysvaltojen väestöstä 1 prosentti maksaa 28,7 prosenttia tuloverosta, mikä viittaa siihen, että informaatiokauteen edetessään yhteiskunnat kokevat vielä voimakkaamman epätasa-arvoisen tulojen ja kykyjen jakautumisen kuin Vilfredo Pareto havaitsi viime vuosisadan lopulla. Ihmiset ovat melko tottuneet huomattaviin vaurauseroihin. Vuonna 1828 arvioitiin, että 4 prosenttia New Yorkin asukkaista omisti 62 prosenttia koko kaupungin vauraudesta. Vuoteen 1845 mennessä ylimmät 4 prosenttia omistivat noin 81 prosenttia New York Cityn yritys- ja ei-yritysperäisestä vauraudesta. Laajemmassa mittakaavassa, vuonna 1860, 10 prosenttia väestöstä omisti noin 40 prosenttia Yhdysvaltojen vauraudesta. Vuoteen 1890 mennessä tilastojen mukaan varakkaimpien 12 prosentin arvioitiin omistavan noin 86 prosenttia Amerikan vauraudesta.[^270]
+
+Vuoden 1890 luvut ovat lähellä sitä, mitä Pareto tarkoitti. Ne poikkeavat hänen 80–20-suhteestaan pääasiassa siksi, että 1800-luvun lopulla Yhdysvaltoihin saapui valtava määrä rahattomia maahanmuuttajia. Maahanmuuttajien osuus kokonaisvauraudesta oli vähäinen; siksi heidän saapumisensa teki vaurauden kokonaismäärästä automaattisesti epätasaisempaa. Itse asiassa tämä on hämmästyttävä esimerkki siitä, että mikä tahansa todellinen mahdollisuuksien kasvu johtaa lähes väistämättä ainakin lyhytaikaiseen epätasa-arvoon. Vuoteen 1890 mennessä maahanmuuttajat muodostivat noin 15 prosenttia Yhdysvaltojen kokonaisväestöstä, mutta joissakin luoteisissa osavaltioissa yli 40 prosenttia, joissa suuri osa tuloista ja vauraudesta syntyi.[^271] Kun maahanmuuttopaineet otetaan huomioon, 1800-luvun lopun American tilanne vastasi Pareton kaavaa melkein yhtä hyvin kuin 1800-luvun lopun Sveitsi, jossa hän itse asui.
+
+Informaatiokausi on jo muuttanut vaurauden jakautumista – erityisesti Yhdysvalloissa – ja se on yksi syy nykyaikaisen amerikkalaisen politiikan katkereuteen, jota tarkastelemme seuraavassa luvussa. Informaatiokausi edellyttää varsin korkeaa lukutaitoa ja numeerista osaamista taloudellisen menestyksen saavuttamiseksi. Yhdysvaltain koulutusministeriön laajan kyselyn "Adult Literacy in America" mukaan jopa 90 miljoonaa yli viisitoista vuotta vanhaa amerikkalaista on surkeasti kykenemättömiä. Tai, kuten amerikkalaisen ulkomaankansalaisen Bill Brysonin värikkäässä kuvauksessa, "he ovat yhtä typeriä kuin sian sika."[^272] Tarkemmin sanottuna 90 miljoonaa amerikkalaista aikuista todettiin kyvyttömäksi kirjoittamaan kirjettä, ymmärtämään bussiaikataulua tai laskemaan yhteen ja vähentämään, vaikka laskimen apua käyttäisivät. Ne, jotka eivät pysty hahmottamaan tavallista bussiaikataulua, eivät todennäköisesti kykene hyödyntämään Informaatiotietä. Näin ollen kolmannesta amerikkalaisista, jotka eivät ole valmistautuneet liittymään sähköiseen informaatiomaailmaan, muodostuu kasautuva vihaava alakansa. Yhteiskunnan kärjessä on pieni ryhmä, ehkä 5 prosenttia, erittäin koulutettuja informaatiotyöntekijöitä tai pääoman omistajia, jotka ovat informaatiokauden vastaavuus feodaaliaikaisen maaomistajakiltaisuuden kanssa – ratkaisevana erona se, että informaatiokauden eliitin erikoisosaaminen kohdistuu tuotantoon, eikä väkivallan käyttöön.
+
+### Innovaatioiden megapolitiikka
+
+
+
+For no very good reason, most twentieth‐century sociologists have assumed that technological progress would naturally tend to produce increasingly egalitarian societies. This was not true prior to about 1750. Beginning around that time, innovative new industrial technology began to open job opportunities for the unskilled and increase the scale of enterprise. The new technology of the factory not only raised the real earnings of the poor without any effort on their part; it also tended to increase the power of political systems, making them more able to redistribute income as well as more capable of withstanding unrest. Taking a longer view, there is no inherent reason to suppose that technology always tends to mask rather than accentuate the differences in human talents and motivation. Some technologies have been relatively egalitarian, requiring contributions of many independent workers of approximately equal utility; others have put power or wealth into the hands of a few masters while most people were little more than serfs. Both history and technology have shaped different nations in different ways. The Factory Age produced one shape, and the Information Age is producing another, less violent, and therefore more elitist and less egalitarian than the one it is replacing.
+
+Ei erityisen painavaa syytä myöten suurin osa 1900-luvun sosiologeista oletti, että teknologinen kehitys luonnollisesti johtaisi yhä tasa-arvoisempien yhteiskuntien syntyyn. Tätä ei kuitenkaan tapahtunut ennen noin 1750. Noin tuon ajan tienoilla innovatiivinen uusi teollisuusteknologia alkoi avata työmahdollisuuksia taitamattomille ja laajensi yritystoiminnan mittakaavaa. Tehdasteknologia ei ainoastaan nostanut köyhien reaalituloja ilman heidän omaa vaivaansa, vaan se myös lisäsi poliittisten järjestelmien valtaa, tehden niistä kykenevämpiä uudelleenjakoa sekä paremmin kestämään levottomuuksia. Pitkällä aikavälillä ei ole itsessään mitään syytä olettaa, että teknologia aina peittäisi ihmisten kykyjen ja motivaation erot sen sijaan, että ne korostuisivat. Jotkut teknologiat ovat olleet suhteellisen tasa-arvoisia ja edellyttäneet monien itsenäisten, suunnilleen yhtä hyödyllisten työntekijöiden panosta; toiset taas ovat antaneet vallan tai varallisuuden muutamien mestareiden käsiin, kun taas suurin osa ihmisistä oli käytännössä vain vähän parempia kuin orjia. Sekä historia että teknologia ovat muokanneet eri kansakuntia eri tavoin. Tehdasaika tuotti yhden muodon, ja Information Age – eli tiedon aikakausi – on tuottamassa toista, vähemmän väkivaltaista ja siten enemmän eliittistä sekä vähemmän tasa-arvoista muotoa kuin se, mitä se korvaa.
+
+## Ammon's turnip
+
+1800-luvun lopulla joukko taloustieteilijöitä, joista William Stanley Jevons oli Englannissa arvostetuin, aloitti matemaattisen taloustieteen kehittämisen. Yksi ensimmäisistä, joka sovelsi todennäköisyysteoriaa merkittävään yhteiskunnalliseen kysymykseen, oli saksalainen taloustieteilijä Otto Ammon, jonka työ käännettiin ensimmäisenä englanniksi Carlos C. Clossonin toimesta artikkelissa *Journal of Political Economy* -lehdessä vuonna 1899. Artikkelin otsikoksi valittiin "Some Social Applications of the Doctrine of Probability."[^273] Voisi ajatella, että tällainen artikkeli olisi nyt puhtaasti antiquaarista mielenkiintoa, mutta todellisuudessa se käsittelee taloudellista ongelmaa, joka on jälleen nousussa ja tekee sen edelleen stimuloivalla tavalla.
+
+Otto Ammon kiinnostui kykyjen jakautumisesta yhteiskunnassa sekä niiden suhteesta tulojen ja statuksen jakautumiseen. Hän otti lähtökohteekseen sen, kuinka todennäköisesti neljän, kuusisivuista noppaa heitettäessä saadaan tietty kokonaispistemäärä. 1 296 mahdollisesta heitosta jotkin pistemäärät esiintyvät useammin kuin toiset.
+
+*24 pistettä saadaan kerran.  
+23 pistettä saadaan 4 kertaa.  
+22 pistettä saadaan 10 kertaa.  
+21 pistettä saadaan 20 kertaa.  
+20 pistettä saadaan 35 kertaa.  
+19 pistettä saadaan 56 kertaa.  
+18 pistettä saadaan 80 kertaa.  
+17 pistettä saadaan 104 kertaa.  
+16 pistettä saadaan 125 kertaa.  
+15 pistettä saadaan 140 kertaa.  
+14 pistettä saadaan 146 kertaa.  
+13 pistettä saadaan 140 kertaa.  
+12 pistettä saadaan 125 kertaa.  
+11 pistettä saadaan 104 kertaa.  
+10 pistettä saadaan 80 kertaa.  
+9 pistettä saadaan 56 kertaa.  
+8 pistettä saadaan 35 kertaa.  
+7 pistettä saadaan 20 kertaa.  
+6 pistettä saadaan 10 kertaa.  
+5 pistettä saadaan 4 kertaa.  
+4 pistettä saadaan kerran.*
+
+On välittömästi selvää, että sekä erittäin korkeat että matalat pistemäärät ovat suhteellisen harvassa. Esimerkiksi äärimmäiset pistemäärät (24 ja 4) esiintyvät vain kerran, ja neljän korkean pistemäärän yhteensä esiintymiskerrat ovat vain 35 kertaa. Voidaan odottaa, että keskimmäisten seitsemän pistemääräryhmän yhteissumma on noin 884 kertaa; käytännössä mahdollisten pistemäärien keskimmäinen kolmasosa muodostuu yli kahdesta kolmanneksesta kaikista heitoista. Tämä synnyttää todennäköisyysteorian tyypillisen keskittymisen kohti keskiosaa.
+
+Otto Ammon väitti, että noppien satunnainen heittojakauma vastasi ihmisten kykyjen jakautumista. Hän kirjoitti tätä ennen älykkyystestien ja IQ:n kehitystä ja nojautui Francis Galtonin aiempiin älykkyyttä koskeviin tutkimuksiin. Ammon ei katsonut, että sosiaalinen hyöty tai menestys elämässä perustuisi yksinomaan älykkyyteen. Hän listasi "kolme ryhmää henkisiä ominaisuuksia, jotka ovat suureksi osaksi ratkaisevia sen suhteen, millaisen aseman ihminen elämässään saavuttaa." Näitä olivat:
+
+1. **Älylliset ominaisuudet** – joihin hän sisällytti kaiken, mikä kuuluu työvoiman rationaaliselle puolelle, kuten nopea ymmärrys, muistitoiminta, arvostelukyky, keksintökyky ja kaikki muu, mikä liittyy tähän kenttään.  
+2. **Moraaliset ominaisuudet** – nimittäin itsesäätely, tahdonvoima, ahkeruus, sinnikkyys, kohtuullisuus, perhevelvoitteiden huomioiminen, rehellisyys ja vastaavat piirteet.  
+3. **Taloudelliset ominaisuudet** – kuten liiketoimintakyky, organisointitaito, tekninen osaaminen, varovaisuus, kekseliäs laskentakyky, ennakointikyky, säästäväisyys ja niin edelleen.
+
+Näihin henkisiin ominaisuuksiin hän lisäsi:
+
+4. Kehon ominaisuuksia; toimintakyky, kestävyys, kyky kestää rasituksia ja vastustaa kaikenlaisia kiihotuksia, energisyys, hyvä terveys jne.
+
+Otto Ammonin mukaan näiden älykkyyden, luonteen, lahjakkuuden ja kehon ominaisuuksien todennäköinen jakauma oli samanlainen kuin nopanheittojen tulokset. Hän jatkoi väittämällä, että muuttujia oli itse asiassa paljon enemmän kuin neljä ja että ne vaihtelivat yli kuudessa asteessa. Jos heitettäisiin kahdeksan noppaa neljän sijaan, mahdollisia heittoja olisi ei vähempää kuin 1 679 616, vaikka korkein tulos, nelikymmentäkahdeksan, odotettaisiin vielä esiintyvän vain kerran. Se mies tai nainen, joka saavuttaa erittäin korkeat pisteet kaikissa elämänsä asemalle vaikuttavissa tekijöissä, on paljon harvinaisempi kuin pelkkä neljän kuuden heiton todennäköisyys antaisi ymmärtää; ehkä yhtä harvinainen kuin kahdeksan kuuden heittäminen. Kuitenkin Ammon huomauttaa, että näiden inhimillisten ominaisuuksien korkeiden ja matalien pisteiden sekoitus voi tuottaa "epätasapainoisia, epäharmonisia lahjakkuuksia, jotka, huolimatta joistakin loistavista ominaisuuksista, eivät pysty menestyksekkäästi vastaamaan elämän koetuksiin."
+
+> "Kuin yksinäinen vuorenhuippu, tai pikemminkin kuin katedraalin torni, nousevat suuren lahjakkuuden ja nerouden omaavat miehet keskinkertaisuuden laajan massan yläpuolelle… Erittäin lahjakkaiden ihmisten määrä on joka tapauksessa niin pieni, että on mahdotonta, että 'monia' tällaisia olisi voitu pitää alemmissa luokissa yhteiskunnallisten instituutioiden puutteellisuuden vuoksi."  
+> – OTTO AMMON
+
+### Traits and Incomes
+
+Ammon kääntyi sitten tulojen jakaumaan. Tietenkin 1890‑luvun tilastot olivat nyt paljon puutteellisempia kuin nykyisin, mutta saksalainen byrokratia oli jo hyvin kehittynyttä, ja Otto Ammon löysi Saksiasta, Preussasta, Badenista ja muista saksalaisista valtioista tulokäyriä, joiden hän mielestä olivat samanlaisia sekä hänen kokeilemansa inhimillisen kyvyn jakauman kanssa että nopan heittojen todennäköisyyksien mukaisesti. Hän löysi samanlaisia lukuja myös Charles Boothin teoksesta *Life and Labour of the People of London* (1892). Todellakin, Boothin sosiaalinen jakauma näyttää hyvin siltä, mitä Ammonin todennäköisyysteorian perusteella voisi odottaa. Booth havaitsi Lontoossa, että 25 prosenttia oli köyhää tai huonompaa, 51,5 prosenttia oli mukavassa tilanteessa ja 15 prosenttia oli hyvin toimeentulevia tai parempia; jos otetaan Boothin kahdesta alhaisimmasta kategoriasta, ne muodostavat 9,5 prosenttia. Ennen 1900‑luvun hyvinvointivaltojen aikoja oli yleistä puhua niistä, jotka olivat vähiten hyvin toimeentulevia, nimellä "upotettu kymppiluku."[^274] Boothin kahdesta ylimmästä kategoriasta muodostuu 7 prosenttia.
+
+Kaikesta tästä Otto Ammon veti useita mielenkiintoisia johtopäätöksiä. Hän katsoi, että ihmisten kyvyt, laajasti määriteltynä, määrittävät heidän asemansa yhteiskunnassa ja tulojensa suuruuden. Hän uskoi, että korkeista kyvyistä johtuu luonnollisesti se, että ihmiset nousevat tuloissaan ja sosiaalisessa asemassaan. "Kuin yksinäinen vuorenhuippu, tai pikemminkin kuin katedraalin torni, nousevat suuren lahjakkuuden ja nerouden omaavat miehet keskinkertaisuuden laajan massan yläpuolelle…" Hän uskoi myös, että niin sanotun sosiaalipyramidin "todellinen muoto on hieman litteä sipuli tai nauris." Tämä nauris on kapealla varressa ylhäällä ja kapealla juurella alhaalla. Tällainen sosiaalinen nauris on parempi vertauskuva kuin sosiaalipyramidi, koska, kuten modernissa teollisyhteiskunnassa, massa sijaitsee keskellä, kun taas pyramidissa massa on pohjalla.
+
+### The Shape of the Turnip
+
+Modernit teollisyhteiskunnat ovat todellakin kaikki nauriita, joissa on ylhäällä pieni varakas ja korkeakoulutettu yläluokka, keskellä suurempi keskiluokka ja alhaalla vähäosaisempi köyhä luokka. Keskiluokkaa verrattuna kummatkin ääripäät ovat pieniä. Modernissa Lontoossa, ellei Washingtonissa, on varmasti enemmän miljonäärejä kuin kodittomia.
+
+Kaikki tämä on kiehtovaa, mutta Ammonin työn välitön kiinnostavuus piilee siinä merkittävässä pitkäaikaisessa muutoksessa, jota koemme yläluokan ja keskiluokan välisissä suhteissa – sekä taloudellisissa että poliittisissa. Tehdasaikakauden vaatimukset, jotka nyt ovat lähdössä, eroavat kiistatta informaatiokauden vaatimuksista. Suurin osa ihmisistä osaisi hallita keski‑1900-luvun koneiden käyttöön vaadittavat taidot, mutta nuo työt on nyt korvattu älykkäillä koneilla, jotka käytännössä ohjaavat itseään. Koko alalla matalataitoista ja keskitaidon työllisyyttä on jo kadonnut. Jos oletamme, että olemme oikeassa, tämä on esirunko lähes kaiken työllisyyden katoamiselle ja työn uudelleenjärjestelylle spot‑markkinoilla.
+
+> "Yet it is a, fact acknowledged officially but quietly, that most of the unemployed youngsters have no qualifications whatsoever..."[^275]  
+> – CLIVE JENKINS AND BARRIE SHERMAN
+
+## Vähemmän ihmisiä tekee enemmän työtä
+
+Voimme ottaa yksinkertaisen neljän nopan jakauman inhimillisestä kyvystä ja olettaa, että tehdasaikana ihmiset olivat kykeneviä saavuttamaan pistemäärän, joka vastaa arvoa 4 x 2 tai sitä korkeampaa. Tämä tarkoittaisi, että yli 95 prosenttia väestöstä sijoittuisi sen yläpuolelle, mitä Charles Booth kutsui "positiivisen yhteiskunnallisen hyödyllisyyden alarajaksi." Itse asiassa 3 prosenttia asetettiin täydellisen työllisyyden standardiksi 1940– ja 1950-luvuilla. Kuvitellaan, että informaatiokaudella vaadittu pistemäärä nousee 4 x 3:een ja minimitaso kasvaa luvusta 8 luvuksi 12. Tämä tarkoittaisi, että lähes 24 prosenttia väestöstä sijoittuisi tämän "yhteiskunnallisen hyödyllisyyden" alarajan alapuolelle.
+
+Jonkinlaista vastaavaa tapahtuisi myös skaalan yläosassa. Tehdasaikana vaadittu korkean kyvyn taso oli ehkä 4 x 4; oletetaan, että informaatiokaudella se on noussut 4 x 5:een. Tällöin niiden ihmisten osuus, jotka ovat päteviä huipputyöpaikkoihin – jotka ovat myös parhaiten palkattuja –, laskisi 34 prosentista 5 prosenttiin.
+
+Nämä luvut ovat puhtaasti hypoteettisia. Ilmiselvästi emme tiedä, millaiset muutokset taitovaatimuksissa tulevat olemaan – tai ovat jo tapahtuneet – mutta on selvää, että vaatimustaso on noussut. Koska nauriin muoto on sellainen, että jo hyvin vaatimaton nousu minimitaidoissa työntää suuren määrän ihmisiä pois merkittävästä taloudellisesta roolista, niin pienikin nousu korkean taitotason vaatimuksissa kaventaisi huomattavasti niiden ihmisten määrää, jotka ovat päteviä huipputöihin. Jotain muutosta on käynnissä: emme vielä tiedä, kuinka suuri se tulee olemaan.
+
+On runsaasti sosiaalisia ja poliittisia todisteita siitä, että tämä muutos tapahtuu kaikissa kehittyneissä teollisuusyhteiskunnissa, että sen vauhti kiihtyy ja että liike on jo merkittävä. Harvinaisten taitojen palkkiot ovat nousseet ja nousevat edelleen. Perinteiset ajattelijat ovat ilmaisseet tästä tyytymättömyyttään. Esimerkiksi *The Winner-Take-All Society* –kirjassa, jonka ovat kirjoittaneet Robert H. Frank ja Philip J. Cook,[^276] – on dokumentoitu kasvava tendenssi, jossa Yhdysvalloissa monilla aloilla toimivat lahjakkaimmat kilpailijat tienaavat erittäin korkeita tuloja. Samalla keskitason taitojen mahdollisuudet vähenevät; merkittävä määrä vähemmän erikoistuneita taitoja jää nyt sen ulkopuolelle, mikä riittää tarjoamaan mukavan elannon, vaikka he saattavatkin löytää paikkansa pienemmissä palvelutehtävissä.
+
+Jos informaatiokausi vaatii korkeampia taitoja sekä ylä- että alareunalla, kaikki paitsi ylimmät 5 prosenttia joutuvat suhteellisesti epäedulliseen asemaan, mutta nämä ylimmät 5 prosenttia hyötyvät valtavasti. He tienaavat sekä suuremman osan tuloista että saavat pitää suuremman osan siitä, mitä he ansaitsevat. Samalla he tekevät enemmän maailman työstä kuin koskaan aiemmin. Monet nousevat suvereeniksi yksilöiksi. Informaatiokauden tulonjakauman nauris muistuttaa enemmän vuoden 1750 jakaumaa kuin vuoden 1950.
+
+## Useimmat ihmiset hyötyvät politiikan kuolemasta
+
+Tehdasaika saattaa osoittautua ainutlaatuiseksi ajanjaksoksi, jolloin puolityperät koneet jättivät erittäin kannattavan erikoispussin vähäosaisten ihmisten käyttöön. Nyt kun koneet pystyvät huolehtimaan itsestään, informaatiokausi jakaa lahjojaan Otto Ammonin nauriin ylimmille 5 prosentille. Informaatiokausi näytti jo aluksi paljon paremmalta ylimmille 10 prosentille, niin kutsutulle kognitiiviselle eliitille. Kuitenkin se tulee olemaan kaikkein parhainta niille, jotka kuuluvat ylimmän 10 prosentin ylimmälle 10 prosentille – kognitiiviselle tuplahuipulle. Feodaaliaikana tarvittiin sata puolikypsää talonpoikaa tukemaan yhtä erittäin taitavaa sotapäällikköä (tai ritaria) ratsastaen. Informaatiotalouden suvereenit yksilöt eivät tule olemaan sotapäälliköitä, vaan erikoistuneiden taitojen, mukaan lukien yrittäjyys ja sijoittaminen, mestareita. Kuitenkin feodaalinen sata-yhteen-suhde näyttää olevan palautumassa. Hyvässä tai pahassa, 2000-luvun yhteiskunnat ovat todennäköisesti epätasa-arvoisempia kuin ne, joissa elelemme 1900-luvulla.
+
+On epätodennäköistä, että tasa-arvoinen talous ja sen tukemat kansakunnat voisivat kadota ilman kriisiä. Vaikka kriisi periaatteessa kestää vain lyhyen aikaa, kuvitamme silti, että kansakuntien lopun aiheuttama trauma saattaa kaikua vuosikymmeniä. Traumaa – jonka ulottuvuuksia tarkastelemme myöhemmin tarkemmin – ei tule unohtaa, sillä monilla maailman alueilla siirtyminen tietotalouteen nostaa tuotannon vauhtia ja kaikkialla nousevat tulotasot. Niissäkin alueissa, jotka eivät koskaan täysin hyötyneet teollistumisen eduista mutta ovat nyt avoinna vapaalle markkinalle, ihmisten tulot ovat nousussa tai nousevat kaikilla yhteiskuntaluokilla.
+
+Paineen pakottavuuden deflaatio osana talouselämää mahdollistaa sen, että tuottajat voivat säilyttää varoja, jotka aiemmin oli takavarikoitu ja jaettu uudelleen. Uudelleenjako merkitsi yleensä sitä, että varoja ohjattiin alempiarvoisiin käyttötarkoituksiin, mikä vähensi pääoman tuottavuutta. Ylijäämä varallisuutta, joka otettiin suhteettomasti niiltä, jotka olivat taitavimpia investoimaan resursseja, allokoitiin poliitikkojen toimesta niille, jotka eivät olleet yhtä taitavia. Useimmissa tapauksissa uudelleenjaettua tuloa käytettiin alempitasoisiin taloudellisiin toimintoihin. Resurssien vapauttamisesta systemaattisesta pakottamisesta aiheutuvat vaikutukset vaihtelevat huomattavasti eri lainkäyttöalueilla. Tämä resurssien jäädyttäminen konkurssiin ajaa hyvin hyvinvoivien hyvinvointivaltioden tulot ja korostaa laajamittaisia taloudellisia tehottomuuksia, jotka rapauttavat suuria hallituksia ja kaikkia niiden tukemia instituutioita. Toisaalta siirtyminen kybertalouteen vähentää niitä taloudellisia haittoja, joita ihmiset kokevat työskentelevänsä suvereniteettien alla alueilla, jotka ovat perinteisesti kärsineet kyvyttömyydestä organisoitua suuressa mittakaavassa.
+
+> "If the world operates as one big market, every employee will compete with every person anywhere in the world who is capable of doing the same job. There are lots of them and many of them are hungry."[^277]  
+> – ANDREW S. GROVE, PRESIDENT, INTEL CORP.
+
+## Shifting locational advantages
+
+Koska väkivallan tuottamat nousut eivät enää kasva, ei ole etua elää hallituksen alla, joka pystyisi niitä hyödyntämään. Entisaikaiset toimivat hallitukset eivät enää ole varallisuuden kerryttämisen ystäviä vaan sen vihollisia. Korkeat verot, raskaasti säädellyt kustannukset ja kunnianhimoiset sitoumukset tulojen uudelleenjakoon tekevät niiden hallitsemiin alueisiin elinympäristöinä yritystoiminnalle epämiellyttäviä.
+
+Ne, jotka asuvat lainkäyttöalueilla, jotka pysyivät köyhinä tai kehittymättöminä teollistumisen aikana, hyötyvät eniten talouksien vapauttamisesta maantieteellisten rajojen rajoitteista. Tämä on vastoin sitä, mitä usein kuuleekin. Tietotalouden tuloa ja Sovereign Individualin (suvereenin yksilön) nousua ympäröivä pääkiistakysymys keskittyy väitettyihin epäoikeudenmukaisuuden vaikutuksiin, jotka johtuvat politiikan katoamisesta. On ehdottomasti totta, että globaalin tietotalouden myötä suurimman mittakaavan tulojen uudelleenjakoon iski kohtalollinen iskku. Teollisella aikakaudella tulojen uudelleenjaon pääasiallisia hyötyjiä ovat olleet varakkaiden lainkäyttöalueiden asukkaat, joiden kulutustaso on 20-kertaisesti korkeampi kuin maailman keskiarvo. Ainoastaan OECD-maissa tulojen uudelleenjaolla on ollut havaittavia vaikutuksia alaosan ansaitsevien tulojen nostamisessa.
+
+Suurimmat tuloeroavaisuudet on havaittu lainkäyttöalueiden välillä. Tulojen uudelleenjako ei ole juurikaan lievittänyt niitä. Itse asiassa uskomme, että ulkomaanapu ja kansainväliset kehitysohjelmat ovat saaneet perverssin vaikutuksen, joka on laskenut köyhien ihmisten reaalituloja köyhissä maissa subsidioimalla epäpätevää hallintoa. Tätä aihetta käsittelemme tarkemmin analysoidessamme Information Revolutionin vaikutusta moraaliin.
+
+### Vuosisata kasvavia tuloeroja
+
+Teollistumisen aikana keskimääräisen tavallisen ihmisen elinikäisiin tuloihin eniten vaikutti poliittinen lainkäyttöalue, jolla hän sattui asumaan. Vastoin nykyisten varakkaiden talouksien yleistä käsitystä tuloero kasvoi nopeasti teollisuuskaudella. Maailmanpankin mainitseman arvion mukaan varakkaimpien maiden keskimääräinen asukaskohtainen tulo paisui 1870-luvulla yhdestätoista kertaa köyhimpien maiden tulotasoon verrattuna ja 1985-luvulla viisikymmentäkahdella kertaa. Vaikka eriarvoisuus kasvoi dramaattisesti globaalilla tasolla, se näytti usein erilaiselta sillä osalla maailmaa, joka asui varakkaissa teollisuusmaissa. Tuloeroa kasvoi lainkäyttöalueiden välillä eikä niiden sisällä.
+
+Joistain jo aiemmin käsitellyistä syistä teollisuusteknologian luonne auttoi varmistamaan, että tuloerot kaventuivat sellaisilla alueilla, joilla suunnilleen pätevät hallitukset hallitsivat valtakunnallista vallankäyttöä suuressa mittakaavassa. Kun väkivallasta saatu tuotto kasvoi – kuten se kasvoi teollisuuden aikana – laajamittaisesti toimivia hallituksia hallitsivat sen työntekijät. Tämä teki käytännössä mahdottomaksi asettaa rajoituksia niille vaatimuksille, joita hallitukset esittivät resursseista. Niiden rajoittamaton resurssien hallinta antoi tärkeän sotilaallisen edun niin kauan kuin vallan suuruus johdatti käytettyä tehokkuuteen. Hallitusta, jota hallitsivat sen työntekijät, seurasi toisinaan tulojen uudelleenjaon jyrkkä kiihtyminen. Melkein jokaisessa yhteiskunnassa on jonkinlainen mekanismi tulojen uudelleenjakoon, ainakin tilapäisesti poikkeuksellisissa tilanteissa. Kuitenkin köyhien auttamiseen tarkoitettujen sosiaalietuuksien tarkka historia osoittaa, että "hyvinvointietuudet" ovat yleensä anteliaampia silloin, kun köyhyys on minimaalista. Tulojen uudelleenjakoa on todennäköisempää rajoittaa, kun suuren määrän ihmisten tulot heikkenevät. Varakkaiden teollisuusmaiden olosuhteet 1900-luvun jälkipuoliskolla olivat lähes optimaaliset tulojen uudelleenjaon toteuttamiseen, mikä johti paljon korkeampiin palkkioihin alaosan työstä näillä suotuisilla lainkäyttöalueilla. Ajan myötä se tarjosi jopa korkeita kulutusmääriä niille, jotka eivät työskentelevät lainkaan.
+
+
+
+### Teollisen vaurauden paradoksi
+
+Ironia on, että juuri näillä lainkäyttöalueilla myös useammat ihmiset vaurastuivat. Tämä näennäinen paradoksi on täysin looginen, kun ymmärtää aiemmissa luvuissa käsitellyn megapolitiikan dynamiikan. Teollisen talouden johtavat sektorit vaativat laajamittaista järjestyksen ylläpitoa toimiakseen optimaalisesti. Tämä teki niistä erityisen alttiita ammattiliittojen ja hallitusten kiristykselle, jotka pyrkivät saamaan hallintaansa mahdollisimman suuren määrän ihmisiä. Silti laaja tulonjakoa ei täysin tukahduttanut teollisen talouden toimintakykyä. Jokainen Länsi-Euroopassa, entisissä Britannian siirtokunnissa tai Japanissa, teollistumisen huippukohdassa syntynyt oli todennäköisesti huomattavasti rikkaampi kuin vastaavan taidollisesti osaavan henkilö Etelä-Amerikassa, Itä-Euroopassa, myöhäisessä Neuvostoliitossa, Afrikassa tai Aasian mantereen laajoilla alueilla. Tieto-teknologian positiivinen vaikutus tulee muun muassa auttamaan voittamaan monia kehitystä estäneitä esteitä, jotka pitkälti estivät suurinta osaa maailman väestöstä nauttimasta vapaiden markkinoiden eduista modernin ajan suurimman osan ajan.
+
+> "Köyhien maiden alkuperäiset piirteet ovat hämmästyttävän epäystävälliset tehokkaalle laajamittaiselle organisaatiolle, erityisesti sellaisille suurille organisaatioille, joiden on toimittava (kuten hallitukset tekevät) laajan maantieteellisen alueen päällä."[^279] - MANCUR OLSON
+
+## Suurempien mittakaavojen haittavaikutukset ja hidastunut kasvu
+
+Kuten Mancur Olson on osoittanut, 1900-luvun taaksejääneisyys ei johtunut sinänsä pääoman tai erikoistuneiden taitojen puutteesta. Artikkelissaan "Diseconomies of Scale and Development", joka julkaistiin vuonna 1987, kaksi vuotta ennen Berliinin muurin romahdusta, Olson kirjoitti: 
+
+> "Jos pääomaa olisi todellakin ollut niukasti köyhissä maissa, sen 'marginaalituottavuuden' – ja siten sen käytön kannattavuuden – tulisi olla suurempi kuin vauraissa maissa. Monien maiden, jotka saivat huomattavia määriä ulkomaista apua, alhaiset kasvu- ja joidenkin modernien tehtaiden matala tuottavuus köyhissä maissa ovat entisestään heikentäneet 'pääoman niukkuuden' selityksen uskottavuutta."[^280]
+
+Tämä täytyy olla oikein. Jos pääoman tai taitojen niukkuus olisi ollut pääasiallinen puute, niin köyhissä lainkäyttöalueissa kummankin tuottojen olisi ollut korkeampia kuin kehittyneissä maissa. Sekä osaavaa henkilökuntaa että pääomaa olisi tulvinut näille alueille, kunnes tuotot tasoittuisivat. Itse asiassa usein tapahtui päinvastoin. Taaksejääneistä lainkäyttöalueista tapahtui merkittävää aivovuotoa, ja ne harvat onnekkaat, jotka onnistuivat kerryttämään pääomaa tällaisilla alueilla, veivät sen mahdollisimman nopeasti Sveitsiin ja muihin kehittyneisiin maihin.
+
+### Parempaa hallintoa ei voitu tuoda
+
+Olson väittää – ja me olemme samaa mieltä – että todellinen kehitystä estävä este taaksejääneissä maissa on ollut se tuotantotekijä, jota ei voitu helposti lainata tai tuoda ulkomailta, nimittäin hallinto. Tämä on ongelma, joka paheni 1900-luvun edetessä. Vuonna 1900 Britannia ja Ranska, yhdessä joidenkin muiden eurooppalaisten maiden kanssa, olivat mukana viehdittymässä osaavaa hallintoa niille alueille, joilla alkuperäiset voimat eivät kyenneet toimimaan tehokkaasti laajassa mittakaavassa. Kuitenkin 1900-luvun muuttuvat megapoliittiset olosuhteet nostivat tämän toiminnan kustannuksia ja laskivat sen tuottoja. Siirtomaa-aatteen – tai imperialismin, kuten sitä vähemmän myönteisesti kutsuttiin – kaatuminen ei enää tuottanut kannattavaa vaihtoehtoa. Teknologian muutokset nostivat valtaistumisen kustannuksia keskuksesta reuna-alueille siirryttäessä sekä laskivat tehokkaan vastarinnan sotilaallisia kustannuksia. Näin ollen imperiaaliset vallat vetäytyivät tai jäivät vain pieniin pesäkkeisiin, kuten Bermudoille tai Cayman-saarille.
+
+> "Jos siirtomaiden jälkeinen kansallisvaltio olisi muodostunut edistyksen kahleeksi, kuten yhä useammat Afrikan kriitikot vaikuttivat olevan 1980-luvun lopulla, niin pääasiallinen syy olisi kyennyt esiintymään lähes ilman epäilystä. Valtio ei vapauttanut eikä suojellut kansalaisiaan, riippumatta siitä, mitä sen propaganda väitti; päinvastoin, sen kokonaisvaikutus oli rajoittava ja hyväksikäyttävä, tai yksinkertaisesti se ei toiminut lainkaan missään sosiaalisessa merkityksessä."[^281] - BASIL DAVIDSON
+
+Alkuperäiset hallitukset, jotka korvasivat kolonialistisen vallan maissa, joita ei ollut asuttu eurooppalaisilla siirtokunnilla, rekrytoivat johtajansa ja hallintonsa sellaisista väestöryhmistä, joilla oli vain vähän kokemusta tai taitoa pyörittää minkä tahansa tyyppistä laajamittaista yritystä. Monissa tapauksissa, erityisesti Afrikassa, lähtöisin olevien siirtomaavaltioiden perintäinfrastruktuuri pilattiin, tuhoutui tai annettiin rappeutua nopeasti. Puhelinlinjat revittiin purkureiden toimesta ja lyötiin rannekoruiksi, teitä ei enää kunnossapidetty, ja rautatiekiskot muuttuivat käyttökelvottomiksi, kun tiepohjat romahtivat ja veturit hajoivat. Zairemissa belgialaisten asentama monimutkainen liikenneinfrastruktuuri oli lähes kokonaan kadonnut vuoteen 1990 mennessä. Vain muutama nariseva joiristeko jatkoi toimintaansa, ja yksi niistä otettiin diktatuurin toimesta eräänlaiseksi kelluvaksi palatsiksi.
+
+Epävakaa viestintä ja kuljetus heijastavat taaksejääneiden kansallisvaltioiden kyvyttömyyttä ylläpitää järjestystä. Ne ovat pitäneet hinnat korkeina ja rajoittaneet suurimman osan maailman väestön mahdollisuuksia. Kuten Olson painottaa:
+
+###
+
+Undependable communication and transport reflect the incompetence of backward nationstates at maintaining order. They have kept prices high and minimized opportunities for most of the world's population. As Olson emphasizes:
+  
+Kuten Olson painottaa:
+
+### Better Government Could Not Be Imported
+
+Olson väittää, ja olemme siitä yhtä mieltä, että todellinen kehitystä estävä este taaksejääneissä maissa on ollut se tuotantotekijä, jota ei voitu helposti lainata tai tuoda ulkomailta, nimittäin hallinto. Tämä on ongelma, joka paheni 1900-luvun edetessä. Vuonna 1900 Britannia ja Ranska, yhdessä joidenkin muiden eurooppalaisten maiden kanssa, olivat mukana viehdittymässä osaavaa hallintoa niille alueille, joilla alkuperäiset voimat eivät kyenneet toimimaan tehokkaasti laajassa mittakaavassa. Mutta muuttuvat, suuret megapoliittiset olosuhteet 1900-luvulla nostivat tämän toiminnan kustannuksia ja laskivat sen tuottoja. Siirtomaa-aatteen – tai imperialismin, kuten sitä vähemmän myönteisesti kutsuttiin – toimintaperiaatteet lakaisivat olla kannattavia. Teknologian muutokset nostivat valtaistumisen kustannuksia keskustasta reuna-alueille siirryttäessä ja laskivat tehokkaan vastarinnan sotilaallisia kustannuksia. Tämän seurauksena imperiaaliset vallat vetäytyivät tai jäivät vain pieniin pesäkkeisiin, kuten Bermudoille tai Cayman-saarille.
+
+> "Jos siirtomaiden jälkeinen kansallisvaltio olisi muodostunut edistyksen kahleeksi, kuten yhä useammat Afrikan kriitikot vaikuttivat olevan 1980-luvun lopulla, niin pääasiallinen syy olisi kyennyt esiintymään lähes ilman epäilystä. Valtio ei vapauttanut eikä suojellut kansalaisiaan, riippumatta siitä, mitä sen propaganda väitti; päinvastoin, sen kokonaisvaikutus oli rajoittava ja hyväksikäyttävä, tai yksinkertaisesti se ei toiminut missään sosiaalisessa merkityksessä."[^281] - BASIL DAVIDSON
+
+Ne alkuperäiset kansallishallitukset, jotka korvasivat eurooppalaisten valta-alueiden kolonialistisen hallinnon, rekrytoivat johtajansa ja hallintovirkansa sellaisista ryhmistä, joilla oli vain vähän kokemusta tai taitoa pyörittää minkä tahansa tyyppistä laajamittaista organisaatiota. Monissa tapauksissa, erityisesti Afrikassa, lähtöisin olevien siirtomaavaltioiden perintäinfrastruktuuri ryöstiin, tuhoutui tai päästiin rappeutumaan nopeasti. Puhelinlinjoja revittiin purkureiden toimesta ja ne lyötiin rannekoruiksi. Teitä ei enää kunnossapidetty, ja rautatiekiskot muuttuivat käyttökelvottomiksi tiepohjien romahtaessa ja veturien hajoessa. Zairemissa belgialaisten asentamaa laajaa liikenneinfrastruktuuria oli melkein kokonaan kadonnut vuoteen 1990 mennessä. Ainoastaan muutama nariseva joiristeko jatkoi toimintaansa, ja yksi niistä otettiin diktatuurin toimesta eräänlaiseksi kelluvaksi palatsiksi.
+
+Epäluotettava viestintä ja kuljetus heijastavat taaksejääneiden kansallisvaltioiden kyvyttömyyttä ylläpitää järjestystä. Ne ovat pitäneet hinnat korkeina ja rajoittaneet suurimmalle osalle maailman väestöä tarjolla olevia mahdollisuuksia. Kuten Olson painottaa:
+
+*Kuten Olson painottaa:*
+
+---
+
+The indigenous governments that replaced colonial rule in the countries that were not settled by Europeans drew their leaders and administrators from populations who had little experience or skill at running any type of large-scale enterprise. In many cases, especially in Africa, infrastructure inherited from the departing colonial powers was rapidly looted, destroyed, or allowed to fall into disrepair. Telephone lines were torn down by scavengers and hammered into bracelets. Roads were no longer maintained. Rail lines became useless as roadbeds fell apart and locomotives broke down. In Zaire, the elaborate transportation infrastructure installed by the Belgians had almost totally disappeared by 1990. Only a few creaky riverboats continued to function, one of which was taken over as a kind of floating palace by the dictator.
+
+Alkuperäishallitukset, jotka korvasivat eurooppalaisten vallan kolonialismin aikana hallitsemat alueet, rekrytoivat johtajansa ja hallintohenkilöstönsä väestöryhmistä, joilla oli vain vähän kokemusta tai taitoa pyörittää minkä tahansa tyyppistä laajamittaista yritystoimintaa. Monissa tapauksissa, erityisesti Afrikassa, siirtomaavallalta peritty infrastruktuuri ryöstiin, tuhoutui tai annettiin rappeutua nopeasti. Puhelinlinjat repivät purkajat ja lyötiin rannekoruiksi, teitä ei enää kunnossapidetty, ja rautatiekiskot muuttuivat käyttökelvottomiksi tiepohjien romahtaessa ja veturien hajoessa. Zairemissa belgialaisten asentama monimutkainen liikenneinfrastruktuuri oli melkein kokonaan kadonnut vuoteen 1990 mennessä. Vain muutama nariseva joiristeko jatkoi toimintaansa, ja yksi niistä otettiin diktatuurin toimesta eräänlaiseksi kelluvaksi palatsiksi.
+
+Undependable communication and transport reflect the incompetence of backward nationstates at maintaining order. They have kept prices high and minimized opportunities for most of the world's population. As Olson emphasizes:
+
+Epäluotettava viestintä ja kuljetus heijastavat taaksejääneiden kansallisvaltioiden kyvyttömyyttä ylläpitää järjestystä. Ne ovat pitäneet hinnat korkeina ja rajoittaneet suurimman osan maailman väestöstä tarjolla olevia mahdollisuuksia. Kuten Olson painottaa:
+
+###
+
+Undependable communication and transport reflect the incompetence of backward nationstates at maintaining order. They have kept prices high and minimized opportunities for most of the world's population. As Olson emphasizes:
+
+Epäluotettava viestintä ja kuljetus ovat osoitus taaksejääneiden kansallisvaltioiden kyvyttömyydestä ylläpitää järjestystä. Ne ovat pitäneet hinnat korkeina ja rajoittaneet suurimmalle osalle maailman väestöä tarjolla olevia mahdollisuuksia. Kuten Olson painottaa:
+
+### Rahan yhtenäisteoria
+
+Hyödykeraha- ja luottorahateoriat näyttävät pääosin olevan ristiriidassa keskenään, minkä vuoksi täyden teorian muotoilemiseksi on tarpeen hakea molempien teorioiden yhteinen logiikka tai perusta. Molemmat teoriat pyrkivät selittämään tapoja, joilla tilikirjaa ylläpidetään ja "oikeanlaisia" kirjanpitomerkintöjä tehdään, mutta niiden näkemykset siitä, kuka pitää tilikirjaa yllä ja päivittää sitä, eroavat toisistaan.
+
+Luottorahateoriassa ihmiset ylläpitävät tilikirjoja turvautumalla luottamukseen perustuvilla menetelmillä. Pienissä yhteisöissä tämä voidaan tehdä melko epävirallisesti, ja tilikirjat voivat perustua sukulaisuuteen, ystävyyteen tai kunniaan. Suuremmissa yhteiskunnissa, joissa ihmiset ovat toistensa vieraita, luottopohjaisten tilikirjojen ylläpito on keskitetty jonkin keskusvallan alaisuuteen ja sen asettamiin sääntöihin. Historiallisesti luottamuspohjaiset järjestelmät ovat kokeneet eräänlaisia "nollauksia" ja arvonalentumisia ajan myötä, mikä johtuu erilaisten epätasapainojen seurauksista.
+
+Hyödykerahateoriassa taas ajatellaan, että ihmiset pyrkivät mahdollisimman vähäiseen luottamukseen perustuvien menettelytapojen sijaan turvautumaan sellaisiin keinoihin, joissa tilikirjan fyysinen hallinta ja siihen sisältyvät luonnolliset lait ovat keskeisiä. Tällöin hyvin myyntikelpoiset hyödykkeet vaihtavat omistajaa suoraan vaihdon yhteydessä, jolloin tilikirjan kokonaistila muodostuu automaattisesti hyödykkeiden fyysisestä hallinnasta. Kukaan ei voi mielivaltaisesti heikentää rahan arvoa kirjoittamalla epärealistisia merkintöjä tilikirjaan, vaan sen arvo perustuu materiaaliinsa, joka määräytyy luonnollisesti.
+
+Näiden kahden lähestymistavan yhdistäminen johtaa niin sanottuun "tilikirjarahateoriaan", joka kuvaa molempien edellä mainittujen teorioiden syvempää logiikkaa. Joustavan sosiaalisen luoton ja hallitsemattomien esirahojen taustalla on inhimillinen vuorovaikutus, joka ulottuu ihmiskunnan alkuhetkiin. Molemmissa tapauksissa ihmiset pitävät yllä tilikirjoja joko inhimillisesti tai luonnonlakien turvin, pyrkien ratkaisemaan vaihtokaupan synnyttämät kitkatekijät ja varmistamaan jonkinlaisen likvidin säästämisen keinon olemassaolon. Lopulta käytössä oleva rahayksikkö, jonka avulla tilikirjaa määritellään, perustuu joko ihmisten hallintaan tai luonnollisiin lakeihin, jotka takaavat sen vakauden ajan ja fyysisen tilan suhteen.
+
+### Aikajanat kohdilleen
+
+Näiden kahden vastakkaisen rahateorian yhdistämiseksi ja niiden peruslähtökohtien ymmärtämiseksi on tärkeää tutustua niiden eroihin sekä siihen, missä määrin ne pitävät paikkansa ja milloin ovat virheellisiä.
+
+Tätä varten palatkaamme *Kansojen varallisuuteen*, jossa Adam Smith kuvailee teoksessaan vaihtokaupan ongelmaa ja sitä, miksi yhteiskunnassa synnyy luonnostaan myyntikelpoinen hyödykeraha ratkaisemaan tätä ongelmaa:
+
+> "Mutta kun yhdellä ihmisellä on tiettyä hyödykettä enemmän kuin toisella, ensimmäinen olisi valmis luopumaan osasta ylijäämistään, ja toinen ostaisi sen. Mutta jos toisella ei ole tarjolla sitä, mitä ensimmäinen tarvitsee, vaihdantaa ei voi tapahtua heidän keskenään. Esimerkiksi lihakauppiaalla on enemmän lihaa kuin hän itse pystyy kuluttamaan, ja oluenpanija sekä leipuri olisivat varmasti kiinnostuneita ostamaan osan siitä, mutta heillä ei ole tarjota vaihtoa omien tuotteidensa muodossa. Tällaisessa tilanteessa vaihdanta ei ole mahdollinen. Lihakauppias ei voi myydä, eikä hän voi olla ostajana, jolloin vaihtokaupan hyötyjä ei synny. Näissä tilanteissa jokainen järkevä ihminen on pyrkinyt järjestämään asiansa siten, että hänellä olisi aina jonkinlaista lisäarvoa tuottavaa hyödykettä, jonka vastaan voi antaa vastapalveluksen. On ilmeistä, että monia hyödykkeitä on ajateltu ja käytetty tähän tarkoitukseen. Alkuvaiheessa yhteisöissä karjaa pidettiin yleisenä vaihtovälineenä, ja vaikka sen käyttö oli hyvin epäkäytännöllistä, sen arvo määriteltiin sen perusteella, kuinka monta nautaa sen vaihtamiseen oli käytetty. Homeros kertoo, että Diomedeen haarniska maksoi vain yhdeksän härkää, mutta Glaucusuksen haarniska sata härkää. Samoin suolaa käytettiin usein Abyssiniassa vaihdon välineenä, joillakin Intian rannikkoalueilla simpukoita, Newfoundlandissa kuivattua Turskaa ja Skotlannissa nauloja."
+
+Kuitenkin lähes kaikissa maissa ihmiset ovat lopulta päättäneet suosia metallien käyttöä rahan muodossa muiden hyödykkeiden sijaan. Metallit eivät paitsi säily hyvin, niiden lisäksi niitä voidaan jakaa loputtomiin pieniksi osiksi ja yhdistää uudelleen kokonaisiksi yhdisteiksi. Mikä hyödyke muu kuin kulta tai hopea omaaisi vastaavan ominaisuuden, joka on ratkaiseva kaupankäynnin ja vaihdon kannalta?
+
+Smithin lähes 250 vuotta sitten esittämä kokonaiskuva vaikuttaa kestävän ajan hammasta, ja hän oli pääosin oikeassa. Ensinnäkin hän esitti, että hyödykeraha syntyy luonnostaan, koska se ratkoo vaihtokaupan ongelman, joka johtuu työjaon ja erikoistumisen kehittymisestä. Toiseksi hän perusteli, miksi juuri jalometallit ovat osoittautuneet historiassa toimivimmiksi rahan välineiksi muiden hyödykkeiden sijaan – niiden ainutlaatuisten ominaisuuksien vuoksi. Kyse ei siis ollut sattumasta, vaan ihmiset eri puolilla maailmaa ovat usein päättäneet omaksua hopean ja kullan parhaimpina hyödykerahoina.
+
+Diablo II -tietokonepelin Stone of Jordan -sormusten luonnollinen muuntuminen rahaksi tarjoaa havainnollisen koeasetelman Smithin rahan synnystä koskevien teorioiden testaamiseksi. Tämä ja muut vastaavat asetelmat osoittavat, että rahallistumisprosessi voidaan käytännössä havaita sen sijaan, että se jäisi vain teorian tasolle. Diablo II:n kehittäjät loivat pelimaailman, joka miljoonien pelaajien toimesta testattiin omakohtaisesti. Lukuisten käyttäjien toistuvat kokemukset osoittivat, että pelimaailman ratkaisevana rahayksikkönä nousivat SoJ-sormukset, sillä ne täyttivät parhaiten rahan ominaisuuksiin liittyvät vaatimukset – erityisesti vaihdannan kitkatekijän ratkaisemiseksi ihmisiltä, jotka eivät tunteneet toisiaan hyvin.
+
+Smithin kirjoitusten jälkeiset antropologiset havainnot ovat osoittaneet, että hän todennäköisesti ymmärsi yhden keskeisen seikan väärin: erikoistuneissa yhteisöissä vaihtokauppa ei edellyttänyt rahan syntyä juuri sillä tavalla kuin hän kuvaili. Ei siis ole olemassa tilanteita, joissa esimerkiksi lihakauppiaiden, oluenpanijoiden ja leipureiden kesken olisi ollut kriittinen tilanne, jota ei olisi voitu ratkaista vaan vain vaihtokaupalla. Rahan käsite oli jo olemassa jossain muodossa, kun työjako ja erikoistuminen alkoivat kehittyä. Erityisesti joustava sosiaalinen luotto oli jo osittain ratkaissut vaihtokaupan ongelman tuntevien ihmisten välillä. Luoton käsite on jopa vanhempi kuin varsinainen rahan käsite, ja sitä todennäköisesti käytettiin samanaikaisesti hyödykkeenä, kuten simpukankuoria, joita käytettiin esirahana – näin ollen luotosta on apua jo ihmisyyden varhaisista ajoista.
+
+#### Luottorahateorian puutteet
+
+Luottorahateorian kannattajat ovat oikeassa esittäessään antropologisia todisteita luoton käsiteen varhaisimmista ilmentymistä ja arvosta verrattuna hyödykerahateoriaan. Luotto ei ole keksitty vasta myöhemmin. Kuitenkin luottorahateorian kannattajilla on taipumus levittää teoriaansa liian pitkälle, jättäen usein huomiotta hyödykerahateorian merkityksen ja karkauttaen näin liikaa kokonaiskuvaa siitä, miten yhteiskunnat hallitsevat tilikirjojaan ja vaihtavat omistuksiaan. Heidän mukaansa valtion rooli rahan luomisessa ei olisi kovin merkittävä, vaikka valtioiden rooli onkin usein keskeinen yhteiskuntakauden järjestyksen kannalta. Useiden vuosikymmenten aikana, kun luottaa ja sen perusta ovat olleet vakaampia pienissä yhteisöissä, se ei ole toiminut samalla tavalla kansallisvaltojen, joissa hallitaan miljoonia enimmäkseen toisilleen vieraita ihmisiä.
+
+Ensimmäinen ongelma luottorahateorian näkökulmasta liittyy tilanteisiin, joissa osa tuottajista tai kauppiaista on erittäin erikoistunut. Esimerkiksi lihakauppiaat, oluenpanijat ja leipurit pystyvät vaihtamaan tuotteitaan suhteellisen kätevästi – esimerkiksi yksi kilo naudanlihaa vastaa kolmea tuoppia olutta, joka puolestaan vastaa viittä leipää – mutta mitä kirurgit voivat vaihtaa? Jos kirurgi tarvitsee leipää, voiko hän tarjota leipuriolle muita tuotteita? Kuinka monen leivän arvoinen kirurginen toimenpide on, ja mitä sitä oikeastaan tarkoitetaan? Leikkaus ja muut erikoislääketieteelliset palvelut ovat kapean markkinaraon hyödykkeitä, joita ei ole niin helposti vaihdettavissa tai yleisesti tarvittavia. Näin ollen kaupankäynnin sujuvuuden edistämiseksi on tarpeen käyttää hyvin määriteltyä laskentayksikköä, joka historiallisesti on usein ollut sidottu tiettyyn luonnon antimesta saatavaan hyödykkeeseen, kuten muutamaan grammaan hopeaa tai tiettyyn määrään viljaa. Muussa tapauksessa ihmiset joutuisivat turvautumaan abstrakteihin vaihtokauppoihin ja yrittäisivät käydä kauppaa erilaisilla luottovaateilla ilman vakioitua mittayksikköä.
+
+Toiseksi voidaan esittää vastaväitteitä peliteorian näkökulmasta. Mitä tapahtuu esimerkiksi tilanteessa, jossa joku lähtee yhdestä yhteisöstä ja liittyy toiseen? Historiallisesti ei ole ollut täysin suljettuja yhteisöjä, vaan maantieteellisesti lähellä olevat ihmisryhmät ovat olleet usein vuorovaikutuksessa toistensa kanssa. Tämä tarkoittaa, että varallisuuden siirtämiseksi yhteisöstä toiseen täytyy olla olemassa jotain fyysisempää tai yleismaailmallisempaa, mikä täyttää rahan roolin – hyvin luonnolliset rahat, kuten simpukankuoret, vilja ja hopea, ovat toimineet juuri tällaisina välineinä.
+
+Kolmas luottorahateorian ongelma on havainto siitä, että se, mikä toimii pienessä mittakaavassa, ei välttämättä sovi suurempaan mittakaavaan. Pienet, luottamukseen perustuvat sosiaaliset luottorajärjestelmät, jotka toimivat tiettyjen henkilöiden kesken, eivät jaudu samalla tavalla kansallisvaltojen tasolla, joissa mukana on miljoonia enimmäkseen toisilleen vieraita ihmisiä. Luottamukseen voi nojata vain, jos tiedät toisen ihmisen ja luotat hänen sanaansa ja tekoihinsa. Kunnia on olennainen käsite inhimillisessä kanssakäymisessä, mutta sitä ei voi yhtä hyvin soveltaa persoonattomaan byrokratiaan.
+
+Alfred Mitchell-Innes tiivisti luottorahateorian perusteet *Banking Law Journal* -aikakauskirjassa vuonna 1914 esseessään "The Credit Theory of Money": 
+
+> "Lyhyesti sanottuna luottorahateoria on seuraava: myyminen ja ostaminen on hyödykkeen vaihtamista luottoon. Tästä perusperiaatteesta kumpuaa alateoria, jonka mukaan luoton tai rahan arvo ei perustu minkään metallin tai metallien arvoon, vaan siihen lupaukseen, jonka velkoja saa 'maksuun' eli siihen, että velka täytetään, ja siihen velallisen velvollisuuteen 'maksaa' velkansa – vastaavasti velallisen oikeuteen vapautua velastaan tarjoamalla velkojalle velkaa vastaava summa."
+
+Tämä on teorian peruslähtökohta, mutta käytännössä velallisen ei pitäisi hankkia luottoja samoilta henkilöiltä, joilta hän itse on velkaa. Me olemme kaikki sekä ostajia että myyjiä, joten olemme samalla hetkellä sekä velallisia että velkojia toisillemme. Pankkien, joille annamme luottomme ja joista tulee näin kaupankäynnin laskentavälineitä, ansiosta kaikki osapuolet keskittävät velkansa ja luottonsa yhteen ja tasapainottavat ne. Käytännössä mikä tahansa kelvollinen luotto voi kattaa minkä tahansa velan.
+
+Näitä kahta koulukuntaa vertailemalla molemmat teoriat olettavat, että kyseessä on keino ylläpitää tilikirjaa – olipa se sitten virallinen tai epävirallinen – mutta ne eroavat siinä, kuka tai mikä sitä ylläpitää. Luottorahateoriassa tilikirjoja ylläpidetään luottamukseen perustuvilla menetelmillä, kun taas hyödykerahateoriassa ihmiset pyrkivät minimoimaan luottamustarpeen turvautumalla luonnollisiin, abstrakteihin ja usein fyysisiin rahayksiköihin, jotka ilmaistaan usein tietyn metallin (esimerkiksi kullan tai hopean) muodossa.
+
+#### Aikajanat kohdilleen
+
+Näiden kahden vastakkaisen rahateorian yhdistäminen ja niiden peruslähtökohtien ymmärtäminen edellyttää niiden erojen sekä sen selvittämistä, missä määrin ne pitävät paikkansa tai ovat virheellisiä.
+
+Tätä varten palatkaamme *Kansojen varallisuuteen*, jossa Adam Smith kuvailee teoksessaan vaihtokaupan ongelmaa ja sitä, miksi yhteiskunnassa syntyy luonnostaan myyntikelpoinen hyödykeraha ratkomaan tätä ongelmaa:
+
+> "Jos yhdellä ihmisellä on jotakin hyödykettä enemmän kuin toisella, ensimmäinen olisi valmis antamaan osan ylijäämästään, ja toinen ottaisi sen vastaan. Mutta jos toisella ei ole tarjolla sitä, mitä ensimmäinen tarvitsee, vaihdantaa ei voi tapahtua heidän keskenään. Leipuri ja oluenpanija saattavat esimerkiksi saada lihaa lihakauppiaalta, mutta liikaa lihaa ei voi vaihtaa sellaisenaan, ellei molemmilla osapuolilla ole tarjota jotakin, mitä toinen kaipaa. Näin ollen on ratkaisevaa, että ihmisillä olisi aina jonkinlainen yleisesti hyväksytty vaihdon väline, jonka puitteissa heidän olisi helppo hoitaa maksut sujuvasti ja kuluva korvaavat velvoitteet täysimääräisesti." 
+
+Smithin lähes 250 vuotta sitten esittämä kokonaiskuva vaikuttaa kestävyydeltään ajan hammasta, ja hän oli pääosin oikeassa. Ensinnäkin hän esitti, että hyödykeraha syntyy luonnostaan, koska se tarjoaa ratkaisun vaihtokaupan ongelmaan, joka johtuu työjaon ja erikoistumisen kehittymisestä. Toiseksi hän perusteli, miksi juuri jalometallit olisivat osoittautuneet toimivimmiksi rahan välineiksi muiden hyödykkeiden sijaan: niiden ainutlaatuisten ominaisuuksien vuoksi. Kyse ei ollut sattumasta, vaan ihmiset eri puolilla maailmaa päättivät yksinkertaisesti omaksua kullan ja hopean ihanteellisimpina hyödykerahoina.
+
+Diablo II:n Stone of Jordan -sormusten luonnollinen muuntuminen rahaksi antoi havainnoitavan koeasetelman Smithin rahan synnystä koskevien näkemysten testaamiseksi. Tämä ja muut vastaavat asetelmat osoittavat, että valtavien ihmismäärien vuorovaikutuksessa, joissa luottoon perustuva järjestelmä ei ole mahdollista, synnyy luonnollisesti se rahallinen muoto, jolla on parhaat rahan ominaisuudet. Diablo II:n kehittäjät loivat pelimaailman, jota miljoonat pelaajat arvioivat omakohtaisesti, ja kokemusten myötä he ryhtyivät käyttämään Stone of Jordan -sormuksia ensisijaisena säästämisen, maksujen ja arvoyksikkönä, mikä ratkaisi vaihtokaupan ongelman tilanteissa, joissa osapuolet eivät tunteneet toisiaan hyvin.
+
+Vaikka John Maynard Keynesin kaltaiset taloustieteilijät ovat myös ammentaneet vaikutteita luottorahateoriasta omiin oppeihinsa, historialliset antropologiset havainnot osoittavat, että jo varhaisissa yhteisöissä luottoa käytettiin, ja hyödykerahoja hyödynnettiin jo hyvin ennen kuin työjako ja erikoistuminen kehittyivät siihen tapaan, että vaihtokauppa olisi muodostunut kriittiseksi ongelmaksi. Luotto, joka on peräisin jo ihmisyyden varhaisista ajoista, on todennäköisesti syntynyt samanaikaisesti hyödykkeenä toimivien rahajärjestelmien kanssa.
+
+#### Luottorahateorian puutteet
+
+Luottorahateorian kannattajat ovat esittäneet väitteitä, joiden mukaan rahassa on kyse luotosta ja velasta, eivätkä siitä, mitä sitä vaihtokaupassa käytetään. Heidän mukaansa yhteiskunnalliset velat perustuvat lupauksiin, ja luoton arvo määräytyy velkojan saaman maksusuorituksen perusteella. Kuitenkin tutkimukset ovat osoittaneet, että sellaiset luottojärjestelmät toimivat hyvin vain pienissä, henkilökohtaisissa yhteisöissä, joissa ihmiset tuntevat toisensa ja pystyvät luottamaan toisiinsa. Suurissa valtioissa, joissa hallitaan miljoonia enimmäkseen toisilleen vieraita ihmisiä, tällainen henkilökohtainen luottamus ei ole mahdollista, minkä vuoksi tarvitaan standardoitu laskentayksikkö ja väline, kuten hyödykeraha, joka perustuu ennalta määriteltyihin luonnollisiin ominaisuuksiin (esimerkiksi kullan tai hopean puhtauteen, jakelukelpoisuuteen ja niukkuuteen).
+
+Luottorahateorian ongelmana on myös se, että sen peruslupaukset toimivat hyvin pienessä mittakaavassa, mutta vastaavat järjestelmät eivät skaalaudu kansallisvaltioihin. Pienissä yhteisöissä, joissa luottamus perustuukin henkilökohtaiseen tuntemukseen ja kunniaan, asiat sujuvat, mutta kun kyseessä on valtakunnallisesti laajuinen hallinto, jossa monet osapuolet eivät tunne toisiaan, pelkkä luottamus ei yllä toimivalle tilikirjajärjestelmälle.
+
+#### Tilikirjarahateoria
+
+Hyödykeraha- ja luottorahateorioiden yhdistäminen johtaa niin sanottuun tilikirjarahateoriaan, joka heijastaa molempien teorioiden taustalla olevaa syvempää logiikkaa. Joustavan sosiaalisen luoton sekä keräiltävien esirahojen juuret ulottuvat ihmiskunnan alkuhetkiin. Molemmissa tapauksissa yhteisöt ylläpitävät omia tilikirjojaan joko virallisesti tai epävirallisesti varmistaakseen vaihtokaupan sujuvuuden. Se, millä tavalla tilikirjaa pidetään yllä – joko ihmisten henkilökohtaisella luottamuksella tai luonnonlakien määräämällä fyysisellä aineella – määrittää käytössä olevan rahan muodon. Tilikirjarahateorian mukaan hyvin myyntikelpoinen ja likvidi laskentayksikkö, jota on helppo säilyttää ja siirtää ajan ja tilan halki, muodostaa tilikirjan perustan ja toimii rahan toimivana perusmuotona.
+
+### Rahan yhtenäisteorian pohdinta
+
+Kummatkin näkemykset, hyödykerahateoria ja luottorahateoria, pyrkivät kuvaamaan, miten raha syntyy ja miksi juuri tietynlaisilla ominaisuuksilla varustettu rahan muoto valikoituu. Ne perustuvat ajatukseen, että rahassa on kyse tilikirjan ylläpitämisestä – olipa se sitten inhimillinen tai abstrakti, luonnonlakien määräämä. Toisaalta luottorahateoriassa painotetaan sitä, että raha on ensisijaisesti lainaa, jonka arvo perustuu velkojan lupaukseen saada vastikkaansa, kun taas hyödykerahateoria näkee rahan pääpiirteenä sen kyvyn toimia vaihdannan välineenä ja arvon säilyttäjänä ilman tarvetta jatkuvalle luottamukselle. Näiden kahden näkemyksen yhdistäminen antaa syvemmän kokonaiskuvan siitä, kuinka yhteiskunnat ovat ajan myötä kehittäneet järjestelmiä, joilla on sekä inhimilliset että luonnolliset lähtökohdat taloudellisen vaihdannan järjestämiseksi.
+
+#### Aikajanat kohdilleen
+
+Luottorahateorian ja hyödykerahateorian yhdistäminen edellyttää sitä, että tarkastelemme, missä määrin ne ovat oikeita ja milloin niiden oletukset eivät enää täyty. Tämä vaatii siirtymistä pienistä yhteisöistä suurten valtioiden ja kansainvälisten markkinoiden tasolle. Kun yhteisö kasvaa ja siihen osallistuu yhä useampia toisiaan tuntemattomia ihmisiä, pelkkä henkilökohtaiseen luottamukseen perustuva järjestelmä pettää, eikä luottorahateorian perusolettamus enää ota riittävästi huomioon sitä, että tilikirjan eheys ja laskentayksikön standardointi ovat välttämättömiä laajassa mittakaavassa.
+
+Näin ollen rahan yhtenäisteoria pyrkii selittämään, miten sekä sosiaalinen luotto että luonnollisiin raaka-aineisiin perustuvat rahayksiköt ovat yhdessä muodostaneet järjestelmän, jossa on mahdollista ylläpitää vakaata tilikirjaa ja ilmestyä keskitettyjä rahajärjestelmiä. Tämä kirjallisessa käsityksessä rahasta on kyse jokseenkin sellaisena yhteisön perusvälineenä, jonka arvoa turvaavat sekä inhimilliset että luonnolliset tekijät, kuten yhteiskunnan kyky luottaa sen omiin tilikirjoihinsa ja luonnon niukkuus, joka rajoittaa tiettyjen hyödykkeiden määrää.
+
+---
+
+#### Lähdeviitteet
+
+[^279]: C.R. Fay, "Newton and the Gold Standard", s. 117–18.
+[^280]: Alan Lougheed, "The Discovery, Development, and Diffusion of New Technology."
+[^281]: Basil Davidson
+
+> Ensinnäkin huonot liikenne- ja viestintäjärjestelmät pakottavat yrityksen nojaamaan pääasiassa paikallisiin tuotantotekijöihin. Kun yrityksen mittakaava kasvaa, sen on etsittävä tuotantotekijöitä kauempaa, ja mitä heikommat liikenne- ja viestintäjärjestelmät ovat, sitä nopeammin näiden tekijöiden kustannukset nousevat tuotannon laajentuessa. Toinen – ja vielä tärkeämpi – syy siihen, miksi huonot liikenne- ja viestintäjärjestelmät haittaavat tehokkaita suuryrityksiä, on se, että ne tekevät tällaisiin yrityksiin kohdistuvasta koordinoinnista huomattavasti vaikeampaa.[^282]
+
+### Lightening the Burden of Bad Government
+
+Maailman kunnianhimoiset köyhät hyötyvät eniten, kun tieto- ja viestintätekniikka irrottaa tulonhankintakyvyn siitä paikasta, missä he asuvat. Uudet teknologiat, kuten digitaalinen matkapuhelin, mahdollistavat viestinnän itsenäisesti siitä, kuinka hyvin paikallispoliisi pystyy suojelemaan jokaisen alueensa puhelintolpan kuparivarkauksilta. Kun langattomat faksi- ja Internet-yhteydet tulevat käyttöön, ei enää ole niin olennaista, että epätoivoisesti köyhät postityöntekijät varastavat postia pelkästään postimerkin saamiseksi.
+
+Monissa tapauksissa tehokas viestintä korvaa jopa tarvetta fyysiselle tavaroiden ja palveluiden kuljetukselle. Parempi viestintä ja huomattavasti kasvaneet laskentatehot eivät ainoastaan tee monimutkaisten toimintojen koordinoinnista halvempaa ja tehokkaampaa, vaan myös pienentävät mittakaavaetuja ja hajottavat suuria organisaatioita. Nämä muutokset vähentävät sitä rangaistusta, jota kehittymättömillä mailla on joutunut kokemaan elääkseen epäpätevien hallitusten alla. Tietovallankumous tekee entistä vähemmän merkitykselliseksi sen, pystyvätkö hallitukset toimimaan tehokkaasti, ja siksi perinteisesti köyhissä maissa asuvien on helpompi murtautua niiden hallitusten asettamien talouskasvun esteiden yli.
+
+### Equal Opportunity in the Information Age
+
+Informaatiokaudella tutut sijaintiedut muuttuvat nopeasti teknologian vaikutuksesta. Samankaltaisia taitoja omaavien henkilöiden tulonhankintakyky tasaantuu huomattavasti riippumatta siitä, missä he asuvat. Tapahtumat ovat jo alkaneet. Koska instituutiot, jotka ovat aiemmin hyödyntäneet pakkoa ja paikallisia etuja tulojen uudelleenjakoon, menettävät valtaansa, alueelliset tuloerot kasvavat. Myös globaali kilpailu pyrkii nostamaan alan lahjakkaimpien henkilöiden tuloja, missä tahansa he asuvat – aivan kuten se jo nyt tapahtuu ammattiurheilussa. Globaalilla markkinalla ylivoimaisella suorituksella tuotettu marginaalisarvo on valtava.
+
+### Higher Returns in Poor Areas
+
+Köyhillä alueilla hallitusten asettamat esteet toimiville vapaakauppamarkkinoille vähenevät huomattavasti, kun kybertalous käynnistyy. Tämän seurauksena niukasti saatavilla oleva pääoma ja osaaminen tuottavat todellisuudessa korkeampia tuottoja monilla nykyisin köyhillä alueilla, aivan kuten 1950-luvun kehitysteoreetikot ennustivat. Pääomaa ja osaamista on myös helpompi tuoda ulkomailta. Nousevat taloudet eivät enää tarvitse yhtä paljon turvautua paikallisiin tuotantotekijöihin kuin teollisuusaikana. Parantunut kyky hyödyntää etänä pääomaa ja osaamista johtaa korkeampiin kasvuvauhtiin – tapahtuminen, joka on ratkaisevaa riippumatta siitä, tulevatko epäpätevä hallitukset rehellisemmiksi tai kykenevätkö ne parantamaan omaisuusoikeuksien suojaa. Kyberavaruuden hallinnan puuttuessa huonot hallitukset eivät yksinkertaisesti pysty estämään niiden alueilla asuvia ihmisiä hyötymään taloudellisesta vapaudesta.
+
+### Positive Reinforcement
+
+Uudessa kybertaloudessa tietotekniikan lähes täydellinen siirrettävyys estää monien teollisen ajan synnyttämien alueellisten etujen kasaantumisen. Kilpailevien oikeusalueiden määrän kasvaessa paikallisten etujen uudet muodot ratkaisevat, minkä alueen eduksi asiat kääntyvät. Itsemääräämisoikeutta kaupallistetaan sen sijaan, että se olisi saalistavaa. Kilpailun voimakkuus pakottaa hallitukset asettamaan politiikkaa, joka vetoaa niiden asiakkaiden keskuuteen, jotka tuottavat eniten taloudellista hyvinvointia – ja ei niihin, jotka tuottavat vähän tai joiden taloudelliset vaikutukset ovat negatiivisia.
+
+Tämä merkitsee valtavaa muutosta verrattuna 1900‑luvun yleiseen käytäntöön. Kansallisvaltion ideologia perustui siihen ajatukseen, että elämää voidaan ja tulisi säädellä positiivisesti tukemalla ei-toivottuja lopputuloksia ja rankaisemalla toivottavia. Köyhyyttä pidettiin ei-toivottavana; siksi köyhiä tuettiin. Rikkaaksi pääseminen oli toivottavaa; siksi rikkaiden kohdalla perittiin rangaistuksia, jotta elämä olisi “oikeudenmukaisempaa.”
+
+Koska tämä koko politiikkalähestymistapa perustui megapoliittiseen perustaan, joka kestäisi kaikkia vastalauseita, oli vähäistä väliä siitä, millaisia perverssejä seurauksia toimimattomuuden tukemisella syntyi. Myös taitoa, kovaa työtä tai kekseliäisyyttä, jolla varallisuus ansaittiin ja sitten uudelleenjaettiin, ei juurikaan huomioitu. Lopputuloksia mitattiin oikeuksien perusteella. 1900‑luvun poliittinen näkemys oletti, että jotta lopputulokset olisivat “oikeudenmukaisia”, niiden tuli olla tasainen.
+
+### Uusi paradigma
+
+Ensimmäisen vuosisadan uusien megapoliittisten olosuhteiden myötä 2000‑luvun aikana markkinakokeet pääsevät säätelemään lopputuloksia alueilla, joilla politiikka aikaisemmin dominoi. Markkinaparadigma olettaa, että tuloksia voidaan paremmalla tavalla ohjata palkitsemalla haluttuja lopputuloksia ja rankaisemalla ei‑toivottuja. Köyhyyttä pidetään ei‑toivottavana ja rikkaaksi pääseminen toivottavana. Siksi kannustimien tulisi palkita varallisuuden luominen ja kannustaa ihmisiä maksamaan kuluttamistaan resursseista. Elämä on “oikeudenmukaisempaa”, kun ihmiset saavat pitää enemmän siitä, mitä he ansaitsevat.
+
+Tämä näkökulma tulee kuulutuksiin tulevana vuosituhantana paljon useammin kuin se oli juuri päättymässään olevaan vuosisataan. Lisäksi se tulee olemaan uskomattoman vakuuttava, koska se perustuu megapoliittisiin perusteisiin. Tietoteknologia-alan pääoman liikkuvuus kasvaa hetkittäin. Korkean tulon ansaitsemiskyky ei enää ole sidoksissa tiettyyn asuinpaikkaan, kuten se oli aikana, jolloin suurin osa rikkaudesta luotiin luonnonvaroja manipuloimalla. Jokainen kulunut päivä helpottaa entisestään niiden ihmisten mahdollisuuksia, jotka käyttävät erittäin siirrettävää tietotekniikkaa, luoda omaisuuseriä, jotka ovat paljon vähemmän alttiita väkivallan vaikutusvallalle kuin mikään aiemmin ollutkaan.
+
+Mielivaltaiset poliittiset sääntelyt, jotka asettavat kustannuksia ilman, että ne tuottavat vastaavia markkinahyötyjä, joutuvat pian epäkelpoisiksi. Voimakkaat kilpailuvoimat pyrkivät tasoittamaan hyödykkeiden, palveluiden, työvoiman ja pääoman hinnat kaikkialla maailmassa. Hallituksilla on vähemmän liikkumatilaa asettaa mielivaltaisia politiikkoja kuin mihin ne ovat tottuneet. Jokainen hallitus, joka yrittää asettaa toimintaan enemmän rasittavia sääntöjä kuin muut itsemääräämisalueet, ajaa kyseisen toiminnan yksinkertaisesti pois. Joissakin tapauksissa halvempien, ei‑toivottujen toimintojen karkoittaminen ilahduttaa markkinoita ja tekee kyseisistä oikeusalueista entistä suositumpia ja vauraampia. Tässä mielessä tiettyjä sääntöjä voi verrata hotelliketjun omistajien asettamiin talon sääntöihin. Jos ne kieltävät esimerkiksi paljain jaloin liikkumisen tai tupakoinnin aulassa, ne epäilemättä menettävät tiettyjä asiakkaita. Mutta näiden asiakkaiden karkoittaminen ei välttämättä heikennä oikeusalueen asiakaskuntaa kokonaisuudessaan tai laske sen kokonaiskustannuksia. Hyvin kenkäiset tupakoimattomat saattavat maksaa enemmän, juuri siksi, että paljain jaloin kulkevia tupakoijia ei huomioida. Samoin sääntely, joka tekee tietyn jalostuslaitoksen pyörittämisestä kallista tai mahdotonta tietyllä oikeusalueella, voi ajaa laitoksen muualle ilman, että koko oikeusalue jää tulojen ulkopuolelle.
+
+Nämä esimerkit osoittavat, kuinka sääntely voi joissakin harvinaisissa tapauksissa antaa positiivisen, ei negatiivisen markkina-arvon – erityisesti maailmassa, jossa oikeusalueiden lukumäärä moninkertaistuu nopeasti. Säännöt, jotka säilyttävät korkeat julkisen terveyden, puhtaan ilman ja puhtaan veden standardit, arvostetaan erittäin paljon monilla alueilla. Myös muut, toisinaan eksoottisemmat sääntelyt ja sopimukset, joita esimerkiksi kiinteistösijoittajat tai tiettyihin markkinasegmentteihin suunnatut hotellit voivat asettaa, ovat korkeassa arvossa.
+
+### Ei tullitaloa kyberavaruudessa
+
+Olemme sitä mieltä, että itsemääräämisoikeuden kaupallistuminen johtaa nopeasti monien suurten alueellisten itsemääräämisoikeuksien siirtymiseen. Se, että tietotekniikkaa ei voida alistaa sellaisille rajavalvonnan muodoille, jotka edelleen estävät valmistettujen hyödykkeiden ja maataloustuotteiden kauppaa, on tärkeä seikka. Tämä tarkoittaa, että protektionismi tehostuu ajan myötä vähemmän, kun informaatiokauppa syrjäyttää fyysiset tuotteet varallisuuden tuottamisessa. Se tarkoittaa myös sitä, että pienemmät alueet tulevat yhä vähemmän riippuvaisiksi laajojen poliittisten oikeusalueiden ylläpidosta varmistaakseen pääsyn markkinoille, joilla ne voivat ansaita tuloja.
+
+Information technology altistaa entuudestaan suojattujen palvelualojen työntekijät ulkomaiselle kilpailulle. Jos yritys Torontossa olisi halunnut palkata kirjanpitäjän kaksikymmentä vuotta sitten, henkilön olisi pitänyt sijaita fyysisesti Torontossa tai lähialueella, jolta oli mahdollista pendeloida.
+
+Information Age -aikana kirjanpitäjä Budapestista tai Bangaloresta, Intiasta, voi hoitaa tehtävän ja ladata kaikki tarvittavat materiaalit salattuna internetin välityksellä. Satelliittiyhteyksien välittämä välitön viestintä tekee mistä tahansa maailman kolkasta vain hetken päässä modeemin ja faksin avulla.
+
+Joku, joka tarvitsee osakeanalyytikkoja, voisi palkata Intiasta kaksikymmentäseitsemän hintaan yhtä Wall Streetillä. Kun information technology kehittyy kerrallaan yhden suuruusluokan tai enemmän joka kahdeksantoista kuukauden välein (Moore's Law), yhä suurempi määrä palvelualojen työntekijöitä altistuu hintakilpailulle, jonka estäminen on pohjimmiltaan poliitikkojen kykyjen ulottumattomissa. Tämä kilpailu koskee lopulta yhtä laajasti akateemisia ammatteja kuin kirjanpitäjiäkin. Digitaaliset lakimiehet ja kyberlääkärit lisääntyvät Information Economysta.
+
+### Death Watch for Nation-States
+
+Siitä huolimatta, kun aiemmin kansallisvaltioiden sisälle kerätyt taloudelliset hyödyt häviävät, kansallisvaltiot itse lopulta romahtavat raskaiden velvoitteidensa alle. Mutta se, että kaikilla kansallisvaltioilla on kuolemanvaroitus, ei tarkoita, että ne kaikki olisi määrä umpeutua samaan hetkeen. Päinvastoin. Devolutionaaliset paineet ovat taipuvaisimmat suurissa poliittisissa kokonaisuuksissa, joissa suurimman osan väestöstä tulot ovat pysähtyneet tai laskevat. Latin-Amerikan ja Aasian alueilla, joissa asukaskohtaista tuloa nostetaan nopeasti, saattaa kestää useita sukupolvia, tai kunnes niiden elinikäiset tulonäkymät vastaavat entisinä rikkauksina pidettyjen teollisuusmaiden tasoja. Siihen mennessä ei enää ole helppoja kustannussäästömuutosvoittoja, ja kasvun politiikasta tulee haastavampaa.
+
+Uskomme myös, että kansallisvaltiot, joissa on yksi merkittävä pääkaupunki, pysyvät yhtenäisempinä pidempään kuin ne, joissa on useita suuria kaupunkeja, mikä viittaa useisiin kiinnostuksen keskuksiin eri ympäröivillä alueilla.
+
+Toinen devolution kannustin on keskushallinnon korkea velkaantuneisuus. Ne kolme vaurasta teollisuusmaata, joilla on suhteellisesti korkein velkaantuneisuus – Canada, Belgium ja Italy – eivät sattumalta ole maita, joissa on edistyneitä separatistisia liikkeitä. Kaikki kolme maata ovat kärsineet kroonisista budjettialijäämäistä ja niiden kansallinen velka ylittää nyt 100 prosenttia GDI:stä. Kun kansallinen velka on kasvanut kussakin maassa, separatististen liikkeiden vetovoima on kasvanut yhtä paljon. Italiassa Pohjoisliiga on noussut dynaamisena ja suosittuna alueellisena poliittisena liikkeenä. Sen ohjelma perustuu yksinkertaiseen matemaattiseen havaintoon: Pohjois-Italia, eli “Padoni a”, olisi rikkaampi kuin Sveitsi, ellei suuri osa sen tuloista olisi siivottu Romen ja köyhemmän etelän hyväksi. Pohjoisliiga ehdottaa ilmeistä ratkaisua: irtautua Italiasta ja näin välttää osa yhteenlasketun koron ankaraista seurauksista. Samoin Belgiassa, jossa kansallinen velka ylittää 130 prosenttia BKT:stä, flamandit ja vallonit neuvottelevat kuin vihamielinen pari ennen avioeroa. Kasvava vähemmistö flamandeista väittää, että he subsidioivat epäoikeudenmukaisesti vallonilaisia, ja voisivat parantaa taloudellista tilannettaan jakamalla Belgian kahtia.
+
+Canadan tilanne eroaa yksityiskohdassa siinä, että French Canada, pääalue, joka nyt kampanjoi separatismia vastaan, on historiallisesti saanut tukea English Canadasta. Kuitenkin kun liittovaltion velka ja alijäämä kasautuvat, Quebecissa alkaa ymmärtää, että tämä eräänlainen tulonjako vähenee. Bloc Quebecois flirttelee siten vetovoimaisella ehdotuksella, jota se ei tiennyt tarjota vuosikymmenen aikaa sitten – lupauksella nostaa verojen jälkeistä tuloa lopettamalla Canadian federal tax -veron maksamisen. Separatistijohtajat ehdottavat myös, että Quebecin tulisi erota Kanadasta ilman, että se kantaisi suhteellista osaa liittovaltion velasta.
+
+English Canadians vastustavat tätä argumenttia ja ovat yleensä tyytymättömiä sen seurauksiin, koska he ovat tarkkaan tietoisia vuosien aikana tehdystä suurista siirroista Quebeciin. Siitä huolimatta Parti Quebecoosin vetovoima on vahva, ja näyttää vain ajan kysymykseltä, ennen kuin secession referendum ratkaisee Kanadan. Samankaltainen kohtalo kohtaa myös muita kansallisvaltioita, kun niiden taloudelliset olosuhteet heikentyvät.
+
+Toinen tekijä, joka ennustaa huonoa tulevaisuutta Kanadan pitkällä aikavälillä, on se, että se on ohuesti asuttu maa, jolla on laaja teollisuusajan infrastruktuuri ylläpidettäväksi. Siirtyminen Information Ageen johtaa väistämättä fyysisen infrastruktuurin arvon laskuun. Kun etätyöntekijät korvaavat tehtaiden työntekijät ja toimistovirkailijat, muuttuu vähemmän merkitykselliseksi, uudelleenrakennetaanko moottoritiet ja muut liikenneväylät hyvin. Kun talouskriisejä on kaikkialla, yhä useammat ryhmät Kanadan yhteiskunnassa vetäytyvät 1700-luvun poissulkevaan näkemykseen julkisten hyödykkeiden rahoituksesta, jota Adam Smith kannatti. Hän kirjoitti teoksessaan *The Wealth of Nations*:
+
+> Were the streets of London to be lighted and paved at the expense of the [national] treasury, is there any probability that they would be so well lighted and paved as they are at present, or even at so small an expense. The expense, besides, instead of being raised by a local tax upon the inhabitants of each particular street, parish or district in London would, in this case, be defrayed out of the general revenue of the state, and would consequently be raised by a tax upon all the inhabitants of the kingdom, of whom the greater part derived no sort of benefit from the lighting and paving of the streets of London.'[^283]
+
+Jos Lontoon tilalle asetetaan Toronto, olet yhtälössä, joka käy läpi monien Albertan ja British Columbian asukkaiden mielissä. Devolution logiikka osoittautuu tarttuvaksi.
+
+Another factor that bodes ill for Canada's long-term survival is the fact that it is a thinly populated country with a sprawling industrial-era infrastructure to maintain. The transition to the Information Age is inevitably depreciating physical infrastructure. As telecommuters replace factory employees and office workers, it will matter less whether freeways and other transportation thoroughfares are rebuilt and well-maintained. With fiscal crises pinching on all sides, more and more factions in Canadian life will retreat to the eighteenth-century exclusionary view of the financing of public goods advocated by Adam Smith. He wrote in *The Wealth of Nations*:
+
+> Were the streets of London to be lighted and paved at the expense of the [national] treasury, is there any probability that they would be so well lighted and paved as they are at present, or even at so small an expense. The expense, besides, instead of being raised by a local tax upon the inhabitants of each particular street, parish or district in London would, in this case, be defrayed out of the general revenue of the state, and would consequently be raised by a tax upon all the inhabitants of the kingdom, of whom the greater part derived no sort of benefit from the lighting and paving of the streets of London.'[^283]
+
+Jos Lontoon tilalle asetetaan Toronto, olet yhtälössä, joka käy läpi monien Albertan ja British Columbian asukkaiden mielissä. Devolution logiikka osoittautuu tarttuvaksi.
+
+When Canada breaks apart, this will lead to a marked increase in secessionist activity in the Pacific Northwest of the United States. Residents of Alaska, Washington, Oregon, Idaho, and Montana would find themselves at a distinct disadvantage in competition with Alberta and British Columbia as independent sovereignties.
+
+---
+
+## After the nationstate
+
+Kansallisvaltioiden sijaan nähtävissä on aluksi pienempiä maakunnan tasolla toimivia lainkäyttöalueita ja lopulta vielä pienempiä itsenäisyyksiä – erilaisia enklaveja, aivan kuten keskiaikaiset kaupunkivaltioiden kaltaiset alueet, joita ympäröivät niiden taustamaat.  
+Vaikka se saattaakin tuntua oudolta politiikan tärkeydestä opettuneille, näiden uusien minivaltioden politiikkaa ohjaakin usein enemmän yrittäjähenkinen asemoituminen kuin poliittiset riidat.  
+Nämä uudet, hajanaiset suvereniteetit palvelevat erilaisia makuja, aivan kuten hotellit ja ravintolat, asettaen omat erityiset sääntönsä julkisissa tiloissaan, jotka vetoavat niihin markkinasegmentteihin, joista ne saavat asiakkaansa.  
+Tämä ei tietenkään tarkoita, ettei nomadisen suojelun järjestämisestä syntyisi erityisiä ongelmia. Käsittelemme näitä seuraavassa luvussa.
+
+> "Kaupungin ilma tuo vapautta." - MEDIEVAL ADAGE
+
+### Ei Pale-kansalaisia
+
+Näistä haasteista huolimatta inhimillinen kekseliäisyys löytää yleensä keinon luoda instituutioita, joilla hyödynnetään kannattavia mahdollisuuksia – jopa silloin, kun kysyntä tulee henkilöiltä, jotka pystyvät maksamaan vain vähän.  
+Jos potentiaaliset asiakkaat kuuluvat maan rikkaimpien joukkoon, tämä taipumus on vieläkin voimakkaampi.  
+Poistuminen, eli “äänestäminen jaloillasi,” on aina vaihtoehto, kun vanhentuneet tuotteet, organisaatiot tai jopa hallitukset menettävät viehätyksensä ja vaikuttavat tarjoavan vain vähän välitöntä parannusmahdollisuutta.  
+Pohdi vaikka keskiaikaisten kaupunkien kasvua, jotka toimivat turvasatamina maaorjien pakenemista feodaalisen alistuksen kynnykseltä.  
+Näiden kaupunkien rooli saattaa jäädä verrattavaksi uusien lainkäyttöalueiden rooliin, kun kansallisvaltioista poistutaan.  
+Se, että jossakin herrassa pakenemiaan ulkopuolisia käsitellään “Pale-kansalaisina,” haastoi feodaalilain ja Episcopaalisen auktoriteetin vallitsevat normit.  
+Siitä huolimatta se oli yleensä menestyksekäs vaihtoehto niille, jotka siihen turvautuivat, ja se edesauttoi merkittävästi feodalismiotteiden heikkenemistä.  
+Keskiaikaisen historioitsija Fritz Rorigin mukaan maallisen herran orja olisi “vapaa kaupunkilainen vuoden ja päivän kuluttua.”[^284]  
+On kohtuullista odottaa, että uusia institutionaalisia turvapaikkoja syntyy “uusien oikeusperiaatteiden” pohjalta tarjoamaan verotuksellista turvaa valtionsa kansalaisille, aivan kuten keskiaikainen kaupunki tarjosi turvaa feodaalisten alaisia elävien ihmisten osalta, jotka asuivat sen muurien varjossa.
+
+Taloustieteilijä Albert O. Hirschman, joka tutki “äänestämisen jaloillasi” teoreettisia vivahteita *Exit, Voice, and Loyalty* -teoksessaan, joka julkaistiin ensimmäisen kerran vuonna 1969, ennakoi, että teknologiset edistysaskeleet lisäävät poistumisen käyttömahdollisuutta strategiana heikkenevien valtioiden kohtaamisessa.  
+Hän kirjoitti:  
+> "Vain kun maat alkavat muistuttaa toisiaan viestinnän kehittyessä ja kaikkipuolisen modernisaation myötä, alkavat myös ennenaikaisten ja liiallisten poistumisten vaarat …"[^285]  
+Juuri näin on nyt meneillään.  
+Tietotekniikka lyhentää nopeasti monia eroja lainkäyttöalueiden välillä, mikä tekee poistumisesta huomattavasti houkuttelevamman vaihtoehdon.  
+Tietenkin Hirschmanin sanastossa "ennenaikaiset ja liialliset poistumiset" määritellään sen näkökulmasta, mikä on optimaalista hylätälle valtiolle.  
+Ei ole epäilystäkään siitä, että keskiaikaiset eurooppalaiset herrat uskoivat kärsivänsä orjiensa ennenaikaisista ja liiallisista poistumisista kaupunkeihin, joissa nämä saavuttivat vapautensa.
+
+Palaaakseni aiempaan esimerkkiimme, ei ole yhtä kaukaa kuin saattaisi vaikuttaa, että syntyisi useita minivaltiota, jotka tarjoaisivat turvapaikkaa karkureille, jotka pakenevat kuolevia kansallisvaltioita.  
+Nämä suvereniteetit kilpailevat karkureiden tarjoamien ehtojen puitteissa.  
+Jotkut, mahdollisesti Pohjois-Amerikan länsirannikolla, saattavat palvella ihmisiä, jotka eivät tupakoi ja jotka eivät siedä toisten tupakointia.  
+Tietenkin tällaiset järjestelmät eivät olisi suosittuja tupakoitsijoiden keskuudessa, sillä tupakointia kieltävät säännöt näyttäisivät monille tupakoitsijoille mielivaltaisilta rajoituksilta.
+
+Teollisessa aikakaudessa massapolitiikassa tällaiset mielipide-eroavuudet ratkaistiin poliittisissa kampanjoissa, jotka lopulta pakottivat toisen ryhmän noudattamaan vahvemman osapuolen tahtoa.  
+Mutta ei ole missään nimessä välttämätöntä, että keskenään poissulkevista vaihtoehdoista käytävä kiistaa ratkaistaisiin tavalla, joka edellyttää suurten ihmismäärien mieltymysten alistamista.
+
+Jotkut ihmiset haluavat syödä foie graasia, toiset taas hot dogeja, ja toiset vielä soijajugurttia.  
+Heidän ei yleensä tarvitse kiistellä ruokavalintojensa puolesta, sillä heidän kulinaariset valintansa eivät ole sidoksissa toisiinsa.  
+Kukaan ei pakota kaikkia kuluttamaan samaa ateriaa.  
+Massapoliittisessa maailmassa kuitenkaan hallitusten tarjoamien kollektiivisten – jopa yksityisten – hyödykkeiden yhteiskäyttö on usein pakotettu.  
+Miksi?  
+Koska suurimaassa toiminnassa on valtavat taloudelliset edut, mikä tekee käytännössä mahdottomaksi jakaa laajalle levinneitä lainkäyttöalueita sellaisiksi enklaveiksi, joissa jokainen voisi noudattaa omia mieltymyksiään, vaikka kyse olisi tärkeistä asioista.  
+Adam Smithin julkisten hyödykkeiden tarjoamiseen esittämä sulkeutumisperiaate voidaan sovittaa paljon helpommin, kun lainkäyttöalueiden määrä moninkertaistuu – vaikka kymmen- tai sadankertaiseksi.  
+Information Age -aikana yhä useammat suvereniteetit ovat pieniä enklaveja sen sijaan, että ne olisivat mantereen mittaisia imperiumeja.  
+Jotkut saattavat olla Pohjois-Amerikan intiaaniheimoja, jotka vaativat verovallan alueillaan aivan kuten ne nykyään väittävät oikeudestaan pyörittää rahataloja tai kalastaa rajoitusten vastaisesti.
+
+Koska tietotekniikka poistaa monet kauppavyöhykkeiden hajauttamiseen liittyvät haitat, uusien suvereniteettien on käytännöllistä toimia enemmän klubien tai samankaltaisuutta korostavien ryhmien periaatteiden mukaisesti kuin niiden, jotka ohjasivat alueellisia kansallisvaltioita. Niin kuin ei ole välttämätöntä, että jokainen mahdollinen asiakas jakaa saman makumaailman vaatteissa tai katsoo samoja televisio-ohjelmia, ei myöskään ole yhtä tärkeää kuin miltä se saattaakin vaikuttaa, että kaikki olisivat yksimielisiä niistä samankaltaisuuspisteistä, jotka määrittelevät hajautettujen suvereniteettien hallintatavan.
+
+Laajasti vaihtelevat makutottumukset johtavat suuresti erilaistuneisiin hajautettujen suvereniteettien tyyleihin, aivan kuten vaate- tai televisiovaihtoehdoissa on yhä laajempi valikoima. Jotkut mikrovaltiot saattavat jopa olla kytkettyinä toisiinsa kuten hotelliryhmät franchising-järjestelyissä, tai ne voivat toimia yhdessä saavuttaakseen etuja poliisitoiminnoissa ja muissa hallituksen jäännöspalveluissa. Ne, jotka pitävät puhtaista kaduista ja vastustavat purukumin löytymistä pöytälevyjen alta, kokevat Singaporen houkuttelevaksi. Beavis and Butthead -fanit eivät. Ne, jotka arvostavat villejä yöelämyksiä, suosivat ehkä Macaoa, Panamaa tai jotain vastaavaa paikkaa. Yhteiskunnissa, joissa yhden lainkäyttöalueen tavat tuntuvat epämukavilta, toiset puolestaan ottavat ne mielellään vastaan. Vaikka Salt Lake City saattaa olla savuton, Havanan uusi kaupunkivaltio – ehkä nimetty uudelleen Monte Cristoksi – on todennäköisesti peittynyt sikarin savupilveen.
+
+> "It means that all of the monopolies and hierarchies and pyramids and power grids of industrial society are going to dissolve before this constant pressure of distributing intelligence to the fringes of all networks. Above all, Moore's Law will overthrow the key concentration, the key physical conglomeration of power in America today: the big city—that big set of industrial cities that now lives on hie-support systems—some 360 billion of direct subsidies from all the rest of us every year. Big cities are leftover baggage from the industrial era."[^286]  
+> – GEORGE GILDER
+
+Yksi omituinen ironia mikrovaltioiden eli "kaupunkivaltioiden" uudelleen esiintymisessä on se, että se saattaa osua yhteen monien kaupunkien tyhjentymisen kanssa. Suuri kaupunki oli pitkälti länsimaiden teollistumisen artefakti. Se syntyi tehdasjärjestelmien myötä hyödyntämään mittakaavaetuja tuotteiden valmistuksessa, joiden tuotantoon kuului runsaasti luonnonvaroja.
+
+Kun 1800-luku alkoi, yli 100 000 asukkaan kaupungit olivat valtavia, ja Aasian ulkopuolella – missä väestötilastot olivat epävarmoja – ei ollut kaupunkeja, joissa olisi asunut yli miljoona ihmistä. Yhdysvalloissa suurin kaupunki vuonna 1800 oli Philadelphia, jonka väkiluku oli 69 403; New Yorkissa asui vain 60 489 ja Baltimore oli kolmanneksi suurin, 26 114 asukkaan kaupunki.[^287] Suurin osa Euroopan myöhemmin suuriksi kehittyneistä metropolialueista oli nykyisten 1900-luvun standardien mukaan hyvin pieniä. Lontoo, jonka väkiluku oli 864 845, oli luultavasti maailman suurin kaupunki. Vuonna 1801 Pariisi, jossa asui 547 756 ihmistä, oli ainoa muu Euroopan kaupunki, jossa asui yli puoli miljoonaa asukasta.[^288] Lissabonin väkiluku oli 350 000,[^289] Wienissä 252 000,[^290] Berliinissä oli juuri yli 200 000 asukasta vuoteen 1819 mennessä,[^291] Madridissa asui 156 670 ja Brysselin väkiluku vuonna 1802 oli 66 297, kun taas Budapestissa oli vain 61 000 asukasta.[^292][^293]
+
+On luonnollista ajatella, että suurkaupunkien kasvu on suoraan verrannollista väestönkasvuun, mutta näin ei välttämättä ole. Kaikki maailman ihmiset voitaisiin pakata Texasiin siten, että jokainen perhe asuisi omassa erillisessä talossaan omalla pihallaan, ja silti olisi vielä ylimääräistä tilaa. Kuten Adna Weber esitti klassisessa teoksessaan The Growth of Cities in the Nineteenth Century, pelkkä väestönkasvu ei selitä sitä, miksi ihmiset asuvat kaupunkialueilla sen sijaan, että asuisivat hajaantuneina maaseudulla. Vuonna 1890 Bengalin väestötiheys oli suunnilleen sama kuin Englannissa, mutta Bengalin kaupunkiosuus oli vain 4,8 prosenttia, kun taas Englannissa se oli 61,7 prosenttia.[^294]
+
+Historiallisesti kaupungit on eristetty maaseudusta muurien avulla, jotta ryöstäjien ja alemman yhteiskuntaluokan pääsy olisi estetty. Teollisuustyöllisyyden kasvu 1800- ja 1900-luvuilla loi suuria kaupunkeja. Nyt, kun teollistuminen alkaa hiipua, suurkaupunki on yhä herkempi romahdukselle. Täydellisenä kehityksen indikaattorina toimii Detroit, 1900-luvun puolivälin johtava teollisuuskaupunki. Aikoinaan suuri osa maailman teollisesta tuotannosta kulki Detroitiin, mutta nyt se on ontto kuori, jota vaivaavat rikollisuus ja epäjärjestys. Monilla Detroitin keskustan kortteleilla yksi tai useampi rappeutunut rakennus on poltettu maahan tai kaadettu, jättäen vaikutelman, että kaupunki on selviytynyt joukostakin toisen maailmansodan pommitusiskusta.
+
+Detroit muistuttaa siitä, että monet teollisuuskaupungit eivät enää ole elinkelpoisia. Ne hajoavat, kun tieto ja ideat muodostavat arvonantajana tärkeämmän roolin kuin luonnonvaroista valmistaminen. Monissa tapauksissa suurkaupunki on jo kasvanut liian suureksi kannattelemaan omaa painoaan. Metropolin toimivuuden ylläpitäminen vaatii, että merkittävä määrä tukijärjestelmiä toimii tehokkaasti suuressa mittakaavassa. Miljoonien ihmisten yhteenpuristuminen tarkoittaa valtavaa nousua alttiudessa rikollisuudelle, sabotoinnille ja satunnaiselle väkivallalle. Teollisuuskaudella näiden riskien torjuntaa varten maksetut kustannukset saatiin katettua tuotannon mittakaavaeduilla.
+
+Information aikakaudella vain ne kaupungit, jotka kykenevät kattamaan ylläpitokustannuksensa tarjoamalla korkealaatuista elämänlaatua, säilyvät elinkelpoisina. Etäisillä alueilla asuvat eivät enää ole velvollisia tukemaan niitä. Hyvä mittari kaupunkien elinkelpoisuudelle on se, ovatko kaupunkien sydämessä asuvat rikkaampia kuin reunoilla asuvat. Buenos Aires, Lontoo ja Pariisi säilyvät houkuttelevina asuin- ja liiketoimintapaikkoina pitkälle sen jälkeen, kun viimeinen hyvä ravintola sulkeutuu South Bendissa, Louisvillesissa ja Philadelphiassa.
+
+### Maavaltioita
+
+Some city-states may prove to be merely enclaves with no cities attached. Perhaps they might be better thought of as village states or country states.
+
+Jotkin kaupunkivaltiot saattavat osoittautua pelkästään enklaveiksi, joihin ei liity varsinaisia kaupunkeja. Ehkä niitä olisi parempi ajatella kylävaltioina tai maavaltioina.
+
+Natural resource endowments will be valued in different ways as well. When you can do business anywhere, you may well choose to do business in a beautiful place where you can breathe deeply without inhaling too much carcinogenic pollution. Communications technologies that minimize language difficulties will make it ever easier to abide almost anywhere that the environment is attractive. Thinly populated regions with temperate climates, and a large endowment of arable land per head, like New Zealand and Argentina, will also enjoy a comparative advantage because they enjoy high standards of public health and are low-cost producers of foods and renewable products. Such products will benefit from increased demand as the living standards of billions of people in East Asia and Latin America rise.
+
+Luonnonvarojen määrälahjoja arvostetaan myös eri tavoin. Kun voi harjoittaa liiketoimintaa missä tahansa, saatat valita toimia kauniissa paikassa, jossa voit hengittää syvään ilman liiallista syöpää aiheuttavan saastumisen hengittämistä. Viestintäteknologiat, jotka minimoivat kieliongelmia, tekevät lähes missä tahansa – kun ympäristö on houkutteleva – toimimisesta entistä helpompaa. Leudon ilmaston, hienoväestöisten alueiden, joissa on runsaasti viljelykelpoista maata asukasta kohden, kuten Uusi-Seelanti ja Argentiina, etu perustuu myös niiden korkeaan julkisen terveyden tasoon ja edulliseen elintarvikkeiden sekä uusiutuvien tuotteiden tuotantoon. Tällaiset tuotteet hyötyvät kasvavasta kysynnästä, kun miljardia ihmistä Itä-Aasiassa ja Latinamerikassa saavuttaa korkeamman elintason.
+
+### The Inequivalence Theorem
+
+Monet taloustieteilijöiden käyttäytymiseen liittyvät oletukset ovat juurtuneet paikan tyranniaan. Yksi selkeä esimerkki on Ricardon "Equivalence Theorem", joka viittaa siihen, että valtakunnan, jolla on valtavat alijäämät, kansalaiset säätävät odotuksiaan ennakoidessaan tulevaisuudessa vaadittavia korkeampia verokantoja velan poistamiseksi. Näin ollen verotuksella ja velalla rahoitetun kulutuksen välillä on eräänlainen "ekvivalenttius". Ainakin varhaisen 1800-luvun aikana, jolloin Ricardo kirjoitti, tällainen ekvivalenttius vallitsi. Information Age -ajalla kuitenkin rationaalinen henkilö ei reagoi korkeampien verojen näkymään lisäten säästämisasteessaan, vaan siirtää kotipaikkansa tai hoitaa liiketoimintansa muualla. Samasta syystä kuin tuottajat valitsevat toimittajistaan halvimman, he ovat entistäkin motivoituneempia etsimään vaihtoehtoisia suojatoimittajia. Näin saatavat hyödyt ovat huomattavasti suuremmat kuin ne marginaalit, joita uuden muoviputkien toimittajaan siirtyminen toisi mukanaan. Odotettavissa on, että Sovereign Individuals ja muut rationaaliset ihmiset karkottavat itsensä sellaisista alueista, joilla on suuria rahoittamattomia velvoitteita.
+
+### The Erosion of Local Price Anomalies
+
+Merkittävästi vähentyneet informaatiokustannukset kumoavat suurimman osan paikallisista hinnoittelueduista. Ostajat eivät ainoastaan pysty skannaamaan valtavaa määrää myymälöitä löytääkseen vaihdettavien hyödykkeiden halvimmat hinnat, vaan he voivat myös hyödyntää etäpalveluita ostoksilla, jotka ylittävät alueelliset rajat. Tämä mahdollistaa sen, että ihmiset voivat paljon helpommin verrata vaikeasti analysoitavien tuotteiden, kuten vakuutusten, ominaisuuksia. Lisäksi se ohittaa paikallisten lisenssimenettelyjen asettamat kaupan rajoitteet. Tämän seurauksena voittojen marginaalien odotetaan laskevan kaikilla aloilla, joilla paikalliset hintaanomalioita voidaan rapauttaa lisätiedon ja kilpailun avulla.
+
+## NEW ORGANIZATIONAL IMPERATIVES
+
+The cybereconomy will significantly differ from the industrial economy in the way its participants interact. Information technology will dissipate many of the long-term organizational advantages of firms that arise from high transaction and information costs. The Information Age will be the age of the "virtual corporation."
+
+Kybertalous eroaa merkittävästi teollisuustaloudesta siinä, miten sen osallistujat ovat vuorovaikutuksessa. Tietotekniikka hajottaa monet yritysten pitkän aikavälin organisatoriset edut, jotka johtuvat korkeista transaktio- ja informaatiokustannuksista. Informaatiokausi on "virtuaaliyhtiöiden" aika.
+
+Many analysts more knowledgeable than we are about information technology have utterly failed to see that it is destined to transform the logic of economic organization. Not only does the new technology transcend borders and barriers; it also revolutionizes the "internal" costs of computation. Even the few businesses that will not be affected by exposure to greater cross-border competition because of improving information and communication technology will be exposed to new organizational imperatives. Rapidly falling information and transaction costs will decisively lower economies to scale, voiding many of the incentives that gave rise to long-lived firms and career employment during the industrial period.
+
+Monet tietotekniikasta paremmin perillä olevat analyytikot ovat täysin epäonnistuneet huomaamaan, että sen on määrä muuttaa taloudellisen organisaation logiikkaa. Uusi teknologia ei ainoastaan ylitä rajoja ja esteitä, vaan se myös mullistaa laskennan "sisäiset" kustannukset. Jopa ne harvat yritykset, joita parantuvan tietotekniikan ansiosta suurempi rajat ylittävä kilpailu ei suoraan kosketa, joutuvat uusien organisatoristen imperatiivien alaisiksi. Nopeasti laskevat informaatiot ja transaktiokustannukset alentavat ratkaisevasti mittakaavaetuja, kumoten monet ne kannustimet, jotka aikoinaan mahdollistivat pitkäikäisten yritysten ja urateollisuuden.
+
+
+
+### Miksi yritykset?
+
+Klassiset taloustieteilijät, kuten Adam Smith, olivat lähes hiljaa yritysten koon suhteen. He eivät käsitelleet sitä, mikä vaikuttaa yritysten optimaaliseen kokoon, miksi yritykset ovat sellaisessa muodossa kuin ne ovat tai edes miksi yritykset ylipäätään ovat olemassa. Miksi yrittäjät palkkaavat työntekijöitä sen sijaan, että he ulkoistaisivat kaikki tehtävät, jotka täytyy hoitaa, itsenäisille urakoitsijoille huutokauppamarkkinoilla? Nobel-palkinnon voittanut taloustieteilijä Ronald Coase auttoi käynnistämään uuden suunnan taloustieteessä esittämällä joitakin näistä tärkeistä kysymyksistä. Hänen mukaansa vastaukset antavat viitteitä tieto-teknologian mullistavista seurauksista liiketoiminnan rakenteelle. Coase väitti, että yritykset olivat tehokas keino ylittää informaatiopuutteet ja korkeat transaktiokustannukset.[^295]
+
+### Informaatio ja transaktiokustannukset
+
+Jos haluat ymmärtää miksi, pohdi niitä esteitä, joita joutuisit kohtaamaan yrittäessäsi pyörittää teollisajankaan kokoonpanolinjaa ilman yhtenäistä yritystä koordinoimassa sen toimintaa. Periaatteessa auto voitaisiin valmistaa ilman, että tuotanto keskitetään yhden yrityksen valvonnan alaisuuteen. Taloustieteilijä Oliver Williamson on toinen yritysteorian kehittämisen pioneeri yhdessä Coasen kanssa. Williamson määritteli kuusi erilaista toimintaa ja ohjaustapaa. Näistä yksi on "yrittäjäntyylinen malli", "jonka mukaisesti kukin työasema on erikoisasiantuntijan omistama ja operoima."[^296] Toinen malli on se, mitä Williamson kutsuu "liitännäisiksi työasemiksi", joissa "välituote siirretään vaiheesta toiseen kunkin työntekijän toimesta."[^297] Ei ole fyysistä syytä, miksi tuhansia työntekijöitä ei voisi korvata joukon itsenäisiä urakoitsijoita, jotka jokainen vuokraavat tilaa tehdaslattialta, kilpailevat osista ja tarjoavat kokoavan akselia tai hitsaavan suojuksia runkoon. Kuitenkin et löytäisi esimerkkiä teollisajankaan autotehtaasta, jota itsenäiset urakoitsijat olisivat organisoineet ja pyörittäneet.
+
+### Koordinointiongelmat
+
+Teollisen laitoksen pyörittäminen ilman yksittäisen yrityksen tarjoamaa koordinointia olisi hälventänyt ne mittakaavaedut, joita on mahdollista saavuttaa suurissa kokonaisuuksissa. Pienten yritysten laajanaisessa ja epäsäännöllisessä verkostossa koordinointiin liittyvät massiiviset transaktiokustannukset olisivat käytännössä purkaneet kokoonpanolinjan automaation. Jotta tällainen järjestelmä toimisi lainkaan, yksittäisten urakoitsijoiden olisi tarvittu käydä jatkuvaa neuvottelua keskenään. Sen sijaan, että he keskittyisivät tuotantoon, monien urakoitsijoiden tai yrittäjien olisi täytynyt ohjata aikansa ja huomionsa osien hintojen kiinteyttämiseen ja omien jatkuvasti muuttuvien vuorovaikutustensa ehtojen sopimiseen. Pelkkä tuotannon valvonta olisi ollut vaikeaa.
+
+### Toimintavalta
+
+Kun kyseessä on joukko itsenäisiä organisaatioita, jotka kamppailevat auton kokoamiseksi, mallien suunnittelu ja uudelleen suunnittelu olisi ollut painajaismainen. Sinun tarvitsee vain kuvitella, kuinka vaikeaa suunnittelijalla olisi ollut yrittää vakuuttaa satoja itsenäisiä urakoitsijoita uudistusten tarpeellisuudesta uuden mallin käyttöönottoon. Käytännössä olisi tarvittu lähes yksimielinen suostumus. Jokainen, joka pidättäytyy tai vastustaa tuotteen määrittelyn muutosta, olisi voinut käytännössä estää mallin parannuksen tai nostaa sen käyttöönoton kustannuksia, mikä vaarantaisi entisestään suurissa mittakaavoissa toimimisen saavutuksia.
+
+### Tarpeeton neuvottelu
+
+Itsenäisten urakoitsijoiden vuokraama (tai erikseen omistama) kokoonpanolinja olisi ollut alttiina lukuisille haavoittuvuuksille, jotka vältettäisiin toimimalla yhden yrityksen sisällä. Yksittäisten urakoitsijoiden kuolema, sairaus tai taloudellinen epäonnistuminen olisi ollut liian yleinen ilmiö operaatioissa, joissa tuhansien ihmisten tiivis yhteistyö on välttämätöntä yksittäisen tuotteen valmistamiseksi yhden katon alla. Huutokauppamarkkinat olisivat varmasti pystyneet korvaamaan nämä urakoitsijat. Mutta jokainen vaihdos olisi vaatinut neuvotellun ratkaisun, esimerkiksi edellisen operaattorin lunastuksen hänen seuraajallaan. Lisäksi olisi tarvittu sopimus tehdasalueen vuokrauksen siirtämisestä ja ehkä uusi vuokrasopimus hitsauskoneelle tai painesylinterille, jota käytettiin takavalojen muotoiluun. Kaikki tämä olisi ollut monimutkaista.
+
+### Kannustinloukut
+
+Teollisen aikakauden olosuhteissa itsenäisten urakoitsijoiden kokoonpanolinjalla ilmeni toinen ratkaiseva vaikeus: yksittäisten urakoitsijoiden pääomavaatimukset erosivat dramaattisesti toisistaan. Esimerkiksi kojelaudan kytkimen valmistukseen tarvittava muovimuotti saattoi olla suhteellisen edullinen, kun taas moottorilohkon valamiseen tai koneen suojeluslevyn leimaamiseen tarvittava laitteisto olisi voinut maksaa miljoonia. Kokoonpanolinjatuotannon suuri resurssisisältö ja peräkkäinen luonne tekivät korkean pääoman kustannusten aiheuttamista ongelmista väistämättömiä, kuten edellisessä luvussa analysoitiin. Pääomaintensiivisten tehtävien urakoitsijat olisivat olennaisesti olleet riippuvaisia muiden yhteistyöstä investointiensa poiston kannalta. Niiden urakoitsijoiden, joiden pääomavaatimukset olivat suuremmat, kyky kerätä varoja ja toimia voitollisesti olisi riippunut siitä, että he saisivat mukaan monia muita prosessiin osallistuvia tahoja, joiden pääomakustannukset olivat huomattavasti alhaisemmat. Monissa tapauksissa he eivät olisi saaneet sitä.
+
+Pienempien toimijoiden olisi ollut merkittävä kannustin käyttää hyväkseen suurempia. Ne, jotka tarvitsivat vähemmän rahaa hoitaakseen omaa tehtäväänsä kokoonpanolinjalla, hyötyisivät yhteistyön laiminlyönnistä ratkaisevina hetkinä. Kuten lakkoilevat työntekijät, he olisivat voineet sulkea kokoonpanolinjan jonkin tekosyyn vuoksi, aiheuttaen itselleen vain vähän kustannuksia mutta paljon harmia niille, joilla oli suuremmat pääomasijoitukset. Tuotantoprosessi olisi ollut jatkuvan pelin kohteena: pienimuotoiset urakoitsijat olisivat altistaneet korkeamman pääoman kustannuksissa olevat toimijat lunnaiden keräämisen kautta kyvyllään estää tuotantoa. Pienempien urakoitsijoiden kiertelevä neuvottelu sivumaksujen saamiseksi suurilta olisi heikentänyt järjestelmän tehokkuutta.
+
+### Yritysratkaisu
+
+Lyhyesti sanottuna monet teollisuuden aikakaudella suurimittakaavaisella kokoonpanolinjatuotannolla saavutettavat taloudelliset säästöt olisivat haihtuneet, jos tuotanto olisi jaettu lukemattomalle yksittäiselle urakoitsijalle. Yksi suuri yritys oli tehokas keino ylittää nämä haitat, huolimatta sen muista rajoituksista. Suuret yritykset olivat byrokraattisia. Mutta jossain määrin byrokratia ja hierarkia olivat juuri sitä, mitä teollisella aikakaudella tarvittiin. Hallinto- ja johtotiimit valvovat ja koordinoivat tuotantoa, ja lukemattomat keskijohtajat välittävät alaspäin käskyjä ja palauttavat muuta tietoa ylös komentoketjuun. Yritysten byrokratia tarjosi myös kirjanpidon ja tilintarkastuksen kontrollit sekä minimoitiin principal–agent -ongelmia, joissa työntekijät eivät toimi sen yrityksen parhaaksi, joka heidät työllistää. Kehittyneen tilinpidon saavuttaminen teollisen aikakauden olosuhteissa vaati monien ihmisten työtä. Tällaisen hallinnollisen byrokratian ylläpitäminen oli kallista; siitä oli maksettava riippumatta siitä, oliko tuotanto aktiivista tai lamaista. Koska tällaiset hallinnoijat hallitsivat olennaista tietoa liiketoiminnan pyörittämiseksi, heille maksettiin yleensä ylimääräistä verrattuna siihen, mitä heidän taitonsa olisivat hintaneet spot-markkinoilla.
+
+### "Organisatorinen tehottomuus"
+
+Suuri määrä ammattimaisia johtajia ja hallintoammattilaisia toi mukanaan myös sen haitan, että heillä oli taipumus "vallata" yritys ja toimia omien etujensa mukaisesti sen sijaan, että he toimisivat osakkeenomistajien eduksi. Teollisella aikakaudella ei ollut epätavallista havaita esimerkiksi yrityksiä, jotka käyttivät runsain mitoin rahaa toimistokalusteisiin, seurojen jäsenyyksiin ja muihin etuihin, joista johto sai nautintoa, vaikka ne eivät välttämättä tuottaneet suoraa tuottoa sijoittajille. Monimutkaisessa liiketoiminnassa oli mahdotonta helposti ulkopuolelta valvoa, mitkä yleiskustannukset olivat välttämättömiä ja mitkä olivat työntekijöiden ylellisyydestä johtuvia kuluja. Oli myös vaikea estää huomattava osa yrityksen työntekijöistä välttämästä työtään. Se, että suorituskyvyn valvominen teknologisesti oli vaikeaa, teki suuresta keskijohdosta välttämättömän ja samalla vaikeutti valvomaan myös itse valvojia. Nämä olosuhteet osallistuivat siihen, mitä tuli kutsua "organisatoriseksi tehottomuudeksi", termiksi, jonka Richard Cyert ja James March keksivät vuonna 1963 teoksessaan *A Behavioral Theory of the Firm*.[^298] Tarkkaavaiset tutkimukset viittasivat siihen, että lukuisat todelliset yritykset alittivat potentiaalinsa merkittävästi.
+
+> "Whether you produce results or not, the pay is the same.
+>
+> "Whether you work hard or not, the pay is the same.
+>
+> "Whether you care or not, the pay is the same."[^299] - CHRIS DRAY
+
+### "Se ei ole minun työni"
+
+Pysyvyyteen pyrkivänä kokonaisuutena suuri teollinen yritys kärsi jo aiemmin mainitusta haitasta, että se oli alttiina työväenliittojen ahdasmiehitykselle. Se jakoi myös joitakin byrokratian piirteitä, joita näkyi vielä korostetummin valtion virastoissa. Käskyt virtasivat ylhäältä alas. Tehtävät olivat kaavamaisia ja jaettu osioihin. Nämä tehtävät oli usein määritelty jäykästi. Työtehtäväluokkien välille syntyi rajoja, aivan kuten kartellien asettamia rajoja, joita käytettiin sääntelemään koulutettujen ammattien toiminta. Ajatus siitä, että kirjanpitäjän tulisi vaihtaa palanut lamppulamppunsa työpöydällään olevaan lamppuun, tuntui monille teollisen aikakauden aikana yhtä oudolta kuin asianajajan pyytäminen auttamaan flunssan parantamisessa. Työntekijöiltä ei odotettu, eivätkä he monissa tapauksissa edes saaneet ylittää jäykästi määriteltyjen toimintojen rajoja.
+
+
+
+"That is not my job" oli laajalti kuultu iskulause, joka korosti teollisaikakauden "organisatorista jäykkyyttä". Jokaisen työ tehtiin tarkasti määritellyksi stereotyyppisten tehtävien mukaan, joihin ei koskaan sukeltauduttava, vaikka se parantaisikin tuottavuutta. Jokainen yrityksen byrokratiassa työskentelevä palkattiin sen "pätevyysvaatimusten" perusteella, joiden uskottiin ennakoivan hänen suoriutumistaan omassa tehtävässään. Harvoin poiketen kaikki saivat palkkaa työtehtävän luokituksen mukaan, ja palkat olivat suunnilleen yhtenäiset koko organisaatiossa. Koska erityissuoritusta Big Businessin hallinnollisissa hierarkioissa usein ei mitattu, kuten myös valtion byrokratiassa, työ eteni rauhalliseen tahtiin. Niinpä vaikka yritys hyötyi massatuotannon mittakaavaeduista, se teki sen muiden tehottomuuksien kustannuksella.
+
+> "In a market, you don't do something because somebody tells you to or because it is listed on page thirty of the strategic plan. A market has no job boundaries. . . . There are no orders, no translation of signals from on high, no one sorting out the work into parcels. In a market one has customers, and the relationship between a supplier and a customer is fundamentally nonorganizational, because it is between two independent entities."[^300] WILLIAM BRIDGES
+
+### Uudet imperatiivit
+
+Information aikakauden uudet megapoliittiset olosuhteet tulevat muuttamaan merkittävästi liiketoiminnan organisointilogiikkaa. Osa tästä on ilmeistä. Jos tietotekniikka ei tee mitään muuta, se alentaa dramaattisesti tiedon käsittelyn, laskennan ja analysoinnin kustannuksia. Yksi tällaisen teknologian vaikutus on se, että tarve palkata suuria määriä keskijohdon työntekijöitä tuotantoprosessien valvomiseksi vähenee. Itse asiassa kehittyneen laskentatehon mahdollistamat automatisoidut konepajat korvaavat monissa tapauksissa tuntityöntekijöitä. Ja siellä, missä tuotantoprosessi yhä hoidetaan ihmisten toimesta, ohjaus- ja koordinointiprosessi on suurelta osin automatisoitu. Mikroprosessoreilla varustettu laitteisto pystyy seuraamaan kokoonpanolinjan etenemistä paljon tehokkaammin kuin mikään johtaja olisi koskaan pystynyt. Uusi laitteisto ei ainoastaan pysty mittaamaan sitä, kuinka nopeasti ja tarkasti ihmiset työskentelevät, vaan se pystyy myös automaattisesti kokoamaan tilinpäätökset ja tilaamaan uudelleen komponentit heti niiden poiston jälkeen varastosta. Pienimmätkin toiminnot voivat nyt varata varansa taloushallintaohjelmille, jotka hoitavat niiden taloutta paremmalla nopeudella ja hienostuneisuudella kuin edes suurimmat yritykset pystyivät saavuttamaan tuotantohierarkioidensa kautta muutama vuosikymmen sitten.
+
+### Hyvien työpaikkojen katoaminen
+
+Yhä enemmällä tasolla merkittävää taloudellista arvoa tuottavat yksilöt pystyvät säilyttämään suurimman osan itselleen luomastaan arvosta. Tukihenkilöstö, joka aiemmin imersi suuren osan yrityksen ensisijaisten tulonlähteiden tuottamasta liikevaihdosta, korvataan matalakuluisilla automatisoiduilla agentteilla ja tietojärjestelmillä. Tämä tarkoittaa, että organisaatio pystyy varmistamaan korkeimman mahdollisen palvelun laadun ulkoistamalla sen, sen sijaan että kyseinen toiminto pidettäisiin yrityksen sisällä, missä yksilöiden hyvin tehdyn työn palkitseminen olisi suhteellisesti vaikeampaa. Virtuaalinen yritys poistaa suurimman osan "organisatorisesta jäykkyydestä" poistamalla itse organisaation.
+
+Hyvät työpaikat jäävät menneisyyteen. Kuten Princetonin taloustieteilijä Orly Ashenfelter totesi, "hyvä työ on työ, joka maksaa enemmän kuin olet sen arvoinen."[^301] Teollisaikana monet "hyvät työpaikat" olivat olemassa korkean tieto- ja transaktiokustannuksen vuoksi. Yritykset kasvoivat isommiksi ja sisäistivät laajemman joukon toimintoja, koska näin ne pystyivät hyödyntämään mittakaavaetuja. Yritysten turhamaisuutta tuki myös verolainsäädäntö. Teollisaikakauden loppuvaiheiden korkeat verot keinotekoisesti suurensivat pitkään kestäviä yrityksiä ja pysyvien työntekijöiden palkkaamisen etuja. Useimmissa maissa verolait ja -säädökset nostivat merkittävästi yritysten perustamisen ja purkamisen kustannuksia projektipohjaisesti. Ne myös painoivat yrittäjiä sisällyttämään itsenäiset urakoitsijat työntekijöiksi. Lainsäädännölliset toimet paisuttivat tilapäisesti "hyvien työpaikkojen" tarjontaa tekemällä työntekijän irtisanomisesta kallista ja vaikeaa, vaikka hän panoksestaan yrityksen tuottavuuteen olisikin hyvin vähäinen.
+
+Vääjäämättä ja loogisesti teollisaikakauden liiketoimintaorganisaation luonne varmisti, että organisaation arvonlisäyksestä epäjohdonmukaisen osuuden tuottaneet erittäin taitavat ja lahjakkaat ihmiset saivat suhteellisesti vähemmän palkkaa kuin heidän panoksensa oli arvoltaan. Tämä muuttuu Information aikakaudella.
+
+Mikropiirirevoluutio lisää terävästi tiedon saatavuutta ja vähentää transaktiokustannuksia. Tämä hajauttaa yrityksen. Pysyvän byrokratian sijaan toiminnot organisoidaan projekteihin aivan kuten elokuvayhtiöt jo nykyään toimivat. Suurin osa aiemmin yrityksen "sisäisistä" toiminnoista ulkoistetaan itsenäisille urakoitsijoille. Teollisaikakauden työntekijät, jotka pitivät "hyviä työpaikkoja" mutta joiden panos oli vähäinen ja jotka luottivat kollegoihinsa "peittääkseen" puutteensa, huomaavat pian joutuvansa kilpailemaan välittömillä sopimuksilla. Sama käy monien uskollisten ja ahkerien työntekijöiden kohdalla. "Hyvät työpaikat" tulevat olemaan anakronismi, koska työpaikat ylipäätään tulevat olemaan anakronistisia.
+
+Äärimmäisessä tapauksessa suurissa japanilaisissa yrityksissä työntekijöiltä odotettiin elinikäistä työsuhdetta. Vaikka heillä ei olisi ollut mitään varsinaista tuottavaa tehtävää, heidät pidettiin palveluksessa – joskus vain ilmestymällä paikalle istumaan "karhalle pöydälle tehdasalueen nurkassa". Nyt jopa Japanissa turhamainen virkamiesvoimakunta supistetaan. International Herald-Tribune -lehden erään artikkelin otsikko kertoi tarinan: "Parting Is Such Sour Sorrow: Japan's Job-for-Life Culture Painfully Expires."[^302]
+
+Jälkitallenteollisella ajalla työt ovat tehtäviä, joita teet, eivätkä asioita, joita "omistat". Ennen teollista aikakautta pysyvää työsuhdetta oli lähes tuntematonta. Kuten William Bridges totesi, "Ennen 1800-lukua – ja monissa tapauksissa vielä kauan senkin jälkeen – *job* viittasi aina johonkin tiettyyn tehtävään tai hankkeeseen, ei koskaan organisaation rooliin tai asemaan. ... Vuoden 1700 ja 1890 välillä Oxford English Dictionary löytää lukuisia käyttötapoja termeille kuten *job-coachman, job-doctor, ja job-gardener* – kaikki viittaavat ihmisiin, jotka palkattiin kertaluonteisesti. Jobwork (toinen yleinen termi) tarkoitti satunnaista työtä, ei säännöllistä työsuhdetta."[^303]
+
+Information aikakaudella suurin osa tehtävistä, jotka aiemmin sisällytettiin yritysten toimintaan tiedon- ja transaktiokustannusten vähentämiseksi, muuttuu takaisin pikakaupan kentälle. "Just in time" -varastonhallinta ja ulkoistaminen ovat käytännöllisiä tietotekniikan ansiosta. Ne ovat askeleita kohti työpaikkojen katoamista. Jo nyt suuryritykset, kuten AT&T, ovat poistaneet kaikki pysyvät työtehtävät, ja heidän asemansa ovat nyt tilapäisiä. Kuten Bridges totesi, "Työllisyys muuttuu jälleen tilapäiseksi ja tilanteen mukaan, ja kategoriat menettävät rajansa."[^304]
+
+### Hollywood Takes Over
+
+Uuden informaatiotalouden mallinomaisena liiketoimintaorganisaationa saattaa olla elokuvatuotantoyhtiö. Tällaiset yritykset voivat olla hyvin kehittyneitä, ja niiden budjetit voivat nousta sadoihin miljooniin dollareihin. Vaikka ne ovat usein suuria operaatioita, niiden luonne on myös tilapäinen. Yksi elokuvayhtiö, joka tuottaa elokuvan 100 miljoonalla dollarilla, saattaa kokoontua vuoden ajan ja sitten hajota. Vaikka tuotantoon osallistuvat ihmiset ovat lahjakkaita, he eivät odota, että projektissa työskenteleminen olisi sama asia kuin pysyvä työ. Kun projekti päättyy, valaistusteknikot, kuvaajat, äänityöntekijät ja pukusuunnittelijat kulkevat omille teilleen – he voivat kuitenkin yhdistyä uudelleen toisessa projektissa tai eivät missään tapauksessa.
+
+Kun mittakaavaedut ja pääomavaatimukset monille tietointensiivisille toiminnoille laskevat samanaikaisesti, yrityksillä on voimakas kannustin hajottaa toimintansa. Liiketoiminta muuttuu ad hoc -luonteiseksi ja tilapäiseksi, ja yritykset tulevat olemaan entistä lyhytikäisempiä. Virtuaaliset yritykset, jotka kokoavat yhteen lahjakkuuksia tiettyjä tarkoituksia varten, osoittautuvat tehokkaammiksi kuin pitkään toimineet yritykset. Kun salaus yleistyy ja pääoman verotus alenee kilpailun pakottamana, keinotekoiset mittakaavaedut, jotka ylläpitävät "pysyvien" yritysten olemassaoloa, katoavat. Tämä tapahtuu riippumatta siitä, vähennetäänkö verot nopeasti vai hitaasti. Jos vähennetään nopeasti, projektiluonteisen toiminnan keinotekoiset kustannukset katoavat nopeammin. Jos hitaasti, suurin rasite kalliiden verojen maksamisessa siirtyy olemassa oleviin yrityksiin, kun taas uudet yritykset toimivat virtuaalisina yrityksinä ja pystyvät näin paremmin välttämään kuolevan kansallisvaltion asettamia kalliita rasitteita.
+
+Vaikka erityistaidot ja lahjakkuudet ovat informaatiotaloudessa merkityksellisempiä kuin koskaan, suurin osa ammatteja erottavista keinotekoisista rajoista liukenevat. Kehittyneet tiedon käsittely- ja tallennusteknologiat tekevät lakien, lääketieteen ja kirjanpidon kaltaisten alojen liikesalaisuuksista ja erikoistuneesta tiedosta kaikkien saatavilla olevaa. Muistamisen taloudellinen arvo taitona laskee, kun taas tiedon synteesin ja luovan soveltamisen merkitys kasvaa.
+
+Täydelliset seuraukset tästä muutoksesta hidastuvat vanhentuneiden sääntelyjen vuoksi, mutta pidemmällä aikavälillä hallitusten kyky säännellä kybertaloutta kuihtuu lähes olemattomaksi. Kaikki keinotekoinen sääntely ammattimonopolien osalta, joka nostaa kustannuksia ilman, että markkinat arvostavat sitä, tullaan lopulta jättämään huomiotta.
+
+Siirtymällä informaatiotalouteen on myös muita vaikutuksia:
+- Paikalliset sääntelyt, jotka aiheuttavat korkeampia kustannuksia, muutetaan markkinaperusteisiksi.
+- Kilpailu eri alueiden kesken intensivoituu, kun pyritään houkuttelemaan arvonlisäarvoisia toimintoja, jotka periaatteessa voisivat sijaita missä tahansa. Yksikään pysähtymispaikka ei ole välttämättä houkuttelevampi kuin jokin toinen.
+- Liikesuhteet painottuvat yhä enemmän "luottopiireihin". Salaus, joka antaa yksilöille mahdollisuuden varastaa huomaamattomasti, nostaa rehellisyyden arvon liikekumppanien keskuudessa.
+- Patentti- ja tekijänoikeusjärjestelmät muuttuvat tiedon helpon saatavuuden vuoksi.
+- Suojaus muuttuu yhä teknologisemmaksi sen sijaan, että se perustuisi juridisiin keinoihin. Alemmat yhteiskuntaluokat joudutaan eristämään. Portittuihin yhteisöihin siirtyminen on lähes väistämätöntä, ja ongelmien aiheuttajien ulkopuolelle sulkeminen on sekä tehokas että perinteinen tapa minimoida rikollista väkivaltaa heikon keskitetyn vallan aikoina.
+- Tukkukauppatavaroita verotetaan raskaasti ja ne toimitetaan paikallisesti, kuten keskiajalla, kun taas luksustuotteita verotetaan kevyesti ja ne kuljetetaan pitkiä matkoja.[^305]
+- Poliisin tehtäviä hoitavat yhä enemmän yksityiset vartijat, jotka ovat liitoksissa kauppiaiden yhdistysten kanssa.
+- Yksityisillä yrityksillä saattaa olla siirtymäetua julkisesti noteerattuihin yrityksiin verrattuna, koska niillä on suurempi liikkumavara välttää hallitusten asettamia kustannuksia.
+- Elinikäinen työsuhde katoaa, kun "työt" muuttuvat yhä useammin tehtäviksi tai pälkätöiksi sen sijaan, että ne olisivat vakinaisia asemoja organisaatiossa.
+- Taloudellisten resurssien hallinta siirtyy valtiosta parempien taitojen ja älykkyyden omaaville henkilöille, sillä tietoa lisätään tuotteisiin ja varallisuuden luominen helpottuu entisestään.
+- Monet koulutetuista ammattilaisista syrjäytetään interaktiivisten tiedonhakujärjestelmien toimesta.
+- Uudet selviytymisstrategiat vähemmän älykkäille henkilöille kehittyvät, ja ne perustuvat entistä enemmän vapaa-ajan taitojen, urheilukykyjen ja rikollisuuden kehittämiseen sekä palveluun kasvavalle määrälle Sovereign Individuals -henkilöitä, kun alueelliset tuloerot kasvavat.
+
+Poliittisten järjestelmien, jotka kehittyivät aikana, jolloin väkivaltaan liittyi kasvavia tuottoja, on käydä läpi radikaaleja sopeutumisjärjestelyjä. Nyt kun tehokkuus kasvaa merkitykseltään järjestelmän hallitseman vallan suuruuteen nähden, pienet ja tehokkaat suvereniteetit, jotka kykenevät tarjoamaan asiakkailleen enemmän suojaa alhaisemmilla kustannuksilla, tulevat olemaan yhä kestävämpiä.
+
+Vaikka erityistaidot ja lahjakkuudet ovat informaatiotaloudessa tärkeämpiä kuin koskaan, suurin osa keinotekoisista ammatillisten rajojen muureista murskautuu. Lisäksi kehittyneet tiedon käsittely- ja tallennusteknologiat tekevät esimerkiksi lain, lääketieteen ja kirjanpidon liikesalaisuuksista ja erikoistuneesta tiedosta kaikkien saatavilla olevaa. Muistamisen taloudellinen arvo taitona laskee, kun taas tiedon synteesin ja luovan soveltamisen merkitys nousee.
+
+---
+
+Political systems that grew up at a time when there were rising returns to violence must undergo wrenching adjustments. Now that efficiency is growing in importance relative to the magnitude of power commanded by a system, small, efficient sovereignties, which produce more protection for their customers at lower cost, will be increasingly sustainable.
+
+Vaikka erityistaidot ja lahjakkuudet tulevat olemaan informaatiotaloudessa merkityksellisempiä kuin koskaan, suurin osa keinotekoisista ammatillisten rajojen rajoista liukenee. Lisäksi kehittyneet tiedon käsittely- ja tallennusteknologiat tekevät esimerkiksi lain, lääketieteen ja kirjanpidon liikesalaisuuksista ja erikoistuneesta tiedosta saatavilla olevaa kenelle tahansa. Muistamisen taloudellinen arvo taitona laskee, kun taas tiedon synteesin ja luovan soveltamisen merkitys nousee.
+
+Täydelliset seuraukset tästä muutoksesta hidastuvat vanhentuneiden sääntelyjen vuoksi, mutta pitkällä aikavälillä hallitusten kyky säännellä kybertaloutta kuihtuu lähes olemattomaksi. Kaikki keinotekoinen ammattimonopolien sääntely, joka nostaa kustannuksia ilman, että markkinat arvostavat sitä, tullaan lopulta jättämään huomiotta.
+
+---
+
+### Hollywood Takes Over
+
+Vaikka informaatiotalouden erityistaidot ja lahjakkuudet korostuvat, suurin osa keinotekoisista erottavista rajoista eri ammattilajien välillä liukenee. Kehittyneet tiedon hakemiseen ja tallennukseen tarkoitetut teknologiat tekevät lakien, lääketieteen ja kirjanpidon ammattilaisten liikesalaisuuksista sekä erikoistuneesta tiedosta kaikkien saatavilla olevaa. Taitona muistamisen taloudellinen arvo laskee, kun taas synteesin ja tiedon luovan soveltamisen merkitys nousee.
+
+Vaikka muutoksen täysimittaiset vaikutukset hidastuvat vanhojen sääntöjen vuoksi, pitkällä aikavälillä hallitusten valta säädellä kybertaloutta kuihtuu lähes kokonaan. Kaikki keinotekoinen sääntely ammattimonopolien osalta, joka nostaa kustannuksia ilman markkinoiden arvostamaa hyötyä, jätetään lopulta huomiotta.
+
+Siirtymällä informaatiotalouteen on myös muita vaikutuksia:
+- Paikalliset sääntelyt, jotka aiheuttavat korkeampia kustannuksia, muuttuvat markkinaperusteisiksi.
+- Kilpailu eri toimialueiden kesken kiristyy, kun valtioiden on kilpaillaan siitä, missä sijoitetaan arvonlisäarvoisia toimintoja, jotka periaatteessa voisivat sijaita missä tahansa. Yksikään sijoituspaikka ei ole välttämättä houkuttelevampi kuin seuraava.
+- Liikesuhteet painottuvat yhä enemmän "luottopiireihin". Salaus, joka antaa yksilöille mahdollisuuden varastaa huomaamattomasti, nostaa rehellisyyden arvon liikekumppaneiden keskuudessa.
+- Patentti- ja tekijänoikeusjärjestelmät muuttuvat, koska tiettyyn tietoon pääsee entistä helpommin käsiksi.
+- Suojaus muuttuu yhä teknologisemmaksi sen sijaan, että se perustuisi juridisiin keinoihin. Alemmat yhteiskuntaluokat suljetaan ulkopuolelle. Portittuihin yhteisöihin siirtyminen on lähes väistämätöntä. Rikollisten ulkopuolelle sulkeminen on sekä tehokas että perinteinen tapa vähentää rikollista väkivaltaa heikon keskitetyn vallan aikoina.
+- Tukkukauppatavaroita verotetaan raskaalta ja niitä kuljetetaan paikallisesti, kuten keskiajalla, kun taas luksustuotteita verotetaan kevyemmin ja niitä toimitetaan pitkiä matkoja.[^305]
+- Poliisin tehtävät siirtyvät yhä enemmän yksityisille vartijoille, jotka ovat yhteydessä kauppiaiden yhdistyksiin.
+- Yksityisillä yrityksillä voi olla siirtymäetu julkisesti noteerattuihin yrityksiin verrattuna, koska ne saavat suuremman liikkumavaran välttää hallitusten asettamia kustannuksia.
+- Elinikäinen työsuhde katoaa, kun "työt" muodostuvat yhä useammin tehtävinä tai pälkätöinä sen sijaan että ne olisivat pysyviä asemoja organisaatiossa.
+- Taloudellisten resurssien hallinta siirtyy valtiosta parempien taitojen ja älykkyyden omaaville henkilöille, sillä tuotteisiin lisättävä tieto tekee varallisuuden luomisesta entistä helpompaa.
+- Monet koulutettuja ammattilaisia syrjäytetään interaktiivisten tiedonhakujärjestelmien toimesta.
+- Uudet selviytymisstrategiat vähäisemmän älykkyyden omaaville henkilöille kehittyvät, mikä sisältää entistä enemmän keskittymistä vapaa-ajan taitojen, urheilukykyjen ja rikollisuuden kehittämiseen sekä palveluun kasvavassa määrässä Sovereign Individuals -henkilöitä, kun tuloerot alueilla kasvavat.
+
+Poliittisten järjestelmien, jotka ovat kehittyneet aikana, jolloin väkivallan tuotoista saatiin kasvavia hyötyjä, täytyy käydä läpi radikaaleja sopeutumisjärjestelyjä. Nyt, kun tehokkuus kasvaa merkitykseltään suhteessa siihen, kuinka paljon järjestelmä hallitsee valtaa, pienet ja tehokkaat suvereniteetit, jotka pystyvät tarjoamaan asiakkailleen enemmän suojaa alhaisemmilla kustannuksilla, tulevat olemaan yhä kestävämpiä.
+
+Keskiajan tavoin väkivallan järjestämisessä ilmenee jälleen kasvavia mittakaavaepäedullisuuksia. Tämä heijastuu jo kommunismin romahduksen jälkeen kasvavaan suvereenien yksiköiden määrään. Odotamme, että suvereenisuuksien lukumäärä maailmassa moninkertaistuu nopeasti, kun informaatiokauden logiikka vahvistuu kokemuksen kautta.
+
+Valtaa tullaan jälleen käyttämään pienimuotoisesti. Enklavit ja maakunnat saattavat jopa huomata, että niillä on huomattavia etuja maanosia halkovien valtioiden rinnalla tarjotessaan kilpailukykyisiä ehtoja "asiakkailleen" suvereniteettipalveluissa. Tämä on hyvin erilaista kuin nopeasti hiipuvassa modernissa ajanjaksossa, jossa mikään yksikkö ei voinut selviytyä, ellei se kyennyt hallitsemaan sotilaallista voimaa, joka riittäisi valtakunnan valtaamiseen. Aiemmin, kun vallankäytössä esiintyi mittakaavaepäedullisuuksia, ne, jotka hyötyivät eniten suojelusta – kuten loppukeskiaikaisissa kaupunkivaltioissa rikkaat kauppiaat – hallitsivat hallintoa. Mielestämme tällaista voi taas esiintyä. Saaliillisien rasitteiden keventymisen ja resurssien tehokkaamman kohdentamisen tulisi johtaa nopeaan kasvuun niillä alueilla, joilla asiakkaat pystyvät vaikuttamaan paikallisten suvereenisuuksien hallintaan.
+
+Seuraavaksi tarkastelemme, voiko tai kannattaako näiden kehityskulujen edetä vastoin lukemattomien häviäjien vastustusta, mikä tulee olemaan yksi informaatiokauden merkittävimmistä kiistanaiheista.
+
+[^270]: Benjamin Schwarz, "~American Inequality: Its History and Scary Future," New York Times, December 19, 1995, p. A25.
+
+[^271]: Adna Ferrin Weber, *The Growth of Cities in the Nineteenth Century* (New York: Macmillan, 1899; reprinted by Cornell University Press, 1963), p.249.
+
+[^272]: Bill Bryson, *The Lost Continent* (New York: Harper Perennial, 1989), p.72.
+
+[^273]: This article is reprinted in vol.4 of Adrian Darnell's collection, *Early Mathematical Economists*, 6 vols. (London: Pickering & Chatto, 1991).
+
+[^274]: For example, see Weber, op. cit., p.2.
+
+[^275]: Clive Jenkins and Barrie Sherman, *The Collapse of Work* (London: Methuen, 1979), p. 103.
+
+[^276]: Robert H. Frank and Philip J. Cook, *The Winner-Take-All Society* (New York: The Free Press, 1995).
+
+[^277]: Clay Chandler, *'Buchanan's Success Frightens Business'*, Washington Post, 22. helmikuuta 1996, s. D12.
+
+[^278]: Stephanie Flanders ja Martin Wolfe, *"Haunted by the Trade Spectre"*, Financial Times, 24. heinäkuuta 1995, s. 11. He lainaavat World Bankin tuoreinta *world development report* -raporttia, joka käsittelee integroituvan maailman talouden työntekijöitä.
+
+[^279]: Katso Mancur Olson, *"Diseconomies of Scale and Development"*, Cato Journal, vol. 7, no. 1 (kevät/heinäkuuta 1987).
+
+[^280]: Ibid.
+
+[^281]: Basil Davidson, *The Black Mans' Burden: Africa and the Curse of the Nation State* (New York: Times Books, 1992), s. 290.
+
+[^282]: Olson, op. cit.
+
+[^283]: Adam Smith, *The Wealth of Nations*, s. 724. Tämä seikka ehdotettiin osana Edwin G. Westin argumenttia teoksessaan Adam Smith and Modern Economics (Aldershot, England: Edward Elgar Publishing, 1990), s. 88–89.
+
+[^284]: Fritz Rorig, *The Medieval Town* (Berkeley: University of California Press, 1967), s. 28.
+
+[^285]: Albert O. Hirschman, *Exit, Voice, and Loyalty* (Cambridge: Harvard University Press, 1969), s. 81.
+
+[^286]: Tom Peters ja George Gilder, *"City vs. Country: Tom Peters & George Gilder Debate the Impact of Technology on Location"*, Forbes, helmikuu 1995.
+
+[^287]: Weber, op. cit., s. 21.
+
+[^288]: Ibid., s. 46 Lontoon osalta, s. 73 Pariisin osalta.
+
+[^289]: Ibid., s. 120.
+
+[^290]: Ibid., s. 95.
+
+[^291]: Ibid., s. 84.
+
+[^292]: Ibid., s. 119.
+
+[^293]: Ibid., s. 101.
+
+[^294]: Ibid., s. 5.
+
+[^295]: Katso Ronald Coase, "The Nature of the Firm," uudelleenpainettuna teoksessa Louis Putterman ja Randall S. Kroszner (toim.), *The Economic Nature of the Firm: A Reader*, 2. painos (Cambridge: Cambridge University Press, 1996), s. 89–104.
+
+[^296]: Lainattu Westilta, op. cit., s. 58; katso myös Oliver E. Williamson, "The Organization of Work: A Comparative Institutional Assessment," Journal of Economic Behaviour and Organisation, vol. 1, nro 1.
+
+[^297]: Lainattu West, op. cit., s. 59; katso myös Williamson, op. cit.
+
+[^298]: Richard Cyert and James March, *A Behavioral Theory of the Firm* (Englewood Cliffs, N.J.: Prentice-Hall, 1983).
+
+[^299]: Chris Dray~ “Civil Servants Lead Lives of Quiet Collusion,” Globe and Mail, 2. helmikuuta 1996, s. A14.
+
+[^300]: William Bridges, *Jobsh ft: How to Prosper in a Workplace Without Jobs* (Reading, Mass.: Addison-Wesley, 1994), s. 62, 64.
+
+[^301]: Katso Al Ehrbar, “ ‘Re-Engineering’ Gives Firms New Efficiency, Workers the Pink Slip,” Wall Street Journal, 22. heinäkuuta 1992, s. A14, lainattu Bridges, op. cit., s. 39.
+
+[^302]: Sheryl WuDunn, “Parting Is Such Sour Sorrow: Japan's Job-for-Life Culture Painfully Expires,” International Herald Tribune, 13. kesäkuuta 1996, s. 13.
+
+[^303]: Bridges, op. cit., s. 31–32.
+
+[^304]: Ibid., s. 58.
+
+[^305]: Abu-Lughod, op. cit., s. 186.

@@ -9,12 +9,16 @@ logger = logging.getLogger(__name__)
 
 class EPUBBookLoaderHelper:
     def __init__(
-        self, translate_model, accumulated_num, translation_style, context_flag
+        self, translate_model, accumulated_num, translation_style, context_flag,
+        context_paragraph_limit=0, is_test=False, test_num=5
     ):
         self.translate_model = translate_model
         self.accumulated_num = accumulated_num
         self.translation_style = translation_style
         self.context_flag = context_flag
+        self.context_paragraph_limit = context_paragraph_limit
+        self.is_test = is_test
+        self.test_num = test_num
 
     def insert_trans(self, p, text, translation_style="", single_translate=False):
         if text is None:

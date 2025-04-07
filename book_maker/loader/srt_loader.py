@@ -5,8 +5,10 @@ inspired by: https://github.com/jesselau76/srt-gpt-translator, MIT License
 import re
 import sys
 from pathlib import Path
+import datetime
+import os
 
-from book_maker.utils import prompt_config_to_kwargs
+from book_maker.utils import prompt_config_to_kwargs, generate_output_filename, log_translation_run
 
 from .base_loader import BaseBookLoader
 
@@ -23,10 +25,12 @@ class SRTBookLoader(BaseBookLoader):
         is_test=False,
         test_num=5,
         prompt_config=None,
+        prompt_file_path=None,
         single_translate=False,
         context_flag=False,
         context_paragraph_limit=0,
         temperature=1.0,
+        accumulated_num=5,
     ) -> None:
         self.srt_name = srt_name
         self.translate_model = model(
@@ -34,19 +38,19 @@ class SRTBookLoader(BaseBookLoader):
             language,
             api_base=model_api_base,
             temperature=temperature,
-            **prompt_config_to_kwargs(
-                {
-                    "system": "You are a srt subtitle file translator.",
-                    "user": "Translate the following subtitle text into {language}, but keep the subtitle number and timeline and newlines unchanged: \n{text}",
-                }
-            ),
+            context_flag=context_flag,
+            context_paragraph_limit=context_paragraph_limit,
+            **prompt_config_to_kwargs(prompt_config),
         )
+        if prompt_file_path:
+            self.translate_model.prompt_file = prompt_file_path
+            
         self.is_test = is_test
         self.p_to_save = []
         self.bilingual_result = []
         self.bilingual_temp_result = []
         self.test_num = test_num
-        self.accumulated_num = 1
+        self.accumulated_num = accumulated_num
         self.blocks = []
         self.single_translate = single_translate
 
@@ -158,9 +162,11 @@ class SRTBookLoader(BaseBookLoader):
 
     def make_bilingual_book(self):
         if self.accumulated_num > 512:
-            print(f"{self.accumulated_num} is too large, shrink it to 512.")
-            self.accumulated_num = 512
-
+            print("warn: accumulated_num > 512, consider smaller blocks in SRT")
+            
+        # Initialize temp_file_path attribute
+        self.temp_file_path = None
+        
         try:
             with open(f"{self.srt_name}", encoding="utf-8") as f:
                 self.blocks = self._parse_srt(f.read())
@@ -243,10 +249,43 @@ class SRTBookLoader(BaseBookLoader):
                 if self.is_test and index > self.test_num:
                     break
 
-            self.save_file(
-                f"{Path(self.srt_name).parent}/{Path(self.srt_name).stem}_bilingual.srt",
-                self.bilingual_result,
+            # Get model class name for filename
+            model_class = self.translate_model.__class__.__name__.lower()
+            
+            # Get actual model name if available
+            actual_model = getattr(self.translate_model, 'model', model_class)
+            
+            # Generate output filename with date, language and model info
+            output_path = generate_output_filename(
+                self.srt_name,
+                self.translate_model.language,
+                actual_model
             )
+            
+            # Save the file
+            self.save_file(output_path, self.bilingual_result)
+            
+            # Log the translation run with detailed information
+            log_params = {
+                "language": self.translate_model.language,
+                "model_class": model_class,
+                "model": actual_model,
+                "context_flag": getattr(self.translate_model, 'context_flag', False),
+                "temperature": getattr(self.translate_model, 'temperature', 1.0),
+                "is_test": self.is_test,
+                "test_num": self.test_num if self.is_test else None,
+                "single_translate": self.single_translate,
+                "prompt_file": getattr(self.translate_model, 'prompt_file', None),
+                "api_calls": getattr(self.translate_model, 'api_call_count', 0),
+                "translate_model": self.translate_model
+            }
+            log_translation_run(self.srt_name, output_path, log_params)
+            
+            # Remove temp file if translation was successful
+            self.remove_temp_file()
+            
+            print(f"Done! Bilingual subtitle saved as {output_path}")
+            return True
 
         except (KeyboardInterrupt, Exception) as e:
             print(e)
@@ -256,19 +295,29 @@ class SRTBookLoader(BaseBookLoader):
             sys.exit(0)
 
     def _save_temp_book(self):
-        for i, block in enumerate(self.blocks):
-            if i < len(self.p_to_save):
-                text = self.p_to_save[i]
-                self.bilingual_temp_result.append(
-                    f"{self._get_block_text(block)}\n{text}"
-                )
-            else:
-                self.bilingual_temp_result.append(f"{self._get_block_text(block)}\n")
-
-        self.save_file(
-            f"{Path(self.srt_name).parent}/{Path(self.srt_name).stem}_bilingual_temp.srt",
-            self.bilingual_temp_result,
-        )
+        # Get model class name
+        model_class = self.translate_model.__class__.__name__.lower()
+        
+        # Get actual model name if available
+        actual_model = getattr(self.translate_model, 'model', model_class)
+        
+        # Create temporary filename based on the new pattern
+        date_str = datetime.datetime.now().strftime("%Y%m%d")
+        stem = Path(self.srt_name).stem
+        
+        # Clean up model name for filename (remove special chars, limit length)
+        safe_model_name = "".join(c if c.isalnum() or c in "-_" else "_" for c in actual_model)
+        if len(safe_model_name) > 30:  # Limit length to avoid too long filenames
+            safe_model_name = safe_model_name[:30]
+            
+        temp_filename = f"{stem}_{date_str}_{safe_model_name}_temp.srt"
+        temp_path = Path(self.srt_name).parent / temp_filename
+        
+        self.save_file(str(temp_path), self.bilingual_result)
+        print(f"Temporary subtitle file saved as {temp_path}")
+        
+        # Store the temp path for later removal if needed
+        self.temp_file_path = str(temp_path)
 
     def _save_progress(self):
         try:
@@ -295,3 +344,20 @@ class SRTBookLoader(BaseBookLoader):
                 f.write("\n\n".join(content))
         except:
             raise Exception("can not save file")
+
+    def remove_temp_file(self):
+        """Remove temporary file if it exists and translation was successful."""
+        if hasattr(self, 'temp_file_path') and self.temp_file_path and os.path.exists(self.temp_file_path):
+            try:
+                os.remove(self.temp_file_path)
+                print(f"Temporary file removed: {self.temp_file_path}")
+            except Exception as e:
+                print(f"Warning: Failed to remove temporary file: {e}")
+        
+        # Also remove the bin file used for resuming translation
+        if hasattr(self, 'bin_path') and self.bin_path and os.path.exists(self.bin_path):
+            try:
+                os.remove(self.bin_path)
+            except Exception:
+                # Silently fail if we can't remove the bin file
+                pass

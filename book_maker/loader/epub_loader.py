@@ -5,6 +5,7 @@ import sys
 import time
 from copy import copy
 from pathlib import Path
+import datetime
 
 from bs4 import BeautifulSoup as bs
 from bs4 import Tag
@@ -13,7 +14,7 @@ from ebooklib import ITEM_DOCUMENT, epub
 from rich import print
 from tqdm import tqdm
 
-from book_maker.utils import num_tokens_from_text, prompt_config_to_kwargs
+from book_maker.utils import num_tokens_from_text, prompt_config_to_kwargs, generate_output_filename, log_translation_run
 
 from .base_loader import BaseBookLoader
 from .helper import EPUBBookLoaderHelper, is_text_link, not_trans
@@ -31,6 +32,7 @@ class EPUBBookLoader(BaseBookLoader):
         is_test=False,
         test_num=5,
         prompt_config=None,
+        prompt_file_path=None,
         single_translate=False,
         context_flag=False,
         context_paragraph_limit=0,
@@ -47,6 +49,8 @@ class EPUBBookLoader(BaseBookLoader):
             temperature=temperature,
             **prompt_config_to_kwargs(prompt_config),
         )
+        if prompt_file_path:
+            self.translate_model.prompt_file = prompt_file_path
         self.is_test = is_test
         self.test_num = test_num
         self.translate_tags = "p"
@@ -55,6 +59,7 @@ class EPUBBookLoader(BaseBookLoader):
         self.accumulated_num = 1
         self.translation_style = ""
         self.context_flag = context_flag
+        self.context_paragraph_limit = context_paragraph_limit
         self.helper = EPUBBookLoaderHelper(
             self.translate_model,
             self.accumulated_num,
@@ -468,15 +473,61 @@ class EPUBBookLoader(BaseBookLoader):
 
     def batch_init_then_wait(self):
         name, _ = os.path.splitext(self.epub_name)
-        if self.batch_flag or self.batch_use_flag:
-            self.translate_model.batch_init(name)
-            if self.batch_use_flag:
-                start_time = time.time()
-                while not self.translate_model.is_completed_batch():
-                    print("Batch translation is not completed yet")
-                    time.sleep(2)
-                    if time.time() - start_time > 300:  # 5 minutes
-                        raise Exception("Batch translation timed out after 5 minutes")
+        
+        # Initialize temp_file_path attribute
+        self.temp_file_path = None
+        
+        try:
+            if self.batch_flag or self.batch_use_flag:
+                self.translate_model.batch_init(name)
+                if self.batch_use_flag:
+                    start_time = time.time()
+                    while not self.translate_model.is_completed_batch():
+                        print("Batch translation is not completed yet")
+                        time.sleep(2)
+                        if time.time() - start_time > 300:  # 5 minutes
+                            raise Exception("Batch translation timed out after 5 minutes")
+                            
+                # Generate output filename with date, language and model info
+                model_class = self.translate_model.__class__.__name__.lower()
+                actual_model = getattr(self.translate_model, 'model', model_class)
+                output_path = generate_output_filename(
+                    self.epub_name,
+                    self.translate_model.language,
+                    actual_model
+                )
+                
+                # Log the translation run with detailed information
+                log_params = {
+                    "language": self.translate_model.language,
+                    "model_class": model_class,
+                    "model": actual_model,
+                    "context_flag": getattr(self.translate_model, 'context_flag', False),
+                    "temperature": getattr(self.translate_model, 'temperature', 1.0),
+                    "is_test": self.is_test,
+                    "test_num": self.test_num if self.is_test else None,
+                    "single_translate": self.single_translate,
+                    "prompt_file": getattr(self.translate_model, 'prompt_file', None),
+                    "api_calls": getattr(self.translate_model, 'api_call_count', 0),
+                    "translate_model": self.translate_model
+                }
+                log_translation_run(self.epub_name, output_path, log_params)
+                
+                # Remove temp file if translation was successful
+                self.remove_temp_file()
+                
+                if self.accumulated_num == 1:
+                    pbar.close()
+                    print(f"Done! Bilingual book saved as {output_path}")
+                return True
+                
+        except (KeyboardInterrupt, Exception) as e:
+            print(e)
+            if self.accumulated_num == 1:
+                print("you can resume it next time")
+                self._save_progress()
+                self._save_temp_book()
+            sys.exit(0)
 
     def make_bilingual_book(self):
         self.helper = EPUBBookLoaderHelper(
@@ -484,57 +535,65 @@ class EPUBBookLoader(BaseBookLoader):
             self.accumulated_num,
             self.translation_style,
             self.context_flag,
+            self.context_paragraph_limit,
+            self.is_test,
+            self.test_num,
         )
-        self.batch_init_then_wait()
-        new_book = self._make_new_book(self.origin_book)
-        all_items = list(self.origin_book.get_items())
-        trans_taglist = self.translate_tags.split(",")
-        all_p_length = sum(
-            (
-                0
-                if (
-                    (i.get_type() != ITEM_DOCUMENT)
-                    or (i.file_name in self.exclude_filelist.split(","))
-                    or (
-                        self.only_filelist
-                        and i.file_name not in self.only_filelist.split(",")
-                    )
-                )
-                else len(bs(i.content, "html.parser").findAll(trans_taglist))
-            )
-            for i in all_items
-        )
-        all_p_length += self.allow_navigable_strings * sum(
-            (
-                0
-                if (
-                    (i.get_type() != ITEM_DOCUMENT)
-                    or (i.file_name in self.exclude_filelist.split(","))
-                    or (
-                        self.only_filelist
-                        and i.file_name not in self.only_filelist.split(",")
-                    )
-                )
-                else len(bs(i.content, "html.parser").findAll(text=True))
-            )
-            for i in all_items
-        )
-        pbar = tqdm(total=self.test_num) if self.is_test else tqdm(total=all_p_length)
-        print()
-        index = 0
+        
+        # Initialize temp_file_path attribute
+        self.temp_file_path = None
+        
+        origin_book = epub.read_epub(self.epub_name)
+        new_book = epub.EpubBook()
         p_to_save_len = len(self.p_to_save)
+        index = 0
+        
+        # for book style
         try:
-            if self.retranslate:
-                self.retranslate_book(
-                    index, p_to_save_len, pbar, trans_taglist, self.retranslate
+            self.batch_init_then_wait()
+            new_book = self._make_new_book(origin_book)
+            all_items = list(origin_book.get_items())
+            trans_taglist = self.translate_tags.split(",")
+            all_p_length = sum(
+                (
+                    0
+                    if (
+                        (i.get_type() != ITEM_DOCUMENT)
+                        or (i.file_name in self.exclude_filelist.split(","))
+                        or (
+                            self.only_filelist
+                            and i.file_name not in self.only_filelist.split(",")
+                        )
+                    )
+                    else len(bs(i.content, "html.parser").findAll(trans_taglist))
                 )
-                exit(0)
+                for i in all_items
+            )
+            all_p_length += self.allow_navigable_strings * sum(
+                (
+                    0
+                    if (
+                        (i.get_type() != ITEM_DOCUMENT)
+                        or (i.file_name in self.exclude_filelist.split(","))
+                        or (
+                            self.only_filelist
+                            and i.file_name not in self.only_filelist.split(",")
+                        )
+                    )
+                    else len(bs(i.content, "html.parser").findAll(text=True))
+                )
+                for i in all_items
+            )
+            pbar = tqdm(total=self.test_num) if self.is_test else tqdm(total=all_p_length)
+            print()
+            index = 0
+            
             # Add the things that don't need to be translated first, so that you can see the img after the interruption
-            for item in self.origin_book.get_items():
+            for item in origin_book.get_items():
                 if item.get_type() != ITEM_DOCUMENT:
                     new_book.add_item(item)
 
-            for item in self.origin_book.get_items_of_type(ITEM_DOCUMENT):
+            for item in origin_book.get_items_of_type(ITEM_DOCUMENT):
                 index = self.process_item(
                     item, index, p_to_save_len, pbar, new_book, trans_taglist
                 )
@@ -542,13 +601,48 @@ class EPUBBookLoader(BaseBookLoader):
                 if self.accumulated_num > 1:
                     name, _ = os.path.splitext(self.epub_name)
                     epub.write_epub(f"{name}_bilingual.epub", new_book, {})
-            name, _ = os.path.splitext(self.epub_name)
+            
+            # Get model class name for filename
+            model_class = self.translate_model.__class__.__name__.lower()
+            
+            # Get actual model name if available
+            actual_model = getattr(self.translate_model, 'model', model_class)
+            
+            # Generate output filename with date, language and model info
+            output_path = generate_output_filename(
+                self.epub_name,
+                self.translate_model.language,
+                actual_model
+            )
+            
             if self.batch_flag:
                 self.translate_model.batch()
             else:
-                epub.write_epub(f"{name}_bilingual.epub", new_book, {})
+                epub.write_epub(output_path, new_book, {})
+            
+            # Log the translation run with detailed information
+            log_params = {
+                "language": self.translate_model.language,
+                "model_class": model_class,
+                "model": actual_model,
+                "context_flag": getattr(self.translate_model, 'context_flag', False),
+                "temperature": getattr(self.translate_model, 'temperature', 1.0),
+                "is_test": self.is_test,
+                "test_num": self.test_num if self.is_test else None,
+                "single_translate": self.single_translate,
+                "prompt_file": getattr(self.translate_model, 'prompt_file', None),
+                "api_calls": getattr(self.translate_model, 'api_call_count', 0),
+                "translate_model": self.translate_model
+            }
+            log_translation_run(self.epub_name, output_path, log_params)
+            
+            # Remove temp file if translation was successful
+            self.remove_temp_file()
+            
             if self.accumulated_num == 1:
                 pbar.close()
+                print(f"Done! Bilingual book saved as {output_path}")
+            return True
         except (KeyboardInterrupt, Exception) as e:
             print(e)
             if self.accumulated_num == 1:
@@ -602,8 +696,30 @@ class EPUBBookLoader(BaseBookLoader):
                     if soup:
                         item.content = soup.encode()
                 new_temp_book.add_item(item)
-            name, _ = os.path.splitext(self.epub_name)
-            epub.write_epub(f"{name}_bilingual_temp.epub", new_temp_book, {})
+            
+            # Create temporary filename based on the new pattern
+            model_class = self.translate_model.__class__.__name__.lower()
+            
+            # Get actual model name if available
+            actual_model = getattr(self.translate_model, 'model', model_class)
+            
+            date_str = datetime.datetime.now().strftime("%Y%m%d")
+            path = Path(self.epub_name)
+            stem = path.stem
+            
+            # Clean up model name for filename (remove special chars, limit length)
+            safe_model_name = "".join(c if c.isalnum() or c in "-_" else "_" for c in actual_model)
+            if len(safe_model_name) > 30:  # Limit length to avoid too long filenames
+                safe_model_name = safe_model_name[:30]
+            
+            temp_filename = f"{stem}_{date_str}_{safe_model_name}_temp.epub"
+            temp_path = path.parent / temp_filename
+            
+            epub.write_epub(str(temp_path), new_temp_book, {})
+            print(f"Temporary book saved as {temp_path}")
+            
+            # Store the temp path for later removal if needed
+            self.temp_file_path = str(temp_path)
         except Exception as e:
             # TODO handle it
             print(e)
@@ -614,3 +730,20 @@ class EPUBBookLoader(BaseBookLoader):
                 pickle.dump(self.p_to_save, f)
         except Exception:
             raise Exception("can not save resume file")
+
+    def remove_temp_file(self):
+        """Remove temporary file if it exists and translation was successful."""
+        if hasattr(self, 'temp_file_path') and self.temp_file_path and os.path.exists(self.temp_file_path):
+            try:
+                os.remove(self.temp_file_path)
+                print(f"Temporary file removed: {self.temp_file_path}")
+            except Exception as e:
+                print(f"Warning: Failed to remove temporary file: {e}")
+        
+        # Also remove the bin file used for resuming translation
+        if hasattr(self, 'bin_path') and self.bin_path and os.path.exists(self.bin_path):
+            try:
+                os.remove(self.bin_path)
+            except Exception:
+                # Silently fail if we can't remove the bin file
+                pass

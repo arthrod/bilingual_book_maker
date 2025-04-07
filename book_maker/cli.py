@@ -2,27 +2,133 @@ import argparse
 import json
 import os
 from os import environ as env
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+# load_dotenv()
 
 from book_maker.loader import BOOK_LOADER_DICT
 from book_maker.translator import MODEL_DICT
 from book_maker.utils import LANGUAGES, TO_LANGUAGE_CODE
 
+# Added helper function to load project-specific API keys
+def get_project_config(key, project_dir=None):
+    """
+    Retrieve the API key or other config value from a project-specific .env file if available,
+    otherwise fallback to the global .env loaded earlier.
+    """
+    if project_dir:
+        project_env = Path(project_dir) / '.env'
+        if project_env.exists():
+            load_dotenv(dotenv_path=project_env, override=True)
+            value = os.getenv(key)
+            if value:
+                print(f"Using {key} from project-specific .env file: {project_env}")
+                return value
+    # Fallback to already loaded global .env
+    load_dotenv()
+    value = os.getenv(key)
+    if value:
+        print(f"Using {key} from global .env file")
+    return value
 
 def parse_prompt_arg(prompt_arg):
     prompt = None
+    prompt_file_path = None  # Initialize prompt_file_path
+    
     if prompt_arg is None:
-        return prompt
+        return prompt, prompt_file_path
 
-    if not any(prompt_arg.endswith(ext) for ext in [".json", ".txt"]):
+    # Check if it's a path to a markdown file (PromptDown format)
+    if prompt_arg.endswith(".md") and os.path.exists(prompt_arg):
+        try:
+            from promptdown import StructuredPrompt
+
+            # Instead of relying on the default PromptDown file loading,
+            # we'll read the file with explicit UTF-8 encoding first
+            with open(prompt_arg, 'r', encoding='utf-8') as f:
+                promptdown_content = f.read()
+            
+            # Parse from string with explicit UTF-8 content
+            structured_prompt = StructuredPrompt.from_promptdown_string(promptdown_content)
+            prompt_file_path = prompt_arg  # Store the actual file path
+            
+            # Initialize our prompt structure
+            prompt = {}
+
+            # Handle developer_message or system_message
+            # Store both the content and the role type
+            system_content = None
+            system_role = None
+            
+            if hasattr(structured_prompt, 'developer_message') and structured_prompt.developer_message:
+                system_content = structured_prompt.developer_message
+                system_role = 'developer'
+            elif hasattr(structured_prompt, 'system_message') and structured_prompt.system_message:
+                system_content = structured_prompt.system_message
+                system_role = 'system'
+            
+            # Check for invalid placeholders in system/developer message
+            if system_content:
+                # Find all placeholders with format {something}
+                import re
+                invalid_placeholders = re.findall(r'\{([^{}]+)\}', system_content)
+                if invalid_placeholders:
+                    # Only language and text are allowed in rare cases - but generally no placeholders here
+                    disallowed = [p for p in invalid_placeholders if p not in ['language', 'text', 'crlf']]
+                    if disallowed:
+                        raise ValueError(f"Invalid placeholders found in system/developer message: {', '.join('{' + p + '}' for p in disallowed)}")
+                
+                prompt['system'] = system_content
+                prompt['system_role'] = system_role
+            
+            # Extract user message from conversation
+            user_message = None
+            if hasattr(structured_prompt, 'conversation') and structured_prompt.conversation:
+                for message in structured_prompt.conversation:
+                    if message.role.lower() == 'user':
+                        user_message = message.content
+                        break
+                        
+            # Ensure we found a user message
+            if not user_message:
+                raise ValueError("PromptDown file must contain at least one user message")
+            
+            # Check for invalid placeholders in user message
+            invalid_placeholders = re.findall(r'\{([^{}]+)\}', user_message)
+            allowed_placeholders = ['text', 'language', 'crlf']
+            disallowed = [p for p in invalid_placeholders if p not in allowed_placeholders]
+            if disallowed:
+                raise ValueError(f"Invalid placeholders found in user message: {', '.join('{' + p + '}' for p in disallowed)}")
+            
+            # Check for required placeholders
+            if '{text}' not in user_message:
+                raise ValueError("User message in PromptDown must contain `{text}` placeholder")
+                
+            prompt['user'] = user_message
+            
+            print(f"Successfully loaded PromptDown file: {prompt_arg}")
+            return prompt, prompt_file_path
+            
+        except Exception as e:
+            print(f"Error parsing PromptDown file: {e}")
+            raise  # Re-raise to stop processing if there's an error
+    
+    # Existing parsing logic for JSON strings and other formats
+    if not any(prompt_arg.endswith(ext) for ext in [".json", ".txt", ".md"]):
         try:
             # user can define prompt by passing a json string
             # eg: --prompt '{"system": "You are a professional translator who translates computer technology books", "user": "Translate \`{text}\` to {language}"}'
             prompt = json.loads(prompt_arg)
+            prompt_file_path = "inline_json"  # Mark as inline JSON
         except json.JSONDecodeError:
             # if not a json string, treat it as a template string
             prompt = {"user": prompt_arg}
+            prompt_file_path = "inline_template"  # Mark as inline template
 
     elif os.path.exists(prompt_arg):
+        prompt_file_path = prompt_arg  # Store the actual file path
         if prompt_arg.endswith(".txt"):
             # if it's a txt file, treat it as a template string
             with open(prompt_arg, encoding="utf-8") as f:
@@ -46,7 +152,7 @@ def parse_prompt_arg(prompt_arg):
         raise ValueError("prompt can only contain the keys of `user` and `system`")
 
     print("prompt config:", prompt)
-    return prompt
+    return prompt, prompt_file_path
 
 
 def main():
@@ -263,7 +369,7 @@ So you are close to reaching the limit. You have to choose your own value, there
         "--batch_size",
         dest="batch_size",
         type=int,
-        help="how many lines will be translated by aggregated translation(This options currently only applies to txt files)",
+        help="how many lines will be translated by aggregated translation (This options currently only applies to txt files)",
     )
     parser.add_argument(
         "--retranslate",
@@ -331,8 +437,17 @@ So you are close to reaching the limit. You have to choose your own value, there
         default=0.01,
         help="Request interval in seconds (e.g., 0.1 for 100ms). Currently only supported for Gemini models. Default: 0.01",
     )
+    parser.add_argument(
+        "--reasoning_effort",
+        dest="reasoning_effort",
+        type=str,
+        default="medium",
+        choices=["low", "medium", "high", "auto"],
+        help="Set the reasoning effort for o3-mini model (default: medium)",
+    )
 
     options = parser.parse_args()
+    project_dir = os.path.dirname(os.path.abspath(options.book_name))
 
     if not options.book_name:
         print(f"Error: please provide the path of your book using --book_name <path>")
@@ -350,17 +465,10 @@ So you are close to reaching the limit. You have to choose your own value, there
     assert translate_model is not None, "unsupported model"
     API_KEY = ""
     if options.model in ["openai", "chatgptapi", "gpt4", "gpt4omini", "gpt4o"]:
-        if OPENAI_API_KEY := (
-            options.openai_key
-            or env.get(
-                "OPENAI_API_KEY",
-            )  # XXX: for backward compatibility, deprecate soon
-            or env.get(
-                "BBM_OPENAI_API_KEY",
-            )  # suggest adding `BBM_` prefix for all the bilingual_book_maker ENVs.
-        ):
-            API_KEY = OPENAI_API_KEY
-            # patch
+        API_KEY = get_project_config("BBM_OPENAI_API_KEY", project_dir) or options.openai_key
+        if API_KEY:
+            # patch if necessary
+            pass
         elif options.ollama_model:
             # any string is ok, can't be empty
             API_KEY = "ollama"
@@ -369,27 +477,27 @@ So you are close to reaching the limit. You have to choose your own value, there
                 "OpenAI API key not provided, please google how to obtain it",
             )
     elif options.model == "caiyun":
-        API_KEY = options.caiyun_key or env.get("BBM_CAIYUN_API_KEY")
+        API_KEY = get_project_config("BBM_CAIYUN_API_KEY", project_dir) or options.caiyun_key
         if not API_KEY:
             raise Exception("Please provide caiyun key")
     elif options.model == "deepl":
-        API_KEY = options.deepl_key or env.get("BBM_DEEPL_API_KEY")
+        API_KEY = get_project_config("BBM_DEEPL_API_KEY", project_dir) or options.deepl_key
         if not API_KEY:
             raise Exception("Please provide deepl key")
     elif options.model.startswith("claude"):
-        API_KEY = options.claude_key or env.get("BBM_CLAUDE_API_KEY")
+        API_KEY = get_project_config("BBM_CLAUDE_API_KEY", project_dir) or options.claude_key
         if not API_KEY:
             raise Exception("Please provide claude key")
     elif options.model == "customapi":
-        API_KEY = options.custom_api or env.get("BBM_CUSTOM_API")
+        API_KEY = get_project_config("BBM_CUSTOM_API", project_dir) or options.custom_api
         if not API_KEY:
             raise Exception("Please provide custom translate api")
     elif options.model in ["gemini", "geminipro"]:
-        API_KEY = options.gemini_key or env.get("BBM_GOOGLE_GEMINI_KEY")
+        API_KEY = get_project_config("BBM_GOOGLE_GEMINI_KEY", project_dir) or options.gemini_key
     elif options.model == "groq":
-        API_KEY = options.groq_key or env.get("BBM_GROQ_API_KEY")
+        API_KEY = get_project_config("BBM_GROQ_API_KEY", project_dir) or options.groq_key
     elif options.model == "xai":
-        API_KEY = options.xai_key or env.get("BBM_XAI_API_KEY")
+        API_KEY = get_project_config("BBM_XAI_API_KEY", project_dir) or options.xai_key
     else:
         API_KEY = ""
 
@@ -438,7 +546,8 @@ So you are close to reaching the limit. You have to choose your own value, there
         model_api_base=model_api_base,
         is_test=options.test,
         test_num=options.test_num,
-        prompt_config=parse_prompt_arg(options.prompt_arg),
+        prompt_config=parse_prompt_arg(options.prompt_arg)[0],  # Get just the prompt config
+        prompt_file_path=parse_prompt_arg(options.prompt_arg)[1],  # Get the prompt file path
         single_translate=options.single_translate,
         context_flag=options.context_flag,
         context_paragraph_limit=options.context_paragraph_limit,
@@ -471,6 +580,10 @@ So you are close to reaching the limit. You have to choose your own value, there
             "gpt4",
             "gpt4omini",
             "gpt4o",
+            "o1",
+            "o1preview",
+            "o1mini",
+            "o3mini",
         ], "only support chatgptapi for deployment_id"
         if not options.api_base:
             raise ValueError("`api_base` must be provided when using `deployment_id`")
@@ -495,6 +608,14 @@ So you are close to reaching the limit. You have to choose your own value, there
         e.translate_model.set_gpt4omini_models()
     if options.model == "gpt4o":
         e.translate_model.set_gpt4o_models()
+    if options.model == "o1preview":
+        e.translate_model.set_o1preview_models()
+    if options.model == "o1":
+        e.translate_model.set_o1_models()
+    if options.model == "o1mini":
+        e.translate_model.set_o1mini_models()
+    if options.model == "o3mini":
+        e.translate_model.set_o3mini_models()
     if options.model.startswith("claude-"):
         e.translate_model.set_claude_model(options.model)
     if options.block_size > 0:
@@ -514,6 +635,11 @@ So you are close to reaching the limit. You have to choose your own value, there
     if options.model == "geminipro":
         e.translate_model.set_geminipro_models()
 
+    # Set the reasoning_effort parameter BEFORE calling make_bilingual_book
+    if hasattr(e, "translate_model"):
+        e.translate_model.reasoning_effort = options.reasoning_effort
+
+    # Now call make_bilingual_book with all parameters properly set
     e.make_bilingual_book()
 
 

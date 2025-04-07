@@ -1,0 +1,427 @@
+# LA FIN DE L’ÉCONOMIE ÉGALITARISTE
+
+:::{.content-hidden when-format=latex}
+*The Revolution in Earnings Capacity in a World Without Jobs*
+:::
+
+> « Dieu ne se laisse pas tourner en ridicule : ce que l’homme sème, il le récoltera aussi. » – GALATES 6:7
+
+D’importants bouleversements dans les formes dominantes de production ou de défense modifient la structure de la société, ainsi que la répartition des richesses et du pouvoir parmi différents groupes. L’ère de l’information implique bien plus qu’un usage en expansion d’ordinateurs puissants : elle induit une révolution dans les modes de vie, les institutions et la répartition des ressources. Grâce à la diminution drastique du rôle de la violence masquée dans le contrôle des ressources, une nouvelle configuration de la richesse se mettra en place, sans la médiation coercitive du gouvernement qui a caractérisé le vingtième siècle. Par ailleurs, comme l’emplacement géographique perdra beaucoup de son importance dans la société de l’information, toutes les organisations fonctionnant à l’intérieur de frontières physiques plutôt qu’au-delà verront leur rôle diminuer. Les politiciens, les syndicats, les professions réglementées, les lobbyistes et les gouvernements en tant que tels perdront de leur influence. Étant donné que les faveurs et les restrictions de commerce arrachées aux gouvernements perdront de leur valeur, on gaspillera moins de ressources pour les promouvoir ou pour s’y opposer.
+
+Ceux qui avaient recours à la contrainte et à l’avantage local pour redistribuer les revenus perdront l’essentiel de leur pouvoir. La façon de commander aux ressources va donc changer. La richesse produite de manière privée et jusqu’ici réquisitionnée par l’État-nation restera entre les mains de ceux qui la génèrent. Des montants de plus en plus importants passeront entre les mains des entrepreneurs et des investisseurs en capital-risque les plus talentueux du monde entier. La mondialisation, de même que d’autres caractéristiques de l’économie de l’information, aura tendance à accroître le revenu perçu par les individus les plus compétents dans chaque domaine. Étant donné l’ampleur de la valeur marginale générée par des performances supérieures, la capacité de gain de l’ensemble de l’économie mondiale prendra une forme semblable à celle qu’on observe déjà dans les milieux professionnels liés à la performance, comme le sport de haut niveau ou l’opéra.
+
+## UNE AMPLEUR AU-DELÀ DE LA LOI DE PARETO
+
+La loi de Pareto stipule que 80 % du bénéfice dépend de 20 % des personnes impliquées. Cela pourrait être approximativement vrai. Toutefois, plus frappant encore, 1 % de la population des États-Unis paie 28,7 % de l’impôt sur le revenu, ce qui suggère qu’à mesure que les sociétés progressent dans l’ère de l’information, elles pourront connaître une répartition des revenus et des capacités encore plus inégale que celle observée par Vilfredo Pareto à la fin du XIXe siècle. Les gens sont déjà assez habitués à des inégalités de richesse substantielles. En 1828, on estimait que 4 % des New-Yorkais possédaient 62 % de la richesse de la ville. En 1845, ces 4 % contrôlaient environ 81 % de la richesse, tant au travers des entreprises que des avoirs non incorporés à New York. Plus globalement, 10 % de la population américaine possédait environ 40 % de la richesse pour l’ensemble des États-Unis en 1860. En 1890, certains documents indiquent que les 12 % les plus fortunés détenaient alors près de 86 % de la richesse de l’Amérique[^270].
+
+Les chiffres de 1890 correspondent à peu près à ce que Pareto avait en tête. Ils diffèrent de son ratio 80-20 % surtout en raison d’une massive arrivée d’immigrants sans le sou à la fin du XIXe siècle : la part de richesse leur revenant était insignifiante ; leur venue a donc automatiquement accru les inégalités dans la répartition globale. C’est en fait une parfaite illustration du fait que toute poussée réelle des opportunités entraîne presque inévitablement, au moins temporairement, une flambée des inégalités. Vers 1890, les immigrants représentaient environ 15 % de la population totale des États-Unis, et plus de 40 % dans certains États du nord-est, région où se concentraient une bonne partie des revenus et de la richesse[^271]. Si l’on tient compte de cette poussée migratoire, l’Amérique de la fin du XIXe siècle correspond plutôt bien à la formule de Pareto, au même titre que la Suisse de la même époque, où il résidait.
+
+L’ère de l’information a déjà changé la répartition des richesses, notamment aux États-Unis, et c’est l’une des causes de la virulence de la politique américaine contemporaine, aspect que nous analyserons plus en détail dans le prochain chapitre. L’économie de l’information requiert un niveau assez poussé de compétences en lecture, en écriture et en mathématiques pour quiconque veut y réussir sur le plan professionnel. Une vaste enquête du ministère de l’Éducation américaine, « Adult Literacy in America », démontre que pas moins de 90 millions d’Américains de plus de quinze ans sont dramatiquement incompétents dans ces domaines. Ou, pour reprendre l’expression plus imagée de l’écrivain américain Bill Bryson, « Ils sont aussi stupides que de la bave de porc »[^272]. Plus précisément, 90 millions d’adultes aux États-Unis se révèlent incapables d’écrire une lettre, de comprendre un horaire de bus ou d’additionner et de soustraire, même avec l’aide d’une calculatrice. Ceux qui ne parviennent pas à déchiffrer un tableau de bus ont peu de chances de comprendre quoi que ce soit à l’« autoroute de l’information ». C’est au sein de ce tiers de la population américaine qui ne s’est pas préparé à entrer dans le monde des échanges électroniques qu’est en train d’émerger une « sous-classe » en colère. En haut de la pyramide sociale, on trouve un petit groupe, peut-être 5 %, d’actifs hautement qualifiés ou de détenteurs de capitaux : l’équivalent, dans l’ère de l’information, de l’aristocratie terrienne de l’époque féodale — à la différence majeure que l’élite de l’ère de l’information est experte en production, et non en art de la guerre.
+
+### La mégapolitique de l’innovation
+
+Pour des raisons peu convaincantes, la plupart des sociologues du XXe siècle ont considéré que le progrès technologique avait tendance, naturellement, à produire des sociétés de plus en plus égalitaires. Ce n’était pas le cas avant 1750 environ. À partir de cette période, de nouvelles technologies industrielles novatrices ont commencé à générer des emplois pour les non-qualifiés et à accroître l’échelle d’exploitation des entreprises. La technologie de l’usine n’a pas seulement augmenté le revenu réel des pauvres sans grand effort de leur part ; elle a également contribué à renforcer les structures politiques, devenues plus aptes à redistribuer les revenus tout en étant plus capables de contenir les troubles. Sur une période plus étendue, rien n’indique pourtant que la technologie conduise systématiquement à atténuer plutôt qu’à accentuer les différences de talents et de motivations humaines. Certaines techniques se sont avérées relativement égalitaires, nécessitant le concours de nombreux travailleurs indépendants dotés d’une utilité à peu près égale ; d’autres ont conféré le pouvoir ou la richesse à quelques maîtres, tandis que la majorité n’était guère plus que des serfs. L’histoire et la technologie ont façonné différemment chaque nation. L’ère de l’usine a imposé une forme particulière, et l’ère de l’information en crée une autre, moins violente, plus élitiste et moins égalitaire que celle dont elle prend la relève.
+
+## LE NAVET D’AMMON
+
+Vers la fin du XIXe siècle, plusieurs économistes, dont William Stanley Jevons, le plus renommé en Angleterre, commencèrent à développer l’économie mathématique. Parmi les premiers à appliquer la théorie des probabilités à une question sociale de grande ampleur, on compte l’économiste allemand Otto Ammon dont les travaux furent traduits en anglais pour la première fois par Carlos C. Closson dans la *Journal of Political Economy* en 1899. L’article s’intitulait « Some Social Applications of the Doctrine of Probability »[^273]. On pourrait croire qu’il ne présente plus aujourd’hui qu’un intérêt historique. Pourtant, il soulève des thèmes économiques qui reviennent au premier plan et le fait d’une manière qui demeure stimulante.
+
+Otto Ammon s’intéressait à la répartition des capacités au sein de la société et à leurs liens avec la répartition des revenus et des statuts sociaux. Il prit pour point de départ la répartition probable des totaux obtenus en lançant quatre dés, chacun comportant six faces. Parmi les 1296 lancers possibles, certains totaux se produisent plus fréquemment que d’autres.
+
+*La somme de 24 points n’arrive qu’une seule fois.  
+La somme de 23 points arrive 4 fois.  
+La somme de 22 points arrive 10 fois.  
+La somme de 21 points arrive 20 fois.  
+La somme de 20 points arrive 35 fois.  
+La somme de 19 points arrive 56 fois.  
+La somme de 18 points arrive 80 fois.  
+La somme de 17 points arrive 104 fois.  
+La somme de 16 points arrive 125 fois.  
+La somme de 15 points arrive 140 fois.  
+La somme de 14 points arrive 146 fois.  
+La somme de 13 points arrive 140 fois.  
+La somme de 12 points arrive 125 fois.  
+La somme de 11 points arrive 104 fois.  
+La somme de 10 points arrive 80 fois.  
+La somme de 9 points arrive 56 fois.  
+La somme de 8 points arrive 35 fois.  
+La somme de 7 points arrive 20 fois.  
+La somme de 6 points arrive 10 fois.  
+La somme de 5 points arrive 4 fois.  
+La somme de 4 points arrive 1 fois.*
+
+On constate aussitôt que les totaux élevés et faibles sont relativement rares. Il existe deux résultats possibles (4 et 24), mais les quatre plus hauts d’entre eux ne se montrent que trente-cinq fois au total. À l’inverse, sept des valeurs moyennes font leur apparition 884 fois ; le tiers central des résultats probables est obtenu dans plus de deux tiers des lancers. C’est ainsi qu’apparaît la « distribution centrale » typique de la théorie des probabilités.
+
+Otto Ammon estimait que cette répartition aléatoire des dés recouvrait celle des capacités humaines. Il écrivait avant l’invention des tests de quotient intellectuel et s’appuyait sur les travaux antérieurs de Francis Galton. Ammon considérait que l’utilité sociale, ou la réussite dans la vie, ne dépendait pas de l’intelligence au sens strict. Il regroupait sous trois étiquettes « les qualités mentales les plus déterminantes pour la place qu’un individu occupera dans la vie ». Il les classait comme suit :
+
+1. Traits intellectuels : ils comprennent tout ce qui relève de la dimension rationnelle de la personne : la rapidité de compréhension, la mémoire, la capacité de jugement, l’inventivité, etc.
+
+2. Traits moraux : maîtrise de soi, volonté, assiduité, persévérance, modération, sens des responsabilités familiales, honnêteté, etc.
+
+3. Traits économiques : goût des affaires, talent d’organisation, compétence technique, prudence, aptitude au calcul, prévoyance, sens de l’épargne, etc.
+
+Il ajoutait ensuite :
+
+4. Traits physiques : capacité de travail, endurance, aptitude à l’effort et à résister à toutes formes de tension, vitalité, bonne santé, etc.
+
+Selon Otto Ammon, la répartition de ces qualités d’intelligence, de caractère, de talent et de constitution physique suivait la même courbe que le lancer de dés. Il allait même plus loin, suggérant qu’il existait en réalité bien plus de quatre variables, elles-mêmes très graduées. Si au lieu de lancer quatre dés, on en lançait huit, on obtiendrait alors pas moins de 1 679 616 possibilités, et pourtant, la somme maximale de 48 ne surviendrait qu’une seule fois. L’homme ou la femme ayant un score très élevé dans tous les facteurs qui déterminent sa place dans la vie est bien plus rare que ne le laisse présager la probabilité de faire quatre « 6 ». Peut-être aussi rare que celle de faire huit « 6 ». Ammon notait toutefois qu’un mélange ponctuel de scores très hauts et extrêmement faibles pouvait donner « des personnes aux qualités déséquilibrées, disharmonieuses, qui, en dépit de certaines aptitudes brillantes, ne parviennent pas à réussir dans la vie ».
+
+> « Tels de solitaires sommets de montagne, ou plutôt la flèche d’une cathédrale, les hommes de grand talent ou de génie émergent au-dessus de la masse de la médiocrité… Le nombre des plus doués est malgré tout si faible qu’il est impossible que “beaucoup” de ces individus aient été tenus à l’écart dans les classes inférieures par l’imperfection des institutions sociales. » — OTTO AMMON
+
+### Qualités et revenus
+
+Ammon examine ensuite la répartition des revenus. Bien sûr, les données statistiques des années 1890 étaient nettement moins fiables qu’aujourd’hui, mais la bureaucratie allemande était déjà bien développée : Otto Ammon découvrit, dans des États allemands comme la Saxe, la Prusse, le Bade et ailleurs, des courbes de revenus qui, selon lui, ressemblaient à la fois à la répartition des capacités humaines qu’il pressentait et à la distribution des dés. Il retrouva sensiblement les mêmes tendances dans *Life and Labour of the People of London* (1892) de Charles Booth. Les observations de Booth renvoient effectivement à la théorie des probabilités d’Ammon. Booth constatait que 25 % des Londoniens étaient pauvres ou pire, 51,5 % vivaient correctement et 15 % étaient aisés ou plus. Si l’on regroupe les deux catégories les plus défavorisées, on obtient 9,5 %. Avant l’institutionnalisation étatique du XXe siècle, on évoquait fréquemment « le dixième submergé » pour parler des moins favorisés[^274]. Les deux catégories supérieures mentionnées par Booth s’élèvent à 7 %.
+
+De tout cela, Otto Ammon déduit plusieurs conclusions intéressantes. Il considérait que l’ensemble des aptitudes d’une personne déterminait, de manière générale, sa place dans la société et son revenu. Il estimait que les capacités élevées faisaient naturellement grimper les individus dans l’échelle sociale et salariale. « Tels de solitaires sommets de montagne — ou plutôt, “comme la flèche d’une cathédrale” — les hommes de grand talent ou de génie se dressent au-dessus de la large masse de la médiocrité… » Il croyait par ailleurs que « la véritable forme de la supposée pyramide sociale est celle d’un oignon ou d’un navet assez aplati ». Ce navet, avec un col mince à son sommet et une racine fine en bas, apparente mieux la société industrielle contemporaine qu’une pyramide classique et sa masse concentrée au bas.
+
+### La forme du navet
+
+Les sociétés industrielles modernes adoptent en effet toutes la forme d’un « navet », avec une petite classe de riches et de professions supérieures au sommet, une vaste classe moyenne et une minorité de pauvres au bas de l’échelle. Relativement à la classe moyenne, les deux extrêmes restent de taille modeste. À Londres, aujourd’hui, même si ce n’est peut-être pas le cas à Washington, on trouve en réalité bien plus de millionnaires que de sans-abri.
+
+Tout cela est intrigant, mais l’intérêt immédiat des travaux d’Ammon réside dans la mutation longue durée que nous vivons actuellement dans les rapports, aussi bien financiers que politiques, entre l’élite et la classe moyenne. Les compétences recherchées à l’ère de l’usine, qui s’achève, diffèrent de celles exigées à l’ère de l’information. La plupart des gens pouvaient maîtriser les connaissances nécessaires à la conduite des machines au milieu du XXe siècle, mais ces emplois ont désormais été remplacés par des machines dites « intelligentes » capables, en pratique, de s’autogérer. Un pan entier des emplois peu ou moyennement qualifiés a d’ores et déjà disparu. Si notre analyse est correcte, il ne s’agit que d’un prélude à la disparition de la plupart des emplois et à la reconfiguration du travail sous forme de prestations ponctuelles.
+
+> « Et pourtant, il est officiellement reconnu, bien que discrètement, que la plupart des jeunes chômeurs ne possèdent pas la moindre qualification… »[^275] — CLIVE JENKINS ET BARRIE SHERMAN
+
+## MOINS DE PERSONNES, PLUS DE TRAVAIL
+
+Transposons la simple distribution de quatre dés aux capacités humaines et imaginons qu’à l’ère de l’usine, un score entre 4 et 2 (soit 8) suffisait pour être « employable ». En supposant que cela concernerait plus de 95 % de la population, tandis que 3 % de chômage était considéré comme un état de « plein emploi » durant les années 1940-1950, on peut se figurer la situation. Imaginons à présent qu’à l’ère de l’information, le score minimal requis passe de 8 à 12, autrement dit de 4 x 3. On aboutirait alors à près de 24 % d’« inemployables » d’après ce critère.
+
+Un phénomène analogue affecterait le sommet de l’échelle. À l’ère de l’usine, un score de 4 x 4 ouvrait l’accès aux fonctions supérieures ; à l’ère de l’information, ce seuil s’élèverait à 4 x 5. De ce fait, la proportion de personnes assez compétentes pour pourvoir les postes les plus élevés et les mieux rémunérés chuterait de 34 % à 5 %.
+
+Ces chiffres restent purement hypothétiques. Évidemment, nous ne connaissons pas avec précision l’ampleur de la hausse du niveau de compétence requis — qu’elle ait déjà eu lieu ou qu’elle soit en cours — mais on sait qu’elle est réelle. Du fait de la forme « navet », une progression même modeste du niveau requis pour exercer un rôle économique significatif exclura une large part de la population. Inversement, une légère augmentation de l’exigence minimale de compétence pour occuper les meilleurs emplois réduirait drastiquement le nombre de candidats au sommet. Un tel phénomène est bel et bien engagé, même si nous ignorons son ampleur future.
+
+Les preuves politiques et sociales abondent pourtant pour confirmer qu’une telle mutation touche déjà toutes les sociétés industrielles avancées, que la cadence s’accélère et que l’effet est considérable. Les compétences rares se voient gratifiées de primes de plus en plus élevées. Les observateurs conventionnels s’en indignent. Prenons l’exemple de *The Winner-Take-All Society*, de Robert H. Frank et Philip J. Cook[^276]. Cet ouvrage démontre l’essor d’une tendance particulière aux États-Unis : dans de nombreux domaines, les plus compétents gagnent des revenus très élevés. Parallèlement, les opportunités de réussite liée à des qualifications moyennes se restreignent ; un nombre significatif de compétences moindres sortent dorénavant du champ d’un revenu correct, même si elles subsistent dans des services de proximité à petite échelle.
+
+Si l’ère de l’information exige un renforcement des compétences à la fois dans le bas et le haut de l’échelle, tous, hormis l’élite constituant 5 % de la population, se retrouveront relativement désavantagés, tandis que ce groupe de 5 % profitera massivement de la situation. Il récoltera à la fois une plus large part du revenu total et en conservera la plus grande fraction. En même temps, il fournira une part plus importante du travail mondial que jamais auparavant. Une part significative d’entre eux émergera comme « individus souverains » (*Sovereign Individuals*). À l’ère de l’information, la forme navet de la répartition des revenus ressemblera davantage à celle de 1750 qu’à celle de 1950.
+
+Les sociétés qui ont été habituées à valoriser l’égalité des revenus et un haut niveau de consommation pour des personnes aux compétences modestes ou faibles seront confrontées au découragement et à l’inquiétude. À mesure que les économies de plus d’États intègrent en profondeur les technologies de l’information, elles voient apparaître — comme c’est déjà de toute évidence en Amérique du Nord — une sous-classe plus ou moins inemployable. Tout cela peut provoquer un rejet nationaliste et anti-technologie, comme nous le détaillerons dans le prochain chapitre.
+
+L’ère de l’usine pourrait apparaître rétrospectivement comme une période unique : des machines imparfaites laissaient un important créneau pour la main-d’œuvre peu qualifiée. Maintenant que les machines se passent de nous, l’ère de l’information déverse ses bienfaits sur les 5 % les plus prometteurs du navet d’Otto Ammon. Elle se montrait déjà fort avantageuse pour les 10 % supérieurs, la « cognitive elite ». Elle sera encore plus profitable pour les 10 % de ces 10 %, c’est-à-dire l’élite « deux fois supérieure ». À l’époque féodale, il fallait cent paysans semi-qualifiés pour entretenir un seigneur (ou chevalier) hautement habile dans l’art de la guerre. Les « individus souverains » de l’économie de l’information ne seront pas des seigneurs de guerre, mais des maîtres d’aptitudes spécialisées — y compris dans l’entrepreneuriat et l’investissement. Pourtant, la proportion médiévale d’environ cent pour un semble avoir vocation à revenir. Pour le meilleur ou pour le pire, les sociétés du XXIe siècle risquent donc d’être plus inégalitaires que celles du XXe.
+
+## LA PLUPART DES GENS BÉNÉFICIERONT DE LA MORT DE LA POLITIQUE
+
+Il est peu probable que l’économie égalitariste, et les nations qui s’y rattachent, disparaissent sans crise. Une crise, par définition, ne peut durer qu’un temps bref ; néanmoins, le choc suscité par la fin des nations pourrait se faire sentir plusieurs années. Malgré tout, il est primordial de ne pas oublier que, dans de nombreuses régions du monde, la transition vers l’économie de l’information entraînera une forte croissance de la production, et donc des revenus plus élevés pour tous. En effet, dans les zones qui n’ont jamais pleinement profité des bénéfices de l’industrialisation mais qui sont désormais ouvertes au marché libre, les revenus augmentent, ou augmenteront, pour l’ensemble des classes sociales.
+
+La fin de la contrainte au sein de l’économie permettra aux producteurs de conserver des capitaux jusque-là saisis et redistribués. La redistribution signifie presque toujours que les actifs sont redirigés vers des usages moins rentables et finissent par réduire la productivité du capital. Les richesses soustraites à ceux qui savent le mieux les investir étaient le plus souvent réallouées par des politiques publiques à des individus moins compétents en la matière. Dans la plupart des cas, les avoirs redistribués alimentaient des activités économiques de rang inférieur. La combinatoire de la libération des ressources hors de la sphère d’une contrainte systémique variera selon les juridictions. Cette liberté conduira par ailleurs à la faillite des États-providence et mettra en lumière les déséconomies d’échelle qui ébranlent déjà les grands gouvernements et toutes les institutions subventionnées par eux. D’autre part, l’émergence de la cyberéconomie réduira les entraves économiques frappant les populations soumises à des souverainetés affectées habituellement par leur incapacité à se coordonner efficacement à grande échelle.
+
+> « Si le monde fonctionne comme un grand marché unique, chaque employé doit rivaliser avec chacun, partout dans le monde, qui peut faire le même travail. Ils sont innombrables et beaucoup ont faim. »[^277] — ANDREW S. GROVE, PRÉSIDENT D’INTEL CORP.
+
+## LE DÉPLACEMENT DES ATOUTS GÉOGRAPHIQUES
+
+Parce qu’il n’y aura plus de rendements croissants liés à la violence, vivre sous un gouvernement capable de tirer profit de tels rendements ne présentera plus d’avantage. Les gouvernements auparavant fonctionnels ne seront plus des alliés du développement de la richesse, mais bien leurs adversaires. L’imposition élevée, le poids réglementaire et les énormes dépenses de redistribution de revenus feront de ces territoires des espaces peu attractifs pour les affaires.
+
+Ce sont les résidents des États qui étaient restés pauvres ou sous-développés au cours de l’âge industriel qui ont le plus à gagner de la libération de l’économie hors de son ancrage géographique. Il s’agit là d’un constat inverse à ce qu’on entendra généralement. Le débat principal autour de l’avènement de l’économie de l’information et de l’émergence des « individus souverains » portera sur les conséquences, prétendues néfastes, pour l’équité, dues à la fin de la politique. Il est certain que l’économie globale de l’information va porter un coup fatal à la redistribution des revenus à grande échelle. Les principaux bénéficiaires de la redistribution à l’ère industrielle ont été les habitants de juridictions opulentes où le niveau de consommation dépasse de vingt fois la moyenne mondiale. Seules les nations de l’OCDE ont vu dans la redistribution de la richesse un réel effet de relèvement pour les bas salaires.
+
+Les plus grandes inégalités de revenus s’observent entre régions (et non pas à l’intérieur d’une même juridiction). Mais la redistribution n’y a pas apporté grand-chose pour les combler. Nous pensons même qu’à travers l’aide étrangère et les programmes internationaux de développement, on a subventionné des gouvernements incompétents, ce qui a paradoxalement tendu à diminuer les revenus réels des pauvres installés dans les pays pauvres. Nous reviendrons sur cette question, entre autres, en analysant l’impact de la révolution de l’information sur la morale.
+
+### Un siècle de montée des inégalités
+
+Durant l’ère industrielle, le facteur qui a le plus influé sur le revenu à vie d’un individu était la juridiction politique dans laquelle il naissait. Contrairement à l’idée reçue dans les économies développées, les inégalités se sont creusées à un rythme accéléré au cours de l’époque industrielle. D’après une estimation citée par la Banque mondiale, le revenu moyen par habitant dans les pays les plus riches est passé d’environ onze fois celui des pays les plus pauvres en 1870, à cinquante-deux fois en 1985[^278]. Tandis que les inégalités mondiales augmentaient drastiquement, elles semblaient diminuer à l’intérieur d’une fraction du monde : les pays industriels les plus prospères. L’écart se creusait en réalité entre États, plus qu’en leur sein.
+
+Pour des raisons que nous avons déjà détaillées, la technologie industrielle elle-même tendait à resserrer les écarts de revenus au sein des pays où les gouvernements parvenaient à exercer un pouvoir à grande échelle de façon relativement organisée. À l’époque où les rendements de la violence augmentaient (la période industrielle), les gouvernements opérant à grande échelle finissaient généralement contrôlés par leurs propres employés. Il devenait pratiquement impossible de restreindre la part de ressources et de richesses que ceux-ci géraient. Cet accès non contraint aux ressources constituait un avantage militaire majeur, tant que la puissance brute prévalait sur l’efficacité dans l’usage de la force. Conséquence également notable du contrôle gouvernemental par ses personnels : l’accélération sensible de la redistribution du revenu. Presque toutes les sociétés prévoient un minimum de redistribution, fût-ce de manière temporaire dans des contextes exceptionnels. Toutefois, l’examen attentif de l’histoire de l’aide aux pauvres montre que les prestations sociales s’avèrent le plus souvent plus généreuses dans des périodes où la pauvreté est marginale. Quand les revenus de la population se dégradent, les aides ont tendance à être réduites. Les conditions propres aux nations industrialisées riches dans la seconde moitié du XXe siècle étaient quasiment idéales pour développer la redistribution du revenu, conduisant de ce fait à des rémunérations plus intéressantes pour les emplois non qualifiés. À la longue, cela a même garanti une consommation élevée à ceux qui ne contribuaient pas du tout au monde du travail.
+
+### Le paradoxe de la richesse industrielle
+
+Le paradoxe veut que ce soit dans ces mêmes juridictions qu’un plus grand nombre de personnes se soient enrichies. Cette situation est cependant logique si l’on comprend la dynamique de la mégapolitique, telle que décrite dans les chapitres précédents. Les principaux secteurs de l’économie industrielle se perfectionnaient à condition de bénéficier d’un ordre imposé à grande échelle. Cela les rendait hautement vulnérables à l’extorsion par les syndicats et par les gouvernements, toujours enclins à maximiser le nombre d’individus dépendant d’eux. Toutefois, une redistribution du revenu sur grande échelle n’a pas neutralisé la capacité de l’économie industrielle à progresser. Quiconque avait la chance de naître en Europe de l’Ouest, dans les anciennes colonies anglo-saxonnes ou au Japon durant l’apogée de l’industrialisation était alors très probablement plus riche qu’un individu de mêmes compétences installé en Amérique du Sud, en Europe de l’Est, dans l’URSS finissante, en Afrique ou en Asie continentale. La diffusion des technologies de l’information contribuera à écarter bien des barrières au développement qui empêchèrent la majorité de la population mondiale de tirer avantage, même en partie, des marchés libres pendant une bonne partie de la modernité.
+
+> « Les caractéristiques intrinsèques des pays pauvres ne sont guère propices à une organisation de grande envergure, et particulièrement à l’organisation à large rayon d’action qui définit la gouvernance. »[^279] — MANCUR OLSON
+
+## DES DÉSÉCONOMIES D’ÉCHELLE ET UNE CROISSANCE BLOQUÉE
+
+Comme l’a démontré Mancur Olson, la pauvreté au XXe siècle ne découle pas d’un manque de capitaux ou de personnel qualifié. Dans « Diseconomies of Scale and Development », un article publié en 1987, deux ans avant la chute du mur de Berlin, Olson écrivait : « Si le capital avait été réellement en pénurie dans les pays sous-développés, sa “productivité marginale” et donc sa rentabilité auraient dû y être supérieures à celles qu’on observe dans les pays prospères. Le faible taux de croissance de nombreux pays ayant reçu une aide étrangère non négligeable, et la faible productivité de certaines usines construites dans ces contrées, ont encore affaibli la crédibilité de la thèse selon laquelle le sous-développement vient d’un manque de capitaux. »[^280] Cela semble correct. Si le facteur crucial avait été la pénurie de capitaux ou de savoir-faire, leur rendement se serait avéré plus élevé dans les pays pauvres que dans les pays développés. Ingénieurs et capitaux auraient afflué jusqu’à ce que les revenus s’équilibrent. La réalité a souvent été inverse : on a assisté à un important exode de personnes formées hors de ces économies en retard. Et les rares qui parvenaient à cumuler un capital localement cherchaient généralement à l’exporter au plus vite vers la Suisse ou d’autres pays développés.
+
+### Un meilleur gouvernement ne pouvait pas être importé
+
+Olson soutient, et nous le rejoignons, que le véritable obstacle au développement dans les pays en retard résidait dans le seul facteur de production qu’on ne pouvait ni emprunter ni importer : le gouvernement. Cette problématique s’est aggravée au XXe siècle. En 1900, le Royaume-Uni et la France — et quelques autres pays européens — exportaient encore une certaine forme de gouvernance « compétente » dans des régions où les pouvoirs locaux étaient impuissants à faire régner un ordre efficace à grande échelle. Mais l’évolution des conditions mégapolitiques du XXe siècle a fait grimper le coût d’une telle domination, tout en diminuant sa rentabilité. Le colonialisme, qualifié d’« impérialisme » par ses détracteurs, a cessé d’être financièrement rentable. Les progrès technologiques ont renchéri le coût de la projection de force du centre vers la périphérie, tout en réduisant les dépenses nécessaires à une résistance locale redoutable. Par conséquent, les puissances coloniales se sont retirées, ou n’ont gardé que de maigres enclaves, telles que les Bermudes ou les îles Caïmans.
+
+> « Si l’État-nation postcolonial était devenu un carcan pour le progrès, comme l’admettaient de plus en plus certains critiques africains vers la fin des années 1980, le principal responsable ne faisait guère de doute. L’État ne libérait ni ne protégeait ses citoyens, quels que fussent ses discours. Bien au contraire, il étouffait et exploitait, ou bien il s’avérait incapable de fonctionner réellement. »[^281] — BASIL DAVIDSON
+
+Les gouvernements locaux qui ont succédé à la domination coloniale dans les pays non-colonisés par des Européens de souche ont tiré leurs dirigeants et leurs fonctionnaires de populations peu familières avec la gestion de grandes entités, et souvent dépourvues d’aptitudes ou d’expérience dans ce domaine. Dans beaucoup de cas, notamment en Afrique, l’infrastructure héritée des puissances coloniales sur le départ a été rapidement pillée, dégradée ou laissée en déshérence. Des lignes téléphoniques ont été arrachées par des pilleurs avant d’être martelées en bracelets. Les routes n’ont pas été entretenues. Les rails sont devenus impraticables à mesure que les voies se délabraient et que les locomotives tombaient en panne. Au Zaïre, l’immense réseau de transport mis en place par les Belges était pratiquement hors d’usage dès 1990. Seul un petit nombre de vieux bateaux fluviaux subsistaient, parmi lesquels l’un avait été utilisé comme palace flottant par le dictateur.
+
+La difficulté à maintenir des lignes de transport et de communication reflète l’inaptitude des États les plus en retard à imposer un ordre minimal. Elle a maintenu des prix élevés et bloqué l’accès aux opportunités pour l’immense majorité de la population mondiale. Comme le rappelle Olson :
+
+> « D’abord, la médiocrité des transports et des communications contraint souvent l’entreprise à n’utiliser que des ressources de proximité. Lorsqu’elle étend son échelle de production, elle devra aller plus loin pour se fournir en facteurs de production, et plus les réseaux de transport et de communication sont imparfaits, plus vite les coûts liés à cette expansion vont augmenter. Ensuite, et surtout, la médiocrité de ces réseaux entrave énormément la coordination nécessaire à la grande échelle. »[^282]
+
+### Alléger le fardeau d’une mauvaise gouvernance
+
+Les pauvres ambitieux du globe, plus que quiconque, profiteront de l’autonomie qu’apporte la technologie de l’information, laquelle dissocie la capacité de percevoir un revenu du lieu de résidence. Les nouveaux outils, comme le téléphone cellulaire numérique, permettent de communiquer indépendamment de la police locale censée protéger chaque poteau de la convoitise des voleurs de cuivre. Et avec l’essor de la télécopie et d’Internet sans fil, le problème du vol de courrier par des employés postaux miséreux diminue. Il n’est plus nécessaire d’espérer que le courrier ne soit jamais ouvert et le timbre arraché.
+
+Dans bien des cas, la communication efficace se substitue même au transport matériel des biens et des services. Les communications optimisées comme la puissance de calcul démultipliée favorisent la gestion d’activités complexes sans coût inutile. Elles réduisent également les économies d’échelle et fragilisent les grandes organisations. Autant de mutations qui allègent les entraves généralement imposées par des gouvernements incompétents, ce qui freinait historiquement la croissance. La révolution de l’information rendra la compétence gouvernementale bien moins cruciale pour le développement. L’obstacle que ces gouvernements posaient jusqu’ici pour la prospérité de leurs populations s’en trouvera amoindri.
+
+### Vers l’égalité des chances à l’ère de l’information
+
+Avec l’ère de l’information, les avantages de localisation classiques seront rapidement balayés par les nouvelles technologies. Le potentiel de revenu de personnes aux compétences équivalentes s’uniformisera un peu partout, quelle que soit la juridiction où elles vivent. C’est déjà le cas. Avec l’affaiblissement du pouvoir de contrainte et d’avantages locaux dont disposaient certaines institutions pour redistribuer les revenus, les inégalités dans chaque juridiction vont s’accroître. La concurrence mondiale aura aussi pour effet d’élever la rémunération des personnes les plus brillantes dans chaque secteur, où qu’elles résident, comme c’est déjà le cas aujourd’hui pour les athlètes professionnels. Dans un marché global, la valeur marginale d’une performance de tout premier ordre sera colossale.
+
+Alors que les débats publics se focaliseront sur le renforcement des « inégalités » dans les pays de l’OCDE, la possibilité d’évoluer dans un monde plus équitable sera plus forte pour chaque individu. Vivre dans une juridiction dotée d’une gouvernance efficace à grande échelle ne sera plus un impératif pour prospérer. Les capacités innées et la motivation à les cultiver seront évaluées dans un cadre bien plus égalitaire que jamais. Les avantages de localisation, qui ont longtemps favorisé l’enrichissement de certains pays durant la période industrielle, vont être profondément transformés.
+
+### Des rendements plus élevés dans les pays pauvres
+
+Les freins mis en place par les gouvernements des régions pauvres à l’égard de la libre entreprise perdront de leur influence à mesure que la cyberéconomie s’implantera. Par conséquent, capital et compétences, rares dans ces zones, seront plus rentables que ne le prévoyaient les théoriciens du développement des années 1950. À cela s’ajoute la facilité grandissante d’« importer » compétences et capitaux. Contrairement à l’ère industrielle, les économies émergeantes ne devront plus forcément recourir aux ressources productives ou professionnelles du cru. Leur capacité accrue à s’appuyer sur des capitaux ou des expertises externes conduira à une nette amélioration de leur croissance, indépendamment d’une évolution éventuelle de leur gouvernance. Même s’ils ne deviennent ni plus honnêtes ni plus performants, ces États mal gérés auront de moins en moins la possibilité d’empêcher, par la force, leur population de tirer profit de la liberté économique — car le cyberespace leur échappe.
+
+### Boucles de renforcement positif
+
+Dans la nouvelle cyberéconomie, la portabilité quasi totale des technologies de l’information supprime la possibilité de « monopoliser » bien des avantages de localisation de l’ère industrielle. Une concurrence accrue entre un nombre croissant de juridictions portera sur de nouveaux atouts locaux. La souveraineté deviendra commerciale plutôt que prédatrice. Les gouvernements, subissant la force de la compétition, devront s’adapter pour satisfaire les « clients » qui produisent le plus de richesses, et non plus ceux dont l’apport économique est neutre ou négatif.
+
+Pour nos sociétés, c’est un changement majeur par rapport au XXe siècle. L’idéologie de l’État-nation partait du principe que la vie en collectivité devait être réglée de haut en bas, en subventionnant ce qu’on jugeait « indésirable » et en pénalisant ce qui semblait « désirable ». Être pauvre est jugé indésirable, on subventionnait donc les pauvres. Devenir riche est censé être une perspective positive, on taxait donc lourdement cette prospérité pour tendre vers plus d’« équité ».
+
+Cette politique se fondait sur un contexte mégapolitique solide et indépendant de toute discussion ; ses effets pervers — notamment le fait d’encourager la dysfonction — n’avaient guère d’importance. On ne se souciait pas spécialement de la quantité d’efforts, de compétences ou d’ingéniosité nécessaires à l’accumulation de la richesse. Les enjeux se résumaient en termes de droits et d’« acquis sociaux ». Dans l’optique politique du XXe siècle, un résultat n’était « juste » que s’il était égalitaire.
+
+### Le nouveau paradigme
+
+Les conditions mégapolitiques du XXIe siècle orientent vers une meilleure organisation de la vie collective par le marché plutôt que par la décision politique. Le paradigme du marché s’appuie sur la conviction qu’on peut obtenir des résultats supérieurs quand on récompense les accomplissements et qu’on pénalise les échecs. Être pauvre demeure indésirable, tandis qu’enrichir la collectivité est jugé positif. En conséquence, les incitations sont conçues pour récompenser l’accumulation de richesses et inciter chaque personne à payer pour les ressources qu’elle consomme. Un monde est plus « juste » lorsqu’on peut conserver davantage de ce que l’on gagne.
+
+Cette approche sera de plus en plus encouragée au cours du nouveau millénaire. Elle sera aussi plus convaincante, car dorénavant soutenue par la mégapolitique. Dans l’économie de l’information, le capital devient chaque jour plus mobile. La faculté de percevoir des revenus conséquents ne dépend plus nécessairement d’une implantation précise, comme lorsque la création de richesses exigeait surtout de transformer des ressources naturelles. Les activités à haute intensité d’information peuvent désormais se développer n’importe où, échappant peu à peu aux contraintes de la violence.
+
+Les réglementations politiques arbitraires, inutiles ou qui imposent des coûts sans avantage correspondant, perdront en pertinence. Une concurrence poussée va homogénéiser les prix de nombreux biens, services, emplois et capitaux à l’échelle de la planète. Dès lors, le pouvoir des gouvernements à imposer des règles arbitraires se réduira fortement. Tout État imposant des réglementations plus lourdes qu’un autre verrait simplement disparaître le secteur d’activité concerné. Bien sûr, dans certains cas, l’éviction de certaines activités pourra satisfaire le « marché » et renforcer l’attrait d’un territoire. À l’instar d’un hôtel qui décide de bannir le tabagisme dans son hall d’accueil, ce qui peut déplaire à certains clients sans pour autant réduire les recettes globales de l’établissement, de telles régulations ciblées pourront s’avérer rentables. Interdire dans telle zone l’implantation d’un centre de traitement des déchets animaux pourra, par exemple, plaire aux résidents et moteurs économiques locaux.
+
+Ces exemples montrent que la régulation peut, très occasionnellement, avoir une valeur marchande positive, en particulier dans un monde comptant un nombre croissant de juridictions. Préserver la santé publique, la propreté de l’air et de l’eau ou d’autres règles plus exotiques relevant de conventions de copropriété, tout cela pourra être mis en place au bénéfice de certains segments de clientèle.  
+
+### Pas de douanes dans le cyberespace
+
+Nous prévoyons que la commercialisation de la souveraineté entraînera rapidement la dislocation d’une partie des grands États territoriaux. Le fait que les technologies de l’information ne puissent pas être soumises à des contrôles frontaliers (contrairement aux marchandises manufacturées ou agricoles) est lourd de conséquences. Cela signifie que le protectionnisme deviendra graduellement moins opérant, à mesure que l’échange d’informations se substituera de plus en plus à la circulation de biens physiques pour créer de la valeur. Cela signifie aussi que les régions de petite taille seront de moins en moins dépendantes de grandes entités politiques pour accéder aux marchés mondiaux.
+
+La technologie de l’information expose les travailleurs de certains secteurs de service anciennement protégés à la concurrence étrangère. D’il y a vingt ans à aujourd’hui, une entreprise de Toronto pouvait préférer embaucher un comptable local, tandis qu’à l’ère de l’information, un comptable de Budapest ou de Bangalore, en Inde, peut réaliser la même tâche en téléchargeant, sous forme chiffrée, les documents nécessaires via Internet. La communication satellite réduit à quasi-rien la distance : un livreur d’analyse boursière en Inde revient bien moins cher qu’un sur Wall Street. Tous les dix-huit mois environ, la puissance informatique et la rapidité du traitement des informations font un bond considérable (c’est la loi de Moore), ce qui ouvre la concurrence internationale à un nombre croissant de secteurs de services, en dépit des tentatives politiques pour l’entraver. Les professions dites « cérébrales » ne seront pas moins touchées : les « avocats numériques » ou « cybermédecins » proliféreront vraisemblablement dans l’économie de l’information.
+
+### Le déclin programmé de l’État-nation
+
+Le fait que les États-nations soient devenus obsolètes ne signifie pas qu’ils cessent tous d’exister au même moment. Loin de là. Les aspirations sécessionnistes seront les plus fortes dans les grands ensembles politiques où la majorité stagne ou s’appauvrit. Les États d’Asie ou d’Amérique latine où le revenu par habitant monte rapidement pourront subsister plusieurs générations, jusqu’à ce que les perspectives de revenus y deviennent essentiellement similaires à celles des anciens pôles riches. Une fois ce stade atteint, il n’y aura plus de sources de profit évidentes liées à l’écart de coûts, et la dynamique politique n’aura plus de motif porteur.
+
+Nous soupçonnons aussi que les États-nations centrés sur une seule métropole unique pourront se maintenir plus longtemps que ceux qui comportent plusieurs grandes villes rivales, chacune avec sa propre sphère d’influence.
+
+Un autre facteur de délitement probable tient au surendettement de l’État central. Les trois pays industrialisés riches dont la dette publique relative est la plus élevée — le Canada, la Belgique et l’Italie — ne sont pas des exceptions si l’on considère qu’ils abritent des mouvements régionalistes très avancés. Tous trois ont connu de lourds déficits budgétaires pendant des décennies et affichent désormais une dette supérieure à 100 % du PIB. En Italie, la Ligue du Nord est devenue un mouvement puissant et populaire. Son slogan repose sur une équation simple : la « Padanie » (nord de l’Italie) serait plus riche que la Suisse si la majeure partie de ses revenus n’était pas siphonnée pour subventionner Rome et le Mezzogiorno. La Ligue du Nord propose donc une solution évidente : la sécession. Même scénario en Belgique, où la dette nationale dépasse 130 % du PIB : Flamands et Wallons se positionnent comme dans un couple aux portes du divorce. Les Flamands, dans une proportion croissante, jugent qu’ils subventionnent injustement les Wallons et qu’ils gagneraient à se séparer.
+
+Le cas du Canada se singularise par le fait que le Québec, principal foyer de velléités indépendantistes, a historiquement reçu des subsides de la part du reste du pays. Mais avec l’accroissement de la dette fédérale et du déficit, la prise de conscience se fait au Québec que ce mécanisme de redistribution est appelé à diminuer. Le Bloc québécois tente aujourd’hui un argumentaire plus convaincant qu’il y a dix ans : quitter la fédération canadienne permettrait d’augmenter les revenus nets, en se soustrayant à l’impôt fédéral. Les leaders souverainistes laissent même entendre que le Québec pourrait faire sécession sans assumer sa part de la dette nationale.
+
+Les Canadiens hors Québec réprouvent cette vision, car ils ont conscience des transferts importants réalisés jusqu’ici vers la province francophone. Néanmoins, l’attrait du Parti Québécois est fort et il semble qu’un jour, un référendum sur la séparation consacrera la fin de la fédération canadienne. Le sort qui guette, à plus long terme, d’autres États-nations se dessinera dans des circonstances similaires lorsque leurs finances se dégraderont.
+
+Un autre facteur défavorable à la pérennité du Canada, c’est l’immensité de son territoire, faiblement peuplé, avec une infrastructure pensée pour l’ère industrielle. La transition vers l’âge de l’information dévalue ces infrastructures. Un nombre croissant de télétravailleurs se substituera aux ouvriers d’usine et aux employés de bureau. L’utilité sociale des autoroutes et grands axes de transport devra être comparée à leurs coûts d’entretien. Pressées de toutes parts, les différentes factions du Canada pourraient revenir à la conception « exclusionniste » des biens publics proposée au XVIIIe siècle par Adam Smith. Dans *La Richesse des Nations*, Smith écrivait :
+
+> « Si les rues de Londres étaient pavées et éclairées par les fonds du [Trésor national], peut-on imaginer qu’elles le seraient aussi bien, ou même au même coût ? Les dépenses, au lieu d’être financées par un impôt local sur chaque rue, paroisse ou district de Londres, seraient alors ponctionnées sur les recettes générales de l’État, et donc imposées à tous les citoyens, dont la majorité ne tire aucun avantage de l’éclairage ou du pavage des rues londoniennes. »[^283]
+
+En substituant Londres par Toronto, on comprend parfaitement la réflexion qui guettera bien des habitants de l’Alberta ou de la Colombie-Britannique. Par effet de contagion, le principe de la dévolution fera son chemin.
+
+Lorsque le Canada éclatera, cela encouragera inévitablement un mouvement sécessionniste dans le nord-ouest des États-Unis. Les habitants de l’Alaska, de l’État de Washington, de l’Oregon, de l’Idaho et du Montana vivront de plus en plus en décalage par rapport à l’Alberta et la Colombie-Britannique indépendantes.
+
+## APRÈS L’ÉTAT-NATION
+
+Dans l’hypothèse de la dissolution des États-nations, on verra d’abord émerger des entités politiques plus réduites, au niveau régional, provincial, puis in fine, de véritables micro-souverainetés rappelant les cités-États du Moyen Âge, englobant parfois leur arrière-pays. Aussi étrange que cela puisse paraître à des esprits rompus aux hiérarchies étatiques, ces nouvelles souverainetés chercheront, dans bien des cas, à se positionner sur le plan entrepreneurial plutôt qu’à arbitrer des conflits politiques. Elles prendront en quelque sorte la forme d’hôtels ou de restaurants offrant des régulations adaptées à la clientèle qu’elles visent. Néanmoins, cela ne se fera pas sans difficultés spécifiques, comme nous le verrons au chapitre suivant.
+
+> « L’air de la ville affranchit. » - ADAGE MÉDIÉVAL
+
+### Non-citoyens du « pâle »
+
+Malgré tout, l’ingéniosité humaine finit souvent par façonner des institutions innovantes pour capter des opportunités lucratives, même lorsque la demande émane de personnes peu fortunées. Quand les clients potentiels sont les plus riches, le phénomène sera d’autant plus marqué. Quitter son pays — « voter avec ses pieds » — devient une stratégie dès lors qu’on considère une organisation ou un État comme dépassé. Ce fut le cas dans les communes médiévales qui servaient de refuge aux serfs fuyant la féodalité. Leur rôle est probablement comparable à celui que joueront les nouvelles juridictions pour accueillir ceux qui chercheront à fuir les États-nations en ruine. Le fait d’accepter des serfs en fuite comme citoyens, contre l’avis du seigneur féodal et parfois de l’Église, constitua une transgression des règles médiévales. Pourtant, ce fut pour eux une solution pragmatique, affaiblissant le système féodal. Comme le souligne l’historien Fritz Rorig, le serf d’un seigneur laïc, séjournant « un an et un jour » dans une ville, y devenait bourgeois à part entière[^284]. Il est donc logique d’anticiper aujourd’hui l’apparition de nouveaux refuges basés sur de « nouveaux principes » juridiques, qui offriraient aux citoyens d’un État la possibilité de s’affranchir fiscalement, tout comme la ville médiévale protégeait les serfs dans l’ombre de ses murailles.
+
+Albert O. Hirschman, dans son ouvrage *Exit, Voice, and Loyalty* (1969), a exploré la subtilité théorique du « vote avec ses pieds » au sein d’États en déclin. Il prévoyait que les progrès techniques accroîtraient la pertinence de cette stratégie : « Ce n’est que lorsque les pays commenceront à vraiment se ressembler — grâce à la modernisation et à l’évolution des communications — que le danger d’un exode précoce et excessif se présentera… »[^285]. Nous y voici. La technologie de l’information a déjà fortement diminué les différences entre les juridictions, rendant l’exode beaucoup plus attrayant. Bien sûr, qualifier ces départs de « trop tôt » ou « trop nombreux » est une question de point de vue, en l’occurrence celui de l’État qui perd ses contribuables. Les seigneurs du Moyen Âge trouvaient sans doute l’exode « prématuré et excessif » quand ils voyaient leurs serfs devenir bourgeois libres.
+
+Revenons à notre exemple. Il n’est pas irréaliste d’imaginer l’apparition de multiples micro-États offrant l’exil à ceux qui quitteraient l’État-nation mourant. Différentes juridictions concurrenceront leurs conditions d’accueil. Certaines, peut-être sur la côte ouest de l’Amérique du Nord, s’adresseront à des clientèles non-fumeuses, impatientes de ne pas subir la fumée secondaire. De fait, ces États ne plairaient pas aux fumeurs.
+
+Dans la démocratie de masse issue de l’industrie, de telles divergences se réglaient dans des luttes électorales imposant la loi de la majorité. Or il n’est pas obligatoire de procéder toujours ainsi, en obligeant d’importants groupes à renoncer à leurs préférences.
+
+Certains adorent le foie gras, d’autres les hot-dogs, d’autres encore le tofu. Personne ne ressent le besoin d’unifier les pratiques culinaires, parce qu’il n’y a pas interdépendance des goûts individuels. La mégapolitique de l’ère industrielle, en revanche, imposait un modèle unique de consommation sur maints biens collectifs, parce qu’à l’époque, il y avait d’énormes bénéfices économiques à accomplir les choses en grand. Diviser le territoire pour permettre à chacun d’avoir satisfaction était alors jugé peu praticable. Le principe d’exclusion proposé par Adam Smith paraît plus facile à appliquer quand se multiplient par dix ou cent les souverainetés morcelées. Sous l’impulsion d’une économie de l’information, bon nombre de nouvelles souverainetés s’apparentent à de petites enclaves, plutôt qu’à de vastes empires continentaux ; certaines pourraient être des nations autochtones en Amérique du Nord exigeant la souveraineté fiscale comme elles revendiquent déjà l’autorisation d’exploiter des casinos ou de pêcher hors quota.
+
+Parce que les technologies de l’information gommeront les inconvénients de la séparation des marchés, ces nouvelles souverainetés pourront fonctionner davantage à la manière de clubs ou de groupements d’affinités qu’à l’imitation hiérarchique des États-nations traditionnels. Tout comme deux personnes n’ont pas besoin d’aimer les mêmes vêtements ou les mêmes émissions de télévision, il n’est plus indispensable que tout le monde partage la même approche d’organisation politique au sein d’entités fractionnées.
+
+Les goûts et les préférences se diversifiant, les micro-États suivront des modèles de souveraineté tout aussi variés, à l’image de la variété des styles vestimentaires ou des programmes télévisés. Certains micro-États fonctionneront peut-être comme un réseau d’hôtels franchisés ou collaboreront pour mutualiser des fonctions résiduelles, comme la police ou d’autres services d’ordre. Les voyageurs cherchant un urbanisme ultra-propre et refusant de trouver du chewing-gum collé sous les tables privilégieront Singapour ; les fans de *Beavis and Butthead* sûrement pas. Les amateurs de vie nocturne échevelée auront plutôt envie de Macao ou de Panama (ou un équivalent). Les personnes gênées par les mœurs de telle micro-juridiction seront accueillies dans d’autres. Tandis que Salt Lake City pourrait bannir la cigarette, la future cité-État de La Havane, rebaptisée « Monte Cristo » peut-être, dissimulerait tout dans ses volutes de cigare.
+
+> « Cela signifie que tous les monopoles, les hiérarchies, les pyramides et les structures de pouvoir de la société industrielle vont se dissoudre sous la pression de l’intelligence répartie en périphérie des réseaux. Plus que tout, la loi de Moore fera s’écrouler la concentration majeure en Amérique — la grande ville, ce reliquat de l’industrialisme, qui survit sous perfusion avec plus de 360 milliards de dollars de subventions prélevés sur nous tous chaque année. »[^286] — GEORGE GILDER
+
+Ironiquement, la renaissance possible des « cités-États » coïncidera peut-être avec une dévitalisation des villes. La grande ville était un produit de l’industrialisme en Occident. Elle a surgi avec l’usine de l’époque pour tirer parti d’économies d’échelle dans le maniement de ressources naturelles à forte densité de main-d’œuvre.
+
+Au début du XIXe siècle, une ville de plus de 100 000 habitants passait pour gigantesque. En dehors de l’Asie, où les dénombrements étaient incertains, on ne connaissait aucune ville d’un million d’habitants. La plus grande ville américaine en 1800, Philadelphie, n’abritait que 69 403 personnes. New York, 60 489. Baltimore, troisième ville, n’en accueillait que 26 114[^287]. La plupart des futures grandes métropoles européennes étaient minuscules au regard des normes contemporaines. Londres, forte de 864 845 habitants, était probablement la plus grande ville du monde. Paris, avec 547 756 habitants en 1801, était la seule autre ville européenne dépassant le demi-million[^288]. Lisbonne s’établissait à 350 000[^289]. Vienne à 252 000[^290]. Berlin atteignait à peine 200 000 habitants en 1819[^291]. Madrid en recensait 156 670[^292]. Bruxelles comptait 66 297 habitants en 1802. Budapest n’en totalisait que 61 000[^293].
+
+On pourrait croire que la croissance des villes découle uniquement de la hausse démographique. Or cela n’a rien de systématique. Toute la population mondiale tiendrait au Texas, avec une maison individuelle pour chaque famille et encore de l’espace libre. Comme le montrait déjà Adna Weber dans *The Growth of Cities in the Nineteenth Century*, l’augmentation démographique n’explique pas pourquoi les individus vivent dans des contextes urbains plutôt qu’épars. En 1890, la densité de population du Bengale était comparable à celle de l’Angleterre, toutefois 4,8 % seulement des Bengalis résidaient en ville, contre 61,7 % des Anglais[^294].
+
+Historiquement, les villes s’emmuraient pour se défendre contre les maraudeurs et les classes populaires. Avec la montée des emplois industriels, elles ont pris l’essor que l’on sait. Aujourd’hui, alors que l’industrialisme se retire, nombre de grandes villes paraissent de plus en plus guettées par l’insécurité et la criminalité. Detroit, ancienne capitale industrielle du milieu du XXe siècle, en est une illustration frappante. Autrefois, une fraction considérable de la production manufacturière mondiale passait par Detroit. À présent, la ville n’est plus qu’un panorama de destructions : beaucoup d’îlots sont délabrés ou incendiés, comme si des bombardements de la Seconde Guerre mondiale avaient rasé le quartier. Detroit symbolise la fragilité des villes industrielles, menacées de dépeuplement. Le facteur densité démographique implique des infrastructures complexes, et donc un risque accru d’incivilités et de sabotage. À l’âge industriel, le coût d’une gestion à grande échelle était compensé par ces économies d’échelle.  
+
+À l’ère de l’information, seules les villes aptes à maintenir un haut niveau de qualité de vie justifieront leur entretien. Les autres ne pourront plus compter sur les subventions de régions lointaines. Pour juger de la viabilité d’une ville, on peut observer si son centre abrite des habitants plus riches que sa périphérie. Buenos Aires, Londres et Paris conserveront leurs atouts longtemps après la fermeture du dernier grand restaurant de South Bend, Louisville ou Philadelphie.
+
+### Des « cités rurales »
+
+Certains « États-villes » n’auront pas de ville à proprement parler : peut-être vaudrait-il mieux parler de « cités rurales » ou de « villages-États ».  
+
+La valorisation des ressources naturelles évoluera différemment dans le nouveau contexte. Puisqu’il devient possible d’exercer son activité depuis n’importe où, beaucoup choisiront un emplacement agréable où l’air est salubre. Les technologies qui surmontent la barrière de la langue faciliteront l’immigration dans ces lieux de vie attraktifs. Les régions peu peuplées, commercialement modérées et riches en terres arables — comme la Nouvelle-Zélande ou l’Argentine — bénéficieront d’un avantage comparatif. Ces espaces offrent un environnement sain et produisent à bas coût de la nourriture et des produits renouvelables. À mesure que les standards de vie progresseront pour des milliards de personnes en Asie de l’Est ou d’Amérique latine, la demande pour les biens de base de ces pays augmentera.
+
+### Le théorème de la non-équivalence
+
+Une partie non négligeable des postulats économiques courants repose sur la « tyrannie de la géographie ». Citons, par exemple, le « théorème d’équivalence » de David Ricardo, selon lequel les citoyens d’un pays voyant l’État accumuler les déficits anticiperont inévitablement la hausse future d’impôts qui en résultera. Au sens de Ricardo, il y aurait équivalence entre financement des dépenses publiques par l’impôt et par l’emprunt. C’était vraisemblable au début du XIXe siècle, mais cela l’est beaucoup moins à l’ère de l’information. Le raisonnement du contribuable moderne ne consiste plus à épargner davantage pour absorber l’augmentation prévisible d’impôts ; il choisira plutôt de transférer sa résidence ou de « dématérialiser » ses opérations. Du même coup, on peut comparer l’aptitude des producteurs à choisir les fournisseurs les moins chers à celle, bien plus cruciale, de choisir sa juridiction de protection, laquelle pourrait s’avérer décisive pour conserver ses revenus. Nous en déduisons que les « individus souverains » ou toute personne rationnelle se détourneront des États surendettés.
+
+Un État peu coûteux, dont les engagements financiers sont faibles et l’imposition modérée, sera la résidence rêvée pour créer de la valeur dans l’économie de l’information. Cela signifie de meilleures perspectives d’affaires dans les régions qui ont déjà réformé leurs structures et se sont délestées de dettes, comme la Nouvelle-Zélande, l’Argentine, le Chili, le Pérou, Singapour ou d’autres pays d’Asie et d’Amérique latine. À l’inverse, les pays d’Amérique du Nord et d’Europe occidentale qui n’ont pas encore fait leur mue resteront des terrains d’implantation moins favorables.
+
+### L’érosion des anomalies tarifaires locales
+
+Grâce à la baisse généralisée du coût d’accès aux informations, la plupart des écarts de prix locaux disparaîtront. Les consommateurs pourront comparer les tarifs de nombreux vendeurs pour trouver celui qui offre le plus d’avantages dans tous les biens échangeables. Les services en ligne permettront aussi de franchir les obstacles réglementaires, comme les exigences de licences locales. Il deviendra plus facile, par exemple, de comparer diverses formules d’assurance ou de contourner les restrictions imposées par le statut professionnel de chaque État. En conséquence, la marge bénéficiaire baissera probablement partout où il existait jusqu’à présent des niches tarifaires maintenues par manque d’information ou par protection.
+
+## DE NOUVELLES IMPÉRATIFS D’ORGANISATION
+
+La cyberéconomie va présenter des modalités très différentes de l’économie industrielle en ce qui concerne les modes d’interaction. Les technologies de l’information feront s’effondrer bon nombre d’avantages organisationnels des entreprises, lesquels s’appuyaient jusqu’alors sur des coûts de transaction et d’information élevés. L’ère de l’information sera celle de « l’entreprise virtuelle ».
+
+Beaucoup d’analystes spécialisés dans les technologies de l’information n’ont pas saisi l’ampleur de la révolution organisationnelle à venir. Non seulement la nouvelle donne transcende les frontières et les barrières, mais elle modifie également les coûts internes de calcul et de recueil de données. Même les industries qui resteraient pour l’essentiel à l’abri de la concurrence transfrontalière en ressentiront les effets en interne. L’effondrement des coûts de transaction et d’information diminue les économies d’échelle et simplifie, voire annule, l’intérêt de maintenir des unités de grande taille, garantes autrefois de carrières longues et stables.
+
+### Pourquoi des entreprises ?
+
+Les économistes classiques, à l’instar d’Adam Smith, ont peu commenté le phénomène de la taille de l’entreprise. Ils ne se sont guère penchés sur la question de l’architecture optimale d’une firme, ni même sur le fait d’expliquer pourquoi elle existe. Pourquoi un entrepreneur embauche-t-il un salarié plutôt que de déléguer chaque tâche au marché de la sous-traitance ? L’économiste Ronald Coase, récompensé par un prix Nobel, est l’un des premiers à avoir soulevé ces interrogations fondamentales, ce qui l’a amené à la formulation d’hypothèses qui éclairent l’impact révolutionnaire de la technologie sur le fonctionnement des entreprises. Selon Coase, l’existence d’une firme est une réponse logique scientifiquement efficace pour faire face à des déficits d’information et à des coûts de transaction élevés[^295].
+
+### Coûts d’information et de transaction
+
+Pour illustrer ce propos, imaginez la difficulté d’exploiter une chaîne de montage industrielle sans entreprise unique pour en coordonner les étapes. En principe, on pourrait assembler une voiture en faisant appel à une multitude de sous-traitants indépendants occupant chacun un module de l’usine, contractant les livraisons de pièces, etc. L’économiste Oliver Williamson, lui aussi pionnier de la théorie de la firme, différencie ainsi six méthodes de travail et de contrôle parmi lesquelles le « mode entrepreneurial », avec des ateliers indépendants, ou encore une configuration « fédérative » où chaque station transmet à la suivante l’objet semi-fini[^296][^297]. Techniquement, rien n’interdit de remplacer des milliers d’employés par un groupe de PME louant chacune son espace au sein de l’usine. Pourtant, personne n’a jamais produit de voiture haut de gamme par le biais de ce morcellement contractuel.
+
+### Les problèmes de coordination
+
+Faire fonctionner un site industriel à partir de ce puzzle de sous-traitants indépendants, c’eût été renoncer aux gains d’échelle permis par la chaîne de montage. Les affres d’une concertation perpétuelle pour savoir à quel prix fournir ou qui ferait quoi auraient certainement rendu caduque l’automatisation. Sans hiérarchie commune, chacun aurait dû investir un temps énorme dans les négociations, au détriment de la production. Il eût été en outre très complexe d’assurer le suivi et le contrôle de la qualité ou de planifier la balance des ressources.
+
+### L’autorité d’agir
+
+Le lancement d’un nouveau modèle ou la révision d’une composante aurait vite tourné au cauchemar dans une telle structure, nécessitant l’adhésion pratiquement unanime de tous les partenaires. Un seul désaccord parmi des centaines de fournisseurs aurait suffi à faire échouer la mise à niveau. N’importe quel surcoût pour introduire une modification aurait encore restreint l’intérêt de produire à grande échelle.
+
+### Des négociations inutiles
+
+La chaîne de montage exploitée par des sous-traitants indépendants se serait montrée instable : qu’arriverait-il par exemple au décès ou à la faillite de tel ou tel petit opérateur ? Le marché de l’externalisation pourrait certainement trouver un repreneur, mais il faudrait que ce repreneur rachète le local, la licence, le matériel — un processus complexe et semé de négociations permanentes.
+
+### Les pièges d’incitation
+
+Un autre inconvénient crucial touche les postes très capitalistiques. Certains maillons de la chaîne (par exemple, l’emboutissage de tôles ou le moulage du bloc moteur) exigent des millions d’investissement, alors que d’autres nécessitent un capital moindre (souder un support en plastique, etc.). Les sous-traitants les plus lourds en capital seraient dépendants de l’aval et de la bonne collaboration des autres, moins coûteux. Ces derniers auraient un levier pour imposer un chantage, de la même manière que des ouvriers en grève peuvent bloquer toute la production sans y perdre grand-chose. Toute micro-entreprise faiblement dotée en capital aurait pu extorquer un surplus aux plus grosses, fragilisant encore l’ensemble.
+
+### La solution de la firme
+
+Bref, la plupart des économies d’échelle permises par la chaîne de montage se seraient évanouies. L’entreprise unique, s’appuyant sur une hiérarchie interne, est apparue comme un moyen efficace de surmonter ces écueils, en dépit de sa propre lourdeur. Dans l’ère industrielle, la grande entreprise, avec ses systèmes d’encadrement, contrôlait et synchronisait la production. Les divers services administratifs et de gestion (middle managers) faisaient remonter l’information et passer les ordres. La firme gérait ainsi sa comptabilité et limitait les problèmes de délégation, où le salarié n’agirait pas dans l’intérêt de son employeur. Obtenir une comptabilité avancée impliquait alors un lourd effectif. Cette bureaucratie avait un coût fixe. Qu’il y eût du travail ou non, il fallait la rémunérer. De plus, les connaissances-clés détenues par ce personnel d’encadrement obligeaient l’entreprise à les payer au prix fort, faute de quoi ils auraient pu aller aisément vendre leurs services ailleurs.
+
+### La « marge organisationnelle »
+
+En parallèle, l’utilisation d’une grande armée de cadres exposait la société à la « captation » par ceux-ci, au détriment des actionnaires. De nombreuses entreprises de l’ère industrielle gaspillaient ainsi en mobilier luxueux ou autres avantages pour leurs dirigeants, sans véritable gain pour les investisseurs. Piloter objectivement la pertinence de chaque dépense se révélait compliqué, et il était difficile d’empêcher bon nombre d’employés de « lever le pied » ou de « faire semblant ». Parce que la surveillance était techniquement ardue, on devait employer un encadrement pléthorique, et surveiller les surveillants… Une situation propice au « mou organisationnel », comme l’ont nommé Richard Cyert et James March dans leur *A Behavioral Theory of the Firm* (1963)[^298].
+
+> « Que l’on produise des résultats ou non, la rémunération est la même.  
+> Que l’on travaille dur ou pas, la rémunération est la même.  
+> Que l’on soit motivé ou pas, la rémunération est la même. »[^299] — CHRIS DRAY
+
+### « Ce n’est pas mon boulot »
+
+En tant qu’entité installée pour durer, la « grande entreprise » était aussi exposée au chantage syndical. Son organisation rappelait la structure administrative de l’État : une cascade d’ordres hiérarchiques. Les tâches y étaient cloisonnées par fonctions figées, parfois à l’excès. Combien de salariés entendant : « Ce n’est pas mon boulot » face à une simple ampoule à changer… Embaucher un comptable pour visser une ampoule pouvait sembler absurde, tout comme consulter un avocat pour soigner une disparition de voix. Les emplois étaient rarement définis en fonction d’un objectif concret, mais plutôt d’une mission formelle et restreinte. La paie se décidait en fonction d’une classification interne, pas de la performance individuelle. Entre les multiples services d’encadrement, on laissait de la marge. C’est ainsi qu’on maintenait les économies d’échelle, certes, mais dans un contexte de gaspillage et de rigidité.  
+
+> « Sur un marché, on n’accomplit pas un travail parce qu’un supérieur l’ordonne ou parce que c’est listé page 30 du plan stratégique. Il n’y a pas de frontières de mission. Il n’y a ni directive i, ni consignes centralisées. Sur un marché, un fournisseur a des clients — relation essentiellement contractuelle, car entre indépendants. »[^300] — WILLIAM BRIDGES
+
+
+
+
+### Nouvelles exigences
+
+À l’ère de l’information, tout ce contexte mégapolitique change : traiter, calculer et analyser les données ne coûte plus grand-chose. On n’a plus besoin d’autant de middle managers pour superviser la production ou la gestion. Les machines-outils automatisées et dotées de microprocesseurs remplacent d’ailleurs bon nombre d’ouvriers, tout en coordonnant bien mieux que jadis l’assemblage (suivi de la cadence et de la qualité, comptabilité instantanée, redéfinition automatique des stocks, etc.). Même une PME peut se doter d’outils de gestion et d’accounting performants que seules les grandes entreprises à structure hiérarchique pouvaient se permettre autrefois.
+
+L’aptitude des nouvelles technologies à simplifier la production dite « non séquentielle », peu gourmande en ressources, diminue la dépendance coûteuse à l’égard d’un ensemble d’intermédiaires susceptibles de faire monter les enchères pour un oui ou un non. De plus, l’exigence de capital baisse. Les cycles de vie des produits se raccourcissent. Les sous-traitants autonomes, même s’ils ne sont qu’une personne, peuvent disposer de réseaux d’information plus élaborés que jamais. Les « agents numériques » ou autres assistants virtuels émergent pour gérer de nombreuses tâches de bureau : standard téléphonique, secrétariat, comptabilité, ressource humaine.
+
+### La fin des « bons emplois »
+
+Les individus qui produisent une grande partie de la valeur ajoutée dans l’entreprise pourront en conserver l’essentiel pour eux-mêmes. Les postes de soutien, qui absorbaient une fraction substantielle du chiffre d’affaires généré par « les productifs », seront évincés par des solutions automatisées. Résultat : mieux vaudra externaliser la majorité des fonctions que les assumer en interne. Dans une entreprise virtuelle, la « marge organisationnelle » disparaît avec l’organisation elle-même.
+
+Les « bons emplois » disparaîtront. Comme le dit l’économiste Orly Ashenfelter de Princeton, « Un “bon emploi” est un emploi mieux payé que ce que vous valez. »[^301] Or, dans l’économie industrielle, ces « bons emplois » existaient souvent grâce aux coûts d’information et de transaction élevés. Les entreprises grossissaient pour capter des économies d’échelle, et les pressions fiscales ou réglementaires les incitaient à conserver le personnel en interne. Parallèlement, se faire licencier n’était pas simple du fait de ces contraintes légales, ce qui prolongait artificiellement la vie des « bons emplois ».
+
+Si l’on considère que la micro-informatique fait s’envoler le coût de l’information et fait baisser le besoin d’intermédiaires, l’entreprise se fragmente. Plutôt que de s’embourber dans un salariat plombé par des obligations légales, « just in time » et sous-traitance s’imposent. L’excès de personnel se retrouve alors à vendre ses services sur le marché ponctuel. Il en va de même pour certains employés consciencieux et utiles. Mais, dans l’économie de l’information, la notion de « bon emploi » (au sens d’un emploi rémunérateur excédant la productivité réelle) devient caduque.
+
+Dans les grandes sociétés japonaises, on promettait autrefois l’emploi à vie. Même les salariés sans mission y restaient. Désormais, la pléthore d’employés inactifs ou quasi-inactifs tend à être élaguée. Un article paru dans l’*International Herald-Tribune* l’illustre : « Niés et remises en question, les départs mettent fin à la tradition de l’emploi à vie au Japon »[^302].
+
+Dans la période postindustrielle, l’« emploi » correspondra à une tâche effectuée ponctuellement, non à un « poste » dans une organisation. Avant l’industrialisation, la notion de poste permanent était quasi-inexistante. Comme l’explique William Bridges, « avant 1800, et bien plus tard encore dans certains cas, *job* désignait une tâche particulière, non un rôle, ni un poste structurel. … Du XVIIIe siècle jusqu’en 1890, le *Oxford English Dictionary* recense de multiples expressions comme *job-coachman, job-doctor ou job-gardener*, toutes décrivant des individus engagés à la tâche, et non à temps plein. *Job-work* (très usité également) signifiait un travail occasionnel, pas un emploi régulier »[^303]. À l’ère de l’information, ce qui relevait autrefois du salariat interne, dans l’idée de limiter les coûts de transaction, reviendra sur le marché flexible. Le « just in time » se généralisera : des équipes virtuelles, parfois dispersées à l’échelle mondiale, réaliseront chacune un pan du travail conjointement.
+
+### Hollywood prend la relève
+
+Le modèle organisationnel du futur pourrait s’apparenter à celui des sociétés de production cinématographique. Ces dernières peuvent engager des budgets de dizaines ou centaines de millions de dollars, tout en restant temporaires. Une société de cinéma dépense parfois 100 millions par projet, dure un an, puis se dissout. Les concepteurs, ingénieurs du son, cameramen, éclairagistes, costumiers se dispersent. Ils n’avaient aucune illusion d’emploi pérenne. Pour un prochain projet, on les réunira ou non.
+
+À la faveur du recul des économies d’échelle et de la baisse du besoin en capital, les entreprises stables laissent place à des organisations éphémères. Les firmes érigées en bureaucraties durables vont décliner, au profit de « corporations virtuelles ». Dans un monde de cryptage omniprésent et de concurrence fiscale sur le capital, les raisons d’entretenir des « mastodontes permanents » s’effilochent. Cette transformation s’achèvera, que la réduction des taxes se fasse vite ou lentement. Si c’est rapide, le coût artificiel du maintien d’entreprises classiques retombera tout de suite. Si c’est lent, ces mastodontes supporteront une part encore plus élevée de la charge fiscale, alors que les nouvelles entités virtuelles échapperont en grande partie à ces obligations.
+
+La connaissance et le talent restant plus nécessaires que jamais pour réussir, la plupart des frontières artificielles entre professions se dissiperont. Les informations jusque-là détenues par les métiers réglementés (droit, médecine, comptabilité) deviendront accessibles à tous via l’informatique et les bases de données. La mémorisation des procédures perdra de la valeur au profit d’une capacité de synthèse et d’adaptation créative à l’information. C’est un bouleversement qui ne se fera pas du jour au lendemain. Les réglementations archaïques retarderont le processus, mais le potentiel de contrôle de l’économie virtuelle par l’État va tendanciellement s’étioler. Toute réglementation professionnelle qui engendre des surcoûts sans apporter d’avantages reconnus par le marché se heurtera tôt ou tard à l’indifférence.
+
+En conséquence :
+
+– Les réglementations locales imposant des surcoûts seront relativisées par la concurrence.  
+– La rivalité entre juridictions s’accroîtra pour accueillir des entités à forte valeur ajoutée n’ayant aucune attache explicite.  
+– Les relations d’affaires miseront de plus en plus sur des « cercles de confiance ». Grâce au chiffrement, le risque de vol sous couvert d’anonymat augmentera. La confiance et l’honnêteté deviendront encore plus précieuses.  
+– Les régimes de brevets et de droits d’auteur évolueront en raison de la facilité de circulation et d’appropriation de l’information.  
+– La protection des biens et des personnes s’appuiera davantage sur la technologie que sur le droit. Les classes défavorisées seront de plus en plus tenues « hors les murs ». La généralisation des quartiers fermés (« gated communities ») semblera inévitable. C’est un moyen efficace de se prémunir contre la violence criminelle quand l’autorité centrale se fait plus lointaine.  
+– Les marchandises pondéreuses seront lourdement taxées et échangées localement, comme au Moyen Âge, tandis que les produits de luxe bénéficieront souvent d’une taxation plus légère et circuleront sur de grandes distances[^305].  
+– Les forces de police se privatiseront, formées de gardes reliées à des associations de commerçants.  
+– À court terme, les sociétés privées non cotées en Bourse pourraient se montrer avantagées, car elles jouiront d’une plus grande liberté pour échapper aux contraintes des gouvernements.  
+– L’emploi à vie disparaîtra, car les « emplois » deviendront surtout des tâches éphémères ou du « travail à la pièce » au lieu de postes fixes dans une organisation.  
+– La maîtrise des moyens de production se déplacera de l’État vers les personnes à haut potentiel intellectuel, puisqu’il suffira de combiner efficacement la connaissance à un produit pour créer de la valeur.  
+– Les membres des professions intellectuelles et réglementées verront certains de leurs domaines remplacés par des systèmes d’information interactifs.  
+– Les individus moins qualifiés se tourneront vers de nouvelles stratégies de survie, valorisant le sport, la passivité de loisir ou le crime, ainsi que la prestation de services variés auprès du nombre croissant d’« individus souverains », dans la mesure où l’inégalité interne s’accroît.
+
+Les systèmes politiques, se développant à une époque où il y avait des rendements croissants à la violence, affrontent désormais des mutations radicales. L’importance de l’efficacité grandit face à la altenance jadis inévitable du « plus fort a raison ». De petits systèmes souverains, au fonctionnement efficace, pourraient se montrer plus durables. On observe déjà la multiplication des entités souveraines depuis l’écroulement du communisme. Nous nous attendons à un phénomène similaire dans le prolongement logique de l’âge de l’information.
+
+Le pouvoir se réorganisera sur de petites échelles. Des enclaves ou des provinces y trouveront un avantage comparatif, offrant à leurs « clients » un meilleur service de protection à moindre coût, ce qui rappelle la période médiévale où, déjà, de multiples villes ou cités-États fonctionnaient ainsi. Historiquement, lorsque les rendements de la violence étaient décroissants, les marchands et les plus riches pouvaient effectivement contrôler les gouvernements urbains. Nous prévoyons un retour d’un tel schéma, où la baisse des charges prédatrices et la meilleure efficacité dans la gestion des ressources se traduiront par une croissance rapide dans ces zones où le client dispose d’un véritable pouvoir de décision sur la souveraineté locale.
+
+Nous allons maintenant nous pencher sur la possibilité et le bien-fondé pour ces tendances de se déployer malgré l’opposition d’immenses cohortes de perdants, ce qui constituera l’une des grandes controverses de l’ère de l’information.
+
+[^270]: Benjamin Schwarz, « American Inequality: Its History and Scary Future », New York Times, 19 décembre 1995, p. A25.
+
+[^271]: Adna Ferrin Weber, *The Growth of Cities in the Nineteenth Century* (New York : Macmillan, 1899 ; réimpr. Cornell University Press, 1963), p. 249.
+
+[^272]: Bill Bryson, *The Lost Continent* (New York : Harper Perennial, 1989), p. 72.
+
+[^273]: Cet article est reproduit dans le vol. 4 de la série *Early Mathematical Economists,* 6 vols., édité par Adrian Darnell (Londres : Pickering & Chatto, 1991).
+
+[^274]: Voir, par exemple, Weber, op. cit., p. 2.
+
+[^275]: Clive Jenkins et Barrie Sherman, *The Collapse of Work* (Londres : Methuen, 1979), p. 103.
+
+[^276]: Robert H. Frank et Philip J. Cook, *The Winner-Take-All Society* (New York : The Free Press, 1995).
+
+[^277]: Clay Chandler, « Buchanan’s Success Frightens Business », Washington Post, 22 février 1996, p. D12.
+
+[^278]: Stephanie Flanders et Martin Wolfe, « Haunted by the Trade Spectre », *Financial Times*, 24 juillet 1995, p. 11. Les auteurs citent le rapport de la Banque mondiale sur les travailleurs dans une économie mondiale de plus en plus intégrée.
+
+[^279]: Voir Mancur Olson, « Diseconomies of Scale and Development », *Cato Journal*, vol. 7, n° 1 (printemps-été 1987).
+
+[^280]: Ibid.
+
+[^281]: Basil Davidson, *The Black Mans’ Burden : Africa and the Curse of the Nation State* (New York : Times Books, 1992), p. 290.
+
+[^282]: Olson, op. cit.
+
+[^283]: Adam Smith, *The Wealth of Nations*, p. 724. Cette remarque s’inspire d’un article d’Edwin G. West dans son *Adam Smith and Modern Economics* (Aldershot, Angleterre : Edward Elgar Publishing, 1990), pp. 88-89.
+
+[^284]: Fritz Rorig, *The Medieval Town* (Berkeley : University of California Press, 1967), p. 28.
+
+[^285]: Albert O. Hirschman, *Exit, Voice, and Loyalty* (Cambridge : Harvard University Press, 1969), p. 81.
+
+[^286]: Tom Peters et George Gilder, « City vs. Country: Tom Peters & George Gilder Debate the Impact of Technology on Location », *Forbes*, février 1995.
+
+[^287]: Weber, op. cit., p. 21.
+
+[^288]: Ibid., p. 46 pour Londres, p. 73 pour Paris.
+
+[^289]: Ibid., p. 120.
+
+[^290]: Ibid., p. 95.
+
+[^291]: Ibid., p. 84.
+
+[^292]: Ibid., p. 119.
+
+[^293]: Ibid., p. 101.
+
+[^294]: Ibid., p. 5.
+
+[^295]: Voir Ronald Coase, « The Nature of the Firm », reproduit dans Louis Putterman et Randall S. Kroszner (éd.), *The Economic Nature of the Firm: A Reader*, 2e éd. (Cambridge : Cambridge University Press, 1996), pp. 89‑104.
+
+[^296]: Cité par West, op. cit., p. 58 ; voir aussi Oliver E. Williamson, « The Organization of Work: A Comparative Institutional Assessment », *Journal of Economic Behaviour and Organisation*, vol. 1, n° 1.
+
+[^297]: Ibid., cité p. 59.
+
+[^298]: Richard Cyert et James March, *A Behavioral Theory of the Firm* (Englewood Cliffs, N.J. : Prentice-Hall, 1983).
+
+[^299]: Chris Dray, « Civil Servants Lead Lives of Quiet Collusion », *Globe and Mail*, 2 février 1996, p. A14.
+
+[^300]: William Bridges, *Jobshift: How to Prosper in a Workplace Without Jobs* (Reading, Mass. : Addison-Wesley, 1994), pp. 62, 64.
+
+[^301]: Cité dans Al Ehrbar, « ‘Re-Engineering’ Gives Firms New Efficiency, Workers the Pink Slip », *Wall Street Journal*, 22 juillet 1992, p. A14, repris par Bridges, op. cit., p. 39.
+
+[^302]: Sheryl WuDunn, « Parting Is Such Sour Sorrow: Japan’s Job-for-Life Culture Painfully Expires », *International Herald Tribune*, 13 juin 1996, p. 13.
+
+[^303]: Bridges, op. cit., pp. 31‑32.
+
+[^304]: Ibid., p. 58.
+
+[^305]: Janet Abu-Lughod, *Before European Hegemony*, op. cit., p. 186.
+
+::: {.content-visible when-format=latex}
+\setsubtitle{}
+:::

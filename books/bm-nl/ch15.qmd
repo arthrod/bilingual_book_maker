@@ -1,0 +1,369 @@
+# Hoe fiatgeld wordt gecreëerd en vernietigd
+
+Hoewel het creëren van fiatgeld geen hoge productiekosten met zich meebrengt, bestaan er specifieke regels en mechanismen die bepalen hoe fiatgeld wordt gecreëerd en vernietigd. Meestal ontstaat het wanneer nieuwe schulden worden aangegaan en verdwijnt het wanneer schulden worden afgelost of niet worden nagekomen. Daar komt nog bij dat in het moderne financiële systeem meerdere definities van geld gebruikt worden. De twee belangrijkste zijn 'basisgeld' en 'ruim geld'. Deze begrippen zijn onmisbaar om het systeem goed te begrijpen.
+
+Door de tijd heen is de hoeveelheid van beide geldsoorten enorm gestegen. Bij de oprichting van de Federal Reserve in 1913 bedroeg het basisgeld $2,79 miljard en het ruime geld $19,31 miljard.[^207] Eind 2022 waren deze bedragen opgelopen tot $5,4 biljoen ($5.400 miljard) aan basisgeld en $21,4 biljoen ($21.400 miljard) aan ruim geld.[^208] Dit hoofdstuk bespreekt deze twee geldsoorten en legt uit op welke manier elk van beide specifiek wordt gecreëerd of vernietigd. Hoewel de nadruk op de Verenigde Staten ligt, gelden deze principes eigenlijk wereldwijd.
+
+## Basisgeld
+
+De monetaire basis, oftewel het basisgeld, vormt het fundament van het fiatgeldsysteem. Het bestaat uit 1) fysiek in omloop zijnd geld en 2) kasreserves die commerciële banken bij de centrale bank aanhouden.
+
+Deze monetaire basis vertegenwoordigt een directe vordering op de Federal Reserve. In eerste instantie kon men deze basis inwisselen voor goud en was ze gedekt door een aanzienlijke goudvoorraad. Sinds 1971 is dat niet meer het geval. Toch is er in het financiële systeem nog steeds een sterke vraag naar Amerikaanse dollars. Dit komt doordat de dollar de enige valuta is waarmee in de VS belasting kan worden betaald, de standaard rekeneenheid vormt voor het Amerikaanse bankensysteem en al lange tijd is ingeburgerd bij internationale handel. Dankzij dat netwerk­effect en het ontbreken van betere alternatieven beheert de Federal Reserve nu meer dan een eeuw het omvangrijkste en meest gebruikte boekhoudsysteem ter wereld.
+
+Figuur 15-A toont de hoeveelheid geld in omloop en de hoeveelheid reserves in het systeem. Sinds 1960 vormen deze samen de totale monetaire basis.
+
+![Hoeveelheid geld in omloop en de hoeveelheid reserves in het systeem](/figures/15-A.png){width=100%}
+[^209]
+
+Te zien is dat de hoeveelheid fysiek geld in omloop vrij gestaag en exponentieel is toegenomen. De bankreserves volgden aanvankelijk een soortgelijk tempo, maar sinds 2008 zijn ze sterker gestegen door de noodzaak om de banken te herkapitaliseren. Een soortgelijke versnelde herkapitalisatie deed zich ook voor in de jaren dertig. Later in dit hoofdstuk komen enkele details hiervan aan bod.
+
+Bij de Federal Reserve zijn bankreserves onderling inwisselbaar. Mensen zoals jij en ik doen transacties via verschillende betaalmethoden, maar onze banken rekenen achter de schermen onderling af met hun reserves, bijvoorbeeld via Fedwire. Daar kunnen banken de Federal Reserve vragen om de verdeling van hun reserves opnieuw te boeken.
+
+In principe zijn fysiek geld en bankreserves onderling inwisselbaar en vertegenwoordigen ze gelijke aanspraken op de monetaire basis, zij het met enkele praktische beperkingen. Theoretisch zou het contante geld dat we massaal tegelijk van onze rekeningen willen opnemen, uit de bankreserves gehaald kunnen worden. In de praktijk is de beschikbaarheid van fysieke valuta echter beperkt en houden banken meestal weinig op voorraad. Bij een bankrun merk je dan al snel hoe weinig fysiek geld je daadwerkelijk kunt (of mag) opnemen.
+
+Het Amerikaanse ministerie van Financiën produceert munten en biljetten: de Mint is verantwoordelijk voor munten en het Bureau of Engraving and Printing voor bankbiljetten. De Federal Reserve brengt die valuta in omloop. Elk jaar plaatst de Federal Reserve een bestelling bij het ministerie van Financiën op basis van de verwachte vraag naar contant geld, zowel ter vervanging van beschadigde biljetten als om te voldoen aan de vraag van mensen die contant geld willen opnemen.
+
+De Federal Reserve bepaalt dus de grootte van de monetaire basis en welk aandeel daarvan in contanten beschikbaar is voor consumenten.[^210] Zoals later in dit hoofdstuk wordt uitgelegd, kan de Federal Reserve door diverse methoden nieuwe bankreserves creëren of vernietigen en zo de omvang van de monetaire basis vergroten of verkleinen.
+
+## Ruime geldhoeveelheid
+
+De ruime geldhoeveelheid is aanzienlijk groter dan de hoeveelheid basisgeld en omvat het geld dat mensen daadwerkelijk hebben. Het bestaat uit het in omloop zijnde geld (dat ook deel uitmaakt van de monetaire basis) plus de omvangrijke betaal- en spaarrekeningen en depositobewijzen van particulieren en bedrijven bij commerciële banken, gezamenlijk aangeduid als 'bankdeposito's'.
+
+Afbeelding 15-B laat zien dat bankstortingen verschillen van fysiek geld en bankreserves. In plaats van een rechtstreekse vordering op de Federal Reserve, zijn bankstortingen een verplichting van een specifieke commerciële bank.
+
+![Basisgeld en ruim geld](/figures/15-B.png)
+
+Figuur 15-C laat de toename zien van de ruime geldhoeveelheid in het Amerikaanse financiële systeem sinds 1990:
+
+![Hoeveelheid ruim geld in de VS (1960–2023) in miljard $](/figures/15-C.png)
+[^211]
+
+Deze ruime geldhoeveelheid omvat het geld dat mensen en bedrijven voor transacties gebruiken, plus onze spaartegoeden. Dit is wat we in het dagelijks leven ervaren als 'ons geld'. We denken vaak dat elke euro kan worden ingewisseld voor elke andere euro. In werkelijkheid wisselen we, zodra we contante euro's bij de bank storten, een rechtstreekse claim op de centrale bank in voor een fractionele claim op diezelfde basiswaarde.[^212]
+
+Gaat een commerciële bank failliet, dan kunnen consumenten en bedrijven hun geld verliezen. De totale geldhoeveelheid kan dan afnemen. Dit gebeurde massaal in de jaren dertig, tijdens de Grote Depressie. Om dat in de toekomst te beperken, werd in 1933 de Federal Deposit Insurance Corporation (FDIC) opgericht. Deze overheidsorganisatie, gefinancierd door bijdragen van banken, garandeert spaartegoeden tot $250.000 per rekening in geval van een bankfaillissement.
+
+De FDIC is hoofdzakelijk bedoeld om consumentenvertrouwen te vergroten bij individuele bankfaillissementen. Ze wil bankruns voorkomen, niet een volledige faillissementsgolf van meerdere banken tegelijk. In de praktijk heeft de FDIC namelijk maar middelen om een klein percentage bankfaillissementen te dekken als er een grote financiële crisis uitbreekt. Zo'n noodgeval zal waarschijnlijk leiden tot grootschalige fiscale en monetaire interventies door het ministerie van Financiën en de Federal Reserve, die dan extra geld bijdrukken om een deflatoire ineenstorting van het systeem en maatschappelijke onrust te voorkomen—de reddingsoperaties van 2008 en 2023 zijn recente voorbeelden. Dat reikt echter verder dan de bevoegdheid van de FDIC. Zonder instemming van het Congres blijft een groot deel van de banktegoeden kwetsbaar wanneer het sterk met vreemd vermogen gefinancierde bankensysteem op brede schaal faalt.
+
+De meeste landen hebben, net als de VS, een vergelijkbare structuur voor zowel basisgeld als ruim geld. De centrale bank beheert het basisgeld, terwijl het commerciële bankensysteem het grotere ruime geld in omloop houdt. Dit ruime geld is een indirecte en fractionele claim op het onderliggende basisgeld.
+
+## De relatie tussen ruim geld en basisgeld
+
+De Federal Reserve bepaalt de omvang van de monetaire basis in de VS, inclusief welk deel ervan als bankbiljetten beschikbaar komt. Veranderingen in de hoeveelheid ruim geld worden echter beïnvloed door factoren buiten haar rechtstreekse controle, zoals overheidstekorten en het uitleengedrag van commerciële banken. Met andere woorden, ook al beheert de Federal Reserve de hoeveelheid basisgeld, ze heeft geen directe controle over de hoeveelheid ruim geld of de verhouding tussen die twee. Via monetair beleid kan ze het ruime geld wel beïnvloeden.
+
+Moderne commerciële banken streven ernaar het basisgeld te 'vermenigvuldigen' tot een groter bedrag aan ruim geld, waarbij ze winst maken. Dit heet de 'money multiplier' of geldmultiplicator. Deze factor is gedefinieerd als de ruime geldhoeveelheid, gedeeld door de hoeveelheid basisgeld. Figuur 15-D toont de geldmultiplicator sinds 1870.
+
+![Geldmultiplicator](/figures/15-D.png){width=100%}
+[^213]
+
+Verstrekt een bank een lening voor bijvoorbeeld de aankoop van een huis, dan is dat voor de koper een nieuw bankdeposito, terwijl de bank een reserve moet overdragen naar de bank van de verkoper. Daardoor stijgt het aantal commerciële bankdeposito's en het ruime geld in het systeem. Wanneer banken 'reserves uitlenen', verdwijnt er niet echt iets uit de totale bankreserves. De locatie en/of het eigendom van die reserves verschuift binnen het systeem. In eenvoudiger termen: leningen creëren deposito's.[^214]
+
+Een individuele bank kan leverage (hefboomfinanciering) gebruiken door geld te lenen of effecten te kopen. Dan nemen haar kasreserves bij de centrale bank af. Wanneer de bank leent of effecten koopt, ontstaan er deposito's elders in het financiële systeem. Daardoor verschuiven reserves van de geldgevende bank naar de ontvangende bank. Omgekeerd kan een bank ook activa verkopen, waarna haar kasreserves toenemen. De koper van die activa gebruikt elders in het systeem bankdeposito's om de aankoop te betalen, waardoor er elders reserves verschuiven.
+
+Het bankensysteem kan besluitvorming over de totale omvang van de bankreserves niet collectief bepalen. Wel kan elke bank individueel beslissen hoe zij haar reserves inzet. Banken kunnen de geldmultiplicator verhogen door meer leningen te verstrekken, maar ze kunnen de totale hoeveelheid bankreserves niet wijzigen. Ze kunnen alleen hun eigen reserves verplaatsen en de hefboom verhogen of verlagen, afhankelijk van hoeveel deposito's ze creëren.
+
+Ook kan het Amerikaanse ministerie van Financiën de omvang van zijn kasrekening bij de Federal Reserve beïnvloeden. Die kasrekening is een specifieke subset van bankreserves. De schatkist kan haar rekening spekken door staatsobligaties uit te geven, wat leidt tot een grote instroom van contant geld, dat dan tijdelijk wordt vastgehouden op de kasrekening bij de Federal Reserve. Daardoor verdwijnen andere bankreserves in dezelfde mate. Wanneer de schatkist meer uitgeeft dan er binnenkomt, slinkt de kasrekening. Het geld stroomt terug via de bankrekeningen van mensen en bedrijven en komt via het verrekenproces weer terecht in de bankreserves elders in het systeem.
+
+Theoretisch kan het publiek overtollige bankreserves omzetten in contant geld of juist contant storten bij een bank, die het dan omzet in reserves. In de praktijk is het contant geld echter doelbewust beperkt. Als mensen collectief proberen hun bankreserves op te nemen in contanten, kan de bank dat afwijzen vanwege te weinig fysiek geld of lagere opnamelimieten. Elk jaar bepaalt de Federal Reserve immers hoeveel extra contant geld er in omloop komt. Zo heeft ze veel invloed op de verhouding tussen circulerend geld en bankreserves die samen de monetaire basis vormen.
+
+In periodes waarin banken goed functioneren, geld snel circuleert en er vertrouwen tussen banken heerst, werkt het bankensysteem vrijwel probleemloos. Banken kunnen dan efficiënt met een hoge geldmultiplicator en weinig reserves opereren. Hoewel dit systeem van nature niet stabiel is, blijven de instabiele elementen vaak verborgen. Als een bank extra liquiditeit nodig heeft vanwege geldopnames door klanten, kan ze een deel van haar activa verkopen of geld lenen van andere banken. Dit doet denken aan een stoelendans waarbij de muziek luid speelt en iedereen door blijft gaan. Zodra de hefboom in het systeem echter te hoog wordt of het vertrouwen tussen banken afneemt door mogelijke faillissementen, zijn banken minder geneigd om elkaar geld te lenen. Dan vertraagt de muziek, of stopt deze zelfs helemaal. Op dat moment wordt het probleem van een hoge verhouding tussen ruim en basisgeld zichtbaar. Deposito's dreigen mogelijk niet uitbetaald te kunnen worden, tenzij de centrale bank extra basisgeld creëert.
+
+Door middel van 'quantitative easing' (QE) kan de Federal Reserve nieuw basisgeld maken. Ze schept dan uit het niets bankreserves en koopt hiermee activa, zoals staatsobligaties of hypothecaire waardepapieren. Feitelijk is dat een ruil transactie: de Fed creëert reserves en de verkopers leveren hun obligaties in. De nieuwe reserves zijn eigendom van een commerciële bank (en een verplichting voor de Fed), terwijl de Fed de bijbehorende effecten als activa bijboekt. Haar totale activa en passiva groeien met hetzelfde bedrag, en daardoor stijgt de monetaire basis.
+
+De Federal Reserve kan ook de hoeveelheid basisgeld verkleinen via 'quantitative tightening' (QT). Ze verkoopt dan obligaties of laat ze aflopen zonder nieuwe aanschaf, waarbij de terugbetaalde hoofdsom wordt 'verwijderd' uit de reserves. Zo nemen haar activa en passiva in dezelfde mate af.
+
+Op zichzelf hebben QE en QT geen groot direct effect op de ruime geldhoeveelheid, vooral op korte termijn. Ze beïnvloeden voornamelijk de monetaire basis. Wanneer de Amerikaanse federale overheid echter forse fiscale tekorten heeft en de Federal Reserve deze (indirect) financiert via nieuwe bankreserves om staatsobligaties op de secundaire markt te kopen, leidt dat wel rechtstreeks tot extra ruim geld. Daarmee wordt immers de traditionele weg via bankkrediet overslagen.
+
+Als de Amerikaanse federale overheid daarentegen langdurig grote begrotingsoverschotten zou hebben (meer belastinginkomsten dan uitgaven) en de commerciële banken weinig uitlenen, zou de ruime geldhoeveelheid kunnen afnemen. In de praktijk gebeurt dit maar zelden en dan vaak tijdelijk. Evenzo kan wijdverspreid bankfaillissement zonder reddingsplan of FDIC-dekking ook de ruime geldhoeveelheid doen krimpen; dat zagen we in het begin van de jaren dertig, maar nadien is dat voorkomen.
+
+## Boekhouding van bankreserves: voorbeelden
+
+De rest van dit hoofdstuk beschrijft in zes voorbeelden hoe basis- en ruime geldcreatie werkt. Daarbij komen bankleningen, QE en fiscale tekorten aan bod. Zo zie je hoe acties van banken, de Federal Reserve en de overheid het niveau en de locatie van bankreserves en de ruime geldhoeveelheid beïnvloeden. Vind je deze details minder relevant, dan kun je direct naar de samenvatting aan het einde van dit hoofdstuk gaan. Voor de rest van het boek is diepgaande kennis hierover niet strikt noodzakelijk.
+
+In november 2020, tijdens de COVID-19-pandemie, schreef ik deze voorbeelden voor een artikel met de titel *Banks, QE, and Money-Printing*.[^215] Ik wilde laten zien waarom de fiscale en monetaire stimulus van dat moment waarschijnlijk zou leiden tot inflatie in consumentenprijzen, in tegenstelling tot de QE-periode na 2008. Veel analisten onderschatten de kans op substantiële prijsinflatie in 2021 en 2022, omdat ze niet de rol van overheidsbestedingen als transmissiemechanisme zagen en het verschil tussen ruim geld en basisgeld onderschatten.[^216] Uiteindelijk zagen we in de tweede helft van 2021 een duidelijk oplopende inflatie, die in 2022 piekte op het hoogste niveau in decennia.[^217]
+
+Elk voorbeeld draait om twee personen, Mary en Sara, en hun twee banken, de Federal Reserve en het Amerikaanse ministerie van Financiën (U.S. Treasury). In alle zes voorbeelden heeft iedere entiteit een kolom met 'A | P', voor assets (activa) en passiva. Elk blok 'A' of 'P' vertegenwoordigt $1.000.
+
+- 'D' staat voor een klantendeposito van $1.000 bij de bank.
+- 'R' staat voor een kasreserve van $1.000 die een bank bij de Federal Reserve houdt.
+- 'T' staat voor een staatsobligatie ('Treasury bond') van $1.000.
+- Andere bezittingen, zoals een tweedehandsauto van $1.000, worden aangeduid met 'A', en een autolening van $1.000 met 'L'.
+
+Een deposito 'D' is voor een consument of bedrijf een activum, maar voor de commerciële bank een passivum (een schuld). Een reserve 'R' is voor een commerciële bank een activum, maar voor de centrale bank een passivum. Een staatsobligatie 'T' is een activum voor de eigenaar (bank, Fed of particulier), maar een passivum voor de overheid. Een lening 'L' of hypotheek 'H' is een activum voor de bank die de lening verstrekt, maar een schuld (passivum) voor wie de lening ontvangt.
+
+### Voorbeeld 1: Een bank verstrekt een lening
+
+Dit eenvoudige voorbeeld toont hoe een bank nieuwe deposito's en geld kan creëren zonder het aantal reserves in het systeem te verminderen. Mary koopt een tweedehands auto van Sara met een lening van haar bank.
+
+**Figuur 15-E** geeft de begin-, tussen- en eindtoestand grafisch weer. Daaronder volgt een toelichting. Veranderingen zijn gemarkeerd met onderstreping in de figuur.
+
+![Schematische voorstelling van voorbeeld 1](/figures/15-E.png){width=100%}
+
+#### Begintoestand
+
+Mary start met een blok 'D' van $1.000 aan activa, wat een deposito bij haar bank vertegenwoordigt. Ze heeft verder geen schulden. Voor haar bank, die zelf weinig schulden heeft, is haar storting een passivum van $1.000. Daarnaast heeft de bank als activa twee reserveblokken 'R' ter waarde van samen $2.000, die bij de Fed zijn bewaard.
+
+Sara begint met de activa 'DDDA', wat staat voor $3.000 aan deposito's en een auto ter waarde van $1.000. Ze heeft geen schulden. De $3.000 aan deposito's 'DDD' wordt door de bank gezien als een schuld. De bank heeft haar bezittingen voornamelijk belegd in staatsobligaties 'TTT'. Daarnaast heeft de bank ook een reserveblok 'R' bij de Federal Reserve.
+
+De Federal Reserve ziet de drie reserveblokken van beide banken als passiva en heeft drie blokken staatsobligaties als activa. De banken maken op dezelfde manier gebruik van de Federal Reserve als Mary en Sara van hun eigen bank. Dit houdt in dat de banken hun kasreserves op hun rekeningen bij de Federal Reserve stallen. Deze reserves vormen de passiva van de Federal Reserve.
+
+Het Amerikaanse ministerie van Financiën, ook wel het U.S. Treasury Department genoemd, heeft zes blokken staatsobligaties uitstaan als passiva. Ter vereenvoudiging zijn de activa niet vermeld, maar in werkelijkheid omvatten deze werkkapitaal, verschillende federale gebouwen en grond, militaire activa, en vooral de bevoegdheid om belasting te heffen. In dit voorbeeld zijn de zes staatsobligaties eigendom van de Federal Reserve en de bank van Sara.
+
+In totaal zijn er vier depositoblokken 'D': het geld van Mary en Sara is voor hen een activum, maar voor hun banken is het een passivum. Daarnaast zijn er drie reserveblokken 'R' in het systeem. Deze zijn voor de banken activa, maar voor de centrale bank passiva.
+
+#### Tussentoestand
+
+Mary wil Sara's auto van $1.000 kopen. Ze heeft al $1.000 op haar rekening, maar wil niet zonder contant geld komen te zitten. Ze neemt daarom bij haar bank een autolening van $1.000, wat wordt bijgeboekt als 'L'. De bank boekt dit als extra activa. Tegelijk ontstaat een tweede depositoblok 'D' van $1.000 als nieuwe passiva. Zo komt er een extra deposito in omloop zonder dat er reserves verplaatst worden.
+
+Mary's nettovermogen blijft $1.000, maar ze heeft nu $2.000 aan deposito's en $1.000 aan schuld. Haar financiële risico is daardoor iets toegenomen. Ook het vermogen van Mary's bank blijft hetzelfde, maar de financiële hefboom is toegenomen doordat er een nieuw activum en passivum zijn gecreëerd. De verwachting is dat Mary de lening met rente kan terugbetalen.
+
+Zowel de Federal Reserve als het ministerie van Financiën van de VS zijn nog niet betrokken.
+
+Er zijn nu vijf depositoblokken 'D' in het systeem in plaats van vier, omdat Mary's bank extra schulden is aangegaan door het creëren van een nieuw activum en passivum. De bank heeft nieuw geld gecreëerd door met een lening een nieuw deposito tot stand te brengen. Toch zijn er nog steeds drie reserveblokken 'R' in het systeem.
+
+#### *Eindtoestand*
+
+Aan het eind maakt Mary $1.000 over naar Sara voor de auto. Ze geeft Sara de nieuwe deposito 'D' die ze zojuist via haar banklening heeft ontvangen. Sara ziet het geld op haar rekening verschijnen, en haar bank boekt een extra deposito 'D' van $1.000 bij. Dit vormt een nieuw passivum voor haar bank. Achter de schermen stuurt Mary's bank een reserveblok 'R' van $1.000 naar de bank van Sara om de overboeking te faciliteren. De Federal Reserve fungeert als centrale boekhouder en geeft de opdracht om het reserveblok van Mary's bank naar die van Sara te verplaatsen. De bank van Sara heeft nu een nieuw passivum 'D' in de vorm van Sara's recente deposito en een nieuw reserveblok 'R' als activum. Aangezien de bank van Sara op dit moment geen kredietwaardige klanten heeft die om leningen vragen, besluit ze het nieuwe reserveblok voorlopig op haar Federal Reserve-rekening te laten staan.
+
+De eindsituatie van de Federal Reserve is per saldo ongewijzigd. Dit komt doordat de boekhouding is bijgewerkt voor de twee commerciële banken. Mary's bank heeft een reserveblok 'R' van $1.000 naar Sara's bank gestuurd. Eerder droeg de Federal Reserve 'RR' toe aan Mary's bank en 'R' aan Sara's bank in haar kasboek. Nu kent ze echter 'R' toe aan Mary's bank en 'RR' aan Sara's bank. Deze reserveblokken zijn passiva voor de Federal Reserve, maar activa voor de klantbanken.
+
+De eindtoestand van het Amerikaanse ministerie van Financiën blijft ongewijzigd. In tegenstelling tot de Federal Reserve was het ministerie zich niet eens bewust van de transactie.
+
+In de uiteindelijke situatie, net als in de tussentoestand, zijn er nog steeds drie reserveblokken 'R' in het systeem. Er zijn vijf depositoblokken 'D', wat betekent dat er één extra depositoblok 'D' is vergeleken met de beginsituatie. Dit extra depositoblok is ontstaan door de banklening van Mary.
+
+Dit voorbeeld laat zien dat wanneer een bank haar reserves inzet om geld uit te lenen, die reserves niet verdwijnen. Het geld belandt bij een andere bank, en het reservebedrag wordt daarheen overgebookt. Het totale aantal reserves of basisgeld in het systeem blijft gelijk, maar het systeem krijgt meer hefboomwerking. Daardoor zijn er meer consumentendeposito's en dus meer ruim geld. Met andere woorden, de geldmultiplicator (D/R, ruim geld ten opzichte van basisgeld) steeg van 4-op-3 naar 5-op-3.
+
+Elke bank kan haar eigen hoeveelheid reserves verhogen of verlagen door activa te kopen of te verkopen, of door leningen uit te geven. Die reserves worden echter verplaatst naar andere banken of komen van andere banken. Ze worden dus niet gecreëerd of vernietigd. Banken kunnen wel het aantal deposito's dat op die reserves steunt, verhogen of verlagen, afhankelijk van hoeveel risico ze willen nemen en hoeveel kredietwaardige mogelijkheden ze zien voor het uitlenen van geld.
+
+### Voorbeeld 2: De Federal Reserve voert QE uit via banken
+
+Het volgende voorbeeld is realistischer, omdat het gaat om een banksysteem met een hoger schuldniveau. In dit geval voert de Federal Reserve kwantitatieve verruiming uit. Dit houdt in dat ze nieuwe reserves creëert om bestaande activa van de banken op te kopen. Dit gebeurt omdat er te veel claims zijn op basisgeld in verhouding tot het daadwerkelijk beschikbare bedrag. Banken hebben doorgaans veel niet-liquide activa, zoals hypothecaire leningen. De Federal Reserve wil daarom enkele van deze niet-liquide activa overnemen op haar eigen balans. Op die manier creëert ze nieuwe liquide activa (extra reserves) voor het banksysteem.
+
+Figuur 15-F toont de begin- en eindtoestand, terwijl de tussentoestand niet wordt meegenomen.
+
+![Schematische voorstelling van voorbeeld 2](/figures/15-F.png)
+
+#### *Begintoestand*
+
+In dit voorbeeld zijn Sara en Mary identiek aan elkaar. Beide hebben een woning 'W', een auto 'A' en $4.000 aan deposito's 'DDDD' bij hun banken. Ook hebben ze hetzelfde qua schulden: een autolening 'L' en een hypotheek 'H' bij hun respectievelijke banken.
+
+De banken in dit voorbeeld zijn identiek aan elkaar. Beide hebben $4.000 aan klantendeposito's (DDDD) als passiva, die ze respectievelijk aan Mary en Sara verschuldigd zijn. Voor hun activa beschikken ze elk over RTTML, wat staat voor één reserveblok, twee treasury-blokken, één hypotheek en één autolening. De banken hebben een hoge hefboom gebruikt, met veel activa en verplichtingen in verhouding tot hun enige reserveblok.
+
+De Federal Reserve is in dit voorbeeld klein, met slechts 'RR' aan verplichtingen voor de reserveringen van haar lidbanken, één per bank, en 'TT' aan activa.
+
+De U.S. Treasury heeft 'TTTTTT' aan passiva, die toebehoren aan de banken en de Federal Reserve.
+
+Er zijn acht depositoblokken (D) en twee reserveblokken (R) in het systeem. Hierdoor is de geldmultiplicator opgeschroefd tot een verhouding van 8 tegenover 2.
+
+#### *Eindtoestand*
+
+In dit geval merkt de Federal Reserve op dat zowel Mary's als Sara's bank slechts één reserveblok heeft. De regelgeving schrijft voor dat banken minimaal één reserveblok moeten aanhouden. Dit betekent dat ze niet meer kunnen uitlenen of extra geld in omloop kunnen brengen. Zelfs zonder liquiditeitseisen kunnen banken zich zorgen maken dat ze niet aan opnameverzoeken kunnen voldoen als de verhouding tussen reserves en deposito's niet verstandig is. De Federal Reserve wil dat banken in staat zijn om kredieten te verstrekken. Daarom besluit de Federal Reserve om banken te herkapitaliseren door hen extra reserveblokken te geven. In tegenstelling tot de fiscale autoriteit (het Congres en de President) kan de Federal Reserve echter niet zomaar gratis geld aan banken geven; er moet een ruil plaatsvinden.
+
+De Federal Reserve creëert uit het niets vier nieuwe reserveblokken. Twee daarvan gaan naar de bank van Mary en twee naar de bank van Sara. Deze nieuwe reserveblokken worden passiva voor de Federal Reserve en activa voor de banken. In ruil hiervoor neemt de Federal Reserve van elke bank één hypotheekblok en één Treasury-blok over. Hierdoor voegt de Federal Reserve 'TTMM' toe aan haar activa en 'RRRR' aan haar passiva.
+
+Nu voelen de banken zich meer op hun gemak. Ze hebben voldoende overtollige reserves als activa en minder staatsobligaties en hypotheken. Hun balans is nu liquiditeitvriendelijker, omdat reserves sneller inzetbaar zijn dan staatsobligaties en hypotheken. Als ze besluiten geld uit te lenen of meer effecten te kopen, kunnen ze dit doen met hun grote voorraad reserves, zonder risico op liquiditeitsproblemen. Tot nu toe hebben ze echter nog geen extra geld uitgeleend, waardoor het aantal deposito's en de ruime geldhoeveelheid in het systeem gelijk blijven. Onder de motorkap zien we dat de banken nu minder vreemd vermogen en meer liquiditeit hebben. Ze beschikken over voldoende reserves in verhouding tot hun depositoschulden en hun bezittingen in het algemeen.
+
+Mary en Sara hebben hier niets van gemerkt. Ze hebben nog steeds dezelfde bezittingen en schulden als waarmee ze begonnen. Ze wisten niet eens dat dit was gebeurd.
+
+De Federal Reserve heeft nu meer activa en passiva dan voorheen, maar het eigen vermogen is gelijk gebleven.
+
+Het U.S. Treasury Department is per saldo niet veranderd. Het enige verschil is dat het nu twee van zijn staatsobligaties op naam van de Federal Reserve heeft staan in plaats van bij de particuliere banken. Dit komt doordat de Federal Reserve staatsobligaties van beide banken heeft overgekocht.
+
+Er zijn nog steeds acht depositoblokken 'D' in het systeem, maar het aantal reserveblokken 'R' is gestegen van twee naar zes. Daardoor is de geldmultiplicator nu 8 op 6. De hoeveelheid ruim geld is gelijk gebleven, maar de hoeveelheid basisgeld is toegenomen. Dit is het gevolg van de beslissing van de Federal Reserve om bankactiva op te kopen met nieuwe reserves. Het bankensysteem is geherkapitaliseerd en heeft nu veel meer uitleenvermogen.
+
+Kwantitatieve verruiming is op zich meestal niet inflatoir voor consumentenprijzen, ook al denken veel mensen van wel. Het geld komt bij consumenten zoals Mary en Sara nog niet aan; het blijft binnen het bancaire systeem. Dit proces legt echter wel een vroege basis voor toekomstige inflatie, doordat de monetaire basis en de algemene liquiditeit van banken toenemen. Het werkt daarom eerder 'anti-deflatoir', omdat het probeert een bankencrisis te voorkomen door ervoor te zorgen dat banken voldoende liquiditeit en uitleenvermogen hebben. Op dit moment veroorzaakt het echter nog geen inflatie.
+
+Prijsinflatie zal waarschijnlijk pas optreden als Mary en Sara ineens veel meer spaargeld hebben en met dat geld dezelfde hoeveelheid goederen en diensten willen kopen. Maar op dit moment heeft geen van beiden meer spaargeld dan waarmee ze begonnen zijn, dus er is geen reden om inflatie te verwachten. Het totale bedrag aan consumentendeposito's in het systeem is gelijk gebleven.
+
+### Voorbeeld 3: De Federal Reserve voert QE uit via niet-banken
+
+Dit derde voorbeeld start weer met een eenvoudiger systeem, dat sterk lijkt op Voorbeeld 1. Maar in plaats van een auto als extra bezit, heeft Sara nu een staatsobligatie.
+
+Sara besluit haar staatsobligatie te verkopen, maar op dit moment zijn er niet veel kopers beschikbaar. Daarom grijpt de Federal Reserve in en voert het een kwantitatieve verruiming (QE) uit om de obligatie van haar te kopen. Het resultaat verschilt van wanneer de centrale bank een staatsobligatie van het bankensysteem koopt. Dit wordt weergegeven in Figuur 15-G.
+
+![Schematische voorstelling van voorbeeld 3](/figures/15-G.png){width=100%}
+
+#### Begintoestand
+
+Het begin lijkt op Voorbeeld 1, maar nu heeft Sara een staatsobligatie in plaats van een auto. We starten met vier deposito's 'D' in het systeem en drie reserves 'R'.
+
+Sara besluit haar staatsobligatie te verklijk staatsobligaties verkopen, kan dit leiden tot een liquiditeitscrisis. Dit gebeurde bijvoorbopen, maar zowel Mary als de banken zijn niet echt geïnteresseerd in de aankoop ervan. Wanneer veel mensen tegeeeld in maart 2020 in de Verenigde Staten en in september 2022 in het Verenigd Koninkrijk.
+
+De Federal Reserve besluit daarom de Treasury bond te kopen om een liquiditeitscrisis te voorkomen. De Federal Reserve creëert vanuit het niets een nieuwe bankreserve 'R'. De commerciële bank krijgt de opdracht om Sara's staatsobligatie 'T' te kopen met een nieuw deposito 'D'. Vervolgens geeft de bank de staatsobligatie aan de Federal Reserve. In ruil hiervoor krijgt de bank de nieuwe bankreserve 'R' van de Federal Reserve.
+
+De Federal Reserve kocht dus Sara's Treasury bond met een gloednieuwe reserveblok, terwijl de bank als tussenpersoon fungeerde. Sara en de Federal Reserve hebben nooit rechtstreeks contact met elkaar gehad. Sara verkocht de staatsobligatie aan haar bank voor een deposito 'D'. Vervolgens verkocht haar bank de staatsobligatie aan de Federal Reserve, die deze kocht met een nieuwe reserveblok 'R'.
+
+#### *Eindtoestand*
+
+Nadat de bank deze taak heeft voltooid, heeft Sara hetzelfde nettovermogen als waarmee ze begon. Haar staatsobligatie 'T' is echter vervangen door een extra deposito 'D'. De bank heeft ook hetzelfde eigen vermogen als voorheen, maar is iets groter geworden. Dit komt door een extra reserveblok 'R' als activum en een extra depositoblok 'D' als schuld aan Sara. Het eigen vermogen is dus niet veranderd.
+
+De Federal Reserve breidde ook iets uit. Er kwam een extra Treasury-bond 'T' bij, evenals een extra reserveblok 'R', dat als activum voor Sara's bank wordt genoteerd. Het eigen vermogen bleef gelijk.
+
+Het U.S. Treasury Department bleef ongewijzigd. Het erkent nu alleen dat de staatsobligatie 'T' van Sara in handen is van de Federal Reserve, omdat deze de obligatie heeft opgekocht.
+
+Of dit een stimulerend effect heeft op de economie, hangt af van wat Sara van plan is te doen met haar extra geld. Ze had 'DDDT' en heeft nu 'DDDD' als activa. Het blijft $4.000 waard, maar is nu iets beter liquide. Als ze haar staatsobligatie verkoopt om een grote investering te doen, zoals het starten van een bedrijf of het lenen van geld aan een vriend zodat hij een onderneming kan opzetten, kan dit een positieve invloed hebben. De Federal Reserve heeft de staatsobligatiemarkt liquide gehouden, zodat ze het kon verkopen ondanks het gebrek aan echte kopers. Houdt ze het geld echter gewoon als een extra deposito 'D' in plaats van de staatsobligatie 'T', dan verandert er niets. Het hangt dan af van wat haar bank ermee doet.
+
+Sara's bank heeft nu aan de passivazijde, vergeleken met de beginstand, zowel een extra reserve- als een extra depositoblok. Dit betekent dat de bank iets groter is geworden en meer uitleencapaciteit heeft, wat haar liquiditeit ten goede komt. Ze zou bijvoorbeeld een bedrijfslening of een consumentenlening kunnen verstrekken, wat de economie kan stimuleren. Maar als de bank het risico in de economie te hoog inschat of als ze geen kredietwaardige zakelijke of particuliere klanten heeft die om een lening vragen, kan ze haar veilige 'RRTTT'-activa behouden en inactief blijven. In dat geval heeft dit voorbeeld weinig invloed op de economie.
+
+Momenteel zijn er vijf deposito's 'D' in het systeem, terwijl er in het beginstadium slechts vier waren. Ook zijn er vier reserveblokken 'R' in het systeem, tegenover drie in de beginfase.
+
+Er is meer liquiditeit in het systeem, met een toename van zowel basisgeld als ruim geld. Maar dat ruime geld komt nog niet in beweging en blijft bij Sara en haar bank. Met andere woorden, de omloopsnelheid van het ruime geld is laag. De inflatoire potentie in het systeem is gegroeid, omdat er meer ruim geld en reserves zijn. Toch is er nog geen consumentenprijsinflatie. Sara is niet rijker geworden; ze heeft alleen iets meer liquiditeit.
+
+In dit voorbeeld verhoogde de Federal Reserve rechtstreeks de hoeveelheid ruim geld in het systeem, zonder dat de banken particuliere leningen verstrekten of de federale overheid enige uitgaven deed. Het blijft echter onduidelijk of dit effect zal hebben. Dit hangt af van wat Sara en haar bank doen met hun extra liquiditeit. Zelfs als het effect zou optreden, kan de Federal Reserve dit niet herhalen, omdat noch Mary, noch Sara (de twee particuliere, niet-bankentiteiten) staatsobligaties hebben om te verkopen aan de Federal Reserve.
+
+Waarschijnlijk heeft dit een licht inflatoire invloed op de prijzen van beleggingen. Sara heeft namelijk veel geld en is daardoor misschien meer geneigd om aandelen of staatsobligaties te kopen. Hoewel ze een spaarder is en mogelijk niet meer zal uitgeven, kan die extra liquiditeit haar investeringsgedrag wel veranderen.
+
+### Voorbeeld 4: Door niet-bancaire entiteiten gefinancierd helikoptergeld
+
+De eerste drie voorbeelden waren afzonderlijke situaties, die elk een ander scenario wilden verduidelijken.
+
+Deze laatste drie voorbeelden (Voorbeelden 4, 5 en 6) bouwen op elkaar voort. Ze laten zien wat er gebeurt wanneer het Amerikaanse ministerie van Financiën een begrotingstekort creëert. De uitkomsten van deze voorbeelden zijn afhankelijk van wie de uitgaven financiert door de staatsschuld te kopen.
+
+Het systeem in Voorbeeld 4 begint met een relatief lage schuldenlast. De economie verkeert echter in een recessie. Mary heeft net haar baan verloren en heeft slechts een klein bedrag op haar bankrekening staan. Uit frustratie wendt ze zich tot haar gekozen vertegenwoordigers. Het Congres geeft daarop toestemming aan het U.S. Treasury Department om iedereen $1.000 aan 'stimulus cheques' te sturen, rechtstreeks naar hun bankrekeningen. Dit staat bekend als 'helikoptergeld', een oorspronkelijk gedachte-experiment waarbij nieuw geld uit helikopters op consumenten werd gedropt.[^218] Het Treasury Department financiert dit door staatsobligaties uit te geven, die Sara (die genoeg geld heeft en haar baan nog niet is kwijtgeraakt) koopt. Dit is weergegeven in Figuur 15-H.
+
+![Schematische voorstelling van voorbeeld 4](/figures/15-H.png){width=100%}
+
+#### *Begintoestand*
+
+Mary heeft een auto, 'A', en een tegoed, 'D', aan de activa-kant. Aan de passivakant heeft ze een autolening, 'L'. De bank van Mary heeft een reserveblok, 'R', en Mary's autolening, 'L', aan de activa-kant. Haar deposito, 'D', verschijnt aan de passivakant van de bank.
+
+Sara heeft drie depositoblokken, 'DDD', als activa en geen schulden. De bank van Sara beschikt over een mix van overtollige reserves en enkele staatsobligaties als activa, 'RRTT', en daarnaast staan Sara's drie depositoblokken, 'DDD', aan de passivakant.
+
+De Federal Reserve heeft als passiva de drie systeemreserves van de banken en bezit als activa drie Treasury bonds. Het U.S. Treasury Department heeft vijf uitstaande staatsobligaties als passiva, die eigendom zijn van de Federal Reserve en de bank van Sara.
+
+Het totale bedrag aan deposito's in het systeem is 4D, oftewel $4.000. Het totaal aan reserves in het systeem bedraagt 3R, oftewel $3.000.
+
+#### *Tussentoestand (niet getoond)*
+
+Hoewel de federale regering van de VS de oorspronkelijke uitgever van de valuta is, moet ze in de meeste gevallen haar uitgaven wettelijk financieren door belastingen te innen of staatsobligaties uit te geven om haar rekeningen te betalen.[^219]
+
+Het Treasury Department stort $1.000 op de bankrekening van zowel Mary als Sara. Ze zijn allebei blij, omdat hun vermogen met $1.000 toeneemt. Hun banken ontvangen het geld en hebben nog niets uitgeleend, dus ze bewaren dit nieuwe geld simpelweg als nieuwe reserves op hun rekening bij de Federal Reserve.
+
+Dit is echter maar een korte tussenfase. Het Treasury Department geeft nu nieuwe staatsobligaties 'TT' uit om de eerder gemaakte uitgaven te dekken. Sara besluit vervolgens twee van haar deposito's 'DD' te gebruiken om deze staatsobligaties 'TT' te kopen, omdat ze iets meer rendement opleveren dan haar bankrekening.
+
+Laten we ons voorstellen dat dit gelijktijdig plaatsvindt. Wat er gebeurde, was dat het U.S. Treasury twee depositoblokken van Sara wegnam, waardoor ook twee reserveblokken van haar bank verdwenen. Sara's bank regelde immers de overschrijving met het U.S. Treasury Department. In ruil daarvoor kreeg Sara twee staatsobligatieblokken als activa terug. Tegelijkertijd ontving zowel Mary als Sara elk een depositoblok van het U.S. Treasury Department. Dit betekende ook dat er één reserveblok naar Mary's bank en één naar Sara's bank ging om de overschrijvingen af te wikkelen.
+
+#### Eindtoestand
+
+Na alle overboekingen zijn zowel Mary als Sara elk $1.000 rijker dan bij aanvang. Mary's vermogen veranderde van 'CD' naar 'CDD' omdat ze een extra depositoblok ontving. Sara's vermogen transformeerde van 'DDD' naar 'DDTT'. Ze kreeg ook een depositoblok, maar gebruikte daarnaast twee depositoblokken voor de aankoop van twee staatsobligaties.
+
+Mary's bank is nu iets groter dan aan het begin van dit voorbeeld. Dit komt doordat Mary een depositoblok 'D' heeft ontvangen, terwijl haar bank een reserveblok 'R' kreeg bijgeschreven voor de afhandeling. Daarnaast heeft de bank ook een extra verplichting 'D' aan Mary. Mary heeft het geld nog niet uitgegeven. Dit betekent dat het eigen vermogen van Mary's bank gelijk is gebleven; zowel de activa als de passiva zijn met hetzelfde bedrag toegenomen. De totale activa en passiva zijn echter groter, waardoor de bank nu meer mogelijkheden heeft om geld uit te lenen.
+
+Sara's bank is iets kleiner dan voorheen. Hoewel Sara en haar bank elk een deposito- en een reserveblok ontvingen, stuurde Sara twee depositoblokken naar het Treasury Department om de staatsobligaties te ontvangen. Daarom zond Sara's bank twee reserveblokken naar het Treasury: één naar Mary's bank en één terug naar Sara's bank. Het eigen vermogen van Sara's bank is gelijk gebleven, maar de bank is kleiner geworden omdat zowel de activa als de passiva zijn afgenomen. Hierdoor is haar uitleenvermogen ook verminderd.
+
+De Federal Reserve is ongewijzigd. Ze hebben alleen in hun boekhouding aangepast dat een reserveblok 'R', dat eerst aan Sara's bank was toegewezen, nu aan Mary's bank wordt toegeschreven. Het totaal aantal staatsobligaties en reserveverplichtingen is gelijk gebleven.
+
+Het U.S. Treasury Department heeft een hogere schuldenlast door de extra 'TT' aan passiva die het aan Sara moet betalen.
+
+De totale systeemdeposito's bedragen 4D = $4.000, terwijl de totale systeemreserves 3R = $3.000 zijn. Dit betekent dat het totale aantal deposito's en reserves van de beginstaat naar de eindstaat niet is veranderd. Deposito's en reserves zijn alleen binnen het systeem verplaatst.
+
+### Voorbeeld 5: Door de Fed gefinancierd helikoptergeld
+
+Voorbeeld 5 gaat precies verder waar Voorbeeld 4 is gestopt en bouwt daarop voort.
+
+Zowel Mary als Sara zijn blij omdat ze extra geld hebben gekregen in het vorige voorbeeld. Sara is echter voorzichtig en spaart haar geld vanwege de onzekere economie. Mary heeft nog steeds geen baan, dus ook zij spaart haar geld. Bovendien zijn hun favoriete restaurants en vakantiebestemmingen gesloten vanwege de pandemie.
+
+Enkele politici willen iedereen de komende maanden $1.000 geven, omdat veel werklozen, zoals Mary, weinig geld hebben en geen baan. Andere politici reageren: 'Nee, dat leidt tot te veel staatsschuld. Laat de economie zichzelf herstellen.' De politici discussiëren maandenlang en bereiken uiteindelijk een compromis. Ze besluiten om iedereen nog één keer $1.000 te geven, om te kijken of dat helpt. Daarom geeft het Congres toestemming aan het U.S. Treasury Department om opnieuw $1.000 aan iedereen uit te keren.
+
+Deze keer koopt de Federal Reserve de nieuwe staatsleningen met nieuwe reserves, in plaats van dat Sara ze met haar bestaande deposito's koopt. Dit is te zien in Figuur 15-I.
+
+![Schematische voorstelling van voorbeeld 5](/figures/15-I.png){width=100%}
+
+#### Begintoestand
+
+Sara heeft al veel staatsobligaties en ziet dat het Treasury nog meer in de schulden komt door al dat geld uit te geven zonder de belastingen te verhogen. Daarom wil ze geen extra staatsobligaties kopen. Hoe gaat het Treasury Department deze tweede ronde 'helikoptergeld' financieren?
+
+Doordat er veel nieuwe Treasury bonds worden uitgegeven en niemand deze tegen de huidige prijzen wil kopen, wordt de markt voor staatsobligaties plotseling illiquide. De prijzen van staatsobligaties beginnen te dalen, wat inhoudt dat de rendementen stijgen. Sara en haar bank raken nerveus, omdat ze beiden veel staatsobligaties in hun bezit hebben.
+
+De staatsobligatiemarkt lijkt nu tijdelijk op die van maart 2020: volledig illiquide en met sterk fluctuërende rendementen.
+
+Dit probleem duurt echter niet lang, want de Federal Reserve zegt: 'Geen zorgen, iedereen! Wij kopen de extra uitgifte van staatsobligaties op door nieuwe bankreserves te creëren. Geen paniek.'
+
+De Federal Reserve creëert dus twee nieuwe bankreserves, 'RR', en geeft deze aan het Treasury in ruil voor de nieuwe staatsobligaties, 'TT', die vervolgens tot de activa van de Federal Reserve behoren. Technisch gezien mag de Federal Reserve niet rechtstreeks van het Treasury Department kopen. Daarom maken ze afspraken om de transactie via een van de banken als tussenstation te laten verlopen.
+
+Het U.S. Treasury Department stort vervolgens $1.000 als deposito, 'D', op de rekeningen van Mary en Sara. Dit wordt verrekend door een reserveblok, 'R', naar beide banken van Mary en Sara te sturen.
+
+#### *Eindtoestand*
+
+Mary en Sara zijn allebei weer $1.000 rijker. Ze hebben elk een nieuw deposito, 'D', van $1.000.
+
+De banken van Mary en Sara zijn beide gegroeid, hoewel hun eigen vermogen gelijk is gebleven. Ze hebben elk een extra reserve, 'R', van $1.000, maar daarnaast hebben ze ook een nieuwe verplichting van $1.000 aan klantendeposito's, 'D'.
+
+De Federal Reserve is gegroeid en heeft meer hefboomwerking door de extra $2.000 aan activa in de vorm van staatsobligaties, 'TT', en de $2.000 extra verplichtingen als reserves, 'RR', die ze voor de banken aanhoudt. Het eigen vermogen is onveranderd gebleven.
+
+Het Amerikaanse ministerie van Financiën is gegroeid en heeft $2.000 meer aan uitstaande schulden, 'TT'.
+
+De totale deposito's in het systeem, oftewel het ruime geld, zijn gestegen ten opzichte van de beginsituatie: van 4D = $4.000 naar 6D = $6.000. Ook de totale reserves in het systeem, het basisgeld, zijn toegenomen ten opzichte van de beginsituatie: van 3R = $3.000 naar 5R = $5.000.
+
+Dit was simpelweg het bijdrukken van geld, zowel in termen van ruim geld als basisgeld. Mary en Sara zijn nu rijker, en hun banken hebben een grotere balans. Geld werd in het systeem geïnjecteerd, zonder dat er ergens anders in het systeem geld werd onttrokken. Het tekort werd gefinancierd door de Federal Reserve, die nieuwe bankreserves creëerde om de staatsobligaties op te kopen (met andere woorden, het tekort werd 'gemonetariseerd').
+
+Het Amerikaanse ministerie van Financiën en de Federal Reserve kunnen dit zo vaak herhalen als ze willen. Ze begrijpen echter ook dat als ze het te vaak doen, dit kan leiden tot een sterke stijging van de consumentenprijzen.
+
+Of het voor de consumentenprijzen inflatoir is, hangt af van het vertrouwen dat Mary en Sara hebben in de waarde van hun deposito's en of ze bereid zijn deze uit te geven. Daarnaast kan het ook inflatoir zijn voor de prijzen van effecten. Sara heeft bijvoorbeeld veel activa en is daardoor geneigd om een deel van haar deposito's te gebruiken om meer aandelen, vastgoed, goud, bitcoin of verzamelobjecten te kopen dan voorheen. Dit kan hun prijzen opdrijven.
+
+### Voorbeeld 6: Door banken gefinancierd helikoptergeld
+
+Voorbeeld 6 begint precies waar Voorbeeld 5 eindigde. Mary en Sara zijn allebei blij omdat ze opnieuw extra geld hebben gekregen.
+
+De pandemie loopt langzaam op zijn einde en Mary heeft een nieuwe baan gevonden. Ze beseft echter dat ze meer geld moet achterhouden voor het geval ze in de toekomst opnieuw werkloos raakt. Ze heeft een belangrijke les geleerd over sparen.
+
+Sara was altijd al een spaarder en heeft nog geen extra geld uitgegeven. Nu ze zich echter wat zelfverzekerder voelt met zoveel geld, overweegt ze om op vakantie te gaan of een auto te kopen. Ze twijfelt ook aan de waarde van haar geld, omdat ze ziet hoe snel de totale geldhoeveelheid toeneemt door het helikoptergeld dat iedereen ontvangt. De prijzen van auto's beginnen te stijgen, waarschijnlijk omdat zoveel mensen geld van de overheid krijgen. Daarom lijkt er weinig reden om te wachten.
+
+Omdat de economie nog steeds niet echt op gang komt en veel mensen meer sparen dan voorheen, besluit het Congres om nog een keer $1.000 aan helikoptergeld uit te delen aan iedereen. Daarnaast geven ze $2.000 aan nieuwe staatsobligaties 'TT' uit om dit te financieren. Dit is het: de laatste stimuleringsronde!
+
+Gelukkig heeft de Amerikaanse schatkist een aanzienlijke hoeveelheid overtollige reserves, dankzij het eerdere helikoptergeldprogramma van de Federal Reserve. Hierdoor kunnen de banken nu elk één staatsobligatie 'T' kopen met een van hun overtollige reserves. Dit is te zien in figuur 15-J.
+
+![Schematische voorstelling van voorbeeld 6](/figures/15-J.png)
+
+#### *Begintoestand*
+
+Alle deposito's in het systeem bedragen samen $6.000 (6D). De totale reserves van het systeem zijn $5.000 (5R).
+
+Stel je voor dat het proces gelijktijdig plaatsvindt. Het Amerikaanse ministerie van Financiën stuurt Mary en Sara elk een deposito 'D' van $1.000 en legt hun banken elk een reserve van $1.000 beschikbaar om dit te vereffenen. Vervolgens geeft het ministerie twee nieuwe staatsobligaties 'TT' uit om deze uitgaven te dekken. De banken sturen elk een reserveblok 'R' naar het ministerie van Financiën in ruil voor een van die staatsobligaties 'T'.
+
+#### *Eindtoestand*
+
+Mary en Sara hebben weer $1.000 extra. Ze hebben hun bezittingen uitgebreid met een nieuw depositoblok 'D'.
+
+De banken hebben nog steeds hetzelfde aantal reserves als voorheen. Ze hebben ieder een reserveblok 'R' ontvangen van het U.S. Treasury Department als onderdeel van het helikoptergeld voor hun klanten. Elke bank heeft echter een reserveblok 'R' teruggestuurd naar het Treasury om de stimulans te financieren. In ruil daarvoor ontvingen ze een staatsobligatie 'T' als nieuw activum. Hoewel hun reserves gelijk zijn gebleven, hebben ze nu een extra activum 'T' en een extra verplichting 'D' voor hun klanten. Dit betekent dat ze uiteindelijk een iets grotere schuldenlast hebben.
+
+De Federal Reserve is sinds het begin van dit voorbeeld niet veranderd, behalve dat ze wat boekhoudkundig werk heeft verricht voor de reserves die heen en weer zijn bewogen en uiteindelijk weer op dezelfde plek zijn geëindigd.
+
+Het U.S. Treasury Department heeft nu $2.000, ofwel 'TT', meer schuld dan aan het begin van dit voorbeeld.
+
+De totale hoeveelheid deposito's in het systeem steeg met $2.000 ('DD'), van 6D = $6.000 naar 8D = $8.000. De totale hoeveelheid reserves bleef echter 5R = $5.000. Hierdoor nam de geldmultiplicator licht toe, van 6-op-5 naar 8-op-5. De ruime geldhoeveelheid nam toe, maar de basisgeldhoeveelheid bleef gelijk.
+
+Zal dit inflatie veroorzaken voor de consumentenprijzen? Dat hangt af van wat Mary en Sara nu gaan doen, maar waarschijnlijk wel. Sara heeft veel contant geld en maakt zich zorgen over de waarde ervan. Ze besluit het uit te geven aan een vakantie, een nieuwe auto, aandelen, onroerend goed, goud of bitcoin --- of iets anders. Mary besluit ook vaker uit eten te gaan nu ze meer contant geld heeft dan normaal. Andere mensen lijken hetzelfde te doen. De prijzen van goederen en diensten stijgen elke maand een beetje, omdat iedereen extra geld heeft om uit te geven.
+
+Er staat nu $8.000 aan deposito's (ruime geldhoeveelheid) in het systeem, vergeleken met slechts $4.000 aan deposito's aan het begin van Voorbeeld 4. De hoeveelheid goederen en diensten in de economie is echter niet verdubbeld. Als Mary, Sara en anderen besluiten hun geld uit te geven, kan dit leiden tot een overvloed aan geld dat jaagt achter een beperkte voorraad goederen en diensten. Dit kan de consumentenprijzen verhogen en inflatie veroorzaken.
+
+## Samenvattende conclusies uit deze voorbeelden
+
+Als we deze zes voorbeelden bekijken om te begrijpen hoe geld daadwerkelijk wordt 'gedrukt' binnen een systeem met fiatgeld, doen zich verschillende observaties voor:
+
+- Banken kunnen nieuwe deposito's creëren en het aantal deposito's in het systeem vergroten door leningen te verstrekken. Het verstrekken van leningen resulteert in de creatie van deposito's, maar dit verandert niets aan de hoeveelheid basisgeld (zoals bankreserves en bankbiljetten) in het systeem. Basisgeld wordt verplaatst van de ene bank naar de andere en de onderliggende reserves worden als hefboom gebruikt. Hierdoor is er een hoge verhouding van claims op basisgeld (bankdeposito's) ten opzichte van het beschikbare basisgeld in het systeem. Dit fenomeen wordt de geldmultiplicator genoemd, oftewel de verhouding tussen ruim geld en basisgeld. Hoewel banken door leningen het aantal deposito's kunnen vergroten, wat inflatie kan veroorzaken door de toename van het ruime geld, is dit niet hetzelfde als letterlijk 'geld drukken'. Banken bepalen zelf in welke mate ze hun schulden willen verhogen ten opzichte van hun kasreserves. Ze worden echter beperkt door de kans op wanbetalingen, liquiditeitsvereisten en verschillende regels over de hoogte van hun hefboom. Het grootste risico van dit systeem is dat banken impliciet garanderen dat hun spaarders hun geld op elk moment kunnen opnemen, ook al hebben ze niet genoeg geld om aan die vraag te voldoen. Zo creëren banken de illusie van liquiditeit in een in wezen illiquide systeem. Om de paar decennia wordt deze illusie doorbroken, wat leidt tot de creatie van meer basisgeld om het aantal deposito's te dekken.
+
+- De Amerikaanse centrale bank, de Federal Reserve, kan nieuwe bankreserves creëren en daarmee de totale hoeveelheid bankreserves in het systeem verhogen. Maar als ze deze nieuwe reserves gebruikt om activa van banken te kopen, leidt dit niet meteen tot meer deposito's (ruim geld) in het systeem. In plaats daarvan verlaagt het de hefboomwerking van banken. Hierdoor krijgen zij meer ruimte om aanvullend te lenen en nieuwe deposito's (ruim geld) te creëren. Of ze daadwerkelijk zullen uitlenen, is echter aan hen. Als de Federal Reserve daarentegen activa koopt van niet-bancaire entiteiten zoals Sara, met het bankensysteem als tussenpersoon, kan dit de deposito's (ruim geld) in het systeem enigszins verhogen. Dit gebeurt echter slechts in beperkte mate, afhankelijk van de hoeveelheid Treasuries die niet-bancaire entiteiten kunnen verkopen. Wanneer de Federal Reserve de monetaire basis verhoogt, wordt dit vaak aangeduid als 'geld drukken'. Dit beïnvloedt echter niet meteen het vermogen van mensen om meer goederen en diensten te consumeren, omdat het de brede geldvoorraad niet noodzakelijkerwijs verhoogt.
+
+- Wanneer het Congres dit toestaat, kan het U.S. Treasury Department aan bepaalde entiteiten binnen het systeem deposito's verstrekken via fiscale begrotingstekorten. Deze deposito's verdwijnen echter weer uit het systeem wanneer niet-bancaire entiteiten, zoals Sara, de nieuwe staatsobligaties kopen die zijn uitgegeven om deze fiscale uitgaven te financieren. Dit proces creëert dus niet per se nieuwe deposito's of reserves. Dit wordt vaak het 'crowding-out effect' genoemd. Dit houdt in dat de Treasury kapitaal uit een bepaalde hoek van de economie kan weghalen en het elders kan injecteren. Op grote schaal kan dit niet-bancair kapitaal verdringen dat anders productiever was gebruikt. Dit is geen 'geld bijdrukken', aangezien het enkel middelen verplaatst en de schuldverhouding van het U.S. Treasury Department vergroot.
+
+- Als het U.S. Treasury Department en de Federal Reserve samenwerken, kunnen ze snel zowel de deposito's als de bankreserves verhogen zonder ergens anders in het systeem deposito's weg te halen. De Treasury injecteert geld in de economie door een begrotingstekort te realiseren, wat nieuwe deposito's oplevert. De Federal Reserve koopt de benodigde nieuwe staatsobligaties met vers gecreëerde bankreserves, waardoor zowel haar activa als passiva toenemen. Het maakt in dit geval niet uit of banken leningen verstrekken. De Treasury en de Fed omzeilen samen het beleid van banken om geld te creëren door simpelweg rechtstreeks meer geld aan mensen en bedrijven te geven. Dit verhoogt in ons voorbeeld het vermogen van Mary en Sara, evenals de omvang van hun banken (inclusief de ruime geldhoeveelheid en bankreserves, zonder dat het eigen vermogen van de banken verandert). Tegelijkertijd neemt de schuldenlast van de Federal Reserve en de Treasury toe. Er is geen limiet aan hoe vaak ze dit kunnen doen, behalve dat het risico van inflatie toeneemt als het te veel en te snel gebeurt in verhouding tot de hoeveelheid goederen en diensten in de economie. Deze manier van 'geld drukken' kan namelijk de meeste inflatie veroorzaken. Toch kan dit niet zomaar gebeuren, omdat fiscale veranderingen door het Congres moeten worden goedgekeurd en door de president moeten worden geratificeerd.
+
+- Wanneer het U.S. Treasury Department geld in de economie injecteert via begrotingstekorten en commerciële banken staatsobligaties kopen, leidt dit ook tot een toename van het aantal deposito's (de ruime geldhoeveelheid) en de geldmultiplicator. Dit effect kan aanzienlijk zijn als de banken al beschikken over overtollige reserves. Iedere keer dat de federale overheid meer geld in het systeem pompt, ontstaan er extra bankdeposito's. Deze nieuwe deposito's vullen de reserves aan die de bank heeft gebruikt voor het kopen van staatsobligaties. Daardoor krijgen de banken meer mogelijkheden om aanvullende staatsobligaties aan te schaffen. Dit proces is behoorlijk inflatoir. Banken moeten echter wel beginnen met veel overtollige reserves om hun hefboomratio's en redelijke liquiditeitsniveaus te handhaven. Deze overtollige reserves hebben ze waarschijnlijk ontvangen vanuit eerdere kwantitatieve verruimingsprogramma's van de Federal Reserve.
+
+- Quantitatieve verruiming (QE) is een antideflatoire vorm van geldcreatie waarbij de Federal Reserve bestaande activa, voornamelijk van banken, opkoopt. Deze aanpak brengt liquiditeit terug in het bankensysteem en voorziet het van overtollige reserves. Hierdoor kunnen banken hun deposito's (de ruime geldhoeveelheid) blijven opnemen, wat voorkomt dat ze falen tijdens liquiditeitscrises en zo deflatie veroorzaken. Gewoonlijk leidt QE niet direct tot hogere consumentenprijzen, omdat het de ruime geldhoeveelheid niet aanzienlijk vergroot.
+
+Grote fiscale tekorten die worden gefinancierd met kwantitatieve verruiming, waarbij centrale banken overtollige staatsobligaties opkopen die onvoldoende vraag hebben vanuit het publiek, leiden meestal tot inflatie van consumentenprijzen. Dit gebeurt omdat het geld direct in de economie terechtkomt, in de ruime geldhoeveelheid. De enige beperking van deze methode is de prijsinflatie die deze waarschijnlijk zal veroorzaken.
+
+[^207]: Òscar Jordà et al., *Macrofinancial History*.  
+[^208]: Federal Reserve Economic Data, *Monetary Base, Total*; *M3 for the United States*.  
+[^209]: Federal Reserve Economic Data, *Reserves of Depository Institutions*; *Currency in Circulation*.  
+[^210]: Sumner, *Money Illusion*, 48-49.  
+[^211]: Federal Reserve Economic Data, *M2*.  
+[^212]: Bhatia, *Layered Money*, 92-94, 137-139.  
+[^213]: Jordà et al., *Macrofinancial History*.  
+[^214]: Michael McLeay et al., *Money Creation in the Modern Economy*, 14-15.  
+[^215]: Lyn Alden, *Banks, QE, and Money-Printing*; voorbeelden gebaseerd op het Bank of England-artikel Michael McLeay et al., *Money Creation in the Modern Economy*.  
+[^216]: Zie bijv. Elizabeth Schulze, *Here's Why Economists Don't Expect Trillions of Dollars in Economic Stimulus to Create Inflation*, CNBC; Lizzie O'Leary, *Financial Panic: Inflation Isn't a Risk*, Washington Post; Paul Krugman, *Covid's Economic Mutations*, New York Review of Books; Ben Bernanke, *21st Century Monetary Policy*, hfst. 10; Richard Clarida et al., *The COVID-19 Crisis and the Federal Reserve's Policy Response*, 7-8.  
+[^217]: Zelfs critici als George Selgin merkten kort voor de uitbraak van inflatie op dat het 'verre van acuut' leek; zie George Selgin, *The Fiscal and Monetary Response to COVID-19*, 13.  
+[^218]: Milton Friedman, *Optimum Quantity of Money*, 4-7.  
+[^219]: George Selgin, *On Empty Purses and MMT Rhetoric*, Alt-M, 5 mei 2019.  

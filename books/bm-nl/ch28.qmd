@@ -1,0 +1,254 @@
+# De aantasting van privacy
+
+Zoals in dit boek al duidelijk wordt, komt het recht op privacy in het digitale tijdperk steeds meer onder druk te staan.
+
+Vroeger was het kostbaar om privacy te schenden. Vóór de komst van het internet, smartphones, bewakingscamera's en andere moderne technologieën was de enige manier om iemands privacy te schenden via fysieke observatie, door het fouilleren van personen of het doorzoeken van hun bezittingen. Hierdoor had het slachtoffer vaak een redelijk goede kans om te merken dat zijn privacy werd aangetast.
+
+In het digitale tijdperk wordt het voor overheden, bedrijven én individuen steeds eenvoudiger en goedkoper om iemands privacy te schenden – vaak zonder dat dit opgemerkt wordt. Overheden en bedrijven kunnen automatisch zowel publieke als private gegevens van miljarden mensen verzamelen via grote financiële en communicatieplatforms. De verzamelde data wordt vervolgens geordend met behulp van diverse Big Data-technieken, zoals machine learning, en algoritmes kunnen deze gegevens continu monitoren of eenvoudig doorzoekbaar maken. Bovendien worden gecentraliseerde opslagplaatsen vaak gehackt, waardoor de data op het dark web belandt.
+
+Het Vierde Amendement van de Amerikaanse Grondwet, geratificeerd in 1791 als onderdeel van de *Bill of Rights*, beschermt burgers tegen onredelijke huiszoekingen en inbeslagnames.
+
+> Het recht van mensen om zich veilig te voelen in hun persoon, huis, papieren en bezittingen, tegen onredelijke huiszoekingen en inbeslagnames, zal niet worden geschonden. Huiszoekingsbevelen worden enkel afgegeven op basis van gegronde redenen, ondersteund door een eed of bevestiging, en met een nauwkeurige beschrijving van de plek die doorzocht moet worden, evenals de personen of zaken die in beslag genomen moeten worden.[^402]
+
+De Universele Verklaring van de Rechten van de Mens, opgesteld door de Verenigde Naties in 1948, erkent in artikel 12 eveneens privacy als een fundamenteel mensenrecht.
+
+> Niemand mag onderworpen worden aan willekeurige inbreuken op zijn privacy, gezin, huis of correspondentie, en ook niet aan aanvallen op zijn eer en reputatie. Iedereen heeft het recht om door de wet beschermd te worden tegen dergelijke inmengingen of aanvallen.[^403]
+
+In de praktijk worden deze rechten echter vaak genegeerd, zowel in de Verenigde Staten als in talloze andere landen wereldwijd.
+
+Mensen hebben van nature de behoefte om niet bespied te worden. We sluiten 's avonds onze gordijnen, voelen ons ongemakkelijk wanneer iemand ons in het openbaar te lang aankijkt en zorgen ervoor dat toiletten deuren hebben en dat afgeschermde ruimtes voorzien zijn van gordijnen. Het is dan ook begrijpelijk dat velen zich zorgen maken over de mogelijkheid dat onze camera's of microfoons worden gehackt, zodat iemand ons onopgemerkt kan bekijken of afluisteren.
+
+Dit geldt eveneens voor onze intrinsieke behoefte aan privacy betreffende onze bezittingen en persoonlijke informatie. We willen niet dat iedereen alles over ons weet, maar alleen dat die personen die er daadwerkelijk toe doen, op de hoogte zijn. Zo delen we bijvoorbeeld ungern ons salaris, de namen van onze medicatie of details over ons seksleven met vreemden, terwijl we tijdens een sollicitatiegesprek soms wel ons salaris noemen, medische problemen bespreken met de dokter en onze intimiteit met onze partners delen.
+
+Indien legitieme autoriteiten onze privacy toch moeten schenden, dan zouden dit soort inbreuken – zoals vastgesteld in de *Bill of Rights* en de Universele Verklaring van de Rechten van de Mens – niet willekeurig of algemeen mogen plaatsvinden. Ze moeten berusten op gegronde redenen, een specifieke aanleiding hebben en binnen de wettelijke kaders blijven.
+
+Privacy is van essentieel belang in een vrije samenleving, maar nog crucialer in een onvrije. In landen waar vrijheid ontbreekt, kunnen mensen met 'ongewenste' politieke opvattingen, afwijkende seksuele voorkeuren of minderheidsgeloofsovertuigingen door de overheid of anderen in de samenleving worden vervolgd – zelfs als hun meningen of handelingen geen directe schade veroorzaken. Er zullen altijd individuen zijn die menen te weten wat de beste leefwijze is en die ervan overtuigd zijn dat zij het recht hebben hun visie aan anderen op te dringen.
+
+Over de jaren heen is surveillancetechnologie aanzienlijk krachtiger geworden, waardoor het onrealistisch is om te verwachten dat overheden of bedrijven de privacy zullen respecteren. Het antwoord luidt steevast 'nee', en de rechtvaardigingen hiervoor blijven evolueren. In de Verenigde Staten werden de jaren '70 en '80 bijvoorbeeld gekenmerkt door de strijd tegen drugs om privacyschendingen te verantwoorden, waarna in de jaren 2000 de oorlog tegen terreur centraal kwam te staan. Nu, in de jaren 2020, verschuift de rechtvaardiging naar de bestrijding van mensenhandel en de samenwerking met vijandige naties. Er zal altijd een argument worden gevonden om privacy op te geven, vaak met als doel vermeend misbruik door een klein percentage mensen te voorkomen.
+
+Om privacy te waarborgen, moeten individuen in plaats daarvan krachtige tegen-technologieën ontwikkelen, zodat zij enigszins de controle over hun eigen privacy kunnen behouden. Tegelijkertijd dienen wetten en praktijken te evolueren naar deze nieuwe technologische werkelijkheid. Evenals mensen fysieke muren bouwen om hun bezittingen te beschermen – waarvoor zowel energie als juridische inspanningen nodig zijn om te omzeilen – moeten zij ook digitale barrières opwerpen rond hun gegevens.
+
+## Transactieprivacy
+
+Het recht op privacy omvat immers ook de bescherming van je financiële transacties. Wanneer een overheid, bedrijf of individu volledige inzage krijgt in jouw transactiegeschiedenis, kan er vrijwel alle persoonlijke informatie over jou worden afgeleid. Bovendien stelt realtime monitoring hen in staat om ook je fysieke locatie continu in de gaten te houden.
+
+Als we terugblikken op de verschillende vormen van geld die in dit boek aan bod komen, valt op dat velen een hoge mate van transactieprivacy boden. Dit was jarenlang de norm. Toonderactiva zoals edelmetalen munten en fysieke bankbiljetten werden immers gebruikt voor directe, fysieke transacties tussen partijen, zonder dat een derde instantie het 'kasboek' van wisselingen kon bijhouden. De actuele staat van het kasboek werd bepaald door wie het bezit, en geen enkele entiteit – zelfs niet de uitgever van de bankbiljetten – had volledig zicht op alle transacties.
+
+Door de opkomst van telecommunicatiesystemen en het routinematig gebruik van bankdeposito's voor sparen, is financiële privacy de afgelopen decennia sterk verminderd. Een bankmedewerker kan namelijk eenvoudig registreren hoeveel geld je bezit, waar je betalingen naartoe stuurt en waar deze vandaan komen. Dit stelt overheden in staat om banken regelmatig te verzoeken de betreffende gegevens te overhandigen. Bovendien moedigt een monetair beleid dat voortdurende inflatie nastreeft mensen aan om rente te zoeken als bescherming, wat het aanhouden van fysiek geld ontmoedigt en het gebruik van fractioneel gereserveerde, strikt gecontroleerde bankdeposito's bevordert.
+
+De *Bank Secrecy Act* van 1970, ingevoerd door de Amerikaanse overheid en nog altijd van kracht, verplicht banken om rapportages te leveren wanneer de dagelijkse transacties van een klant de $10.000 overschrijden.
+
+Toen deze wet in 1970 werd ingevoerd, lag het mediane jaarsalaris van een Amerikaan onder de $10.000. Daardoor was de wet oorspronkelijk bedoeld voor relatief grote transacties – meer dan $80.000 in de huidige, verzwakte dollars. Omdat er geen inflatiecorrectie in de wet was opgenomen, moesten banken na verloop van tijd steeds vaker kleinere transacties rapporteren, aangezien het normaal werd om dagelijks bedragen van $10.000 te verplaatsen. Zo verlaagde de overheid door de werking van de inflatie de surveillance-drempel elk jaar, zonder daarvoor nieuwe wetgeving aan te hoeven passen.
+
+Als de inflatie de komende vijftig jaar op hetzelfde niveau blijft als in de afgelopen vijftig jaar, zal de in koopkracht gemeten rapportagedrempel naar verwachting ongeveer acht keer krimpen. Toen de wet voor het eerst werd ingevoerd, had de overheid het recht om transacties ter omvang van een huishouden te controleren. Dankzij inflatie is die drempel inmiddels gedaald tot bedragen die vergelijkbaar zijn met de kosten van een tweedehands auto. Als deze trend zich voortzet, kan de overheid immers zelfs de transacties voor een grasmaaier of een fiets monitoren.
+
+Vergelijkbare rapportagevereisten komen ook in andere landen voor. Zoals later in dit hoofdstuk wordt toegelicht, kunnen inlichtingendiensten onderzoek doen naar diverse soorten informatie, zelfs wanneer deze onder de meldingsdrempels blijven, en dat zowel met als zonder gegronde reden. In de praktijk worden kleine transacties door banken al tot in de kleinste details gecontroleerd.
+
+De overheid streeft er tevens naar deze beperkingen toe te passen in andere financiële registraties. Zo verlaagde de Duitse overheid per 1 januari 2020 de drempel voor de aankoop van fysiek goud zonder verplichte identiteitscontrole van 10.000 euro naar slechts 2.000 euro, zogenaamd om witwaspraktijken tegen te gaan. Hoewel Duitsers voor veel andere aankopen boven de 2.000 euro geen identiteitscontrole hoeven te ondergaan, geldt deze maatregel expliciet voor goud. Eind 2019, in de aanloop naar deze verandering, stonden lange rijen mensen bij goudwinkels om edelmetalen te kopen voordat de strengere identificatieregels van kracht werden.
+
+Op vergelijkbare wijze heeft Frankrijk in het afgelopen decennium contante transacties van meer dan 1.000 euro verboden om terrorismefinanciering en witwassen tegen te gaan. Ook hanteren diverse andere landen soortgelijke beperkingen op het gebruik van contant geld.
+
+## De saga van de piepers in de jaren '80
+
+Criminelen maken, zoals te verwachten valt, vaak gebruik van nieuwe technologieën zodra deze beschikbaar komen. In de jaren '80 maakten drugsdealers veelvuldig gebruik van piepers om aan de aandacht van de wetshandhaving te ontsnappen. Maar ook legitieme gebruikers – artsen, advocaten, journalisten en bezorgers – vonden hun weg naar deze apparaten. Een artikel in de Washington Post uit 1988, getiteld *Message Is Out On Beepers*, begon met de volgende beschrijving:
+
+> Wanneer een drugsdealer in de problemen zit, belt hij soms 911. Maar hij probeert niet de politie te bereiken.
+>
+> In plaats daarvan ontvangt een koerier, die een pieper bij zich heeft, het bericht. Op de pieper verschijnen de berichten die via de telefoon zijn ingetoetst. Zo betekent 911 dat de politie in aantocht is.
+>
+> Ondanks de groeiende populariteit van piepers in het beroepsleven --- artsen, bezorgers en journalisten maken er vaak gebruik van --- zijn ze ook een vast onderdeel van de drugshandel geworden. Dit brengt nieuwe problemen met zich mee voor de wetshandhaving en dreigt het imago van een bloeiende hightechindustrie te schaden.[^404]
+
+Het artikel beschreef diverse methoden om het illegaal gebruik van piepers tegen te gaan. Zo werden bij de aankoop, zelfs bij contante betalingen, grondige kredietcontroles ingesteld om te voorkomen dat criminelen deze apparaten in handen kregen. Bovendien besprak het artikel de weerstand van de American Civil Liberties Union tegen maatregelen die de autoriteiten de bevoegdheid zouden geven om te bepalen wie wel of geen toegang tot piepers zou hebben.
+
+Tegenwoordig lijkt het idee om het gebruik van piepers te reguleren bijna belachelijk, zeker in het licht van de enorme technologische vooruitgang die we sindsdien hebben geboekt. Het is een uitstekend voorbeeld van hoe elke nieuwe technologie zowel op positieve als negatieve wijze ingezet kan worden. Hoewel er vaak publieke debatten ontstaan over beperkingen om de voordelen te benutten en misbruik te voorkomen, blijkt het vrijwel onmogelijk om de wereldwijde en blijvende verspreiding van nieuwe technologie structureel in te dammen. Vaak worden krachtige technologieën immers voor zowel nobele als kwaadaardige doeleinden ingezet.
+
+Vandaag de dag lijkt het idee om het gebruik van piepers te beperken onzin. De meesten van ons hebben op hun mobiele telefoon toegang tot het internet. Dit staat in schril contrast met het lage technologisch niveau van piepers, vooral als je bedenkt dat 90% van de wereld toegang heeft tot veel geavanceerdere technologieën.
+
+## Surveillantiekapitalisme
+
+In de jaren 2000 en 2010 nam de commercialisering van gebruikersdata fors toe. Diverse bedrijven boden zogenaamd *gratis* diensten aan, maar in werkelijkheid was de prijs het verzamelen van gebruikersdata, die vervolgens direct werd benut of verkocht. Het doel van dit bedrijfsmodel was om advertenties nauwkeurig op individuele gebruikers af te stemmen op basis van hun online gedrag – een uiterst winstgevende strategie. Men ontving weliswaar diverse diensten, maar de verborgen prijs was een ingrijpende verlies van privacy ten gunste van grote ondernemingen.
+
+De dataverzamelingscapaciteiten van Alphabet zijn indrukwekkend. Via Google, 's werelds meest gebruikte zoekmachine, kan het bedrijf je zoekgeschiedenis bijhouden. Met de populairste browser, Chrome, wordt vastgelegd welke websites je bezoekt. Als je een document uploadt naar hun cloud, wordt dit gescand om te controleren of het in strijd is met de gebruiksvoorwaarden. Bij Gmail krijgt het bedrijf inzicht in je e-mailgeschiedenis en kan het zelfs je realtime communicatie doorlichten. En als je een Android-telefoon gebruikt waarbij bepaalde privacy-instellingen zijn uitgeschakeld, volgen zij je locatie, app-gebruik en andere details. Stel je eens voor hoeveel persoonlijke informatie aaneengesloten aan één enkel bedrijf is overgedragen: toegang tot je e-mails, documenten, zoekopdrachten, bezochte websites, app-activiteit en mogelijk zelfs je fysieke locatie, allemaal in realtime.[^405]
+
+Bijna tien jaar geleden, toen dit allemaal nog nieuw was, bekeek ik mijn buurt op Google Maps. Tot mijn verbazing verscheen op een gebouw een melding waarin stond dat ik daar de volgende week een tandartsafspraak had. Daarop besefte ik dat de software van Google waarschijnlijk mijn e-mailbevestiging had gelezen en deze informatie op hun platform had gedeeld.
+
+Naast de aanzienlijke financiële waarde van de data van zogenaamd gratis gebruikers, benutten veel producten deze informatie om hun functionaliteit te verbeteren. Zo luisteren Alexa en Siri naar je stem om je van dienst te zijn, maar dit betekent in feite dat je je huis letterlijk 'aftapt' voor Amazon en Apple, twee van 's werelds grootste bedrijven. Ook vertrouwen mensen op hun beveiligingssystemen: men installeert regelmatig meerdere buitencamera's en zelfs camera's bij de voordeur. Deze beelden worden doorgaans opgeslagen in de cloud en verwerkt op servers beheerd door de grootste bedrijven ter wereld.
+
+Wanneer je over straat wandelt, is de kans groot dat je op meerdere camera's in beeld komt. Deze beelden worden in realtime naar de cloud geüpload. In woonwijken zie je vooral deurbelcamera's en andere beveiligingscamera's die naar buiten gericht zijn. In stedelijke gebieden maken ze bovendien gebruik van diverse bewakingssystemen om criminaliteit te voorkomen.
+
+## Zeer veel datalekken
+
+Helaas doen datalekken de laatste tijd steeds vaker voorkomen, zowel bij overheidsinstellingen, bedrijven als bij particulieren. Vaak komt de last hiervan uiteindelijk op de gewone burger terecht. Mensen die erop vertrouwen dat hun data veilig wordt opgeslagen, worden daardoor vaak teleurgesteld.
+
+In 2013 raakten drie miljard Yahoo-e-mailaccounts betrokken bij een datalek waarvan de meeste mensen jarenlang niets vermoeden. Hackers kregen hierbij niet alleen toegang tot de e-mailaccounts, maar ook tot andere persoonlijke gegevens zoals namen, geboortedata, telefoonnummers, beveiligingsvragen en wachtwoorden.
+
+In 2014 werd eBay gehackt, wat leidde tot de openbaarmaking van gegevens van 145 miljoen mensen. De gelekte informatie bestond uit namen, e-mailadressen, fysieke adressen, telefoonnummers en geboortedata.
+
+In 2015 werd het U.S. Office of Personnel Management getroffen door een van de grootste datalekken in de geschiedenis van de Amerikaanse federale overheid. Persoonlijke en gevoelige gegevens van meer dan 22 miljoen mensen – voornamelijk overheidsmedewerkers, aannemers en sollicitanten – raakten gelekt. Het betrof burgerservicenummers, namen, geboortedata, salarisgeschiedenissen, zorgverzekeringsinformatie en huisadressen. Bij miljoenen mensen ging dit zelfs verder, doordat bij achtergrondcontroles voor veiligheidscertificeringen complete psychologische profielen, informatie over familieleden en vrienden en zelfs vingerafdrukken werden verzameld.
+
+In 2016 werd de volwassenen-socialenetwerksite Adult Friend Finder getroffen door een datalek, waarbij gegevens van 412 miljoen accounts via diverse databases werden blootgelegd. Dit kwam doordat het bedrijf eigenaar is van meerdere volwassenensites. De gelekte data omvatte ook verwijderde accounts en besloeg een periode van twintig jaar aan accountgeschiedenis. De informatie betrof namen, e-mailadressen en wachtwoorden, en bevestigde tevens dat de betrokken personen accounts hadden op deze sites.
+
+In 2017 werd Equifax, een van de drie grootste kredietbureaus in de Verenigde Staten, getroffen door een datalek dat 148 miljoen Amerikanen en enkele miljoenen Britten raakte. De gelekte informatie omvatte namen, burgerservicenummers, fysieke adressen en, in sommige gevallen, rijbewijsnummers. Hoewel de meeste mensen zich niet hadden ingeschreven voor de diensten van Equifax, verzamelen dit en andere kredietbureaus toch gegevens over individuen, ongeacht hun instemming. Velen kennen de namen van de drie grote kredietbureaus (Equifax, Experian en TransUnion) niet, maar deze organisaties bouwen enorme persoonlijke en financiële databases op. Ons financiële systeem, dat nagenoeg afhankelijk is van krediettoegang en een steeds devaluerende valuta, leunt zwaar op deze oligopolistische entiteiten, die zoveel mogelijk informatie vergaren om het systeem draaiende te houden.
+
+In 2018 werd de Aadhaar-database van India gehackt. Dit betreft een van de grootste identificatiedatabases ter wereld, met gegevens van meer dan een miljard mensen. De gelekte informatie bestond uit namen, foto's, fysieke adressen, telefoonnummers, e-mailadressen, irisscans, vingerafdrukken en zelfs enkele bankrekeninggegevens.
+
+In 2018 werd de database van Marriott en haar diverse hotelmerken gehackt. Marriott, het grootste hotelconcern ter wereld, bezit immers talloze hotelketens die vaak niet eens de naam Marriott dragen. De gehackte informatie van miljoenen mensen omvatte onder meer namen, fysieke adressen, telefoonnummers, e-mailadressen, paspoortnummers, geboortedata, reserveringsgeschiedenissen en creditcardgegevens.
+
+In 2019 ondervond Capital One een datalek, veroorzaakt door een voormalig Amazon-medewerker die de informatie online openbaar maakte. De betrokken gegevens hadden betrekking op klantrekeningen en kredietkaartaanvragen vanaf 2005. Ruim 100 miljoen mensen raakten hierdoor getroffen, met als gevolg dat namen, fysieke adressen, e-mailadressen, kredietscores, rekeningsaldi en burgerservicenummers blootgesteld werden.
+
+In 2021 werd een Braziliaanse database gehackt, wat leidde tot het lekken van persoonlijke gegevens van bijna alle Braziliaanse burgers – meer dan 200 miljoen mensen. De gelekte informatie omvatte onder andere namen, belastingnummers, fysieke adressen, e-mailadressen, telefoonnummers, kredietwaardigheidsscores, gezichtsafbeeldingen, salarisgegevens en meer.
+
+Deze datalekken vormen slechts het topje van de ijsberg en behoren tot de meest opvallende incidenten. Veel grote bedrijven, zoals Home Depot, Microsoft, J.P. Morgan Chase en Meta Platforms, hebben in hun geschiedenis te maken gehad met ingrijpende datalekken waarbij gebruikersgegevens betrokken waren. Het is zeer waarschijnlijk dat de meeste lezers van dit boek in de afgelopen tien jaar slachtoffer zijn geworden van talloze datalekken, waarvan sommige hen onopgemerkt troffen.
+
+## De Snowden-onthulling
+
+In 2013 onthulde Edward Snowden – inmiddels een bekende klokkenluider en voormalig medewerker van de Amerikaanse veiligheidsdienst NSA – informatie aan journalisten waaruit bleek dat de surveillancemogelijkheden van de NSA veel verder reikten dan het publiek tot dan toe wist. Met name werd duidelijk dat de NSA rechtstreeks toegang had tot de systemen van grote telecommunicatieproviders en bedrijfssoftwareplatforms om gegevens te vergaren. In een van de oorspronkelijke rapporten meldde The Guardian:
+
+> Een door de NSA opgesteld schema, opgenomen in een streng geheim document dat door de Guardian is verkregen, benadrukt de omvang van de gegevens die zij kan verzamelen: e-mail, video- en voicechats, video's, foto's, VoIP-gesprekken (zoals Skype), bestandsoverdrachten, informatie van sociale netwerken en meer.
+>
+> Het document is recent en dateert uit april 2013. Dergelijke lekken komen zelden voor in de geschiedenis van de NSA, een organisatie die trots is op haar strikte geheimhouding.
+>
+> Het Prism-programma stelt de NSA – de grootste toezichthouder ter wereld – in staat gerichte communicatie te verzamelen, zonder dat hiervoor toestemming van de serviceproviders of individuele gerechtelijke bevelen nodig is.
+>
+> Met dit programma krijgt de NSA directe toegang tot de servers van de deelnemende bedrijven, waardoor zij zowel opgeslagen communicatie als realtime gegevens van specifieke gebruikers kan verzamelen.[^406]
+
+Hoewel de geheime programma's theoretisch genomen bepaalde wettelijke beperkingen hadden – zoals dat zij 'enkel' buitenlandse personen mochten targeten – bood dit in de praktijk nauwelijks bescherming voor Amerikaanse gebruikers. Juridische beslissingen over deze programma's werden in geheime rechtbanken genomen, buiten het bereik van het publiek. Hierdoor had men vóór het lek nauwelijks de mogelijkheid om zich hiertegen te verzetten of vragen te stellen over de aard ervan. Eén decennium later, in 2023, bestaan dergelijke programma's nog steeds in diverse vormen, zowel in de Verenigde Staten als wereldwijd.
+
+## De verspreiding van cliëntgerichte surveillance
+
+In 2016 werd de geavanceerde spyware-suite Pegasus, gericht op mobiele telefoons, ontdekt. Ahmed Mansoor, een mensenrechtenactivist uit de VAE, ontving een sms met informatie over martelingen in gevangenissen. In plaats van op de link te klikken, stuurde hij deze door naar het Citizen Lab van de Universiteit van Toronto voor analyse. Zij stelden vast dat zijn telefoon geïnfecteerd zou raken met de spyware als hij op de link had geklikt.[^407]
+
+Ahmed Mansoor was jarenlang een prominente mensenrechtenactivist die zich kritisch uitliet over de staatshoofden van de VAE. Hij werd herhaaldelijk blootgesteld aan pogingen om hem tot zwijgen te brengen, waaronder arrestaties. In 2017 werd hij opnieuw gearresteerd vanwege zijn aanhoudende vreedzame protesten. Hij werd ervan beschuldigd valse informatie te verspreiden, de reputatie van de staatshoofden te schaden en opruiing te veroorzaken. Voor zijn activisme kreeg hij een gevangenisstraf van tien jaar opgelegd. Tijdens zijn detentie ging hij herhaaldelijk in hongerstaking als protest tegen jarenlange eenzame opsluiting, het gebrek aan medische zorg en de slechte behandeling.[^408]
+
+Pegasus is spionagesoftware die stil op de achtergrond op telefoons kan worden geïnstalleerd om doelwitten te bespioneren. De software maakt gebruik van diverse kwetsbaarheden en kan op uiteenlopende manieren invloed uitoefenen op verschillende apparaten. Deze spyware kan met één enkele klik worden gedownload – bijvoorbeeld wanneer iemand wordt misleid om op een gevaarlijke link te klikken – maar kan ook automatisch worden gedownload en geïnstalleerd, zonder dat de gebruiker iets hoeft te ondernemen. Zodra Pegasus actief is, krijgt de software toegang tot contacten, belgeschiedenis, tekstberichten, foto's, surfactiviteit, locatiegegevens en diverse apps, waaronder e-mail en andere berichtendiensten. Bovendien kan de spyware, zonder medeweten van de gebruiker, de microfoon en camera activeren.
+
+Deze spyware is ontwikkeld door de Israëlische cyberinlichtingorganisatie NSO Group. Het vermeende doel was om terroristen en andere criminelen te monitoren. Desondanks is wereldwijd, en herhaaldelijk, door de media aangetoond dat deze technologie veelvuldig wordt ingezet door autoritaire regeringen tegen journalisten en mensenrechtenactivisten.
+
+In 2021 rapporteerde Citizen Lab dat negen Bahreinse activisten succesvol werden bespioneerd met Pegasus-software. Onder hen bevonden zich drie leden van het Bahrein Center for Human Rights en twee ballingen.[^409]
+
+Freedom House, een non-profitorganisatie die zich wereldwijd inzet voor democratie, plaatst Bahrein bijna onderaan op haar ranglijst qua vrijheidsscores. In hun overzicht van de mensenrechtensituatie in Bahrein staat het volgende:
+
+> De soennitisch geleide monarchie van Bahrein controleert de staatsinstellingen. Verkiezingen voor het lagerhuis van het parlement zijn niet competitief en sluiten belangrijke groepen uit. Sinds de gewelddadige onderdrukking van een populaire prodemocratische protestbeweging in 2011 hebben de autoriteiten systematisch een breed scala aan politieke rechten en burgerlijke vrijheden ingeperkt. Zij hebben de politieke oppositie ontmanteld en hard opgetreden tegen aanhoudend verzet, met name onder de sjiitische bevolking.[^410]
+
+In 2022 meldde Citizen Lab dat meer dan dertig Thaise activisten, advocaten en academici – vaak betrokken bij prodemocratische bewegingen – ontdekten dat hun telefoons waren geïnfecteerd met Pegasus.[^411]
+
+Freedom House plaatst Thailand relatief laag op zijn vrijheidsindex en geeft de volgende samenvatting:
+
+> Na vijf jaar militaire dictatuur schakelde Thailand in 2019 over naar een semi-verkiezende regering die door het leger werd gedomineerd. Sindsdien is de democratie verzwakt en hebben frustraties over de rol van de monarchie in het bestuur geleid tot massale protesten. In reactie hierop past het regime autoritaire tactieken toe, zoals willekeurige arrestaties, intimidatie, aanklachten wegens majesteitsschennis en het onderdrukken van activisten. De persvrijheid is beperkt, eerlijke rechtsprocessen worden niet gewaarborgd en er heerst straffeloosheid voor misdrijven tegen activisten.[^412]
+
+Citizen Lab meldde tevens dat Pegasus op grote schaal werd ingezet tegen Salvadoraanse journalisten, waaronder vele critici van het presidentschap van het land.[^413]
+
+In 2021 vonden journalisten bewijs van het wijdverspreide gebruik van Pegasus door de Hongaarse regering tegen de binnenlandse oppositie. Zij rapporteerden daarbij dat Hongarije was gezakt van de 23e naar de 92e plaats op de Wereldpersvrijheidsindex, in de periode van 2010 (toen Viktor Orbán minister-president werd) tot 2021.[^414]
+
+Pegasus is aangetroffen op de telefoons van activisten in onder andere Oeganda, Rwanda, Panama en Marokko, alsmede bij mensen in tientallen andere landen die hier te talrijk zijn om op te sommen. De spyware wordt vaak ingezet tegen politieke tegenstanders, prodemocratische voorstanders en mensenrechtenactivisten. Daarnaast functioneert zij ook als een middel voor buitenlandse spionage gericht tegen politici in andere landen. Hoewel Pegasus soms ook wordt gebruikt tegen echte criminelen, illustreren deze voorbeelden hoe surveillancetechnologie – ogenschijnlijk bedoeld voor gebruik tegen gevaarlijke individuen of groepen – gemakkelijk ingezet kan worden tegen vreedzame burgers en organisaties. Staatsactoren beschouwen dergelijke vormen van oppositie of actief burgerschap doorgaans als ongewenst.
+
+Verontrustend genoeg hebben ook regeringen in relatief vrije landen deze spyware ingezet. In een gezamenlijk onderzoek van The Guardian en El País in 2020 werd vastgesteld dat de Spaanse inlichtingendiensten op grote schaal gebruikmaakten van Pegasus om Catalaanse separatisten te bespioneren, inclusief de toenmalige president van het Catalaanse regionale parlement.[^415]
+
+Freedom House kent Spanje behoorlijk hoge waarderingen toe. In haar rapporten geeft de organisatie aan dat Spanje relatief veel punten behaalt:
+
+> Het Spaanse parlementaire systeem kent competitieve meerpartijenverkiezingen en vreedzame machtsoverdrachten tussen rivaliserende partijen. De rechtsstaat is gewaarborgd en burgerlijke vrijheden worden over het algemeen gerespecteerd. Hoewel politieke corruptie een blijvende zorg vormt, worden hooggeplaatste politici en andere invloedrijke figuren succesvol vervolgd. De beperkende wetgeving die de afgelopen jaren is aangenomen of gehandhaafd, vormt echter een bedreiging voor de anders zo sterke vrijheid van meningsuiting en vergadering. Bovendien wordt de aanhoudende separatistische beweging in Catalonië gezien als de grootste uitdaging voor het constitutionele systeem en de territoriale integriteit van het land.[^416]
+
+Eind 2021 berichtten verschillende grote media dat de Poolse regering, onder leiding van de partij Wet en Rechtvaardigheid, Pegasus heeft ingezet tegen haar politieke tegenstanders.[^417]
+
+Freedom House kent Polen relatief hoge scores toe. Samenvattend:
+
+> Vanaf de overgang van de communistische heerschappij in 1989 zijn de democratische instellingen in Polen geleidelijk tot stand gekomen. De snelle economische groei en andere maatschappelijke veranderingen hebben bepaalde bevolkingsgroepen bevoordeeld ten koste van andere groepen, wat heeft geleid tot een groeiende kloof tussen liberale, pro-Europese partijen en partijen die beweren de nationale belangen en 'traditionele' Poolse katholieke waarden te verdedigen. Sinds 2015 heeft een coalitie onder leiding van de populistische en sociaal conservatieve partij Wet en Rechtvaardigheid (PiS) aanzienlijke invloed uitgeoefend op de staatsinstellingen, hetgeen de democratische vooruitgang heeft belemmerd. In de afgelopen jaren is bovendien een toenemende nationalistische en discriminerende retoriek waarneembaar.[^418]
+
+Een rapport van de Associated Press uit 2021, getiteld 'Onderzoek: Journalisten, Activisten Onder Doelen van Bedrijfs Spyware', beschreef de omvang van het gebruik van Pegasus:
+
+> Een onderzoek van een internationaal mediaconcern, gebaseerd op gelekte gegevens, toont opnieuw aan dat militaire malware van de Israëlische NSO Group – de beruchtste hacker-in-huur ter wereld – wordt ingezet om journalisten, mensenrechtenactivisten en politieke dissidenten te bespioneren.[^419]
+
+> Een lijst met meer dan 50.000 mobiele telefoonnummers werd verkregen door Forbidden Stories, een journalistieke organisatie gevestigd in Parijs, en de mensenrechtenorganisatie Amnesty International. Deze lijst werd gedeeld met 16 nieuwsorganisaties, waardoor journalisten meer dan 1.000 individuen in 50 landen konden identificeren die mogelijk door klanten van NSO voor surveillance zijn geselecteerd.
+>
+> Volgens The Washington Post, een lid van het consortium, worden 189 journalisten, meer dan 600 politici en overheidsfunctionarissen, minstens 65 bedrijfsleiders, 85 mensenrechtenactivisten en verschillende staatshoofden bespioneerd. De betrokken journalisten werken onder andere voor The Associated Press, Reuters, CNN, The Wall Street Journal, Le Monde en The Financial Times.
+>
+> Amnesty meldde tevens dat forensische onderzoekers hadden vastgesteld dat de Pegasus-spyware van de NSO Group met succes was geïnstalleerd op de telefoon van Hatice Cengiz, de verloofde van postjournalist Jamal Khashoggi. Dit gebeurde slechts vier dagen nadat Khashoggi in 2018 werd vermoord in het Saoedische consulaat in Istanbul. Het bedrijf was eerder al betrokken bij andere spionagezaken rondom Khashoggi.[^420]
+
+## China's export van surveillance-technologie
+
+In 2013 lanceerde China het Belt and Road Initiative, een wereldwijde strategie voor infrastructuurontwikkeling waarmee het land zijn economie als spil in een uitgestrekt handelsnetwerk wil positioneren.
+
+Op diverse manieren kopieert China een aantal neokoloniale monetaire praktijken die sinds het midden van de 20e eeuw door de Verenigde Staten, het Verenigd Koninkrijk, Frankrijk en eerdere wereldmachten in ontwikkelingslanden werden toegepast. China verstrekt leningen aan deze landen en ondersteunt hen bij de ontwikkeling van hun infrastructuur, wat de Chinese regering aanzienlijke politieke en economische invloed oplevert.
+
+Naast de omvangrijke infrastructuurprojecten zijn Chinese bedrijven sterke concurrenten op het gebied van elektronische systemen en kunstmatige intelligentie – een essentieel onderdeel van hun Belt and Road Initiative. Binnen eigen land staat China bekend om zijn rigoureuze autoritaire surveillancesysteem en controlemechanismen. Dit omvat onder meer gezichtsherkenningssystemen, bewegingsrestricties via QR-codes, een uitgebreid sociaal kredietsysteem en de mogelijkheid om bankrekeningen automatisch te bevriezen. Als onderdeel van het Belt and Road Initiative is China bovendien 's werelds grootste exporteur van bewakingsapparatuur en -systemen geworden, waarmee het de Verenigde Staten op dit vlak heeft overtroffen.
+
+Dit is zorgwekkend, vooral gezien Freedom House in 2023 de staat van vrijheid in China als volgt samenvatte:
+
+> China's autoritaire regime is de afgelopen jaren steeds repressiever geworden. De heersende Communistische Partij van China (CCP) verscherpt de controle over alle aspecten van het leven en bestuur, waaronder de staatsbureaucratie, de media, online uitingen, religie, universiteiten, bedrijven en maatschappelijke organisaties. CCP-leider en staatsvoorzitter Xi Jinping verzekerde zich in oktober 2022 van een derde termijn als partijleider, waarmee hij meer persoonlijke macht vergaarde dan in decennia eerder in China voorkwam. Na jaren van een harde aanpak van politieke dissidenten, onafhankelijke NGO's en mensenrechtenverdedigers is het maatschappelijke middenveld in China grotendeels verwoest.[^421]
+
+In 2019 publiceerde Steven Feldstein van de *Carnegie Endowment for International Peace* een artikel getiteld *The Global Expansion of AI Surveillance*. In dit rapport beschrijft hij onder meer het groeiende wereldwijde gebruik van door AI aangedreven surveillancetechnologie, waarbij de ontwikkelingen in China voorop lopen.
+
+> De AI-surveillancetechnologie verspreidt zich sneller en naar meer landen dan experts doorgaans denken. Ten minste vijfenzeventig van de 176 landen wereldwijd maken actief gebruik van AI-technologieën voor surveillancedoeleinden. Dit omvat onder meer slimme stad- en veilige stad-platforms (zesenvijftig landen), gezichtsherkenningssystemen (vierenzestig landen) en slimme politieoplossingen (tweeënvijftig landen).
+>
+> China is een belangrijke motor achter de wereldwijde expansie van AI-surveillance. Technologieën van Chinese bedrijven, zoals Huawei, Hikvision, Dahua en ZTE, leveren AI-surveillancetechnologie in drieënzestig landen – waarvan zesendertig landen deel uitmaken van China's Belt and Road Initiative (BRI). Alleen al Huawei biedt AI-surveillancetechnologie aan in ten minste vijftig landen wereldwijd.[^422]
+
+De aantallen zijn waarschijnlijk inmiddels veel hoger, gezien de snelle ontwikkeling van deze technologie. Het document beschrijft dat zowel democratische als autoritaire landen de technologie grootschalig toepassen, hoewel autoritaire regimes de verzamelde gegevens vaak misbruiken. Daarnaast wordt uitgelegd hoe China de financiering of subsidiëring van apparatuur verzorgt voor landen die anders moeite zouden hebben om deze aan te schaffen. Zoals het document stelt:
+
+> Chinese productpresentaties worden vaak ondersteund door gunstige leningen om overheden aan te sporen de apparatuur aan te schaffen. Deze tactieken zijn met name belangrijk in landen zoals Kenia, Laos, Mongolië, Oeganda en Oezbekistan, die anders niet in staat zouden zijn om deze technologie te bekostigen. Dit roept verontrustende vragen op over de mate waarin de Chinese overheid de aanschaf van geavanceerde repressieve technologie subsidieert.[^423]
+
+In 2022 publiceerde Bulelani Jili van de Atlantic Council een rapport getiteld *China's Surveillance Ecosystem & the Global Spread of its Tools*. De samenvatting van dit rapport bood een vergelijkbare beschrijving van het onderwerp.
+
+> Dit document geeft inzicht in de binnenlandse surveillancemarkt van China en het bredere ecosysteem van cybercapaciteiten. Dit is vooral relevant gezien het beperkte aantal systematische studies naar de industriële ambities. Voor de Chinese overheid vormen investeringen in surveillancetechnologie zowel een middel om haar ambitie als mondiale technologieleider waar te maken als om de binnenlandse sociale controle te versterken. Deze ontwikkelingen bevorderen de samenwerking tussen staatsveiligheidsorganen en particuliere technologiebedrijven – variërend van kleine start-ups in cyberonderzoek tot toonaangevende wereldwijde ondernemingen. Tevens promoot de staat surveillancetechnologie en -praktijken in het buitenland via diplomatieke uitwisselingen, samenwerkingsverbanden op handhavingsgebied en opleidingsprogramma's. Deze inspanningen dragen bij aan de wereldwijde verspreiding van surveillancemiddelen en ondersteunen de regeringsdoelen op het gebied van internationale normstelling binnen multilaterale en regionale instellingen.
+>
+> De wereldwijde verspreiding van Chinese surveillancetechnologie en cybertools, evenals de relaties tussen Chinese staats- en particuliere entiteiten en die in andere landen – met name in het mondiale Zuiden – vormt een essentieel onderdeel van de pogingen van de Chinese staat om haar politieke en economische invloed wereldwijd uit te breiden en te versterken. Hoewel afzonderlijke regeringen die Chinese digitale hulpmiddelen aanschaffen hun eigen lokale ambities nastreven, heeft de export en promotie van surveillancetechnologie door Beijing invloed op de acceptatie ervan in het mondiale Zuiden. Het onderzoeken hoe Chinese actoren vraagfactoren inzetten voor hun eigen doeleinden belemmert de detectie- en besluitvormingsmogelijkheden van andere landen niet; integendeel, het toont aan dat er een wisselwerking bestaat tussen de strategieën van de Chinese staat en de lokale politieke omgevingen.[^424]
+
+De technologie verspreidt zich razendsnel, omdat landen deze niet zelf hoeven te ontwikkelen. Grote technologie-exporteurs en handelspartners – zoals China en de Verenigde Staten – kunnen vrijwel al hun behoeften vervullen. Dit fenomeen wordt 'surveillance als een dienst' genoemd.
+
+## De mentaliteit van surveillance en controle
+
+Uitgebreide overheidsbewaking – vooral wanneer deze automatisch en allomvattend is in plaats van doelgericht op basis van een waarschijnlijke oorzaak – is impliciet gebaseerd op de veronderstelling dat iedereen een groot deel van zijn privacy moet opgeven aan centrale autoriteiten, zodat er zekerheid is dat er niets mis kan gaan. Aangezien mensen doorgaans minder op cijfers dan op emoties reageren, stemmen de meesten in met zulke inbreuken.
+
+In de afgelopen decennia waren minder dan 0,05% van de wereldwijde sterfgevallen toe te schrijven aan terrorisme.[^425] In de meeste landen buiten het Midden-Oosten en Afrika ligt dit percentage zelfs onder de 0,01% – minder dan één op de tienduizend mensen komt ten onder aan terrorisme. Desondanks worden er talloze wetten ingevoerd die de overheid extra bevoegdheden verlenen om terrorisme te bestrijden.
+
+De Patriot Act van 2001 is een voorbeeld van wetgeving die de bevoegdheden van overheidsinstanties op het gebied van surveillance en controletechnieken aanzienlijk uitbreidde om terrorisme te bestrijden. Deze wet werd destijds positief ontvangen, mede omdat deze kort na de aanslagen van 9/11 werd ingevoerd. Met dergelijke maatregelen geven mensen een deel van hun privacy op – vaak voor onbepaalde tijd – als reactie op een sterke emotionele impuls na een recente gebeurtenis. Jaar na jaar, gebeurtenis na gebeurtenis, ondermijnt deze centraliserende neiging de individuele privacyrechten en creëert een cultuur waarin degenen die hun privacy willen beschermen vaak als verdacht worden gezien.
+
+In een vrije en open samenleving voeren mensen doorgaans debatten over prioriteiten, terwijl criminelen en de wetshandhaving zich in een voortdurende wapenwedloop bevinden. Uiteraard willen we dat terroristen, mensenhandelaars, straatcriminelen, maffialeden, moordenaars, dieven, fraudeurs en andere gevaarlijke personen worden opgespoord en berecht. Daarom zijn velen bereid overheidsmiddelen aan de handhaving van de wet toe te vertrouwen. Toch kunnen de methoden en technologieën die door de wetshandhaving worden ingezet om gevaarlijke criminelen te arresteren ook door overheden worden misbruikt. Dit kan leiden tot de onderdrukking van de vrijheid van meningsuiting, het bespioneren van mensenrechtenactivisten, pro-democratieactivisten en politieke tegenstanders, en uiteindelijk tot autoritaire controle over de bevolking. Om die reden is het van cruciaal belang om grenzen te stellen aan deze bevoegdheden. Zoals eerder opgemerkt, wordt militaire spyware – oorspronkelijk ontwikkeld voor de bestrijding van terroristen en gevaarlijke criminelen – eveneens regelmatig ingezet tegen mensenrechten- en pro-democratieactivisten en tegen politieke oppositie, zowel door autoritaire als niet-autoritaire regeringen.
+
+Wanneer ze de kans krijgen, geven regeringen wereldwijd zichzelf vaak crisisbevoegdheden. Vervolgens verlengen ze sommige of zelfs al deze bevoegdheden voor onbepaalde tijd. Alleen in landen waar een diepgewortelde cultuur van respect voor individuele vrijheid, democratie en overheidsverantwoording bestaat, is er doorgaans voldoende maatschappelijke weerstand. Hierdoor kunnen leiders worden gekozen die eerdere bevoegdheden ontmantelen en actief de overreach van de overheid verminderen.
+
+## De stukjes op hun plaats leggen
+
+Tegenwoordig moeten mensen ervan uitgaan dat vrijwel alle informatie over hen wordt verzameld in bedrijfsdatabases. De overheid heeft vaak toegang tot deze data, en de gegevens zijn kwetsbaar voor zowel externe aanvallen door hackers als voor interne lekken. Het is zeer waarschijnlijk dat je gevoelige persoonlijke informatie al meerdere keren op het dark web is gelekt, en bovendien kunnen inlichtingendiensten eenvoudig toegang verkrijgen tot deze gegevens als onderdeel van hun surveillancesystemen.
+
+Met extra tijd en investeringen, en dankzij de voortdurende vooruitgang in verwerkingskracht en softwareontwikkeling, zal de surveillancetechnologie die door overheden en bedrijven wordt toegepast, waarschijnlijk nog alomtegenwoordiger worden. De mogelijkheden om gegevens te verzamelen en te structureren – zowel uit digitale als fysieke bronnen – nemen toe. Zelfs nu zijn journalisten, vreedzame activisten en iedereen die door hun regering als storend wordt beschouwd, genoodzaakt uiterst voorzichtig te zijn. Ze moeten rekening houden met de mogelijkheid dat hun telefoon of computer reeds is geïnfiltreerd met militaire spyware, zoals Pegasus.
+
+Bovendien kunnen overheden – zoals eerder besproken in het hoofdstuk over digitale valuta's van centrale banken – hun nationale valuta steeds meer programmeerbaar maken. Met Central Bank Digital Currencies (CBDC's) kunnen zij specifieke monetaire beleidsmaatregelen toepassen op diverse groepen. Daarnaast kunnen zij automatisch rekeningen bevriezen die aan bepaalde personen zijn gekoppeld en het geld zodanig programmeren dat het voor specifieke categorieën of bepaalde geografische gebieden ontoegankelijk wordt.
+
+De combinatie van wijdverspreide surveillancetechnologie, machine-learning-systemen die gekoppeld zijn aan enorme hoeveelheden verzamelde data, en de mogelijkheid om bankrekeningen en valuta te controleren, maakt het mogelijk dat demonstranten in een menigte automatisch worden herkend. Daardoor kunnen hun financiële rekeningen bijvoorbeeld door de autoriteiten worden bevroren.
+
+Wanneer al deze elementen samenkomen, kan dit leiden tot een behoorlijk Orwelliaans scenario. Wat als een dystopische sciencefictionfilm klinkt, wordt in veel rechtsgebieden – met name in autoritaire staten – steeds meer werkelijkheid. In sommige gebieden, zoals in China, zijn deze elementen al duidelijk waarneembaar. Stel u voor dat u geautomatiseerde berichten ontvangt zoals de volgende:
+
+> Vanwege uw zorgwekkende online activiteiten van de afgelopen maand is uw sociale kredietscore gedaald tot onder de minimaal acceptabele drempel. Tot nader order is uw mogelijkheid om te transacteren beperkt tot een straal van vijf mijl rondom uw woonplaats. U kunt uitsluitend essentiële goederen en diensten aanschaffen.
+>
+> Uw maandelijkse CO2-quotum is bereikt. Tot het einde van de maand kunt u geen vlees, vliegtickets of andere goederen en diensten met een hoge koolstofintensiteit meer kopen. Hier is een website met handige tips om uw koolstofvoetafdruk te verkleinen, zodat u deze volgende maand beter kunt beheren.
+>
+> Vanwege de recente onrustbarende protesten in uw regio worden alle bankrekeningen en betaalmethoden van personen die als betrokken of verdacht worden beschouwd, de komende 72 uur opgeschort. Keer alstublieft terug naar uw huis en wacht verdere instructies af.
+>
+> Onze vijanden vallen onze munt aan. Het is essentieel dat alle burgers de munt en het nationale banksysteem ondersteunen. Daarom worden alle aankopen van vreemde valuta, edelmetalen, cryptovaluta en soortgelijke activa tot nader order automatisch geblokkeerd.
+
+Hoewel deze uitspraken voor lezers in liberale democratieën wellicht vergezocht lijken, vormt het verlies van privacy in het digitale tijdperk – in combinatie met de wereldwijde opkomst van autocratieën en het nauwkeurige beheer van centrale bank digitale valuta en bankrekeningen – een zorgwekkende ontwikkeling die we niet mogen onderschatten. Stel u voor dat een van uw minst favoriete politici de controle krijgt over dit soort systemen, ongeacht of u zich aan de rechter- of linkerkant van het politieke spectrum bevindt. Wat aanvankelijk in de marge wordt toegepast, kan al snel op de gehele bevolking worden doorgevoerd. Zelfs rechtsgebieden met de strengste rechtsregels en de sterkste eigendomsrechten kunnen onder deze druk bezwijken (en hebben dat in zekere mate al gedaan), terwijl rechtsgebieden met zwakkere waarborgen volledig kunnen worden overgenomen.
+
+[^402]: National Archives, *The Bill of Rights*.
+[^403]: United Nations, *Universal Declaration of Human Rights*.
+[^404]: Jonathan Moses, *Message Is Out On Beepers*, The Washington Post, 11 juli 1988.
+[^405]: Shoshana Zuboff, *The Age of Surveillance Capitalism*.
+[^406]: Glenn Greenwald en Ewen MacAskill, *NSA Prism Program Taps in to User Data of Apple, Google and Others*, Guardian, 7 juni 2013.
+[^407]: Dave Lee, *Who are the Hackers who Cracked the iPhone?* BBC News, 26 augustus 2016.
+[^408]: Americans for Democracy & Human Rights in Bahrain (ADHRB), *UAE: It's Time to Release Human Rights Defender Ahmed Mansoor*, IFEX.org, 28 april 2023.
+[^409]: Bill Marczak et al., *From Pearl to Pegasus: Bahraini Government Hacks Activists with NSO Group Zero-Click iPhone Exploits*.
+[^410]: Freedom House, *Freedom in the World 2023: Bahrain*.
+[^411]: John Scott-Railton et al., *GeckoSpy: Pegasus Spyware Used Against Thailand's Pro-Democracy Movement*.
+[^412]: Freedom House, *Freedom in the World 2023: Thailand*.
+[^413]: John Scott-Railton et al., *Extensive Hacking of Media & Civil Society in El Salvador with Pegasus Spyware*.
+[^414]: Shaun Walker, *Viktor Orbán Using NSO Spyware in Assault on Media, Data Suggests*, Guardian, 18 juli 2021.
+[^415]: Sam Jones, *Use of Pegasus Spyware on Spain's Politicians Causing 'Crisis of Democracy'*, Guardian, 15 mei 2022.
+[^416]: Freedom House, *Freedom in the World 2022: Spain*.
+[^417]: Frank Bajak en Vanessa Gerad, *AP Exclusive: Polish Opposition Duo Hacked with NSO spyware*, AP News, 21 december 2021.
+[^418]: Freedom House, *Freedom in the World 2023: Poland*.
+[^419]: Frank Bajak, *Probe: Journalists, Activists Among Firm's Spyware Targets*, AP News, 19 juli 2021.
+[^420]: Baja, *Probe*.
+[^421]: Freedom House, *Freedom in the World 2023: China*.
+[^422]: Steven Feldstein, *The Global Expansion of AI Surveillance*, 1.
+[^423]: Feldstein, *Global Expansion*, 2.
+[^424]: Bulelani Jili, *China's Surveillance Ecosystem & The Global Spread of its Tools*, 1.
+[^425]: Hannah Ritchie et al., *Terrorism*.

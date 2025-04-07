@@ -4,7 +4,7 @@ description = "The bilingual_book_maker is an AI translation tool that uses Chat
 readme = "README.md"
 license = {text = "MIT"}
 dynamic = ["version"]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
     { name = "yihong0618", email = "zouzou0208@gmail.com" },
 ]
@@ -21,17 +21,21 @@ dependencies = [
     "google-generativeai",
     "langdetect",
     "litellm",
-    "openai>=1.1.1",
+    "openai>=1.68.2",
     "PyDeepLX",
     "requests",
     "rich",
     "tiktoken",
     "tqdm",
     "groq>=0.5.0",
+    "promptdown>=0.9.0",
 ]
 
 [project.scripts]
 bbook_maker = "book_maker.cli:main"
+dir_process = "utils.process_md_dir:main"
+rename_files = "utils.rename_files:main"
+promptdown = "promptdown_cli:main"
 
 [project.urls]
 Homepage = "https://github.com/yihong0618/bilingual_book_maker"

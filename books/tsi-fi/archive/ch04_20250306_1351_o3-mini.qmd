@@ -1,0 +1,492 @@
+# POLITIIKAN VIIMEISET PÄIVÄT
+
+::: {.content-hidden when-format=latex}
+*Rinnastuksia pyhän äiti kirkon rappeutumisen ja hoivavaltion välillä*
+:::
+
+> "Uskon myös – ja toivon – että politiikka ja taloustiede lakkaisivat tulevaisuudessa olemaan yhtä merkittäviä kuin olivat aikaisemmin; tulee aika, jolloin suurin osa nykyisistä kiistoistamme näissä asioissa vaikuttaa yhtä vähäpätöisiltä tai merkityksettömiltä kuin keskiaikana käydyissä teologisissa väittelyissä, joissa sen ajan parhaat mielet hajottivat energiansa."[^94] – ARTHUR C. CLARKE
+
+Politiikan kuoleman ennustaminen saattaa vaikuttaa joko naurettavalta tai liian optimistiselta, riippuen asenteestasi. Silti juuri se on se, mitä tietoyhteiskunnan vallankumous todennäköisesti tuo tullessaan. Lukijoille, jotka on kasvatettu vuosisadan täyttäessä politiikkaa, ajatus siitä, että elämä voisi edetä sen ilman, saattaa vaikuttaa mielikuvitukselliselta – ikään kuin väittäisi, että voisi elää pelkästään imemällä ravintoa ilmasta. Kuitenkin moderni politiikka – ymmärrettynä valtion vallan kontrollin ja järkeistämisen keskittymänä – on pääosin moderni keksintö. Uskomme, että se päättyy modernin maailman myötä samalla tavalla kuin feodaalisten velvollisuuksien ja sitoumusten sotku, joka valloitti keskiaikaisten ihmisten mielenkiinnon, päättyi keskiaikaan. Feodaaliaikana, kuten historioitsija Martin van Creveld huomauttaa, "politiikkaa ei ollut olemassa (itsekään käsitettä ei ollut vielä keksitty, vaan se juontaa juurensa vasta 1500-luvulle)." [^95]
+
+Ajatus siitä, että nykyisenä tuntemamme politiikka ei olisi ollut olemassa ennen modernia aikaa, saattaa yllättää – erityisesti kun otetaan huomioon, että Aristoteles oli kirjoittanut teoksen kyseisellä nimellä Aleksanteri Suuren aikana. Mutta tarkastellaanpa lähemmin: muinaisissa teksteissä käytetyt sanat eivät välttämättä vastaa nykyaikaisia käsitteitä. Aristoteles kirjoitti myös teoksen nimeltä "Sophistien kumoamiset", termi, joka on nykyään lähes yhtä merkityksettömäksi muuttunut kuin politiikka oli keskiaikana. Sana yksinkertaisesti ei ollut käytössä; sen ensimmäinen tunnettu esiintyminen englanniksi on peräisin vuodelta 1529.[^96] Jo silloin "politics" näyttäytyi ilmaisuna, jolla tarkoitettiin "mahdollistajia ja siirtäjiä", mikä on peräisin vanhasta ranskalaisesta sanasta "politique."[^97]
+
+Aristoteleen piilevä käsite kesti lähes kaksi tuhatta vuotta tulla esiin siinä merkityksessä, jonka tunnemme nykyään. Miksi? Ennen kuin moderni maailma pystyi soveltamaan Aristoteleen ajatusta merkityksellisellä tavalla, tarvittiin valtavia poliittisia olosuhteita, jotka nostivat väkivallan tuottoja dramaattisesti. *The Great Reckoning* -teoksessa analysoimamme tulipölyn vallankumous teki juuri niin: se nosti väkivallan tuottoja paljon yli koskaan aiemmin nähdyiden tasojen. Tämä teki kysymyksestä, kuka hallitsee valtiota, tärkeämmän kuin koskaan aiemmin. Loogisesti ja väistämättä politiikka syntyi kamppailusta hallita huomattavasti kasvaneita vallan saaliita.
+
+Politiikka alkoi viisisataa vuotta sitten teollistumisen alkuvaiheissa – ja nyt se on kuolemassa. Laaja paheksunta politiikkaa ja poliitikkoja kohtaan valloittaa maailmaa. Näet sen uutisista ja Whitewaterin piilotettuihin yksityiskohtiin liittyvästä spekulaatiosta, sekä Vincent Fosterin huonosti peitetyistä murhista. Näet sen lukuisissa muissa skandaaleissa, jotka koskettavat presidentti Bill Clintonia, sekä raporteissa talousrikoksista, joita ovat tehneet johtavat kongressin jäsenet House Post Office -toimistosta. Samoin John Majorin piireissä tapahtuneet eroamiset ja vastaavat skandaalit Ranskassa – joissa kaksi äskettäistä pääministeriä, Eduard Balladur ja Alain Juppe, joutuivat vastaaviin tilanteisiin – ovat esimerkkejä laajalle levinneestä poliittisesta kriisistä. Vieläkin suurempia skandaaleja paljastui Italiassa, jossa seitsemän kertaa pääministerinä toiminut Giulio Andreotti tuotiin oikeuden eteen syytettynä mafiaan liittyvistä yhteyksistä sekä tutkimustoimittaja Mino Pecorellin murhasta. Myös muut skandaalit ovat tahranneet espanjalaisen pääministeri Filipe Gonzalesin mainetta. Korruption epäilyt aiheuttivat neljän japanilaisen pääministerin eron 1990-luvun ensimmäisen viiden vuoden aikana, ja Kanadan oikeusministeriö väitti kirjeessään sveitsiläisille viranomaisille, että entinen pääministeri Brian Mulroney oli vastaanottanut alennuksia 1,8 miljardia kanadalaisen dollarin arvolta Airbus-konetermyyntiin Air Canadalle.[^98] Naton pääsihteeri Willy Claes joutui eroon korruptioepäilyjen varjossa, ja jopa Ruotsissa varapääministeri sekä oletettu pääministeri Mona Sahlm pakotettiin eroamaan syytösten edessä, joiden mukaan hän käytti valtion luottokortteja vaippien ja muiden kotitaloustavaroiden ostamiseen. Melkein kaikkialla kehittyneissä hyvinvointivaltioissa, joita aikoinaan pidettiin hyvin hallittuina, ihmiset vihaavat poliittisia johtajiaan.
+
+### Halveksunta johtavana indikaattorina
+
+Morallinen raivo korruptoituneita johtajia kohtaan ei ole erillinen historiallinen ilmiö, vaan se on yleinen muutosprosessin ennakkoilmiö. Se toistuu aina, kun yksi aikakausi antaa tilaa toiselle. Aina kun teknologinen muutos erottaa vanhat muodot uusista talouden liikuttajista, moraalitavat muuttuvat ja ihmiset alkavat suhtautua vanhojen instituutioiden johtajiin yhä kasvavalla halveksunnalla. Tämä laaja paheksunta tulee esiin jo kauan ennen kuin uuden yhtenäisen muutosideologian aatteet joutuivat syntymään. Kirjoittaessamme emme vielä näe selkeää poliittisuuden hylkäämistä – se tulee myöhemmin, sillä useimmille nykyisiltä ikätovereiltasi ei ole vielä ajatusmaailmaa, jossa elämä ilman politiikkaa olisi mahdollista. Mitä meillä on kahdeskymmenennen vuosisadan loppuvuosina, on epämääräistä ja sanattomaa halveksuntaa.
+
+Jotain vastaavaa tapahtui myöhäisellä 1400-luvulla, mutta tuolloin kyseessä oli uskonto, ei politiikka, joka oli kutistumassa. Huolimatta yleisestä käsityksestä "papiston virka-arvon pyhyydestä", niin korkeat kuin matalat papistoasteet pidettiin äärimmäisen alhaisina, aivan kuten nykypäivän suhtautuminen poliitikkoihin ja byrokraatteihin. Laajalti uskottiin, että ylimmän papiston jäsenet olivat korruptoituneita, maallisia ja lahjokkaita – eikä syyttä ilman perusteitakaan. Useat 1400-luvun paavit näyttivät avoimesti seurakunnattomia lapsia, ja matalammat papistoasteet saivat vielä alhaisemman arvostuksen, kun ne lisääntyivät maaseudulla ja kaupungeissa, pyytäen almuja ja usein tarjoten myydä Jumalan armoa sekä syntien anteeksiantoa käteistä vastaan.
+
+Alitajuntaa peittävän "pinnallisen hurskauden kuoren" [^100] alla piili korruptoitunut ja yhä vajaatoiminen järjestelmä. Monien kunnioitus sen pyörittäjiä kohtaan oli jo kadonnut, kauan ennen kuin kukaan uskalsi sanoa, ettei se toiminut. Elämä, joka oli kyllästetty uskonnolle eikä tehnyt eroa henkisen ja ajallisen välillä, oli ehtinyt käyttää kaikki mahdollisuutensa loppuun. Sen loppu oli väistämätön kauan ennen kuin Luther iski Wittenbergin kirkon oveen 95 teesiään.
+
+## MAALLIKAINEN UUDISTUS
+
+Uskomme, että reaktio kyllästyskansan politiikkaa vastaan kulkee samalla tavalla.
+
+Neuvostoliiton hajoaminen ja sosialismin hylkääminen ovat osa laajaa depolittisaation mallia, joka on pyyhkäissyt maailmaa. Tämä käy nyt ilmi erityisesti kasvavassa halveksunnassa niitä kohtaan, jotka pyörittävät maailman hallituksia. Tilannetta ajaa osittain se, että he ovat korruptoituneita ja alttiita myymään poliittisista vaikeuksistaan "anteeksiantoja" vastineeksi kampanjalahjoituksista tai erityisavusta raaka-ainekaupassa, joiden avulla he pyrkivät tukemaan henkilökohtaista talouttaan.
+
+Reaktio poliitikoita vastaan saa voimaa myös yhä laajenevasta oivalluksesta, että suuri osa heidän toiminnastaan – joka tapahtuu valtavin kuluin – on turhaa, aivan kuten toisen katumuksen vaeltajien pyhiinvaellus, jolloin marssitaan paljain jaloin lumessa, tai toisen kerjäläismunkkijärjestön perustaminen myöhäisellä 1400-luvulla, olisi voinut tehdä vain vähän parantaakseen tuottavuutta tai lievittääkseen elintasoon kohdistuvia paineita.
+
+Viimeiset Pyhän Äidin Kirkon Päivät
+
+Keski-ikäen lopussa monoliittinen kirkko instituutiona oli ehtynyt vanhenemaan ja muuttumaan tukehtuneeksi – merkittävä muutos verrattuna viiden vuosisadan takaisiin myönteisiin taloudellisiin vaikutuksiinsa. Kuten edellisessä luvussa käsittelimme, kirkolla oli johtava rooli 900-luvun lopulla, kun se loi järjestystä ja edisti talouden elpymistä kaaoksesta, joka merkitsi pimeiden aikojen loppua. Tuolloin kirkko oli elintärkeä lukemattomien pienomistajien ja orjien selviytymiselle, jotka muodostivat suurimman osan länsi-Euroopan väestöstä. Viidestoista vuosisadan loppuun mennessä kirkko oli kuitenkin muodostunut merkittäväksi jarruksi tuottavuudelle, sillä sen asettamat rasitteet laskivat elintasoa.
+
+Sama pätee nykyajan kansallisvaltioon. Kansallisvaltio oli välttämätön sopeutuminen viisi vuosisataa sitten syntyneisiin uusiiin megapoliittisiin olosuhteisiin – se laajensi markkinoiden ulottuvuutta ja syrjäytti sirpaleiset paikallishallinnon elimet aikana, jolloin laajemmat kauppavyöhykkeet toivat suuria tuottoja. Se, että lähes kaikkialla Euroopassa kauppiaat liittoutuivat spontaanisti keskelle nousseen kuninkaan kanssa, kun hän pyrki vahvistamaan auktoriteettiaan, on itsessään todiste siitä, että varhaisen kansallisvaltion järjestelmä oli yritystoiminnan eduksi. Se auttoi lieventämään feodaalisten maanomistajien ja paikallisten suurmiesten asettamia kaupankäynnin rasitteita.
+
+Maailmassa, jossa väkivallan tuotto on ollut korkea ja nouseva, kansallisvaltio oli hyödyllinen instituutio. Mutta viisi vuosisataa myöhemmin, kun tämä vuosituhannen loppu lähestyy, megapoliittiset olosuhteet ovat muuttuneet. Väkivallan tuotto on laskemassa, ja kansallisvaltio – aivan kuten kirkko keski-ikäen hämärtyessä – on anakkronismi, joka nykyään vetää alas kasvua ja tuottavuutta.
+
+Kuten kirkko silloin, nykyajan kansallisvaltio on saavuttanut äärirajansa. Se on kuin vanhentunut instituutio, joka on menettänyt elinvoimansa. Viiden vuosisadan ajan se on toiminut yhteiskunnallisen järjestäytymisen hallitsevana voimana, mutta ylittämällä ne olosuhteet, jotka sen synnyttämisessä olivat ratkaisevia, se on kypsä romahdukselle. Ja romahdukselle se on – teknologia on käynnistämässä vallankäytön vallankumousta, joka tulee tuhoamaan kansallisvaltion samalla tavalla kuin ruutiaseet ja painokone olivat tuhoamassa keskiaikaisen kirkon monopolia.
+
+Jos päättelymme on oikea, kansallisvaltiot korvataan uudella suvereniteetin muodolla – jotkin niistä ovat historiallisesti ainutlaatuisia, toiset muistuttavat premodernin maailman kaupunkivaltioita ja keskiaikaisia kaupparepublikoita. Se, mikä oli vanhaa, muuttuu uudeksi vuoden 2000 jälkeen. Ja se, mikä oli käsittämätöntä, tulee arkipäiväiseksi. Teknologian mittakaavan laskiessa hallitukset huomaavat joutuvansa kilpailemaan yritysten tavoin tuloista; ne veloittavat palveluistaan vain sen verran, kuin ne ovat niiden maksaville ihmisille arvoisia. Tämän muutoksen kaikkia seurauksia on lähes käsittämättömiä.
+
+## THEN AND NOW
+
+Jotakin vastaavaa olisi voitu sanoa viisisataa vuotta sitten, 1400-luvun vaihteen aikaan. Silloin kuten nytkin länsimainen sivistys seisoi merkittävän muodonmuutoksen kynnyksellä. Vaikka melkein kukaan ei tiennytkaan, keskiaikainen yhteiskunta kuoli. Sen kuolemaa ei laajasti odotettu eikä ymmärretty. Siitä huolimatta vallitseva ilmapiiri oli syvän alakuloista. Tämä on yleistä aikakauden lopussa, kun perinteiset ajattelijat aistivat asioiden hajoavan – että "haukka ei kuule haukkajaa." Silti heidän henkinen jäykkyytensä on usein liian suuri ymmärtääkseen nousevien valtaelinrakenteiden vaikutuksia. Keskiajan historioitsija Johan Huizinga kirjoitti keskiajan hiipuvista päivistä: "Lähes kaikki 1400-luvun kronikoitsijat ovat olleet täysin huijaantuneita ajan todellisesta liikkeellepanevasta voimasta, josta heidän huomionsa pakenikin."[^101]
+
+### Myytit petetty
+
+Valtaan vaikuttavien dynamiikkojen merkittävät muutokset hämmentävät perinteisiä ajattelijoita, sillä ne paljastavat myyttejä, jotka oikeuttavat vanhan järjestyksen, mutta joilla ei ole todellista selitysvoimaa. Keskiajan lopulla, kuten nytkin, vastaanotettujen myyttien ja todellisuuden välillä oli erityisen suuri kuilu. Kuten Huizinga totesi 1400-luvun lopun eurooppalaisista: "Heidän koko ajatusjärjestelmänsä oli täynnä valhetta, jonka mukaan ritarillisuus hallitsi maailmaa."[^102] Tämä on hyvin samankaltainen nykyisessä oletuksessa, että maailmaa hallitsevat äänestykset ja suosiosarjat. Kumpikaan näistä väitteistä ei kestä tarkkaa analyysiä. Itse asiassa ajatus siitä, että historian kulun määräävät demokraattiset toiveiden laskennat, on yhtä typerä kuin keskiaikainen käsite siitä, että sitä määrää yksityiskohtainen tapakoodi, jota kutsutaan ritarillisuudeksi.
+
+Se, että näin sanominen rajaa harhaoppiin, osoittaa kuinka erkaantunutta tavanomainen ajattelu on teollistuneen yhteiskunnan vallan dynamiikan realistisesta ymmärryksestä. Tämä on aihe, jota tarkastelemme tarkasti tässä kirjassa. Meidän näkemyksemme mukaan äänestäminen oli enemmän vaikutus kuin syy niihin megapoliittisiin olosuhteisiin, jotka mahdollistivat modernin kansallisvaltion synnyn. Massademokratia ja kansalaisuuden käsite kukoistivat kansallisvaltion kasvaessa. Ne horjuvat kansallisvaltion horjuessa – aiheuttaen yhtä suuren pettymyksen Washingtonissa kuin ritarillisuden rappeutuminen aiheutti Burgundin herttuan hovissa viisisataa vuotta sitten.
+
+## Ritarillisuuden ja kansalaisuuden väliset yhtäläisyydet
+
+Jos ymmärrät, miten ja miksi ritarillisten valausten merkitys hiipui yhteiskunnan teollistumisen myötä, olet paremmin varustautunut näkemään, miten nykyinen kansalaisuus voi hiipua informaatiokaudella. Molemmat palvelivat samanlaista tarkoitusta; ne helpottivat vallankäyttöä kahden hyvin erilaisen megapoliittisen olosuhteen alla.
+
+### Yhtenäisyydet vai poikkeamat?
+
+Toisin kuin moderni armeija, keskiaikainen armeija ennen kansalaisuuden nousua ei marssinut taistelukentälle univormuissaan. Päinvastoin, jokaisella palvelijalla tai vasallilla – jokaisella ritarilla, baronetti- tai eri asteisella herralla – oli oma tunnusomainen varusteensa, joka heijasti hänen paikkaansa hierarkiassa. Uniformujen sijaan esiintyi eroja, jotka korostivat yhteiskunnan vertikaalista rakennetta, jossa jokainen asema erottui toisistaan. Kuten Huizinga totesi, keskiaikaiset soturit erottuivat "ulkoisilla merkeillä… eroavaisuuksissa: varusteissa, väreissä, vaakunoissa, joukkojen huudoissa."[^103]
+
+Sodat eivätkä käyty pelkästään hallitusten tai kansakuntien toimesta. Kuten Martin van Creveld on huomauttanut, modernit sodan käsitykset – joita strategit kuten Carl von Clausewitz ovat tyyliasettaneet – vääristävät premodernin konfliktin todellisuutta. Van Creveld kirjoittaa:
+
+> Tuhannen vuoden ajan Rooman tuhon jälkeen aseellista konfliktia käytiin erilaisten sosiaalisten kokonaisuuksien toimesta. Niihin kuuluivat barbaariheimot, kirkko, feodaaliset baronit kaikilla tasoilla, vapaakaupungit ja jopa yksityishenkilöt. Eikä kyseisen ajanjakson "armeijat" olleet mitään verrattuna nykyisiin armeijoihimme; itse asiassa on vaikea löytää sanaa, joka tekisi niille oikeutta. Sotaa käytiin palvelijajoukkojen toimesta, jotka pukeutuivat sotilaspuvuille ja seurasivat herraansa.[^104]
+
+Tällaisissa olosuhteissa oli herraan ratkaisevan tärkeää, että hänen palvelijansa todella pukeutuivat sotilaspuvuille ja seurasivat häntä – siksi ritarilupaukselle annettiin valtava painoarvo.
+
+Keskiaikaisen ritarin kunnia ja värvättyjen sotilaiden velvollisuus palvelivat rinnakkaisia tehtäviä. Keskiaikainen mies oli sidottu valojen avulla sekä yksilöihin että kirkkoon samalla tavalla kuin nykyaikaiset ovat sitoutuneet kansalaisuuden kautta kansallisvaltioon. Valan rikkominen oli keskiaikainen vastaava petoksen muoto. Myöhäiskeskiaikana ihmiset ryhtyivät äärimmäisiin toimiin välttääkseen valojen rikkomisen, aivan kuten miljoonat modernit kansalaiset tekivät maailmansodissa hyökkäämällä konekivääritorniin täyttääkseen velvollisuutensa kansalaisina.
+
+Sekä ritarillisuus että kansalaisuus lisäsivät ylimääräisen ulottuvuuden siihen yksinkertaiseen laskentaan, joka muuten estäisi indoktrinoimattomia ihmisiä astumasta taistelukentälle ja pysymästä siellä, kun tilanne käy vaikeaksi. Ritarillisuus ja kansalaisuus molemmat saivat ihmiset tappamaan ja ottamaan hengenvaarallisen riskin. Vain vaativat ja liioitellut arvot, joita johtavat instituutiot vahvasti vahvistavat, pystyvät täyttämään tuon tehtävän.
+
+### Cost-Benefit-laskennan kiertäminen
+
+Minkä tahansa järjestelmän menestys ja selviytyminen riippuu sen kyvystä kerätä sotilaallinen voima konfliktin ja kriisin aikoina. Ilmiselvästi, keskiaikaisen ritarin tai ensimmäisen maailmansodan kuopissa taistelevan yksityisen päätös riskeerata henkensä eivät todennäköisesti perustuneet tyynenä tehtyyn kustannus-hyötylaskelmaan. Harvoin sodat käydään niin helposti, tai niitä, joiden taistelun kärjistävät palkitaan niin ylivoimaisesti, ettei taloudellisten optimistien armeijaa voisi houkutella kiirehtimään taistelukentälle. Lähes jokaisessa sodassa – ja jopa useimmissa taisteluissa – on hetkiä, jolloin tilanne voi kääntyä silmänräpäyksessä. Sotahistorian opiskelijoiden on hyvin tiedettävä, että tappion ja voiton ero määrittyy usein sen mukaan, kuinka urheasti, rohkeasti ja raivokkaasti yksittäiset sotilaat ottavat tehtävänsä vastaan. Jos taistelijoiden ei ole valmiina uhrata henkeään maasta, joka ei taistelun päättymisen jälkeen enää olisi mitään arvoinen, he eivät todennäköisesti pärjää muuten tasaväkistä vihollista vastaan.
+
+Tämä vaikuttaa merkittävästi. Mitä tehokkaammat suvereinit ovat defektioiden rajoittamisessa ja sotilaallisen panostuksen kannustamisessa, sitä todennäköisempää on niiden menestyä sotilaallisesti. Sodankäynnissä käyttökelpoiset arvojärjestelmät saavat ihmiset käyttäytymään tavoilla, joita lyhytaikainen rationaalinen laskenta muuten kieltäisi. Mikään organisaatio ei voisi mobilisoida sotilaallista voimaansa tehokkaasti, jos taisteluun lähetetyt yksilöt kokisivat olevansa vapaita laskemaan, missä heidän oma etunsa olisi paras, ja osallistumaan tai pakenemaan sen mukaisesti. Tällöin he taistelisivat melkein koskaan. Vain kaikkein suotuisissa tai kaikkein epätoivoisissa olosuhteissa rationaalinen henkilö saattaisi haluta ryhtyä potentiaalisesti hengenvaaralliseen taisteluun lyhytaikaisen kustannus-hyötylaskelman perusteella. Ehkä Homo economicus taistelisi aurinkoisena päivänä, kun hänen joukkoihinsa olisivat ylivoimaisesti ja vihollinen heikko sekä taistelun mahdolliset palkkiot houkuttelevat. Ehkä. Hän saattaisi myös taistella, jos hänet painettaisiin nurkkaan ryöstelijöiden toimesta.
+
+Mutta nämä ovat äärimmäisiä olosuhteita. Entä yleisemmät sodankäynnin olosuhteet, jotka eivät ole niin houkuttelevia, että ne läpäisivät kustannus-hyötylaskennan, eivätkä niin epätoivoisia, että niistä ei olisi ulospääsyä? Juuri näissä tilanteissa käsitteet, kuten ritarillisuus ja kansalaisuus, ovat tärkeitä tekijöitä sotilaallisen voiman onnistuneessa käytössä. Jo kauan ennen taistelun alkua vallitsevien järjestöjen on saatava yksilöt vakuuttuneiksi siitä, että tiettyjen velvollisuuksien noudattaminen herran tai kansallisvaltion hyväksi on tärkeämpää kuin oma henki. Ne myyttejä ja järkeistysmalleja, joilla yhteiskunnat kannustavat riskinottoa taistelukentällä, ovat keskeisiä heidän sotilaallisessa taitavuudessaan.
+
+Jotta nämä myytit olisivat tehokkaita, ne on sovitettava vallitseviin megapoliittisiin olosuhteisiin. Nykyään tarina siitä, että ritarikunta hallitsee maailmaa, ei merkitse mitään – erityisesti New Yorkin kaltaisessa kaupungissa. Mutta keskiaikaisessa feodaalijärjestelmässä sitä pidettiin rakastettuna myyttinä. Se oikeutti ja järkisti velvollisuussuhteet, jotka sitomisivat kaikki kirkon alaisuuteen ja sotaisa aateliston valtaan. Aikana, jolloin yksityiset ahneuden sotat olivat yleisiä, yksilöiden vallankäyttö ja jopa henki riippuivat toisten halukkuudesta täyttää lupauksensa sotilaallisesta palveluksesta vaikeissa olosuhteissa. On itsestään selvää, että näiden lupauksien luotettavuus oli ratkaisevan tärkeää.
+
+### Ennen kansallisuutta
+
+Toisin kuin nykyään, kansallisuuskäsitteellä oli keskiajalla hyvin vähän tai ei lainkaan merkitystä suvereniteetin perustamisessa. Kuninkaat sekä jotkut kirkon ruhtinaat ja vaikutusvaltaiset herrokset omistivat alueita yksityisoikeudella. Tavalla, jolle nykyaikaisessa maailmassa ei ole vastinetta, nämä herrokset saattoivat myydä tai lahjoittaa alueita, tai hankkia uusia siirtämällä omaisuutta, solmimalla avioliittoja tai sotimalla. Nykyään olisi tuskin kuviteltavissa, että Yhdysvallat jäisi ei-englanninkielisen portugalilaispresidentin suvereniteetin alle, koska hän sattui menemään naimisiin entisen amerikkalaisen presidentin tyttären kanssa. Kuitenkin jotakin vastaavaa oli arkipäivää keskiaikaisessa Euroopassa. Valta siirtyi perimysjärjestelmien kautta. Kaupungit ja maat vaihtelivat suvereeniaan samalla tavalla kuin antiikkiesineet vaihtavat omistajaa. Monissa tapauksissa suvereenit eivät olleet alueidensa alkuperäisasukkaita. Joskus he eivät puhuneet paikallista kieltä lainkaan tai puhuivat sitä huonosti raskaan aksentin kera. Mutta henkilökohtaisten velvollisuussuhteiden kannalta ei ollut merkitystä, oliko espanjalainen Ateenan kuningas vai itävaltalainen Espanjan kuningas.
+
+### Yritysvalta
+
+Suvereniteettia harjoittivat myös uskonnolliset yhteisöt, kuten Temppeliritarit, Pyhän Johanneksen ritarit ja Saksanritarit. Näillä hybridi-instituutioilla ei ole nykyaikaisia vastineita. Ne yhdistivät uskonnolliset, sosiaaliset, oikeudelliset ja taloudelliset toiminnot paikallisen suvereniteetin kanssa. Vaikka ne käyttivät alueellista lainkäyttövaltaa, ne olivat melkeinpä vastakohtia nykypäivän hallituksille siten, että kansallisuudella ei ollut merkitystä niiden tukukyvyn keräämisessä tai hallintomallissa. Näiden uskonnollisten järjestöjen jäsenet ja virkamiehet olivat peräisin kaikilta kristinuskon Euroopan alueilta – tai niin kutsutusta "kristillisestä maailmasta".
+
+Ei kukaan pitänyt asian sopivana tai välttämättömänä, että hallitsijat olisivat peräisin paikallisista väestöryhmistä. Keskiaikaisen hajanaisen hallintojärjestelmän tukeminen ei perustunut kansalliseen identiteettiin tai velvollisuuteen valtioa kohtaan, kuten nykyään, vaan henkilökohtaiseen lojaalisuuteen ja perinteisiin siteisiin, joita pidettiin yksilöllisen kunnian asiana. Näitä valanottoja saattoi vannon kuka tahansa mistä tahansa, kunhan hänet muuten katsottiin elämänasemansa puolesta arvoltaan kelvolliseksi.
+
+### Vala
+
+Ritari- ja rituaalivala sitoi ihmiset toisiinsa, ja ne vannoitiin niiden osapuolten kunnialle. Kuten Huizinga kirjoitti: „Vallan vannominen tarkoittaa, että ihmiset asettavat itselleen jonkinlaisen puutteen kannustimena suoriutua lupauksiinsa kuuluvista teoistaan.”[^107] Valaiden kunnioittamiseen asetettiin niin suuri merkitys, että ihmiset usein riskasivat kuoleman tai kärsivät vakavia seurauksia välttääkseen niiden rikkomisen. Usein valat itsessään velvoittivat yksilöitä toimimaan kunniatoimin, jotka saattaisivat vaikuttaa naurettavilta sinulle ja useimmille tämän kirjan lukijoille.
+
+Esimerkiksi Tähtien Ritarit vannivat valan, etteivät koskaan vetäytyisi „enemmän kuin neljä neliöacria taistelukentältä, jonka läpi pian sen jälkeen yli yhdeksänkymmentä heistä menetti henkensä.”[^108] Jopa taktisen vetäytymisen kieltäminen on sotilaallisena strategiana järjettömyys, mutta se oli yleinen vaatimus ritari-valaissa. Ennen Agincourtin taistelua Englannin kuningas antoi käskyn, että partioissa olevien ritareiden tulisi riisua haarniskansa, sillä heidän kunnialleen olisi ristiriidassa vetäytyä vihollislinjoilta, jos heillä olisi päällään haarniska. Sattui, että kuningas itse eksyi ja kulki ohitse kylän, joka toimi hänen armeijansa etujoukon yötupaana. Koska hän oli haarniskassa, hänen ritari-koon kunnian ei sallinut hänen vaikuttaa kääntyvänsä takaisin, kun hän huomasi virheensä, vaan hän vietti yön avoimessa, paljaassa asennossa.
+
+Kuinka hölmöltä tämä esimerkki tuntuukin, Kuningas Henrik ei todennäköisesti arvioinut väärin ajatellen, että vetäytymällä hän olisi rikkonut kunnian sääntöjään ja asettanut koko armeijansa moraalin alhaisemmaksi kuin nukkumalla vihollislinjojen takana.
+
+Keski-ajan historia on täynnä esimerkkejä merkittävistä ihmisistä, jotka noudattivat lupauksia, jotka meille tuntuisivat naurettavilta. Monissa tapauksissa esitetyt teot eivät olleet objektiivisesti yhteydessä mihinkään hyötyyn, vaan niiden ainoa tarkoitus oli elävä osoitus siitä, kuinka paljon lupaukseen osallistuvat arvostivat itse lupausta. Yksi yleisimmistä lupauksista oli esimerkiksi pitää toinen silmä kiinni, syödä ja juoda vain seisoen sekä tulla itse aiheutetuksi kömpelöksi liittymällä yksineläkettiin. Oli olemassa laaja tapa käyttää kivuliaita jalkarautoja. Jos nykypäivänä näkisit jonkun kamppailevan kadulla raskaan jalkarautaa kantamassa, ajattelisit luultavasti hänen olevan hullu etkä, että hän olisi suuri hyveiden mies. Ritareiden maailmassa tällaisen laitteen vapaaehtoinen käyttö oli kuitenkin kunnianmerkki. Samankaltaisia tapoja oli lukuisia, ja ne tuntuivat yhtä naurettavilta myös nykyään. Kuten Huizinga kuvaa, monet antoivat lupauksensa "älkää nukkuko sängyssä lauantaina, älkää syökö eläinruokaa perjantaina jne. – yksi askeesin teko kasautuu toisen päälle: yksi aatelismies lupaa olla käyttämättä haarniskaa, olla juomatta viiniä yhtenä päivänä viikossa, olla nukkumatta sängyssä, olla istumatta aterioilla ja käyttää skalpapaitaa."[^109]
+
+Lent säilyy näistä itseään aiheutetuista epämukavuuksista hyvin lievennettynä versiona.
+
+Monet lupauksista innostuneet muodostivat kannoja, jotka asettivat jäsenilleen erityisen ankaria niukkuuksia kunnian testinä. Esimerkiksi Clalois- ja Galoises-kannossa he pukeutuivat kesäisin "turkisiin ja turkisvuorattuihin hupuihin ja sytyttivät tulen takassa, kun taas talvella heidän sallittiin pukeutua vain yksinkertaiseen takkiin ilman turkkia; he eivät käyttäneet vaateviittoja, hattuja tai hansikkaita, ja heidän vuodevaatteensa olivat hyvin kevyitä." Kuten Huizinga raportoi, "ei ole yllättävää, että suuri joukko jäseniä kuoli kylmästä."[^110]
+
+> "Keski-ajan itsensä ruoskinta oli synkkä kidutus, jota ihmiset aiheuttivat itselleen toivoen, että tuomitseva ja rankaiseva Jumala laskisi sauvansa, antaisikoon anteeksi heidän syntinsä ja säästäisi heidät suuremmilta kiitoksilta, joita muuten heillä olisi tässä maailmassa ja seuraavassa."[^111]  
+— NORMAN COHN
+
+### Ruoskinta, sitten ja nyt
+
+Vain pieni askel oli siitä, että valan, joka toi mukanaan vaaraa ja riistoa, seuraukseksi tuli koettelemuksia, pyhiinvaelluksia, nöyryytystä, epämukavuutta ja jopa tarkoituksellista itsensä vahingoittamista. Näitä pidettiin keskiajalla erittäin hyödyllisinä ja kiitettävinä eleinä, jotka ilmaisivat sen vakavuutta, jolla valoja noudatettiin – logiikkaa, joka ei ole täysin vierasta edes nykyisin veljes- tai sisaryhdistysten vastaanottoissa.
+
+Kesällä tukahduttavan kuumuuden, talvella jäädyttävän kylmyyden tai paljain jaloin lumessa käytyjen pyhiinvaellusten kokeminen oli suhteellisesti lempeämpää verrattuna itseään ruoskivien ankaraan kidutukseen. Tämä erityisen keskiaikainen katumusmuoto syntyi lähes samanaikaisesti feodalismiin alennuttaessa; sen omaksui aluksi erakkolaiset Camaldolin ja Fonte Avellanan luostaryhmissä varhaisella 1000-luvulla.[^112]
+
+Sen sijaan, että kävelisit pelkkinä paljain jaloin kylmässä, itsensä ruoskintaa harjoittavat järjestivät paraateja, joissa he marssivat päivä ja yö, yhdestä kaupungista toiseen. „Joka kerta saapuessaan kaupunkiin he järjestäytyivät ryhmiin kirkon edessä ja ruoskivat itseään tunteja kerrallaan.”[^113]
+
+Uskomme, että tulevaisuudessa kansallisvaltioiden aikakauteen kurkistavat ihmiset pitävät joitakin 1900-luvulla kansalaisuuden nimissä toteutettuja tekoja yhtä naurettavina kuin me pidämme itsensä ruoskintaa. Informaatioyhteiskunnan näkökulmasta modernien sotilaiden näkemys, jotka matkustavat puoliväliä maailmaa viihdyttääkseen kuolemaa uskollisuudestaan kansallisvaltiota kohtaan, näyttäytyy groteskin ja typeränä. Se ei vaikuta olevan kovin erilainen kuin jotkut erikoiset ja liioitellut ritarillisrituaalit, esimerkiksi jalkakuilujen päällä kävely, joita muuten järkevät ihmiset olivat ylpeitä harjoittamaan feodaaliaikana.
+
+Ritarillisuus alistuu kansalaisuudelle
+
+Ritterismi hiipui ja sen tilalle astui kansalaisuus, kun megapoliittiset olosuhteet muuttuivat ja herralle annettavan valan sotilaallinen tarkoitus vanhentui. Ruutiaseiden ja teollisuusarmeijoiden maailma sisälsi hyvin erilaiset suhteet taistelijoiden ja heidän komentajiensa välillä. Kansalaisuus nousi esiin, kun väkivallan tuottamat palkkiot olivat korkealla ja kasvussa, ja valtioilla oli huomattavasti enemmän resursseja kuin keskiajan sotaa käyvillä yhteisöillä. Suurimman voimansa ja varallisuutensa ansiosta kansallisvaltio pystyi tekemään suoran sopimuksen sen univormussaan taistelevien tavallisten sotilaiden massan kanssa.
+
+Tällaiset sopimukset osoittautuivat valtioille paljon edullisemmiksi ja vähemmän hankaliksi kuin yritykset koota sotajoukkoja neuvottelemalla voimakkaiden herrojen ja paikallisten vaikutusvaltaisten henkilöiden kanssa, joilla kukaan ei kyennyt vastustamaan vaatimuksia, jotka olivat ristiriidassa heidän etujensa kanssa – kuten yksittäinen kansalainen kansallisvaltiossa ei voisi pysyä vastustajana.
+
+Syistä, joita tarkastelemme myöhemmin syvällisemmin, kansalaisuus perustui ratkaisevasti siihen, ettei mikään yksittäinen henkilö tai pieni ryhmä ollut megapoliittisesti kykenevä käyttämään sotilaallista valtaa itsenäisesti. Kun tietotekniikka muuttaa taistelun logiikkaa, se vanhentaa kansalaisuuden myytit yhtä varmuudella kuin ruuti vanhensi keskiaikaisen ritterismin.
+
+### Hell's Angels hevosilla
+
+Länsi-Eurooppaa vuosisatojen ajan hallinneen ratsastavien sotureiden aatelisto ei ollut kovin paljon niitä herrasmiehiä, joiksi heidän jälkeläisensä myöhemmin muuttuivat. He olivat karuja ja väkivaltaisia. Nykykielen termein heidät voitaisiin ymmärtää paremmin keskiaikaisen moottoripyöräjengien vastineena. Ritterismin käytöstavat ja muodollisuudet tarkoituksenaan olivat enemmänkin hillitä heidän liiallisuuttaan kuin kuvata heidän todellista käyttäytymistään. Jopa tietosanakirjamainen selostus ritterismin säännöistä ja velvollisuuksista olisi paljastanut vain vähän tai ei mitään aatelon vallan perustekijöistä.
+
+Täydellisyys uupumuksen synonyymina
+
+Tehokkaiden ryttyaseiden käyttöönotto 1400-luvun lopulla laukaisi mahtavan räjähdyksen niiden jaloissa – aivan kuten aseistetut ritarit olivat hioutuneet taidossaan ennennäkemättömällä tavalla. Silloin huolellinen jalostus oli lopulta tuottanut taisteluratsun, joka oli kuusitoista käden korkuinen – ratsu, jolla ratsastava ritarikin varustautuneena täydellisessä haarniskassa mahtuisi mukavasti. Kuitenkin, kuten C. Northcote Parkinson oivaltavasti totesi, „täydellisyyteen päästään vain silloin, kun instituutiot ovat romaamisen partaalla.” Juuri samalla tavalla, kun uusi sotaratsu oli kehittynyt, käytettiin uusia aseita, joilla pyyhitään hevonen ja ritari kentältä. Näitä uusia ryttyaseita voitiin ampua tavallisiltakin kansalaisilta; niiden käyttäminen vaati vain vähän taitoa, mutta niitä oli hankittava kalliilla suurissa määrin. Aseiden yleistyminen nosti vähitellen kaupankäynnin merkityksen maatalouden edelle, joka feodaalisen talouden perustana oli tähän asti ollut.
+
+Taistelu suuremmassa mittakaavassa
+
+Miten ryttyaseet aiheuttivat tällaisen mullistuksen? Ensinnäkin ne laajensivat taistelun mittakaavaa, jolloin sodankäynti muuttui hyvin pian paljon kalliimmaksi kuin keskiaikana. Ennen ryttyasevallankumousta sodat käydettiin yleensä niin pienillä ryhmillä, että ne voitiin kerätä pieneen ja köyhään alueeseen. Rytty antoi uuden edun laajamittaiselle taistelulle: vain johtajat, joilla oli vaatimuksia rikkaista alamaisistaan, pystyivät varustamaan tehokkaat joukot uusissa olosuhteissa. Ne johtajat, jotka sopeutuivat parhaiten kaupankäynnin kasvuun – yleensä kuninkaat, jotka liittoutuivat kaupunkikauppiaiden kanssa – huomasivat nauttivansa kilpailuetua taistelukentällä. Kuten van Creveld totesi, „osittain ylivoimaisten taloudellisten resurssien ansiosta he pystyivät ostamaan enemmän tykkejä kuin kukaan muu ja räjäyttämään vastustajansa palasiksi.”
+
+Vaikka kuluisi vuosisatoja ennen kuin ryttyaseiden täydellinen logiikka vapautuisi Ranskan vallankumouksen kansallismiehistöissä, yksi varhainen vihje ryttyaseiden sotatapojen mullistumisesta oli sotilasasujen käyttöönotto renessanssissa. Asut symboloivat osuvasti uusia suhteita soturin ja valtion välillä, jotka muodostuivat ritarillisuuden siirtyessä kansalaisuuteen. Käytännössä uusi valtio tekisi „yhtenäisen” sopimuksen kansalaistensa kanssa, toisin kuin feodaalisen järjestelmän alla kuninkaan tai paavin solmineet poikkeukselliset, eriytyneet sopimukset pitkän vasalliketjun kanssa. Vanha järjestelmä jakoi jokaiselle yksilölle oman paikkansa arkkitehtonisessa hierarkiassa – jokaisella oli sopimus yhtä ainutlaatuinen kuin hänen vaakunansa ja värikkäät lippunsa.
+
+### Rikkauden mahdollisuuskustannusten alentaminen
+
+Ruutiaseet muuttivat yhteiskuntaa radikaalisti jälleen toisella tavalla. Ne erottoivat vallan käyttämisen fyysisestä voimasta, mikä laski kauppatoimintaan liittyviä mahdollisuuskustannuksia. Rikkaiden kauppiaiden ei enää tarvinnut turvautua omaan taitavuuteensa ja voimaansa lähitaistelussa tai epävarmoihin palkkamurhaajiin puolustaessaan itseään. Heidän voitiin toivoa, että suurten monarkkien uudet, laajemmat armeijat huolehtisivat puolustuksestaan. Kuten William Playfair totesi keskiajasta: "Kun ihmisen voimaa käytettiin häiritsevänä voimavarana vihamielisissä tilanteissa, … [eivät] ihmiset pystyneet olemaan pitkään sekä rikkaita että mahtavia."[^116] Kun ruuti yleistyi, oli mahdotonta hallita ilman rikkautta.
+
+### Asema ja staattinen ymmärrys
+
+Samankaltaisista syistä kuin nykyäänkin suurin osa ihmisistä on huonosti valmistautunut ennakoimaan tietoyhteiskunnan uusia dynamiikkoja, keskiajan johtavat ajattelijat eivät kyenneet ennakoimaan tai ymmärtämään kaupankäynnin nousua, jolla oli niin keskeinen rooli modernin aikakauden muovaamisessa. Viidessä vuosisadassa sitten useimmat näkivät yhteiskuntansa pysyvän staattisena kokonaisuutena. Kuten Huizinga totesi: "Erittäin harva omaisuus on nykyaikaisessa merkityksessä likvidiä, eikä valtaa vielä liitetty pääasiassa rahaan; se on yhä olennainen henkilön sisäinen ominaisuus ja riippuu eräänlaisesta uskonnollisesta kunnioituksesta, jota hän herättää; se ilmenee loistossa, mahtavuudessa tai lukuisissa uskollisissa seuraajissa. Feodaalinen tai hierarkkinen ajattelu ilmaisee suuruuden idean näkyvin merkein...."[^117] Koska myöhäiskeskiajalla ihmiset ennen kaikkea ajattelivat asemasta, he eivät olleet valmistautuneita ymmärtämään, että kauppiaat voisivat tuoda valtakunnan elämään jotakin olennaista. Lähes poikkeuksetta kauppiaat olivat tavallisia kansalaisia, sijoittuen kolmen luokan alimmalle tasolle – aateliston ja kirkon alapuolelle.
+
+Jopa myöhäiskeskiajan teräväpäisimmät ajattelijat eivät arvostaneet kaupankäynnin ja muiden yritysmuotojen merkitystä varallisuuden kartuttamisessa maatalouden ulkopuolella. Heille köyhyys oli lähes pyhyyttä, eikä heillä ollut käytännössä eroa varakkaan pankkiirin ja kerjäläisen välillä. Huizingan mukaan "kolmannessa luokassa periaatteessa ei tehty eroa rikkaiden ja köyhien kansalaisten välillä, eikä kaupunkilaisten ja maaseudun välillä."[^118] Heille ainoastaan ritarikunnan asema merkitsi mitään.
+
+Tämä elämän taloudellisen ulottuvuuden hämärtyneisyys vahvistui kirkollisten upseerien kautta, jotka olivat keskiajan elämän ideologisia vartijoita. He olivat niin kaukana kaupan merkityksen ymmärtämisestä, että yksi laajalti ylistetty 1400-luvun uudistussuunnitelma ehdotti, että kaikkien ei-aateliston jäsenten tulisi omistautua yksinomaan käsityöhön tai maataloustyöhön. Kaupalle ei suunniteltu mitään roolia ollenkaan.[^119]
+
+> "Päivämäärä 1492, jota perinteisesti käytetään erottelemaan keskiaika modernista historiasta, toimii yhtä hyvin kuin mikä tahansa muu jakolinja, sillä maailmanhistorian näkökulmasta Kolumbuksen matka symboloi uuden suhteen alkua Länsi-Euroopan ja muun maailman välillä."[^120] - FREDERIC C. LANE
+
+## TEOLLISEN KAUDEN SYNTY
+
+Monet 1400-luvun terävimmistä mielistä jäivät täysin huomaamatta yhtä historian tärkeimmistä kehityksistä, joka alkoi heidän silmiensä edessä. Feodaalisuuden varjostuminen merkitsi länsimaisen modernin ylivaltaisen vaiheen alkua. Se oli ajanjakso, jolloin väkivallan tuotto ja yritystoiminnan mittakaava kasvoivat. Viimeisen kahden ja puolen vuosisadan aikana moderni talous on tuottanut vertaansa vailla olevan elintason nousun sille osalle maailmaa, joka on saanut sen suurimmat hyödyt. Muutosten katalysaattoreina toimivat uudet teknologiat – ruutiaseista painokoneeseen – jotka muovasivat elämän rajoja tavoilla, joita harva kykeni käsittämään.
+
+1400-luvun viimeisen vuosikymmenen loppuun mennessä tutkimusmatkailijat, kuten Kolumbus, alkoivat juuri avata tietä valtaville, tuntemattomille mantereille. Ensimmäistä kertaa ihmiskunnan muistamattomien aikojen aikana koko maailma tuli kartoitetuksi. Galleonit, uutta korkeavarustettua improvisaatiota Välimeren laivoista, kiersivät maailmaa, kartoittaen reitit, joista tuli kauppareittejä sekä taudin ja valloituksen pääväyliä. Konkvistadorit, jotka käyttivät uusia pronssitykkejä niin merellä kuin maallakin, räjäyttivät auki uusia horisontteja. He löysivät rikkauksia kullassa ja mausteissa, kylvivät uusien rahatalouden perusviljelykasvien siemeniä – tupakasta perunoihin – ja varasivat uusia laiduntelualueita karjansa käyttöön.
+
+Kuten tykistön kanuuna avasi uusia taloudellisia horisontteja, painokone avasi uusia älyllisiä horisontteja. Se oli ensimmäinen massatuotannon kone, allekirjoitusteknologia, joka merkitsi teollistumisen alkua. Tässä jaamme Adam Smithin Kansojen varallisuudessa esittämän näkemyksen, jonka mukaan teollinen vallankumous oli tapahtunut jo kauan ennen hänen kirjoitushetkeään. Vaikka se ei ollut vielä täysin kypsä, massatuotannon periaatteet ja tehdasmalli olivat jo hyvin vakiintuneet. Hänen kuuluisan esimerkkinsä neulavalmistajista havainnollistaa tätä: Smith selittää, kuinka kahdeksantoista erillistä toimintoa osallistuu neulojen valmistukseen, ja erikoistuneen teknologian sekä työjaon ansiosta jokainen työntekijä pystyi tekemään 4 800 kertaa enemmän neuloja päivässä kuin yksittäinen henkilö yksin.
+
+Smithin esimerkki alleviivaa sitä, että teollinen vallankumous alkoi vuosisatoja aiemmin kuin perinteisesti oletetaan. Useimmat oppikirjat ajattelisivat sen alkaneen 1700-luvun puolivälissä, mikä ei ole kohtuuttoman ajankohta elintasojen parantumisen nousuvaiheelle. Todellinen megapoliittinen siirtymä feodalismista teollisuuteen alkoi kuitenkin jo 1400-luvun lopulla, ja sen vaikutus ilmeni melkein välittömästi hallitsevien instituutioiden muutoksissa, erityisesti keskiaikaisen kirkon varjossa.
+
+Historiantutkijat, jotka ajoittavat teollisen vallankumouksen myöhemmäksi, mittaavat itse asiassa jotain muuta – massatuotannon mahdollistaman elintasojen nousua, joka nosti vähäosaistyön arvoa ja johti laajojen kulutustavaroiden hintojen laskuun. Se, että elintasot alkoivat nousta jyrkästi eri aikoina eri maissa, viittaa siihen, että mittarina on jotain enemmän kuin pelkkä megapoliittinen siirtymä. The Cambridge Economic History of Europe käyttää moniulkona termiä “teolliset vallankumoukset”, liittäen ne kansallisten tulojen jatkuvaan kasvuun.[^122] Japanissa ja Venäjällä tämä tulojen nousu viivästyi vasta 1800-luvun loppuun, kun taas muualla Aasiassa ja joissakin Afrikan osissa elintasojen nousu ja kansallisen tulon jatkuva kasvu olivat 1900-luvun ilmiöitä. Joillakin Afrikan alueilla jatkuvaa kasvua on vielä tänäkin päivänä haaveena, mutta tämä ei tarkoita, etteivätkö nämä alueet eläisi modernilla aikakaudella.
+
+### Tulot laskevat siirtymävaiheessa
+
+Tulonkasvu ei tarkoita teollistumisen aikakauden saapumista. Siirtyminen teollisuusyhteiskuntaan oli megapoliittinen tapahtuma, jota ei voi mitata suoraan tulotilastoilla. Todellisuudessa useimpien eurooppalaisten reaali‐tulot laskivat ensimmäisten teollisen aikakauden kahden vuosisadan ajan. Ne alkoivat nousta vasta 1700-luvun alun jälkeen, eikä 1250-tasoa saavutettu ennen noin vuotta 1750. Määrittelemme teollisen aikakauden aloitukseksi 1400-luvun lopun. Varhaismodernin teknologian teolliset piirteet – kuten kemiallisesti toimivat aseet ja painokoneet – saivat feodaalisen järjestelmän murenemaan.
+
+### Tiedon kustannusten lasku
+
+Kirjojen massatuotantokyvyn kehitys oli uskomattoman mullistavaa keskiaikaisia instituutioita vastaan, aivan kuten mikroteknologia tulee osoittautumaan modernia kansallisvaltiota vastaan. Painaminen murensi nopeasti kirkon monopolia Jumalan sanassa, samalla kun se loi uuden markkinan harhaoppisuudelle. Feodaalisen järjestelmän kannalta ajatukset, jotka rikkoivat tämän järjestyksen, levisivät nopeasti – viimeisen 1400-luvun vuosikymmenen aikana julkaistiin jopa 10 miljoonaa kirjaa. Koska kirkko yritti tukahduttaa painokoneen, suurin osa uusista teoksista ilmestyi Euroopan niillä alueilla, joissa vakiintuneen vallan kirjo oli heikoin. Tämä saattaa muistuttaa nykyisin Yhdysvaltojen hallituksen pyrkimyksiä tukahduttaa salausteknologiaa. Kirkko huomasi, että sensuuri ei estä vallankumouksellisten teknologioiden leviämistä, vaan se vain varmistaa niiden käytön kaikkein mullistavimmalla tavalla.
+
+### Luostareiden arvon aleneminen
+
+Monet näennäisesti viattomat painokoneen käyttötarkoitukset olivat vallankumouksellisia sisällöltään. Pelkkä tieto siitä, millaisia ansioita urheat seikkailijat ja kauppiaat voisivat saavuttaa, toimi voimakkaana vaikuttajana, joka liu'utti feodaalisten velvollisuuksien siteet. Uusien markkinoiden houkutus sekä tarve ja mahdollisuus rahoittaa armeijoita ja laivastoja suuressa mittakaavassa antoivat rahalle sellaisen arvon, josta feodaalisina vuosisatoina ei ollut mitään. Nämä uudet investointimahdollisuudet, joita vahvistivat tehokkaat aseet, jotka nostivat väkivallan tuottoja, tekivät entistä kalliimmaksi sekä maanomistajan että kauppiaan lahjoittaa pääomansa kirkolle. Näin ollen investointimahdollisuuksien synty itsessään epävakautti feodaalisen järjestelmän instituutiota ja heikensi sen ideologiaa.
+
+Toinen painokoneen kapinallinen seurauksista oli sen vaikutus tiedon jäljentämisen kustannusten dramaattiseen laskuun. Yksi keskeinen syy siihen, miksi lukutaito ja taloudellinen kehitys olivat keskiajalla niin vähäisiä, oli käsikirjoitusten käsin kopioimisen korkeat kustannukset. Kuten olemme nähneet, yksi kirkon merkittävimmistä tuotannollisista tehtävistä Rooman tuhoamisen jälkeen oli kirjojen ja käsikirjoitusten jäljentäminen benediktiiniluostareissa. Tämä oli äärimmäisen kallis hanke. Yksi vaikuttavimmista painamisen seurauksista oli scriptoriajen arvon aleneminen – paikkojen, joissa munkit tekivät päivästä toiseen, kuukausista kuukausiin käsikirjoituksia, jotka painokoneiden avulla voitiin jäljentää tunneissa. Uusi teknologia teki benediktiiniluostarien scriptoriaista vanhentuneen ja raskaan keinon tiedon tallentamiseen, mikä puolestaan vähensi niitä uskonnollisten järjestysten ja kirkon näkökulmasta, jotka ylläpitäivät näitä kirjanpitäjiä, taloudellista merkitystä.
+
+Kirjojen massatuotanto lopetti kirkon monopolin Raamatun teksteihin sekä muihin tiedon muotoihin. Laajempi kirjojen saatavuus pienensi lukutaidon kustannuksia ja kasvatti siten niiden ajattelijoiden määrää, jotka pystyivät esittämään omia mielipiteitään tärkeistä, erityisesti teologisista aiheista. Teologisen historioitsija Euan Cameronin mukaan 1500-luvun kahden ensimmäisen vuosikymmenen "julkaisuvirstanpylväät" loivat perustan modernin tekstikriittisen menetelmän soveltamiselle Raamattuteksteihin.[^123] Tämä uhkasi kirkon monopolia kyseenalaistamalla ne korruptoituneet tekstilukemat, joita oli käytetty perinteisten dogmien tukemiseksi.[^124] Uusi tieto kannusti kilpailukykyisten protestanttisten lahkojen syntyä, jotka pyrkivät muotoilemaan omat Raamatun tulkintansa. Kirjojen massatuotanto laski harhaopin kustannuksia ja tarjosi harhaoppisille valtavat lukijakunnat.
+
+Julkaiseminen auttoi myös murentamaan keskiaikaista maailmankuvaa. Tiedon suurempi saatavuus ja alhaisemmista kustannuksista johtuvat syy-seuraussuhteiden kehitys murensi näkemyksen maailmasta, joka perustui symboliikkaan pikemminkin kuin kausaalisiin yhteyksiin. "Symbolismin kuva maailmasta erottuu moitteettomalla järjestyksellään, arkkitehtonisella rakenteellaan ja hierarkkisella alistuksellaan. Jokainen symbolinen yhteys merkitsi aseman tai pyhyyden eroa… Pähkinä symboloi Kristusta; sen makea ydin on Hänen jumalallinen luonteensa, vihreä ja mehukas kuori Hänen inhimillisyytensä, ja puinen välikuori on risti. Näin kaikki asiat kohottavat ajatuksia ikuisuuteen..."[^125]
+
+Symbolinen ajattelutapa ei ainoastaan täydentänyt yhteiskunnan hierarkkista rakennetta, vaan se sopi myös lukutaidottomalle väestölle. Puupiirroksilla välitetyt symboliset ideat olivat saavutettavissa lukutaidottomalle, kun taas modernin painamisen myötä kehittyivät syy-seuraussuhteet, joissa hyödynnettiin tieteellistä menetelmää lukutaitoisen väestön hyväksi.
+
+## NYKYAIKAA VASTAAVA VASTINE
+
+Keski-ajan yhteiskunta, joka näytti 1400-luvun puolivälissä niin vakaalta ja turvattu uskomuksissaan, muuttui nopeasti. Sen hallitseva instituutio, kirkko, kohtasi monopolin haasteen ja sen yksinvalta murtui. Auktoriteetti, jota oli vuosisatojen ajan kyseenalaistamatta, joutui yhtäkkiä kiistanalaiseksi. Uskomuksia ja lojaalisuuksia, jotka olivat pyheämpiä kuin mitkä tahansa nykyään sitovat kansalaisen kansallisvaltioon, tarkasteltiin uudelleen ja hylättiin muutamassa lyhyessä vuodessa – kaiken taloudellisen vallankumouksen vuoksi, joka saavutti täyden potentiaalinsa 1400-luvun viimeisen vuosikymmenen aikana.
+
+Uskomme, että yhtä dramaattinen muutos kuin viisisataa vuotta sitten tapahtuu uudelleen. Informaatioiden vallankumous tuhoaa kansallisvaltion vallan monopolin yhtä varmasti kuin ruuti- ja ampumajärjestelmän vallankumous murtui kirkon yksinvallan. 1400-luvun lopun tilannetta, jolloin elämä oli täysin kyllästetty järjestäytyneeseen uskontoon, voidaan verrata nykyhetkeen, jolloin maailma on kyllästetty politiikasta. Kirkko silloin ja kansallisvaltio nykyään ovat kumpikin instituutioita, jotka ovat kasvaneet senuuilta äärimmäisyyksiltä. Samalla tavalla kuin myöhäiskeskiaikainen kirkko, 1900-luvun lopun kansallisvaltio on syvästi velkaantunut instituutio, joka ei enää pysty selviytymään omista kuluistaan – sen toiminta on yhä merkityksettömämpää ja jopa vastoinvaikuttavaa niiden vauraudelle, joiden tukijoita se vielä ei kovin kauan sitten olisi voinut olla.
+
+### "Vähävarainen, ahne ja ylenpalttinen"
+
+Aivan kuten nykyinen hallitus tarjoaa huonoa vastinetta keräämälleen rahalle, niin teki kirkko 1400-luvun lopussa. Kuten kirkkohistorioitsija Euan Cameron totesi, "[V]ähän varainen paikallinen papisto näytti tarjoavan huonoa palvelua rahojaan vastaan; suuri osa kerätystä 'häviää' käytännössä suljettuihin luostareihin tai korkeakoulutuksen ja hallinnon arkaisiin alueisiin. Huolimatta osiin kirkkoa annetuista runsaslahjoista instituutio kokonaisuutena onnistui näyttämään samanaikaisesti vähävaraiselta, ahnelta ja ylenpalttiselta." On vaikea olla näkemättä rinnakkaisuutta tätä suhdetta myöhäis-1900-luvun hallitusten toimintaan.
+
+1400-luvun lopun uskonnolliset seremoniat kasvoivat samalla tavalla kuin nykyään hyvin laajeneiden hyvinvointivaltioiden ohjelmat. Erityiset siunausseremoniat moninkertaistuivat, ja siihen liittyen lisääntyivät pyhien sekä pyhien luiden tarjonta. Joka vuosi ilmestyi enemmän kirkkoja, luostareita, kappelitehtaita, fraría, tunnustajia (kotipapistoja), saarnaajia, katedraalikapituleita, rahastoituja pelkoisia, relikvikultteja, uskonnollisia sisarustoveruuksia, uskonnollisia festivaaleja ja uusia pyhiä päiviä. Palvelut venyivät, rukoukset ja virret muotoutuivat monimutkaisemmiksi. Yksi järjestö ilmestyi toisensa jälkeen kerjääkseen almuja. Tuloksena syntyi instituutiorajoittuminen, joka muistuttaa nykyisten voimakkaasti poliitikoituneiden yhteiskuntien tilaa.
+
+
+
+Uskonnolliset juhlapyhät ja kattaavat juhlapäivät yleistyivät kaikkialla. Uskonnollisten jumalanpalvelujen määrä kasvoi, ja erityisiä juhlia pidettiin muun muassa Marian seitsemän surun, hänen sisarustensa ja kaikkien Jeesuksen suvun pyhien kunniaksi.[^127] Uskollisten uskonnollisten velvoitteiden täyttäminen kävi yhä kalliimmaksi ja raskaammaksi – aivan kuten nykyisinkin lain noudattamisen kustannukset ovat kasvaneet.
+
+### Viattomat maksavat
+
+Aikanaan, kuten nyt, tuottavat joutuivat kantamaan kasvavan tulonjakoa koskevan taakan. Nämä kustannukset nousivat jyrkemmin kuin viranomaisten pystyivät huomaamaan, johtuen pääoman käytön muuttumisesta. Maan omistuksen suhteellinen etu rahapääomaan verrattuna väheni. Silti keskiaikainen ajattelutapa pysyi statussidonnaisena, jossa sosiaalinen asema määräytyi sen perusteella, kuka olet, eikä sen mukaan, kuinka taitavasti pääomaa tehokkaasti hyödynnetään. Prameihin uskonnollisiin juhlallisuuksiin liittyvien ylittyvien mahdollisuuskustannusten nousua ei otettu juuri lainkaan huomioon. Nämä kustannukset osuivat eniten kunnianhimoisimmille ja ahkerimmille talonpojille, kaupunkilaisille ja itsenäisille maanviljelijöille, jotka olivat aristokratiaan verrattuna vahvemmin riippuvaisia pääomansa hyödyllisestä käytöstä. Heidän oli kannettava suhteettoman suuri taakka loputtomien juhlien ja pyhien päivien pöytien kattamisesta sekä maksettava ylellisen kirkollisen byrokratian tukemisesta.
+
+### Tuhoava sääntely
+
+Viidestoista vuosisadan lopulla kirkko hallitsi suurelta osin niitä sääntelyvaltaisia toimivaltuuksia, joita myöhemmin ovat ottaneet hallitukset. Kirkko dominoi tärkeitä oikeuden osa-alueita – se kirjat asiakirjat, rekisteröi avioliitot, toteutti testamenttien selvitystä, myönsi lupia ammatteihin, kirjasi maan omistusoikeudet ja määritteli kaupankäynnin ehdot. Elämän yksityiskohdat olivat lähes yhtä perusteellisesti säädeltyjä kanonikesäädöksillä kuin nykyisin byrokratian toimesta, ja tarkoitus oli lähes sama. Aivan kuten nykyinen poliittinen sääntely on täynnä sekaannuksia ja ristiriitoja, oli kanonikesäädöksissä jo viisisataa vuotta sitten. Nämä säännökset usein tukahduttivat ja monimutkaisivat kaupankäyntiä tavoilla, jotka paljastivat, ettei sääntelijöiden mielessä ollut juurikaan ajatusta tuottavuuden edistämisestä.
+
+Esimerkiksi kiellettiin harjoittaa liiketoimintaa koko vuodeksi sillä viikonpäivällä, jolle viimeisin 28. joulukuuta sattui osumaan. Näin ollen, jos 28. joulukuuta osui tiistaille, tiistaisin ei voinut tehdä laillista liiketoimintaa pappuruuden velvoitteellisena ilmaisuna viitaten viattomien teurastukseen. Niinä vuosina, jolloin 28. joulukuuta sattui osumaan muulle kuin sunnuntaiksi, tämä määräys rajoitti monien kaupallisten toimialojen potentiaalia, mikä nosti kustannuksia joko viivästyttämällä tai estämällä kokonaan liiketoimia.
+
+## Monopoly-hinnoittelu
+
+Kanonilakia sovellettiin myös tukemaan monopoli-hinnoittelua. Kirkko sai merkittäviä tuloja Tolfassa, Italiassa omistamikseen louhitun alumiinikivihiilen myynnistä. Kun osa tekstiilialan asiakkaista osoitti suosiota halvemmin Turkin tuomalle alumiinille, Vatikaani pyrki ylläpitämään monopoli-hinnoitteluaan kanonilain avulla ja julisti halvemman alumiinin käytön synnilliseksi. Niin kauan jatkaneet kauppiaat, jotka jatkoivat Turkin tuotteen ostamista, suljettiin kirkon ulkopuolelle. Sama henki synnytti kuuluisan lainsäädännöllisen kiellon, jonka mukaan lihansyönti perjantaisin oli kielletty. Kirkko ei ollut ainoastaan suurin feodaalinen maanomistaja, vaan se omisti myös merkittäviä kalatalouksia. Kirkkoisät löysivät teologisen tarpeen, jonka mukaan hurskaiden tulisi syödä kalaa – mikä lisäksi varmisti heidän tuotteensa kysynnän aikana, jolloin kuljetus- ja hygieniajärjestelyt estivät kalan kulutuksen.
+
+Kuten nykyinen kansallisvaltio, myös myöhäiskeskiaikainen kirkko ei ainoastaan sääntellyt tiettyjä toimialoja suoraan oman etunsa tukemiseksi, vaan se käytti sääntelyvallallaan mahdollisimman tehokkaasti lisäksi muita keinoja saadakseen itse lisätuloja. Papit vaivautuivat erityisen paljon julkistamaan säädöksiä ja määräyksiä, joita oli vaikea noudattaa. Esimerkiksi incestti määriteltiin hyvin laajasti siten, että jopa etäiset serkut ja vain avioliiton kautta sukua olevat henkilöt tarvitsivat kirkolta erillisen luvan mennä naimisiin. Koska tämä koski lähes kaikkia monissa pienissä eurooppalaisissa kylissä ennen modernin matkustamisen aikaa, incesttipoikkeusten myynti avioliittojen luvan antamiseksi muodostui elinvoimaiseksi tulonlähteeksi kirkolle. Myös avioliiton sisäinen seksi oli tiukasti rajoitettu kirkollisin säädöksin. Aviopuolisoiden väliset sukupuoliyhteydet olivat laittomia sunnuntaisin, keskiviikkoisin ja perjantaisin sekä neljäkymmentä päivää ennen pääsiäistä ja joulua. Lisäksi pariskuntien tuli pidättäytyä seksistä kolmen päivän ajan ennen ehtoollisen vastaanottamista. Toisin sanottuna avioparien oli kielletty nauttimasta seksistä ilman armoitusta vähintään 55 prosentin osalta vuoden päivistä. Teoksessaan The Bishop's Brothels historian E. J. Burford ehdottaa, että nämä "idioottimaiset" hääsäädökset edistivät keskiaikaisen prostituution kasvua, josta kirkko hyötyi valtavasti.[^128] Burford kertoo, että Winchesterin piispana toimi monien vuosisatojen ajan Londonin Banksiden bordellien päämiehenä Southwarkissa. Lisäksi kirkollinen hyötyminen prostituutiosta ei ollut millään tavalla vain paikallinen ilmiö Englannissa:
+
+> Paavi Sixtus IV (n. 1471), joka väitetyssä tarinassa sai syfiliksen lukuisilta rakastajiltaan, tuli ensimmäiseksi paaviksi, joka antoi lupia prostituoiduille ja otti veroa heidän tuloistaan, mikä merkittävästi lisäsi paavin tuloja. Itse asiassa Rooman Curia rahoitti osittain Pyhän Pietarin kirkon rakentamista sillä verolla ja lupien myynnillä. Hänen seuraajansa, paavi Leo X, keräsi lupien myynnillä sanotaan jopa noin kaksitoistatuhatta kultadukat, mikä oli neljä kertaa enemmän kuin mitä hän sai myydessään saksalaisia annetuuksia.[^129]
+
+
+
+Jopa pappeille asetettu tunnettu selibaattisääntö oli tuottoisa tulonlähde keskiaikaiselle kirkolle. Kuten Burford kertoo, kirkko otti käyttöön niin sanotun „cullagiumin” – maksun, joka kohdistui „ratinaisiin pappeihin.”[^130] Tämä osoittautui niin tuottoisaksi, että piispat Ranskassa ja Saksassa asettivat sen yhtenäisesti kaikille papeille, vaikka Lateraanan konsiili vuonna 1215 tuomitsi „tämän häpeällisen kaupan, jossa tällaiset piispat myyvät säännöllisesti luvan tehdä syntiä.”[^131] Se oli vain yksi monista tuottoisista markkinoista, joilla myytiin lupia kanonilain ja -säädösten rikkomiseen – kauppaa, jota ohjaa sama logiikka, joka saa ahneiden poliitikkojen tavoittelemaan mielivaltaisia säätelyvaltuuksia kaupankäynnin yli.
+
+### Armojen myynti
+
+Mielivaltaisen sääntelyn valta on myös valta myydä poikkeus sellaisesta vahingosta, mitä kyseiset säädökset voivat aiheuttaa. Kirkko myi lupia, eli „armolupia”, jotka salliivat muun muassa helpotuksen pienimuotoisista kaupallisista rasitteista ja antoivat luvan syödä maitotuotteita paaston aikana. Näitä armolupia myytiin paitsi korkeaan hintaan aatelistolle ja veneellisille kaupunkilaisille, myös paketoitiin arpajaispalkintoina aivan kuten nykyiset valtion arpajaiset houkutellakseen köyhien kolikoita.[^132] Armolupien kaupankäynti kasvoi, kun kirkon menot ylittivät sen tulot. Monet päättelivät ilmiselvästi, että instituutiokirkko käytti valtaansa ensisijaisesti varainhankintaan. Kuten eräs aikakriitikko totesi, „[K]anonilaki otettiin käyttöön pelkästään uuden valtavan rahan määrän tekemiseksi; kenenkään, joka haluaa olla kristitty, täytyy ostaa tie ulos sen säännöksistä.”[^133]
+
+### Byrokraattinen ylikuormitus
+
+Instituionalisoidun uskonnon tukemisen kustannukset 1400-luvun lopulla olivat saavuttaneet historialliset ääripäät – aivan kuten nykyisin hallinnon tukemisen kustannukset ovat nousseet aivan kohtuuttomiksi. Mitä enemmän elämä oli täynnä uskontoa, sitä kalliimmaksi ja byrokraattisemmaksi kirkko muuttui. Cameronin sanojen mukaan „keskiajan loppupuolella kirkon tehtäviä oli huomattavasti helpompi täyttää ihmisillä kuin löytää rahaa niiden palkkaamiseen.”[^134] Aivan kuten nykyiset konkurssiin joutuneet hallitukset raapivat tuloja vastatuulessa, niin kirkossakin käytiin viisisataa vuotta sitten samalla tavoin. Todellakin kirkkojen edustajat sovelsivat joitakin samoja saalistavia temppuja, joita poliitikot nykyään käyttävät.
+
+Keskiaikainen kirkko, viisisataa vuotta sitten, kuten nykyvaltio tänään, kulutti yhteiskunnan resursseista enemmän kuin koskaan ennen – eikä enää koskaan. Kirkko silloin, kuten valtio nykyään, vaikutti kyvyttömältä toimimaan ja ylläpitämään itseään edes ennätyksellisillä tuloilla. Aivan kuten valtio on tullut hallitsemaan myöhäisteollisia talouksia ja kuluttamaan joissakin Länsi-Euroopan maissa yli puolet tuloistaan, niin kirkko hallitsi myöhäisfeodaalista taloutta, tyhjentäen resursseja ja hidastaen kasvua.
+
+### Alijäämämaksut 1400-luvulla
+
+Kirkko turvautui jokaiseen mahdolliseen keinoon puristaakseen lisää rahaa kirkkovarojensa kautta ruokkiakseen laajentunutta byrokratiaansa. Suoraan kirkon alaisuuteen kuuluvilta alueilta vaadittiin yhä korkeampien verojen maksamista. Niissä maakunnissa ja kuningaskunnissa, joissa kirkolla ei ollut suoraa verotusvaltaa, Vatikaani määräsi niin sanotut annatit – paikallisen suvereenin maksaman korvauksen suoraan kirkollisten verojen sijaan.
+
+Kirkko, kuten nykyvaltiokin, ryösteli myös omia kassiaan ohjaamalla varoja lahjoituksista, jotka oli varattu tiettyihin käyttötarkoituksiin, kattamaan yleisiä kiinteitä kuluja. Siunausvirkoja ja myytäviä kirkollisia virkoja myytiin avoimesti, samoin kuin kymmenysten kautta saatuja tuloja. Käytännössä kymmenysten intressit muuttuivat nykyaikaisten hallitusten liikkeelle laskemien joukkovelkakirjojen kirkolliseksi vastaavaksi, joilla rahoitettiin kroonisia alijäämiä.
+
+Vaikka kirkko oli feodaalisuuden ideologinen puolustaja ja kaupan sekä kapitalismin kriitikko, se – kuten nykyvaltio – käytti jokaista saatavilla olevaa markkinointitekniikkaa optimoidakseen tuottojaan. Kirkko harjoitti menestyksekästä liiketoimintaa sakramenttien, muun muassa vihkiytyneiden kynttilöiden, palmujenarmojen, "Armastusjuhla-aamuna siunaettujen yrttien ja erityisesti pyhän veden lajikkeiden" myynnissä.[^135]
+
+Kuin nykyajan poliitikot, jotka uhkaavat äänestäjiään rajoitetulla jätehuollolla ja muilla nöyryytyksillä, jos he kieltäytyvät maksamasta korkeampia veroja, myös 1400-luvun uskonnolliset viranomaiset olivat taipuvaisia keskeyttämään uskonnolliset palvelut kiristääkseen seurakuntia maksamaan mielivaltaisia sakkoja. Usein sakot määrättiin pienten rikkomusten johdosta, joita muutamat henkilöt – joiden ei edes tarvinnut olla kyseisen seurakunnan jäseniä – olivat tehneet. Esimerkiksi vuonna 1436 piispa Jacques Du Chatelier, „erittäin prameileva, ahne mies”, sulki Pariisin Viattomien kirkon 22 päivän ajaksi, keskeyttäen kaikki uskonnolliset palvelut odottaessaan, että kahden kerjäläisen maksama mahdottoman suuri sakko saataisiin suoritettua. Miehet olivat riitelevät kirkossa ja vuodatelleet hieman verta, jonka piispan mukaan kirkko oli täpyttämätön. Hän ei sallinut kenenkään käyttää kirkkoa häiden, hautausten tai normaalien sakramenttien tarkoitukseen ennen kuin hänen sakkonsa oli maksettu.[^136]
+
+> The Italian Stewes (to make the Pope good cheer)\
+> payd twentie thousand Duckets in a yeere.\
+> Besides they give a Priest (t amend his fee)\
+> the pryfit of a whore, or two or three...\
+> Methinkes it must he a had Divintie\
+> that with the Stewes hath such affinitie.[^137]
+
+### Kirkonjohtajia kohtaan kohdistuva viha
+
+Ei ihme, että myöhäis-1400-luvun yleinen mielipide halveksi niin korkeampaa kuin alempaa papistoa, aivan kuten voimakkaasti politisoituneiden nyky-yhteiskuntien yleinen mielipide halveksii byrokratiaa ja poliitikkoja. Kuten Johan Huizinga totesi, "vihaa on oikea sana käytettäväksi tässä yhteydessä, sillä vihaa se oli – synnynnäistä, mutta yleistä ja pysyvää. Ihmiset eivät koskaan kyllästy kuulemaan papiston paheksuttuja tekoja."[^138] Osa syystä, miksi ihmiset olivat yleisesti vakuuttuneita siitä, että kirkko oli "ahne ja prameileva", on juuri se, että se oli totta. "Korkeimman papiston maallisuus ja alempien tasojen rappeutuminen"[^139] olivat liian ilmeisiä jättäen huomaamatta. Seurakuntapastorista aina itse paaviin asti papisto vaikutti olevan korruptoitunutta, aivan kuten vain hallitsevan instituution henkilökunta voi olla.
+
+Viisisataa vuotta sitten paavi Alexander VI sai jopa Giulo Andreottin ja Bill Clintonin näyttämään esimerkkeinä rehellisyydestä. Alexander VI tunnettiin hurjista juhlista. Siena-kardinaalina hän järjesti kuuluisan orgian, johon oli kutsuttu vain "Sienan kauneimpia nuoria naisia", mutta joiden "miehet, isät ja veljet" oli suljettu ulkopuolelle.[^140] Sienan orgia oli kuuluisa, mutta myöhemmin se osoittautui melko mietona verrattuna niihin juhliin, joita Alexander järjesti paavina. Ehkäpä julkin väkivaltaisimpana niistä oli niin kutsuttu Kastanjaballetti, johon osallistui Rooman "viisikymmentä kauneinta huoraa" kilpailemassa yhdyntäkisoissa kirkkoisien ja muiden merkittävien roomalaisten kanssa. Kuten William Manchester kuvailee, "palvelijat kirjasivat ylös kunkin miehen orgasmit, sillä paavi ihaili voimakkuutta... Kun kaikki olivat uupuneita, Pyhä Henkilöjensä jakoi palkintoina viittoja, kenkiä, lippiksiä ja hienoja silkkiä vuorivia tunikoita. Voittajiksi, päiväkirjailijan mukaan, nousivat ne, jotka harrastivat rakastelua näiden huorojen kanssa eniten."[^141]
+
+
+
+Alexander sai ainakin seitsemän ja mahdollisesti kahdeksan laitonulotteista lasta. Yksi hänen ilmeisistä pojistaan, Giovanni, oli niin kutsuttu Infans Romanus, syntynyt Alexanderin laitonulotteiselle tyttärelle, Lucrezia Borgialle, kun hän oli kahdeksantoista. Salaisessa paavillisessa bollissa Alexander myönsi olevansa Giovannin isä. Jos hän ei ollutkaan isä, hän oli varmasti kummankin puolen isoisä. Paavi oli osallisena kolmiportaiseen insestaus-skandaaliin Lucrezian kanssa, joka oli myös Juanin, Gandian herttuan – Alexanderin vanhimman laitonulotteisen pojan – rakastajatar sekä toisen laitonulotteisen pojan, kardinaali Cesare Borgian, rakastajatar. Cesare oli kirkon prinssi, joka toimi Niccolò Machiavellin innoittajana teoksessa Ruhtinas. Cesare oli murhaaja, kuten myös paavi, joka tunnettiin useiden murhien suunnittelijana. Jokin heistä ilmeisesti kateili Juania, jonka eloton ruumis nostettiin Tiber-joesta 15. kesäkuuta 1497.[^142]
+
+Myöisen keskiajan kirkon johto oli yhtä korruptoitunutta kuin nykyvaltioiden johto.
+
+> "Tänään minusta on tullut kaksi kertaa isä. Jumalan siunausta siihen."[^143] – Rudolph Acricola, kuultuaan, että hänen konkubinaattinsa oli synnyttänyt pojan sinä päivänä, kun hänet valittiin abbediksi.
+
+## Tekopyhyys
+
+Hurskauden pintakuoren alla myöhäiskeskiajan yhteiskunta oli yllättävän pilkkamainen, epäkunnioittava ja rappeutunut. Kirkot olivat nuorten miesten ja naisten suosikkitapaamispaikkoja sekä prostituoitujen ja häpäisevien kuvien myyjien kokoontumispaikkoja. Historiantutkijat kertovat, että "päivittäisen uskonnollisen käytännön epäkunnioitus oli melkein rajaton."[^144] Kuoron jäsenet, joita palkattiin kummistelmaan kuolleiden sieluja varten, vaihtelivat usein jumalattomia sanoja messussa. Valvontatilaisuudet ja kulkueet, joilla oli paljon suurempi rooli keskiaikaisessa uskonnollisessa elämässä kuin nykyään, häpäistyivät kuitenkin "karjuvalla hulinalla, ivauksilla ja juomisella." Niin sanoi Euroopan myöhäiskeskiajan johtava teologinen auktoriteetti, Denis Karthusolainen.[^145]
+
+Vaikka tällaista raporttia voitaisiin kritisoida jäykkäsuhkaisen moraalifilosofin mölinä, se on vain yksi monista kertomuksista, jotka kuvaavat samaa tilannetta. On runsaasti syitä uskoa, että keskiajan elämässä raaka ja pyhä kulkivat usein käsi kädessä. Esimerkiksi pyhiinvaellusmatkat saattoivat usein luisua väkivaltaisuuksiin ja juopotteluun niin, että korkealaatuiset uudistajat vaativat turmeltavien seremonioiden poistamista ilman menestystä. Myös paikalliset uskonnolliset kulkueet tarjosivat väkijoukoille säännöllisiä tilaisuuksia vandalisoida, ryöstää ja ylipäätään antaa periksi kaikille humalaisille hullutuksille, jotka kiinnittivät heidän huomionsa. Jopa silloin, kun ihmiset istuivat paikoilleen kuulemaan messua, kokemus ei usein ollut selväjärkinen. Kirkossa kulutettiin valtavia määriä viiniä, erityisesti juhlailtoina. Straiburgin neuvoston ylikirjoitukset osoittavat, että ne, jotka "seurasivat rukouksessa" Pyhän Adolphuksen yössä, joivat 1 100 litraa neuvoston pyhäntien kunniaksi tarjoamaa viiniä.
+
+Viidestoista vuosisadan merkittävä teologi Jean Gerson kertoo, että "pyhimmät juhlat, jopa jouluyö", vietettiin "turmelluksessa, korttipelin parissa, kiroilua ja jumalanpilkkausta". Kun kansalaisia mohottiin näistä virheistä, tavalliset ihmiset "viittaavat aateliston ja papiston esimerkkiin, jotka käyttäytyvät samalla tavalla rangaistuksettomasti." 
+
+### Hurskaus ja Myötätunto
+
+Myöhäiskeskiajan järjestäytyneen uskonnon täyttämän yhteiskunnan hurskaus palvelee samaa tarkoitusta kuin nykyelämän poliittista dominointia oikeuttava "myötätunto". Hurskauden käyvän antojen myyntiä – jolla pyrittiin tyydyttämään moraalittoman hurskauden halua – verrataan anteliaaseen hyvinvointimenojen kulutukseen, joilla yritetään sammuttaa myötätunnon esittämisen vaara ilman todellista hyväntekeväisyyttä. Oli suurelta osin välinpitämätöntä, paransiinko hyväksyttyjen käytäntöjen varsinaisen vaikutuksen moraalista luonnetta vai pelastiko se sieluja, aivan kuten on välinpitämätöntä, parantaako jokin hyvinvointiohjelma oikeasti niiden ihmisten elämää, joille se on suunnattu. "Hurskaus", kuten "myötätunto", oli lähes taikavoimainen loitsu.
+
+Ajalla, jolloin syy-seuraussuhteita ymmärrettiin tuskin lainkaan, kirkon rituaalit ja sakramentit täyttivät jokaisen elämänvaiheen. "... Matkaa, tehtävää, vierailua leimasi yhtä suurella määrällä muodollisuuksia: siunauksia, seremonioita, kaavoja." Palaanauhoille kirjoitetut rukoukset lankautuivat kuin kaulakorut niille, jotka kärsivät kuumeista. Aliravitut tytöt riisivat hiuskerroja Pyhän Urbanin kuvan eteen, jottei hiuksia menetettäisi lisää. Navarren maaseudulla talonpojat marssivat kulkueissa Pyhän Pietarin kuvan perässä kysyen sateita kuivina aikoina. Ihmiset omaksuivat innokkaasti näitä ja muita "tehottomia keinoja lieventää ahdistusta, kun tehokkaita ei ollut saatavilla."
+
+### Kaksi väärää, jotta syntyy riitti
+
+Ihmiset olivat niin vakaasti varmoja pyhimysten relikvioihin liitetyistä ihmeellisistä ominaisuuksista, että minkä tahansa erityisen hurskaan henkilön kuolema aiheutti usein hulluja kiireitä kehon jakamiseksi. Kun Thomas Aquinas kuoli Fossanuovan luostarissa, siellä olevat munkit katkaisivat ja keittivät hänen ruumiinsa saadakseen hallintaansa hänen luunsa. Kun Pyhää Elisabethiä Unkarista esillä pidettiin, "paljon palvojia tuli ja leikkasivat tai repivät nauhoja pellavasta, joka peitti hänen kasvonsa; he leikkasivat hiukset, kynnet, jopa nännit."[^150]
+
+### Hurskaus ilman hyveitä
+
+Keskiaikainen ajattelutapa näki pyhät ja heidän relikvionsa osana uskon asevarustusta maailmassa, joka talvella oli kylmempi, yöllä pimeämpi ja sairauksia kohdatessaan epätoivoisempi kuin mikään tämän kirjan lukijan välttämättä kuvitteleekin. Modernin ajan tapaan vieläkin vaikuttavammin keskiajalla ihmiset uskoivat, että demonit olivat todellisia, että Jumala puuttui aktiivisesti maailman asioihin ja että rukous, katumus sekä pyhiinvaellukset ansaitsivat jumalallista suosiota.
+
+Pelkkä sanominen, että ihmiset uskoivat Jumalaan, ei välittänyt heidän omistautumisensa intensiteettiä eikä sitä näennäistä vaivattomuutta, jolla keskiaikainen hurskaus sai synnin juurtua. Usko riittävyyteen, rituaalien, sakramenttien ja seremonioiden tehoon oli niin laajalle levinnyttä, että se väistämättä heikensi tarvetta käyttäytyä hyveellisesti. Jokaiselle synnille tai hengelliselle puutteelle oli olemassa parannuskeino, katumus, joka pyyhkäisi kaiken pois – siinä, mitä myöhemmin kutsuttiin "pelastuksen matematiikaksi."[^151] Uskonto muuttui niin kaikkialla läsnäolevaksi, että sen vilpittömyys alkoi väistämättä hiipua. Kuten Huizinga totesi, "uskonto, joka läpäisee kaikki elämän suhteet, tarkoittaa pyhän ja maallisen ajattelun jatkuvaa sekoittumista. Pyhät asiat tulevat liian yleisiksi ollakseen syvästi koettuja."[^152] Ja niin se oli.
+
+## Kirkon supistaminen
+
+Viidestoista vuosisadan loppuun mennessä kirkko ei ollut vain yhtä korruptoitunutta kuin nykyinen kansallisvaltio; se toimi myös merkittävänä jarruna talouskasvulle. Kirkko sitoi suuria pääomamääriä tuottamattomilla tavoilla asettamalla taakkoja, jotka rajoittivat yhteiskunnan tuotantoa ja tukahduttivat kauppaa. Nämä taakot, aivan kuten nykyisen kansallisvaltion asettamat, olivat lukuisia.
+
+Tiedämme, mitä järjestäytyneelle uskonnolle tapahtui ruutiromallisen vallankumouksen jälkeen: se loi voimakkaita kannustimia supistaa uskonnollisia instituutioita ja alentaa niiden kustannuksia. Toteuttaessaan tätä he käyttivät lähes kaikkia kuviteltavissa olevia keinoja pienentääkseen hurskaan elämän kustannuksia:
+
+- He rakensivat uusia ylimääräisiä kirkkoja ja toisinaan riisivät vanhempien kirkkojen alttarit vapauttaakseen pääomaa muihin käyttötarkoituksiin.
+- He muokkasivat kristillistä oppia kustannuksia alentavilla tavoilla, korostaen uskoa hyvien tekojen sijaan pelastuksen avaimena.
+- He kehittivät uuden, tiiviin liturgian, karsivat tai poistivat juhlapäiviä ja kumosivat lukuisia sakramentteja.
+
+- He sulkivat luostareita ja nunnaliittoja, ja lopettivat antamasta kymmenykset mendikanttiläisille järjestöille. Köyhyys muuttui siitä, mikä oli ennen apostolinen hyve, ei-toivotuksi ja usein syytä herättäväksi yhteiskunnalliseksi ongelmaksi.[^153]
+
+Jotta ymmärtäisit, miten kirkon pienentäminen vapautti tuottavuuden, on tarkasteltava monia tapoja, joilla kirkko ennen monopolinsa murtumista esti kasvua. Aivan kuten valtio nykypäivänä, kirkko 1400-luvun lopulla asetti uskomattoman lisäkustannusten taakan.
+
+1. Suorat kustannukset, kuten kymmenykset, verot ja maksut, ruokkivat ylikuormittunutta kirkollista byrokratiaa. Kymmenykset olivat yleisiä protestanttisissa kirkoissa, jotka korvasivat keskiaikaisen "pyhän Äiti kirkon", mutta niitä ei yleensä voitu kerätä kaupunkialueilla. Käytännössä kirkon monopoliaseman päättyminen johti marginaaliveroprosenttien laskuun niillä alueilla, joissa kaupankäynti oli kehittyneintä.
+
+2. Uskonnolliset doktriinit vaikeuttivat säästämistä. Keskiaikaisen kirkon arkkopahat olivat "kirmio", henkilö, joka säästi kultansa sielunsa kustannuksella. Uskovien vaatimus rahoittaa "hyvät teot" merkitsi kalliita lahjoituksia kirkolle. Lisäksi "tyydytysdoktriini" velvoitti pelastuksesta huolestuneita perustamaan messuja tai "kantrimia" välttääkseen kiirastulen. Luther hyökkäsi tätä vastaan suoraan kahdeksannessa ja kolmannessa hänen 95 teeseissään, ja hän kirjoitti, että "kuolivat maksavat kaikki velkansa kuolemansa kautta."[^154] Toisin sanoen protestanttisen uskovan pääoma oli vapaasti käytettävissä hänen perillisilleen. Protestanttisessa doktriinassa ei tarvittu kantrimia messujen jatkuvaan toistamiseen – tavallisesti 30 vuoden ajaksi, ja joskus erittäin varakkaille jopa pysyvästi.
+
+3. Keskiaikaisen kirkon ideologia rohkaisi myös pääoman ohjaamista pyhien jäänteiden hankintaan. Lukuisat jäännekultit saivat suuria summia hankkiakseen fyysisiä esineitä, jotka liitettiin Kristukseen tai eri pyhimyksiin. Erittäin varakkaat kokoivat jopa henkilökohtaisia kokoelmia jäänteitä. Esimerkiksi Saksin elektori Friedrich keräsi yhdeksäntoista tuhatta jäännettä, joista osa hankittiin Jerusalemiin vuonna 1493 tehdyllä pyhiinvaelluksella. Hänen kokoelmansa sisälsi sitä, mitä hän uskoi olevan "pyhän viattoman ruumis, Marian maito ja navetan olkia."[^155] Oletettavasti näihin jäänteisiin sijoitetun pääoman tuotto oli alhainen. Siirtyminen painottamaan uskoa ja valittujen käsitystä alensi kristillisen elämän koristeluarvojen merkitystä amuletteina ja rohkaisi rahaa löytämään tuottavampia kanavia, joista monarkki saattoi saada tuottoa.
+
+4. Protestanttisten kirkkokuntien saapuminen murensi keskiaikaisen kirkon taloudelliset monopolit ja heikensi sääntelyä merkittävästi. Kuten olemme nähneet, kanonista lakia taivutettiin usein tukemaan kirkon monopoleja ja kaupallisia etuja. Koska uusilla kirkkokunnilla oli vähemmän taloudellisia etuja suojeltavanaan ja edistettävänä, niiden uskonnollinen oppi kehittyi usein vapaammaksi järjestelmäksi, jossa kaupankäynnin esteitä oli vähemmän.
+
+5. Protestanttinen vallankumous lakkautti monet keskiaikaisen kirkon rituaalit ja seremonialliset käytännöt, jotka kuluttivat uskollisten aikaa. Rituaalit, sakramentit ja pyhät päivät oli kehitetty täyttämään melkein koko kalenteri jo myöhäisellä 1400-luvulla. Tämä seremoniallinen ylikuormitus oli looginen seuraus kirkon vaatimuksesta, "..että rukouksen tai palvonnan tekoja voi lisätä niin usein kuin haluaa ja siitä saa hyötyä."[^156] Niin he tekivätkin. Tuottavuutta rasittivat pidemmät ja monimutkaisemmat jumalanpalvelukset, velvollisuus lausua toistuvia rukouksia katumuksen merkeissä sekä pyhien juhlapyhien yleistyminen, joiden aikana työskentelyä ei voinut tehdä. Lukuisat säädökset ja seremoniat täyttivät päivän ja vuodenaikojen, supistaen huomattavasti tuottaviin tehtäviin käytettävissä olevaa aikaa. Tämä ei ehkä häirinnyt keskiaikaista maanviljelyä, jossa yli 90 prosenttia väestöstä oli mukana, sillä kausien aikana oli monia jaksoja, jolloin pellon töitä ei tarvittu päivittäin. Keskiaikaisten olosuhteiden satojen tuotot vaihtelivat luultavasti enemmän sään ja hallitsemattomien tuholaisten rytmien mukaan kuin minkä tahansa lisätyön vaikutuksesta, joka ylitti kirkon kalenterin asettaman minimitason.
+
+Tuottavuuden suurempi menetys ei kohdistunut niin paljon maanviljelykseen kuin muihin aloihin. Kirkon ajankäyttövaatimukset olivat huomattavasti epäyhteensopivampia käsityötyön, valmistuksen, kuljetuksen, kaupankäynnin tai minkä tahansa muun toiminnan kanssa, jossa tuottavuus ja kannattavuus määräytyivät ratkaisevasti käytetyn ajan mukaan.
+
+Ei välttämättä ole sattumaa, että suuri murros 1400-luvun lopulla sattui aikana, jolloin maankäynnit nousivat ja talonpoikien reaalipalkat lakkasivat kasvamasta. Kasvavat väestöpaineet vähensivät usein jokien ja purojen ympärillä sijaitsevien yhteisten maa-alueiden satoa, joihin talonpojat luottivat karjan laiduntamiseen sekä toisinaan kalan ja polttopuun hankintaan. Elintason lasku asetti yhä kiireellisempiä paineita talonpojille löytää vaihtoehtoisia tulonlähteitä. Tuloksena "yhä useampi maaseudun väestö kääntyi markkinoille suunnatun pienimuotoisen valmistuksen puoleen – erityisesti tekstiiliteollisuudessa – niin kutsutussa 'outsourcing'- tai proto-teollistumisprosessissa."[^157] Kirkon seremonialliset ajankäyttörasitukset estivät kunnianhimoisempia talonpoikia täydentämästä maataloustulojaan käsityötyöllä, sillä ne rajoittivat ponnisteluja uusille taloudellisille alueille.
+
+Yksi merkittävimmistä panoksista, jonka protestanttiset kirkkokunnat tekivät tuottavuuden lisäämiseksi, oli neljääkymmentä juhlapyhää poistava toimenpide. Tämä ei ainoastaan säästänyt huomattavia kustannuksia juhlien järjestämisessä – esimerkiksi kylän pöytien varustaminen ruoalla ja juomalla – vaan vapautti myös suuren määrän arvokasta aikaa. Implisiittisesti jokainen, joka lopetti näiden neljänkymmentä karkotetun juhlapyhän noudattamisen, pystyi lisäämään vuosituottavuuteensa yli kolmesataa työmiestä tunnissa. Yksinkertaisesti sanottuna keskiaikaisen kirkon seremoniallisten velvoitteiden lakkauttaminen avasi tien merkittävälle tuotannon kasvulle, vapauttamalla aikaa, joka muuten olisi menetetty kaupankäynnissä.
+
+6. Kirkon monopolin murtuminen vapautti valtavia määriä varoja, jotka tuottivat alhaista tuottoa kirkon hallinnoimina – tilanne, jossa on ilmeisiä yhtäläisyyksiä 1900-luvun lopun valtiomarkkinoihin. Kirkko oli selvästi suurin feodaalinen maanomistaja; sen otteet maasta vastasivat nyky-yhteiskunnissa valtiollisia ellenkin, yli 50 prosenttia kokonaismäärästä esimerkiksi Boheemissa. Kananonlain mukaan, kun omaisuus siirtyi kirkon valtaan, sitä ei voitu luovuttaa. Näin kirkon maaomaisuuden määrä kasvoi asteittain, sillä uskolliset antoivat yhä enemmän testamentaarisia lahjoituksia erilaisten sosiaalihuoltopalveluiden, seurakuntien ja muiden toimintojen rahoittamiseksi.
+
+Vaikka kirkon omaisuuden suhteellista tuottavuutta on vaikea mitata tarkasti, sen täytyi olla huomattavasti alhaisempi keskiajan lopulla kuin aikakauden alkuvaiheissa. Neljännellä vuosisadalla markkinatuotannon korostuminen perustarpeiden maatalouden sijaan sai useimmat maalliset herrat kääntymään analfabeettisista johtajistaan ammattimaisten hallinnoijien puoleen optimoidakseen omistustensa tuottavuutta. Heidän kannustimensa johtivat todennäköisesti nopeasti kirkollisten omaisuuksien tuotannon yläpuolelle, sillä teorian mukaan kirkon omaisuuksista ei normaalisti kertynyt ketään yksityiseen voittoon. Epäilemättä jotkut maallisimmat ruhtinaat-papistit hoitivat tilojaan tavalla, jolta ne eivät erottuneet maallisten vastaavien käytännöistä, mutta muiden kirkollisten omaisuuksien tuottavuus kärsi valtavan, laajalle levinneen organisaation välinpitämättömästä hallinnasta, mikä muistutti nykyisin valtion tai yhteisöomistuksen haittoja. On myös ilmeistä, että luostareiden takavarikointi uudelleenjärjesteli resursseja, joita ei enää tarvittu kirjojen ja käsikirjoitusten lisääntymiseen painokoneen käyttöönoton jälkeen.
+
+7. Kuten teoksessa *The Great Reckoning* esitimme, jotkut protestanttiset sektiot reagoivat välittömästi ruutiasevallankumoukseen muuttamalla doktriinejaan tavoilla, jotka rohkaisivat kaupankäyntiä, esimerkiksi poistamalla korkojen ottamisen kiellon tai tarjoamalla luottoa korollisesti. Keskiaikaisen kirkon ideologinen vastustus kapitalismille hidasti talouskasvua. Kirkon pääviesti oli vahvistaa feodalismia, jossa sillä oli keskeinen rooli suurimpana maanomistajana. Tietoisesti tai tiedostamatta kirkko pyrki tekemään uskonnollisista hyveistään taloudellisia etuja, samalla kun se vastusti teollistumista ja itsenäisen kaupallisen varallisuuden kehittymistä, jotka olisi voitu nähdä uhkana feodaaliselle järjestelmälle. Esimerkiksi "avance"-kiellot koskivat lähinnä kaupallisia vaihtotapahtumia eivätkä feodaalisia veroluontoisia maksuja, eikä niitä koskaan sovellettu aneensien myyntiin. Kirkon kuuluisat pyrkimykset määritellä "oikea hinta" kaupankäynnin kohteille pyrkivät yleensä tukahduttamaan taloudelliset tuotot niiltä tuotteilta ja palveluilta, joita kirkko itse ei tuottanut.
+
+Korkojen ottamisen kielto on ollut selkeä esimerkki kirkon vastustuksesta kaupallista innovaatiota kohtaan. Pankkitoiminta ja luotto olivat ratkaisevan tärkeitä suurten kaupallisten yritysten kehitykselle, ja rajoittamalla luoton saatavuutta kirkko hidasti kasvua.
+
+8. Hienovaraisemmin uusien tunnustuskuntien keskittyminen Raamattuun tekstinä auttoi murtamaan keskiaikaisen kirkon ajattelutapaa sekä sen ideologiaa – molemmat asettivat esteitä talouskasvulle. Myöhäiskeskiajan kulttuurinen ohjelmointi ohjasi ihmisiä näkemään maailman enemmän symbolisten samankaltaisuuksien kautta kuin syy-seuraussuhteina, mikä lyhensi ajatteluprosessia ja ohjasi ajatukset pois kauppatieteellisestä elämänajattelusta. Symbolisiin vertailuihin perustuva ajattelu ei helposti muutu markkina-arvoihin perustuvaksi, sillä "kolme valtakunnan osaa edustavat Neitsyt Marian ominaisuuksia. Imperiumin seitsemän äänestäjää merkitsevät hyveitä; viisi Artoisin ja Hainaultin kaupunkia, jotka vuonna 1477 pysyivät uskollisina Burgundin kartanolle, ovat viisi viisaata neitsytään. . . . Samoin kengät tarkoittavat huolellisuutta ja ahkeruutta, sukkahousut sitkeyttä ja nauha päättäväisyyttä, jne."[^158] Kuten arvostetun keskiaikaisen historioitsijan Johan Huizingan lainaus osoittaa, ajattelua hallitsivat dogmat, jäykät symbolit ja allegoriat, jotka sitovat jokaisen elämän osa-alueen hierarkkisesti alistettuun järjestelmään, jossa jokainen ammatti, osa, väri, luku ja jopa kieliopin elementti on osa laajaa uskonnollista kokonaisjärjestelmää.
+
+Niin elämän arkaluontoiset palaset tulkittiin ei niiden syy-seuraussuhteiden kautta, vaan staattisten symbolien ja allegorioiden perusteella. Joskus personifioiden hyveitä ja paheita, jokainen asia edusti jotakin, mikä puolestaan edusti taas jotakin muuta – tavoilla, jotka usein estivät ennemminkin kuin selkeyttivät syy-seuraussuhteita. Sekavuuden lisäämiseksi suhteet sidottiin usein mielivaltaisesti numerojärjestelmiin. Erityisen tärkeä rooli oli seitsemällä: oli olemassa seitsemän hyveää, seitsemän kuolemansyntiä, Herran rukouksen seitsemän pyytöä, Pyhän Hengen seitsemän lahjaa, Kärsimyksen seitsemän hetkeä, seitsemän autuutta sekä seitsemän sakramenttia, "joita edusti seitsemän eläintä ja joita seurasivat seitsemän tautia." [^159]
+
+### XV. vuosisadan journalismi
+
+Jos 1400-luvun uutisjuttu olisi kirjoitettu, se ei olisi vastannut yhtään klassista faktaraportoinnin kysymystä – paitsi epäsuorasti allegorisen personifikaation kautta. Tarkastellaanpa tätä yksityistä merkintää päiväkirjassa, joka kuvasi 1400-luvun Pariisissa tapahtuneita burgundilaisia murhia:
+
+> Sitten nousi Riidan jumalatar, joka asui Pahan Neuvon tornissa, ja hän herätti Vihaan, hullu naisen, sekä Koviinhalun, Raivon ja Koston, ja he ottivat kaikenlaisia aseita ja karkottivat Järjen, Oikeudenmukaisuuden, Jumalan Muiston ja Kohtauksen häpeällisesti. Sen jälkeen Hulluus johti heitä vihaan, ja Murha sekä Verenvuodat tappoivat, kaatoivat, surmivat ja massakrottivat kaikki, mitä he löysivät vankiloista. … ja Koviinhalu kiedoi hameensa vyöhönsä yhdessä Ryöstön, tyttärensä, sekä Varkauden, poikansa, kanssa. … Tämän jälkeen mainitut ihmiset kulkivat jumalattarensa – toisin sanoen Vihaan, Koviinhaluun ja Kosto – johdolla, jotka veivät heidät läpi kaikkien Pariisin julkisten vankiloiden, jne.[^160]
+
+Keskiaikaisesta paradigmmasta luopuminen auttoi ihmisiä ajattelemaan syy-seuraussuhteita "modernimmissa" termeissä sen sijaan, että ne pohjautuisivat pelkästään symbolisiin yhteyksiin ja allegoriseen personifikaatioon.
+
+Ei tarvitse väitellä, että myöhäiskeskiajan kirkon oppi ja ajattelutapa olivat epävilpisiä, jotta huomaisi niiden soveltuvan tiiviisti maatalousfeodalismiin – samalla jättäen hyvin vähän tilaa kaupankäynnille, saati teolliselle kehitykselle. Kyse oli pikemminkin kirkosta, joka vaikutti vallitsevana instituutiona muovaamalla moraalisia, kulttuurisia ja oikeudellisia rajoitteita tavalla, joka vastasi feodalistisia tarpeita. Juuri tästä syystä ne eivät soveltuneet teollisyhteiskunnan tarpeisiin, aivan kuten modernin kansallisvaltion moraaliset, kulttuuriset ja oikeudelliset rajoitteet eivät edes edesauta kaupankäyntiä tietoyhteiskunnan aikakaudella. Uskomme, että valtio tulee mullistumaan, aivan kuten kirkko, jotta uusi potentiaali saadaan täysimääräisesti hyödynnettyä.
+
+Protestanttinen oppi siitä, että taivas saavutetaan pelkästään uskolla ilman kuolleiden puolesta annettujen rukousten hyötyä, asetettiin teologiseksi kysymykseksi. Silti teologiaa kehitettiin vastaamaan uuden ajan taloudellisia realiteetteja. Se vastasi ilmeiseen tarpeeseen kustannustehokkaammasta pelastuksen polusta aikana, jolloin ylimääräisen pääoman sijoittamisen mahdollisuuskustannukset turvotukseen vaipuneessa kirkollisessa byrokratiassa yhtäkkiä nousivat. Ihmiset eivät enää välittäneet siitä, jos heidän rahansa menivät kirkolle silloin, kun muita käyttökohteita ei ollut. Mutta kun he yhtäkkiä näkivät mahdollisuuden saada sadan kertaa enemmän pääomaa rahoittamalla mausteiden kuten Itämaan matkaa tai vaikka vähemmän, mutta silti lupaavan 40 prosentin vuotuisen tuoton kuninkaan joukkueen rahoituksesta, he ymmärrettävästi etsivät Jumalan armoa, missä heidän omat etunsa olivat.
+
+Monet kauppiaat ja muut tavalliset ihmiset rikastuivat pian huomattavasti enemmän kuin feodalismissa heidän esi-isänsä olivat. Varhaismodernin ajan kauppiaiden ja pienten valmistajien elintason jyrkkä nousu oli laajalti epäsuosittua niissä, joiden tulot ja elämäntapa romahtivat feodalismissa. Kirkon monopolin heikkeneminen ja rikkaiden lisääntynyt megaluottovalta johtivat voimakkaaseen tulojen uudelleenjaon vähenemiseen, ja ne maanviljelijät sekä kaupunkien köyhät, jotka eivät olleet uuden järjestelmän suoria hyötyjiä, olivat katkerasti kateellisia niille, jotka olivat. Huizinga kuvaili vallitsevaa asennetta – mikä voisi hyvinkin olla tärkeä paralleeli tietoyhteiskunnan vallankumoukseen – sanoen: "Rikasta ihmistä kohtaan, erityisesti uusia rikkaita, joita oli silloin hyvin paljon, vallitsee yleinen viha."[^161]
+
+Vastaava vaikuttava käänne ilmeni valtavasta rikollisuuden noususta. Vanhan järjestelmän romahtaminen vapauttaa lähes aina rikollisuuden nousun, ellei synny suoraa feodaalisen vallankumouksen anarkiaa, kuten viimeisessä luvussa tarkastelimme. Keskiajan lopulla rikollisuus nousi pilviin, kun vanhat sosiaalisen kontrollin järjestelmät romahtivat. Huizingan sanoin: "[R]ikollisuutta alettiin pitää järjestyksen ja yhteiskunnan uhkana."[^162] Tämä ilmiö voisi osoittautua yhtä uhkaavaksi tulevaisuudessa.
+
+Moderni maailma syntyi uusien teknologioiden, ideoiden ja mustan ruudin pahan tuoksun sekasotkusta. Ruudinaseet ja parantunut laivaliikenne horjuttivat feodalismiin perustuvan sotilaallisen perustan vakauden, samalla kun uudet viestintäteknologiat rappeuttivat sen ideologiaa. Yksi niistä asioista, joita uuden painotekniikan avulla paljastui, oli kirkon korruptio – niin sen hierarkia kuin tavallisten jäsentenkin – mitä yhteiskunta, paradoksaalisesti asettaen uskonnon kaiken keskiöön, jo alhaisessa arvossa piti. Tämä paradoksi on ilmeinen nykyinen vertailukohta poliitikkoihin ja byrokraatteihin kohdistuvassa pettymyksessä yhteiskunnassa, jossa politiikkaa pidetään kaiken keskiössä.
+
+[^161]:  
+[^162]:
+
+Viidestoista vuosisadan loppu oli aikaa, jolle ominaisia olivat pettymys, hämmennys, pessimismi ja epätoivo. Aika, joka muistuttaa nykyisyyttä.
+
+[^94]: Clarke, op. cit., s. 9.
+
+[^95]: Martin van Creveld, *The Transformation of War* (New York: The Free Press, 1991), s. 52.
+
+[^96]: The Compact Edition of The Oxford English Dictionary, op. cit., s. 1074.
+
+[^97]: Katso T.C. Onions, toim., *The Oxford Dictionary of English Etymology* (Oxford: Oxford University Press, 1966), s. 693.
+
+[^98]: John Urquhart, "Entinen pääministeri nostaa kanteen Kanadaa vastaan kunnianloukkauksesta Airbusin väitettyjä lahjuksia koskevassa tutkinnassa," *Wall Street Journal*, 21. marraskuuta 1995, s. A11.
+
+[^99]: Huizinga, op. cit., s. 172.
+
+[^100]: Ibid., s. 150.
+
+[^101]: Ibid., s. 56.
+
+[^102]: Ibid., s. 65.
+
+[^103]: Sama teos, s. 22.
+
+[^104]: van Creveld, op. cit., s. 52.
+
+[^105]: Huizinga, op. cit., s. 21.
+
+[^106]: Sama teos, s. 83.
+
+[^107]: Sama teos, s. 88–89.
+
+[^108]: Ibid., s. 95.
+
+[^109]: Ibid., s. 90.
+
+[^110]: Ibid., s. 87.
+
+[^111]: Norman Cohn, *The Pursuit of the Millennium: Revolutionary Millenarians and Mystical Anarchists of the Middle Ages*, uudistettu ja laajennettu painos (Oxford: Oxford University Press, 1970), s. 127.
+
+[^112]: Ibid.
+
+[^113]: Ibid., s.128.
+
+[^114]: C. Northcote Parkinson, *Parkinsonin laki ja muita hallinnon tutkimuksia* (Boston: Houghton Mifflin, 1957), s.60, lainattuna Tillyltä, s.4.
+
+[^115]: van Creveld, op. cit., s.50.
+
+[^116]: Playfair, op. cit., s.72.
+
+[^117]: Huizinga, op. cit., s.26.
+
+[^118]: Ibid., s.57.
+
+[^119]: Ibid.
+
+[^120]: Frederic C. Lane, *Venice: A Maritime Republic* (Baltimore: Johns Hopkins University Press, 1973), s.275.
+
+[^121]: Adam Smith, *Tutkimus kansojen varallisuuden luonteesta ja syistä* (Chicago: University of Chicago Press, 1976), s.8–9.
+
+[^122]: Katso H. J. Habakkuk ja M. Postan, toim., *The Cambridge Economic History of Europe*, vol.6, *The Industrial Revolution and After: Incomes, Population and Technological Change* (Cambridge: Cambridge University Press, 1966).
+
+[^123]: Euan Cameron, Eurooppalainen reformaatio (Oxford: Clarendon Press, 1992), s. 68.
+
+[^124]: Ibid.
+
+[^125]: Huizinga, op. cit., s. 198.
+
+[^126]: Cameron, op. cit., ss. 26–27.
+
+[^127]: Huizinga, op. cit., s. 149.
+
+[^128]: Cameron, op. cit., s. 26–27.
+
+[^129]: Ibid., s. 102.
+
+[^130]: Ibid.
+
+[^131]: Ibid., s. 103.
+
+[^132]: Huizinga, op. cit., s. 151.
+
+[^133]: Cameron, op. cit., s. 31.
+
+[^134]: Ibid., s. 24.
+
+[^135]: Ibid., s. 15.
+
+[^136]: Huizinga, op. cit., s. 27.
+
+[^137]: Burford, op. cit., s. 103.
+
+[^138]: Huizinga, op. cit., s. 173.
+
+[^139]: Ibid.
+
+[^140]: William Manchester, *A World Lit Only by Fire: The Medieval Mind and the Renaissance* (Boston: Little, Brown, 1992), s. 75–76.
+
+[^141]: Ibid., s. 79.
+
+[^142]: Ibid., s. 82–84.
+
+[^143]: Huizinga, op. cit., s. 154.
+
+[^144]: Ibid.
+
+[^145]: Ibid., s. 155.
+
+[^146]: Ibid.
+
+[^147]: Ibid., s. 9.
+
+[^148]: Nämä uskonnollisten rituaalien esimerkit ovat peräisin Cameronin teoksesta, op. cit., s. 10–11.
+
+[^149]: Keith Thomas, *Religion and the Decline of Magic* (Lontoo: Penguin, 1971), s. 800, lainattuna Cameronilta, op. cit., s. 10.
+
+[^150]: Huizinga, op. cit., s. 161.
+
+[^151]: Cameron, op. cit., s. 19.
+
+[^152]: Huizinga, op. cit., s. 148.
+
+[^153]: Lisätietoja 1400-luvun ja 1500-luvun köyhyyden näkökulmien terävistä eroista löytyy Robert Jutten teoksesta *Poverty and Deviance in Early Modern Europe* (Cambridge: Cambridge University Press, 1994), s. 15–17.
+
+[^154]: Cameron, op. cit., s. 127.
+
+[^155]: Ibid., s. 148.
+
+[^156]: Ibid., s. 11.
+
+[^157]: Ibid., s. 5.
+
+[^158]: Huizinga, op. cit.
+
+[^159]: Ibid., s. 199.
+
+[^160]: Ibid., s. 203.
+
+[^161]: Ibid., s. 27.
+
+[^162]: Ibid., s. 22.

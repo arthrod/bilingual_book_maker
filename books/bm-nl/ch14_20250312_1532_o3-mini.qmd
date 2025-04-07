@@ -1,0 +1,96 @@
+# Het moderne financiële systeem
+
+Dit deel van het boek duikt dieper in de technische aspecten van het hedendaags financiële systeem. Het licht toe hoe het systeem werkt, legt uit hoe geld ontstaat en weer verdwijnt, en laat zien hoe het ontwerp ervoor zorgt dat sommige gebruikers winst behalen terwijl anderen benadeeld worden.
+
+De volgende hoofdstukken maken duidelijk dat het systeem in zijn huidige vorm zo in elkaar zit, dat:
+1. de geldhoeveelheid voortdurend toeneemt,
+2. de koopkracht langzaam wordt weggetapt bij spaarders en terechtkomt bij arbitrageurs die nauw betrokken zijn bij de geldcreatie,
+3. grote, goed verbonden entiteiten worden beloond ten koste van kleinere en minder bereikbare spelers,
+4. de lasten verschuiven van de private naar de publieke sector om te voorkomen dat schulden ooit worden afgelost, en
+5. de volatiliteit tijdelijk wordt onderdrukt, totdat plotseling een groot deel ervan de kop opsteken.
+
+Voordat we op deze punten ingaan, starten we bij de basis en bouwen we daarop verder.
+
+## Het Federal Reserve systeem: de basis
+
+Het financiële systeem is opgebouwd uit een reeks opeenvolgende kasboeken, waarbij de kleinere kasboeken hun basis vinden in grotere exemplaren.
+
+Aan de basis van het systeem in de Verenigde Staten – en in zekere zin wereldwijd, gezien de status van de Amerikaanse dollar als wereldreservamunt – staat het *Federal Reserve System*. Dit instituut fungeert als de centrale bank van de Verenigde Staten. Vaak eenvoudigweg 'de Federal Reserve' of 'de Fed' genoemd, betreft het een hybride organisatie waarin zowel de overheid als de private sector hun invloed uitoefenen. Het Amerikaanse Congres richtte het instituut op via de *Federal Reserve Act* van 1913, waarna het meerdere malen door latere wetgeving is bijgesteld. De Federal Reserve beheert de fundamentele administratie van het moderne financiële systeem.
+
+De centrale bank van de Verenigde Staten, *de Federal Reserve*, bestaat uit twaalf regionale banken. Deze banken werken als 'banker's banks' in hun regio en zorgen tevens voor de circulatie van papiergeld. De belangrijkste is de *Federal Reserve Bank* van New York. Zij heeft een omvang die gelijk is aan die van de andere elf banken tezamen en voert de openmarktoperaties uit. Commerciële banken uit de private sector bezitten aandelen in deze regionale banken. Zij kiezen het merendeel van de raden van bestuur en ontvangen dividend over het ingelegde kapitaal.[^198]
+
+Aan de publieke zijde van *de Federal Reserve* staat een zevenkoppige Board of Governors. De president benoemt deze gouverneurs, waarna de Senaat hun aanstelling keurt. Zij bekleden een ambtstermijn van 14 jaar. Samen met hun ondersteunend team vormen zij een overheidsinstantie in de hoofdstad, verantwoordelijk voor het beheer van het *Federal Reserve System*. De voornaamste figuur in dit systeem is de voorzitter van de Board of Governors, die de hoogste functie binnen *de Federal Reserve* vervult. Nadat operationele kosten zijn gedekt en dividend aan de aangesloten banken is uitgekeerd, gaat de overige winst naar het *U.S. Treasury Department*, het Amerikaanse ministerie van Financiën.
+
+Het *Federal Open Market Committee* (FOMC) telt twaalf leden en komt acht keer per jaar bijeen om het monetaire beleid vast te stellen, dat vervolgens een grote invloed uitoefent op het wereldwijde financiële systeem. Het comité bestaat uit de zeven leden van de Board of Governors en het hoofd van de *Federal Reserve Bank* van New York. De vier resterende zetels worden door een roulerende groep van leidinggevenden van de andere elf regionale banken vervuld. Zo behoudt de publieke sector met zeven stemmen altijd de meerderheid, terwijl de vertegenwoordigers uit de private sector, met vijf stemmen, in de minderheid zijn.[^199]
+
+## Een piramide van schulden
+
+Aan de activazijde van een particuliere commerciële bank vind je vooral leningen, effecten en contanten. Denk bijvoorbeeld aan een hypotheek: voor de consument betekent dat een schuld, voor de bank een bezit. De bank rekent op toekomstige betalingen van de consument, die verplicht is deze te doen. Ook biedt de bank diverse leningen aan, zoals zakelijke leningen, persoonlijke leningen, *creditcard* leningen, studieleningen, autoleningen en effectenkredieten. Wat effecten betreft, houdt de bank vaak veel Amerikaanse staatsobligaties en andere obligaties aan. Het merendeel van het contante geld – buiten een klein bedrag in de kluis – wordt digitaal bij de *Federal Reserve* als bankreserves aangehouden.
+
+Aan de passivazijde staan vooral deposito's van consumenten en bedrijven. Individuen en ondernemingen beschikken over lopende rekeningen, spaarrekeningen en termijndeposito's. Wat voor hen activa zijn, vormen voor de bank passiva. Door geld op een bankrekening te bewaren, verleent de deposant in feite een lening aan de bank tegen een lage rente.
+
+Een bank draait goed als ze meer activa dan passiva heeft en haar activiteiten uitvoert volgens de strenge voorschriften van de Amerikaanse federale overheid en de *Federal Reserve*. Daarbij is het belangrijk dat de opbrengsten op de activa hoger liggen dan de kosten van de passiva. De winst van de bank komt vooral uit dit renteverschil, aangevuld met vergoedingen voor geleverde diensten.
+
+De gecombineerde balans van de *Federal Reserve* toont, net als die van een gewone bank, zowel activa als passiva. Aan de activazijde vind je Amerikaanse staatsobligaties, door hypotheken gedekte effecten (sinds de 'subprime'-rommelhypotheekcrisis van 2008) en een klein percentage andere activa. Alle fysieke bankbiljetten vormen aan de passivazijde directe verplichtingen van de *Federal Reserve*. Bovendien zijn de contante reserves die commerciële banken op hun rekeningen bij de *Federal Reserve* aanhouden, eveneens directe verplichtingen van de *Federal Reserve*.
+
+Figuur 14-A toont een vereenvoudigde weergave van het Amerikaanse financiële systeem. Hierin staat een keten van activa en passiva afgebeeld.
+
+![Vereenvoudigd schema van het Amerikaanse financiële systeem](/figures/14-A.png){width=100%}
+
+We ontdekken hier een mogelijk probleem: het hele systeem werkt circulair. De financiële activa, die de kern vormen, geven zich namelijk ook als passiva voor. Kortom, het systeem bestaat in zijn geheel uit schulden.
+
+Er gaat een oud verhaal over een vrouw die beweert dat de wereld op een enorme schildpad rust. Wanneer iemand vraagt waarop die enorme schildpad staat, antwoordt ze dat hij op een andere enorme schildpad rust. Als men vervolgens doorvraagt waarop die tweede schildpad staat, reageert ze geïrriteerd: 'Het zijn maar schildpadden, van boven tot beneden!' Variaties op dit verhaal bestaan al sinds minstens 1838, al ging het toen om rotsen in plaats van schildpadden.[^200]
+
+Als je een bankrekening hebt, beschouw je dat als bezit, terwijl het voor de bank een schuld betekent. Het betreft simpelweg een notitie in het kasboek van de bank. Deze rekening wordt gedekt door de activa van de bank, die op hun beurt voortkomen uit de verplichtingen van diverse kredietnemers. De bank zet haar overtollige kasreserves in als activum bij de centrale bank, wat eveneens slechts een notitie in het kasboek is. Deze kasreserves, die een schuld voor de centrale bank vormen, worden gedekt door haar eigen activa, die voornamelijk bestaan uit Amerikaanse staatsobligaties. Deze staatsobligaties zijn schulden van de Amerikaanse federale overheid en worden vooral gegarandeerd door haar bevoegdheid tot het heffen van belastingen bij burgers en bedrijven binnen haar jurisdictie.
+
+Op een bepaalde manier heeft de cirkelvormigheid van het financiële systeem bijna een poëtisch karakter; het laat zien hoe afhankelijk we van elkaar zijn. Toch is het systeem ook zeer kwetsbaar. Alles is een vordering op een vordering op een vordering. Om een instorting te voorkomen, is het systeem afhankelijk van voortdurende beweging en gestage groei. Voor velen in de Verenigde Staten lijkt zo'n instorting bijna ondenkbaar, maar in kleinere landen gebeurt dit regelmatig en ook grote landen hebben hier in het verleden mee te maken gehad.
+
+Eerder functioneerde het systeem niet op de manier die we nu kennen. Tot 1913 – en tot op zekere hoogte tot 1971 – was het financiële systeem gedekt door goud. Het bestond uit een reeks claims die uiteindelijk het recht boden om een bepaalde hoeveelheid goud op te eisen. Goud is een bezit dat niet tegelijkertijd voor een ander een schuld vormt. Het vertegenwoordigt de energie die nodig is om het uit de aarde te halen en te verwerken tot een bruikbare vorm met diverse toepassingen. In een goudgedekt systeem berust alles uiteindelijk op een onbelast bezit. In het huidige systeem wordt daarentegen alles gedekt door staatsobligaties, die op zichzelf schulden vormen.
+
+## *Fedwire*
+
+Wanneer mensen en bedrijven geld van hun bankrekeningen overmaken, moeten de banken achter de schermen met elkaar communiceren om deze overboekingen af te ronden. Met andere woorden: ook al lijkt jouw betaling voltooid, de banken moeten nog enkele zaken regelen.
+
+Een taak die banken door de geschiedenis heen uitvoerden, is het bundelen van veel kleine transacties tot enkele grotere. Als ik bijvoorbeeld een handelaar 45 dollar betaal met mijn creditcard en die handelaar vervolgens voor 27 dollar aan benodigdheden bij een andere handelaar inkoopt, worden deze kleine transacties als kortlopende schulden op de boeken van onze financiële instellingen geregistreerd. Ze blijven staan totdat ze in grotere afwikkelingstransacties worden vereffend.
+
+In plaats van eromheen te werken of op een andere wijze te concurreren, benutten ook fintechbedrijven die betalingen in fiatvaluta en andere diensten leveren de bancaire netwerken. Banken hebben rekeningen bij de *Federal Reserve*. Sommige fintechbedrijven openen een rekening bij deze banken of treden op als banken. Daardoor maken klanten, vaak zonder het door te hebben, gebruik van banken en hun afwikkelingssystemen.
+
+Tot begin 20e eeuw regelden banken grote verrekeningen door bankbiljetten en goud fysiek over te dragen, meestal met gewapend transport. In de jaren 1910 introduceerde de *Federal Reserve* een morsesysteem om de noodzaak van dergelijk fysiek transport te verkleinen. Banken bewaarden hun reserves als notering in het kasboek van de *Federal Reserve* en rekenden via een beveiligd telecommunicatiesysteem met elkaar af. De *Federal Reserve* hoefde enkel het reservekasboek bij te werken om aan te tonen dat een aangesloten bank geld had overgemaakt naar een andere.
+
+Het door de *Federal Reserve* beheerde verrekensysteem is in de loop der jaren geëvolueerd en staat nu bekend als Fedwire. In 2022 verwerkte Fedwire bruto afwikkelingsvolumes ter waarde van meer dan 1,06 biljard dollar (1.060 miljard dollar) voor duizenden Amerikaanse commerciële banken. Dit betrof meer dan 196 miljoen afwikkelingen, met een gemiddelde waarde van 5,41 miljoen dollar.[^202] Als mensen en bedrijven kleinere bedragen overmaken, bundelen ze vaak transacties die vervolgens via deze grote bankafwikkelingen verrekend worden.
+
+In 2023 lanceerde de *Federal Reserve* het systeem FedNow, waarmee bankdepositohouders in realtime geld naar elkaar kunnen overmaken. Banken treden als tussenpersonen op tijdens deze transacties, terwijl de *Federal Reserve* op de achtergrond bankreserves verschuift. Dit nieuwe systeem omzeilt echter enkele van de traditionele batchverwerkingdiensten waarvoor banken normaal gesproken worden ingezet. Zoals gebruikelijk bij updates van banksystemen, biedt FedNow de *Federal Reserve* meer mogelijkheden voor gedetailleerd toezicht vergeleken met het Fedwire-systeem. Dit komt doordat FedNow meer gegevens verstrekt over individuele betalingen tussen entiteiten, in plaats van uitsluitend gebundelde afwikkelingen op institutioneel niveau.
+
+In de Verenigde Staten bestaat een belangrijk secundair afwikkelingssysteem, het *Clearing House Interbank Payment System*, oftewel 'CHIPS'. Dit particuliere systeem is in handen van meerdere banken. Hoewel het minder dan 50 grote financiële instellingen bedient van de duizenden die er zijn, verwerkt het jaarlijks transacties ter waarde van honderden biljoenen dollars. Die geselecteerde instellingen nemen namelijk een aanzienlijk deel van de betalingen voor hun rekening. Samen met Fedwire zorgt CHIPS voor het merendeel van het afwikkelingsvolume in de Verenigde Staten. Vrijwel alle transacties die individuen en bedrijven op de hoogste niveaus van het systeem uitvoeren, worden via deze systemen afgehandeld, dichtbij of op het basisniveau van het systeem.[^203]
+
+## De internationale verbindingen
+
+Andere landen hebben hun financiële systeem op een vergelijkbare manier ingericht. Wat zij gemeen hebben, is dat er een centrale bank bestaat die bankreserves en geld in omloop (de monetaire basis) als passiva aanhoudt, gedekt door staatsschuld en andere activa. Daarnaast beheren of faciliteren zij een afwikkelingssysteem tussen banken. De oudste nog werkende centrale bank is de *Riksbank* van Zweden, gevolgd door de *Bank of England* als tweede oudste.
+
+Wat deze landen van de Verenigde Staten onderscheidt, is dat hun centrale banken vaak verbonden zijn met het Amerikaanse *Federal Reserve System*, zoals besproken in Deel 3 van dit boek. Dit komt doordat de Amerikaanse dollar de huidige wereldreservemunt is geworden. Naast het aanhouden van eigen staatsobligaties, beschikken centrale banken buiten de Verenigde Staten doorgaans ook over Amerikaanse *Treasuries*. Bovendien hebben ze vaak enkele staatsobligaties van andere grote landen in bezit.
+
+Wereldwijd hebben tal van organisaties – banken, bedrijven en overheden – schulden die in dollars worden uitgedrukt. Volgens de *Bank for International Settlements* bedraagt het totaal aan dollar-genoteerde schulden bij niet-Amerikaanse entiteiten momenteel zo'n 13 biljoen dollar. Het is daarbij belangrijk te benadrukken dat het merendeel van deze schulden niet aan Amerikaanse partijen verschuldigd is. Europese, Japanse, Chinese en andere internationale organisaties lenen vaak in dollars aan andere partijen, ook als geen van beide in de Verenigde Staten is gevestigd. Dit gebeurt vooral wanneer kredietverstrekkers uit ontwikkelde landen geld lenen aan entiteiten in ontwikkelingslanden.[^204]
+
+De Amerikaanse *Federal Reserve* fungeert in feite als de centrale boekhouding van de Verenigde Staten en regelt daarmee indirect het kasboek van de hele wereld. Bijna 90 procent van de wereldwijde valutahandel verloopt namelijk in dollars. Bovendien omvatten bijna 60 procent van de internationale valutareserves en bijna 50 procent van de wereldwijde handelsfacturen en grensoverschrijdende leningen dollars.[^205] Alle dollars zijn immers vorderingen op banken, die uiteindelijk terug te voeren zijn op de Amerikaanse monetaire basis, oftewel een vordering op de *Federal Reserve*.8
+
+Veel centrale banken hebben nog steeds goud in hun bezit, maar de rol ervan in hun portefeuilles is tegenwoordig minder prominent dan tijdens de tijd van de goudstandaard. Het wereldwijde financiële systeem functioneert nu in een sterk circulaire structuur. Centrale banken houden buitenlandse valutareserves en staatsobligaties aan als onderdeel van hun activa, maar deze gelden tegelijk als verplichtingen van andere centrale banken en overheden. Daardoor zijn de financiële systemen van landen wereldwijd nauw met elkaar verweven in een gezamenlijke, mondiale structuur, die grotendeels wordt gedomineerd door *the Federal Reserve System*.
+
+Hoewel internationale geldovermakingen tegenwoordig sneller verlopen dan in het tijdperk vóór de telecommunicatie, blijft het vaak een traag, duur en ondoorzichtig proces. Overschrijvingen worden regelmatig vertraagd of zelfs geannuleerd, en het is lastig om te achterhalen waar het precies misgaat. Dit komt doordat zulke overboekingen vaak langs meerdere correspondentbanken moeten gaan, er diverse valutaomrekeningen plaatsvinden en er op verschillende niveaus vertrouwd wordt op de onderlinge bankrelaties. Het *SWIFT-systeem*, opgericht in 1973, is het meest gebruikte betalingssysteem tussen banken en functioneert nog steeds op dezelfde wijze als tientallen jaren geleden. Diverse fintech- en geldtransferbedrijven, die gebruikmaken van bestaande bancaire infrastructuren, kunnen betalingen voor kleinere klanten versnellen. Toch liggen de gemiddelde internationale kosten voor geldovermakingen boven de 6%.[^206]
+
+[^198]: Board of Governors of the Federal Reserve System, *Who Owns the Federal Reserve?*
+
+[^199]: Board of Governors of the Federal Reserve System, *Federal Market Open Committee*.
+
+[^200]: Garson O'Toole, *Tortoises All the Way Down*, Quote Investigator, 22 augustus 2021.
+
+[^201]: Frederick Schroeder, *Developments in Consumer Electronic Fund Transfers*, Federal Reserve Bulletin 69, 6 (juni 1983).
+
+[^202]: The Federal Reserve, *Fedwire Funds Service: Annual Statistics*.
+
+[^203]: The Clearing House, *About CHIPS*.
+
+[^204]: Bank for International Settlements, *BIS International Banking Statistics and Global Liquidity Indicators*.
+
+[^205]: Bafundi Maronoti, *Revisiting the International Role of the Dollar*, BIS Quarterly Review, december 2022.
+
+[^206]: World Bank, *Remittance Prices Worldwide Quarterly*, 7.

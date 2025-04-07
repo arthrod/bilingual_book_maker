@@ -1,0 +1,345 @@
+# Hoe Bitcoin energie gebruikt
+
+In 2017 publiceerde het World Economic Forum een artikel waarin werd betoogd dat het Bitcoin-netwerk in 2020 evenveel energie zou kunnen verbruiken als de gehele wereld.[^363] Diezelfde maand besteedde Newsweek aandacht aan dit onderwerp, net als diverse andere media en organisaties.[^364]
+
+Uiteindelijk zaten ze er drie ordes van grootte naast. In 2020 verbruikte het netwerk nog steeds minder dan 0,1% van het wereldwijde energieverbruik. Terwijl ik dit boek schrijf in 2022 en 2023, blijft dat aandeel zelfs nog steeds ver onder één procent.
+
+Door de jaren heen zijn er talloze alarmistische en feitelijk onjuiste analyses verschenen over het energieverbruik van het Bitcoin-netwerk. In dit hoofdstuk bespreek ik hoe Bitcoin energie gebruikt en welke soorten energie daarvoor worden ingezet.[^365] Belangrijke conclusies zijn dat 1) het energieverbruik van Bitcoin op de lange termijn strikt wordt bepaald door de waarde die het gebruikers biedt en dat 2) Bitcoin hoofdzakelijk gestrande energie benut die anders verspild zou worden.
+
+## Inkomsten uit mijnbouw: subsidies en transactiekosten
+
+Als we het totaal aan inkomsten uit Bitcoin-mijnbouw bekijken, krijgen we een betrouwbare indicatie van de maximale jaarlijkse uitgaven die het netwerk aan elektriciteit kan doen. Elektriciteit vormt namelijk veruit de grootste kostenpost voor mijnwerkers. Zij moeten immers over meerdere jaren financieel gezond blijven, wat betekent dat hun uitgaven niet hoger mogen zijn dan hun inkomsten. Uiteraard hebben zij ook kosten voor hardware, vastgoed en arbeid. Daarnaast kunnen mijnwerkers extra verdienen door goedkoop stroomrechten in te kopen en deze bij tekorten voor hogere prijzen te verkopen, of door de restwarmte van hun processors rendabel te benutten. Beide toepassingen blijken winstgevend.
+
+Toen Bitcoin in 2009 werd gelanceerd, richtte men het systeem zo in dat elke tien minuten een miner die een nieuw blok met transacties produceert, 50 nieuw gegenereerde bitcoin ontvangt. Na vier jaar werd dit verlaagd naar 25 bitcoin per blok en vier jaar later naar 12,5 bitcoin. Nog eens vier jaar later lag de beloning op 6,25 bitcoin per blok. Deze nieuw uitgegeven munten, de zogenoemde 'block subsidy', vormen tegenwoordig het grootste deel van de inkomsten voor bitcoin-miners.
+
+Binnen dit schema neemt de beloning elke vier jaar verder af, totdat er uiteindelijk geen nieuwe bitcoins meer worden gecreëerd en de harde limiet van 21 miljoen bitcoins ergens na 2100 wordt bereikt. Over enkele decennia zullen miners nog slechts een verwaarloosbaar klein aantal nieuwe bitcoins krijgen voor het valideren van blokken. Inmiddels zijn er al bijna 19,5 miljoen van de 21 miljoen bitcoins in omloop.
+
+Mijnwerkers verdienen echter ook aan transactiekosten. Gebruikers betalen zulke kosten, in fractionele bitcoins, om hun transactie sneller in de blockchain te laten verwerken. In de beginjaren waren blokken vaak niet volledig gevuld, waardoor de transactiekosten minimaal waren. Naarmate Bitcoin populairder werd en de blokken regelmatig vol raakten, groeiden de transactiekosten uit tot een steeds belangrijker onderdeel van de inkomsten van mijnwerkers.
+
+Figuur 25-A toont de gemiddelde marktkapitalisatie van het *Bitcoinnetwerk*, de jaarlijkse inkomsten van mijnwerkers (inclusief block subsidies en transactiekosten) en het percentage van de marktkapitalisatie dat jaarlijks aan mijnwerkerinkomsten wordt besteed.
+
+![Figuur 25-A](/figures/25-A.png){width=100%}
+
+Hoewel de inkomsten van Bitcoin-mijnwerkers historisch aanzienlijk zijn gestegen, besteedt het netwerk elk jaar een kleiner percentage van zijn marktkapitalisatie aan deze inkomsten dan het jaar ervoor. Dit komt niet door een centrale beslissing, maar door de combinatie van een dalende bloksubsidie en de keuzes van individuele mijnwerkers om, afhankelijk van de economische omstandigheden, wel of niet te blijven mijnen.
+
+Journalisten en anderen die het algoritme niet doorgronden, merken de afnemende bloksubsidie vaak niet op. Daardoor dalen zowel het inflatiepercentage van de Bitcoinvoorraad als het aandeel van de mijnwerkersinkomsten ten opzichte van de totale marktkapitalisatie, totdat er uiteindelijk een stabiel niveau ontstaat dat volledig op transactiekosten is gebaseerd.
+
+Opmerkelijk genoeg maken sommige analisten en critici zich zorgen dat Bitcoin in de toekomst mogelijk niet genoeg energie zal verbruiken om de beveiliging te handhaven wanneer het vertrouwen voornamelijk op transactiekosten berust. Ik zie dit niet als een groot risico; sterker nog, de kans dat zo’n situatie zich voordoet, is groter dan dat het netwerk te veel energie verbruikt – iets wat door het ontwerp vrijwel uitgesloten is, aangezien het op de lange termijn alleen energie zal gebruiken als er daadwerkelijk veel nut uit wordt gehaald.
+
+Figuur 25-B toont uitsluitend het deel van de inkomsten van mijnwerkers dat uit transactiekosten komt, wat een subcategorie vormt van de eerder getoonde tabel.
+
+![Figuur 25-B](/figures/25-B.png){width=100%}
+
+We zien dat de transactiekosten jaarlijks slechts een klein deel van de marktkapitalisatie van Bitcoin vormen. Het hoogste percentage deed zich in 2017 voor, tijdens de piekbubbel van dat jaar. Sindsdien hebben efficiëntieverbeteringen zoals *SegWit*, transactiebatching en een verminderd gebruik van OP_Return plaatsgevonden, waardoor de kosten laag bleven ondanks het toegenomen netwerkgebruik. Halverwege 2023 lijkt het erop dat dit jaar hogere fees zal opleveren dan 2022, een jaar dat verrassend laag uitviel.
+
+Het Bitcoin-netwerk genereert momenteel minder dan 2% van de marktkapitalisatie aan mijnwerkersinkomsten per jaar, waarvan slechts een zeer klein deel uit transactiekosten bestaat. In 2024 vindt weer een halvering van de block subsidy plaats, waardoor de inkomsten van mijnwerkers nog dichter bij 1% van de marktkapitalisatie of lager zullen uitkomen. In 2028 en 2032 volgen verdere halveringen. Na die laatste halvering wordt de block subsidy zo minimaal dat een groot deel van de inkomsten uit transactiekosten zal bestaan, waarschijnlijk minder dan 1% van de marktkapitalisatie. Dit leidt tot een stabiele situatie die gebaseerd is op transactiekosten, hoewel die moeilijk te voorspellen valt vanwege de afhankelijkheid van netwerkadoptie, gebruiksgemak en snelheid.
+
+Omdat we met variabele, marktgedreven transactiekosten niet met zekerheid kunnen vaststellen wat de stabiele situatie wordt, geeft Figuur 25-C inzicht in welke aannames nodig zijn om een bepaald jaarlijks inkomen voor mijnwerkers te realiseren. Op de verticale as staan potentiële langetermijnmarktkapitalisaties van Bitcoin, terwijl op de horizontale as de jaarlijkse mijnwerkersinkomsten als percentage van deze kapitalisaties worden weergegeven. Zo kan de lezer in één oogopslag zien wat iedere combinatie betekent voor de jaarlijkse inkomsten van mijnwerkers.
+
+![Figuur 25-C](/figures/25-C.png){width=100%}
+
+Figuur 25-C illustreert de aannames die we nodig hebben om specifieke jaarlijkse inkomsten voor miners te realiseren. De grafiek is gebaseerd op mogelijk langetermijn-marktkapitalisaties voor Bitcoin, weergegeven op de verticale as, en op jaarlijkse inkomsten als percentage van die kapitalisaties, weergegeven op de horizontale as.
+
+Stel dat Bitcoin om de een of andere reden niet verder groeit en permanent rond de huidige marktkapitalisatie van minder dan $1 biljoen blijft hangen. Dan dalen de inkomsten voor miners fors naarmate de bloksubsidies verminderen. Tegen de jaren 2030 zullen de inkomsten van Bitcoin-miners waarschijnlijk rond of onder de 0,50% van de marktkapitalisatie uitkomen, waardoor het netwerk qua energieverbruik stagneert op het niveau van 2018–2020 of zelfs lager.
+
+Als Bitcoin een cruciale rol gaat spelen, met een netwerkwaarde van $5–10 biljoen (wat neerkomt op een prijs per munt van $250k tot $500k) en met honderdduizenden of miljoenen gebruikers, zouden de miners bij 0,50% van de marktkapitalisatie jaarlijks tussen de $25 en $50 miljard kunnen verdienen. Dit zou wellicht 0,3% tot 0,5% van het wereldwijde energieverbruik vergen.
+
+Stijgt de Bitcoin-prijs naar één miljoen dollar per munt en bereikt de marktkapitalisatie $20 biljoen of meer, met miljarden gebruikers, dan leveren de miners bij 0,25% tot 0,50% van de marktkapitalisatie jaarlijks tussen de $50 en $100 miljard op. Dit scenario zou ongeveer 0,6% tot 1,0% van het wereldwijde energieverbruik kunnen behoeven, wat logisch lijkt voor een netwerk dat door miljarden mensen voor uiteenlopende doeleinden wordt gebruikt en die hoge waarde bereikt.
+
+Tegen die tijd is Bitcoin waarschijnlijk zo groot dat het de energie vervangt die nu door delen van het mondiale banksysteem wordt verbruikt, in plaats van extra energie te vergen. Wereldwijd werken tientallen miljoenen mensen in banken en fintechbedrijven, waarbij energierijke kantoorgebouwen, apparatuur, betalingsservers en een flinke administratieve overhead een rol spelen. Basale softwaretoepassingen voor geld kunnen, net als in andere sectoren, zorgen voor meer efficiëntie en de behoefte aan personeel, hardware, vastgoed en overhead in sommige delen van de traditionele infrastructuur verlagen. Zo komen deze middelen vrij voor andere productieve doeleinden.
+
+Door de cijfers te baseren op het jaarlijkse transactievolume in plaats van op de marktkapitalisatie, krijgen we wellicht beter inzicht. Het transactievolume hangt nauwer samen met de vergoedingsmarkt dan de marktkapitalisatie, maar het is lastiger te meten omdat er diverse methoden bestaan om dit volume vast te stellen.
+
+Stel bijvoorbeeld dat iemand bitcoin verstuurt van een adres dat hij beheert naar een ander adres dat hij eveneens controleert. Moet dat meetellen als onderdeel van het transactievolume van het netwerk? Coin Metrics, een bedrijf dat gespecialiseerd is in blockchain-analyse, berekent een aangepaste schatting van het transactievolume van het Bitcoin-netwerk. Hierbij sluit het diverse kortetermijntransacties uit, waardoor een groot deel van het geshuif naar beurzen en het gebruik van privacytools buiten beschouwing blijft. 
+
+Figuur 25-D toont de monetaire snelheid van het netwerk per jaar, waarbij de berekening is gebaseerd op de gemiddelde marktkapitalisatie en het jaarlijkse aangepaste transactievolume.
+
+![Figuur 25-E](/figures/25-E.PNG){width=100%}
+
+Figuur 25-E geeft een tabel weer met het aangepaste transactievolume van het Bitcoin-netwerk, de jaarlijkse inkomsten van mijnwerkers (inclusief bloksubsidies en transactiekosten) en het percentage van het jaarlijkse aangepaste volume dat aan de inkomsten van mijnwerkers wordt besteed.
+
+Figuur 25-E
+
+Figuur 25-E toont een tabel met het aangepaste transactievolume van het Bitcoin-netwerk. In de tabel vindt u tevens de jaarlijkse inkomsten van mijnwerkers, bestaande uit zowel bloksubsidies als transactiekosten. Daarnaast wordt aangegeven welk percentage van het jaarlijks aangepaste volume wordt besteed aan deze inkomsten.
+
+Figuur 25-F geeft dezelfde tabel weer, maar beperkt zich tot het deel van de mijnwerkersinkomsten dat afkomstig is uit transactiekosten.
+
+![Figuur 25-F](/figures/25-F.PNG){width=100%}
+
+In Figuur 25-F ziet u opnieuw het aangepaste transactievolume van het Bitcoin-netwerk, samen met de jaarlijkse inkomsten van mijnwerkers. Deze omvatten zowel bloksubsidies als transactiekosten, en er wordt weergegeven welk percentage van het jaarlijkse aangepaste volume hiervoor wordt besteed.
+
+Uit de tabel blijkt dat de transactiekosten tot 2017 verwaarloosbaar waren. Daarna begonnen de blokken regelmatig vol te raken, waardoor zich een betekenisvolle markt voor transactiekosten ontwikkelde.
+
+Naarmate de efficiëntie van de blokruimte verbetert en het netwerk groeit, verwacht ik dat de toekomstige toename van transactievolumes tegen het einde van de jaren 2020 voor een blijvende stijging van de transactiekosten zal zorgen. Dit leidt waarschijnlijk tot hogere structurele gemiddelde transactiekosten, al blijven deze toch een zeer klein percentage van de gemiddelde transactiewaarde vormen. Zoals eerder vermeld, lijkt 2023 een jaar te worden met hogere transactiekosten dan 2022, alhoewel dat nog niet in de grafiek tot uiting komt, aangezien het jaar nog maar halverwege is.
+
+Figuur 25-H toont de potentiële, aangepaste jaarlijkse transactievolumes van *Bitcoin* op de verticale as. Op de horizontale as staan de jaarlijkse mijnwerkerskosten als percentage van deze gecorrigeerde transactievolumes. Hierdoor krijgt de lezer inzicht in de aannames die nodig zijn voor diverse schattingen van de jaarlijkse mijnwerkersinkomsten.
+
+![Figuur 25-G](/figures/25-G.PNG){width=100%}
+
+Het is moeilijk te voorspellen wat het on-chain transactievolume of het aangepaste volume van het *Bitcoin*-netwerk over enkele decennia zal worden. Dat hangt af van een samenspel tussen adoptie en monetaire snelheid. Op dit moment gebruikt men *Bitcoin* vooral voor investeringen en sparen en minder voor betalingen, waardoor de on-chain snelheid laag blijft. Wanneer *Bitcoin* meer geïntegreerd raakt binnen financiële instellingen, de wisselkoers stabieler wordt en steeds meer mensen de digitale munt inzetten voor betalingen, kan de monetaire snelheid aanzienlijk toenemen. Dit zou kunnen resulteren in een hoger energieverbruik (mogelijk zelfs meer dan 1% van het wereldwijde totaal), mits het een enorme meerwaarde oplevert.
+
+Tegenwoordig wordt aangenomen dat het elektriciteitsverbruik van het *Bitcoin*-netwerk minder koolstofdioxide uitstoot dan allerlei alledaagse apparaten waar we niet vaak bij stilstaan, zoals wasdrogers of de productie van zink. Als we onze constant ingeschakelde elektronische apparaten 10% efficiënter zouden uitschakelen wanneer ze niet in gebruik zijn, zou dat meer stroom besparen dan het *Bitcoin*-netwerk verbruikt.[^366]
+
+Als Bitcoin een enorm succes wordt en gebruikers er biljoenen dollars aan nut aan ontlenen, kan het jaarlijkse energieverbruik oplopen tot dat van de aluminiumproductie-industrie. Met andere woorden: ook als het netwerk wereldwijd op grote schaal functioneert als monetair systeem voor talloze toepassingen, blijft het energieverbruik vergelijkbaar met dat van andere industrieën waarover we ons doorgaans niet moreel druk maken.[^367]
+
+### Het schalen met lagen en de 'kosten per transactie'-misvatting
+
+Op de basislaag verwerkt het Bitcoin-netwerk maximaal enkele honderdduizenden transacties per dag, oftewel zo'n vijf transacties per seconde. Dankzij periodieke upgrades die de transactiedichtheid verhogen, is de theoretische limiet in de loop van de tijd gestaag toegenomen.
+
+Critici vergelijken deze limiet ongunstig met creditcardnetwerken, die tienduizenden transacties per seconde aankunnen. Ze wijzen daardoor vaak op het hoge energieverbruik per transactie en concluderen dat het netwerk inefficiënt is en om milieuredenen vermeden zou moeten worden.
+
+Eerst en vooral verbruikt Bitcoin energie, ongeacht of er transacties plaatsvinden. Dat komt door de bloksubsidie die mijnwerkers ontvangen bij het produceren van een nieuw blok, los van het aantal hierin opgenomen transacties. Het merendeel van de energie besteedt men immers aan het beveiligen van het netwerk tegen transactiecensuur en ingrijpende herstructureringen van blokken. Daardoor blijft het systeem aantrekkelijk als afwikkelingsnetwerk en als opslag van waarde, ook al staat het nog in de kinderschoenen. Zo kan een blok bijvoorbeeld 1.200 transacties bevatten, het volgende 2.500 en het daaropvolgende 1.800 transacties. Ondertussen blijven dezelfde mijnwerkers continu verbonden met het netwerk en verbruiken zij een constante hoeveelheid elektriciteit. Of een blok nu vol zit of niet, de energiekosten blijven nagenoeg gelijk. Bovendien beveiligt elk nieuw blok alle voorgaande transacties tot aan het eerste blok.
+
+Of je een transactie wel of niet uitvoert, beïnvloedt nauwelijks hoeveel energie het Bitcoin-netwerk op dat moment verbruikt. Miners gebruiken energie om de bloksubsidie en gemiddelde transactiekosten te vergaren – uitgedrukt in bitcoin en dus gebaseerd op de bitcoinwaarde. Vooral mensen die bitcoin als waardeopslag aanhouden en niet uitgeven, bepalen die waarde. Transactievolumes raken uitsluitend het kostendeel van transacties; op de lange termijn tellen alleen de gemiddelde kosten.[^368] Miners kopen hun hardware met de verwachting deze minstens vijf jaar te gebruiken. Elk bitcoinblok bevestigt de definitiviteit van alle voorgaande blokken, waardoor de onveranderlijkheid van de gehele blockchain gewaarborgd is – niet alleen wat betreft individuele transacties.
+
+Je kunt dit vergelijken met een vaatwasser die je elke nacht laat draaien. Of deze nu voor 30% of 90% gevuld is, hij verbruikt vrijwel dezelfde hoeveelheid energie per wasbeurt. Een extra bord of stuk bestek verandert het energieverbruik nauwelijks, waardoor de maatstaf 'water per bord' eigenlijk niet relevant is. Een andere vergelijking is dat je je computer de hele dag aan laat staan, of je nu 20 of 100 e-mails verstuurt. De extra elektriciteit per e-mail is onbeduidend, want de computer staat toch al continu aan en verbruikt vrijwel evenveel energie, ongeacht het aantal verstuurde e-mails.
+
+Het tweede probleem met deze redenering is het idee dat de limiet van ongeveer vijf transacties per seconde de werkelijke grens vormt – terwijl dat niet zo is. In werkelijkheid kent het Bitcoin-netwerk meerdere lagen, net als het moderne financiële systeem. De basislaag die we kennen als Bitcoin fungeert namelijk als een afwikkelingsnetwerk.
+
+Kredietkaartnetwerken vormen slechts een bovenliggende laag op een dieper betalingsstelsel. In de Verenigde Staten, zoals in eerdere hoofdstukken besproken, draait het Fedwire-systeem, dat ongeveer duizend biljoen dollar aan bruto volume per jaar verwerkt. Dit is de brutoafwikkelingslaag die banken gebruiken voor grote onderlinge transacties. Hoewel dit systeem ongeveer hetzelfde aantal transacties per jaar uitvoert als het Bitcoin-netwerk, worden de individuele transactiewaarden bij Fedwire vaak in miljoenen dollars uitgedrukt. Bovenop die laag functioneren systemen als *Visa*, *Mastercard*, *PayPal*, *Venmo* en worden er zelfs fysieke cheques uitgewisseld.
+
+Stel dat je mij een betaling via creditcard stuurt. Hoewel het voor ons direct lijkt te gebeuren, is dat slechts schijn. Achter de schermen communiceren onze banken en leggen zij een schuld vast. Later bundelen ze deze betaling samen met andere consumenttransacties en verwerken ze alles in één grote vereffeningsbetaling. Er is geen limiet aan het aantal betalingen op de oppervlaktelaag, omdat de omvang van die grote vereffeningsbetalingen onbeperkt is. Zo'n betaling vertegenwoordigt immers duizenden kleinere transacties.
+
+Net zoals het Bitcoin-netwerk kent ook het banksysteem diverse extra lagen: Lightning, sidechains, bewaringssystemen en meer. In tegenstelling tot het banksysteem, dat steunt op lange afwikkeltijden en schuldbekentenissen, zijn veel lagen van Bitcoin ontworpen om vertrouwen te minimaliseren en kredietgebruik te vermijden. Dit bereikt men met software die programmeerbare contracten faciliteert en korte afwikkeltijden hanteert.
+
+## Waarom Bitcoin-mijnwerkers ongebruikelijke energieafnemers zijn
+
+Meer dan een simpele berekening van het energieverbruik van Bitcoin, moeten we ook stilstaan bij de details van hoe die energie wordt benut en welke energievormen daarbij een rol spelen.
+
+Veel mensen veronderstellen dat bitcoin-mijnwerkers met andere industrieën concurreren voor elektriciteit, waardoor bitcoin-mining andere toepassingen van stroom zou verdringen. In werkelijkheid opereren bitcoin-mijnwerkers in een sterk gecommoditiseerde wereldmarkt en hebben ze extreem goedkope energie nodig, waardoor ze niet kunnen concurreren met reguliere elektriciteitsgebruikers. Daarom speuren ze wereldwijd naar inefficiënties, waar elektriciteit onderbenut, verspild en vrijwel gratis beschikbaar is.
+
+De meeste mensen verhuizen immers niet naar de locaties waar energie wordt opgewekt; de energie moet naar ons worden getransporteerd. Traditioneel gezien vestigen mensen zich op specifieke geografische locaties, zoals rond watersnelwegen. We wonen in steden aan kusten of rivieren, in de omliggende voorsteden en op het platteland met vruchtbare grond. We verblijven zelden in de buurt van energiebronnen. In plaats van te verhuizen naar gebieden met olie-, gas- en uraniumreserves, laten we mensen die brandstoffen winnen en naar ons terugbrengen, zodat we ze thuis, bij tankstations en nabij kerncentrales kunnen gebruiken.
+
+Bitcoin-mijnwerkers behoren tot de bijzondere energiegebruikers, omdat zij zich kunnen vestigen bij de energiebron, mits er een simpele internetverbinding met beperkte bandbreedte beschikbaar is – zelfs via een satellietverbinding indien nodig. Hierdoor benutten zij energie op efficiënte en onconventionele wijze. Daardoor kom je zelden bitcoin-mijnwerkers tegen in stedelijke gebieden, waar elektriciteit doorgaans duurder is.
+
+Nic Carter, de eerste digitale-activaanalist van *Fidelity* en later medeoprichter van *Castle Island Ventures*, verwoordde in 2018 op inzichtelijke wijze het energieverbruik van Bitcoin:
+
+> Een interessante bijkomstigheid van Proof-of-Work munten is dat zij altijd bereid zijn energie te kopen tegen een prijs van 3-5 cent per kWh. En sommige van de beste energiebronnen bevinden zich buiten het netwerk. Dit wereldwijde energienetwerk maakt geïsoleerde activa vrij en maakt nieuwe activa levensvatbaar.[^369]
+>
+> Stel je een 3D-topografische kaart van de wereld voor, waarbij locaties met goedkope energie lager liggen en plekken met dure energie hoger. Ik zie Bitcoin-mining als een glas water dat over het oppervlak stroomt, zich een weg baant door de hoekjes en gaatjes en het geheel egaliseert.[^370]
+
+In 2021 begon ik uitgebreid onderzoek naar bitcoin-mijnwerkers om de details nauwgezet te bestuderen. Sindsdien houd ik dit werk jaarlijks bij. In dat eerste jaar nam ik contact op met Marty Bent, die toen directeur bedrijfsontwikkeling was bij een particulier bitcoin-mijnbedrijf genaamd Great American Mining. Inmiddels bekleedt hij een bestuursfunctie bij *Cathedra*, een beursgenoteerd bitcoin-mijnbedrijf. Hij lichtte enkele details toe die nog steeds relevant zijn:
+
+> Omdat het Bitcoin-netwerk een gedistribueerd peer-to-peer-netwerk is dat niet afhankelijk is van één enkele miner om transacties te faciliteren, kunnen bitcoinminers beter inspelen op kansen, zoals het opvangen van affakkelgas, vergeleken met andere energie-intensieve computerprocessen zoals serverfarms. Bitcoinminers kunnen lokale verstoringen verdragen zonder dat de uptime van het netwerk wezenlijk in het gedrang komt, terwijl dit voor een serverfarm – waarin uptime kritische bedrijfsprocessen beïnvloedt – niet het geval is. Daarnaast versturen miners zeer weinig data naar miningpools, waardoor zij weinig bandbreedte nodig hebben. Hierdoor kunnen zij veel makkelijker opereren in zeer afgelegen gebieden met behulp van mobiele data dan andere energie-intensieve dataprocessen.[^371]
+
+Hoewel sommige mijnwerkers goedkope vormen van reguliere energie gebruiken, volgt in de volgende secties een overzicht van enkele innovatieve manieren waarop bitcoinmijnwerkers geïsoleerde of ongewenste energie op een alternatieve wijze benutten, zowel voor henzelf als voor hun tegenpartijen.
+
+## Geïsoleerde hydro-elektrische stroom voor bitcoin-mijnbouw
+
+China was jarenlang het grootste land op het gebied van bitcoin-mining. Op hun hoogtepunt vertegenwoordigden Chinese mijnwerkers gezamenlijk meer dan 70% van het netwerk. Men schatte echter dat dit aandeel in het voorjaar van 2021 geleidelijk daalde tot minder dan 50% door toenemende concurrentie elders. Vervolgens leidde een verbod op bitcoin-mijnbouw in China, vermoedelijk ingevoerd om de kapitaalcontroles te handhaven, tot een sterke vermindering van de blootstelling aan Chinese bitcoin-mijnbouw. Een aanzienlijk deel van die mijnwerkers vertrok naar andere locaties.[^372]
+
+China vormde jarenlang een interessant voorbeeld van mobiele bitcoin-mijnbouw. De provincie Sichuan beschikt over een overvloed aan overtollige waterkracht. Tijdens het natte seizoen produceren ze meer schone elektriciteit dan ze kunnen verbruiken, waardoor deze energie verloren gaat. Het betreft hier geïsoleerde energie.
+
+Omdat bitcoinmijnwerkers direct bij de energiebron konden komen, trokken zij vroeger massaal naar Sichuan tijdens het regenseizoen om de anders verspilde energie te benutten. Zij deden dit niet vanwege idealistische milieubescherming, maar omdat de energie goedkoop was en niemand anders ernaar verlangde. Elektriciteit die anders verloren zou gaan en geen inkomsten voor de exploitant opleverde, kan tegen extreem lage prijzen worden verkocht aan degene die er een nuttige toepassing voor vindt, zoals in dit geval de bitcoinmijnwerkers.
+
+Na het Chinese verbod op bitcoinmining in 2021 verplaatsten veel machines en de miljarden dollars aan potentiële jaarlijkse inkomsten zich naar Noord-Amerika en andere landen. Jarenlang liet dit zien hoe bitcoinminers opgesloten en onbenutte energie omzetten in winst. Zelfs na het verbod keerden Chinese bitcoinminers nog in beperkte mate terug, omdat het lastig is de sector volledig uit te schakelen.[^373]
+
+Ook andere landen hebben te maken met het probleem van ongebruikte capaciteit bij hun waterkrachtinstallaties en zijn hierdoor uitgegroeid tot bitcoinmijnregio's. Alle overtollige waterkracht kan worden ingezet voor bitcoinmining, terwijl het anders verloren gaat.
+
+## Mijnbouw van bitcoin met geïsoleerd aardgas
+
+Veel aardoliedepots gaan gepaard met natuurlijk aardgas. Wanneer er voldoende gas beschikbaar is, verzamel je het en transporteer je het via pijpleidingen of andere netwerken om als primaire energiebron te dienen. Natuurlijk is aardgas uitstekend geschikt voor de opwekking van elektriciteit en voor verwarming. Maar als het slechts om een beperkte hoeveelheid gaat, rechtvaardigt dat economisch gezien niet de aanleg van een pijpleiding of alternatieve verzamelmethoden.
+
+Dus, wat gebeurt er dan? Het gas wordt geloosd of afgefakkeld in de atmosfeer en gaat daardoor verloren. Lozen houdt in dat het gas simpelweg in de atmosfeer vrijkomt, meestal als methaan – een broeikasgas dat sterker werkt dan koolstofdioxide. Affakkelen betekent dat het gas wordt verbrand zonder enig productief doel, zodat het wordt omgezet in koolstofdioxide en vervolgens in de atmosfeer terechtkomt. Hoe het ook gebeurt, het is pure verspilling en draagt mede bij aan de wereldwijde uitstoot van broeikasgassen.
+
+De Wereldbank gebruikt satellietgegevens om in te schatten dat wereldwijd jaarlijks 144 miljard kubieke meter aardgas wordt afgefakkeld of afgeblazen.[^374] Een analyse van de Universiteit van Cambridge over het energieverbruik van het Bitcoin-netwerk wijst erop dat deze verspilde energie wel meerdere malen voldoende zou zijn om het volledige Bitcoin-netwerk van stroom te voorzien.[^375]
+
+Verschillende particuliere bitcoinmijnbedrijven hebben zich gespecialiseerd in het aansluiten van trailers met bitcoinminers op olieproductielocaties waar geïsoleerd gas vrijkomt, zodat zij de anders verloren energie benutten. Dit levert een win-winsituatie op voor zowel olieproducenten als bitcoinminers. De producenten kunnen hun geïsoleerd gas verkopen in plaats van het te verspillen, terwijl zij tegelijkertijd hun milieuprestaties verbeteren en voldoen aan regelgeving omtrent affakkelen. Het inzetten van een elektrische generator op dat gas zet methaan efficiënter om in koolstofdioxide dan direct affakkelen, en bitcoinminers profiteren van een goedkope energiebron.
+
+## Bitcoin-mining met stortgas
+
+Naast het aardgas dat gepaard gaat met olieproductie, komt er ook methaan vrij vanuit stortplaatsen. Wereldwijd komt miljarden kubieke meters methaan vrij door de afbraak van organisch afval. Sommige van de grootste stortplaatsen vangen dit methaan op en gebruiken het om energie op te wekken, maar veel kleinere stortplaatsen – of zelfs grote locaties zonder economische toepassingen voor het methaan – laten het simpelweg in de atmosfeer ontsnappen.
+
+Een bedrijf genaamd Vespene Energy haalde in 2022 $4,3 miljoen op om Bitcoin‐mijnwerkers in te zetten op stortplaatsen zodat zij methaan kunnen benutten. Door methaan op te vangen en om te zetten in kooldioxide ontstaat bruikbare energie en neemt het broeikaseffect af. Dit wordt alleen rendabel als er een energiekoper is die flexibel genoeg is om zich op kleine en middelgrote stortplaatsen te vestigen, zoals Bitcoin‐mijnwerkers.
+
+> BERKELEY, Californië, 9 augustus 2022 /PRNewswire/ --- Vespene Energy, een bedrijf dat zich richt op het reduceren van methaanemissies, kondigde vandaag aan dat het een financieringsronde van $4,3 miljoen heeft afgesloten onder leiding van Polychain Capital, met deelname van diverse klimaatgeoriënteerde fondsen. Vespene installeert zeer efficiënte microturbines op gemeentelijke stortplaatsen om afvalmethaan om te zetten in elektriciteit voor uiteenlopende toepassingen ter plaatse – de eerste toepassingen zijn Bitcoin-mijndatacentra. Vespene’s direct inzetbare en uiterst schaalbare technologie stelt exploitanten van gemeentelijke stortplaatsen in staat om een anders onbruikbare energiebron te gelde te maken, terwijl ze schadelijke broeikasgasemissies reduceren.[^376]
+
+Op dit moment beschrijft Vespene haar proces op de startpagina als volgt:
+
+> We benutten het methaan van stortplaatsen om ter plaatse energie op te wekken die bijdraagt aan de brede elektrificatie van EV-vloten en andere variabele faciliteitsbelastingen. Door energieopwekking te koppelen aan onderbreekbare gegevensverwerking zorgen we ervoor dat methaan volledig wordt afgebroken en de energie efficiënt wordt benut.[^377]
+
+In deze context verwijst 'onderbreekbare gegevensverwerking' vooral naar het minen van Bitcoin. Deze formulering kan ervoor zorgen dat potentiële gebruikers, die geïnteresseerd zijn in haar diensten maar negatieve associaties met Bitcoin hebben, niet worden afgeschrikt. Bitcoin-mining houdt immers in dat berekeningen en gegevensverwerking worden uitgevoerd voor het ordenen van transacties. In tegenstelling tot andere toepassingen binnen datacenters zijn individuele Bitcoin-miners echter bijzonder flexibel en onderbreekbaar.
+
+Sommige mensen stellen de vraag: 'Kunnen we dit methaan niet opvangen zonder bitcoinmijnwerkers?' Het probleem is echter dat het zonder passende economische prikkels gewoon niet gebeurt. Mensen kunnen theoretiseren over wat er zou moeten gebeuren, maar ondernemen er zelf niets aan. Op sommige kleinere stortplaatsen of fakkelgaslocaties komt het alleen voor wanneer zeer flexibele elektriciteitsverbruikers ter plaatse komen en er winstgevend gebruik van maken. Voor dit doel biedt bitcoinmijnbouw de meest directe oplossing.
+
+Dit is een opkomende sector waarin startups komen en gaan. Ik kan niet voorspellen hoe succesvol dit specifieke bedrijf over vijf of tien jaar zal zijn. Ik weet echter wel dat stortplaatsen over de hele wereld methaan in de atmosfeer lekken, een gas dat veel energie bevat. Tot op heden bestaat er nog geen methode die zowel kostenefficiënt als flexibel genoeg is om dit gas te benutten.
+
+## Bitcoin mining als accu voor het elektriciteitsnet
+
+Elektriciteitsnetwerken moeten voortdurend twee zaken afstemmen: het wisselende aanbod en de veranderende vraag naar stroom.
+
+Sommige elektriciteitsbronnen leveren consistent energie, zoals kerncentrales die dag en nacht op de baseload draaien. Andere bronnen, zoals wind- en zonne-energie – en in mindere mate waterkracht – zijn variabel en hangen af van wat Moeder Natuur op dat moment besluit te schenken in de vorm van wind, zon en regen. Door deze variabiliteit wordt de elektriciteitsproductie overcapaciteit ingebouwd, zodat er zelfs op een uitzonderlijk rustige dag voldoende stroom beschikbaar blijft om aan de vraag van de gemeenschap te voldoen.
+
+Aan de vraagzijde bestaan er dagen en seizoenen waarop meer elektriciteit nodig is dan op andere momenten. Zo verbruik ik in de winter aanzienlijk meer gas dan in de zomer, omdat ik het dan zowel voor koken als voor verwarming gebruik, terwijl ik het in de zomer uitsluitend voor koken nodig heb. Anderzijds stijgt mijn elektriciteitsverbruik in de zomer, doordat ik naast mijn normale gebruik ook de airconditioning draai. Bovendien zijn er piekdagen – bijvoorbeeld de heetste dag van het jaar – waarop bijna elk huishouden de airconditioning op vol vermogen heeft staan. Ingenieurs die het elektriciteitsnet beheren moeten met zulke situaties rekening houden. Ook vindt er gedurende de dag sprake van variaties in het elektriciteitsverbruik.
+
+Daarnaast kun je elektriciteit maar beperkt over grote afstanden transporteren; hoe langer de transmissielijnen, hoe groter het verlies door verspilling. Met andere woorden: elektriciteit kent een lokale grens.
+
+Omdat zowel het aanbod als de vraag per uur, per dag en per seizoen sterk kunnen variëren, moeten elektriciteitsnetwerken overcapaciteit aanleggen en meer opwekkingscapaciteit beschikbaar hebben dan op een doorsnee dag wordt gebruikt. Een deel van die capaciteit zet men bijvoorbeeld in bij piekcentrales op aardgas, die snel aan- of uitgeschakeld kunnen worden om tegemoet te komen aan piekmomenten in de vraag. Andere typen, zoals zonnepanelen en windturbines, laten zich niet zo flexibel regelen. Wanneer een stroomproducent te veel zonne- en windcapaciteit bouwt en de overtolligheid niet op een ander netwerk kan verkopen, gaat die elektriciteit simpelweg verloren.
+
+Een probleem met zonne- en windenergie is dat energiebatterijen erg duur zijn. Ondanks alle menselijke vindingrijkheid lukt het ons nog steeds niet om op grote schaal kosteneffectieve batterijen te produceren die geschikt zijn voor elektriciteitsmaatschappijen, mede doordat ze veel metalen en mijnbouw vereisen. Het blijft een buitengewoon complex fysisch probleem. Natuurlijk produceren we accu’s voor specifieke nichetoepassingen, maar breed gebruik is noch rendabel, noch milieuvriendelijk.[^378]
+
+Bitcoin-mijnbouw maakt het rendabel om in overvloed hernieuwbare energiebronnen aan te leggen, omdat overtollige energie op die manier kan worden gemonetariseerd. Elke gemeenschap die betrouwbare energie nastreeft, dient bovendien over voldoende elektriciteitscapaciteit te beschikken – een eis die bij wind-, zonne- en waterkrachtenergie, vanwege hun variabiliteit, nog belangrijker is. Overcapaciteit is echter doorgaans pas de moeite waard als de overtollige energie voor iets winstgevends en nuttigs kan worden benut, wanneer deze anders onbenut zou blijven.
+
+Bitcoin-mijnwerkers vormen een unieke oplossing voor dat probleem, omdat zij overtollige energie winstgevend maken en daarmee indirect functioneren als energieopslag.
+
+Het grootste deel van de tijd, wanneer het aanbod de vraag overtreft, schakelen bitcoin-mijnwerkers – als een belangrijke energieafnemer in de gemeenschap – hun apparatuur in, genereren ze inkomsten en dekken zo hun elektriciteitskosten. Treedt er een piek in de elektriciteitsvraag op of neemt het aanbod zodanig af dat anders stroomuitval in de regio zou ontstaan, dan kunnen deze mijnwerkers tijdelijk uitschakelen.
+
+Een goed gestructureerd commercieel contract kan dit proces soepel laten verlopen. Het nutsbedrijf kan de mijnwerkers het laagste tarief in de regio aanbieden, in ruil voor een grotere tolerantie ten aanzien van variabiliteit en andere flexibele contractvoorwaarden.
+
+Harry Sudock, Chief Strategy Officer bij *GRIID*, legde dit in juni 2021 aan Peter McCormack uit in zijn podcast:
+
+> Het vermijden van overproductie is geen ideale situatie voor energieleveranciers. Neem een windturbine als voorbeeld: wanneer de turbine draait, worden er elektronen opgewekt. In sommige regio's is de marktprijs echter negatief, dus kiezen ze ervoor de energie niet te verzenden en gaat die simpelweg verloren.
+> 
+> Als ze een overeenkomst kunnen sluiten met een andere koper die intermitterend verbruik kan verdragen en de energie slechts gedeeltelijk nodig heeft, levert dat een zeer waardevolle klant op. Zo'n klant betreedt een markt die anders nauwelijks in staat zou zijn de energieopwekking op grotere schaal te ondersteunen.
+> 
+> Ik vind dat bitcoin-mijnwerkers bijzonder zijn en een enorme technologische vooruitgang betekenen ten opzichte van traditionele elektriciteitsgebruikers. Wij beschikken over wat ik 'energiesuperkrachten' noem: ten eerste maken energiekosten 80 tot 90 procent van onze maandelijkse uitgaven uit; ten tweede kunnen we energie met tussenpozen verbruiken zonder dat dit een ernstige impact heeft op ons bedrijfsmodel. Als iemand mij zou vertellen dat ik mijn mijnwerkers 100 uur per jaar, of zelfs 500 uur per jaar moet uitschakelen, dan accepteren we dat niet met een simpel 'nee', maar zeggen we: 'Dat moeten we verwerken in de energieprijs die wij betalen.'
+> 
+> Wanneer ik een stroomcontract probeer te onderhandelen, stel ik het zo op: 'Ik heb de laagste kosten nodig die je kunt bieden. Over alle andere aspecten van ons verbruiksprofiel ben ik bereid te onderhandelen. Hoe groot wordt de mijn? Hoe vaak heb je die stroom weer nodig? Moeten we bijdragen aan andere creatieve oplossingen binnen je energiemix of systeem? Moeten we onze faciliteiten splitsen en op twee locaties inrichten? En goed, moeten we ook bijdragen aan het beveiligingsbudget van de overige onderdelen van de operatie?'
+> 
+> Onze taak is de energieprijs zo laag en concurrerend mogelijk te maken en tegelijkertijd met de producenten samen te werken aan alle andere variabelen.[^379]
+
+Om Sudocks quote toe te lichten, wil ik eraan toevoegen dat hun derde superkracht het vermogen is zich te vestigen vlakbij de bron van elektriciteitsopwekking. Zo verminderen ze transmissieverliezen en houden ze de stroomprijs laag. Bitcoin-mijnwerkers onderscheiden zich doordat elektriciteit hun grootste operationele kostenpost vormt, zij een onderbreking in de elektriciteitsvoorziening kunnen doorstaan en extreem flexibel zijn in hun locatiekeuze. Hierdoor kunnen zij concessies doen die voor de meeste andere bedrijven ondenkbaar zijn, om te profiteren van zeer lage elektriciteitsprijzen wanneer energie in overvloed is.
+
+Dankzij hun mogelijkheid zich dichtbij de energiebron te vestigen, spelen bitcoin-mijnwerkers ook in op onverwachte vraagtekorten of andere bijzondere situaties. In dezelfde podcast beschreef Sudock de situatie als volgt:
+
+> Dit is een anekdote waaraan we momenteel werken. Een gemeenschap heeft toestemming gekregen om een nieuw ziekenhuis in hun buurt te bouwen. Het netwerk van dat nutsbedrijf voorziet 17.000 huishoudens van energie. Het ziekenhuis zal het energieverbruik in de regio verdubbelen. We zijn het er allemaal over eens dat een ziekenhuis een zeer waardig gebruik van elektriciteit is, daar valt niet over te twisten.
+> 
+> Ze herstellen de transmissielijnen, bouwen een groter onderstation dat de extra belasting aankan, en ondanks al deze investeringen stort het ziekenhuisproject uiteindelijk in.
+> 
+> Ze hebben inmiddels miljoenen dollars in het gebied gestoken om deze grote afnemer binnen te halen. Zonder een alternatieve bestemming voor de energie moeten de kosten over 17.000 huishoudens worden verdeeld. Wat doen ze? Ze bellen onze Vice President of Energy Management en melden: 'We hebben een overschot aan energie. Als we geen grote energieklant aantrekken, worden deze kosten doorberekend aan huishoudens die niet over de middelen beschikken om stijgende energiekosten te dekken.'
+> 
+> Zo ontstaat voor ons een prachtige kans om in te stappen, deze nutsvoorziening te ondersteunen, een klant binnen te halen na het mislukken van de oorspronkelijke deal en tegelijkertijd de ruggengraat van deze gemeenschap te versterken door hun energieprijzen voor het komende decennium te stabiliseren. Dit zijn de verhalen over bitcoin-mijnbouw die vaak ondergesneeuwd raken. Daarbij komt nog dat deze energiebron voor meer dan 60% koolstofvrij is.[^380]
+
+Toen ik in 2021 onderzoeksartikelen ging publiceren over het energieverbruik van Bitcoin – waarin ik ook de verschillende typen stroomaankoopovereenkomsten beschreef – bleek dat het netwerk historisch gezien te klein en te gespecialiseerd was voor netwerktechnici om er een rol in te zien. Vanaf 2022 verspreidden deze stroombeperkingsovereenkomsten zich en kwamen ze breed in beeld. Grote, beursgenoteerde Bitcoin-mijnwerkers in de VS beperkten herhaaldelijk hun elektriciteitsverbruik als gevolg van de diverse schommelingen in 2022 en 2023. Tegelijkertijd begonnen grote energieproducenten met het opzetten van Bitcoin-mijnactiviteiten en kondigde het Tokyo Electric Power Grid plannen aan om Bitcoin te delven met overtollige energie.[^381]
+
+Als het Bitcoinnetwerk groot genoeg wordt, kan elke continue elektriciteitsbron er bitcoin-mijnapparatuur naast plaatsen om het variabele verschil tussen aanbod en vraag van het omliggende net winstgevend op te vangen, zodat er geen energie verloren gaat. Dit drukt de kosten voor zowel producent als consument en maakt variabele energiebronnen kostenefficiënter. Met andere woorden, overtollige elektriciteit komt altijd van pas voor computationele berekeningen. Op die manier richt de transactieverwerking van het Bitcoinnetwerk zich op alle kleine inefficiënties in het wereldwijde energiesysteem.
+
+Daarom beschouw ik het niet als negatief, zelfs als Bitcoin meer dan 1% van het wereldwijde energieverbruik opslokt. Tegen die tijd zal het immers stevig geïntegreerd zijn in het energiesysteem en waarschijnlijk meer voordelen dan nadelen opleveren.
+
+Bitcoin-mijnbouw is een uiterst gecommoditiseerde industrie. Een bitcoinmijnwerker blijft op de lange termijn alleen solvabel door de allergoedkoopste energiebronnen te gebruiken, namelijk die bronnen die anders onbenut of verspild zouden worden. Tijdens een tijdelijke bitcoin-bullrun kan een mijnwerker met zowat elke energiebron winst behalen. Maar op de lange termijn, over meerdere bull- en bear-cycli, blijkt alleen de goedkoopste energie haalbaar voor degene die cyclus na cyclus rendabel wil blijven. Daarom sluiten ze contracten met elektriciteitsnetwerken om de energielast te balanceren, vestigen zich bij energieproducenten om overtollige elektriciteit te verhandelen en/of maken ze gebruik van diverse geografisch afgelegen off-grid energiebronnen.
+
+## Bitcoin-mijnwerkers als verwarming
+
+Het merendeel van de energie die bitcoinmijnwerkers verbruiken, komt als warmte vrij. Een computerprocessor fungeert immers als een verwarmingselement terwijl hij berekeningen uitvoert. Naast het benutten van de goedkoopste energiebronnen, kun je de kosteneffectiviteit van bitcoin-mijnbouw vergroten door de gegenereerde warmte nuttig in te zetten.
+
+Een particulier of bedrijf kan bijvoorbeeld een traditionele ruimte- of zwembadverwarmer vervangen door een bitcoinminer. Hoewel de aanschafkosten hoger liggen, levert zo’n miner wel inkomsten op terwijl hij verwarmt. Op grotere schaal kunnen ook de verwarmingssystemen van ruimtes of kassen worden vervangen door bitcoinminers. Innovatieve toepassingen hebben dit al aangetoond, maar naarmate het netwerk volgroeit, verwacht ik dat mijnwerkers elk mogelijk voordeel benutten, waaronder manieren om afvalwarmte nog effectiever te hergebruiken.
+
+Er is geen reden om ruimteverwarmers af te keuren die tijdens het verwarmen tevens berekeningen uitvoeren – in tegenstelling tot gewone ruimteverwarmers die enkel warmte leveren. De kritiek op het elektriciteitsverbruik van het *Bitcoin*-netwerk berust op het idee dat de energie wordt verspild. In werkelijkheid gebruikt het netwerk die stroom om 1) het netwerk te beveiligen en 2) de omgeving rond de processor te verwarmen.
+
+Satoshi merkte dit al in 2010 op, want vanaf het begin waren er discussies over de milieueffecten van *Bitcoin*. Zo stelde Satoshi voor:
+
+> Als je je huis verwarmt met een computer, is die warmte niet verspild. Als je elektrische verwarming gebruikt, gaat er geen warmte van je computer verloren. De kosten blijven gelijk wanneer je die warmte zelf genereert. Als je een goedkoper alternatief voor elektrische verwarming hebt, is de verspilling het verschil in kosten. In de zomer, gecombineerd met airconditioning, wordt de verspilling zelfs dubbel. Bitcoin-generatie zal zich vestigen op de plek waar het het goedkoopst is – wellicht in koude klimaten met elektrische verwarming, waar die warmte eigenlijk gratis is.[^382]
+
+## Vooruitgang in nieuwe energietechnologieën
+
+Het bedrijf Product Recovery Technology International – of kortweg PRTI – heeft het afgelopen decennium besteed aan het omzetten van versleten banden in koolwaterstofproducten. Elk jaar worden wereldwijd meer dan een miljard banden weggegooid die van koolwaterstoffen zijn gemaakt, terwijl de meeste daarvan eenvoudigweg worden verbrand of begraven.
+
+PRTI heeft een unieke, verzegelde ketelprocedure ontwikkeld waarmee ze versleten banden afbreken tot diverse koolwaterstofproducten die zij vervolgens verkopen. Tijdens dit proces produceren ze tevens wat aardgas, dat zij inzetten om elektriciteit op te wekken. Omdat hun faciliteiten doorgaans gesitueerd zijn op locaties waar de banden naartoe worden vervoerd – ver weg van dichtbevolkte gebieden – is er weinig vraag naar die elektriciteit op het lokale net, waardoor ze slechts zeer lage tarieven ontvangen. Bovendien is de hoeveelheid overtollig gas te gering om te investeren in een pijpleiding of andere grootschalige toepassingen.
+
+PRTI benut het overtollige aardgas dat zij genereren om ter plekke Bitcoin te minen. Dit verbetert de economische efficiëntie van hun operatie, zodat ze onverminderd door kunnen gaan met het recyclen van banden en daarmee de enorme wereldwijde bron van vervuiling en afval reduceren. Bitcoin-mining blijkt de meest rendabele toepassing voor de extra energie te zijn die zij met hun innovatieve proces produceren.
+
+Een ander voorbeeld van hernieuwbare basiskracht is Ocean Thermal Energy Conversion, oftewel OTEC. Dit concept werd een eeuw geleden voor het eerst succesvol gedemonstreerd, maar vond nooit echt breed draagvlak. Grote hoeveelheden zonne-energie verwarmen het oppervlaktewater van de oceanen beduidend meer dan het koude diepe water. Deze warmtekolom biedt een kans om elektriciteit op te wekken en fungeert als een natuurlijk energieopslagmedium. Met een enorme buis en een specifiek energieconversieproces benutten grote platforms of schepen het temperatuurverschil tussen het warme oppervlaktewater en het ijskoude dieptenwater om basiskracht te genereren. De opgewekte elektriciteit kan direct naar het vasteland worden getransporteerd of worden ingezet om vloeibare brandstoffen te produceren.[^383]
+
+Het probleem met OTEC tot nu toe ligt in de schaalbaarheid. Kleine OTEC-centrales zijn al getest, maar blijken economisch niet rendabel. Middelgrote installaties vragen om veel infrastructuur om de opgewekte energie naar het vasteland te vervoeren, wat niet in verhouding staat tot de hoeveelheid energie die zij leveren. Grote OTEC-installaties blijken economisch wel interessant, maar niemand wil zo'n groot project starten voordat middelgrote exemplaren hun waarde hebben bewezen.
+
+Middelgrote OTEC-installaties kunnen economisch rendabel zijn als zij hun opgewekte energie niet naar het vasteland hoeven te transporteren. Als ze vrij op zee opereren en kunnen afzakken naar de warmste delen van de oceaan nabij de evenaar, biedt dat op die schaal potentieel winstgevendheid. Het probleem is echter dat er midden in de oceaan doorgaans geen vraag naar elektriciteit bestaat – of dat was het tenminste. Installeert men echter Bitcoin-mijnwerkers op het OTEC-schip, dan kan men de elektriciteit op zee meteen te gelde maken, het concept bewijzen en hopelijk in de toekomst financiering verkrijgen voor grote platforms die de kustbevolking van stroom kunnen voorzien.
+
+OceanBit probeert dit nu te realiseren. Het bedrijf is ervan overtuigd dat Bitcoin-mijnbouw OTEC nieuw leven kan inblazen als een actief onderzoeks- en ontwikkelingsveld. Medeoprichter Nathaniel Harmon ontwikkelde bovendien een methode om Bitcoin-mijnbouw direct in het OTEC-proces te integreren. Hij benut een deel van het koude water dat omhoog wordt gepompt om de mijnwerkers te koelen en voegt de hete afvalwarmte van hun apparatuur toe aan het warme oppervlaktewater dat al in gebruik is. In 2022 sprak ik uitvoerig met medeoprichters Nathaniel Harmon en Michael Bennett over hun werkzaamheden. Met mijn achtergrond in elektrotechniek vind ik de technologie bijzonder veelbelovend.
+
+## Infrastructuur opzetten voor elektriciteit in ontwikkelingslanden
+
+Veel lage-inkomenslanden beschikken over talrijke energiebronnen, zoals hydro-elektrische capaciteit. Ontwikkelaars hebben echter vaak te maken met een kip-en-ei-probleem: het bouwen van elektrische transmissie- en distributienetwerken om de opgewekte energie naar de consument te transporteren, is kostbaar en onzeker. Doordat mensen in gebieden zonder elektriciteit weinig geld en elektronische apparaten bezitten, aarzelen investeerders om hierin te stappen vanwege het onzekere rendement. Tegelijkertijd hebben deze gemeenschappen elektriciteit nodig om hun productiviteit te verhogen en welvaart te realiseren. Elektriciteit vormt immers een essentiële voorwaarde voor economische groei.
+
+Bitcoin biedt interessante mogelijkheden voor sommige van deze ontwikkelingsgebieden om hun elektriciteitscapaciteit uit te breiden en extra inkomsten te genereren. Wanneer een energiebron is ontwikkeld, kunnen Bitcoin-mijnwerkers arriveren en de locatie direct winstgevend maken als een betrouwbare ankerkoper tegen lage tarieven. Deze optie blijft rendabel totdat de elektriciteit efficiënter wordt benut doordat in de daaropvolgende jaren meer mensen in de regio elektronische apparaten gaan gebruiken. Zoals Alex Gladstein van de Human Rights Foundation beschreef in een artikel uit 2021 getiteld *The Humanitarian and Environmental Case for Bitcoin*:
+
+> Miljarden mensen in ontwikkelingslanden kampen met een energieprobleem. Om hun economieën te laten groeien, moeten zij hun elektrische infrastructuur uitbreiden, een kapitaalintensief en complex proces. Wanneer, met behulp van buitenlandse hulp of investeringen, energiecentrales worden gebouwd om hernieuwbare energie op afgelegen locaties te benutten, komt deze energie vaak nergens terecht.
+> 
+> In veel Afrikaanse landen schatten men de hoeveelheden zonne-, wind- en waterkracht. Deze bronnen zouden economische activiteit kunnen stimuleren, maar lokale gemeenschappen en overheden beschikken doorgaans niet over de middelen om in de benodigde infrastructuur te investeren die dit proces op gang brengt.
+> 
+> Buitenlanders en investeerders aarzelen om projecten te steunen die geen duidelijke weg naar duurzaamheid of winstgevendheid bieden. Zonder robuuste transmissielijnen om energie van de opwekkingspunten naar bevolkingscentra te transporteren, moeten energiecentralebouwers vaak jarenlang wachten voordat zij zonder buitenlandse subsidies rendabel kunnen opereren.
+> 
+> Hier kan Bitcoin de prikkelstructuur ingrijpend veranderen. Nieuwe energiecentrales, hoe afgelegen ook, kunnen direct inkomsten genereren – zelfs zonder transmissielijnen – door hun energie in te zetten voor het Bitcoin-netwerk en zonlicht, water of wind om te zetten in geld.
+> 
+> Wanneer lokale autoriteiten of klanten geleidelijk via de energiecentrale worden aangesloten en bereid zijn meer te betalen voor de energie dan momenteel door mijnwerkers kan worden afgenomen, daalt de Bitcoin-belasting en krijgen gemeenschappen de kans om te groeien. Zo ontstaat er ruimte voor economische activiteiten en de ontwikkeling van hernieuwbare netwerken via Bitcoin-mijnbouw. Internationale hulp kan deze ontwikkeling verder stimuleren.[^384]
+
+Ross Stevens, oprichter en CEO van alternatieve vermogensbeheerder *Stone Ridge*, presenteerde in 2020 een interessante kijk op het energieverbruik van Bitcoin. Hij stelde dat Bitcoin-mijnbouw de eerste winstgevende toepassing van energie in de menselijke geschiedenis is die niet per se in de nabijheid van menselijke nederzettingen hoeft plaats te vinden. Bitcoin-mijnbouw kan immers vlakbij onbenutte energiebronnen opereren, wat de aanleg van infrastructuur bevordert en mensen stimuleert zich in die omgeving te vestigen. Zoals hij in zijn aandeelhoudersbrief van december 2020 schreef:
+
+> Bitcoin kan overal ter wereld geïsoleerde energiebronnen rendabel maken. Watervallen, stromende rivieren of te bouwen dammen blijven nu onbenut, omdat het te duur is ze aan te sluiten op elektriciteitsnetwerken in woon- of industriegebieden.
+
+> Met Bitcoin kan de energiewereld ingrijpend veranderen door een zeer winstgevende toepassing van elektriciteit te introduceren die niet gebonden is aan een specifieke locatie. De wereld heeft nog nooit een winstgevende toepassing van energie gekend die locatieonafhankelijk is. Nu wel. En aangezien fossiele brandstoffen al te duur zijn als energieleverancier voor Bitcoin-mijnbouw, geloof ik dat op de lange termijn alleen mijnbouw die door waterkracht wordt aangedreven economisch rendabel zal zijn.
+
+> Stel je een toekomst voor waarin Bitcoin-mijnbedrijven op zeer afgelegen locaties zonder subsidies actief zijn – denk aan een waterval in een grotendeels onbewoond Afrikaans gebied dat kampt met extreme armoede – die eenvoudig met het Bitcoin-netwerk verbonden zijn, terwijl er serieuze energie-infrastructuur wordt aangelegd om de lokale, schone energiebron te benutten voor mijnbouw. Zodra de rendabele industriële infrastructuur staat, breiden we die uit. We leggen wegen aan, bouwen woningen, scholen en ziekenhuizen. Uiteindelijk leidt dit tot menselijke vestiging.
+
+> Het uiteindelijke resultaat kan zijn dat mensen zich rondom nieuwe, door Bitcoin aangedreven waterkrachtinstallaties vestigen, waarbij steeds meer mensen kiezen voor concentratie rond goedkope, schone energiebronnen. Historisch gezien luidde onze energie-uitdaging: de stroom naar de mensen brengen. Met Bitcoin verplaatsen we de mensen naar de stroom.[^385]
+
+In 2022 werd deze visie in Afrika werkelijkheid. Een bedrijf genaamd Gridless begon Bitcoin-mijnbouw in te zetten om de implementatie van kleinschalige waterkrachtcentrales langs rivieren in Oost-Afrika te stimuleren en ondersteunen. Op hun homepage omschrijven ze het als volgt:
+
+> Er is in heel Afrika een enorme vraag naar betrouwbare, schone en betaalbare energie, maar kleinschalige mini-grids hebben moeite duurzaam te opereren. Gridless werkt samen met landelijke, hernieuwbare mini-grid energieopwekkers om hun volledige productiecapaciteit te benutten als 'laatste redmiddel'. Daarnaast treden zij op als ankerhuurders voor de aanleg van nieuwe energievoorzieningen.[^386]
+
+Dit maakt de uitvoering van energieprojecten in Afrika veiliger en economisch aantrekkelijker voor ontwikkelaars, waardoor initiatieven daadwerkelijk gerealiseerd worden in plaats van in de ontwikkelingsfase te blijven steken. Eind 2022 haalde het bedrijf $2 miljoen op aan durfkapitaal om de uitbreiding van hun activiteiten te financieren. Zoals *Bitcoin Magazine* meldde:
+
+> In hun eerste jaar van operatie startte Gridless vijf experimentele projecten in samenwerking met HydroBox, een Afrikaans waterkrachtenergiebedrijf, op afgelegen locaties in Kenia. Drie van deze pilots draaien inmiddels. Gridless financiert de bouw en neemt de exploitatie van de datacenters in deze landelijke gemeenschappen op zich. Het bedrijf richt zich nu op uitbreiding naar andere regio’s in Oost-Afrika.[^387]
+
+De op Bitcoin gerichte ondernemer Obi Nwosu noemde deze locaties in 2022 'frontier towns', waarmee hij verwees naar de steden die in de 19e eeuw rondom goudmijngebieden ontstonden, toen mensen zich westwaarts in Noord-Amerika vestigden. Bitcoinmijnbouw kan de productie stimuleren van anders onbenutte energiebronnen, zoals kleine rivieren, en maakt microgrids economisch haalbaar. Zodra deze energiebronnen ontwikkeld zijn, krijgen mensen de kans er te komen wonen en werken: eerst de medewerkers van de energie- of datacenters, daarna hun gezinnen en uiteindelijk de ondersteunende diensten, wat uitgroeit tot volwaardige dorpen. Met een operationele microgrid kan het gebied productiever en welvarender worden, waardoor mensen meer apparaten aanschaffen, meer energie verbruiken en een hogere levensstandaard genieten.
+
+## Technologie ten gunste van energie
+
+De meeste mensen beseffen niet dat energie niet uitwisselbaar is. Dit geldt voor bepaalde soorten koolwaterstoffen, zoals afgelegen aardgas, maar vooral voor elektrische stroom. Elektrische stroom wordt op een bepaald moment en op een specifieke plaats opgewekt en kan niet ver getransporteerd worden zonder grote verliezen. Sommige variabele energiebronnen, zoals zonnepanelen en windturbines, leveren op bepaalde momenten overtollige elektriciteit, die vervolgens als warmte verloren gaat. Altijd-aan energiebronnen zoals waterkrachtcentrales ervaren vaak een te geringe lokale vraag, of de vraag geeft wisselvalligheden, waardoor ook die productie verloren gaat. Men gaat er vaak van uit dat iedere geproduceerde eenheid elektriciteit nuttig wordt benut en dat elke nieuwe energievraag direct moet concurreren met bestaande vraag. Zoals in dit hoofdstuk wordt uitgelegd, gaat immers een aanzienlijk deel van de opgewekte elektriciteit verloren omdat er geen flexibele koper is die bereid is de marginale kosten ervoor te betalen.
+
+Toen de tractor werd uitgevonden, kon één persoon het werk verzetten waarvoor vroeger een dozijn mensen nodig was. Tractors verbruiken echter extra energie in de vorm van koolwaterstoffen. Als we uitsluitend naar het externe energieverbruik kijken, lijkt de landbouw hiermee energie-intensiever te worden dan traditionele handarbeid. Maar nader bekeken vervangt dit energieverbruik de calorische inspanning van de boeren, waardoor zij meer tijd en energie overhouden voor andere productieve taken.
+
+Net als andere technologieën verbruikt Bitcoin energie. Dankzij dit energieverbruik kan het op een gedecentraliseerde en geautomatiseerde manier een wereldwijd grootboek bijwerken en onderhouden, in tegenstelling tot de huidige bankgrootboeken die afhankelijk zijn van centrale en vaak handmatige processen, gebaseerd op vertrouwen. In tegenstelling tot proof-of-stake netwerken werkt Bitcoin op een wijze die het concept van onvervalsbare kosten behoudt. Dit betekent dat, zelfs als het netwerk tijdelijk stilvalt, de geschiedenis van het grootboek niet vervalst of ter discussie kan worden gesteld. Met andere woorden, Bitcoin zet energie in om de benodigde governance te minimaliseren. Wordt een digitaal inheems monetair netwerk zoals Bitcoin breder geaccepteerd, dan hoeft de traditionele financiële sector niet zo omvangrijk en hulpbronnenintensief te blijven als nu.
+
+Start-upbedrijven die in dit hoofdstuk worden genoemd, lopen risico's en kunnen daardoor mislukken. Veel start-ups gaan over meerdere jaren failliet.
+
+Hoewel specifieke bedrijven komen en gaan, biedt de nieuwe manier waarop het netwerk energie verbruikt tal van interessante mogelijkheden. De wereld heeft nog nooit zo'n flexibele energiegebruiker gekend, zowel wat betreft de locatie als de variabiliteit van de energie. Als het Bitcoinnetwerk blijft groeien en energie blijft verbruiken, kunnen diverse inefficiënties in onze huidige energieproductie gestabiliseerd en economisch benut worden. Bovendien kunnen verschillende bronnen van schone energie, die anders ver van menselijke nederzettingen zouden liggen, winstgevend worden aangeboord, waardoor mensen gestimuleerd worden om naar die gebieden te verhuizen.
+
+[^363]: Adam Jezard, *In 2020 Bitcoin Will Consume More Power Than the World Does Today*, World Economic Forum, 15 december 2017.
+
+[^364]: Anthony Cuthbertson, *Bitcoin Mining on Track to Consume All of the World's Energy by 2020*, Newsweek, 11 december 2017.
+
+[^365]: Dit hoofdstuk put uit Alden, *Bitcoin's Energy Usage*.
+
+[^366]: Rachel Rybarczyk et al., *On Bitcoin's Energy Consumption*, 4.
+
+[^367]: Nic Carter, *Debunking 'Bitcoin Wastes Energy'*, 14:14–17:20.
+
+[^368]: Carter, *Debunking*, 9:10–11:47.
+
+[^369]: Carter, *An Interesting Externality*.
+
+[^370]: Carter, *Imagine a 3D Topographic Map*.
+
+[^371]: Marty Bent, persoonlijke correspondentie. Geciteerd in Alden, *Bitcoin's Energy Usage*.
+
+[^372]: Gian Volpicelli, *This is the True Scale of China's Bitcoin Exodus*, Wired, 13 oktober 2021.
+
+[^373]: Bijv. Akhtar en Shukla, *China Makes a Comeback*.
+
+[^374]: World Bank, *Global Gas Flaring Data*.
+
+[^375]: Cambridge Centre for Alternative Finance, *Cambridge Bitcoin Electricity Consumption Index*.
+
+[^376]: Vespene Energy, *Vespene Energy Closes $4.3 Million Funding Round*, Cision, 9 augustus 2022.
+
+[^377]: Beschikbaar via <https://vespene.energy/>
+
+[^378]: Vaclav Smil, *How the World Really Works*, 27-43.
+
+[^379]: Harry Sudock, *The Truth About Bitcoin's Energy*, What Bitcoin Did, 16 juni 2021: 30:28–32:59.
+
+[^380]: Sudock, *Bitcoin's Energy*, 5:44–7:34.
+
+[^381]: Xinyi Luo, *Bitcoin Miners Offered Way to Cut Texas Electricity Usage to Help the Grid*, CoinDesk, 6 december 2022; Deniz Saat, *Japan's Largest Power Company Will Mine Bitcoin with Excess Energy*, BTC Times, 14 december 2022.
+
+[^382]: Satoshi Nakamoto, *Re: Bitcoin Minting is Thermodynamically Perverse*, BitcoinTalk forum, 9 augustus 2010.
+
+[^383]: U.S. Energy Information Administration, *Hydropower Explained*.
+
+[^384]: Alex Gladstein, *The Humanitarian and Environmental Case for Bitcoin*, Bitcoin Magazine, 26 mei 2021.
+
+[^385]: Ross Stevens, *2020 Shareholder Letter*.
+
+[^386]: Beschikbaar via <https://gridlesscompute.com/>
+
+[^387]: BTCCasey, *African Bitcoin Mining Firm Gridless Raises $2 Million In Funding Round Led by Stillmark, Block Inc*, Bitcoin Magazine, 6 december 2022.

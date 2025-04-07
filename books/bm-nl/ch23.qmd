@@ -1,0 +1,98 @@
+# Het Lightningnetwerk
+
+Op dit moment vormt het Lightningnetwerk de belangrijkste laag die op de basislaag van Bitcoin is gebouwd. Dit netwerk bestaat uit een reeks smart contract-kanalen die bovenop de basislaag functioneren.
+
+Betalingen door individuele consumenten verlopen verstandiger via kanalen, in plaats van dat alle transacties wereldwijd gedeeld worden. Net zoals bij een fysieke contante transactie in persoon – waarbij je niet hardop je betaling bekendmaakt zodat iedereen het mee hoort – bootst Lightning dit contante concept na op Bitcoin's basislaag. Dit werd mogelijk gemaakt door de soft fork SegWit in 2017.
+
+Het resultaat is een wereldwijd betalingssysteem dat aanzienlijk sneller, schaalbaarder, goedkoper en privater is, al gaat dit wel gepaard met enkele compromissen en beperkingen in vergelijking met directe Bitcoin-transacties.
+
+Betalen via kanalen voor Bitcoin werd al in de beginfase van het netwerk bedacht. In 2015 werd het oorspronkelijk witboek over het Lightningnetwerk geschreven en begin 2018 verschenen de eerste implementaties voor gebruik met echte bitcoin, enkele maanden na de activering van de SegWit-update.[^347] Ontwikkelaars beperkten in de beginjaren opzettelijk de grootte van hun kanalen, om voorzichtig te groeien en dingen veilig uit te testen.
+
+Het netwerk functioneert en groeit sindsdien steeds verder. Eind 2020 bereikte het een niveau van liquiditeit, bruikbaarheid en kritische massa dat macro-economisch gezien bijzonder interessant voor mij werd. Vanaf dat moment nam ik het in mijn onderzoek op, en in de daaropvolgende jaren is het netwerk snel blijven groeien.[^348]
+
+## De beperkingen van uitzendnetwerken
+
+Het benutten van een uitzendnetwerk om bijvoorbeeld elke ochtend onderweg naar je werk een koffie te kopen, werkt op grote schaal niet goed. Een blockchain is bedoeld als een ongewijzigd openbaar grootboek. Moet je echt elke koffietransactie uitzenden naar tienduizenden nodes wereldwijd, zodat deze vervolgens permanent in een gedistribueerde database wordt opgeslagen?
+
+Stel je voor dat elke e-mail die over het internet wordt verzonden, gekopieerd en opgeslagen zou moeten worden op de server van iedereen – niet alleen bij de ontvanger. Zelfs als we de privacykwesties konden oplossen door de e-mails te anonimiseren, blijft dit buitengewoon inefficiënt. Toch proberen diverse blockchains met hoge verwerkingscapaciteit en grote nodes met geld op deze wijze te werken.
+
+Wat als je in plaats daarvan een kanaal opent bovenop het uitzendnetwerk, waarmee je betalingen verricht voor transacties waarvan alleen jij en de handelaar op de hoogte zijn, en het kanaal daarna sluit zonder dat er een permanent openbaar register van die individuele betalingen ontstaat?
+
+Als een netwerk de doorvoersnelheid van transacties probeert op te schalen door de blokgrootte en/of bloktijd drastisch te vergroten, gaat dit ten koste van de decentralisatie. De vereisten voor nodes worden dan extreem hoog, waardoor het netwerk verandert in een gecentraliseerde database met slechts enkele enorme nodes. Grote ondernemingen die deze nodes beheren, zouden te allen tijde fundamentele systeemregels kunnen aanpassen, wat het censureren van transacties vergemakkelijkt. Ook de privacy lijdt hieronder, doordat diverse entiteiten je vermogen en betalingsgeschiedenis kunnen volgen – wat in een vredige samenleving al gevoelig is, en in autoritaire regimes desastreuze gevolgen kan hebben.
+
+Daarbovenop verloopt een transactie via een kanaal vrijwel altijd sneller dan een transactie die wordt uitgezonden, omdat laatstgenoemde inherent een bepaalde tijd nodig heeft om door een uitzendnetwerk te reizen – zelfs bij blockchains met de snelste bloktijden.
+
+Elke blockchain die probeert te veel transacties op de basislaag te verwerken binnen één gedeelde, wereldwijde staat, is daarmee fundamenteel gebrekkig. Munten zoals Bitcoin Cash, Bitcoin Satoshi Vision, Litecoin, Dogecoin en dergelijke raken te gecentraliseerd doordat zij te veel compromissen sluiten op het gebied van schaalbaarheid en privacy – een benadering die technisch gezien niet houdbaar is.
+
+De enige zinvolle manier om op te schalen zonder de decentralisatie op te offeren, is door een gelaagde aanpak te hanteren. Zoals in de vorige sectie al werd aangetoond, kunnen gebruikers dan kiezen voor de laag of lagen die het beste passen bij hun specifieke behoeften.
+
+## Het Lightningnetwerk: een basisuitleg
+
+Stel je voor dat je met vrienden een lange avond in een chique restaurant doorbrengt. In plaats van voor elk gerecht of drankje afzonderlijk af te rekenen, noteert het restaurant alles wat je bestelt gedurende de avond en betaal je aan het einde in één grote rekening. Dit vereist natuurlijk enig vertrouwen van het restaurant in jouw betalingscapaciteit.
+
+Stel je nu voor dat het restaurant in plaats daarvan jouw creditcardgegevens opneemt aan het begin van de maaltijd en alle bestellingen aan je rekening toevoegt. Aan het einde van de avond ontvang je de rekening, teken je deze en wordt vervolgens je creditcard belast.
+
+Op deze manier hebben jij en het restaurant een betalingskanaal geopend. Er zijn twee momenten van frictie: één bij het openen van het kanaal en één bij het sluiten ervan, maar gedurende de tijd daartussen hoef je geen afzonderlijke betalingen te verrichten voor elk gerecht of drankje – je bestelt gewoon en alles wordt geleverd.
+
+In theorie werkt het Lightningnetwerk op dezelfde manier, maar zonder krediet. Ik kan via een Bitcoin-transactie op de basislaag een kanaal met jou openen. Dit kanaal is een 2-van-2 multi-handtekeningkanaal met een ingebouwde tijdslimiet. Dit betekent dat we allebei ons akkoord moeten geven om het kanaal te openen, maar dat ieder van ons het eenzijdig kan sluiten wanneer dat nodig of gewenst is – al is het natuurlijk efficiënter om dit samen te doen. Terwijl het kanaal openstaat, kunnen we onbeperkt transacties uitvoeren – mits er voldoende liquiditeit is – totdat één van ons of beiden besluiten het kanaal te sluiten middels een Bitcoin-transactie op de basislaag.
+
+In tegenstelling tot een restaurantrekening is een Lightningkanaal niet gebaseerd op krediet. Het geld wordt immers vastgezet in het kanaal op het moment van opening, en de regels worden gehandhaafd door de gedecentraliseerde, wereldwijde software. Transacties binnen het kanaal worden binnen enkele seconden bijgewerkt, en het lopende saldo kan worden bevestigd door het kanaal op te sluiten via een transactie op de basislaag, waarbij beide partijen hun actuele saldo ontvangen. Er is dus geen sprake van schuld of een belofte om later te betalen – het is alsof je direct geld overmaakt naar het rekeningnummer van het restaurant telkens wanneer je iets bestelt. De enige indirecte vorm van krediet is dat er een beperking zit aan het aantal kanalen dat binnen een bepaalde tijd kan worden gesloten, vanwege de beperkte blokruimte op Bitcoin; dit betekent dat niet elk Lightningkanaal onmiddellijk kan worden gesloten. Bovendien zijn er on-chain transactiekosten verbonden aan het sluiten van een Lightningkanaal.
+
+Laten we dit verder uitwerken. Stel dat Alice een rekening heeft lopen bij het restaurant en Bob, aan een andere tafel, dat ook. Als Bob na zijn maaltijd zonder geld is en snel een Uber nodig heeft om naar huis te komen, kan hij het restaurant vragen om geld van Alice's rekening over te maken naar Bob – of andersom, ook al kennen Alice en Bob elkaar niet en hebben zij geen direct kanaal met elkaar. Wat hen beide verbindt, is dat zij allebei een betalingskanaal met het restaurant hebben geopend.
+
+Het Lightningnetwerk werkt volgens dit principe, maar op grotere schaal en zonder krediet. In Figuur 23-A is een voorbeeld te zien: als gebruiker A een betaling naar gebruiker P wil versturen, kan dit via een route gaan van A naar C, dan naar E, vervolgens via J en L, totdat de betaling P bereikt. Elke tussenliggende node kan daarbij een minimale routeervergoeding vragen – vaak slechts een fractie van een cent – omdat deze vergoedingen eenvoudig geautomatiseerd kunnen worden. Hierbij is het niet nodig om een direct kanaal met gebruiker P op te zetten.
+
+![Netwerk van nodes](/figures/23-A.png){width=100%}
+
+Doordat het Lightningnetwerk gebruikmaakt van onion routing, hoeven de tussenliggende nodes niet per se te weten waar de betaling vandaan komt of naartoe gaat. Node J ontvangt bijvoorbeeld alleen de instructie om een betaling van E door te sturen naar L, zonder onnodige bijkomende informatie.
+
+Het resultaat is dat één enkele basistransactie om een kanaal te openen, je toegang biedt tot talrijke individuele betalingen aan diverse entiteiten. Hierdoor kan Bitcoin op grote schaal worden opgeschaald.
+
+Stel je een wereldwijd systeem voor met een overweldigend aantal onderling verbonden Lightningnodes. Iedereen kan het netwerk betreden door een eigen node op te zetten en kanalen te openen. Tegelijkertijd bieden veel bewaardiensten hun gebruikers de mogelijkheid om via hun eigen nodes en kanalen toegang tot het netwerk te verkrijgen.
+
+Dankzij de efficiëntie van het netwerk bedragen de transactiekosten vaak slechts één cent of minder, wat het mogelijk maakt om microtransacties en frequente machine-naar-machine betalingen uit te voeren. Kunstmatige intelligentie-programma's kunnen een bitcoin wallet, Chaumian e-cash tokens (gerelateerd aan Bitcoin) of een Lightningkanaal – allemaal permissieloos en open source – veel eenvoudiger beheren dan een traditionele bankrekening, die toestemming vereist en doorgaans closed source is. Een geavanceerd programma dat een reeks taken moet uitvoeren, kan bijvoorbeeld zelf een wallet genereren, bitcoins verdienen of ontvangen, en vervolgens bepalen dat het deze bitcoins op een productieve wijze moet besteden om de taak te voltooien. Dit kan bijvoorbeeld inhouden dat er extra cloud-gebaseerde rekenkracht wordt aangeschaft, of dat toegang tot bepaalde API's en datasets wordt gekocht. Gezien de vooruitgang in programmering is de reikwijdte van wat machines via betalingen voor elkaar kunnen krijgen nauwelijks in te schatten, en de snelheid en efficiëntie waarmee het Lightningnetwerk dit mogelijk maakt, zijn ongeëvenaard.
+
+Er is geen harde limiet aan de groei van het Lightningnetwerk en het aantal transacties per seconde – afgezien van de basistransacties die nodig zijn voor het openen en sluiten van kanalen. In de toekomst, met miljoenen open kanalen, kan het netwerk theoretisch een bijna onbeperkt aantal peer-to-peer transacties per seconde verwerken. Desalniettemin is er wel een bovengrens voor het aantal kanalen dat binnen een bepaalde tijd geopend of gesloten kan worden, afhankelijk van het aandeel van basislaagtransacties dat daarvoor benodigd is.[^349] Bovendien zouden toekomstige innovaties meer gebruikers in staat kunnen stellen om een kanaal gezamenlijk te delen, wat de schaalbaarheid aanzienlijk zou kunnen vergroten. Bewaardiensten – zowel traditionele als die met meer geautomatiseerde Chaumian mint e-cash technologie – maken het inmiddels mogelijk om met hetzelfde Lightningkanaal meerdere gebruikers te bedienen, zodat het netwerk opgeschaald kan worden tot miljarden gebruikers. Dit vereist echter wel het vertrouwen van de gebruikers.
+
+Peer-to-peer netwerken kennen weliswaar enige beperkingen – zeker in deze vroege ontwikkelingsfase – maar dit type netwerk is bijzonder geschikt voor betalingen. Peer-to-peer kanalen werken beter dan uitzendnetwerken voor kleine, individuele transacties of voor het verbinden van afzonderlijke betaalsystemen. Ze zijn snel, betaalbaar en bieden relatief goede privacy.
+
+Bovendien kan het netwerk micropayments verwerken die veel kleiner zijn dan hetgeen mogelijk is met traditionele betalingsnetwerken zoals Visa en Mastercard. Met Lightning kan een gebruiker betalingen versturen ter waarde van één cent of minder. Dit opent de deur naar nieuwe toepassingen die met creditcards niet haalbaar zijn, zoals snelle machine-naar-machine betalingen of het inzetten van micropayments als een middel om spam tegen te gaan.
+
+Al deze mogelijkheden – zowel via de basislaag als via de daarop geopende kanalen – zijn wereldwijd beschikbaar en vereisen geen toestemming, in tegenstelling tot traditionele systemen. Mensen kunnen dit gewoon gebruiken zonder dat zij daarvoor toestemming of goedkeuring van een bank of andere centrale autoriteit nodig hebben. Om dit te voorkomen, zouden overheden hun burgers actief moeten waarschuwen dat het illegaal is om bepaalde soorten onschadelijke, gratis en open source software te gebruiken die licht genoeg is om op een gewone laptop te draaien – en vervolgens moeten zij methodes bedenken om dit te handhaven.
+
+## Implementaties en applicaties
+
+Net zoals het Bitcoinnetwerk zelf wordt het Lightningnetwerk niet door één enkele entiteit beheerd.
+
+De basis van het netwerk is een overeenstemming over een minimaal protocol. Ontwikkelaars van Lightningnodes volgen dit protocol om samenwerking binnen het netwerk mogelijk te maken. Deze standaarden zijn vergelijkbaar met de basisnormen in e-mail of het internet, die de communicatie tussen verschillende toepassingen waarborgen. Zolang het netwerkeffect rond dit protocol sterk blijft, zullen deze normen standhouden.
+
+De software voor Lightningnodes wordt aangeduid als een Lightningimplementatie. Bedrijven zoals Lightning Labs, Blockstream, ACINQ en Block, Inc. ontwikkelen de vier belangrijkste implementaties die door diverse ontwikkelaars worden gebruikt. Uiteraard zijn er ook andere implementaties beschikbaar.
+
+Mocht je zelf de touwtjes in handen willen hebben, dan kun je zelf bepalen welke implementatie je gebruikt, een bestaande implementatie aanpassen, of zelfs je eigen implementatie helemaal vanaf nul opbouwen. Omdat het protocol open source is, bestaat er geen autoriteit die je kan verhinderen om je eigen Lightningimplementatie te bouwen en aan te sluiten op het netwerk.
+
+Op deze manier kunnen vele bedrijven de Lightningimplementaties integreren in gebruiksvriendelijke apps. De eindgebruiker maakt immers zelden direct gebruik van een Lightningimplementatie; hij of zij gebruikt eerder een mobiele app die verbinding met het netwerk verzorgt en waarbij de meeste technische details – waaronder die van de Lightningimplementatie – verborgen blijven.
+
+## Liquiditeit en netwerkeffecten
+
+Liquiditeit is de grootste beperkende factor voor een netwerk dat werkt met individuele routeringskanalen.
+
+Wanneer er slechts enkele honderden deelnemers actief zijn, kan het lastig zijn om een route te vinden die willekeurige nodes verbindt en voldoende liquiditeit biedt op elk kanaal om een betaling af te handelen. Veel betalingsroutes zullen daardoor mislukken; het geld verdwijnt niet, maar de transactie wordt simpelweg niet in gang gezet. Dit beperkt het netwerk en gaat ten koste van de gebruikerservaring.
+
+Bij een toename naar tienduizenden, honderdduizenden of zelfs miljoenen deelnemers – en met hogere gemiddelde kanaalsaldi – zullen veel meer routes beschikbaar zijn tussen de meeste punten in het netwerk. Het wordt dan aanzienlijk eenvoudiger en betrouwbaarder om een betaling van het ene naar het andere punt te routeren.
+
+Binnen het Lightningnetwerk geldt de regel dat hoe groter het bedrag dat je wilt versturen, hoe uitdagender het wordt om een reeks kanalen te vinden met voldoende liquiditeit om die betaling te verwerken. Een bedrag van 25 dollar versturen is vaak eenvoudig – de software hoeft slechts een keten van onderling verbonden nodes te vinden waarbij elk kanaal ten minste 25 dollar aan liquiditeit in de gewenste richting biedt. Daarentegen is het veel lastiger om een betaling van 2.500 dollar naar veel bestemmingen te sturen, omdat er minder kanalen met die hoge liquiditeit beschikbaar zijn. Dit kan ertoe leiden dat je betaling opgesplitst moet worden en parallel via meerdere routes verzonden wordt, wat betekent dat er meerdere mogelijke verbindingen tussen jouw node en de doelnode aanwezig moeten zijn. Bovendien beschikt de doelnode mogelijk niet over voldoende totale inkomende liquiditeit om een betaling van die omvang te ontvangen.
+
+Kortom, hoe meer kanalen er zijn en hoe groter hun saldi, hoe betrouwbaarder het wordt om ook grotere betalingen te routeren.
+
+Door deze dynamiek kon het Lightningnetwerk niet direct perfect functioneren, zoals het simpelweg aansteken van een lichtschakelaar. Het moest jarenlang met veel inspanning kanaal na kanaal worden opgebouwd. De allereerste gebruikers waren ontwikkelaars en vroege aanhangers met een sterk geloof in het systeem, die zich een weg baanden door een lastig te hanteren netwerk. Pas na jarenlang werk werd het relevant voor de doorsnee gebruiker die simpelweg goedkope en snelle betalingen wilde verrichten.
+
+Er moesten tools worden ontwikkeld om node-operators te ondersteunen bij het optimaliseren van hun liquiditeitsbeheer. Hoewel deze hulpmiddelen inmiddels zijn verbeterd, is er nog steeds ruimte voor verdere verfijning. Daarbij blijkt dat de kwaliteit van liquiditeit belangrijker kan zijn dan de pure hoeveelheid binnen een kanaalnetwerk. Metingen zoals de 'Bos Score' beoordelen nodes niet enkel op basis van grootte, maar ook op factoren als leeftijd, uptime, de nabijheid van andere betrouwbare nodes en andere indicatoren voor betrouwbaarheid. Zoals Elizabeth Stark van Lightning Labs het omschreef, is de Bos Score een combinatie van Google's PageRank en Moody's kredietbeoordelingen.[^350]
+
+Tot nu toe heeft Lightning het Bitcoinnetwerk aanzienlijk verbeterd doordat het gebruikers in staat stelt om veel snellere betalingen te verrichten, met behoud van de beveiliging van de onderliggende Bitcoin-basislaag. Ik verwacht dat dit systeem zich verder zal blijven ontwikkelen en dat aanvullende protocollen, zoals Fedimint, in de loop der tijd de gebruiksvriendelijkheid van het Lightningnetwerk voor niet-technische gebruikers verder zullen verbeteren.
+
+In de toekomst zullen we waarschijnlijk ontdekken welke aanvullende lagen en schalingsmethoden worden ontwikkeld en wijd geaccepteerd raken om een breder scala aan toepassingen te ondersteunen.
+
+[^347]: Joseph Poon en Thaddeus Dryja, *The Bitcoin Lightning Network: DRAFT Version 0.5*. Zie ook Poon en Dryja, *The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments*, dat vaak wordt beschouwd als het officiële Lightning-whitepaper.
+[^348]: Zie bijvoorbeeld Lyn Alden, *Analyzing Bitcoin's Network Effect*.
+[^349]: Bobby Shell, *How Many Transactions Can the Lightning Network Handle?*
+[^350]: Lyn Alden, *A Look at the Lightning Network*.

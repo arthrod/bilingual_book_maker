@@ -8,5 +8,6 @@ BOOK_LOADER_DICT = {
     "txt": TXTBookLoader,
     "srt": SRTBookLoader,
     "md": MarkdownBookLoader,
+    "qmd": MarkdownBookLoader,
     # TODO add more here
 }
