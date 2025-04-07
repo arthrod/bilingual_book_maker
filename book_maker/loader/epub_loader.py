@@ -17,6 +17,7 @@ from book_maker.utils import num_tokens_from_text, prompt_config_to_kwargs
 
 from .base_loader import BaseBookLoader
 from .helper import EPUBBookLoaderHelper, is_text_link, not_trans
+import fickling
 
 
 class EPUBBookLoader(BaseBookLoader):
@@ -560,7 +561,7 @@ class EPUBBookLoader(BaseBookLoader):
     def load_state(self):
         try:
             with open(self.bin_path, "rb") as f:
-                self.p_to_save = pickle.load(f)
+                self.p_to_save = fickling.load(f)
         except Exception:
             raise Exception("can not load resume file")
 
