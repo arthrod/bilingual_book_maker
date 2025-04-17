@@ -109,7 +109,7 @@ class ChatGPTAPI(Base):
     def create_messages(self, text, intermediate_messages=None):
         content = self.prompt_template.format(
             text=text, language=self.language, crlf="\n"
-        )
+        ) if "{language}" in self.prompt_template else self.prompt_template.format(text=text, crlf="\n")
 
         sys_content = self.system_content or self.prompt_sys_msg.format(crlf="\n")
         messages = [
@@ -134,8 +134,8 @@ class ChatGPTAPI(Base):
             )
         return messages
 
-    def create_chat_completion(self, text):
-        messages = self.create_messages(text, self.create_context_messages())
+    def create_chat_completion(self, messages):
+        
         completion = self.openai_client.chat.completions.create(
             model=self.model,
             messages=messages,
@@ -143,18 +143,31 @@ class ChatGPTAPI(Base):
         )
         return completion
 
-    def get_translation(self, text):
+    def get_translation(self, text, needprint=True):
         self.rotate_key()
         self.rotate_model()  # rotate all the model to avoid the limit
-
-        completion = self.create_chat_completion(text)
+        
+        messages = self.create_messages(text, self.create_context_messages())
+        completion = self.create_chat_completion(messages)
 
         # TODO work well or exception finish by length limit
         # Check if content is not None before encoding
-        if completion.choices[0].message.content is not None:
-            t_text = completion.choices[0].message.content.encode("utf8").decode() or ""
-        else:
-            t_text = ""
+        t_text = ""
+        max_len_retry= 2
+        for len_retry in range(max_len_retry):
+            cur_content = completion.choices[0].message.content
+            cur_content = re.sub(r'<think>.*?</think>','',cur_content,flags=re.S) #r1-like things
+            if cur_content is not None:
+                t_text += cur_content.encode("utf8").decode() or ""
+            else:
+                break
+            if completion.choices[0].finish_reason != "length":
+                break
+            if needprint:
+                _comp_len_info = f"completion_tokens: {completion.usage.completion_tokens}" if completion.usage.completion_tokens else f"len(completion): {len(cur_content)}"
+                print(f"[bold red]Imcompleted translation due to length at Attempt {len_retry+1}; {_comp_len_info}[/bold red]")
+            messages+=[{"role": "assistant","content": cur_content},{"role": "user", "content": "继续"}]
+            completion = self.create_chat_completion(messages)
 
         if self.context_flag:
             self.save_context(text, t_text)
@@ -174,10 +187,10 @@ class ChatGPTAPI(Base):
         start_time = time.time()
         # todo: Determine whether to print according to the cli option
         if needprint:
-            print(re.sub("\n{3,}", "\n\n", text))
+            print(re.sub("\n{3,}", "\n\n", text).replace('[/','').replace(r'[\\',''))
 
         attempt_count = 0
-        max_attempts = 3
+        max_attempts = 30
         t_text = ""
 
         while attempt_count < max_attempts:
@@ -189,7 +202,7 @@ class ChatGPTAPI(Base):
                 # 1. openai server error or own network interruption, sleep for a fixed time
                 # 2. an apikey has no money or reach limit, don`t sleep, just replace it with another apikey
                 # 3. all apikey reach limit, then use current sleep
-                sleep_time = int(60 / self.key_len)
+                sleep_time = int(10 / self.key_len)
                 print(e, f"will sleep {sleep_time} seconds")
                 time.sleep(sleep_time)
                 attempt_count += 1
@@ -197,12 +210,18 @@ class ChatGPTAPI(Base):
                     print(f"Get {attempt_count} consecutive exceptions")
                     raise
             except Exception as e:
-                print(str(e))
-                return
+                sleep_time = 5+5*attempt_count
+                print(str(e), f"will sleep {sleep_time} seconds")
+                time.sleep(sleep_time)
+                attempt_count += 1
+                if attempt_count == max_attempts:
+                    print(f"Get {attempt_count} consecutive exceptions")
+                    return
+
 
         # todo: Determine whether to print according to the cli option
         if needprint:
-            print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text) + "[/bold green]")
+            print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text).replace('[/','').replace(r'[\\','') + "[/bold green]")
 
         time.time() - start_time
         # print(f"translation time: {elapsed_time:.1f}s")
@@ -221,7 +240,7 @@ class ChatGPTAPI(Base):
         new_str,
         sleep_dur,
         result_list,
-        max_retries=15,
+        max_retries=20,
     ):
         if len(result_list) == plist_len:
             return result_list, 0
