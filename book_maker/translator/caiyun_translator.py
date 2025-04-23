@@ -49,7 +49,7 @@ class Caiyun(Base):
             self.api_url,
             data=json.dumps(payload),
             headers=self.headers,
-        )
+        timeout=60)
         try:
             t_text = response.json()["target"]
         except Exception as e:
@@ -62,7 +62,7 @@ class Caiyun(Base):
                 self.api_url,
                 data=json.dumps(payload),
                 headers=self.headers,
-            )
+            timeout=60)
             t_text = response.json()["target"]
 
         print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text) + "[/bold green]")
