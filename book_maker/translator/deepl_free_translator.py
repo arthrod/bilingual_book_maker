@@ -1,5 +1,4 @@
 import time
-import random
 import re
 
 from book_maker.utils import LANGUAGES, TO_LANGUAGE_CODE
@@ -7,6 +6,7 @@ from book_maker.utils import LANGUAGES, TO_LANGUAGE_CODE
 from .base_translator import Base
 from rich import print
 from PyDeepLX import PyDeepLX
+import secrets
 
 
 class DeepLFree(Base):
@@ -62,6 +62,6 @@ class DeepLFree(Base):
         print(text)
         t_text = str(PyDeepLX.translate(text, "EN", self.language))
         # spider rule
-        time.sleep(random.choice(self.time_random))
+        time.sleep(secrets.choice(self.time_random))
         print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text) + "[/bold green]")
         return t_text
