@@ -218,24 +218,17 @@ def _load_crypto_libcrypto():
         raise ENCRYPTIONError("libcrypto not found")
     libcrypto = CDLL(libcrypto)
 
-    AES_MAXNR = 14
-
     POINTER(c_char_p)
     POINTER(c_int)
 
     class AES_KEY(Structure):
         _fields_ = [("rd_key", c_long * (4 * (AES_MAXNR + 1))), ("rounds", c_int)]
 
-    AES_KEY_p = POINTER(AES_KEY)
-
     def F(restype, name, argtypes):
         func = getattr(libcrypto, name)
         func.restype = restype
         func.argtypes = argtypes
         return func
-
-    AES_set_decrypt_key = F(c_int, "AES_set_decrypt_key", [c_char_p, c_int, AES_KEY_p])
-    AES_ecb_encrypt = F(None, "AES_ecb_encrypt", [c_char_p, c_char_p, AES_KEY_p, c_int])
 
     class AES:
         def __init__(self, userkey) -> None:
@@ -509,10 +502,8 @@ class KoboLibrary:
         for f in os.listdir(self.bookdir):
             if f not in self._volumeID:
                 row = self.__cursor.execute(
-                    "SELECT Title, Attribution, Series FROM content WHERE ContentID = '"
-                    + f
-                    + "'",
-                ).fetchone()
+                    "SELECT Title, Attribution, Series FROM content WHERE ContentID = ?",
+                (f, )).fetchone()
                 if row is not None:
                     fTitle = row[0]
                     self._books.append(
