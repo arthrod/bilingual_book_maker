@@ -33,7 +33,8 @@ dependencies = [
     "google-genai",
     "loguru",
     "httpx",
-    "aiohttp"
+    "aiohttp",
+    "fickling>=0.1.3,~=0.1.0"
 ]
 
 [project.scripts]
