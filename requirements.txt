@@ -55,7 +55,7 @@ openai==1.30.3
 packaging==24.0
 promptdown==0.9.0
 proto-plus==1.23.0
-protobuf==4.25.3
+protobuf==4.25.8
 pyasn1==0.6.0
 pyasn1-modules==0.4.0
 pycparser==2.22; platform_python_implementation != "CPython"
@@ -79,6 +79,6 @@ tokenizers==0.19.1
 tqdm==4.66.4
 typing-extensions==4.11.0
 uritemplate==4.1.1
-urllib3==2.2.1
+urllib3==2.5.0
 yarl==1.9.4
 zipp==3.18.1
