@@ -11,7 +11,7 @@ attrs==23.2.0
 backoff==2.2.1
 beautifulsoup4==4.12.3
 brotli==1.1.0; platform_python_implementation == "CPython"
-brotlicffi==1.1.0.0; platform_python_implementation != "CPython"
+brotlicffi==1.2.0.0; platform_python_implementation != "CPython"
 bs4==0.0.2
 cachetools==5.3.3
 certifi==2024.2.2
@@ -79,6 +79,6 @@ tokenizers==0.19.1
 tqdm==4.66.4
 typing-extensions==4.11.0
 uritemplate==4.1.1
-urllib3==2.2.1
+urllib3==2.6.0
 yarl==1.9.4
 zipp==3.18.1
