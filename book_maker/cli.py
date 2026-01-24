@@ -89,7 +89,7 @@ def parse_prompt_arg(prompt_arg):
         raise FileNotFoundError(f"{prompt_arg} not found")
 
     # if prompt is None or any(c not in prompt["user"] for c in ["{text}", "{language}"]):
-    if prompt is None or any(c not in prompt["user"] for c in ["{text}"]):
+    if prompt is None: # or any(c not in prompt["user"] for c in ["{text}"]):
         raise ValueError("prompt must contain `{text}`")
 
     if "user" not in prompt:
@@ -182,6 +182,14 @@ def main():
         dest="xai_key",
         type=str,
         help="You can get xAI Key from  https://console.x.ai/",
+    )
+
+    # for Qwen
+    parser.add_argument(
+        "--qwen_key",
+        dest="qwen_key",
+        type=str,
+        help="You can get Qwen Key from  https://bailian.console.aliyun.com/?tab=model#/api-key",
     )
 
     parser.add_argument(
@@ -352,7 +360,13 @@ So you are close to reaching the limit. You have to choose your own value, there
         "--temperature",
         type=float,
         default=1.0,
-        help="temperature parameter for `chatgptapi`/`gpt4`/`claude`/`gemini`",
+        help="temperature parameter for `chatgptapi`/`gpt4`/`gpt4omini`/`gpt4o`/`gpt5mini`/`claude`/`gemini`",
+    )
+    parser.add_argument(
+        "--source_lang",
+        type=str,
+        default="auto",
+        help="source language for translation models like `qwen` (default: auto-detect)",
     )
     parser.add_argument(
         "--block_size",
@@ -384,11 +398,18 @@ So you are close to reaching the limit. You have to choose your own value, there
         default=0.01,
         help="Request interval in seconds (e.g., 0.1 for 100ms). Currently only supported for Gemini models. Default: 0.01",
     )
+    parser.add_argument(
+        "--parallel-workers",
+        dest="parallel_workers",
+        type=int,
+        default=1,
+        help="Number of parallel workers for EPUB chapter processing. Use 2-4 for better performance. Default: 1",
+    )
 
     options = parser.parse_args()
 
     if not options.book_name:
-        print(f"Error: please provide the path of your book using --book_name <path>")
+        print("Error: please provide the path of your book using --book_name <path>")
         exit(1)
     if not os.path.isfile(options.book_name):
         print(f"Error: the book {options.book_name!r} does not exist.")
@@ -408,6 +429,7 @@ So you are close to reaching the limit. You have to choose your own value, there
         "gpt4",
         "gpt4omini",
         "gpt4o",
+        "gpt5mini",
         "o1preview",
         "o1",
         "o1mini",
@@ -453,6 +475,8 @@ So you are close to reaching the limit. You have to choose your own value, there
         API_KEY = options.groq_key or env.get("BBM_GROQ_API_KEY")
     elif options.model == "xai":
         API_KEY = options.xai_key or env.get("BBM_XAI_API_KEY")
+    elif options.model.startswith("qwen-"):
+        API_KEY = options.qwen_key or env.get("BBM_QWEN_API_KEY")
     else:
         API_KEY = ""
 
@@ -506,6 +530,8 @@ So you are close to reaching the limit. You have to choose your own value, there
         context_flag=options.context_flag,
         context_paragraph_limit=options.context_paragraph_limit,
         temperature=options.temperature,
+        source_lang=options.source_lang,
+        parallel_workers=options.parallel_workers,
     )
     # other options
     if options.allow_navigable_strings:
@@ -534,6 +560,7 @@ So you are close to reaching the limit. You have to choose your own value, there
             "gpt4",
             "gpt4omini",
             "gpt4o",
+            "gpt5mini",
             "o1",
             "o1preview",
             "o1mini",
@@ -548,7 +575,7 @@ So you are close to reaching the limit. You have to choose your own value, there
             e.translate_model.set_model_list(options.model_list.split(","))
         else:
             raise ValueError(
-                "When using `openai` model, you must also provide `--model_list`. For default model sets use `--model chatgptapi` or `--model gpt4` or `--model gpt4omini`",
+                "When using `openai` model, you must also provide `--model_list`. For default model sets use `--model chatgptapi` or `--model gpt4` or `--model gpt4omini` or `--model gpt5mini`",
             )
     # TODO refactor, quick fix for gpt4 model
     if options.model == "chatgptapi":
@@ -562,6 +589,8 @@ So you are close to reaching the limit. You have to choose your own value, there
         e.translate_model.set_gpt4omini_models()
     if options.model == "gpt4o":
         e.translate_model.set_gpt4o_models()
+    if options.model == "gpt5mini":
+        e.translate_model.set_gpt5mini_models()
     if options.model == "o1preview":
         e.translate_model.set_o1preview_models()
     if options.model == "o1":
@@ -572,6 +601,8 @@ So you are close to reaching the limit. You have to choose your own value, there
         e.translate_model.set_o3mini_models()
     if options.model.startswith("claude-"):
         e.translate_model.set_claude_model(options.model)
+    if options.model.startswith("qwen-"):
+        e.translate_model.set_qwen_model(options.model)
     if options.block_size > 0:
         e.block_size = options.block_size
     if options.batch_flag:

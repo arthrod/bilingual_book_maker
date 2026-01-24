@@ -9,7 +9,7 @@ The bilingual_book_maker is an AI translation tool that uses ChatGPT to assist u
 
 ## Supported Models
 
-gpt-4, gpt-3.5-turbo, claude-2, palm, llama-2, azure-openai, command-nightly, gemini
+gpt-5-mini, gpt-4, gpt-3.5-turbo, claude-2, palm, llama-2, azure-openai, command-nightly, gemini, qwen-mt-turbo, qwen-mt-plus
 For using Non-OpenAI models, use class `liteLLM()` - liteLLM supports all models above.
 Find more info here for using liteLLM: https://github.com/BerriAI/litellm/blob/main/setup.py
 
@@ -82,6 +82,18 @@ bbook --book_name test_books/animal_farm.epub --openai_key ${openai_key} --test
 
   ```shell
   python3 make_book.py --book_name test_books/animal_farm.epub --model gemini --gemini_key ${gemini_key}
+  ```
+
+* Qwen
+
+  Support Alibaba Cloud [Qwen-MT](https://bailian.console.aliyun.com/) specialized translation model. Supports 92 languages with features like terminology intervention and translation memory.
+  Use `--model qwen-mt-turbo` for faster/cheaper translation, or `--model qwen-mt-plus` for higher quality.
+
+  Use `source_lang` to specify the source language explicitly, or leave it empty for auto-detection.
+
+  ```shell
+  python3 make_book.py --book_name test_books/animal_farm.epub --qwen_key ${qwen_key} --model qwen-mt-turbo --language "Simplified Chinese"
+  python3 make_book.py --book_name test_books/animal_farm.epub --qwen_key ${qwen_key} --model qwen-mt-plus --language "Japanese" --source_lang "English"
   ```
 
 * [Tencent TranSmart](https://transmart.qq.com)
@@ -178,9 +190,9 @@ bbook --book_name test_books/animal_farm.epub --openai_key ${openai_key} --test
       
       ## Conversation
       
-      | Role  | Content                                           |
-      |-------|---------------------------------------------------|
-      | User  | Please translate the following text into {language}:\n\n{text} |
+      | Role | Content                                                        |
+      | ---- | -------------------------------------------------------------- |
+      | User | Please translate the following text into {language}:\n\n{text} |
       ```
 
   - You can also set the `user` and `system` role prompt by setting environment variables: `BBM_CHATGPTAPI_USER_MSG_TEMPLATE` and `BBM_CHATGPTAPI_SYS_MSG`.
@@ -202,6 +214,10 @@ bbook --book_name test_books/animal_farm.epub --openai_key ${openai_key} --test
 - `--context_paragraph_limit`:
 
   Use `--context_paragraph_limit` to set a limit on the number of context paragraphs when using the `--use_context` option.
+
+- `--parallel-workers`:
+
+  Use `--parallel-workers` to enable parallel EPUB chapter processing. Values greater than `1` spin up multiple workers (recommended: `2-4`) and automatically fall back to sequential mode for single-chapter books.
 
 - `--temperature`:
 
@@ -251,6 +267,9 @@ python3 make_book.py --book_name test_books/animal_farm.epub --openai_key ${open
 
 # Or translate the whole book using Gemini flash
 python3 make_book.py --book_name test_books/animal_farm.epub --gemini_key ${gemini_key} --model gemini
+
+# Translate an EPUB with parallel chapter processing
+python3 make_book.py --book_name test_books/animal_farm.epub --openai_key ${openai_key} --parallel-workers 4
 
 # Use a specific list of Gemini model aliases
 python3 make_book.py --book_name test_books/animal_farm.epub --gemini_key ${gemini_key} --model gemini --model_list gemini-1.5-flash-002,gemini-1.5-flash-8b-exp-0924
@@ -379,7 +398,7 @@ docker run --rm --name bilingual_book_maker --mount type=bind,source=/home/user/
 
 # Others better
 
-- 书译 iOS -> [AI 全书翻译工具](https://apps.apple.com/cn/app/%E4%B9%A6%E8%AF%91-ai-%E5%85%A8%E4%B9%A6%E7%BF%BB%E8%AF%91%E5%B7%A5%E5%85%B7/id6447665417)
+- 书译 BookTranslator -> [Book Translator](https://www.booktranslator.app)
 
 ## Appreciation
 

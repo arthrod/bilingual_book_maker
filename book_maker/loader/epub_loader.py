@@ -3,8 +3,11 @@ import pickle
 import string
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from copy import copy
 from pathlib import Path
+import traceback
+from threading import Lock
 
 from bs4 import BeautifulSoup as bs
 from bs4 import Tag
@@ -35,6 +38,8 @@ class EPUBBookLoader(BaseBookLoader):
         context_flag=False,
         context_paragraph_limit=0,
         temperature=1.0,
+        source_lang="auto",
+        parallel_workers=1,
     ):
         self.epub_name = epub_name
         self.new_epub = epub.EpubBook()
@@ -45,6 +50,7 @@ class EPUBBookLoader(BaseBookLoader):
             context_flag=context_flag,
             context_paragraph_limit=context_paragraph_limit,
             temperature=temperature,
+            source_lang=source_lang,
             **prompt_config_to_kwargs(prompt_config),
         )
         self.is_test = is_test
@@ -68,26 +74,79 @@ class EPUBBookLoader(BaseBookLoader):
         self.block_size = -1
         self.batch_use_flag = False
         self.batch_flag = False
+        self.parallel_workers = 1
+        self.enable_parallel = False
+        self._progress_lock = Lock()
+        self._translation_index = 0
+        self.set_parallel_workers(parallel_workers)
 
         # monkey patch for # 173
+    
         def _write_items_patch(obj):
+            def _fix_recursively(items):
+                if not items:
+                    return
+                work_list = items if isinstance(items, (list, tuple)) else [items]
+                for it in work_list:
+                    if hasattr(it, 'uid') and it.uid is None:
+                        it.uid = 'monkey_patch_dummy'
+                    if hasattr(it, 'id') and it.id is None:
+                        it.id = 'monkey_patch_dummy'
+                    if hasattr(it, 'children'):
+                        _fix_recursively(it.children)
+                    elif isinstance(it, (list, tuple)):
+                        _fix_recursively(it)
+        
+            if obj.book.toc:
+                try:
+                    _fix_recursively(obj.book.toc)
+                except Exception:
+                    pass
+        
             for item in obj.book.get_items():
-                if isinstance(item, epub.EpubNcx):
-                    obj.out.writestr(
-                        "%s/%s" % (obj.book.FOLDER_NAME, item.file_name), obj._get_ncx()
-                    )
-                elif isinstance(item, epub.EpubNav):
-                    obj.out.writestr(
-                        "%s/%s" % (obj.book.FOLDER_NAME, item.file_name),
-                        obj._get_nav(item),
-                    )
-                elif item.manifest:
-                    obj.out.writestr(
-                        "%s/%s" % (obj.book.FOLDER_NAME, item.file_name), item.content
-                    )
-                else:
-                    obj.out.writestr("%s" % item.file_name, item.content)
-
+                if hasattr(item, 'uid') and item.uid is None:
+                    item.uid = 'monkey_patch_dummy'
+                if hasattr(item, 'id') and item.id is None:
+                    item.id = 'monkey_patch_dummy'
+        
+            for item in obj.book.get_items():
+                f_path = str(item.file_name)
+                try:
+                    if item.manifest or isinstance(item, (epub.EpubNcx, epub.EpubNav)):
+                        f_path = "%s/%s" % (obj.book.FOLDER_NAME, item.file_name)
+        
+                    if isinstance(item, epub.EpubNcx):
+                        obj.out.writestr(f_path, obj._get_ncx())
+                    elif isinstance(item, epub.EpubNav):
+                        obj.out.writestr(f_path, obj._get_nav(item))
+                    elif item.manifest:
+                        obj.out.writestr(f_path, item.content)
+                    else:
+                        obj.out.writestr(f_path, item.content)
+                except Exception:
+                    try:
+                        dummy_data = b'monkey_patch_dummy'
+                        if isinstance(item, epub.EpubNcx):
+                            dummy_data = (
+                                b'<?xml version="1.0" encoding="utf-8"?>'
+                                b'<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">'
+                                b'<head><meta name="dtb:uid" content="dummy"/></head>'
+                                b'<docTitle><text>Dummy TOC</text></docTitle>'
+                                b'<navMap/></ncx>'
+                            )
+                        elif isinstance(item, epub.EpubNav) or item.media_type == 'application/xhtml+xml':
+                            dummy_data = (
+                                b'<?xml version="1.0" encoding="utf-8"?>'
+                                b'<!DOCTYPE html>'
+                                b'<html xmlns="http://www.w3.org/1999/xhtml">'
+                                b'<head><title>Dummy</title></head>'
+                                b'<body><p>Monkey Patch Dummy</p></body></html>'
+                            )
+                        
+                        obj.out.writestr(f_path, dummy_data)
+                    except Exception:
+                        pass
+    
         def _check_deprecated(obj):
             pass
 
@@ -109,6 +168,10 @@ class EPUBBookLoader(BaseBookLoader):
 
             epub.EpubReader._load_spine = _load_spine
             self.origin_book = epub.read_epub(self.epub_name)
+        # fix if opf metadata==None
+        for namespace, meta_dict in self.origin_book.metadata.items():
+            for meta_name, meta_list in meta_dict.items():
+                meta_dict[meta_name] = [ item for item in meta_list if item[1] ]
 
         self.p_to_save = []
         self.resume = resume
@@ -127,21 +190,98 @@ class EPUBBookLoader(BaseBookLoader):
 
     def _make_new_book(self, book):
         new_book = epub.EpubBook()
-        new_book.metadata = book.metadata
+        allowed_ns = set(epub.NAMESPACES.keys()) | set(epub.NAMESPACES.values())
+
+        for namespace, metas in book.metadata.items():
+            # Only keep namespaces recognized by ebooklib
+            if namespace not in allowed_ns:
+                continue
+
+            if isinstance(metas, dict):
+                entries = (
+                    (name, value, others)
+                    for name, values in metas.items()
+                    for value, others in (
+                        (item if isinstance(item, tuple) else (item, None))
+                        for item in values
+                    )
+                )
+            else:
+                entries = metas
+
+            for entry in entries:
+                if not entry:
+                    continue
+
+                if isinstance(entry, tuple):
+                    if len(entry) == 3:
+                        name, value, others = entry
+                    elif len(entry) == 2:
+                        name, value = entry
+                        others = None
+                    else:
+                        continue
+                else:
+                    # Unexpected metadata format; skip gracefully
+                    continue
+
+                # `others` can be {} or None
+                if others:
+                    new_book.add_metadata(namespace, name, value, others)
+                else:
+                    new_book.add_metadata(namespace, name, value)
+
         new_book.spine = book.spine
-        new_book.toc = book.toc
+        new_book.toc = self._fix_toc_uids(book.toc)
         return new_book
+
+    def _fix_toc_uids(self, toc, counter=None):
+        """Fix TOC items that have uid=None to prevent TypeError when writing NCX."""
+        if counter is None:
+            counter = [0]  # Use list to allow mutation in nested calls
+
+        if toc is None:
+            return toc
+
+        if isinstance(toc, tuple):
+            # A single TOC entry can be (Section, [sub-items]); wrap it.
+            if len(toc) == 2 and isinstance(toc[1], (list, tuple)):
+                toc = [toc]
+        elif not isinstance(toc, (list, tuple)):
+            # Non-standard EPUBs may provide a single Link/Section instead of a list.
+            toc = [toc]
+
+        fixed_toc = []
+        for item in toc:
+            if isinstance(item, tuple):
+                # Section with sub-items: (Section, [sub-items])
+                section, sub_items = item
+                if hasattr(section, "uid") and section.uid is None:
+                    section.uid = f"navpoint-{counter[0]}"
+                    counter[0] += 1
+                fixed_sub_items = self._fix_toc_uids(sub_items, counter)
+                fixed_toc.append((section, fixed_sub_items))
+            elif hasattr(item, "uid"):
+                # Link or EpubHtml item
+                if item.uid is None:
+                    item.uid = f"navpoint-{counter[0]}"
+                    counter[0] += 1
+                fixed_toc.append(item)
+            else:
+                fixed_toc.append(item)
+
+        return fixed_toc
 
     def _extract_paragraph(self, p):
         for p_exclude in self.exclude_translate_tags.split(","):
             # for issue #280
-            if type(p) == NavigableString:
+            if type(p) is NavigableString:
                 continue
             for pt in p.find_all(p_exclude):
                 pt.extract()
         return p
 
-    def _process_paragraph(self, p, new_p, index, p_to_save_len):
+    def _process_paragraph(self, p, new_p, index, p_to_save_len, thread_safe=False):
         if self.resume and index < p_to_save_len:
             p.string = self.p_to_save[index]
         else:
@@ -152,7 +292,11 @@ class EPUBBookLoader(BaseBookLoader):
                 t_text = self.translate_model.batch_translate(index)
             else:
                 t_text = self.translate_model.translate(new_p.text)
-            if type(p) == NavigableString:
+            if t_text is None:
+                raise RuntimeError(
+                    "`t_text` is None: your translation model is not working as expected. Please check your translation model configuration."
+                )
+            if type(p) is NavigableString:
                 new_p = t_text
                 self.p_to_save.append(new_p)
             else:
@@ -164,11 +308,18 @@ class EPUBBookLoader(BaseBookLoader):
         )
         index += 1
 
-        if index % 20 == 0:
-            self._save_progress()
+        if thread_safe:
+            with self._progress_lock:
+                if index % 20 == 0:
+                    self._save_progress()
+        else:
+            if index % 20 == 0:
+                self._save_progress()
         return index
 
-    def _process_combined_paragraph(self, p_block, index, p_to_save_len):
+    def _process_combined_paragraph(
+        self, p_block, index, p_to_save_len, thread_safe=False
+    ):
         text = []
 
         for p in p_block:
@@ -196,7 +347,7 @@ class EPUBBookLoader(BaseBookLoader):
                 else:
                     p = p_block[i]
 
-                if type(p) == NavigableString:
+                if type(p) is NavigableString:
                     p = t
                 else:
                     p.string = t
@@ -205,7 +356,11 @@ class EPUBBookLoader(BaseBookLoader):
                     p, p.string, self.translation_style, self.single_translate
                 )
 
-        self._save_progress()
+        if thread_safe:
+            with self._progress_lock:
+                self._save_progress()
+        else:
+            self._save_progress()
         return index
 
     def translate_paragraphs_acc(self, p_list, send_num):
@@ -218,7 +373,7 @@ class EPUBBookLoader(BaseBookLoader):
 
             for p_exclude in self.exclude_translate_tags.split(","):
                 # for issue #280
-                if type(p) == NavigableString:
+                if type(p) is NavigableString:
                     continue
                 for pt in temp_p.find_all(p_exclude):
                     pt.extract()
@@ -257,8 +412,9 @@ class EPUBBookLoader(BaseBookLoader):
         matching_items = []
 
         for item in book.get_items_of_type(ITEM_DOCUMENT):
-            content = item.get_content().decode("utf-8")
-            if search_string in content:
+            content = item.get_content()
+            soup = bs(content, "html.parser")
+            if search_string in soup.get_text():
                 matching_items.append(item)
 
         return matching_items
@@ -292,8 +448,10 @@ class EPUBBookLoader(BaseBookLoader):
         if ori_item is None:
             return
 
-        soup_complete = bs(complete_item.content, "html.parser")
-        soup_ori = bs(ori_item.content, "html.parser")
+        content_complete = complete_item.content
+        content_ori = ori_item.content
+        soup_complete = bs(content_complete, "html.parser")
+        soup_ori = bs(content_ori, "html.parser")
 
         p_list_complete = soup_complete.findAll(trans_taglist)
         p_list_ori = soup_ori.findAll(trans_taglist)
@@ -379,7 +537,7 @@ class EPUBBookLoader(BaseBookLoader):
         fixstart=None,
         fixend=None,
     ):
-        if self.only_filelist != "" and not item.file_name in self.only_filelist.split(
+        if self.only_filelist != "" and item.file_name not in self.only_filelist.split(
             ","
         ):
             return index
@@ -392,7 +550,8 @@ class EPUBBookLoader(BaseBookLoader):
         if not os.path.exists("log"):
             os.makedirs("log")
 
-        soup = bs(item.content, "html.parser")
+        content = item.content
+        soup = bs(content, "html.parser")
         p_list = soup.findAll(trans_taglist)
 
         p_list = self.filter_nest_list(p_list, trans_taglist)
@@ -441,7 +600,7 @@ class EPUBBookLoader(BaseBookLoader):
                     block_len += p_len
                     if block_len > self.block_size:
                         index = self._process_combined_paragraph(
-                            p_block, index, p_to_save_len
+                            p_block, index, p_to_save_len, thread_safe=False
                         )
                         p_block = [p]
                         block_len = p_len
@@ -449,7 +608,9 @@ class EPUBBookLoader(BaseBookLoader):
                     else:
                         p_block.append(p)
                 else:
-                    index = self._process_paragraph(p, new_p, index, p_to_save_len)
+                    index = self._process_paragraph(
+                        p, new_p, index, p_to_save_len, thread_safe=False
+                    )
                     print()
 
                 # pbar.update(delta) not pbar.update(index)?
@@ -458,13 +619,284 @@ class EPUBBookLoader(BaseBookLoader):
                 if self.is_test and index >= self.test_num:
                     break
             if self.single_translate and self.block_size > 0 and len(p_block) > 0:
-                index = self._process_combined_paragraph(p_block, index, p_to_save_len)
+                index = self._process_combined_paragraph(
+                    p_block, index, p_to_save_len, thread_safe=False
+                )
 
         if soup:
-            item.content = soup.encode()
+            item.content = soup.encode(encoding="utf-8")
         new_book.add_item(item)
 
         return index
+
+    def set_parallel_workers(self, workers):
+        """Set number of parallel workers for chapter processing.
+
+        Args:
+            workers (int): Number of parallel workers. Will be automatically
+                         optimized based on actual chapter count during processing.
+        """
+        self.parallel_workers = max(1, workers)
+        self.enable_parallel = workers > 1
+
+        if workers > 8:
+            print(
+                f"⚠️  Warning: {workers} workers is quite high. Consider using 2-8 workers for optimal performance."
+            )
+
+    def _get_next_translation_index(self):
+        """Thread-safe method to get next translation index."""
+        with self._progress_lock:
+            index = self._translation_index
+            self._translation_index += 1
+            return index
+
+    def _process_chapter_parallel(self, chapter_data):
+        """Process a single chapter in parallel mode with proper accumulated_num handling."""
+        item, trans_taglist, p_to_save_len = chapter_data
+        chapter_result = {
+            "item": item,
+            "processed_content": None,
+            "success": False,
+            "error": None,
+        }
+
+        try:
+            # Create a chapter-specific translator instance to avoid context conflicts
+            # This ensures each chapter has its own independent context
+            thread_translator = self._create_chapter_translator()
+
+            content = item.content
+            soup = bs(content, "html.parser")
+            p_list = soup.findAll(trans_taglist)
+            p_list = self.filter_nest_list(p_list, trans_taglist)
+
+            if self.allow_navigable_strings:
+                p_list.extend(soup.findAll(text=True))
+
+            # Initialize chapter-specific context lists
+            chapter_context_list = []
+            chapter_translated_list = []
+
+            # Apply accumulated_num logic for this chapter independently
+            send_num = self.accumulated_num
+            if send_num > 1:
+                # Use accumulated translation logic for this chapter
+                self._translate_paragraphs_acc_parallel(
+                    p_list,
+                    send_num,
+                    thread_translator,
+                    chapter_context_list,
+                    chapter_translated_list,
+                )
+            else:
+                # Process paragraphs individually for this chapter
+                for p in p_list:
+                    if not p.text or self._is_special_text(p.text):
+                        continue
+
+                    new_p = self._extract_paragraph(copy(p))
+                    index = self._get_next_translation_index()
+
+                    if self.resume and index < p_to_save_len:
+                        t_text = self.p_to_save[index]
+                    else:
+                        # Use chapter-specific context for translation
+                        t_text = self._translate_with_chapter_context(
+                            thread_translator,
+                            new_p.text,
+                            chapter_context_list,
+                            chapter_translated_list,
+                        )
+                        t_text = "" if t_text is None else t_text
+                        with self._progress_lock:
+                            self.p_to_save.append(t_text)
+
+                    if isinstance(p, NavigableString):
+                        translated_node = NavigableString(t_text)
+                        p.insert_after(translated_node)
+                        if self.single_translate:
+                            p.extract()
+                    else:
+                        self.helper.insert_trans(
+                            p, t_text, self.translation_style, self.single_translate
+                        )
+
+                    with self._progress_lock:
+                        if index % 20 == 0:
+                            self._save_progress()
+
+            if soup:
+                chapter_result["processed_content"] = soup.encode(encoding="utf-8")
+            chapter_result["success"] = True
+
+        except Exception as e:
+            chapter_result["error"] = str(e)
+            print(f"Error processing chapter {item.file_name}: {e}")
+
+        return chapter_result
+
+    def _create_chapter_translator(self):
+        """Create a translator instance for a specific chapter with independent context."""
+        # Return the main translator - we'll handle context at the chapter level
+        return self.translate_model
+
+    def _translate_with_chapter_context(
+        self, translator, text, chapter_context_list, chapter_translated_list
+    ):
+        """Translate text with chapter-specific context management."""
+        if not translator.context_flag:
+            return translator.translate(text)
+
+        # Temporarily replace global context with chapter context
+        original_context = getattr(translator, "context_list", [])
+        original_translated = getattr(translator, "context_translated_list", [])
+
+        try:
+            # Use chapter-specific context
+            translator.context_list = chapter_context_list.copy()
+            translator.context_translated_list = chapter_translated_list.copy()
+
+            # Perform translation
+            result = translator.translate(text)
+
+            # Update chapter context
+            chapter_context_list[:] = translator.context_list
+            chapter_translated_list[:] = translator.context_translated_list
+
+            return result
+
+        finally:
+            # Restore original context
+            translator.context_list = original_context
+            translator.context_translated_list = original_translated
+
+    def _translate_paragraphs_acc_parallel(
+        self,
+        p_list,
+        send_num,
+        translator,
+        chapter_context_list,
+        chapter_translated_list,
+    ):
+        """Apply accumulated_num logic for a single chapter in parallel mode with independent context."""
+        from book_maker.utils import num_tokens_from_text
+        from .helper import not_trans
+
+        count = 0
+        wait_p_list = []
+
+        # Create chapter-specific helper instance with context-aware translation
+        class ChapterHelper:
+            def __init__(
+                self, parent_loader, translator, context_list, translated_list
+            ):
+                self.parent_loader = parent_loader
+                self.translator = translator
+                self.context_list = context_list
+                self.translated_list = translated_list
+
+            def translate_with_context(self, text):
+                return self.parent_loader._translate_with_chapter_context(
+                    self.translator, text, self.context_list, self.translated_list
+                )
+
+            def deal_old(self, wait_p_list, single_translate):
+                if not wait_p_list:
+                    return
+
+                # Use the same translate_list logic as sequential processing
+                # Create a temporary translator with chapter context
+                original_context = getattr(self.translator, "context_list", [])
+                original_translated = getattr(
+                    self.translator, "context_translated_list", []
+                )
+
+                try:
+                    # Set chapter context to the translator
+                    self.translator.context_list = self.context_list.copy()
+                    self.translator.context_translated_list = (
+                        self.translated_list.copy()
+                    )
+
+                    # Call translate_list for consistent batch translation logic
+                    result_txt_list = self.translator.translate_list(wait_p_list)
+
+                    # Update chapter context from translator
+                    self.context_list[:] = self.translator.context_list
+                    self.translated_list[:] = self.translator.context_translated_list
+
+                    # Apply translations using the same logic as helper.deal_old
+                    for i in range(len(wait_p_list)):
+                        if i < len(result_txt_list):
+                            p = wait_p_list[i]
+                            from .helper import shorter_result_link
+
+                            self.parent_loader.helper.insert_trans(
+                                p,
+                                shorter_result_link(result_txt_list[i]),
+                                self.parent_loader.translation_style,
+                                single_translate,
+                            )
+
+                finally:
+                    # Restore original context
+                    self.translator.context_list = original_context
+                    self.translator.context_translated_list = original_translated
+
+                wait_p_list.clear()
+
+            def deal_new(self, p, wait_p_list, single_translate):
+                self.deal_old(wait_p_list, single_translate)
+                translation = self.translate_with_context(p.text)
+                self.parent_loader.helper.insert_trans(
+                    p,
+                    translation,
+                    self.parent_loader.translation_style,
+                    single_translate,
+                )
+
+        chapter_helper = ChapterHelper(
+            self, translator, chapter_context_list, chapter_translated_list
+        )
+
+        for i in range(len(p_list)):
+            p = p_list[i]
+            temp_p = copy(p)
+
+            for p_exclude in self.exclude_translate_tags.split(","):
+                if type(p) == NavigableString:
+                    continue
+                for pt in temp_p.find_all(p_exclude):
+                    pt.extract()
+
+            if any(
+                [not p.text, self._is_special_text(temp_p.text), not_trans(temp_p.text)]
+            ):
+                if i == len(p_list) - 1:
+                    chapter_helper.deal_old(wait_p_list, self.single_translate)
+                continue
+
+            length = num_tokens_from_text(temp_p.text)
+            if length > send_num:
+                chapter_helper.deal_new(p, wait_p_list, self.single_translate)
+                continue
+
+            if i == len(p_list) - 1:
+                if count + length < send_num:
+                    wait_p_list.append(p)
+                    chapter_helper.deal_old(wait_p_list, self.single_translate)
+                else:
+                    chapter_helper.deal_new(p, wait_p_list, self.single_translate)
+                break
+
+            if count + length < send_num:
+                count += length
+                wait_p_list.append(p)
+            else:
+                chapter_helper.deal_old(wait_p_list, self.single_translate)
+                wait_p_list.append(p)
+                count = length
 
     def batch_init_then_wait(self):
         name, _ = os.path.splitext(self.epub_name)
@@ -534,10 +966,79 @@ class EPUBBookLoader(BaseBookLoader):
                 if item.get_type() != ITEM_DOCUMENT:
                     new_book.add_item(item)
 
-            for item in self.origin_book.get_items_of_type(ITEM_DOCUMENT):
-                index = self.process_item(
-                    item, index, p_to_save_len, pbar, new_book, trans_taglist
+            document_items = list(self.origin_book.get_items_of_type(ITEM_DOCUMENT))
+
+            if self.enable_parallel and len(document_items) > 1:
+                # Optimize worker count: no point having more workers than chapters
+                effective_workers = min(self.parallel_workers, len(document_items))
+
+                # Parallel processing with proper accumulated_num handling
+                print(f"🚀 Parallel processing: {len(document_items)} chapters")
+                if effective_workers < self.parallel_workers:
+                    print(
+                        f"📊 Optimized workers: {effective_workers} (reduced from {self.parallel_workers})"
+                    )
+                else:
+                    print(f"📊 Using {effective_workers} workers")
+
+                if self.accumulated_num > 1:
+                    print(
+                        f"📝 Each chapter applies accumulated_num={self.accumulated_num} independently"
+                    )
+
+                if self.context_flag:
+                    print(
+                        f"🔗 Context enabled: each chapter maintains independent context (limit={self.translate_model.context_paragraph_limit})"
+                    )
+                else:
+                    print(f"🚫 Context disabled for this translation")
+
+                # Create a simpler progress bar for parallel processing
+                pbar.close()  # Close the original progress bar
+                chapter_pbar = tqdm(
+                    total=len(document_items), desc="Chapters", unit="ch"
                 )
+
+                chapter_data_list = [
+                    (item, trans_taglist, p_to_save_len) for item in document_items
+                ]
+
+                with ThreadPoolExecutor(max_workers=effective_workers) as executor:
+                    future_to_item = {
+                        executor.submit(
+                            self._process_chapter_parallel, chapter_data
+                        ): chapter_data[0]
+                        for chapter_data in chapter_data_list
+                    }
+
+                    for future in as_completed(future_to_item):
+                        item = future_to_item[future]
+                        try:
+                            result = future.result()
+                            if result["success"] and result["processed_content"]:
+                                item.content = result["processed_content"]
+                            new_book.add_item(item)
+                            chapter_pbar.update(1)
+                            chapter_pbar.set_postfix_str(
+                                f"Latest: {item.file_name[:20]}..."
+                            )
+
+                        except Exception as e:
+                            print(f"❌ Error processing {item.file_name}: {e}")
+                            new_book.add_item(item)
+                            chapter_pbar.update(1)
+
+                chapter_pbar.close()
+                print(f"✅ Completed all {len(document_items)} chapters")
+            else:
+                # Sequential processing (original behavior or single chapter)
+                if len(document_items) == 1 and self.enable_parallel:
+                    print(f"📄 Single chapter detected - using sequential processing")
+
+                for item in document_items:
+                    index = self.process_item(
+                        item, index, p_to_save_len, pbar, new_book, trans_taglist
+                    )
 
                 if self.accumulated_num > 1:
                     name, _ = os.path.splitext(self.epub_name)
@@ -549,12 +1050,18 @@ class EPUBBookLoader(BaseBookLoader):
                 epub.write_epub(f"{name}_bilingual.epub", new_book, {})
             if self.accumulated_num == 1:
                 pbar.close()
-        except (KeyboardInterrupt, Exception) as e:
+        except KeyboardInterrupt as e:
             print(e)
             if self.accumulated_num == 1:
                 print("you can resume it next time")
                 self._save_progress()
                 self._save_temp_book()
+            sys.exit(0)
+        except Exception:
+            traceback.print_exc()
+            print("you can resume it next time")
+            self._save_progress()
+            self._save_temp_book()
             sys.exit(0)
 
     def load_state(self):
@@ -574,7 +1081,8 @@ class EPUBBookLoader(BaseBookLoader):
         try:
             for item in origin_book_temp.get_items():
                 if item.get_type() == ITEM_DOCUMENT:
-                    soup = bs(item.content, "html.parser")
+                    content = item.content
+                    soup = bs(content, "html.parser")
                     p_list = soup.findAll(trans_taglist)
                     if self.allow_navigable_strings:
                         p_list.extend(soup.findAll(text=True))
@@ -585,7 +1093,7 @@ class EPUBBookLoader(BaseBookLoader):
                         # PR welcome here
                         if index < p_to_save_len:
                             new_p = copy(p)
-                            if type(p) == NavigableString:
+                            if type(p) is NavigableString:
                                 new_p = self.p_to_save[index]
                             else:
                                 new_p.string = self.p_to_save[index]

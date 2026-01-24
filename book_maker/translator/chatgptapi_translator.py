@@ -6,6 +6,7 @@ from copy import copy
 from os import environ
 from itertools import cycle
 import json
+from threading import Lock
 
 from openai import AzureOpenAI, OpenAI, RateLimitError
 from rich import print
@@ -47,6 +48,9 @@ GPT4o_MODEL_LIST = [
     "gpt-4o-2024-05-13",
     "gpt-4o-2024-08-06",
     "chatgpt-4o-latest",
+]
+GPT5MINI_MODEL_LIST = [
+    "gpt-5-mini",
 ]
 O1PREVIEW_MODEL_LIST = [
     "o1-preview",
@@ -114,17 +118,21 @@ class ChatGPTAPI(Base):
         self.batch_text_list = []
         self.batch_info_cache = None
         self.result_content_cache = {}
+        self._api_lock = Lock()
 
     def rotate_key(self):
-        self.openai_client.api_key = next(self.keys)
+        with self._api_lock:
+            self.openai_client.api_key = next(self.keys)
 
     def rotate_model(self):
-        self.model = next(self.model_list)
+        with self._api_lock:
+            if self.model_list:
+                self.model = next(self.model_list)
 
     def create_messages(self, text, intermediate_messages=None):
         content = self.prompt_template.format(
             text=text, language=self.language, crlf="\n"
-        )
+        ) if "{language}" in self.prompt_template else self.prompt_template.format(text=text, crlf="\n")
 
         sys_content = self.system_content or self.prompt_sys_msg.format(crlf="\n")
         messages = [
@@ -149,27 +157,45 @@ class ChatGPTAPI(Base):
             )
         return messages
 
-    def create_chat_completion(self, text):
-        messages = self.create_messages(text, self.create_context_messages())
+    def create_chat_completion(self, messages):
+        
         completion = self.openai_client.chat.completions.create(
             model=self.model,
             messages=messages,
             temperature=self.temperature,
+            stream=False,
         )
         return completion
 
-    def get_translation(self, text):
+    def get_translation(self, text, needprint=True):
         self.rotate_key()
         self.rotate_model()  # rotate all the model to avoid the limit
-
-        completion = self.create_chat_completion(text)
+        
+        messages = self.create_messages(text, self.create_context_messages())
+        completion = self.create_chat_completion(messages)
 
         # TODO work well or exception finish by length limit
         # Check if content is not None before encoding
-        if completion.choices[0].message.content is not None:
-            t_text = completion.choices[0].message.content.encode("utf8").decode() or ""
-        else:
-            t_text = ""
+        t_text = ""
+        max_len_retry= 2
+        for len_retry in range(max_len_retry):
+            cur_content = completion.choices[0].message.content
+            cur_content = re.sub(r'<think>.*?</think>','',cur_content,flags=re.S) #r1-like things
+            if cur_content is not None:
+                t_text += cur_content.encode("utf8").decode() or ""
+            else:
+                break
+            if completion.choices[0].finish_reason != "length":
+                break
+            if needprint:
+                _comp_len_info = f"completion_tokens: {completion.usage.completion_tokens}" if completion.usage.completion_tokens else f"len(completion): {len(cur_content)}"
+                print(f"[bold red]Imcompleted translation due to length at Attempt {len_retry+1}; {_comp_len_info}[/bold red]")
+            if len(text) * 3 < len(t_text):
+                print(f"[bold red]Length limit exceeded and output seems too long[/bold red]")
+                raise Exception("Length limit exceeded and output seems too long")
+                #break
+            messages+=[{"role": "assistant","content": cur_content},{"role": "user", "content": "继续"}]
+            completion = self.create_chat_completion(messages)
 
         if self.context_flag:
             self.save_context(text, t_text)
@@ -189,35 +215,45 @@ class ChatGPTAPI(Base):
         start_time = time.time()
         # todo: Determine whether to print according to the cli option
         if needprint:
-            print(re.sub("\n{3,}", "\n\n", text))
+            print(re.sub("\n{3,}", "\n\n", text).replace('[/','').replace(r'[\\',''))
 
         attempt_count = 0
-        max_attempts = 3
+        max_attempts = 30
         t_text = ""
+        fallback_t_text = "本段翻译报错失败"
+        fallback_t_text_timeout = "本段翻译超时失败"
 
         while attempt_count < max_attempts:
             try:
                 t_text = self.get_translation(text)
+                if t_text.strip()=="" and text.strip()!="":
+                    raise Exception("Empty Response")
                 break
             except RateLimitError as e:
                 # todo: better sleep time? why sleep alawys about key_len
                 # 1. openai server error or own network interruption, sleep for a fixed time
                 # 2. an apikey has no money or reach limit, don`t sleep, just replace it with another apikey
                 # 3. all apikey reach limit, then use current sleep
-                sleep_time = int(60 / self.key_len)
+                sleep_time = int(10 / self.key_len)
                 print(e, f"will sleep {sleep_time} seconds")
                 time.sleep(sleep_time)
                 attempt_count += 1
                 if attempt_count == max_attempts:
                     print(f"Get {attempt_count} consecutive exceptions")
-                    raise
+                    return fallback_t_text_timeout # raise
             except Exception as e:
-                print(str(e))
-                return
+                sleep_time = 5+5*attempt_count
+                print(str(e), f"will sleep {sleep_time} seconds")
+                time.sleep(sleep_time)
+                attempt_count += 1
+                if attempt_count == max_attempts:
+                    print(f"Get {attempt_count} consecutive exceptions")
+                    return fallback_t_text
+
 
         # todo: Determine whether to print according to the cli option
         if needprint:
-            print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text) + "[/bold green]")
+            print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text).replace('[/','').replace(r'[\\','') + "[/bold green]")
 
         time.time() - start_time
         # print(f"translation time: {elapsed_time:.1f}s")
@@ -483,6 +519,18 @@ class ChatGPTAPI(Base):
                 i["id"] for i in self.openai_client.models.list().model_dump()["data"]
             ]
             model_list = list(set(my_model_list) & set(GPT4o_MODEL_LIST))
+            print(f"Using model list {model_list}")
+            self.model_list = cycle(model_list)
+
+    def set_gpt5mini_models(self):
+        # for issue #375 azure can not use model list
+        if self.deployment_id:
+            self.model_list = cycle(["gpt-5-mini"])
+        else:
+            my_model_list = [
+                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
+            ]
+            model_list = list(set(my_model_list) & set(GPT5MINI_MODEL_LIST))
             print(f"Using model list {model_list}")
             self.model_list = cycle(model_list)
 
