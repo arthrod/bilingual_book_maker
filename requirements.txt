@@ -14,7 +14,7 @@ brotli==1.1.0; platform_python_implementation == "CPython"
 brotlicffi==1.1.0.0; platform_python_implementation != "CPython"
 bs4==0.0.2
 cachetools==5.3.3
-certifi==2024.2.2
+certifi==2024.7.4
 cffi==1.16.0; platform_python_implementation != "CPython"
 charset-normalizer==3.3.2
 click==8.1.7
@@ -33,7 +33,7 @@ google-auth-httplib2==0.2.0
 google-generativeai==0.8.3
 googleapis-common-protos==1.65.0
 groq==0.8.0
-grpcio==1.63.0
+grpcio==1.63.2
 grpcio-status==1.62.2
 h11==0.14.0
 httpcore==1.0.5
@@ -55,8 +55,8 @@ openai==1.30.3
 packaging==24.0
 promptdown==0.9.0
 proto-plus==1.23.0
-protobuf==4.25.3
-pyasn1==0.6.0
+protobuf==4.25.8
+pyasn1==0.6.2
 pyasn1-modules==0.4.0
 pycparser==2.22; platform_python_implementation != "CPython"
 pydantic==2.7.1
@@ -67,7 +67,7 @@ pyparsing==3.1.2; python_version > "3.0"
 python-dotenv==1.0.1
 pyyaml==6.0.1
 regex==2024.4.28
-requests==2.32.2
+requests==2.32.4
 rich==13.7.1
 rsa==4.9
 six==1.16.0
@@ -79,6 +79,6 @@ tokenizers==0.19.1
 tqdm==4.66.4
 typing-extensions==4.11.0
 uritemplate==4.1.1
-urllib3==2.2.1
+urllib3==2.6.3
 yarl==1.9.4
-zipp==3.18.1
+zipp==3.19.1
