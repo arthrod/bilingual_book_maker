@@ -190,7 +190,7 @@ class ChatGPTAPI(Base):
     def create_messages(self, text, intermediate_messages=None):
         content = self.prompt_template.format(
             text=text, language=self.language, crlf="\n"
-        )
+        ) if "{language}" in self.prompt_template else self.prompt_template.format(text=text, crlf="\n")
 
         sys_content = self.system_content or self.prompt_sys_msg.format(crlf="\n")
         messages = [
@@ -223,6 +223,7 @@ class ChatGPTAPI(Base):
                 model=self.model,
                 messages=messages,
                 temperature=self.temperature,
+                stream=False,
                 response_format={
                     "type": "json_schema",
                     "json_schema": SINGLE_TRANSLATION_SCHEMA,
@@ -234,6 +235,7 @@ class ChatGPTAPI(Base):
                 model=self.model,
                 messages=messages,
                 temperature=self.temperature,
+                stream=False,
                 extra_body=self.extra_body if self.extra_body else None,
             )
         return completion
@@ -256,10 +258,26 @@ class ChatGPTAPI(Base):
 
         # TODO work well or exception finish by length limit
         # Check if content is not None before encoding
-        if completion.choices[0].message.content is not None:
-            t_text = completion.choices[0].message.content.encode("utf8").decode() or ""
-        else:
-            t_text = ""
+        t_text = ""
+        max_len_retry= 2
+        for len_retry in range(max_len_retry):
+            cur_content = completion.choices[0].message.content
+            cur_content = re.sub(r'<think>.*?</think>','',cur_content,flags=re.S) #r1-like things
+            if cur_content is not None:
+                t_text += cur_content.encode("utf8").decode() or ""
+            else:
+                break
+            if completion.choices[0].finish_reason != "length":
+                break
+            if needprint:
+                _comp_len_info = f"completion_tokens: {completion.usage.completion_tokens}" if completion.usage.completion_tokens else f"len(completion): {len(cur_content)}"
+                print(f"[bold red]Imcompleted translation due to length at Attempt {len_retry+1}; {_comp_len_info}[/bold red]")
+            if len(text) * 3 < len(t_text):
+                print(f"[bold red]Length limit exceeded and output seems too long[/bold red]")
+                raise Exception("Length limit exceeded and output seems too long")
+                #break
+            messages+=[{"role": "assistant","content": cur_content},{"role": "user", "content": "继续"}]
+            completion = self.create_chat_completion(messages)
 
         # Parse structured output if enabled
         if self._use_structured_outputs and t_text:
@@ -286,12 +304,53 @@ class ChatGPTAPI(Base):
                 self.context_translated_list.pop(0)
 
     def translate(self, text, needprint=True):
-        try:
-            t_text = self.get_translation(text)
-            return t_text
-        except Exception as e:
-            print(f"Translation failed after retries: {e}")
-            raise
+        start_time = time.time()
+        # todo: Determine whether to print according to the cli option
+        if needprint:
+            print(re.sub("\n{3,}", "\n\n", text).replace('[/','').replace(r'[\\',''))
+
+        attempt_count = 0
+        max_attempts = 30
+        t_text = ""
+        fallback_t_text = "本段翻译报错失败"
+        fallback_t_text_timeout = "本段翻译超时失败"
+
+        while attempt_count < max_attempts:
+            try:
+                t_text = self.get_translation(text)
+                if t_text.strip()=="" and text.strip()!="":
+                    raise Exception("Empty Response")
+                break
+            except RateLimitError as e:
+                # todo: better sleep time? why sleep alawys about key_len
+                # 1. openai server error or own network interruption, sleep for a fixed time
+                # 2. an apikey has no money or reach limit, don`t sleep, just replace it with another apikey
+                # 3. all apikey reach limit, then use current sleep
+                sleep_time = int(10 / self.key_len)
+                print(e, f"will sleep {sleep_time} seconds")
+                time.sleep(sleep_time)
+                attempt_count += 1
+                if attempt_count == max_attempts:
+                    print(f"Get {attempt_count} consecutive exceptions")
+                    return fallback_t_text_timeout # raise
+            except Exception as e:
+                sleep_time = 5+5*attempt_count
+                print(str(e), f"will sleep {sleep_time} seconds")
+                time.sleep(sleep_time)
+                attempt_count += 1
+                if attempt_count == max_attempts:
+                    print(f"Get {attempt_count} consecutive exceptions")
+                    return fallback_t_text
+
+
+        # todo: Determine whether to print according to the cli option
+        if needprint:
+            print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text).replace('[/','').replace(r'[\\','') + "[/bold green]")
+
+        time.time() - start_time
+        # print(f"translation time: {elapsed_time:.1f}s")
+
+        return t_text
 
     def translate_and_split_lines(self, text):
         result_str = self.translate(text, False)
