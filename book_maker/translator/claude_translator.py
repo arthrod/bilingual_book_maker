@@ -21,7 +21,7 @@ class Claude(Base):
         super().__init__(key, language)
         self.api_url = api_base or "https://api.anthropic.com"
         self.client = Anthropic(base_url=api_base, api_key=key, timeout=20)
-        self.model = "claude-3-5-sonnet-20241022"  # default it for now
+        self.model = "claude-haiku-4-5-20251001"  # default it for now
         self.language = language
         self.prompt_template = (
             prompt_template
@@ -88,7 +88,6 @@ class Claude(Base):
             self.context_translated_list.pop(0)
 
     def translate(self, text):
-        print(text)
         self.rotate_key()
 
         # Create messages with context
@@ -106,5 +105,4 @@ class Claude(Base):
         if self.context_flag:
             self.save_context(text, t_text)
 
-        print("[bold green]" + re.sub("\n{3,}", "\n\n", t_text) + "[/bold green]")
         return t_text

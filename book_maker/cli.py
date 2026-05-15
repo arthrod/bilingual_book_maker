@@ -3,8 +3,11 @@ import json
 import os
 from os import environ as env
 
+from rich import print
+
 from book_maker.loader import BOOK_LOADER_DICT
 from book_maker.translator import MODEL_DICT
+from book_maker.provider_loader import get_provider, get_translator_class
 from book_maker.utils import LANGUAGES, TO_LANGUAGE_CODE
 
 
@@ -210,7 +213,7 @@ def main():
         "--model",
         dest="model",
         type=str,
-        default="chatgptapi",
+        default=None,
         choices=translate_model_list,  # support DeepL later
         metavar="MODEL",
         help="model to use, available: {%(choices)s}",
@@ -282,11 +285,11 @@ def main():
         help="example --translate-tags p,blockquote",
     )
     parser.add_argument(
-        "--exclude_translate-tags",
+        "--exclude-translate-tags",
         dest="exclude_translate_tags",
         type=str,
-        default="sup",
-        help="example --exclude_translate-tags table,sup",
+        default="sup,code",
+        help="Exclude content within specified HTML tags from translation. Use comma to separate multiple tags. Default: sup,code. Example: --exclude-translate-tags code,pre",
     )
     parser.add_argument(
         "--allow_navigable_strings",
@@ -321,6 +324,12 @@ So you are close to reaching the limit. You have to choose your own value, there
         help="""ex: --translation_style "color: #808080; font-style: italic;" """,
     )
     parser.add_argument(
+        "--translation_color",
+        dest="translation_color",
+        type=str,
+        help="color for translated text, e.g. --translation_color '#1e90ff' or --translation_color 'red'",
+    )
+    parser.add_argument(
         "--batch_size",
         dest="batch_size",
         type=int,
@@ -342,6 +351,11 @@ So you are close to reaching the limit. You have to choose your own value, there
         "--single_translate",
         action="store_true",
         help="output translated book, no bilingual",
+    )
+    parser.add_argument(
+        "--sentence_mode",
+        action="store_true",
+        help="translate sentence by sentence within each paragraph instead of the whole paragraph at once",
     )
     parser.add_argument(
         "--use_context",
@@ -405,8 +419,31 @@ So you are close to reaching the limit. You have to choose your own value, there
         default=1,
         help="Number of parallel workers for EPUB chapter processing. Use 2-4 for better performance. Default: 1",
     )
+    parser.add_argument(
+        "--extra_body",
+        dest="extra_body",
+        type=str,
+        default="",
+        help='JSON string of extra body parameters to pass to the API. Example: --extra_body \'{"chat_template_kwargs": {"enable_thinking": false}}\'',
+    )
+    parser.add_argument(
+        "--provider",
+        dest="provider",
+        type=str,
+        help="Use a custom provider defined in bbm_providers.json (mutually exclusive with --model)",
+    )
+    parser.add_argument(
+        "--api_key",
+        dest="api_key",
+        type=str,
+        default="",
+        help="API key for custom providers (used with --provider)",
+    )
 
     options = parser.parse_args()
+
+    if options.provider and options.model:
+        parser.error("--provider and --model are mutually exclusive")
 
     if not options.book_name:
         print("Error: please provide the path of your book using --book_name <path>")
@@ -420,7 +457,15 @@ So you are close to reaching the limit. You have to choose your own value, there
         os.environ["http_proxy"] = PROXY
         os.environ["https_proxy"] = PROXY
 
-    translate_model = MODEL_DICT.get(options.model)
+    provider_cfg = None
+    if options.provider:
+        provider_cfg = get_provider(options.provider)
+        translate_model = get_translator_class(provider_cfg["api_style"])
+    elif options.model:
+        translate_model = MODEL_DICT.get(options.model)
+    else:
+        translate_model = MODEL_DICT.get("chatgptapi")
+        options.model = "chatgptapi"
     assert translate_model is not None, "unsupported model"
     API_KEY = ""
     if options.model in [
@@ -461,7 +506,7 @@ So you are close to reaching the limit. You have to choose your own value, there
         API_KEY = options.deepl_key or env.get("BBM_DEEPL_API_KEY")
         if not API_KEY:
             raise Exception("Please provide deepl key")
-    elif options.model.startswith("claude"):
+    elif options.model and options.model.startswith("claude"):
         API_KEY = options.claude_key or env.get("BBM_CLAUDE_API_KEY")
         if not API_KEY:
             raise Exception("Please provide claude key")
@@ -475,8 +520,14 @@ So you are close to reaching the limit. You have to choose your own value, there
         API_KEY = options.groq_key or env.get("BBM_GROQ_API_KEY")
     elif options.model == "xai":
         API_KEY = options.xai_key or env.get("BBM_XAI_API_KEY")
-    elif options.model.startswith("qwen-"):
+    elif options.model and options.model.startswith("qwen-"):
         API_KEY = options.qwen_key or env.get("BBM_QWEN_API_KEY")
+    elif options.provider:
+        env_key_name = provider_cfg.get("env_key", "") if provider_cfg else ""
+        API_KEY = options.api_key or (env.get(env_key_name) if env_key_name else "")
+        if not API_KEY:
+            hint = f" or set {env_key_name}" if env_key_name else ""
+            raise Exception(f"Please provide API key via --api_key{hint}")
     else:
         API_KEY = ""
 
@@ -497,11 +548,6 @@ So you are close to reaching the limit. You have to choose your own value, there
             f"now only support files of these formats: {','.join(support_type_list)}",
         )
 
-    if options.block_size > 0 and not options.single_translate:
-        raise Exception(
-            "block_size must be used with `--single_translate` because it disturbs the original format",
-        )
-
     book_loader = BOOK_LOADER_DICT.get(book_type)
     assert book_loader is not None, "unsupported loader"
     language = options.language
@@ -515,6 +561,9 @@ So you are close to reaching the limit. You have to choose your own value, there
     if options.ollama_model and not model_api_base:
         # ollama default api_base
         model_api_base = "http://localhost:11434/v1"
+
+    if options.provider and provider_cfg and not model_api_base:
+        model_api_base = provider_cfg.get("base_url")
 
     e = book_loader(
         options.book_name,
@@ -533,7 +582,20 @@ So you are close to reaching the limit. You have to choose your own value, there
         source_lang=options.source_lang,
         parallel_workers=options.parallel_workers,
     )
+    # Parse and set extra_body if provided
+    if options.extra_body:
+        try:
+            import json
+
+            extra_body = json.loads(options.extra_body)
+            e.translate_model.extra_body = extra_body
+            print(f"[bold blue]Extra body parameters:[/bold blue] {extra_body}")
+        except json.JSONDecodeError as e:
+            print(f"[bold red]Error:[/bold red] Invalid JSON in --extra_body: {e}")
+            exit(1)
     # other options
+    if options.sentence_mode:
+        e.sentence_mode = True
     if options.allow_navigable_strings:
         e.allow_navigable_strings = True
     if options.translate_tags:
@@ -546,10 +608,15 @@ So you are close to reaching the limit. You have to choose your own value, there
         e.only_filelist = options.only_filelist
     if options.accumulated_num > 1:
         e.accumulated_num = options.accumulated_num
+    if options.translation_color:
+        e.translation_style = f"color: {options.translation_color};"
     if options.translation_style:
         e.translation_style = options.translation_style
     if options.batch_size:
         e.batch_size = options.batch_size
+    if options.block_size > 0:
+        e.block_size = options.block_size
+    # Note: Default block_size is now 1 (delimiter-based translation) for better quality
     if options.retranslate:
         e.retranslate = options.retranslate
     if options.deployment_id:
@@ -572,7 +639,11 @@ So you are close to reaching the limit. You have to choose your own value, there
     if options.model in ("openai", "groq"):
         # Currently only supports `openai` when you also have --model_list set
         if options.model_list:
-            e.translate_model.set_model_list(options.model_list.split(","))
+            try:
+                e.translate_model.set_model_list(options.model_list.split(","))
+            except Exception as ex:
+                print(f"[red]Error: {ex}[/red]")
+                exit(1)
         else:
             raise ValueError(
                 "When using `openai` model, you must also provide `--model_list`. For default model sets use `--model chatgptapi` or `--model gpt4` or `--model gpt4omini` or `--model gpt5mini`",
@@ -599,9 +670,9 @@ So you are close to reaching the limit. You have to choose your own value, there
         e.translate_model.set_o1mini_models()
     if options.model == "o3mini":
         e.translate_model.set_o3mini_models()
-    if options.model.startswith("claude-"):
+    if options.model and options.model.startswith("claude-"):
         e.translate_model.set_claude_model(options.model)
-    if options.model.startswith("qwen-"):
+    if options.model and options.model.startswith("qwen-"):
         e.translate_model.set_qwen_model(options.model)
     if options.block_size > 0:
         e.block_size = options.block_size
@@ -619,6 +690,18 @@ So you are close to reaching the limit. You have to choose your own value, there
             e.translate_model.set_geminiflash_models()
     if options.model == "geminipro":
         e.translate_model.set_geminipro_models()
+
+    if options.provider and provider_cfg:
+        if options.model_list:
+            e.translate_model.set_model_list(options.model_list.split(","))
+        else:
+            default_models = provider_cfg.get("default_models", [])
+            if default_models:
+                e.translate_model.set_model_list(default_models)
+            else:
+                raise ValueError(
+                    "Provider has no default_models. Please provide --model_list"
+                )
 
     e.make_bilingual_book()
 

@@ -1,5 +1,6 @@
 import os
 import pickle
+import re
 import string
 import sys
 import time
@@ -19,7 +20,7 @@ from tqdm import tqdm
 from book_maker.utils import num_tokens_from_text, prompt_config_to_kwargs
 
 from .base_loader import BaseBookLoader
-from .helper import EPUBBookLoaderHelper, is_text_link, not_trans
+from .helper import EPUBBookLoaderHelper, is_text_link, not_trans, shorter_result_link
 
 
 class EPUBBookLoader(BaseBookLoader):
@@ -56,7 +57,7 @@ class EPUBBookLoader(BaseBookLoader):
         self.is_test = is_test
         self.test_num = test_num
         self.translate_tags = "p"
-        self.exclude_translate_tags = "sup"
+        self.exclude_translate_tags = "sup,code"
         self.allow_navigable_strings = False
         self.accumulated_num = 1
         self.translation_style = ""
@@ -71,7 +72,8 @@ class EPUBBookLoader(BaseBookLoader):
         self.exclude_filelist = ""
         self.only_filelist = ""
         self.single_translate = single_translate
-        self.block_size = -1
+        self.block_size = 1  # Default to 1 for better translation quality with delimiter-based batching
+        self.sentence_mode = False
         self.batch_use_flag = False
         self.batch_flag = False
         self.parallel_workers = 1
@@ -279,11 +281,137 @@ class EPUBBookLoader(BaseBookLoader):
                 continue
             for pt in p.find_all(p_exclude):
                 pt.extract()
+        # Exclude content within specified tags from translation (e.g., code, pre)
+        exclude_tags_list = [t for t in self.exclude_translate_tags.split(",") if t]
+        for tag_name in exclude_tags_list:
+            if type(p) is NavigableString:
+                continue
+            for pt in p.find_all(tag_name):
+                pt.extract()
         return p
+
+    def _is_content_only_excluded_tags(self, p):
+        """Check if a paragraph contains only excluded content tags (code, pre, etc.).
+
+        Returns True if the paragraph should be kept but not translated.
+        """
+        if type(p) is NavigableString:
+            return False
+
+        # Check if paragraph contains only excluded content tags
+        temp_p = copy(p)
+        # Remove excluded tags
+        exclude_tags_list = [t for t in self.exclude_translate_tags.split(",") if t]
+        for tag_name in exclude_tags_list:
+            for pt in temp_p.find_all(tag_name):
+                pt.extract()
+        # Also remove excluded translate tags
+        for tag_name in self.exclude_translate_tags.split(","):
+            for pt in temp_p.find_all(tag_name):
+                pt.extract()
+
+        # If nothing meaningful remains, paragraph contains only excluded tags
+        remaining_text = temp_p.get_text().strip()
+        return not remaining_text or self._is_special_text(remaining_text)
+
+    def _count_translatable_paragraphs(self, items, trans_taglist):
+        """Count paragraphs that actually need translation (excluding special content)."""
+        count = 0
+        for i in items:
+            if i.get_type() != ITEM_DOCUMENT:
+                continue
+            if i.file_name in self.exclude_filelist.split(","):
+                continue
+            if self.only_filelist and i.file_name not in self.only_filelist.split(","):
+                continue
+
+            content = i.content
+            soup = bs(content, "html.parser")
+            p_list = soup.findAll(trans_taglist)
+
+            if self.allow_navigable_strings:
+                p_list.extend(soup.findAll(text=True))
+
+            for p in p_list:
+                if not p.text or self._is_special_text(p.text):
+                    continue
+                # Skip paragraphs that only contain excluded tags
+                if self._is_content_only_excluded_tags(p):
+                    continue
+                count += 1
+
+        return count
+
+    def _insert_trans_preserving_tags(
+        self, p, translated_text, translation_style="", single_translate=False
+    ):
+        """Insert translation while preserving special tags (code, pre, etc.) in bilingual mode.
+
+        For bilingual mode: keeps original paragraph (with special tags) + adds translation
+        For single translate mode: replaces text content but preserves special tags
+        """
+        if translated_text is None:
+            translated_text = ""
+
+        # Skip insertion if translation failed
+        if (
+            self.translate_model.TRANSLATION_ERROR_MARKER is not None
+            and translated_text == self.translate_model.TRANSLATION_ERROR_MARKER
+        ):
+            return
+
+        # Check if paragraph has excluded content tags
+        exclude_tags_list = [t for t in self.exclude_translate_tags.split(",") if t]
+        has_code_tags = any(p.find(tag) for tag in exclude_tags_list)
+
+        if not has_code_tags:
+            # Simple case: no code tags, use standard insert_trans
+            self.helper.insert_trans(
+                p, translated_text, translation_style, single_translate
+            )
+            return
+
+        # For paragraphs with code tags
+        if single_translate:
+            # Single translate mode: preserve code tags structure, replace only text
+            # Create a copy to work with
+            temp_p = copy(p)
+            # Extract code tags temporarily
+            code_placeholders = []
+            for tag_name in exclude_tags_list:
+                for tag in temp_p.find_all(tag_name):
+                    code_placeholders.append(copy(tag))
+                    tag.extract()
+
+            # Now set the translated text and re-insert code tags
+            # This is tricky - we need to map positions
+            # Simpler approach: just set the translation and re-append code at the end
+            temp_p.clear()
+            temp_p.string = translated_text
+            for code_tag in code_placeholders:
+                temp_p.append(copy(code_tag))
+
+            # Replace original content
+            p.clear()
+            for content in temp_p.contents:
+                p.append(copy(content))
+        else:
+            # Bilingual mode: keep original paragraph with code, add translation after
+            new_p = copy(p)
+            # Remove code tags from translation
+            for tag_name in exclude_tags_list:
+                for tag in new_p.find_all(tag_name):
+                    tag.extract()
+            new_p.string = translated_text
+            if translation_style != "":
+                new_p["style"] = translation_style
+            p.insert_after(new_p)
 
     def _process_paragraph(self, p, new_p, index, p_to_save_len, thread_safe=False):
         if self.resume and index < p_to_save_len:
-            p.string = self.p_to_save[index]
+            # When resuming, keep original text in p, only restore translation
+            # p.string should remain as original text from source EPUB
+            new_p.string = self.p_to_save[index]
         else:
             t_text = ""
             if self.batch_flag:
@@ -303,9 +431,14 @@ class EPUBBookLoader(BaseBookLoader):
                 new_p.string = t_text
                 self.p_to_save.append(new_p.text)
 
-        self.helper.insert_trans(
-            p, new_p.string, self.translation_style, self.single_translate
-        )
+        if type(p) is NavigableString:
+            self.helper.insert_trans(
+                p, new_p, self.translation_style, self.single_translate
+            )
+        else:
+            self._insert_trans_preserving_tags(
+                p, new_p.string, self.translation_style, self.single_translate
+            )
         index += 1
 
         if thread_safe:
@@ -320,40 +453,86 @@ class EPUBBookLoader(BaseBookLoader):
     def _process_combined_paragraph(
         self, p_block, index, p_to_save_len, thread_safe=False
     ):
-        text = []
+        """Returns (new_index, processed_count)."""
+        # Each entry: (paragraph, text_to_translate_or_None_if_resumed, cached_translation_or_None)
+        entries = []
+        processed_count = 0
 
         for p in p_block:
-            if self.resume and index < p_to_save_len:
-                p.string = self.p_to_save[index]
-            else:
-                p_text = p.text.rstrip()
-                text.append(p_text)
-
             if self.is_test and index >= self.test_num:
                 break
 
+            # Skip paragraphs that only contain excluded tags (code, pre, etc.)
+            if self._is_content_only_excluded_tags(p):
+                processed_count += 1
+                continue
+
+            if self.resume and index < p_to_save_len:
+                cached = self.p_to_save[index]
+                entries.append((p, None, cached))
+            else:
+                raw = p.text.rstrip()
+                entries.append((p, raw, None))
+
             index += 1
+            processed_count += 1
 
-        if len(text) > 0:
-            translated_text = self.translate_model.translate("\n".join(text))
-            translated_text = translated_text.split("\n")
-            text_len = len(translated_text)
+        # Translate only the non-resumed paragraphs
+        new_texts = [text for _, text, cached in entries if text is not None]
 
-            for i in range(text_len):
-                t = translated_text[i]
-
-                if i >= len(p_block):
-                    p = p_block[-1]
+        if new_texts:
+            try:
+                translated_text_list = self.translate_model.translate_list(new_texts)
+            except Exception as e:
+                # Check if this is a fatal error
+                if self.translate_model._fatal_error_detected:
+                    print(
+                        f"[bold red]Fatal translation error detected. "
+                        f"Aborting translation.[/bold red]"
+                    )
+                    print(f"[bold red]Error: {str(e)}[/bold red]")
+                    # Return early with error markers
+                    translated_text_list = [
+                        self.translate_model.TRANSLATION_ERROR_MARKER
+                    ] * len(new_texts)
                 else:
-                    p = p_block[i]
+                    print(f"[bold red]Translation error: {str(e)}[/bold red]")
+                    raise
+        else:
+            translated_text_list = []
 
-                if type(p) is NavigableString:
-                    p = t
+        translate_iter = iter(translated_text_list)
+        for p, text, cached in entries:
+            # Check for fatal error and stop immediately
+            if self.translate_model._fatal_error_detected:
+                print(
+                    "[bold red]Fatal translation error detected. Stopping paragraph processing.[/bold red]"
+                )
+                break
+
+            if text is not None:
+                # Fresh translation
+                t = next(translate_iter)
+                self._insert_trans_preserving_tags(
+                    p, t, self.translation_style, self.single_translate
+                )
+                self.p_to_save.append(t)
+                print(text)
+                # Check if translation failed
+                if (
+                    self.translate_model.TRANSLATION_ERROR_MARKER is not None
+                    and t == self.translate_model.TRANSLATION_ERROR_MARKER
+                ):
+                    print(
+                        f"[bold red][Translation failed for this paragraph][/bold red]"
+                    )
                 else:
-                    p.string = t
-
-                self.helper.insert_trans(
-                    p, p.string, self.translation_style, self.single_translate
+                    print(f"[bold green]{t}[/bold green]")
+                print()
+            else:
+                # Resumed from cache
+                self._insert_trans_preserving_tags(
+                    p, cached, self.translation_style, self.single_translate
                 )
 
         if thread_safe:
@@ -361,7 +540,7 @@ class EPUBBookLoader(BaseBookLoader):
                 self._save_progress()
         else:
             self._save_progress()
-        return index
+        return index, processed_count
 
     def translate_paragraphs_acc(self, p_list, send_num):
         count = 0
@@ -378,30 +557,111 @@ class EPUBBookLoader(BaseBookLoader):
                 for pt in temp_p.find_all(p_exclude):
                     pt.extract()
 
+            # Also exclude content tags (code, pre, etc.)
+            exclude_tags_list = [t for t in self.exclude_translate_tags.split(",") if t]
+            for tag_name in exclude_tags_list:
+                if type(p) is NavigableString:
+                    continue
+                for pt in temp_p.find_all(tag_name):
+                    pt.extract()
+
             if any(
                 [not p.text, self._is_special_text(temp_p.text), not_trans(temp_p.text)]
             ):
                 if i == len(p_list) - 1:
-                    self.helper.deal_old(wait_p_list, self.single_translate)
+                    self._deal_old_acc(wait_p_list, self.single_translate)
                 continue
             length = num_tokens_from_text(temp_p.text)
             if length > send_num:
-                self.helper.deal_new(p, wait_p_list, self.single_translate)
+                self._deal_new_acc(p, wait_p_list, self.single_translate)
                 continue
             if i == len(p_list) - 1:
                 if count + length < send_num:
                     wait_p_list.append(p)
-                    self.helper.deal_old(wait_p_list, self.single_translate)
+                    self._deal_old_acc(wait_p_list, self.single_translate)
                 else:
-                    self.helper.deal_new(p, wait_p_list, self.single_translate)
+                    self._deal_new_acc(p, wait_p_list, self.single_translate)
                 break
             if count + length < send_num:
                 count += length
                 wait_p_list.append(p)
             else:
-                self.helper.deal_old(wait_p_list, self.single_translate)
+                self._deal_old_acc(wait_p_list, self.single_translate)
                 wait_p_list.append(p)
                 count = length
+
+    def _deal_old_acc(self, wait_p_list, single_translate):
+        """Helper for translate_paragraphs_acc - process accumulated paragraphs."""
+        if not wait_p_list:
+            return
+
+        result_txt_list = self.translate_model.translate_list(wait_p_list)
+
+        for i in range(len(wait_p_list)):
+            if i < len(result_txt_list):
+                p = wait_p_list[i]
+                self._insert_trans_preserving_tags(
+                    p,
+                    shorter_result_link(result_txt_list[i]),
+                    self.translation_style,
+                    single_translate,
+                )
+
+        wait_p_list.clear()
+
+    def _deal_new_acc(self, p, wait_p_list, single_translate):
+        """Helper for translate_paragraphs_acc - process single paragraph."""
+        self._deal_old_acc(wait_p_list, single_translate)
+        translation = self.translate_model.translate(p.text)
+        self._insert_trans_preserving_tags(
+            p,
+            translation,
+            self.translation_style,
+            single_translate,
+        )
+
+    def _split_into_sentences(self, text):
+        """Split text into sentences on punctuation followed by whitespace + uppercase."""
+        parts = re.split(r"(?<=[.!?])\s+(?=[A-Z\"\'\(])", text.strip())
+        return [s.strip() for s in parts if s.strip()]
+
+    def _process_paragraph_sentence_mode(self, p, soup):
+        """Translate a paragraph sentence by sentence, interleaving originals and translations.
+
+        Returns True if sentence-level processing was applied, False if the paragraph
+        should fall through to normal paragraph-level translation.
+        """
+        text = p.get_text().strip()
+        sentences = self._split_into_sentences(text)
+
+        # Only one sentence — let normal processing handle it
+        if len(sentences) <= 1:
+            return False
+
+        try:
+            translated_sentences = self.translate_model.translate_list(sentences)
+        except Exception as e:
+            print(f"[bold red]Sentence translation error: {e}[/bold red]")
+            return False
+
+        if len(translated_sentences) != len(sentences):
+            return False
+
+        style = self.translation_style or "color: #1e90ff;"
+        if self.single_translate:
+            p.clear()
+            p.string = " ".join(translated_sentences)
+        else:
+            p.clear()
+            for orig, trans in zip(sentences, translated_sentences):
+                p.append(NavigableString(orig + " "))
+                if trans and trans.strip() != orig.strip():
+                    trans_span = soup.new_tag("span")
+                    trans_span.string = trans + " "
+                    trans_span["style"] = style
+                    p.append(trans_span)
+
+        return True
 
     def get_item(self, book, name):
         for item in book.get_items():
@@ -584,44 +844,68 @@ class EPUBBookLoader(BaseBookLoader):
             print(f"dealing {item.file_name} ...")
             self.translate_paragraphs_acc(p_list, send_num)
         else:
-            is_test_done = self.is_test and index > self.test_num
+            is_test_done = self.is_test and index >= self.test_num
             p_block = []
             block_len = 0
             for p in p_list:
                 if is_test_done:
                     break
+
+                # Check for fatal error during processing
+                if self.translate_model._fatal_error_detected:
+                    print(
+                        "[bold red]Fatal translation error detected. Stopping chapter processing.[/bold red]"
+                    )
+                    break
+
                 if not p.text or self._is_special_text(p.text):
-                    pbar.update(1)
+                    # Skip empty/special paragraphs without updating progress bar
+                    continue
+
+                # If paragraph only contains excluded tags (code, pre, etc.), keep it without translation
+                if self._is_content_only_excluded_tags(p):
+                    # Don't translate, just keep the original paragraph
                     continue
 
                 new_p = self._extract_paragraph(copy(p))
-                if self.single_translate and self.block_size > 0:
-                    p_len = num_tokens_from_text(new_p.text)
-                    block_len += p_len
-                    if block_len > self.block_size:
-                        index = self._process_combined_paragraph(
+                if self.sentence_mode:
+                    if self._process_paragraph_sentence_mode(p, soup):
+                        index += 1
+                        pbar.update(1)
+                        print()
+                        if self.is_test and index >= self.test_num:
+                            is_test_done = True
+                        continue
+                    # Fall through to normal paragraph processing if <1 sentence split
+                if self.block_size >= 1:
+                    # Collect paragraphs for batch translation
+                    p_block.append(p)
+
+                    # Process when we have enough paragraphs
+                    if len(p_block) >= self.block_size:
+                        index, n = self._process_combined_paragraph(
                             p_block, index, p_to_save_len, thread_safe=False
                         )
-                        p_block = [p]
-                        block_len = p_len
+                        pbar.update(n)
+                        p_block = []
                         print()
-                    else:
-                        p_block.append(p)
                 else:
                     index = self._process_paragraph(
                         p, new_p, index, p_to_save_len, thread_safe=False
                     )
                     print()
-
-                # pbar.update(delta) not pbar.update(index)?
-                pbar.update(1)
+                    pbar.update(1)
 
                 if self.is_test and index >= self.test_num:
+                    is_test_done = True
                     break
-            if self.single_translate and self.block_size > 0 and len(p_block) > 0:
-                index = self._process_combined_paragraph(
+
+            # Process remaining paragraphs in the batch
+            if self.block_size >= 1 and len(p_block) > 0:
+                index, n = self._process_combined_paragraph(
                     p_block, index, p_to_save_len, thread_safe=False
                 )
+                pbar.update(n)
 
         if soup:
             item.content = soup.encode(encoding="utf-8")
@@ -695,6 +979,10 @@ class EPUBBookLoader(BaseBookLoader):
                     if not p.text or self._is_special_text(p.text):
                         continue
 
+                    # Skip paragraphs that only contain excluded tags (code, pre, etc.)
+                    if self._is_content_only_excluded_tags(p):
+                        continue
+
                     new_p = self._extract_paragraph(copy(p))
                     index = self._get_next_translation_index()
 
@@ -718,7 +1006,7 @@ class EPUBBookLoader(BaseBookLoader):
                         if self.single_translate:
                             p.extract()
                     else:
-                        self.helper.insert_trans(
+                        self._insert_trans_preserving_tags(
                             p, t_text, self.translation_style, self.single_translate
                         )
 
@@ -780,9 +1068,6 @@ class EPUBBookLoader(BaseBookLoader):
         chapter_translated_list,
     ):
         """Apply accumulated_num logic for a single chapter in parallel mode with independent context."""
-        from book_maker.utils import num_tokens_from_text
-        from .helper import not_trans
-
         count = 0
         wait_p_list = []
 
@@ -830,9 +1115,8 @@ class EPUBBookLoader(BaseBookLoader):
                     for i in range(len(wait_p_list)):
                         if i < len(result_txt_list):
                             p = wait_p_list[i]
-                            from .helper import shorter_result_link
 
-                            self.parent_loader.helper.insert_trans(
+                            self.parent_loader._insert_trans_preserving_tags(
                                 p,
                                 shorter_result_link(result_txt_list[i]),
                                 self.parent_loader.translation_style,
@@ -849,7 +1133,7 @@ class EPUBBookLoader(BaseBookLoader):
             def deal_new(self, p, wait_p_list, single_translate):
                 self.deal_old(wait_p_list, single_translate)
                 translation = self.translate_with_context(p.text)
-                self.parent_loader.helper.insert_trans(
+                self.parent_loader._insert_trans_preserving_tags(
                     p,
                     translation,
                     self.parent_loader.translation_style,
@@ -862,12 +1146,27 @@ class EPUBBookLoader(BaseBookLoader):
 
         for i in range(len(p_list)):
             p = p_list[i]
+
+            # Skip paragraphs that only contain excluded tags (code, pre, etc.)
+            if self._is_content_only_excluded_tags(p):
+                if i == len(p_list) - 1:
+                    chapter_helper.deal_old(wait_p_list, self.single_translate)
+                continue
+
             temp_p = copy(p)
 
             for p_exclude in self.exclude_translate_tags.split(","):
-                if type(p) == NavigableString:
+                if isinstance(p, NavigableString):
                     continue
                 for pt in temp_p.find_all(p_exclude):
+                    pt.extract()
+
+            # Exclude content within specified tags from translation (e.g., code, pre)
+            exclude_tags_list = [t for t in self.exclude_translate_tags.split(",") if t]
+            for tag_name in exclude_tags_list:
+                if isinstance(p, NavigableString):
+                    continue
+                for pt in temp_p.find_all(tag_name):
                     pt.extract()
 
             if any(
@@ -917,41 +1216,27 @@ class EPUBBookLoader(BaseBookLoader):
             self.translation_style,
             self.context_flag,
         )
+
+        # Check for fatal errors before starting
+        if self.translate_model._fatal_error_detected:
+            print(
+                "[bold red]Fatal translation error detected. Aborting book creation.[/bold red]"
+            )
+            return
+
         self.batch_init_then_wait()
         new_book = self._make_new_book(self.origin_book)
         all_items = list(self.origin_book.get_items())
         trans_taglist = self.translate_tags.split(",")
-        all_p_length = sum(
-            (
-                0
-                if (
-                    (i.get_type() != ITEM_DOCUMENT)
-                    or (i.file_name in self.exclude_filelist.split(","))
-                    or (
-                        self.only_filelist
-                        and i.file_name not in self.only_filelist.split(",")
-                    )
-                )
-                else len(bs(i.content, "html.parser").findAll(trans_taglist))
-            )
-            for i in all_items
+
+        # Count only paragraphs that actually need translation
+        all_p_length = self._count_translatable_paragraphs(all_items, trans_taglist)
+
+        # Use leave=False in test mode to prevent duplicate progress bar display
+        pbar = tqdm(
+            total=self.test_num if self.is_test else all_p_length,
+            leave=not self.is_test,
         )
-        all_p_length += self.allow_navigable_strings * sum(
-            (
-                0
-                if (
-                    (i.get_type() != ITEM_DOCUMENT)
-                    or (i.file_name in self.exclude_filelist.split(","))
-                    or (
-                        self.only_filelist
-                        and i.file_name not in self.only_filelist.split(",")
-                    )
-                )
-                else len(bs(i.content, "html.parser").findAll(text=True))
-            )
-            for i in all_items
-        )
-        pbar = tqdm(total=self.test_num) if self.is_test else tqdm(total=all_p_length)
         print()
         index = 0
         p_to_save_len = len(self.p_to_save)
@@ -1012,6 +1297,14 @@ class EPUBBookLoader(BaseBookLoader):
                     }
 
                     for future in as_completed(future_to_item):
+                        # Check for fatal error
+                        if self.translate_model._fatal_error_detected:
+                            print(
+                                "[bold red]Fatal translation error detected. Stopping book creation.[/bold red]"
+                            )
+                            chapter_pbar.close()
+                            return
+
                         item = future_to_item[future]
                         try:
                             result = future.result()
@@ -1036,9 +1329,34 @@ class EPUBBookLoader(BaseBookLoader):
                     print(f"📄 Single chapter detected - using sequential processing")
 
                 for item in document_items:
+                    # Check for fatal error before processing each item
+                    if self.translate_model._fatal_error_detected:
+                        print(
+                            "[bold red]Fatal translation error detected. Stopping book creation.[/bold red]"
+                        )
+                        return
+
+                    # Continue processing all chapters (to add them to book)
+                    # but skip translation after test limit
+                    if self.is_test and index >= self.test_num:
+                        # Just add the chapter without translation
+                        new_book.add_item(item)
+                        continue
+
                     index = self.process_item(
                         item, index, p_to_save_len, pbar, new_book, trans_taglist
                     )
+
+                    # Check for fatal error after processing
+                    if self.translate_model._fatal_error_detected:
+                        print(
+                            "[bold red]Fatal translation error detected. Aborting book creation.[/bold red]"
+                        )
+                        pbar.close()
+                        return
+
+                # Close progress bar
+                pbar.close()
 
                 if self.accumulated_num > 1:
                     name, _ = os.path.splitext(self.epub_name)
@@ -1048,8 +1366,6 @@ class EPUBBookLoader(BaseBookLoader):
                 self.translate_model.batch()
             else:
                 epub.write_epub(f"{name}_bilingual.epub", new_book, {})
-            if self.accumulated_num == 1:
-                pbar.close()
         except KeyboardInterrupt as e:
             print(e)
             if self.accumulated_num == 1:
@@ -1057,11 +1373,20 @@ class EPUBBookLoader(BaseBookLoader):
                 self._save_progress()
                 self._save_temp_book()
             sys.exit(0)
-        except Exception:
-            traceback.print_exc()
-            print("you can resume it next time")
-            self._save_progress()
-            self._save_temp_book()
+        except Exception as e:
+            # Handle connection errors gracefully
+            error_msg = str(e)
+            if "Connection" in error_msg or "connection" in error_msg:
+                print(
+                    f"[bold red]Translation failed: Connection error - {error_msg}[/bold red]"
+                )
+                print("Please check your network connection or API server status.")
+            else:
+                traceback.print_exc()
+            if self.accumulated_num == 1:
+                print("Saving progress...")
+                self._save_progress()
+                self._save_temp_book()
             sys.exit(0)
 
     def load_state(self):
@@ -1089,6 +1414,9 @@ class EPUBBookLoader(BaseBookLoader):
                     for p in p_list:
                         if not p.text or self._is_special_text(p.text):
                             continue
+                        # Skip paragraphs that only contain excluded tags (code, pre, etc.)
+                        if self._is_content_only_excluded_tags(p):
+                            continue
                         # TODO banch of p to translate then combine
                         # PR welcome here
                         if index < p_to_save_len:
@@ -1097,7 +1425,7 @@ class EPUBBookLoader(BaseBookLoader):
                                 new_p = self.p_to_save[index]
                             else:
                                 new_p.string = self.p_to_save[index]
-                            self.helper.insert_trans(
+                            self._insert_trans_preserving_tags(
                                 p,
                                 new_p.string,
                                 self.translation_style,

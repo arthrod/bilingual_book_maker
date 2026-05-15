@@ -2,14 +2,19 @@ import re
 import time
 import os
 import shutil
-from copy import copy
 from os import environ
 from itertools import cycle
 import json
 from threading import Lock
 
-from openai import AzureOpenAI, OpenAI, RateLimitError
+from openai import AzureOpenAI, BadRequestError, NotFoundError, OpenAI, RateLimitError
 from rich import print
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+)
 
 from .base_translator import Base
 from ..config import config
@@ -19,6 +24,30 @@ CHATGPT_CONFIG = config["translator"]["chatgptapi"]
 PROMPT_ENV_MAP = {
     "user": "BBM_CHATGPTAPI_USER_MSG_TEMPLATE",
     "system": "BBM_CHATGPTAPI_SYS_MSG",
+}
+
+# JSON Schema for structured batch translation output (OpenAI compatible)
+TRANSLATION_SCHEMA = {
+    "name": "translation_response",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "properties": {"paragraphs": {"type": "array", "items": {"type": "string"}}},
+        "required": ["paragraphs"],
+        "additionalProperties": False,
+    },
+}
+
+# Simpler schema for single translations
+SINGLE_TRANSLATION_SCHEMA = {
+    "name": "single_translation",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "properties": {"translated": {"type": "string"}},
+        "required": ["translated"],
+        "additionalProperties": False,
+    },
 }
 
 GPT35_MODEL_LIST = [
@@ -82,6 +111,7 @@ class ChatGPTAPI(Base):
         temperature=1.0,
         context_flag=False,
         context_paragraph_limit=0,
+        extra_body=None,
         **kwargs,
     ) -> None:
         super().__init__(key, language)
@@ -119,6 +149,34 @@ class ChatGPTAPI(Base):
         self.batch_info_cache = None
         self.result_content_cache = {}
         self._api_lock = Lock()
+        self.extra_body = extra_body or {}
+
+        # Structured outputs: auto-detected on first translate_list() call
+        # None means "not yet tested", will be set to True/False after test
+        self._use_structured_outputs = None
+        self.model = (
+            None  # Will be set by rotate_model() after model_list is initialized
+        )
+
+    def _test_structured_outputs(self):
+        """Test if the server supports structured outputs (strict json schema)"""
+        try:
+            test_messages = [{"role": "user", "content": "Say 'test'"}]
+            self.openai_client.chat.completions.create(
+                model=self.model,
+                messages=test_messages,
+                temperature=0.1,
+                response_format={
+                    "type": "json_schema",
+                    "json_schema": SINGLE_TRANSLATION_SCHEMA,
+                },
+            )
+            self._use_structured_outputs = True
+        except Exception:
+            self._use_structured_outputs = False
+            print(
+                "[yellow]ℹ Server doesn't support JSON schema, using delimiter method[/yellow]"
+            )
 
     def rotate_key(self):
         with self._api_lock:
@@ -157,22 +215,46 @@ class ChatGPTAPI(Base):
             )
         return messages
 
-    def create_chat_completion(self, messages):
-        
-        completion = self.openai_client.chat.completions.create(
-            model=self.model,
-            messages=messages,
-            temperature=self.temperature,
-            stream=False,
-        )
+    def create_chat_completion(self, text):
+        messages = self.create_messages(text, self.create_context_messages())
+
+        if self._use_structured_outputs:
+            completion = self.openai_client.chat.completions.create(
+                model=self.model,
+                messages=messages,
+                temperature=self.temperature,
+                stream=False,
+                response_format={
+                    "type": "json_schema",
+                    "json_schema": SINGLE_TRANSLATION_SCHEMA,
+                },
+                extra_body=self.extra_body if self.extra_body else None,
+            )
+        else:
+            completion = self.openai_client.chat.completions.create(
+                model=self.model,
+                messages=messages,
+                temperature=self.temperature,
+                stream=False,
+                extra_body=self.extra_body if self.extra_body else None,
+            )
         return completion
 
-    def get_translation(self, text, needprint=True):
+    @retry(
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=2, max=60),
+        retry=retry_if_exception_type((RateLimitError, Exception)),
+        reraise=True,
+    )
+    def get_translation(self, text):
         self.rotate_key()
         self.rotate_model()  # rotate all the model to avoid the limit
-        
-        messages = self.create_messages(text, self.create_context_messages())
-        completion = self.create_chat_completion(messages)
+
+        # Auto-detect if not yet tested
+        if self._use_structured_outputs is None:
+            self._test_structured_outputs()
+
+        completion = self.create_chat_completion(text)
 
         # TODO work well or exception finish by length limit
         # Check if content is not None before encoding
@@ -196,6 +278,16 @@ class ChatGPTAPI(Base):
                 #break
             messages+=[{"role": "assistant","content": cur_content},{"role": "user", "content": "继续"}]
             completion = self.create_chat_completion(messages)
+
+        # Parse structured output if enabled
+        if self._use_structured_outputs and t_text:
+            try:
+                parsed = json.loads(t_text)
+                t_text = parsed.get("translated", t_text)
+            except json.JSONDecodeError as e:
+                print(
+                    f"[yellow]Warning: Failed to parse structured output: {e}[/yellow]"
+                )
 
         if self.context_flag:
             self.save_context(text, t_text)
@@ -334,133 +426,124 @@ class ChatGPTAPI(Base):
 
         return new_text
 
-    def translate_list(self, plist):
-        plist_len = len(plist)
+    def translate_list(self, text_list):
+        """
+        Translate multiple texts using the best available method.
+        Priority: 1. Structured Outputs (strict) -> 2. Delimiter-based
+        Returns a list of translated texts.
+        """
+        # Auto-detect output mode on first use
+        if self._use_structured_outputs is None:
+            self._test_structured_outputs()
 
-        # Create a list of original texts and add clear numbering markers to each paragraph
-        formatted_text = ""
-        for i, p in enumerate(plist, 1):
-            temp_p = copy(p)
-            for sup in temp_p.find_all("sup"):
-                sup.extract()
-            para_text = temp_p.get_text().strip()
-            # Using special delimiters and clear numbering
-            formatted_text += f"PARAGRAPH {i}:\n{para_text}\n\n"
+        # Use structured outputs if available
+        if self._use_structured_outputs:
+            return self._do_structured_batch_translate(text_list)
 
-        print(f"plist len = {plist_len}")
-
-        original_prompt_template = self.prompt_template
-
-        structured_prompt = (
-            f"Translate the following {plist_len} paragraphs to {{language}}. "
-            f"CRUCIAL INSTRUCTION: Format your response using EXACTLY this structure:\n\n"
-            f"TRANSLATION OF PARAGRAPH 1:\n[Your translation of paragraph 1 here]\n\n"
-            f"TRANSLATION OF PARAGRAPH 2:\n[Your translation of paragraph 2 here]\n\n"
-            f"... and so on for all {plist_len} paragraphs.\n\n"
-            f"You MUST provide EXACTLY {plist_len} translated paragraphs. "
-            f"Do not merge, split, or rearrange paragraphs. "
-            f"Translate each paragraph independently but consistently. "
-            f"Keep all numbers and special formatting in your translation. "
-            f"Each original paragraph must correspond to exactly one translated paragraph."
+        # Fallback to delimiter-based method
+        return self._do_batch_translate(
+            text_list,
+            self.prompt_template,
+            self.system_content,
+            self.DEFAULT_PROMPT,
+            lambda text: self.translate(text, False),
         )
 
-        self.prompt_template = structured_prompt + " ```{text}```"
+    def _create_structured_batch_messages(self, text_list):
+        """Create messages for structured batch translation"""
+        plist_len = len(text_list)
 
-        translated_text = self.translate(formatted_text, False)
+        # Build the user message with all texts, incorporating user's prompt template
+        texts_json = json.dumps(text_list, ensure_ascii=False)
 
-        # Extract translations from structured output
-        translated_paragraphs = []
-        for i in range(1, plist_len + 1):
-            pattern = (
-                r"TRANSLATION OF PARAGRAPH "
-                + str(i)
-                + r":(.*?)(?=TRANSLATION OF PARAGRAPH \d+:|\Z)"
-            )
-            matches = re.findall(pattern, translated_text, re.DOTALL)
+        # Format user's prompt template with the JSON array as {text}
+        user_prompt = self.prompt_template.format(
+            text=texts_json, language=self.language, crlf="\n"
+        )
 
-            if matches:
-                translated_paragraph = matches[0].strip()
-                translated_paragraphs.append(translated_paragraph)
-            else:
-                print(f"Warning: Could not find translation for paragraph {i}")
-                loose_pattern = (
-                    r"(?:TRANSLATION|PARAGRAPH|PARA).*?"
-                    + str(i)
-                    + r".*?:(.*?)(?=(?:TRANSLATION|PARAGRAPH|PARA).*?\d+.*?:|\Z)"
-                )
-                loose_matches = re.findall(loose_pattern, translated_text, re.DOTALL)
-                if loose_matches:
-                    translated_paragraphs.append(loose_matches[0].strip())
-                else:
-                    translated_paragraphs.append("")
+        # Add structured format instruction
+        content = (
+            f"{user_prompt}\n\n"
+            f"Return a JSON object with a 'paragraphs' array containing EXACTLY {plist_len} translated strings."
+        )
 
-        self.prompt_template = original_prompt_template
+        sys_content = self.system_content or self.prompt_sys_msg.format(crlf="\n")
 
-        # If the number of extracted paragraphs is incorrect, try the alternative extraction method.
-        if len(translated_paragraphs) != plist_len:
+        messages = [
+            {"role": "system", "content": sys_content},
+        ]
+
+        if self.context_flag:
+            messages.extend(self.create_context_messages())
+
+        messages.append({"role": "user", "content": content})
+        return messages
+
+    def _do_structured_batch_translate(self, text_list):
+        """Batch translate using structured outputs"""
+        plist_len = len(text_list)
+
+        if plist_len == 0:
+            return []
+
+        if plist_len == 1:
+            return [self.get_translation(text_list[0])]
+
+        try:
+            result = self._execute_structured_batch_translate(text_list, plist_len)
+            return result
+        except Exception as e:
             print(
-                f"Warning: Extracted {len(translated_paragraphs)}/{plist_len} paragraphs. Using fallback extraction."
+                f"[yellow]Structured batch translation failed after retries: {e}. "
+                f"Falling back to one-by-one translation.[/yellow]"
+            )
+            return [self.translate(t, False) for t in text_list]
+
+    @retry(
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=2, max=60),
+        retry=retry_if_exception_type((RateLimitError, Exception)),
+        reraise=True,
+    )
+    def _execute_structured_batch_translate(self, text_list, plist_len):
+        """Execute the actual structured batch translation with tenacity retry"""
+        self.rotate_key()
+        self.rotate_model()
+
+        messages = self._create_structured_batch_messages(text_list)
+
+        completion = self.openai_client.chat.completions.create(
+            model=self.model,
+            messages=messages,
+            temperature=self.temperature,
+            response_format={
+                "type": "json_schema",
+                "json_schema": TRANSLATION_SCHEMA,
+            },
+            extra_body=self.extra_body if self.extra_body else None,
+        )
+
+        t_text = completion.choices[0].message.content.encode("utf8").decode() or ""
+
+        if not t_text:
+            raise ValueError("Structured output returned empty response")
+
+        try:
+            parsed = json.loads(t_text)
+            paragraphs = parsed.get("paragraphs", [])
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Failed to parse structured batch output: {e}") from e
+
+        if len(paragraphs) != plist_len:
+            raise ValueError(
+                f"Expected {plist_len} translations, got {len(paragraphs)}"
             )
 
-            all_para_pattern = r"(?:TRANSLATION|PARAGRAPH|PARA).*?(\d+).*?:(.*?)(?=(?:TRANSLATION|PARAGRAPH|PARA).*?\d+.*?:|\Z)"
-            all_matches = re.findall(all_para_pattern, translated_text, re.DOTALL)
+        if self.context_flag:
+            for orig, trans in zip(text_list, paragraphs):
+                self.save_context(orig, trans)
 
-            if all_matches:
-                # Create a dictionary to map translation content based on paragraph numbers
-                para_dict = {}
-                for num_str, content in all_matches:
-                    try:
-                        num = int(num_str)
-                        if 1 <= num <= plist_len:
-                            para_dict[num] = content.strip()
-                    except ValueError:
-                        continue
-
-                # Rebuild the translation list in the original order
-                new_translated_paragraphs = []
-                for i in range(1, plist_len + 1):
-                    if i in para_dict:
-                        new_translated_paragraphs.append(para_dict[i])
-                    else:
-                        new_translated_paragraphs.append("")
-
-                if len(new_translated_paragraphs) == plist_len:
-                    translated_paragraphs = new_translated_paragraphs
-
-        if len(translated_paragraphs) < plist_len:
-            translated_paragraphs.extend(
-                [""] * (plist_len - len(translated_paragraphs))
-            )
-        elif len(translated_paragraphs) > plist_len:
-            translated_paragraphs = translated_paragraphs[:plist_len]
-
-        return translated_paragraphs
-
-    def extract_paragraphs(self, text, paragraph_count):
-        """Extract paragraphs from translated text, ensuring paragraph count is preserved."""
-        # First try to extract by paragraph numbers (1), (2), etc.
-        result_list = []
-        for i in range(1, paragraph_count + 1):
-            pattern = rf"\({i}\)\s*(.*?)(?=\s*\({i + 1}\)|\Z)"
-            match = re.search(pattern, text, re.DOTALL)
-            if match:
-                result_list.append(match.group(1).strip())
-
-        # If exact pattern matching failed, try another approach
-        if len(result_list) != paragraph_count:
-            pattern = r"\((\d+)\)\s*(.*?)(?=\s*\(\d+\)|\Z)"
-            matches = re.findall(pattern, text, re.DOTALL)
-            if matches:
-                # Sort by paragraph number
-                matches.sort(key=lambda x: int(x[0]))
-                result_list = [match[1].strip() for match in matches]
-
-        # Fallback to original line-splitting approach
-        if len(result_list) != paragraph_count:
-            lines = text.splitlines()
-            result_list = [line.strip() for line in lines if line.strip() != ""]
-
-        return result_list
+        return paragraphs
 
     def set_deployment_id(self, deployment_id):
         self.deployment_id = deployment_id
@@ -471,121 +554,259 @@ class ChatGPTAPI(Base):
             azure_deployment=self.deployment_id,
         )
 
+    def _check_model_availability(self, model_list, model_family_name):
+        """Check if any models from the model_list are available from the API.
+        Returns True if at least one model is available, False otherwise.
+        """
+        if not model_list:
+            print(
+                f"[red]Error: No {model_family_name} models are available from the API.[/red]"
+            )
+            print(
+                "[yellow]Please check your API key, endpoint, and model permissions.[/yellow]"
+            )
+            return False
+        return True
+
+    @retry(
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=2, max=10),
+        retry=retry_if_exception_type(Exception),
+        reraise=True,
+    )
+    def _fetch_api_models_with_retry(self):
+        """Fetch available models from API with retry logic.
+        Returns list of model IDs, or None if the models API is not available (e.g., 404).
+        """
+        try:
+            return [
+                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
+            ]
+        except (NotFoundError, BadRequestError):
+            # 404 or 400 — models endpoint not supported by this API provider
+            print(
+                "[yellow]Model availability check skipped: API does not support models endpoint.[/yellow]"
+            )
+            return None
+        except Exception as e:
+            print(
+                f"[yellow]Error checking model availability: {e}. Retrying...[/yellow]"
+            )
+            raise
+
+    def _validate_custom_models(self, custom_model_list):
+        """Validate that custom models exist in the API's model list.
+        Returns a dict with 'success', 'available_models', and 'unavailable_models' keys.
+        """
+        api_models = self._fetch_api_models_with_retry()
+
+        # If models API is not available, validate by testing each model directly
+        if api_models is None:
+            available_models = []
+            unavailable_models = []
+
+            for model_name in custom_model_list:
+                try:
+                    self._validate_model_with_test(model_name, "custom")
+                    available_models.append(model_name)
+                except Exception as e:
+                    print(f"[red]{e}[/red]")
+                    unavailable_models.append(model_name)
+
+            if not available_models:
+                return {
+                    "success": False,
+                    "available_models": [],
+                    "unavailable_models": custom_model_list,
+                    "api_models": [],
+                }
+
+            if unavailable_models:
+                print(
+                    f"[yellow]Warning: {unavailable_models} not accessible, using {available_models}[/yellow]"
+                )
+
+            return {
+                "success": True,
+                "available_models": available_models,
+                "unavailable_models": unavailable_models,
+                "api_models": [],
+            }
+
+        available_models = list(set(custom_model_list) & set(api_models))
+        unavailable_models = list(set(custom_model_list) - set(api_models))
+
+        if not available_models:
+            print(
+                f"[red]Error: None of the custom models {custom_model_list} are available in the API.[/red]"
+            )
+            print(f"[yellow]Available models: {api_models}[/yellow]")
+            print(
+                "[yellow]Please check your model name, API key, endpoint, and model permissions.[/yellow]"
+            )
+            return {
+                "success": False,
+                "available_models": [],
+                "unavailable_models": custom_model_list,
+                "api_models": api_models,
+            }
+
+        # If some models are not available, warn but continue with available ones
+        if unavailable_models:
+            print(
+                f"[yellow]Warning: Models {unavailable_models} not found in API, using available models: {available_models}[/yellow]"
+            )
+
+        return {
+            "success": True,
+            "available_models": available_models,
+            "unavailable_models": unavailable_models,
+            "api_models": api_models,
+        }
+
+    def _set_models(
+        self, model_family_name: str, default_azure_model: str, allowed_models: set
+    ):
+        """Generic method to set available models based on model family.
+
+        Args:
+            model_family_name: Human-readable name for error messages (e.g., "GPT-3.5")
+            default_azure_model: Default model name to use for Azure deployments
+            allowed_models: Set of allowed model IDs to intersect with API models
+        """
+        # For Azure deployments, use the default model directly
+        if self.deployment_id:
+            self.model_list = cycle([default_azure_model])
+            self.model = default_azure_model
+            return
+
+        # For regular OpenAI client, fetch and filter available models
+        my_model_list = self._fetch_api_models_with_retry()
+
+        # If models API is not available, validate by testing each model directly
+        if my_model_list is None:
+            available_models = []
+            unavailable_models = []
+
+            for model_name in allowed_models:
+                try:
+                    self._validate_model_with_test(model_name, model_family_name)
+                    available_models.append(model_name)
+                except Exception as e:
+                    print(f"[red]{e}[/red]")
+                    unavailable_models.append(model_name)
+
+            if not available_models:
+                raise Exception(
+                    f"No {model_family_name} models are accessible. "
+                    f"Please check the model names and your API permissions."
+                )
+
+            if unavailable_models:
+                print(
+                    f"[yellow]Warning: {unavailable_models} not accessible, using {available_models}[/yellow]"
+                )
+
+            print(
+                f"[yellow]Using {model_family_name} models without API validation: {available_models}[/yellow]"
+            )
+            model_list = available_models
+        else:
+            model_list = list(set(my_model_list) & allowed_models)
+            if not self._check_model_availability(model_list, model_family_name):
+                raise Exception(
+                    f"No {model_family_name} models available. Available models: {my_model_list}"
+                )
+        print(f"Using model list {model_list}")
+        self.model_list = cycle(model_list)
+        self.model = model_list[0]
+
+    def _validate_model_with_test(self, model_name: str, model_family_name: str):
+        """Validate a model by making a test request when models API is unavailable.
+        Raises Exception if the model is not accessible.
+
+        NOTE: This makes a real API call (~10 tokens) to verify the model works.
+        This adds a small delay on startup but provides early error detection.
+        """
+        print(
+            f"[yellow]Model validation: Making a test API call to verify '{model_name}' is accessible. "
+            f"This uses ~10 tokens.[/yellow]"
+        )
+        try:
+            # Make a minimal test request
+            test_messages = [{"role": "user", "content": "Say 'ok'"}]
+            self.openai_client.chat.completions.create(
+                model=model_name,
+                messages=test_messages,
+                max_tokens=10,
+                temperature=0.1,
+            )
+            print(f"[green]Model '{model_name}' is accessible and working.[/green]")
+        except Exception as e:
+            raise Exception(
+                f"Model '{model_name}' from family '{model_family_name}' is not accessible. "
+                f"Error: {e}. "
+                f"Please check the model name and your API permissions."
+            )
+
     def set_gpt35_models(self, ollama_model=""):
         if ollama_model:
             self.model_list = cycle([ollama_model])
+            self.model = ollama_model
             return
-        # gpt3 all models for save the limit
-        if self.deployment_id:
-            self.model_list = cycle(["gpt-35-turbo"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(GPT35_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("GPT-3.5", "gpt-35-turbo", set(GPT35_MODEL_LIST))
 
     def set_gpt4_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["gpt-4"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(GPT4_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("GPT-4", "gpt-4", set(GPT4_MODEL_LIST))
 
     def set_gpt4omini_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["gpt-4o-mini"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(GPT4oMINI_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("GPT-4o-mini", "gpt-4o-mini", set(GPT4oMINI_MODEL_LIST))
 
     def set_gpt4o_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["gpt-4o"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(GPT4o_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("GPT-4o", "gpt-4o", set(GPT4o_MODEL_LIST))
 
     def set_gpt5mini_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["gpt-5-mini"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(GPT5MINI_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("GPT-5-mini", "gpt-5-mini", set(GPT5MINI_MODEL_LIST))
 
     def set_o1preview_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["o1-preview"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(O1PREVIEW_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("O1-preview", "o1-preview", set(O1PREVIEW_MODEL_LIST))
 
     def set_o1_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["o1"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(O1_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("O1", "o1", set(O1_MODEL_LIST))
 
     def set_o1mini_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["o1-mini"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(O1MINI_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("O1-mini", "o1-mini", set(O1MINI_MODEL_LIST))
 
     def set_o3mini_models(self):
-        # for issue #375 azure can not use model list
-        if self.deployment_id:
-            self.model_list = cycle(["o3-mini"])
-        else:
-            my_model_list = [
-                i["id"] for i in self.openai_client.models.list().model_dump()["data"]
-            ]
-            model_list = list(set(my_model_list) & set(O3MINI_MODEL_LIST))
-            print(f"Using model list {model_list}")
-            self.model_list = cycle(model_list)
+        self._set_models("O3-mini", "o3-mini", set(O3MINI_MODEL_LIST))
 
     def set_model_list(self, model_list):
         model_list = list(set(model_list))
+        if not model_list:
+            raise Exception(
+                "Empty model list provided. Use --model_list with at least one model name."
+            )
+
+        # Validate custom models against API
+        if not self.deployment_id:  # Skip for Azure deployments
+            validation_result = self._validate_custom_models(model_list)
+            if not validation_result["success"]:
+                raise Exception(
+                    f"Custom model validation failed. "
+                    f"Requested: {model_list}. "
+                    f"Unavailable: {validation_result['unavailable_models']}. "
+                    f"Available models in API: {validation_result['api_models']}. "
+                    f"Check your model name, API key, and permissions."
+                )
+            # If some models were partially available, use only the available ones
+            if validation_result["unavailable_models"]:
+                model_list = validation_result["available_models"]
+
         print(f"Using model list {model_list}")
         self.model_list = cycle(model_list)
+        self.model = model_list[
+            0
+        ]  # Set initial model so it's available before rotate_model() is called
 
     def batch_init(self, book_name):
         self.book_name = self.sanitize_book_name(book_name)
@@ -657,9 +878,26 @@ class ChatGPTAPI(Base):
             if line.strip():
                 result = json.loads(line)
                 if result["custom_id"] == custom_id:
-                    return result["response"]["body"]["choices"][0]["message"][
+                    content = result["response"]["body"]["choices"][0]["message"][
                         "content"
                     ]
+
+                    # Parse JSON response if using structured outputs
+                    if self._use_structured_outputs:
+                        try:
+                            parsed = json.loads(content)
+                            if "translated" in parsed:
+                                return parsed["translated"]
+                            elif "paragraphs" in parsed:
+                                return (
+                                    parsed["paragraphs"][0]
+                                    if parsed["paragraphs"]
+                                    else content
+                                )
+                        except json.JSONDecodeError:
+                            return content  # Return as-is if parsing fails
+
+                    return content
 
         raise ValueError(f"No result found for custom_id {custom_id}")
 
@@ -698,16 +936,25 @@ class ChatGPTAPI(Base):
         messages = self.create_messages(
             text, self.create_batch_context_messages(book_index)
         )
+
+        batch_body = {
+            "model": self.batch_model,
+            "messages": messages,
+            "temperature": self.temperature,
+        }
+
+        # Add response format for batch requests if using structured outputs
+        if self._use_structured_outputs:
+            batch_body["response_format"] = {
+                "type": "json_schema",
+                "json_schema": SINGLE_TRANSLATION_SCHEMA,
+            }
+
         return {
             "custom_id": self.custom_id(book_index),
             "method": "POST",
             "url": "/v1/chat/completions",
-            "body": {
-                # model shuould not be rotate
-                "model": self.batch_model,
-                "messages": messages,
-                "temperature": self.temperature,
-            },
+            "body": batch_body,
         }
 
     def create_batch_files(self, dest_file_path):
