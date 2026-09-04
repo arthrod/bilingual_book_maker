@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup as bs
 from bs4 import Tag
 from bs4.element import NavigableString
 from ebooklib import ITEM_DOCUMENT, epub
-from rich import print
+from rich import get_console, print
 from tqdm import tqdm
 
 from book_maker.utils import num_tokens_from_text, prompt_config_to_kwargs
@@ -22,6 +22,7 @@ from book_maker.utils import num_tokens_from_text, prompt_config_to_kwargs
 from .base_loader import BaseBookLoader
 from .helper import EPUBBookLoaderHelper, is_text_link, not_trans, shorter_result_link
 
+console = get_console()
 
 class EPUBBookLoader(BaseBookLoader):
     def __init__(
@@ -490,13 +491,13 @@ class EPUBBookLoader(BaseBookLoader):
                         f"[bold red]Fatal translation error detected. "
                         f"Aborting translation.[/bold red]"
                     )
-                    print(f"[bold red]Error: {str(e)}[/bold red]")
+                    console.print(f"Error: {e}", style="bold red", markup=False)
                     # Return early with error markers
                     translated_text_list = [
                         self.translate_model.TRANSLATION_ERROR_MARKER
                     ] * len(new_texts)
                 else:
-                    print(f"[bold red]Translation error: {str(e)}[/bold red]")
+                    console.print(f"Translation error: {e}", style="bold red", markup=False)
                     raise
         else:
             translated_text_list = []
@@ -517,7 +518,7 @@ class EPUBBookLoader(BaseBookLoader):
                     p, t, self.translation_style, self.single_translate
                 )
                 self.p_to_save.append(t)
-                print(text)
+                console.print(text, markup=False)
                 # Check if translation failed
                 if (
                     self.translate_model.TRANSLATION_ERROR_MARKER is not None
@@ -527,7 +528,7 @@ class EPUBBookLoader(BaseBookLoader):
                         f"[bold red][Translation failed for this paragraph][/bold red]"
                     )
                 else:
-                    print(f"[bold green]{t}[/bold green]")
+                    console.print(str(t), style="bold green", markup=False)
                 print()
             else:
                 # Resumed from cache
